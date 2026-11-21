@@ -1,0 +1,7 @@
+node_modules/
+.models/
+out/
+dist/
+public/episodes/*/audio/.cache/
+*.log
+__pycache__/

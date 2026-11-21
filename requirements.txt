@@ -1,0 +1,8 @@
+# Free, offline voiceover. The pipeline tries these in order: kokoro -> kokoro-onnx -> piper -> edge-tts -> espeak-ng
+kokoro-onnx==0.6.1   # Kokoro-82M (ONNX build); weights auto-download from GitHub releases into .models/
+soundfile
+numpy
+# optional engines:
+# kokoro             # PyTorch Kokoro (weights from Hugging Face)
+# piper-tts          # needs a voice .onnx in .models/piper/
+# edge-tts           # needs network access to Microsoft's service

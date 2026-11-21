@@ -1,0 +1,33 @@
+{
+  "seriesTitle": "THE VILLAGE THAT REPEATS",
+  "fonts": {
+    "caption": "IM Fell English",
+    "title": "IM Fell English SC",
+    "hand": "Homemade Apple"
+  },
+  "titleCard": { "duration": 4.2, "kicker": "a story in parts" },
+  "endCard": {
+    "duration": 6.5,
+    "text": "PART {next} — Follow so you don't miss it."
+  },
+  "timing": {
+    "minTotal": 120,
+    "targetMin": 135,
+    "targetMax": 150,
+    "breathPause": 0.8,
+    "sentenceGap": 0.42,
+    "defaultLeadIn": 0.7,
+    "defaultHold": 0.6,
+    "blend": 1.4
+  },
+  "palettes": {
+    "dawn":      { "skyTop": "#1f4652", "skyHorizon": "#f2a65a", "sun": "#ffc27a", "sunIntensity": 2.3, "hemiSky": "#a9c6c2", "hemiGround": "#3b2b24", "hemiIntensity": 1.05, "fog": "#c08a63", "fogDensity": 0.020, "rays": 0.95, "exposure": 1.0, "interior": 0.7, "shadowTint": "#0f3a44", "highlightTint": "#ffe9c7" },
+    "morning":   { "skyTop": "#2c6070", "skyHorizon": "#f5c48a", "sun": "#ffe0b0", "sunIntensity": 2.5, "hemiSky": "#b6d0cc", "hemiGround": "#463227", "hemiIntensity": 1.15, "fog": "#c9a582", "fogDensity": 0.014, "rays": 0.75, "exposure": 1.04, "interior": 0.6, "shadowTint": "#12404a", "highlightTint": "#fff0d6" },
+    "rain":      { "skyTop": "#2d4a52", "skyHorizon": "#a9a08c", "sun": "#e4d3b6", "sunIntensity": 1.2, "hemiSky": "#9fb5b3", "hemiGround": "#2c2a28", "hemiIntensity": 1.0, "fog": "#7f8f8c", "fogDensity": 0.030, "rays": 0.35, "exposure": 0.95, "interior": 0.6, "shadowTint": "#103640", "highlightTint": "#efe6d2" },
+    "night":     { "skyTop": "#03090f", "skyHorizon": "#14303c", "sun": "#6f95b5", "sunIntensity": 0.45, "hemiSky": "#284a5c", "hemiGround": "#080b0e", "hemiIntensity": 0.45, "fog": "#0c1f29", "fogDensity": 0.030, "rays": 0.12, "exposure": 1.0, "interior": 1.5, "shadowTint": "#06222c", "highlightTint": "#ffd9a8" },
+    "kitchen":   { "skyTop": "#1f4652", "skyHorizon": "#f2a65a", "sun": "#ffc27a", "sunIntensity": 2.0, "hemiSky": "#a9c6c2", "hemiGround": "#3b2b24", "hemiIntensity": 0.9, "fog": "#c08a63", "fogDensity": 0.018, "rays": 0.8, "exposure": 1.02, "interior": 1.25, "shadowTint": "#0f3a44", "highlightTint": "#ffe4bd" },
+    "dusk":      { "skyTop": "#0f2a33", "skyHorizon": "#c9744a", "sun": "#e8945c", "sunIntensity": 1.5, "hemiSky": "#6f9496", "hemiGround": "#22201e", "hemiIntensity": 0.8, "fog": "#4d5654", "fogDensity": 0.028, "rays": 0.8, "exposure": 0.98, "interior": 0.5, "shadowTint": "#082c36", "highlightTint": "#ffd8ad" },
+    "fog":       { "skyTop": "#0d2026", "skyHorizon": "#6b675b", "sun": "#b88a63", "sunIntensity": 0.9, "hemiSky": "#6d8a8c", "hemiGround": "#1c1d1d", "hemiIntensity": 0.85, "fog": "#4a5654", "fogDensity": 0.065, "rays": 0.3, "exposure": 0.98, "interior": 0.4, "shadowTint": "#082a33", "highlightTint": "#f3dcc0" },
+    "silence":   { "skyTop": "#02070a", "skyHorizon": "#1a272b", "sun": "#7b8f99", "sunIntensity": 0.35, "hemiSky": "#3c5660", "hemiGround": "#060809", "hemiIntensity": 0.5, "fog": "#0e181b", "fogDensity": 0.085, "rays": 0.1, "exposure": 0.95, "interior": 0.3, "shadowTint": "#041a20", "highlightTint": "#e8d6c0" }
+  }
+}

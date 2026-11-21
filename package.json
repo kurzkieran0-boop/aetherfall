@@ -1,0 +1,26 @@
+{
+  "name": "village-that-repeats",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Reusable Three.js + GSAP animated story series template. Part 1: THE VILLAGE THAT REPEATS.",
+  "scripts": {
+    "voice": "python3 scripts/tts.py",
+    "timeline": "node scripts/build-timeline.mjs",
+    "dev": "node scripts/build-timeline.mjs && vite",
+    "shots": "node scripts/shots.mjs",
+    "new-part": "node scripts/new-part.mjs",
+    "export": "node scripts/export.mjs"
+  },
+  "dependencies": {
+    "@fontsource/homemade-apple": "5.3.0",
+    "@fontsource/im-fell-english": "5.3.0",
+    "@fontsource/im-fell-english-sc": "5.3.0",
+    "gsap": "3.15.1",
+    "three": "0.187.0"
+  },
+  "devDependencies": {
+    "playwright": "1.63.0",
+    "vite": "8.3.8"
+  }
+}
