@@ -5,3 +5,4 @@ dist/
 public/episodes/*/audio/.cache/
 *.log
 __pycache__/
+village-part1.mp4
