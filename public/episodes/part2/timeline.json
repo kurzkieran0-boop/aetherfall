@@ -1,0 +1,11821 @@
+{
+ "generated": "2026-11-21T14:55:19.814Z",
+ "series": {
+  "title": "THE VILLAGE THAT REPEATS",
+  "fonts": {
+   "caption": "IM Fell English",
+   "title": "IM Fell English SC",
+   "hand": "Homemade Apple"
+  }
+ },
+ "episode": {
+  "part": 2,
+  "next": 3,
+  "title": "THE VILLAGE THAT REPEATS",
+  "subtitle": "PART 2",
+  "kicker": "the one who never forgets",
+  "fps": 30
+ },
+ "fps": 30,
+ "duration": 150.021,
+ "voiceEngine": "kokoro-onnx",
+ "timing": {
+  "blend": 1,
+  "breathPause": 0.8,
+  "sentenceGap": 0.26,
+  "adjustedFrom": 151.321
+ },
+ "titleCard": {
+  "start": 0,
+  "duration": 4.2,
+  "title": "THE VILLAGE THAT REPEATS",
+  "subtitle": "PART 2",
+  "kicker": "the one who never forgets"
+ },
+ "endCard": {
+  "start": 143.521,
+  "duration": 6.5,
+  "text": "PART 3 — Follow so you don't miss it.",
+  "title": "THE VILLAGE THAT REPEATS"
+ },
+ "scenes": [
+  {
+   "index": 0,
+   "id": "cold_open",
+   "title": "COLD OPEN",
+   "start": 0,
+   "duration": 11.46,
+   "end": 11.46,
+   "leadIn": 4.6,
+   "hold": 0.35,
+   "transitionIn": "fadeFromBlack",
+   "palette": {
+    "name": "fog",
+    "skyTop": "#0d2026",
+    "skyHorizon": "#6b675b",
+    "sun": "#b88a63",
+    "sunIntensity": 0.9,
+    "hemiSky": "#6d8a8c",
+    "hemiGround": "#1c1d1d",
+    "hemiIntensity": 0.85,
+    "fog": "#4a5654",
+    "fogDensity": 0.065,
+    "rays": 0.3,
+    "exposure": 0.98,
+    "interior": 0.4,
+    "shadowTint": "#082a33",
+    "highlightTint": "#f3dcc0"
+   },
+   "sound": {
+    "drone": 0.6,
+    "pad": 0.15,
+    "box": 0.2,
+    "tick": 0.6,
+    "chord": "Dm",
+    "tempo": 72,
+    "pulse": 0.25,
+    "tickRate": 2
+   },
+   "set": {
+    "chalk": true,
+    "towerDoorAjar": true,
+    "chalkTime": "3:07",
+    "noBirds": true
+   },
+   "whisper": false,
+   "narration": {
+    "text": "I spun around. Nobody. Just the bell, still ringing wrong, like it was laughing at me.",
+    "start": 4.6,
+    "end": 10.31,
+    "voiceDuration": 5.71,
+    "sentences": [
+     {
+      "text": "I spun around.",
+      "start": 4.6,
+      "end": 5.68
+     },
+     {
+      "text": "Nobody.",
+      "start": 5.94,
+      "end": 6.72
+     },
+     {
+      "text": "Just the bell, still ringing wrong, like it was laughing at me.",
+      "start": 6.98,
+      "end": 10.31
+     }
+    ]
+   },
+   "camera": [
+    {
+     "t": 0,
+     "pos": [
+      0.5,
+      17.2,
+      -16.4
+     ],
+     "look": [
+      0,
+      18,
+      -24
+     ],
+     "fov": 34,
+     "cut": false,
+     "scene": 0
+    },
+    {
+     "t": 3.438,
+     "pos": [
+      0.9,
+      16.6,
+      -15.8
+     ],
+     "look": [
+      0,
+      17.8,
+      -24
+     ],
+     "fov": 38,
+     "cut": false,
+     "scene": 0
+    },
+    {
+     "t": 4.65,
+     "pos": [
+      1.1,
+      1.45,
+      -17.6
+     ],
+     "look": [
+      0,
+      1.25,
+      -20.4
+     ],
+     "fov": 44,
+     "cut": false,
+     "scene": 0
+    },
+    {
+     "t": 6.04,
+     "pos": [
+      0.25,
+      1.4,
+      -19
+     ],
+     "look": [
+      0,
+      1.3,
+      -21.3
+     ],
+     "fov": 40,
+     "cut": false,
+     "scene": 0
+    },
+    {
+     "t": 7.58,
+     "pos": [
+      0.6,
+      1.6,
+      -18.6
+     ],
+     "look": [
+      0,
+      17.5,
+      -24
+     ],
+     "fov": 46,
+     "cut": false,
+     "scene": 0
+    },
+    {
+     "t": 11.46,
+     "pos": [
+      0.4,
+      1.7,
+      -18.2
+     ],
+     "look": [
+      0,
+      18.6,
+      -24
+     ],
+     "fov": 42,
+     "cut": false,
+     "scene": 0
+    }
+   ],
+   "shadowSweep": null
+  },
+  {
+   "index": 1,
+   "id": "tuesday_again",
+   "title": "TUESDAY AGAIN",
+   "start": 11.46,
+   "duration": 8.47,
+   "end": 19.93,
+   "leadIn": 0.45,
+   "hold": 0.35,
+   "transitionIn": "reset",
+   "palette": {
+    "name": "dawn",
+    "skyTop": "#1f4652",
+    "skyHorizon": "#f2a65a",
+    "sun": "#ffc27a",
+    "sunIntensity": 2.3,
+    "hemiSky": "#a9c6c2",
+    "hemiGround": "#3b2b24",
+    "hemiIntensity": 1.05,
+    "fog": "#c08a63",
+    "fogDensity": 0.02,
+    "rays": 0.95,
+    "exposure": 1,
+    "interior": 0.7,
+    "shadowTint": "#0f3a44",
+    "highlightTint": "#ffe9c7"
+   },
+   "sound": {
+    "drone": 0.45,
+    "pad": 0.35,
+    "box": 0.65,
+    "tick": 0.25,
+    "chord": "Dm",
+    "tempo": 84,
+    "pulse": 0.35
+   },
+   "set": {
+    "chalk": true,
+    "chalkTime": "3:08",
+    "candle": true
+   },
+   "whisper": false,
+   "narration": {
+    "text": "Then, Tuesday. Bed. Bell. Bread. The old man and his goat. Same as always.",
+    "start": 11.91,
+    "end": 18.78,
+    "voiceDuration": 6.87,
+    "sentences": [
+     {
+      "text": "Then, Tuesday.",
+      "start": 11.91,
+      "end": 12.93
+     },
+     {
+      "text": "Bed.",
+      "start": 13.19,
+      "end": 13.78
+     },
+     {
+      "text": "Bell.",
+      "start": 14.04,
+      "end": 14.62
+     },
+     {
+      "text": "Bread.",
+      "start": 14.88,
+      "end": 15.5
+     },
+     {
+      "text": "The old man and his goat.",
+      "start": 15.76,
+      "end": 17.42
+     },
+     {
+      "text": "Same as always.",
+      "start": 17.68,
+      "end": 18.78
+     }
+    ]
+   },
+   "camera": [
+    {
+     "t": 11.48,
+     "pos": [
+      17,
+      1.7,
+      7.3
+     ],
+     "look": [
+      19.6,
+      0.8,
+      9.6
+     ],
+     "fov": 46,
+     "cut": true,
+     "scene": 1
+    },
+    {
+     "t": 13.05,
+     "pos": [
+      17.3,
+      1.6,
+      7.5
+     ],
+     "look": [
+      19.6,
+      0.85,
+      9.6
+     ],
+     "fov": 44,
+     "cut": false,
+     "scene": 1
+    },
+    {
+     "t": 13.94,
+     "pos": [
+      0.9,
+      16.9,
+      -16.2
+     ],
+     "look": [
+      0,
+      18.2,
+      -24
+     ],
+     "fov": 36,
+     "cut": true,
+     "scene": 1
+    },
+    {
+     "t": 14.74,
+     "pos": [
+      1.1,
+      16.6,
+      -16.6
+     ],
+     "look": [
+      0,
+      18,
+      -24
+     ],
+     "fov": 38,
+     "cut": false,
+     "scene": 1
+    },
+    {
+     "t": 14.78,
+     "pos": [
+      -2.4,
+      1.7,
+      -2.4
+     ],
+     "look": [
+      -5.5,
+      0.9,
+      -5
+     ],
+     "fov": 42,
+     "cut": true,
+     "scene": 1
+    },
+    {
+     "t": 15.62,
+     "pos": [
+      -2.7,
+      1.5,
+      -2.7
+     ],
+     "look": [
+      -5.5,
+      0.6,
+      -5
+     ],
+     "fov": 42,
+     "cut": false,
+     "scene": 1
+    },
+    {
+     "t": 15.66,
+     "pos": [
+      4.6,
+      1.6,
+      5
+     ],
+     "look": [
+      2.6,
+      1.25,
+      2.6
+     ],
+     "fov": 40,
+     "cut": true,
+     "scene": 1
+    },
+    {
+     "t": 17.68,
+     "pos": [
+      5,
+      1.7,
+      4.2
+     ],
+     "look": [
+      2.6,
+      1.2,
+      2.6
+     ],
+     "fov": 40,
+     "cut": false,
+     "scene": 1
+    },
+    {
+     "t": 19.93,
+     "pos": [
+      6,
+      2.2,
+      3
+     ],
+     "look": [
+      1,
+      1.2,
+      0.5
+     ],
+     "fov": 48,
+     "cut": false,
+     "scene": 1
+    }
+   ],
+   "shadowSweep": null
+  },
+  {
+   "index": 2,
+   "id": "one_minute",
+   "title": "ONE MINUTE",
+   "start": 19.93,
+   "duration": 8.18,
+   "end": 28.11,
+   "leadIn": 0.45,
+   "hold": 0.35,
+   "transitionIn": "blend",
+   "palette": {
+    "name": "morning",
+    "skyTop": "#2c6070",
+    "skyHorizon": "#f5c48a",
+    "sun": "#ffe0b0",
+    "sunIntensity": 2.5,
+    "hemiSky": "#b6d0cc",
+    "hemiGround": "#463227",
+    "hemiIntensity": 1.15,
+    "fog": "#c9a582",
+    "fogDensity": 0.014,
+    "rays": 0.75,
+    "exposure": 1.04,
+    "interior": 0.6,
+    "shadowTint": "#12404a",
+    "highlightTint": "#fff0d6"
+   },
+   "sound": {
+    "drone": 0.5,
+    "pad": 0.3,
+    "box": 0.5,
+    "tick": 0.5,
+    "chord": "Bb",
+    "tempo": 84,
+    "pulse": 0.3,
+    "tickRate": 2
+   },
+   "set": {
+    "chalk": true,
+    "chalkTime": "3:08"
+   },
+   "whisper": false,
+   "narration": {
+    "text": "Except one thing. The chalk clock on my door didn't say three oh seven anymore. It said three oh eight.",
+    "start": 20.38,
+    "end": 26.96,
+    "voiceDuration": 6.58,
+    "sentences": [
+     {
+      "text": "Except one thing.",
+      "start": 20.38,
+      "end": 21.5
+     },
+     {
+      "text": "The chalk clock on my door didn't say three oh seven anymore.",
+      "start": 21.76,
+      "end": 25.43
+     },
+     {
+      "text": "It said three oh eight.",
+      "start": 25.69,
+      "end": 26.96
+     }
+    ]
+   },
+   "camera": [
+    {
+     "t": 20.175,
+     "pos": [
+      6.2,
+      1.9,
+      10.4
+     ],
+     "look": [
+      10.9,
+      1.5,
+      8.1
+     ],
+     "fov": 46,
+     "cut": false,
+     "scene": 2
+    },
+    {
+     "t": 21.96,
+     "pos": [
+      7.8,
+      1.6,
+      9
+     ],
+     "look": [
+      10.9,
+      1.48,
+      8
+     ],
+     "fov": 40,
+     "cut": false,
+     "scene": 2
+    },
+    {
+     "t": 25.64,
+     "pos": [
+      9,
+      1.52,
+      8.3
+     ],
+     "look": [
+      10.9,
+      1.48,
+      8
+     ],
+     "fov": 36,
+     "cut": false,
+     "scene": 2
+    },
+    {
+     "t": 26.04,
+     "pos": [
+      10.15,
+      1.49,
+      8.05
+     ],
+     "look": [
+      10.9,
+      1.48,
+      8
+     ],
+     "fov": 28,
+     "cut": false,
+     "scene": 2
+    },
+    {
+     "t": 28.11,
+     "pos": [
+      10.25,
+      1.49,
+      8.04
+     ],
+     "look": [
+      10.9,
+      1.48,
+      8
+     ],
+     "fov": 26,
+     "cut": false,
+     "scene": 2
+    }
+   ],
+   "shadowSweep": null
+  },
+  {
+   "index": 3,
+   "id": "time_moved",
+   "title": "TIME MOVED",
+   "start": 28.11,
+   "duration": 11.16,
+   "end": 39.27,
+   "leadIn": 0.45,
+   "hold": 0.35,
+   "transitionIn": "blend",
+   "palette": {
+    "name": "dawn",
+    "skyTop": "#1f4652",
+    "skyHorizon": "#f2a65a",
+    "sun": "#ffc27a",
+    "sunIntensity": 2.3,
+    "hemiSky": "#a9c6c2",
+    "hemiGround": "#3b2b24",
+    "hemiIntensity": 1.05,
+    "fog": "#c08a63",
+    "fogDensity": 0.02,
+    "rays": 0.95,
+    "exposure": 1,
+    "interior": 0.7,
+    "shadowTint": "#0f3a44",
+    "highlightTint": "#ffe9c7"
+   },
+   "sound": {
+    "drone": 0.55,
+    "pad": 0.45,
+    "box": 0.75,
+    "tick": 0.7,
+    "chord": "F",
+    "tempo": 88,
+    "pulse": 0.4,
+    "tickRate": 2
+   },
+   "set": {
+    "chalk": true,
+    "chalkTime": "3:08"
+   },
+   "whisper": false,
+   "narration": {
+    "text": "One minute. After four hundred and twelve days, time had moved. One. Single. Minute. Somewhere, a clock was ticking that had never ticked before.",
+    "start": 28.56,
+    "end": 38.12,
+    "voiceDuration": 9.56,
+    "sentences": [
+     {
+      "text": "One minute.",
+      "start": 28.56,
+      "end": 29.37
+     },
+     {
+      "text": "After four hundred and twelve days, time had moved.",
+      "start": 29.63,
+      "end": 32.91
+     },
+     {
+      "text": "One. Single. Minute.",
+      "start": 33.17,
+      "end": 34.48
+     },
+     {
+      "text": "Somewhere, a clock was ticking that had never ticked before.",
+      "start": 34.74,
+      "end": 38.12
+     }
+    ]
+   },
+   "camera": [
+    {
+     "t": 28.445,
+     "pos": [
+      4.645,
+      1.55,
+      3.651
+     ],
+     "look": [
+      5.5,
+      1.2,
+      6
+     ],
+     "fov": 42,
+     "cut": false,
+     "scene": 3
+    },
+    {
+     "t": 31.458,
+     "pos": [
+      3.151,
+      1.55,
+      5.145
+     ],
+     "look": [
+      5.5,
+      1.2,
+      6
+     ],
+     "fov": 42,
+     "cut": false,
+     "scene": 3
+    },
+    {
+     "t": 34.248,
+     "pos": [
+      3.335,
+      1.55,
+      7.25
+     ],
+     "look": [
+      5.5,
+      1.2,
+      6
+     ],
+     "fov": 42,
+     "cut": false,
+     "scene": 3
+    },
+    {
+     "t": 37.038,
+     "pos": [
+      4.853,
+      1.55,
+      8.415
+     ],
+     "look": [
+      5.5,
+      1.2,
+      6
+     ],
+     "fov": 42,
+     "cut": false,
+     "scene": 3
+    },
+    {
+     "t": 39.27,
+     "pos": [
+      6.355,
+      1.55,
+      8.349
+     ],
+     "look": [
+      5.5,
+      1.2,
+      6
+     ],
+     "fov": 42,
+     "cut": false,
+     "scene": 3
+    }
+   ],
+   "shadowSweep": null
+  },
+  {
+   "index": 4,
+   "id": "the_test",
+   "title": "THE TEST",
+   "start": 39.27,
+   "duration": 6.94,
+   "end": 46.21,
+   "leadIn": 0.45,
+   "hold": 0.35,
+   "transitionIn": "blend",
+   "palette": {
+    "name": "morning",
+    "skyTop": "#2c6070",
+    "skyHorizon": "#f5c48a",
+    "sun": "#ffe0b0",
+    "sunIntensity": 2.5,
+    "hemiSky": "#b6d0cc",
+    "hemiGround": "#463227",
+    "hemiIntensity": 1.15,
+    "fog": "#c9a582",
+    "fogDensity": 0.014,
+    "rays": 0.75,
+    "exposure": 1.04,
+    "interior": 0.6,
+    "shadowTint": "#12404a",
+    "highlightTint": "#fff0d6"
+   },
+   "sound": {
+    "drone": 0.5,
+    "pad": 0.3,
+    "box": 0.6,
+    "tick": 0.6,
+    "chord": "Gm",
+    "tempo": 96,
+    "pulse": 0.55
+   },
+   "set": {
+    "chalk": true,
+    "chalkTime": "3:08"
+   },
+   "whisper": false,
+   "narration": {
+    "text": "So I tested the rules. Before the baker could drop his tray, I knocked it out of his hands.",
+    "start": 39.72,
+    "end": 45.06,
+    "voiceDuration": 5.34,
+    "sentences": [
+     {
+      "text": "So I tested the rules.",
+      "start": 39.72,
+      "end": 41.1
+     },
+     {
+      "text": "Before the baker could drop his tray, I knocked it out of his hands.",
+      "start": 41.36,
+      "end": 45.06
+     }
+    ]
+   },
+   "camera": [
+    {
+     "t": 39.478,
+     "pos": [
+      4.6,
+      1.7,
+      4.4
+     ],
+     "look": [
+      0,
+      1,
+      -1
+     ],
+     "fov": 48,
+     "cut": false,
+     "scene": 4
+    },
+    {
+     "t": 41.1,
+     "pos": [
+      0.8,
+      1.6,
+      1.1
+     ],
+     "look": [
+      -4.6,
+      1.1,
+      -4.6
+     ],
+     "fov": 46,
+     "cut": false,
+     "scene": 4
+    },
+    {
+     "t": 42.06,
+     "pos": [
+      -2.4,
+      1.45,
+      -1.9
+     ],
+     "look": [
+      -5.2,
+      1.1,
+      -4.8
+     ],
+     "fov": 40,
+     "cut": false,
+     "scene": 4
+    },
+    {
+     "t": 42.96,
+     "pos": [
+      -2.9,
+      1.3,
+      -2.5
+     ],
+     "look": [
+      -5.3,
+      0.6,
+      -5
+     ],
+     "fov": 38,
+     "cut": false,
+     "scene": 4
+    },
+    {
+     "t": 46.21,
+     "pos": [
+      -3,
+      1.35,
+      -2.6
+     ],
+     "look": [
+      -5.3,
+      0.5,
+      -5
+     ],
+     "fov": 38,
+     "cut": false,
+     "scene": 4
+    }
+   ],
+   "shadowSweep": null
+  },
+  {
+   "index": 5,
+   "id": "they_turn",
+   "title": "THEY TURN",
+   "start": 46.21,
+   "duration": 7.39,
+   "end": 53.6,
+   "leadIn": 0.45,
+   "hold": 0.35,
+   "transitionIn": "blend",
+   "palette": {
+    "name": "morning",
+    "skyTop": "#2c6070",
+    "skyHorizon": "#f5c48a",
+    "sun": "#ffe0b0",
+    "sunIntensity": 2.5,
+    "hemiSky": "#b6d0cc",
+    "hemiGround": "#463227",
+    "hemiIntensity": 1.15,
+    "fog": "#c9a582",
+    "fogDensity": 0.014,
+    "rays": 0.75,
+    "exposure": 1.04,
+    "interior": 0.6,
+    "shadowTint": "#12404a",
+    "highlightTint": "#fff0d6"
+   },
+   "sound": {
+    "drone": 0.7,
+    "pad": 0,
+    "box": 0,
+    "tick": 0,
+    "chord": "A",
+    "tempo": 96,
+    "pulse": 0
+   },
+   "set": {
+    "chalk": true,
+    "chalkTime": "3:08",
+    "noSmoke": true,
+    "noBirds": true
+   },
+   "whisper": false,
+   "narration": {
+    "text": "The square went silent. And every single person turned to look at me. At the exact same time.",
+    "start": 46.66,
+    "end": 52.45,
+    "voiceDuration": 5.79,
+    "sentences": [
+     {
+      "text": "The square went silent.",
+      "start": 46.66,
+      "end": 47.99
+     },
+     {
+      "text": "And every single person turned to look at me.",
+      "start": 48.25,
+      "end": 50.67
+     },
+     {
+      "text": "At the exact same time.",
+      "start": 50.93,
+      "end": 52.45
+     }
+    ]
+   },
+   "camera": [
+    {
+     "t": 46.432,
+     "pos": [
+      -4.1,
+      1.55,
+      -3.7
+     ],
+     "look": [
+      1.5,
+      1.3,
+      2.5
+     ],
+     "fov": 50,
+     "cut": false,
+     "scene": 5
+    },
+    {
+     "t": 48.55,
+     "pos": [
+      -3.6,
+      1.5,
+      -3.1
+     ],
+     "look": [
+      1.5,
+      1.3,
+      2.5
+     ],
+     "fov": 48,
+     "cut": false,
+     "scene": 5
+    },
+    {
+     "t": 50.93,
+     "pos": [
+      -2.6,
+      1.5,
+      -2
+     ],
+     "look": [
+      2,
+      1.4,
+      2.2
+     ],
+     "fov": 40,
+     "cut": false,
+     "scene": 5
+    },
+    {
+     "t": 53.6,
+     "pos": [
+      -2.2,
+      1.5,
+      -1.6
+     ],
+     "look": [
+      2.4,
+      1.45,
+      2.4
+     ],
+     "fov": 34,
+     "cut": false,
+     "scene": 5
+    }
+   ],
+   "shadowSweep": null
+  },
+  {
+   "index": 6,
+   "id": "they_smile",
+   "title": "THEY SMILE",
+   "start": 53.6,
+   "duration": 7.43,
+   "end": 61.03,
+   "leadIn": 0.45,
+   "hold": 0.35,
+   "transitionIn": "blend",
+   "palette": {
+    "name": "morning",
+    "skyTop": "#2c6070",
+    "skyHorizon": "#f5c48a",
+    "sun": "#ffe0b0",
+    "sunIntensity": 2.5,
+    "hemiSky": "#b6d0cc",
+    "hemiGround": "#463227",
+    "hemiIntensity": 1.15,
+    "fog": "#c9a582",
+    "fogDensity": 0.014,
+    "rays": 0.75,
+    "exposure": 1.04,
+    "interior": 0.6,
+    "shadowTint": "#12404a",
+    "highlightTint": "#fff0d6"
+   },
+   "sound": {
+    "drone": 0.6,
+    "pad": 0.2,
+    "box": 0.5,
+    "tick": 0.4,
+    "chord": "Dm",
+    "tempo": 96,
+    "pulse": 0.3
+   },
+   "set": {
+    "chalk": true,
+    "chalkTime": "3:08"
+   },
+   "whisper": false,
+   "narration": {
+    "text": "Then they smiled. All of them. And went right back to what they were doing, like nothing happened.",
+    "start": 54.05,
+    "end": 59.88,
+    "voiceDuration": 5.83,
+    "sentences": [
+     {
+      "text": "Then they smiled.",
+      "start": 54.05,
+      "end": 55.08
+     },
+     {
+      "text": "All of them.",
+      "start": 55.34,
+      "end": 56.18
+     },
+     {
+      "text": "And went right back to what they were doing, like nothing happened.",
+      "start": 56.44,
+      "end": 59.88
+     }
+    ]
+   },
+   "camera": [
+    {
+     "t": 53.823,
+     "pos": [
+      0.6,
+      1.55,
+      0.6
+     ],
+     "look": [
+      2.5,
+      1.45,
+      2.4
+     ],
+     "fov": 36,
+     "cut": false,
+     "scene": 6
+    },
+    {
+     "t": 55.24,
+     "pos": [
+      1,
+      1.55,
+      1
+     ],
+     "look": [
+      2.5,
+      1.45,
+      2.4
+     ],
+     "fov": 32,
+     "cut": false,
+     "scene": 6
+    },
+    {
+     "t": 55.44,
+     "pos": [
+      -3.3,
+      1.45,
+      4.4
+     ],
+     "look": [
+      -4.2,
+      1.4,
+      6.2
+     ],
+     "fov": 34,
+     "cut": true,
+     "scene": 6
+    },
+    {
+     "t": 56.64,
+     "pos": [
+      -2.9,
+      1.6,
+      3.9
+     ],
+     "look": [
+      -4.2,
+      1.3,
+      6.2
+     ],
+     "fov": 38,
+     "cut": false,
+     "scene": 6
+    },
+    {
+     "t": 61.03,
+     "pos": [
+      1.5,
+      5.5,
+      9.5
+     ],
+     "look": [
+      -1.5,
+      0.8,
+      -0.5
+     ],
+     "fov": 52,
+     "cut": false,
+     "scene": 6
+    }
+   ],
+   "shadowSweep": null
+  },
+  {
+   "index": 7,
+   "id": "her_name",
+   "title": "HER NAME",
+   "start": 61.03,
+   "duration": 7.51,
+   "end": 68.54,
+   "leadIn": 0.45,
+   "hold": 0.35,
+   "transitionIn": "blend",
+   "palette": {
+    "name": "morning",
+    "skyTop": "#2c6070",
+    "skyHorizon": "#f5c48a",
+    "sun": "#ffe0b0",
+    "sunIntensity": 2.5,
+    "hemiSky": "#b6d0cc",
+    "hemiGround": "#463227",
+    "hemiIntensity": 1.15,
+    "fog": "#c9a582",
+    "fogDensity": 0.014,
+    "rays": 0.75,
+    "exposure": 1.04,
+    "interior": 0.6,
+    "shadowTint": "#12404a",
+    "highlightTint": "#fff0d6"
+   },
+   "sound": {
+    "drone": 0.6,
+    "pad": 0.25,
+    "box": 0.45,
+    "tick": 0.6,
+    "chord": "A",
+    "tempo": 100,
+    "pulse": 0.4
+   },
+   "set": {
+    "chalk": true,
+    "chalkTime": "3:08"
+   },
+   "whisper": false,
+   "narration": {
+    "text": "The baker even picked up his bread, and said, lovely morning, Wren. He has never once said my name.",
+    "start": 61.48,
+    "end": 67.39,
+    "voiceDuration": 5.91,
+    "sentences": [
+     {
+      "text": "The baker even picked up his bread, and said, lovely morning, Wren.",
+      "start": 61.48,
+      "end": 65.36
+     },
+     {
+      "text": "He has never once said my name.",
+      "start": 65.62,
+      "end": 67.39
+     }
+    ]
+   },
+   "camera": [
+    {
+     "t": 61.255,
+     "pos": [
+      -3.4,
+      1.6,
+      -3.1
+     ],
+     "look": [
+      -5.5,
+      1.5,
+      -5
+     ],
+     "fov": 38,
+     "cut": false,
+     "scene": 7
+    },
+    {
+     "t": 65.62,
+     "pos": [
+      -3.9,
+      1.62,
+      -3.6
+     ],
+     "look": [
+      -5.5,
+      1.55,
+      -5
+     ],
+     "fov": 30,
+     "cut": false,
+     "scene": 7
+    },
+    {
+     "t": 68.54,
+     "pos": [
+      -4.1,
+      1.63,
+      -3.8
+     ],
+     "look": [
+      -5.5,
+      1.57,
+      -5
+     ],
+     "fov": 26,
+     "cut": false,
+     "scene": 7
+    }
+   ],
+   "shadowSweep": null
+  },
+  {
+   "index": 8,
+   "id": "the_cart",
+   "title": "THE CART",
+   "start": 68.54,
+   "duration": 11.211,
+   "end": 79.751,
+   "leadIn": 0.45,
+   "hold": 0.35,
+   "transitionIn": "blend",
+   "palette": {
+    "name": "morning",
+    "skyTop": "#2c6070",
+    "skyHorizon": "#f5c48a",
+    "sun": "#ffe0b0",
+    "sunIntensity": 2.5,
+    "hemiSky": "#b6d0cc",
+    "hemiGround": "#463227",
+    "hemiIntensity": 1.15,
+    "fog": "#c9a582",
+    "fogDensity": 0.014,
+    "rays": 0.75,
+    "exposure": 1.04,
+    "interior": 0.6,
+    "shadowTint": "#12404a",
+    "highlightTint": "#fff0d6"
+   },
+   "sound": {
+    "drone": 0.5,
+    "pad": 0.3,
+    "box": 0.6,
+    "tick": 0.6,
+    "chord": "Gm",
+    "tempo": 100,
+    "pulse": 0.6
+   },
+   "set": {
+    "chalk": true,
+    "chalkTime": "3:08"
+   },
+   "whisper": false,
+   "narration": {
+    "text": "So I followed the one thing that never leaves. The stranger's cart. It rolls in at seven fourteen, every single day. It never, ever rolls out.",
+    "start": 68.99,
+    "end": 78.601,
+    "voiceDuration": 9.611,
+    "sentences": [
+     {
+      "text": "So I followed the one thing that never leaves.",
+      "start": 68.99,
+      "end": 71.571
+     },
+     {
+      "text": "The stranger's cart.",
+      "start": 71.831,
+      "end": 73.131
+     },
+     {
+      "text": "It rolls in at seven fourteen, every single day.",
+      "start": 73.391,
+      "end": 76.691
+     },
+     {
+      "text": "It never, ever rolls out.",
+      "start": 76.951,
+      "end": 78.601
+     }
+    ]
+   },
+   "camera": [
+    {
+     "t": 68.876,
+     "pos": [
+      -1.5,
+      1.9,
+      2
+     ],
+     "look": [
+      3.5,
+      1,
+      -3
+     ],
+     "fov": 48,
+     "cut": false,
+     "scene": 8
+    },
+    {
+     "t": 71.831,
+     "pos": [
+      3.2,
+      1.8,
+      -1
+     ],
+     "look": [
+      8.8,
+      1,
+      -7.5
+     ],
+     "fov": 46,
+     "cut": false,
+     "scene": 8
+    },
+    {
+     "t": 79.751,
+     "pos": [
+      6,
+      1.9,
+      -4.8
+     ],
+     "look": [
+      10,
+      1,
+      -12
+     ],
+     "fov": 46,
+     "cut": false,
+     "scene": 8
+    }
+   ],
+   "shadowSweep": null
+  },
+  {
+   "index": 9,
+   "id": "behind_the_mill",
+   "title": "BEHIND THE MILL",
+   "start": 79.751,
+   "duration": 7.71,
+   "end": 87.461,
+   "leadIn": 0.45,
+   "hold": 0.35,
+   "transitionIn": "blend",
+   "palette": {
+    "name": "morning",
+    "skyTop": "#2c6070",
+    "skyHorizon": "#f5c48a",
+    "sun": "#ffe0b0",
+    "sunIntensity": 2.5,
+    "hemiSky": "#b6d0cc",
+    "hemiGround": "#463227",
+    "hemiIntensity": 1.15,
+    "fog": "#c9a582",
+    "fogDensity": 0.014,
+    "rays": 0.75,
+    "exposure": 1.04,
+    "interior": 0.6,
+    "shadowTint": "#12404a",
+    "highlightTint": "#fff0d6"
+   },
+   "sound": {
+    "drone": 0.65,
+    "pad": 0.15,
+    "box": 0.3,
+    "tick": 0.7,
+    "chord": "A",
+    "tempo": 100,
+    "pulse": 0.45
+   },
+   "set": {
+    "chalk": true,
+    "chalkTime": "3:08"
+   },
+   "whisper": false,
+   "narration": {
+    "text": "It rolled behind the mill. And it didn't come out the other side. No tracks. No wheels. No stranger.",
+    "start": 80.201,
+    "end": 86.311,
+    "voiceDuration": 6.11,
+    "sentences": [
+     {
+      "text": "It rolled behind the mill.",
+      "start": 80.201,
+      "end": 81.581
+     },
+     {
+      "text": "And it didn't come out the other side.",
+      "start": 81.841,
+      "end": 83.501
+     },
+     {
+      "text": "No tracks. No wheels. No stranger.",
+      "start": 83.761,
+      "end": 86.311
+     }
+    ]
+   },
+   "camera": [
+    {
+     "t": 79.982,
+     "pos": [
+      7.6,
+      2,
+      -8.6
+     ],
+     "look": [
+      11.5,
+      1,
+      -13.5
+     ],
+     "fov": 46,
+     "cut": false,
+     "scene": 9
+    },
+    {
+     "t": 81.841,
+     "pos": [
+      8.8,
+      2.2,
+      -14.6
+     ],
+     "look": [
+      13.5,
+      0.8,
+      -16
+     ],
+     "fov": 48,
+     "cut": false,
+     "scene": 9
+    },
+    {
+     "t": 87.461,
+     "pos": [
+      11,
+      2.1,
+      -18.6
+     ],
+     "look": [
+      14.5,
+      0.3,
+      -15.2
+     ],
+     "fov": 46,
+     "cut": false,
+     "scene": 9
+    }
+   ],
+   "shadowSweep": null
+  },
+  {
+   "index": 10,
+   "id": "trapdoor",
+   "title": "TRAPDOOR",
+   "start": 87.461,
+   "duration": 8.351,
+   "end": 95.812,
+   "leadIn": 0.45,
+   "hold": 0.35,
+   "transitionIn": "blend",
+   "palette": {
+    "name": "morning",
+    "skyTop": "#2c6070",
+    "skyHorizon": "#f5c48a",
+    "sun": "#ffe0b0",
+    "sunIntensity": 2.5,
+    "hemiSky": "#b6d0cc",
+    "hemiGround": "#463227",
+    "hemiIntensity": 1.15,
+    "fog": "#c9a582",
+    "fogDensity": 0.014,
+    "rays": 0.75,
+    "exposure": 1.04,
+    "interior": 0.6,
+    "shadowTint": "#12404a",
+    "highlightTint": "#fff0d6"
+   },
+   "sound": {
+    "drone": 0.6,
+    "pad": 0.2,
+    "box": 0.6,
+    "tick": 0.75,
+    "chord": "Dm",
+    "tempo": 104,
+    "pulse": 0.5
+   },
+   "set": {
+    "chalk": true,
+    "chalkTime": "3:08",
+    "hatch": true
+   },
+   "whisper": false,
+   "narration": {
+    "text": "Where it should have been, there was a trapdoor. I've walked past that spot a thousand times. It was never there before.",
+    "start": 87.911,
+    "end": 94.662,
+    "voiceDuration": 6.751,
+    "sentences": [
+     {
+      "text": "Where it should have been, there was a trapdoor.",
+      "start": 87.911,
+      "end": 90.131
+     },
+     {
+      "text": "I've walked past that spot a thousand times.",
+      "start": 90.391,
+      "end": 92.972
+     },
+     {
+      "text": "It was never there before.",
+      "start": 93.232,
+      "end": 94.662
+     }
+    ]
+   },
+   "camera": [
+    {
+     "t": 87.712,
+     "pos": [
+      12.8,
+      2.8,
+      -13.2
+     ],
+     "look": [
+      15,
+      0,
+      -15.8
+     ],
+     "fov": 46,
+     "cut": false,
+     "scene": 10
+    },
+    {
+     "t": 90.391,
+     "pos": [
+      13.7,
+      2,
+      -14
+     ],
+     "look": [
+      15,
+      0.05,
+      -15.8
+     ],
+     "fov": 40,
+     "cut": false,
+     "scene": 10
+    },
+    {
+     "t": 95.812,
+     "pos": [
+      14.4,
+      1.5,
+      -14.4
+     ],
+     "look": [
+      15,
+      0.05,
+      -15.9
+     ],
+     "fov": 34,
+     "cut": false,
+     "scene": 10
+    }
+   ],
+   "shadowSweep": null
+  },
+  {
+   "index": 11,
+   "id": "sun_running",
+   "title": "THE SUN RUNS",
+   "start": 95.812,
+   "duration": 8.11,
+   "end": 103.922,
+   "leadIn": 0.45,
+   "hold": 0.35,
+   "transitionIn": "blend",
+   "palette": {
+    "name": "morning",
+    "skyTop": "#2c6070",
+    "skyHorizon": "#f5c48a",
+    "sun": "#ffe0b0",
+    "sunIntensity": 2.5,
+    "hemiSky": "#b6d0cc",
+    "hemiGround": "#463227",
+    "hemiIntensity": 1.15,
+    "fog": "#c9a582",
+    "fogDensity": 0.014,
+    "rays": 0.75,
+    "exposure": 1.04,
+    "interior": 0.6,
+    "shadowTint": "#12404a",
+    "highlightTint": "#fff0d6"
+   },
+   "sound": {
+    "drone": 0.7,
+    "pad": 0.3,
+    "box": 0.7,
+    "tick": 0.95,
+    "chord": "Gm",
+    "tempo": 112,
+    "pulse": 0.6,
+    "tickRate": 4
+   },
+   "set": {
+    "chalk": true,
+    "chalkTime": "3:08",
+    "hatch": true,
+    "millFast": true
+   },
+   "whisper": false,
+   "narration": {
+    "text": "Then the sun started moving. Fast. Like someone was dragging the day toward night. So I opened it.",
+    "start": 96.262,
+    "end": 102.772,
+    "voiceDuration": 6.51,
+    "sentences": [
+     {
+      "text": "Then the sun started moving.",
+      "start": 96.262,
+      "end": 97.772
+     },
+     {
+      "text": "Fast.",
+      "start": 98.032,
+      "end": 98.722
+     },
+     {
+      "text": "Like someone was dragging the day toward night.",
+      "start": 98.982,
+      "end": 101.422
+     },
+     {
+      "text": "So I opened it.",
+      "start": 101.682,
+      "end": 102.772
+     }
+    ]
+   },
+   "camera": [
+    {
+     "t": 96.055,
+     "pos": [
+      10,
+      0.9,
+      -20.5
+     ],
+     "look": [
+      14,
+      3,
+      -14.5
+     ],
+     "fov": 52,
+     "cut": false,
+     "scene": 11
+    },
+    {
+     "t": 98.982,
+     "pos": [
+      10.6,
+      1.2,
+      -19
+     ],
+     "look": [
+      14.5,
+      2.5,
+      -14.8
+     ],
+     "fov": 54,
+     "cut": false,
+     "scene": 11
+    },
+    {
+     "t": 101.682,
+     "pos": [
+      14.2,
+      2.1,
+      -13.9
+     ],
+     "look": [
+      15,
+      0,
+      -16
+     ],
+     "fov": 44,
+     "cut": false,
+     "scene": 11
+    },
+    {
+     "t": 103.922,
+     "pos": [
+      14.7,
+      1.6,
+      -14.6
+     ],
+     "look": [
+      15,
+      -0.4,
+      -16.2
+     ],
+     "fov": 40,
+     "cut": false,
+     "scene": 11
+    }
+   ],
+   "shadowSweep": null
+  },
+  {
+   "index": 12,
+   "id": "the_cellar",
+   "title": "THE CELLAR",
+   "start": 103.922,
+   "duration": 9.929,
+   "end": 113.851,
+   "leadIn": 0.45,
+   "hold": 0.35,
+   "transitionIn": "dark",
+   "palette": {
+    "name": "cellar",
+    "skyTop": "#05080a",
+    "skyHorizon": "#120e0b",
+    "sun": "#5a4a3a",
+    "sunIntensity": 0.12,
+    "hemiSky": "#4a3a2c",
+    "hemiGround": "#0c0806",
+    "hemiIntensity": 0.35,
+    "fog": "#0d0a08",
+    "fogDensity": 0.05,
+    "rays": 0,
+    "exposure": 1.05,
+    "interior": 0,
+    "shadowTint": "#0a242a",
+    "highlightTint": "#ffd9a8",
+    "sunEl": 60,
+    "sunAz": 0
+   },
+   "sound": {
+    "drone": 0.75,
+    "pad": 0.35,
+    "box": 0.55,
+    "tick": 0.9,
+    "chord": "A",
+    "tempo": 96,
+    "pulse": 0.35,
+    "tickRate": 2
+   },
+   "set": {
+    "chalk": true,
+    "chalkTime": "3:08",
+    "noBirds": true
+   },
+   "whisper": false,
+   "narration": {
+    "text": "Underneath were clocks. Hundreds of them. Chalked on every wall, in my handwriting. Some so old the chalk had almost faded away.",
+    "start": 104.372,
+    "end": 112.701,
+    "voiceDuration": 8.329,
+    "sentences": [
+     {
+      "text": "Underneath were clocks.",
+      "start": 104.372,
+      "end": 105.692
+     },
+     {
+      "text": "Hundreds of them.",
+      "start": 105.952,
+      "end": 107.061
+     },
+     {
+      "text": "Chalked on every wall, in my handwriting.",
+      "start": 107.321,
+      "end": 109.731
+     },
+     {
+      "text": "Some so old the chalk had almost faded away.",
+      "start": 109.991,
+      "end": 112.701
+     }
+    ]
+   },
+   "camera": [
+    {
+     "t": 103.942,
+     "pos": [
+      60,
+      -27.4,
+      2.3
+     ],
+     "look": [
+      60,
+      -28.8,
+      -1
+     ],
+     "fov": 50,
+     "cut": true,
+     "scene": 12
+    },
+    {
+     "t": 105.952,
+     "pos": [
+      58.2,
+      -28.5,
+      1
+     ],
+     "look": [
+      55.9,
+      -28.4,
+      -1
+     ],
+     "fov": 46,
+     "cut": false,
+     "scene": 12
+    },
+    {
+     "t": 107.321,
+     "pos": [
+      61.6,
+      -28.4,
+      0.6
+     ],
+     "look": [
+      64.1,
+      -28.4,
+      -0.6
+     ],
+     "fov": 46,
+     "cut": false,
+     "scene": 12
+    },
+    {
+     "t": 113.851,
+     "pos": [
+      60.3,
+      -28.45,
+      0.9
+     ],
+     "look": [
+      60,
+      -28.4,
+      -2.8
+     ],
+     "fov": 44,
+     "cut": false,
+     "scene": 12
+    }
+   ],
+   "shadowSweep": null
+  },
+  {
+   "index": 13,
+   "id": "crossed_out",
+   "title": "CROSSED OUT",
+   "start": 113.851,
+   "duration": 13.66,
+   "end": 127.511,
+   "leadIn": 0.45,
+   "hold": 0.35,
+   "transitionIn": "blend",
+   "palette": {
+    "name": "cellar",
+    "skyTop": "#05080a",
+    "skyHorizon": "#120e0b",
+    "sun": "#5a4a3a",
+    "sunIntensity": 0.12,
+    "hemiSky": "#4a3a2c",
+    "hemiGround": "#0c0806",
+    "hemiIntensity": 0.35,
+    "fog": "#0d0a08",
+    "fogDensity": 0.05,
+    "rays": 0,
+    "exposure": 1.05,
+    "interior": 0,
+    "shadowTint": "#0a242a",
+    "highlightTint": "#ffd9a8",
+    "sunEl": 60,
+    "sunAz": 0
+   },
+   "sound": {
+    "drone": 0.7,
+    "pad": 0.2,
+    "box": 0.35,
+    "tick": 1,
+    "chord": "Dm",
+    "tempo": 96,
+    "pulse": 0.45,
+    "tickRate": 2
+   },
+   "set": {
+    "chalk": true,
+    "chalkTime": "3:08",
+    "noBirds": true
+   },
+   "whisper": false,
+   "narration": {
+    "text": "I counted them. Four hundred and twelve. One for every Tuesday. Every single one was crossed out. Except the last. Three oh eight. And under it, one word. Tomorrow.",
+    "start": 114.301,
+    "end": 126.361,
+    "voiceDuration": 12.06,
+    "sentences": [
+     {
+      "text": "I counted them.",
+      "start": 114.301,
+      "end": 115.351
+     },
+     {
+      "text": "Four hundred and twelve.",
+      "start": 115.611,
+      "end": 117.201
+     },
+     {
+      "text": "One for every Tuesday.",
+      "start": 117.461,
+      "end": 118.911
+     },
+     {
+      "text": "Every single one was crossed out.",
+      "start": 119.171,
+      "end": 121.101
+     },
+     {
+      "text": "Except the last.",
+      "start": 121.361,
+      "end": 122.401
+     },
+     {
+      "text": "Three oh eight.",
+      "start": 122.661,
+      "end": 123.631
+     },
+     {
+      "text": "And under it, one word.",
+      "start": 123.891,
+      "end": 125.361
+     },
+     {
+      "text": "Tomorrow.",
+      "start": 125.621,
+      "end": 126.361
+     }
+    ]
+   },
+   "camera": [
+    {
+     "t": 114.124,
+     "pos": [
+      59,
+      -28.5,
+      0.9
+     ],
+     "look": [
+      55.9,
+      -28.4,
+      -1
+     ],
+     "fov": 46,
+     "cut": false,
+     "scene": 13
+    },
+    {
+     "t": 115.611,
+     "pos": [
+      61.8,
+      -28.4,
+      0.2
+     ],
+     "look": [
+      64.1,
+      -28.4,
+      -0.8
+     ],
+     "fov": 46,
+     "cut": false,
+     "scene": 13
+    },
+    {
+     "t": 121.361,
+     "pos": [
+      60.1,
+      -28.4,
+      -0.6
+     ],
+     "look": [
+      60,
+      -28.35,
+      -2.84
+     ],
+     "fov": 40,
+     "cut": false,
+     "scene": 13
+    },
+    {
+     "t": 123.891,
+     "pos": [
+      60.05,
+      -28.6,
+      -1.6
+     ],
+     "look": [
+      60,
+      -28.75,
+      -2.84
+     ],
+     "fov": 36,
+     "cut": false,
+     "scene": 13
+    },
+    {
+     "t": 127.511,
+     "pos": [
+      60.02,
+      -28.7,
+      -1.9
+     ],
+     "look": [
+      60,
+      -28.85,
+      -2.84
+     ],
+     "fov": 34,
+     "cut": false,
+     "scene": 13
+    }
+   ],
+   "shadowSweep": null
+  },
+  {
+   "index": 14,
+   "id": "cliffhanger",
+   "title": "CLIFFHANGER",
+   "start": 127.511,
+   "duration": 16.01,
+   "end": 143.521,
+   "leadIn": 0.45,
+   "hold": 0.35,
+   "transitionIn": "blend",
+   "palette": {
+    "name": "cellar",
+    "skyTop": "#05080a",
+    "skyHorizon": "#120e0b",
+    "sun": "#5a4a3a",
+    "sunIntensity": 0.12,
+    "hemiSky": "#4a3a2c",
+    "hemiGround": "#0c0806",
+    "hemiIntensity": 0.35,
+    "fog": "#0d0a08",
+    "fogDensity": 0.05,
+    "rays": 0,
+    "exposure": 1.05,
+    "interior": 0,
+    "shadowTint": "#0a242a",
+    "highlightTint": "#ffd9a8",
+    "sunEl": 60,
+    "sunAz": 0
+   },
+   "sound": {
+    "drone": 0.6,
+    "pad": 0,
+    "box": 0,
+    "tick": 1,
+    "chord": "Dm",
+    "tempo": 96,
+    "pulse": 0,
+    "tickRate": 2
+   },
+   "set": {
+    "chalk": true,
+    "chalkTime": "3:08",
+    "noBirds": true
+   },
+   "whisper": true,
+   "narration": {
+    "text": "Then the whisper came back. Right behind me. You always get this far, Wren. You always forget why. It pulled back its hood... and I knew that face. I see it every morning, in the mirror.",
+    "start": 127.961,
+    "end": 142.371,
+    "voiceDuration": 14.41,
+    "sentences": [
+     {
+      "text": "Then the whisper came back.",
+      "start": 127.961,
+      "end": 129.791
+     },
+     {
+      "text": "Right behind me.",
+      "start": 130.051,
+      "end": 131.301
+     },
+     {
+      "text": "You always get this far, Wren.",
+      "start": 131.561,
+      "end": 133.661
+     },
+     {
+      "text": "You always forget why.",
+      "start": 133.921,
+      "end": 135.581
+     },
+     {
+      "text": "It pulled back its hood...",
+      "start": 135.841,
+      "end": 137.441
+     },
+     {
+      "text": "and I knew that face.",
+      "start": 137.701,
+      "end": 139.161
+     },
+     {
+      "text": "I see it every morning, in the mirror.",
+      "start": 139.421,
+      "end": 142.371
+     }
+    ]
+   },
+   "camera": [
+    {
+     "t": 127.991,
+     "pos": [
+      60.1,
+      -28.65,
+      -2.45
+     ],
+     "look": [
+      59.45,
+      -28.7,
+      -1.2
+     ],
+     "fov": 36,
+     "cut": false,
+     "scene": 14
+    },
+    {
+     "t": 130.051,
+     "pos": [
+      60.15,
+      -28.68,
+      -2.5
+     ],
+     "look": [
+      59.6,
+      -28.65,
+      -0.6
+     ],
+     "fov": 40,
+     "cut": false,
+     "scene": 14
+    },
+    {
+     "t": 135.841,
+     "pos": [
+      60.1,
+      -28.6,
+      -2.4
+     ],
+     "look": [
+      59.9,
+      -28.55,
+      -0.3
+     ],
+     "fov": 36,
+     "cut": false,
+     "scene": 14
+    },
+    {
+     "t": 137.901,
+     "pos": [
+      59.8,
+      -28.5,
+      -1.65
+     ],
+     "look": [
+      60.05,
+      -28.58,
+      -0.2
+     ],
+     "fov": 32,
+     "cut": false,
+     "scene": 14
+    },
+    {
+     "t": 143.521,
+     "pos": [
+      59.85,
+      -28.54,
+      -1
+     ],
+     "look": [
+      60.05,
+      -28.58,
+      -0.2
+     ],
+     "fov": 28,
+     "cut": false,
+     "scene": 14
+    }
+   ],
+   "shadowSweep": {
+    "from": 130.051,
+    "to": 135.881
+   }
+  }
+ ],
+ "cameraKeys": [
+  {
+   "t": 0,
+   "pos": [
+    0.5,
+    17.2,
+    -16.4
+   ],
+   "look": [
+    0,
+    18,
+    -24
+   ],
+   "fov": 34,
+   "cut": false,
+   "scene": 0
+  },
+  {
+   "t": 3.438,
+   "pos": [
+    0.9,
+    16.6,
+    -15.8
+   ],
+   "look": [
+    0,
+    17.8,
+    -24
+   ],
+   "fov": 38,
+   "cut": false,
+   "scene": 0
+  },
+  {
+   "t": 4.65,
+   "pos": [
+    1.1,
+    1.45,
+    -17.6
+   ],
+   "look": [
+    0,
+    1.25,
+    -20.4
+   ],
+   "fov": 44,
+   "cut": false,
+   "scene": 0
+  },
+  {
+   "t": 6.04,
+   "pos": [
+    0.25,
+    1.4,
+    -19
+   ],
+   "look": [
+    0,
+    1.3,
+    -21.3
+   ],
+   "fov": 40,
+   "cut": false,
+   "scene": 0
+  },
+  {
+   "t": 7.58,
+   "pos": [
+    0.6,
+    1.6,
+    -18.6
+   ],
+   "look": [
+    0,
+    17.5,
+    -24
+   ],
+   "fov": 46,
+   "cut": false,
+   "scene": 0
+  },
+  {
+   "t": 11.46,
+   "pos": [
+    0.4,
+    1.7,
+    -18.2
+   ],
+   "look": [
+    0,
+    18.6,
+    -24
+   ],
+   "fov": 42,
+   "cut": false,
+   "scene": 0
+  },
+  {
+   "t": 11.48,
+   "pos": [
+    17,
+    1.7,
+    7.3
+   ],
+   "look": [
+    19.6,
+    0.8,
+    9.6
+   ],
+   "fov": 46,
+   "cut": true,
+   "scene": 1
+  },
+  {
+   "t": 13.05,
+   "pos": [
+    17.3,
+    1.6,
+    7.5
+   ],
+   "look": [
+    19.6,
+    0.85,
+    9.6
+   ],
+   "fov": 44,
+   "cut": false,
+   "scene": 1
+  },
+  {
+   "t": 13.94,
+   "pos": [
+    0.9,
+    16.9,
+    -16.2
+   ],
+   "look": [
+    0,
+    18.2,
+    -24
+   ],
+   "fov": 36,
+   "cut": true,
+   "scene": 1
+  },
+  {
+   "t": 14.74,
+   "pos": [
+    1.1,
+    16.6,
+    -16.6
+   ],
+   "look": [
+    0,
+    18,
+    -24
+   ],
+   "fov": 38,
+   "cut": false,
+   "scene": 1
+  },
+  {
+   "t": 14.78,
+   "pos": [
+    -2.4,
+    1.7,
+    -2.4
+   ],
+   "look": [
+    -5.5,
+    0.9,
+    -5
+   ],
+   "fov": 42,
+   "cut": true,
+   "scene": 1
+  },
+  {
+   "t": 15.62,
+   "pos": [
+    -2.7,
+    1.5,
+    -2.7
+   ],
+   "look": [
+    -5.5,
+    0.6,
+    -5
+   ],
+   "fov": 42,
+   "cut": false,
+   "scene": 1
+  },
+  {
+   "t": 15.66,
+   "pos": [
+    4.6,
+    1.6,
+    5
+   ],
+   "look": [
+    2.6,
+    1.25,
+    2.6
+   ],
+   "fov": 40,
+   "cut": true,
+   "scene": 1
+  },
+  {
+   "t": 17.68,
+   "pos": [
+    5,
+    1.7,
+    4.2
+   ],
+   "look": [
+    2.6,
+    1.2,
+    2.6
+   ],
+   "fov": 40,
+   "cut": false,
+   "scene": 1
+  },
+  {
+   "t": 19.93,
+   "pos": [
+    6,
+    2.2,
+    3
+   ],
+   "look": [
+    1,
+    1.2,
+    0.5
+   ],
+   "fov": 48,
+   "cut": false,
+   "scene": 1
+  },
+  {
+   "t": 20.175,
+   "pos": [
+    6.2,
+    1.9,
+    10.4
+   ],
+   "look": [
+    10.9,
+    1.5,
+    8.1
+   ],
+   "fov": 46,
+   "cut": false,
+   "scene": 2
+  },
+  {
+   "t": 21.96,
+   "pos": [
+    7.8,
+    1.6,
+    9
+   ],
+   "look": [
+    10.9,
+    1.48,
+    8
+   ],
+   "fov": 40,
+   "cut": false,
+   "scene": 2
+  },
+  {
+   "t": 25.64,
+   "pos": [
+    9,
+    1.52,
+    8.3
+   ],
+   "look": [
+    10.9,
+    1.48,
+    8
+   ],
+   "fov": 36,
+   "cut": false,
+   "scene": 2
+  },
+  {
+   "t": 26.04,
+   "pos": [
+    10.15,
+    1.49,
+    8.05
+   ],
+   "look": [
+    10.9,
+    1.48,
+    8
+   ],
+   "fov": 28,
+   "cut": false,
+   "scene": 2
+  },
+  {
+   "t": 28.11,
+   "pos": [
+    10.25,
+    1.49,
+    8.04
+   ],
+   "look": [
+    10.9,
+    1.48,
+    8
+   ],
+   "fov": 26,
+   "cut": false,
+   "scene": 2
+  },
+  {
+   "t": 28.445,
+   "pos": [
+    4.645,
+    1.55,
+    3.651
+   ],
+   "look": [
+    5.5,
+    1.2,
+    6
+   ],
+   "fov": 42,
+   "cut": false,
+   "scene": 3
+  },
+  {
+   "t": 31.458,
+   "pos": [
+    3.151,
+    1.55,
+    5.145
+   ],
+   "look": [
+    5.5,
+    1.2,
+    6
+   ],
+   "fov": 42,
+   "cut": false,
+   "scene": 3
+  },
+  {
+   "t": 34.248,
+   "pos": [
+    3.335,
+    1.55,
+    7.25
+   ],
+   "look": [
+    5.5,
+    1.2,
+    6
+   ],
+   "fov": 42,
+   "cut": false,
+   "scene": 3
+  },
+  {
+   "t": 37.038,
+   "pos": [
+    4.853,
+    1.55,
+    8.415
+   ],
+   "look": [
+    5.5,
+    1.2,
+    6
+   ],
+   "fov": 42,
+   "cut": false,
+   "scene": 3
+  },
+  {
+   "t": 39.27,
+   "pos": [
+    6.355,
+    1.55,
+    8.349
+   ],
+   "look": [
+    5.5,
+    1.2,
+    6
+   ],
+   "fov": 42,
+   "cut": false,
+   "scene": 3
+  },
+  {
+   "t": 39.478,
+   "pos": [
+    4.6,
+    1.7,
+    4.4
+   ],
+   "look": [
+    0,
+    1,
+    -1
+   ],
+   "fov": 48,
+   "cut": false,
+   "scene": 4
+  },
+  {
+   "t": 41.1,
+   "pos": [
+    0.8,
+    1.6,
+    1.1
+   ],
+   "look": [
+    -4.6,
+    1.1,
+    -4.6
+   ],
+   "fov": 46,
+   "cut": false,
+   "scene": 4
+  },
+  {
+   "t": 42.06,
+   "pos": [
+    -2.4,
+    1.45,
+    -1.9
+   ],
+   "look": [
+    -5.2,
+    1.1,
+    -4.8
+   ],
+   "fov": 40,
+   "cut": false,
+   "scene": 4
+  },
+  {
+   "t": 42.96,
+   "pos": [
+    -2.9,
+    1.3,
+    -2.5
+   ],
+   "look": [
+    -5.3,
+    0.6,
+    -5
+   ],
+   "fov": 38,
+   "cut": false,
+   "scene": 4
+  },
+  {
+   "t": 46.21,
+   "pos": [
+    -3,
+    1.35,
+    -2.6
+   ],
+   "look": [
+    -5.3,
+    0.5,
+    -5
+   ],
+   "fov": 38,
+   "cut": false,
+   "scene": 4
+  },
+  {
+   "t": 46.432,
+   "pos": [
+    -4.1,
+    1.55,
+    -3.7
+   ],
+   "look": [
+    1.5,
+    1.3,
+    2.5
+   ],
+   "fov": 50,
+   "cut": false,
+   "scene": 5
+  },
+  {
+   "t": 48.55,
+   "pos": [
+    -3.6,
+    1.5,
+    -3.1
+   ],
+   "look": [
+    1.5,
+    1.3,
+    2.5
+   ],
+   "fov": 48,
+   "cut": false,
+   "scene": 5
+  },
+  {
+   "t": 50.93,
+   "pos": [
+    -2.6,
+    1.5,
+    -2
+   ],
+   "look": [
+    2,
+    1.4,
+    2.2
+   ],
+   "fov": 40,
+   "cut": false,
+   "scene": 5
+  },
+  {
+   "t": 53.6,
+   "pos": [
+    -2.2,
+    1.5,
+    -1.6
+   ],
+   "look": [
+    2.4,
+    1.45,
+    2.4
+   ],
+   "fov": 34,
+   "cut": false,
+   "scene": 5
+  },
+  {
+   "t": 53.823,
+   "pos": [
+    0.6,
+    1.55,
+    0.6
+   ],
+   "look": [
+    2.5,
+    1.45,
+    2.4
+   ],
+   "fov": 36,
+   "cut": false,
+   "scene": 6
+  },
+  {
+   "t": 55.24,
+   "pos": [
+    1,
+    1.55,
+    1
+   ],
+   "look": [
+    2.5,
+    1.45,
+    2.4
+   ],
+   "fov": 32,
+   "cut": false,
+   "scene": 6
+  },
+  {
+   "t": 55.44,
+   "pos": [
+    -3.3,
+    1.45,
+    4.4
+   ],
+   "look": [
+    -4.2,
+    1.4,
+    6.2
+   ],
+   "fov": 34,
+   "cut": true,
+   "scene": 6
+  },
+  {
+   "t": 56.64,
+   "pos": [
+    -2.9,
+    1.6,
+    3.9
+   ],
+   "look": [
+    -4.2,
+    1.3,
+    6.2
+   ],
+   "fov": 38,
+   "cut": false,
+   "scene": 6
+  },
+  {
+   "t": 61.03,
+   "pos": [
+    1.5,
+    5.5,
+    9.5
+   ],
+   "look": [
+    -1.5,
+    0.8,
+    -0.5
+   ],
+   "fov": 52,
+   "cut": false,
+   "scene": 6
+  },
+  {
+   "t": 61.255,
+   "pos": [
+    -3.4,
+    1.6,
+    -3.1
+   ],
+   "look": [
+    -5.5,
+    1.5,
+    -5
+   ],
+   "fov": 38,
+   "cut": false,
+   "scene": 7
+  },
+  {
+   "t": 65.62,
+   "pos": [
+    -3.9,
+    1.62,
+    -3.6
+   ],
+   "look": [
+    -5.5,
+    1.55,
+    -5
+   ],
+   "fov": 30,
+   "cut": false,
+   "scene": 7
+  },
+  {
+   "t": 68.54,
+   "pos": [
+    -4.1,
+    1.63,
+    -3.8
+   ],
+   "look": [
+    -5.5,
+    1.57,
+    -5
+   ],
+   "fov": 26,
+   "cut": false,
+   "scene": 7
+  },
+  {
+   "t": 68.876,
+   "pos": [
+    -1.5,
+    1.9,
+    2
+   ],
+   "look": [
+    3.5,
+    1,
+    -3
+   ],
+   "fov": 48,
+   "cut": false,
+   "scene": 8
+  },
+  {
+   "t": 71.831,
+   "pos": [
+    3.2,
+    1.8,
+    -1
+   ],
+   "look": [
+    8.8,
+    1,
+    -7.5
+   ],
+   "fov": 46,
+   "cut": false,
+   "scene": 8
+  },
+  {
+   "t": 79.751,
+   "pos": [
+    6,
+    1.9,
+    -4.8
+   ],
+   "look": [
+    10,
+    1,
+    -12
+   ],
+   "fov": 46,
+   "cut": false,
+   "scene": 8
+  },
+  {
+   "t": 79.982,
+   "pos": [
+    7.6,
+    2,
+    -8.6
+   ],
+   "look": [
+    11.5,
+    1,
+    -13.5
+   ],
+   "fov": 46,
+   "cut": false,
+   "scene": 9
+  },
+  {
+   "t": 81.841,
+   "pos": [
+    8.8,
+    2.2,
+    -14.6
+   ],
+   "look": [
+    13.5,
+    0.8,
+    -16
+   ],
+   "fov": 48,
+   "cut": false,
+   "scene": 9
+  },
+  {
+   "t": 87.461,
+   "pos": [
+    11,
+    2.1,
+    -18.6
+   ],
+   "look": [
+    14.5,
+    0.3,
+    -15.2
+   ],
+   "fov": 46,
+   "cut": false,
+   "scene": 9
+  },
+  {
+   "t": 87.712,
+   "pos": [
+    12.8,
+    2.8,
+    -13.2
+   ],
+   "look": [
+    15,
+    0,
+    -15.8
+   ],
+   "fov": 46,
+   "cut": false,
+   "scene": 10
+  },
+  {
+   "t": 90.391,
+   "pos": [
+    13.7,
+    2,
+    -14
+   ],
+   "look": [
+    15,
+    0.05,
+    -15.8
+   ],
+   "fov": 40,
+   "cut": false,
+   "scene": 10
+  },
+  {
+   "t": 95.812,
+   "pos": [
+    14.4,
+    1.5,
+    -14.4
+   ],
+   "look": [
+    15,
+    0.05,
+    -15.9
+   ],
+   "fov": 34,
+   "cut": false,
+   "scene": 10
+  },
+  {
+   "t": 96.055,
+   "pos": [
+    10,
+    0.9,
+    -20.5
+   ],
+   "look": [
+    14,
+    3,
+    -14.5
+   ],
+   "fov": 52,
+   "cut": false,
+   "scene": 11
+  },
+  {
+   "t": 98.982,
+   "pos": [
+    10.6,
+    1.2,
+    -19
+   ],
+   "look": [
+    14.5,
+    2.5,
+    -14.8
+   ],
+   "fov": 54,
+   "cut": false,
+   "scene": 11
+  },
+  {
+   "t": 101.682,
+   "pos": [
+    14.2,
+    2.1,
+    -13.9
+   ],
+   "look": [
+    15,
+    0,
+    -16
+   ],
+   "fov": 44,
+   "cut": false,
+   "scene": 11
+  },
+  {
+   "t": 103.922,
+   "pos": [
+    14.7,
+    1.6,
+    -14.6
+   ],
+   "look": [
+    15,
+    -0.4,
+    -16.2
+   ],
+   "fov": 40,
+   "cut": false,
+   "scene": 11
+  },
+  {
+   "t": 103.942,
+   "pos": [
+    60,
+    -27.4,
+    2.3
+   ],
+   "look": [
+    60,
+    -28.8,
+    -1
+   ],
+   "fov": 50,
+   "cut": true,
+   "scene": 12
+  },
+  {
+   "t": 105.952,
+   "pos": [
+    58.2,
+    -28.5,
+    1
+   ],
+   "look": [
+    55.9,
+    -28.4,
+    -1
+   ],
+   "fov": 46,
+   "cut": false,
+   "scene": 12
+  },
+  {
+   "t": 107.321,
+   "pos": [
+    61.6,
+    -28.4,
+    0.6
+   ],
+   "look": [
+    64.1,
+    -28.4,
+    -0.6
+   ],
+   "fov": 46,
+   "cut": false,
+   "scene": 12
+  },
+  {
+   "t": 113.851,
+   "pos": [
+    60.3,
+    -28.45,
+    0.9
+   ],
+   "look": [
+    60,
+    -28.4,
+    -2.8
+   ],
+   "fov": 44,
+   "cut": false,
+   "scene": 12
+  },
+  {
+   "t": 114.124,
+   "pos": [
+    59,
+    -28.5,
+    0.9
+   ],
+   "look": [
+    55.9,
+    -28.4,
+    -1
+   ],
+   "fov": 46,
+   "cut": false,
+   "scene": 13
+  },
+  {
+   "t": 115.611,
+   "pos": [
+    61.8,
+    -28.4,
+    0.2
+   ],
+   "look": [
+    64.1,
+    -28.4,
+    -0.8
+   ],
+   "fov": 46,
+   "cut": false,
+   "scene": 13
+  },
+  {
+   "t": 121.361,
+   "pos": [
+    60.1,
+    -28.4,
+    -0.6
+   ],
+   "look": [
+    60,
+    -28.35,
+    -2.84
+   ],
+   "fov": 40,
+   "cut": false,
+   "scene": 13
+  },
+  {
+   "t": 123.891,
+   "pos": [
+    60.05,
+    -28.6,
+    -1.6
+   ],
+   "look": [
+    60,
+    -28.75,
+    -2.84
+   ],
+   "fov": 36,
+   "cut": false,
+   "scene": 13
+  },
+  {
+   "t": 127.511,
+   "pos": [
+    60.02,
+    -28.7,
+    -1.9
+   ],
+   "look": [
+    60,
+    -28.85,
+    -2.84
+   ],
+   "fov": 34,
+   "cut": false,
+   "scene": 13
+  },
+  {
+   "t": 127.991,
+   "pos": [
+    60.1,
+    -28.65,
+    -2.45
+   ],
+   "look": [
+    59.45,
+    -28.7,
+    -1.2
+   ],
+   "fov": 36,
+   "cut": false,
+   "scene": 14
+  },
+  {
+   "t": 130.051,
+   "pos": [
+    60.15,
+    -28.68,
+    -2.5
+   ],
+   "look": [
+    59.6,
+    -28.65,
+    -0.6
+   ],
+   "fov": 40,
+   "cut": false,
+   "scene": 14
+  },
+  {
+   "t": 135.841,
+   "pos": [
+    60.1,
+    -28.6,
+    -2.4
+   ],
+   "look": [
+    59.9,
+    -28.55,
+    -0.3
+   ],
+   "fov": 36,
+   "cut": false,
+   "scene": 14
+  },
+  {
+   "t": 137.901,
+   "pos": [
+    59.8,
+    -28.5,
+    -1.65
+   ],
+   "look": [
+    60.05,
+    -28.58,
+    -0.2
+   ],
+   "fov": 32,
+   "cut": false,
+   "scene": 14
+  },
+  {
+   "t": 143.521,
+   "pos": [
+    59.85,
+    -28.54,
+    -1
+   ],
+   "look": [
+    60.05,
+    -28.58,
+    -0.2
+   ],
+   "fov": 28,
+   "cut": false,
+   "scene": 14
+  }
+ ],
+ "paletteKeys": [
+  {
+   "t": 0,
+   "palette": {
+    "name": "fog",
+    "skyTop": "#0d2026",
+    "skyHorizon": "#6b675b",
+    "sun": "#b88a63",
+    "sunIntensity": 0.9,
+    "hemiSky": "#6d8a8c",
+    "hemiGround": "#1c1d1d",
+    "hemiIntensity": 0.85,
+    "fog": "#4a5654",
+    "fogDensity": 0.065,
+    "rays": 0.3,
+    "exposure": 0.98,
+    "interior": 0.4,
+    "shadowTint": "#082a33",
+    "highlightTint": "#f3dcc0"
+   },
+   "cut": true
+  },
+  {
+   "t": 11.46,
+   "palette": {
+    "name": "dawn",
+    "skyTop": "#1f4652",
+    "skyHorizon": "#f2a65a",
+    "sun": "#ffc27a",
+    "sunIntensity": 2.3,
+    "hemiSky": "#a9c6c2",
+    "hemiGround": "#3b2b24",
+    "hemiIntensity": 1.05,
+    "fog": "#c08a63",
+    "fogDensity": 0.02,
+    "rays": 0.95,
+    "exposure": 1,
+    "interior": 0.7,
+    "shadowTint": "#0f3a44",
+    "highlightTint": "#ffe9c7"
+   },
+   "cut": true
+  },
+  {
+   "t": 19.43,
+   "palette": {
+    "name": "dawn",
+    "skyTop": "#1f4652",
+    "skyHorizon": "#f2a65a",
+    "sun": "#ffc27a",
+    "sunIntensity": 2.3,
+    "hemiSky": "#a9c6c2",
+    "hemiGround": "#3b2b24",
+    "hemiIntensity": 1.05,
+    "fog": "#c08a63",
+    "fogDensity": 0.02,
+    "rays": 0.95,
+    "exposure": 1,
+    "interior": 0.7,
+    "shadowTint": "#0f3a44",
+    "highlightTint": "#ffe9c7"
+   }
+  },
+  {
+   "t": 20.43,
+   "palette": {
+    "name": "morning",
+    "skyTop": "#2c6070",
+    "skyHorizon": "#f5c48a",
+    "sun": "#ffe0b0",
+    "sunIntensity": 2.5,
+    "hemiSky": "#b6d0cc",
+    "hemiGround": "#463227",
+    "hemiIntensity": 1.15,
+    "fog": "#c9a582",
+    "fogDensity": 0.014,
+    "rays": 0.75,
+    "exposure": 1.04,
+    "interior": 0.6,
+    "shadowTint": "#12404a",
+    "highlightTint": "#fff0d6"
+   }
+  },
+  {
+   "t": 27.61,
+   "palette": {
+    "name": "morning",
+    "skyTop": "#2c6070",
+    "skyHorizon": "#f5c48a",
+    "sun": "#ffe0b0",
+    "sunIntensity": 2.5,
+    "hemiSky": "#b6d0cc",
+    "hemiGround": "#463227",
+    "hemiIntensity": 1.15,
+    "fog": "#c9a582",
+    "fogDensity": 0.014,
+    "rays": 0.75,
+    "exposure": 1.04,
+    "interior": 0.6,
+    "shadowTint": "#12404a",
+    "highlightTint": "#fff0d6"
+   }
+  },
+  {
+   "t": 28.61,
+   "palette": {
+    "name": "dawn",
+    "skyTop": "#1f4652",
+    "skyHorizon": "#f2a65a",
+    "sun": "#ffc27a",
+    "sunIntensity": 2.3,
+    "hemiSky": "#a9c6c2",
+    "hemiGround": "#3b2b24",
+    "hemiIntensity": 1.05,
+    "fog": "#c08a63",
+    "fogDensity": 0.02,
+    "rays": 0.95,
+    "exposure": 1,
+    "interior": 0.7,
+    "shadowTint": "#0f3a44",
+    "highlightTint": "#ffe9c7"
+   }
+  },
+  {
+   "t": 38.77,
+   "palette": {
+    "name": "dawn",
+    "skyTop": "#1f4652",
+    "skyHorizon": "#f2a65a",
+    "sun": "#ffc27a",
+    "sunIntensity": 2.3,
+    "hemiSky": "#a9c6c2",
+    "hemiGround": "#3b2b24",
+    "hemiIntensity": 1.05,
+    "fog": "#c08a63",
+    "fogDensity": 0.02,
+    "rays": 0.95,
+    "exposure": 1,
+    "interior": 0.7,
+    "shadowTint": "#0f3a44",
+    "highlightTint": "#ffe9c7"
+   }
+  },
+  {
+   "t": 39.77,
+   "palette": {
+    "name": "morning",
+    "skyTop": "#2c6070",
+    "skyHorizon": "#f5c48a",
+    "sun": "#ffe0b0",
+    "sunIntensity": 2.5,
+    "hemiSky": "#b6d0cc",
+    "hemiGround": "#463227",
+    "hemiIntensity": 1.15,
+    "fog": "#c9a582",
+    "fogDensity": 0.014,
+    "rays": 0.75,
+    "exposure": 1.04,
+    "interior": 0.6,
+    "shadowTint": "#12404a",
+    "highlightTint": "#fff0d6"
+   }
+  },
+  {
+   "t": 45.71,
+   "palette": {
+    "name": "morning",
+    "skyTop": "#2c6070",
+    "skyHorizon": "#f5c48a",
+    "sun": "#ffe0b0",
+    "sunIntensity": 2.5,
+    "hemiSky": "#b6d0cc",
+    "hemiGround": "#463227",
+    "hemiIntensity": 1.15,
+    "fog": "#c9a582",
+    "fogDensity": 0.014,
+    "rays": 0.75,
+    "exposure": 1.04,
+    "interior": 0.6,
+    "shadowTint": "#12404a",
+    "highlightTint": "#fff0d6"
+   }
+  },
+  {
+   "t": 46.71,
+   "palette": {
+    "name": "morning",
+    "skyTop": "#2c6070",
+    "skyHorizon": "#f5c48a",
+    "sun": "#ffe0b0",
+    "sunIntensity": 2.5,
+    "hemiSky": "#b6d0cc",
+    "hemiGround": "#463227",
+    "hemiIntensity": 1.15,
+    "fog": "#c9a582",
+    "fogDensity": 0.014,
+    "rays": 0.75,
+    "exposure": 1.04,
+    "interior": 0.6,
+    "shadowTint": "#12404a",
+    "highlightTint": "#fff0d6"
+   }
+  },
+  {
+   "t": 48.24,
+   "palette": {
+    "name": "morning",
+    "skyTop": "#2c6070",
+    "skyHorizon": "#f5c48a",
+    "sun": "#ffe0b0",
+    "sunIntensity": 2.5,
+    "hemiSky": "#b6d0cc",
+    "hemiGround": "#463227",
+    "hemiIntensity": 1.15,
+    "fog": "#c9a582",
+    "fogDensity": 0.014,
+    "rays": 0.75,
+    "exposure": 1.04,
+    "interior": 0.6,
+    "shadowTint": "#12404a",
+    "highlightTint": "#fff0d6"
+   },
+   "hold": true
+  },
+  {
+   "t": 49.15,
+   "palette": {
+    "name": "rain",
+    "skyTop": "#2d4a52",
+    "skyHorizon": "#a9a08c",
+    "sun": "#e4d3b6",
+    "sunIntensity": 1.2,
+    "hemiSky": "#9fb5b3",
+    "hemiGround": "#2c2a28",
+    "hemiIntensity": 1,
+    "fog": "#7f8f8c",
+    "fogDensity": 0.02,
+    "rays": 0.35,
+    "exposure": 0.95,
+    "interior": 0.6,
+    "shadowTint": "#103640",
+    "highlightTint": "#efe6d2"
+   },
+   "cut": false
+  },
+  {
+   "t": 53.1,
+   "palette": {
+    "name": "rain",
+    "skyTop": "#2d4a52",
+    "skyHorizon": "#a9a08c",
+    "sun": "#e4d3b6",
+    "sunIntensity": 1.2,
+    "hemiSky": "#9fb5b3",
+    "hemiGround": "#2c2a28",
+    "hemiIntensity": 1,
+    "fog": "#7f8f8c",
+    "fogDensity": 0.02,
+    "rays": 0.35,
+    "exposure": 0.95,
+    "interior": 0.6,
+    "shadowTint": "#103640",
+    "highlightTint": "#efe6d2"
+   }
+  },
+  {
+   "t": 54.1,
+   "palette": {
+    "name": "morning",
+    "skyTop": "#2c6070",
+    "skyHorizon": "#f5c48a",
+    "sun": "#ffe0b0",
+    "sunIntensity": 2.5,
+    "hemiSky": "#b6d0cc",
+    "hemiGround": "#463227",
+    "hemiIntensity": 1.15,
+    "fog": "#c9a582",
+    "fogDensity": 0.014,
+    "rays": 0.75,
+    "exposure": 1.04,
+    "interior": 0.6,
+    "shadowTint": "#12404a",
+    "highlightTint": "#fff0d6"
+   }
+  },
+  {
+   "t": 60.53,
+   "palette": {
+    "name": "morning",
+    "skyTop": "#2c6070",
+    "skyHorizon": "#f5c48a",
+    "sun": "#ffe0b0",
+    "sunIntensity": 2.5,
+    "hemiSky": "#b6d0cc",
+    "hemiGround": "#463227",
+    "hemiIntensity": 1.15,
+    "fog": "#c9a582",
+    "fogDensity": 0.014,
+    "rays": 0.75,
+    "exposure": 1.04,
+    "interior": 0.6,
+    "shadowTint": "#12404a",
+    "highlightTint": "#fff0d6"
+   }
+  },
+  {
+   "t": 61.53,
+   "palette": {
+    "name": "morning",
+    "skyTop": "#2c6070",
+    "skyHorizon": "#f5c48a",
+    "sun": "#ffe0b0",
+    "sunIntensity": 2.5,
+    "hemiSky": "#b6d0cc",
+    "hemiGround": "#463227",
+    "hemiIntensity": 1.15,
+    "fog": "#c9a582",
+    "fogDensity": 0.014,
+    "rays": 0.75,
+    "exposure": 1.04,
+    "interior": 0.6,
+    "shadowTint": "#12404a",
+    "highlightTint": "#fff0d6"
+   }
+  },
+  {
+   "t": 68.04,
+   "palette": {
+    "name": "morning",
+    "skyTop": "#2c6070",
+    "skyHorizon": "#f5c48a",
+    "sun": "#ffe0b0",
+    "sunIntensity": 2.5,
+    "hemiSky": "#b6d0cc",
+    "hemiGround": "#463227",
+    "hemiIntensity": 1.15,
+    "fog": "#c9a582",
+    "fogDensity": 0.014,
+    "rays": 0.75,
+    "exposure": 1.04,
+    "interior": 0.6,
+    "shadowTint": "#12404a",
+    "highlightTint": "#fff0d6"
+   }
+  },
+  {
+   "t": 69.04,
+   "palette": {
+    "name": "morning",
+    "skyTop": "#2c6070",
+    "skyHorizon": "#f5c48a",
+    "sun": "#ffe0b0",
+    "sunIntensity": 2.5,
+    "hemiSky": "#b6d0cc",
+    "hemiGround": "#463227",
+    "hemiIntensity": 1.15,
+    "fog": "#c9a582",
+    "fogDensity": 0.014,
+    "rays": 0.75,
+    "exposure": 1.04,
+    "interior": 0.6,
+    "shadowTint": "#12404a",
+    "highlightTint": "#fff0d6"
+   }
+  },
+  {
+   "t": 79.251,
+   "palette": {
+    "name": "morning",
+    "skyTop": "#2c6070",
+    "skyHorizon": "#f5c48a",
+    "sun": "#ffe0b0",
+    "sunIntensity": 2.5,
+    "hemiSky": "#b6d0cc",
+    "hemiGround": "#463227",
+    "hemiIntensity": 1.15,
+    "fog": "#c9a582",
+    "fogDensity": 0.014,
+    "rays": 0.75,
+    "exposure": 1.04,
+    "interior": 0.6,
+    "shadowTint": "#12404a",
+    "highlightTint": "#fff0d6"
+   }
+  },
+  {
+   "t": 80.251,
+   "palette": {
+    "name": "morning",
+    "skyTop": "#2c6070",
+    "skyHorizon": "#f5c48a",
+    "sun": "#ffe0b0",
+    "sunIntensity": 2.5,
+    "hemiSky": "#b6d0cc",
+    "hemiGround": "#463227",
+    "hemiIntensity": 1.15,
+    "fog": "#c9a582",
+    "fogDensity": 0.014,
+    "rays": 0.75,
+    "exposure": 1.04,
+    "interior": 0.6,
+    "shadowTint": "#12404a",
+    "highlightTint": "#fff0d6"
+   }
+  },
+  {
+   "t": 86.961,
+   "palette": {
+    "name": "morning",
+    "skyTop": "#2c6070",
+    "skyHorizon": "#f5c48a",
+    "sun": "#ffe0b0",
+    "sunIntensity": 2.5,
+    "hemiSky": "#b6d0cc",
+    "hemiGround": "#463227",
+    "hemiIntensity": 1.15,
+    "fog": "#c9a582",
+    "fogDensity": 0.014,
+    "rays": 0.75,
+    "exposure": 1.04,
+    "interior": 0.6,
+    "shadowTint": "#12404a",
+    "highlightTint": "#fff0d6"
+   }
+  },
+  {
+   "t": 87.961,
+   "palette": {
+    "name": "morning",
+    "skyTop": "#2c6070",
+    "skyHorizon": "#f5c48a",
+    "sun": "#ffe0b0",
+    "sunIntensity": 2.5,
+    "hemiSky": "#b6d0cc",
+    "hemiGround": "#463227",
+    "hemiIntensity": 1.15,
+    "fog": "#c9a582",
+    "fogDensity": 0.014,
+    "rays": 0.75,
+    "exposure": 1.04,
+    "interior": 0.6,
+    "shadowTint": "#12404a",
+    "highlightTint": "#fff0d6"
+   }
+  },
+  {
+   "t": 95.312,
+   "palette": {
+    "name": "morning",
+    "skyTop": "#2c6070",
+    "skyHorizon": "#f5c48a",
+    "sun": "#ffe0b0",
+    "sunIntensity": 2.5,
+    "hemiSky": "#b6d0cc",
+    "hemiGround": "#463227",
+    "hemiIntensity": 1.15,
+    "fog": "#c9a582",
+    "fogDensity": 0.014,
+    "rays": 0.75,
+    "exposure": 1.04,
+    "interior": 0.6,
+    "shadowTint": "#12404a",
+    "highlightTint": "#fff0d6"
+   }
+  },
+  {
+   "t": 96.312,
+   "palette": {
+    "name": "morning",
+    "skyTop": "#2c6070",
+    "skyHorizon": "#f5c48a",
+    "sun": "#ffe0b0",
+    "sunIntensity": 2.5,
+    "hemiSky": "#b6d0cc",
+    "hemiGround": "#463227",
+    "hemiIntensity": 1.15,
+    "fog": "#c9a582",
+    "fogDensity": 0.014,
+    "rays": 0.75,
+    "exposure": 1.04,
+    "interior": 0.6,
+    "shadowTint": "#12404a",
+    "highlightTint": "#fff0d6"
+   }
+  },
+  {
+   "t": 98.022,
+   "palette": {
+    "name": "morning",
+    "skyTop": "#2c6070",
+    "skyHorizon": "#f5c48a",
+    "sun": "#ffe0b0",
+    "sunIntensity": 2.5,
+    "hemiSky": "#b6d0cc",
+    "hemiGround": "#463227",
+    "hemiIntensity": 1.15,
+    "fog": "#c9a582",
+    "fogDensity": 0.014,
+    "rays": 0.75,
+    "exposure": 1.04,
+    "interior": 0.6,
+    "shadowTint": "#12404a",
+    "highlightTint": "#fff0d6"
+   },
+   "hold": true
+  },
+  {
+   "t": 98.932,
+   "palette": {
+    "name": "morning",
+    "skyTop": "#2c6070",
+    "skyHorizon": "#f5c48a",
+    "sun": "#ffe0b0",
+    "sunIntensity": 2.5,
+    "hemiSky": "#b6d0cc",
+    "hemiGround": "#463227",
+    "hemiIntensity": 1.15,
+    "fog": "#c9a582",
+    "fogDensity": 0.014,
+    "rays": 0.75,
+    "exposure": 1.04,
+    "interior": 0.6,
+    "shadowTint": "#12404a",
+    "highlightTint": "#fff0d6",
+    "sunEl": 40,
+    "sunAz": 120
+   },
+   "cut": false
+  },
+  {
+   "t": 99.372,
+   "palette": {
+    "name": "morning",
+    "skyTop": "#2c6070",
+    "skyHorizon": "#f5c48a",
+    "sun": "#ffe0b0",
+    "sunIntensity": 2.5,
+    "hemiSky": "#b6d0cc",
+    "hemiGround": "#463227",
+    "hemiIntensity": 1.15,
+    "fog": "#c9a582",
+    "fogDensity": 0.014,
+    "rays": 0.75,
+    "exposure": 1.04,
+    "interior": 0.6,
+    "shadowTint": "#12404a",
+    "highlightTint": "#fff0d6",
+    "sunEl": 40,
+    "sunAz": 120
+   },
+   "hold": true
+  },
+  {
+   "t": 100.282,
+   "palette": {
+    "name": "dusk",
+    "skyTop": "#0f2a33",
+    "skyHorizon": "#c9744a",
+    "sun": "#e8945c",
+    "sunIntensity": 1.5,
+    "hemiSky": "#6f9496",
+    "hemiGround": "#22201e",
+    "hemiIntensity": 0.8,
+    "fog": "#4d5654",
+    "fogDensity": 0.028,
+    "rays": 0.8,
+    "exposure": 0.98,
+    "interior": 0.5,
+    "shadowTint": "#082c36",
+    "highlightTint": "#ffd8ad",
+    "sunEl": 6,
+    "sunAz": 60
+   },
+   "cut": false
+  },
+  {
+   "t": 103.912,
+   "palette": {
+    "name": "dusk",
+    "skyTop": "#0f2a33",
+    "skyHorizon": "#c9744a",
+    "sun": "#e8945c",
+    "sunIntensity": 1.5,
+    "hemiSky": "#6f9496",
+    "hemiGround": "#22201e",
+    "hemiIntensity": 0.8,
+    "fog": "#4d5654",
+    "fogDensity": 0.028,
+    "rays": 0.8,
+    "exposure": 0.98,
+    "interior": 0.5,
+    "shadowTint": "#082c36",
+    "highlightTint": "#ffd8ad",
+    "sunEl": 6,
+    "sunAz": 60
+   },
+   "hold": true
+  },
+  {
+   "t": 103.922,
+   "palette": {
+    "name": "cellar",
+    "skyTop": "#05080a",
+    "skyHorizon": "#120e0b",
+    "sun": "#5a4a3a",
+    "sunIntensity": 0.12,
+    "hemiSky": "#4a3a2c",
+    "hemiGround": "#0c0806",
+    "hemiIntensity": 0.35,
+    "fog": "#0d0a08",
+    "fogDensity": 0.05,
+    "rays": 0,
+    "exposure": 1.05,
+    "interior": 0,
+    "shadowTint": "#0a242a",
+    "highlightTint": "#ffd9a8",
+    "sunEl": 60,
+    "sunAz": 0
+   },
+   "cut": true
+  },
+  {
+   "t": 104.822,
+   "palette": {
+    "name": "night",
+    "skyTop": "#03090f",
+    "skyHorizon": "#14303c",
+    "sun": "#6f95b5",
+    "sunIntensity": 0.45,
+    "hemiSky": "#284a5c",
+    "hemiGround": "#080b0e",
+    "hemiIntensity": 0.45,
+    "fog": "#0c1f29",
+    "fogDensity": 0.03,
+    "rays": 0.12,
+    "exposure": 1,
+    "interior": 1.5,
+    "shadowTint": "#06222c",
+    "highlightTint": "#ffd9a8",
+    "sunEl": -6,
+    "sunAz": 40
+   },
+   "cut": false
+  },
+  {
+   "t": 113.351,
+   "palette": {
+    "name": "cellar",
+    "skyTop": "#05080a",
+    "skyHorizon": "#120e0b",
+    "sun": "#5a4a3a",
+    "sunIntensity": 0.12,
+    "hemiSky": "#4a3a2c",
+    "hemiGround": "#0c0806",
+    "hemiIntensity": 0.35,
+    "fog": "#0d0a08",
+    "fogDensity": 0.05,
+    "rays": 0,
+    "exposure": 1.05,
+    "interior": 0,
+    "shadowTint": "#0a242a",
+    "highlightTint": "#ffd9a8",
+    "sunEl": 60,
+    "sunAz": 0
+   }
+  },
+  {
+   "t": 114.351,
+   "palette": {
+    "name": "cellar",
+    "skyTop": "#05080a",
+    "skyHorizon": "#120e0b",
+    "sun": "#5a4a3a",
+    "sunIntensity": 0.12,
+    "hemiSky": "#4a3a2c",
+    "hemiGround": "#0c0806",
+    "hemiIntensity": 0.35,
+    "fog": "#0d0a08",
+    "fogDensity": 0.05,
+    "rays": 0,
+    "exposure": 1.05,
+    "interior": 0,
+    "shadowTint": "#0a242a",
+    "highlightTint": "#ffd9a8",
+    "sunEl": 60,
+    "sunAz": 0
+   }
+  },
+  {
+   "t": 127.011,
+   "palette": {
+    "name": "cellar",
+    "skyTop": "#05080a",
+    "skyHorizon": "#120e0b",
+    "sun": "#5a4a3a",
+    "sunIntensity": 0.12,
+    "hemiSky": "#4a3a2c",
+    "hemiGround": "#0c0806",
+    "hemiIntensity": 0.35,
+    "fog": "#0d0a08",
+    "fogDensity": 0.05,
+    "rays": 0,
+    "exposure": 1.05,
+    "interior": 0,
+    "shadowTint": "#0a242a",
+    "highlightTint": "#ffd9a8",
+    "sunEl": 60,
+    "sunAz": 0
+   }
+  },
+  {
+   "t": 128.011,
+   "palette": {
+    "name": "cellar",
+    "skyTop": "#05080a",
+    "skyHorizon": "#120e0b",
+    "sun": "#5a4a3a",
+    "sunIntensity": 0.12,
+    "hemiSky": "#4a3a2c",
+    "hemiGround": "#0c0806",
+    "hemiIntensity": 0.35,
+    "fog": "#0d0a08",
+    "fogDensity": 0.05,
+    "rays": 0,
+    "exposure": 1.05,
+    "interior": 0,
+    "shadowTint": "#0a242a",
+    "highlightTint": "#ffd9a8",
+    "sunEl": 60,
+    "sunAz": 0
+   }
+  },
+  {
+   "t": 131.551,
+   "palette": {
+    "name": "cellar",
+    "skyTop": "#05080a",
+    "skyHorizon": "#120e0b",
+    "sun": "#5a4a3a",
+    "sunIntensity": 0.12,
+    "hemiSky": "#4a3a2c",
+    "hemiGround": "#0c0806",
+    "hemiIntensity": 0.35,
+    "fog": "#0d0a08",
+    "fogDensity": 0.05,
+    "rays": 0,
+    "exposure": 1.05,
+    "interior": 0,
+    "shadowTint": "#0a242a",
+    "highlightTint": "#ffd9a8",
+    "sunEl": 60,
+    "sunAz": 0
+   },
+   "hold": true
+  },
+  {
+   "t": 132.461,
+   "palette": {
+    "name": "cellar",
+    "skyTop": "#05080a",
+    "skyHorizon": "#120e0b",
+    "sun": "#5a4a3a",
+    "sunIntensity": 0.12,
+    "hemiSky": "#4a3a2c",
+    "hemiGround": "#0c0806",
+    "hemiIntensity": 0.35,
+    "fog": "#0d0a08",
+    "fogDensity": 0.05,
+    "rays": 0,
+    "exposure": 0.85,
+    "interior": 0,
+    "shadowTint": "#0a242a",
+    "highlightTint": "#ffd9a8",
+    "sunEl": 60,
+    "sunAz": 0
+   },
+   "cut": false
+  }
+ ],
+ "events": [
+  {
+   "t": 0,
+   "type": "fadeIn",
+   "scene": 0
+  },
+  {
+   "t": 0,
+   "type": "titleSting"
+  },
+  {
+   "t": 0.3,
+   "type": "bellWrong",
+   "scene": 0
+  },
+  {
+   "t": 4.4,
+   "type": "whip",
+   "scene": 0
+  },
+  {
+   "t": 7.18,
+   "type": "bellWrong",
+   "scene": 0
+  },
+  {
+   "t": 11.46,
+   "type": "reset",
+   "scene": 1
+  },
+  {
+   "t": 13.94,
+   "type": "whip",
+   "scene": 1
+  },
+  {
+   "t": 14.09,
+   "type": "bell",
+   "scene": 1
+  },
+  {
+   "t": 14.78,
+   "type": "whip",
+   "scene": 1,
+   "dir": -1
+  },
+  {
+   "t": 15.13,
+   "type": "clatter",
+   "scene": 1
+  },
+  {
+   "t": 15.66,
+   "type": "whip",
+   "scene": 1
+  },
+  {
+   "t": 25.99,
+   "type": "stinger",
+   "scene": 2
+  },
+  {
+   "t": 25.99,
+   "type": "tickBurst",
+   "scene": 2
+  },
+  {
+   "t": 33.17,
+   "type": "tickBurst",
+   "scene": 3
+  },
+  {
+   "t": 34.07,
+   "type": "tickBurst",
+   "scene": 3
+  },
+  {
+   "t": 42.31,
+   "type": "whip",
+   "scene": 4,
+   "dir": -1
+  },
+  {
+   "t": 42.46,
+   "type": "clatter",
+   "scene": 4
+  },
+  {
+   "t": 46.56,
+   "type": "drop",
+   "scene": 5,
+   "dur": 9
+  },
+  {
+   "t": 48.3,
+   "type": "thud",
+   "scene": 5
+  },
+  {
+   "t": 48.85,
+   "type": "heartbeat",
+   "scene": 5,
+   "n": 5
+  },
+  {
+   "t": 55.44,
+   "type": "whip",
+   "scene": 6
+  },
+  {
+   "t": 57.04,
+   "type": "flicker",
+   "scene": 6,
+   "dur": 0.45
+  },
+  {
+   "t": 64.96,
+   "type": "stinger",
+   "scene": 7
+  },
+  {
+   "t": 65.82,
+   "type": "heartbeat",
+   "scene": 7,
+   "n": 3
+  },
+  {
+   "t": 68.74,
+   "type": "rumble",
+   "scene": 8
+  },
+  {
+   "t": 81.741,
+   "type": "fogPulse",
+   "scene": 9
+  },
+  {
+   "t": 81.941,
+   "type": "stinger",
+   "scene": 9
+  },
+  {
+   "t": 88.511,
+   "type": "thud",
+   "scene": 10
+  },
+  {
+   "t": 96.262,
+   "type": "riser",
+   "scene": 11,
+   "dur": 6.5
+  },
+  {
+   "t": 101.882,
+   "type": "hatchOpen",
+   "scene": 11
+  },
+  {
+   "t": 101.882,
+   "type": "doorCreak",
+   "scene": 11
+  },
+  {
+   "t": 103.922,
+   "type": "dip",
+   "scene": 12
+  },
+  {
+   "t": 105.952,
+   "type": "sting",
+   "scene": 12
+  },
+  {
+   "t": 122.561,
+   "type": "stinger",
+   "scene": 13
+  },
+  {
+   "t": 125.421,
+   "type": "scratch",
+   "scene": 13
+  },
+  {
+   "t": 127.961,
+   "type": "silence",
+   "scene": 14
+  },
+  {
+   "t": 129.851,
+   "type": "heartbeat",
+   "scene": 14,
+   "n": 4
+  },
+  {
+   "t": 136.241,
+   "type": "doorCreak",
+   "scene": 14
+  },
+  {
+   "t": 142.971,
+   "type": "stinger",
+   "scene": 14
+  },
+  {
+   "t": 143.271,
+   "type": "blackout",
+   "scene": 14
+  },
+  {
+   "t": 143.671,
+   "type": "endSting"
+  },
+  {
+   "t": 143.821,
+   "type": "glitchFrame",
+   "scene": 14
+  }
+ ],
+ "actors": {
+  "wren": {
+   "spans": [
+    [
+     -0.5,
+     11.96,
+     0
+    ],
+    [
+     11.46,
+     20.43,
+     1
+    ],
+    [
+     19.43,
+     28.61,
+     2
+    ],
+    [
+     27.61,
+     39.77,
+     3
+    ],
+    [
+     38.77,
+     46.71,
+     4
+    ],
+    [
+     45.71,
+     54.1,
+     5
+    ],
+    [
+     53.1,
+     61.53,
+     6
+    ],
+    [
+     60.53,
+     69.04,
+     7
+    ],
+    [
+     68.04,
+     80.251,
+     8
+    ],
+    [
+     79.251,
+     87.961,
+     9
+    ],
+    [
+     86.961,
+     96.312,
+     10
+    ],
+    [
+     95.312,
+     104.422,
+     11
+    ],
+    [
+     103.922,
+     114.351,
+     12
+    ],
+    [
+     113.351,
+     128.011,
+     13
+    ],
+    [
+     127.011,
+     144.021,
+     14
+    ]
+   ],
+   "keys": [
+    {
+     "pos": [
+      0,
+      0,
+      -20.2
+     ],
+     "rot": 0,
+     "action": "idle",
+     "t": 0,
+     "scene": 0
+    },
+    {
+     "pos": [
+      0,
+      0,
+      -20.2
+     ],
+     "rot": 0,
+     "action": "spin",
+     "t": 4.35,
+     "scene": 0
+    },
+    {
+     "pos": [
+      19.9,
+      0,
+      9.6
+     ],
+     "rot": -1.5708,
+     "action": "sitUpInBed",
+     "t": 11.46,
+     "scene": 1
+    },
+    {
+     "pos": [
+      9,
+      0,
+      9.9
+     ],
+     "rot": 1.2,
+     "action": "idle",
+     "t": 19.93,
+     "scene": 2
+    },
+    {
+     "pos": [
+      9.3,
+      0,
+      9.8
+     ],
+     "rot": 1,
+     "action": "lean",
+     "t": 21.76,
+     "scene": 2
+    },
+    {
+     "pos": [
+      5.5,
+      0,
+      6
+     ],
+     "rot": 2.6,
+     "action": "lookAround",
+     "t": 28.11,
+     "scene": 3
+    },
+    {
+     "pos": [
+      3.2,
+      0,
+      1.8
+     ],
+     "rot": -2.25,
+     "action": "run",
+     "t": 39.27,
+     "scene": 4
+    },
+    {
+     "pos": [
+      -4.75,
+      0,
+      -4.35
+     ],
+     "rot": -2.25,
+     "action": "knock",
+     "t": 42.16,
+     "scene": 4
+    },
+    {
+     "pos": [
+      -4.75,
+      0,
+      -4.35
+     ],
+     "rot": 0.6,
+     "action": "stiffen",
+     "t": 46.21,
+     "scene": 5
+    },
+    {
+     "pos": [
+      -4.75,
+      0,
+      -4.35
+     ],
+     "rot": 0.6,
+     "action": "stiffen",
+     "t": 53.6,
+     "scene": 6
+    },
+    {
+     "pos": [
+      -4.75,
+      0,
+      -4.35
+     ],
+     "rot": 0.6,
+     "action": "stiffen",
+     "t": 61.03,
+     "scene": 7
+    },
+    {
+     "pos": [
+      -3.6,
+      0,
+      -2.4
+     ],
+     "rot": 1.9,
+     "action": "run",
+     "t": 68.54,
+     "scene": 8
+    },
+    {
+     "pos": [
+      3,
+      0,
+      -2.6
+     ],
+     "rot": 2.4,
+     "action": "run",
+     "t": 71.831,
+     "scene": 8
+    },
+    {
+     "pos": [
+      6.9,
+      0,
+      -7.2
+     ],
+     "rot": 2.6,
+     "action": "run",
+     "t": 79.751,
+     "scene": 8
+    },
+    {
+     "pos": [
+      6.9,
+      0,
+      -7.2
+     ],
+     "rot": 2.6,
+     "action": "run",
+     "t": 79.751,
+     "scene": 9
+    },
+    {
+     "pos": [
+      9.2,
+      0,
+      -11
+     ],
+     "rot": 2.5,
+     "action": "walk",
+     "t": 81.841,
+     "scene": 9
+    },
+    {
+     "pos": [
+      10.4,
+      0,
+      -14.2
+     ],
+     "rot": 2.3,
+     "action": "lookAround",
+     "t": 87.461,
+     "scene": 9
+    },
+    {
+     "pos": [
+      12,
+      0,
+      -14.6
+     ],
+     "rot": 2,
+     "action": "walk",
+     "t": 87.461,
+     "scene": 10
+    },
+    {
+     "pos": [
+      14,
+      0,
+      -14.7
+     ],
+     "rot": 2.6,
+     "action": "idle",
+     "t": 90.391,
+     "scene": 10
+    },
+    {
+     "pos": [
+      14,
+      0,
+      -14.7
+     ],
+     "rot": 2.9,
+     "action": "idle",
+     "t": 95.812,
+     "scene": 11
+    },
+    {
+     "pos": [
+      15,
+      0,
+      -14.5
+     ],
+     "rot": 3.14159,
+     "action": "crouch",
+     "t": 101.382,
+     "scene": 11
+    },
+    {
+     "pos": [
+      60.2,
+      -30,
+      1.6
+     ],
+     "rot": 3.14159,
+     "action": "lookAround",
+     "t": 103.922,
+     "scene": 12
+    },
+    {
+     "pos": [
+      60.2,
+      -30,
+      1.2
+     ],
+     "rot": 3.14159,
+     "action": "walk",
+     "t": 113.851,
+     "scene": 13
+    },
+    {
+     "pos": [
+      59.45,
+      -30,
+      -1.2
+     ],
+     "rot": 3,
+     "action": "idle",
+     "t": 121.361,
+     "scene": 13
+    },
+    {
+     "pos": [
+      59.45,
+      -30,
+      -1.2
+     ],
+     "rot": 3,
+     "action": "idle",
+     "t": 127.511,
+     "scene": 14
+    },
+    {
+     "pos": [
+      59.45,
+      -30,
+      -1.2
+     ],
+     "rot": 3,
+     "action": "stiffen",
+     "t": 130.051,
+     "scene": 14
+    }
+   ]
+  },
+  "bell": {
+   "spans": [
+    [
+     -0.5,
+     11.96,
+     0
+    ],
+    [
+     11.46,
+     20.43,
+     1
+    ]
+   ],
+   "keys": [
+    {
+     "rot": 0,
+     "action": "swingWrong",
+     "amp": 0.7,
+     "t": 0,
+     "scene": 0
+    },
+    {
+     "rot": 0,
+     "action": "swing",
+     "amp": 0.6,
+     "t": 11.46,
+     "scene": 1
+    }
+   ]
+  },
+  "baker": {
+   "spans": [
+    [
+     11.46,
+     20.43,
+     1
+    ],
+    [
+     27.61,
+     39.77,
+     3
+    ],
+    [
+     38.77,
+     46.71,
+     4
+    ],
+    [
+     45.71,
+     54.1,
+     5
+    ],
+    [
+     53.1,
+     61.53,
+     6
+    ],
+    [
+     60.53,
+     69.04,
+     7
+    ],
+    [
+     68.04,
+     80.251,
+     8
+    ]
+   ],
+   "keys": [
+    {
+     "pos": [
+      -5.5,
+      0,
+      -5
+     ],
+     "rot": 1.2,
+     "action": "dropLoop",
+     "period": 5,
+     "t": 11.46,
+     "scene": 1
+    },
+    {
+     "pos": [
+      -5.5,
+      0,
+      -5
+     ],
+     "rot": 1.2,
+     "action": "dropLoop",
+     "period": 5,
+     "t": 28.11,
+     "scene": 3
+    },
+    {
+     "pos": [
+      -5.5,
+      0,
+      -5
+     ],
+     "rot": 1.2,
+     "action": "carryTray",
+     "t": 39.27,
+     "scene": 4
+    },
+    {
+     "pos": [
+      -5.5,
+      0,
+      -5
+     ],
+     "rot": 1.2,
+     "action": "dropTray",
+     "t": 42.31,
+     "scene": 4
+    },
+    {
+     "pos": [
+      -5.5,
+      0,
+      -5
+     ],
+     "rot": 1.2,
+     "action": "idle",
+     "t": 46.21,
+     "scene": 5
+    },
+    {
+     "pos": [
+      -5.5,
+      0,
+      -5
+     ],
+     "rot": 1.2,
+     "action": "stare",
+     "target": [
+      -4.75,
+      -4.35
+     ],
+     "turn": 0.22,
+     "t": 48.3,
+     "scene": 5
+    },
+    {
+     "pos": [
+      -5.5,
+      0,
+      -5
+     ],
+     "rot": 1.2,
+     "action": "stare",
+     "target": [
+      -4.75,
+      -4.35
+     ],
+     "turn": 0.01,
+     "t": 53.6,
+     "scene": 6
+    },
+    {
+     "pos": [
+      -5.5,
+      0,
+      -5
+     ],
+     "rot": 1.2,
+     "action": "smileStare",
+     "target": [
+      -4.75,
+      -4.35
+     ],
+     "t": 54.15,
+     "scene": 6
+    },
+    {
+     "pos": [
+      -5.5,
+      0,
+      -5
+     ],
+     "rot": 1.2,
+     "action": "dropLoop",
+     "period": 5,
+     "t": 57.04,
+     "scene": 6
+    },
+    {
+     "pos": [
+      -5.5,
+      0,
+      -5
+     ],
+     "rot": 1.2,
+     "action": "smileStare",
+     "target": [
+      -4.75,
+      -4.35
+     ],
+     "t": 61.03,
+     "scene": 7
+    },
+    {
+     "pos": [
+      -5.5,
+      0,
+      -5
+     ],
+     "rot": 1.2,
+     "action": "dropLoop",
+     "period": 5,
+     "t": 68.54,
+     "scene": 8
+    }
+   ]
+  },
+  "sweeper": {
+   "spans": [
+    [
+     11.46,
+     20.43,
+     1
+    ],
+    [
+     27.61,
+     39.77,
+     3
+    ],
+    [
+     38.77,
+     46.71,
+     4
+    ],
+    [
+     45.71,
+     54.1,
+     5
+    ],
+    [
+     53.1,
+     61.53,
+     6
+    ],
+    [
+     68.04,
+     80.251,
+     8
+    ]
+   ],
+   "keys": [
+    {
+     "pos": [
+      -4.2,
+      0,
+      6.2
+     ],
+     "rot": 0.6,
+     "action": "sweep",
+     "t": 11.46,
+     "scene": 1
+    },
+    {
+     "pos": [
+      -4.2,
+      0,
+      6.2
+     ],
+     "rot": 0.6,
+     "action": "sweep",
+     "t": 28.11,
+     "scene": 3
+    },
+    {
+     "pos": [
+      -4.2,
+      0,
+      6.2
+     ],
+     "rot": 0.6,
+     "action": "sweep",
+     "t": 39.27,
+     "scene": 4
+    },
+    {
+     "pos": [
+      -4.2,
+      0,
+      6.2
+     ],
+     "rot": 0.6,
+     "action": "sweep",
+     "t": 46.21,
+     "scene": 5
+    },
+    {
+     "pos": [
+      -4.2,
+      0,
+      6.2
+     ],
+     "rot": 0.6,
+     "action": "stare",
+     "target": [
+      -4.75,
+      -4.35
+     ],
+     "turn": 0.22,
+     "t": 48.3,
+     "scene": 5
+    },
+    {
+     "pos": [
+      -4.2,
+      0,
+      6.2
+     ],
+     "rot": 0.6,
+     "action": "stare",
+     "target": [
+      -4.75,
+      -4.35
+     ],
+     "turn": 0.01,
+     "t": 53.6,
+     "scene": 6
+    },
+    {
+     "pos": [
+      -4.2,
+      0,
+      6.2
+     ],
+     "rot": 0.6,
+     "action": "stare",
+     "target": [
+      -4.75,
+      -4.35
+     ],
+     "turn": 0.22,
+     "t": 53.6,
+     "scene": 6
+    },
+    {
+     "pos": [
+      -4.2,
+      0,
+      6.2
+     ],
+     "rot": 0.6,
+     "action": "smileStare",
+     "target": [
+      -4.75,
+      -4.35
+     ],
+     "t": 54.15,
+     "scene": 6
+    },
+    {
+     "pos": [
+      -4.2,
+      0,
+      6.2
+     ],
+     "rot": 0.6,
+     "action": "sweep",
+     "t": 57.04,
+     "scene": 6
+    },
+    {
+     "pos": [
+      -4.2,
+      0,
+      6.2
+     ],
+     "rot": 0.6,
+     "action": "sweep",
+     "t": 68.54,
+     "scene": 8
+    }
+   ]
+  },
+  "bucketman": {
+   "spans": [
+    [
+     11.46,
+     20.43,
+     1
+    ],
+    [
+     27.61,
+     39.77,
+     3
+    ],
+    [
+     38.77,
+     46.71,
+     4
+    ],
+    [
+     45.71,
+     54.1,
+     5
+    ],
+    [
+     53.1,
+     61.53,
+     6
+    ],
+    [
+     68.04,
+     80.251,
+     8
+    ]
+   ],
+   "keys": [
+    {
+     "pos": [
+      -1.75,
+      0,
+      -0.3
+     ],
+     "rot": 1.4,
+     "action": "bucket",
+     "t": 11.46,
+     "scene": 1
+    },
+    {
+     "pos": [
+      -1.75,
+      0,
+      -0.3
+     ],
+     "rot": 1.4,
+     "action": "bucket",
+     "t": 28.11,
+     "scene": 3
+    },
+    {
+     "pos": [
+      -1.75,
+      0,
+      -0.3
+     ],
+     "rot": 1.4,
+     "action": "bucket",
+     "t": 39.27,
+     "scene": 4
+    },
+    {
+     "pos": [
+      -1.75,
+      0,
+      -0.3
+     ],
+     "rot": 1.4,
+     "action": "bucket",
+     "t": 46.21,
+     "scene": 5
+    },
+    {
+     "pos": [
+      -1.75,
+      0,
+      -0.3
+     ],
+     "rot": 1.4,
+     "action": "stare",
+     "target": [
+      -4.75,
+      -4.35
+     ],
+     "turn": 0.22,
+     "t": 48.3,
+     "scene": 5
+    },
+    {
+     "pos": [
+      -1.75,
+      0,
+      -0.3
+     ],
+     "rot": 1.4,
+     "action": "stare",
+     "target": [
+      -4.75,
+      -4.35
+     ],
+     "turn": 0.01,
+     "t": 53.6,
+     "scene": 6
+    },
+    {
+     "pos": [
+      -1.75,
+      0,
+      -0.3
+     ],
+     "rot": 1.4,
+     "action": "stare",
+     "target": [
+      -4.75,
+      -4.35
+     ],
+     "turn": 0.22,
+     "t": 53.6,
+     "scene": 6
+    },
+    {
+     "pos": [
+      -1.75,
+      0,
+      -0.3
+     ],
+     "rot": 1.4,
+     "action": "smileStare",
+     "target": [
+      -4.75,
+      -4.35
+     ],
+     "t": 54.15,
+     "scene": 6
+    },
+    {
+     "pos": [
+      -1.75,
+      0,
+      -0.3
+     ],
+     "rot": 1.4,
+     "action": "bucket",
+     "t": 57.04,
+     "scene": 6
+    },
+    {
+     "pos": [
+      -1.75,
+      0,
+      -0.3
+     ],
+     "rot": 1.4,
+     "action": "bucket",
+     "t": 68.54,
+     "scene": 8
+    }
+   ]
+  },
+  "oldman": {
+   "spans": [
+    [
+     11.46,
+     20.43,
+     1
+    ],
+    [
+     27.61,
+     39.77,
+     3
+    ],
+    [
+     38.77,
+     46.71,
+     4
+    ],
+    [
+     45.71,
+     54.1,
+     5
+    ],
+    [
+     53.1,
+     61.53,
+     6
+    ],
+    [
+     68.04,
+     80.251,
+     8
+    ]
+   ],
+   "keys": [
+    {
+     "pos": [
+      2.5,
+      0,
+      2.4
+     ],
+     "rot": 0.9,
+     "action": "joke",
+     "t": 11.46,
+     "scene": 1
+    },
+    {
+     "pos": [
+      2.5,
+      0,
+      2.4
+     ],
+     "rot": 0.9,
+     "action": "joke",
+     "t": 28.11,
+     "scene": 3
+    },
+    {
+     "pos": [
+      2.5,
+      0,
+      2.4
+     ],
+     "rot": 0.9,
+     "action": "joke",
+     "t": 39.27,
+     "scene": 4
+    },
+    {
+     "pos": [
+      2.5,
+      0,
+      2.4
+     ],
+     "rot": 0.9,
+     "action": "joke",
+     "t": 46.21,
+     "scene": 5
+    },
+    {
+     "pos": [
+      2.5,
+      0,
+      2.4
+     ],
+     "rot": 0.9,
+     "action": "stare",
+     "target": [
+      -4.75,
+      -4.35
+     ],
+     "turn": 0.22,
+     "t": 48.3,
+     "scene": 5
+    },
+    {
+     "pos": [
+      2.5,
+      0,
+      2.4
+     ],
+     "rot": 0.9,
+     "action": "stare",
+     "target": [
+      -4.75,
+      -4.35
+     ],
+     "turn": 0.01,
+     "t": 53.6,
+     "scene": 6
+    },
+    {
+     "pos": [
+      2.5,
+      0,
+      2.4
+     ],
+     "rot": 0.9,
+     "action": "stare",
+     "target": [
+      -4.75,
+      -4.35
+     ],
+     "turn": 0.22,
+     "t": 53.6,
+     "scene": 6
+    },
+    {
+     "pos": [
+      2.5,
+      0,
+      2.4
+     ],
+     "rot": 0.9,
+     "action": "smileStare",
+     "target": [
+      -4.75,
+      -4.35
+     ],
+     "t": 54.15,
+     "scene": 6
+    },
+    {
+     "pos": [
+      2.5,
+      0,
+      2.4
+     ],
+     "rot": 0.9,
+     "action": "joke",
+     "t": 57.04,
+     "scene": 6
+    },
+    {
+     "pos": [
+      2.5,
+      0,
+      2.4
+     ],
+     "rot": 0.9,
+     "action": "joke",
+     "t": 68.54,
+     "scene": 8
+    }
+   ]
+  },
+  "goat": {
+   "spans": [
+    [
+     11.46,
+     20.43,
+     1
+    ],
+    [
+     27.61,
+     39.77,
+     3
+    ],
+    [
+     38.77,
+     46.71,
+     4
+    ],
+    [
+     45.71,
+     54.1,
+     5
+    ],
+    [
+     53.1,
+     61.53,
+     6
+    ],
+    [
+     68.04,
+     80.251,
+     8
+    ]
+   ],
+   "keys": [
+    {
+     "pos": [
+      3.7,
+      0,
+      3.3
+     ],
+     "rot": -2.3,
+     "action": "graze",
+     "t": 11.46,
+     "scene": 1
+    },
+    {
+     "pos": [
+      3.7,
+      0,
+      3.3
+     ],
+     "rot": -2.3,
+     "action": "graze",
+     "t": 28.11,
+     "scene": 3
+    },
+    {
+     "pos": [
+      3.7,
+      0,
+      3.3
+     ],
+     "rot": -2.3,
+     "action": "graze",
+     "t": 39.27,
+     "scene": 4
+    },
+    {
+     "pos": [
+      3.7,
+      0,
+      3.3
+     ],
+     "rot": -2.3,
+     "action": "graze",
+     "t": 46.21,
+     "scene": 5
+    },
+    {
+     "pos": [
+      3.7,
+      0,
+      3.3
+     ],
+     "rot": -2.3,
+     "action": "stare",
+     "target": [
+      -4.75,
+      -4.35
+     ],
+     "turn": 0.22,
+     "t": 48.3,
+     "scene": 5
+    },
+    {
+     "pos": [
+      3.7,
+      0,
+      3.3
+     ],
+     "rot": -2.3,
+     "action": "stare",
+     "target": [
+      -4.75,
+      -4.35
+     ],
+     "turn": 0.01,
+     "t": 53.6,
+     "scene": 6
+    },
+    {
+     "pos": [
+      3.7,
+      0,
+      3.3
+     ],
+     "rot": -2.3,
+     "action": "stare",
+     "target": [
+      -4.75,
+      -4.35
+     ],
+     "turn": 0.22,
+     "t": 53.6,
+     "scene": 6
+    },
+    {
+     "pos": [
+      3.7,
+      0,
+      3.3
+     ],
+     "rot": -2.3,
+     "action": "smileStare",
+     "target": [
+      -4.75,
+      -4.35
+     ],
+     "t": 54.15,
+     "scene": 6
+    },
+    {
+     "pos": [
+      3.7,
+      0,
+      3.3
+     ],
+     "rot": -2.3,
+     "action": "graze",
+     "t": 57.04,
+     "scene": 6
+    },
+    {
+     "pos": [
+      3.7,
+      0,
+      3.3
+     ],
+     "rot": -2.3,
+     "action": "graze",
+     "t": 68.54,
+     "scene": 8
+    }
+   ]
+  },
+  "villagerA": {
+   "spans": [
+    [
+     11.46,
+     20.43,
+     1
+    ],
+    [
+     27.61,
+     39.77,
+     3
+    ],
+    [
+     38.77,
+     46.71,
+     4
+    ],
+    [
+     45.71,
+     54.1,
+     5
+    ],
+    [
+     53.1,
+     61.53,
+     6
+    ]
+   ],
+   "keys": [
+    {
+     "pos": [
+      -0.8,
+      0,
+      4.4
+     ],
+     "rot": 2.6,
+     "action": "idle",
+     "t": 11.46,
+     "scene": 1
+    },
+    {
+     "pos": [
+      -0.8,
+      0,
+      4.4
+     ],
+     "rot": 2.6,
+     "action": "idle",
+     "t": 28.11,
+     "scene": 3
+    },
+    {
+     "pos": [
+      -0.8,
+      0,
+      4.4
+     ],
+     "rot": 2.6,
+     "action": "idle",
+     "t": 39.27,
+     "scene": 4
+    },
+    {
+     "pos": [
+      -0.8,
+      0,
+      4.4
+     ],
+     "rot": 2.6,
+     "action": "idle",
+     "t": 46.21,
+     "scene": 5
+    },
+    {
+     "pos": [
+      -0.8,
+      0,
+      4.4
+     ],
+     "rot": 2.6,
+     "action": "stare",
+     "target": [
+      -4.75,
+      -4.35
+     ],
+     "turn": 0.22,
+     "t": 48.3,
+     "scene": 5
+    },
+    {
+     "pos": [
+      -0.8,
+      0,
+      4.4
+     ],
+     "rot": 2.6,
+     "action": "stare",
+     "target": [
+      -4.75,
+      -4.35
+     ],
+     "turn": 0.01,
+     "t": 53.6,
+     "scene": 6
+    },
+    {
+     "pos": [
+      -0.8,
+      0,
+      4.4
+     ],
+     "rot": 2.6,
+     "action": "stare",
+     "target": [
+      -4.75,
+      -4.35
+     ],
+     "turn": 0.22,
+     "t": 53.6,
+     "scene": 6
+    },
+    {
+     "pos": [
+      -0.8,
+      0,
+      4.4
+     ],
+     "rot": 2.6,
+     "action": "smileStare",
+     "target": [
+      -4.75,
+      -4.35
+     ],
+     "t": 54.15,
+     "scene": 6
+    },
+    {
+     "pos": [
+      -0.8,
+      0,
+      4.4
+     ],
+     "rot": 2.6,
+     "action": "idle",
+     "t": 57.04,
+     "scene": 6
+    }
+   ]
+  },
+  "villagerB": {
+   "spans": [
+    [
+     11.46,
+     20.43,
+     1
+    ],
+    [
+     27.61,
+     39.77,
+     3
+    ],
+    [
+     38.77,
+     46.71,
+     4
+    ],
+    [
+     45.71,
+     54.1,
+     5
+    ],
+    [
+     53.1,
+     61.53,
+     6
+    ]
+   ],
+   "keys": [
+    {
+     "pos": [
+      3.8,
+      0,
+      -2.2
+     ],
+     "rot": -0.9,
+     "action": "idle",
+     "t": 11.46,
+     "scene": 1
+    },
+    {
+     "pos": [
+      3.8,
+      0,
+      -2.2
+     ],
+     "rot": -0.9,
+     "action": "idle",
+     "t": 28.11,
+     "scene": 3
+    },
+    {
+     "pos": [
+      3.8,
+      0,
+      -2.2
+     ],
+     "rot": -0.9,
+     "action": "idle",
+     "t": 39.27,
+     "scene": 4
+    },
+    {
+     "pos": [
+      3.8,
+      0,
+      -2.2
+     ],
+     "rot": -0.9,
+     "action": "idle",
+     "t": 46.21,
+     "scene": 5
+    },
+    {
+     "pos": [
+      3.8,
+      0,
+      -2.2
+     ],
+     "rot": -0.9,
+     "action": "stare",
+     "target": [
+      -4.75,
+      -4.35
+     ],
+     "turn": 0.22,
+     "t": 48.3,
+     "scene": 5
+    },
+    {
+     "pos": [
+      3.8,
+      0,
+      -2.2
+     ],
+     "rot": -0.9,
+     "action": "stare",
+     "target": [
+      -4.75,
+      -4.35
+     ],
+     "turn": 0.01,
+     "t": 53.6,
+     "scene": 6
+    },
+    {
+     "pos": [
+      3.8,
+      0,
+      -2.2
+     ],
+     "rot": -0.9,
+     "action": "stare",
+     "target": [
+      -4.75,
+      -4.35
+     ],
+     "turn": 0.22,
+     "t": 53.6,
+     "scene": 6
+    },
+    {
+     "pos": [
+      3.8,
+      0,
+      -2.2
+     ],
+     "rot": -0.9,
+     "action": "smileStare",
+     "target": [
+      -4.75,
+      -4.35
+     ],
+     "t": 54.15,
+     "scene": 6
+    },
+    {
+     "pos": [
+      3.8,
+      0,
+      -2.2
+     ],
+     "rot": -0.9,
+     "action": "idle",
+     "t": 57.04,
+     "scene": 6
+    }
+   ]
+  },
+  "child": {
+   "spans": [
+    [
+     11.46,
+     20.43,
+     1
+    ],
+    [
+     27.61,
+     39.77,
+     3
+    ],
+    [
+     38.77,
+     46.71,
+     4
+    ],
+    [
+     45.71,
+     54.1,
+     5
+    ],
+    [
+     53.1,
+     61.53,
+     6
+    ]
+   ],
+   "keys": [
+    {
+     "pos": [
+      1.3,
+      0,
+      0.9
+     ],
+     "rot": 2.2,
+     "action": "lookAround",
+     "t": 11.46,
+     "scene": 1
+    },
+    {
+     "pos": [
+      1.3,
+      0,
+      0.9
+     ],
+     "rot": 2.2,
+     "action": "lookAround",
+     "t": 28.11,
+     "scene": 3
+    },
+    {
+     "pos": [
+      1.3,
+      0,
+      0.9
+     ],
+     "rot": 2.2,
+     "action": "lookAround",
+     "t": 39.27,
+     "scene": 4
+    },
+    {
+     "pos": [
+      1.3,
+      0,
+      0.9
+     ],
+     "rot": 2.2,
+     "action": "lookAround",
+     "t": 46.21,
+     "scene": 5
+    },
+    {
+     "pos": [
+      1.3,
+      0,
+      0.9
+     ],
+     "rot": 2.2,
+     "action": "stare",
+     "target": [
+      -4.75,
+      -4.35
+     ],
+     "turn": 0.22,
+     "t": 48.3,
+     "scene": 5
+    },
+    {
+     "pos": [
+      1.3,
+      0,
+      0.9
+     ],
+     "rot": 2.2,
+     "action": "stare",
+     "target": [
+      -4.75,
+      -4.35
+     ],
+     "turn": 0.01,
+     "t": 53.6,
+     "scene": 6
+    },
+    {
+     "pos": [
+      1.3,
+      0,
+      0.9
+     ],
+     "rot": 2.2,
+     "action": "stare",
+     "target": [
+      -4.75,
+      -4.35
+     ],
+     "turn": 0.22,
+     "t": 53.6,
+     "scene": 6
+    },
+    {
+     "pos": [
+      1.3,
+      0,
+      0.9
+     ],
+     "rot": 2.2,
+     "action": "smileStare",
+     "target": [
+      -4.75,
+      -4.35
+     ],
+     "t": 54.15,
+     "scene": 6
+    },
+    {
+     "pos": [
+      1.3,
+      0,
+      0.9
+     ],
+     "rot": 2.2,
+     "action": "lookAround",
+     "t": 57.04,
+     "scene": 6
+    }
+   ]
+  },
+  "cart": {
+   "spans": [
+    [
+     68.04,
+     80.251,
+     8
+    ],
+    [
+     79.251,
+     87.961,
+     9
+    ]
+   ],
+   "keys": [
+    {
+     "pos": [
+      2,
+      0,
+      -0.8
+     ],
+     "rot": 2.33,
+     "action": "roll",
+     "t": 68.54,
+     "scene": 8
+    },
+    {
+     "pos": [
+      8.5,
+      0,
+      -7
+     ],
+     "rot": 2.94,
+     "action": "roll",
+     "t": 71.831,
+     "scene": 8
+    },
+    {
+     "pos": [
+      9.8,
+      0,
+      -12.6
+     ],
+     "rot": 2.47,
+     "action": "roll",
+     "t": 79.751,
+     "scene": 8
+    },
+    {
+     "pos": [
+      9.8,
+      0,
+      -12.6
+     ],
+     "rot": 2.47,
+     "action": "roll",
+     "t": 79.751,
+     "scene": 9
+    },
+    {
+     "pos": [
+      12.4,
+      0,
+      -15.9
+     ],
+     "rot": 2.2,
+     "action": "roll",
+     "t": 81.581,
+     "scene": 9
+    },
+    {
+     "pos": [
+      12.4,
+      0,
+      -15.9
+     ],
+     "rot": 2.2,
+     "action": "hidden",
+     "t": 81.741,
+     "scene": 9
+    }
+   ]
+  },
+  "otherwren": {
+   "spans": [
+    [
+     127.011,
+     144.021,
+     14
+    ]
+   ],
+   "keys": [
+    {
+     "pos": [
+      60.05,
+      -30,
+      0.9
+     ],
+     "rot": 3.14159,
+     "action": "hidden",
+     "t": 127.511,
+     "scene": 14
+    },
+    {
+     "pos": [
+      60.05,
+      -30,
+      0.9
+     ],
+     "rot": 3.14159,
+     "action": "loom",
+     "t": 128.261,
+     "scene": 14
+    },
+    {
+     "pos": [
+      60.05,
+      -30,
+      -0.2
+     ],
+     "rot": 3.14159,
+     "action": "loom",
+     "t": 135.581,
+     "scene": 14
+    },
+    {
+     "pos": [
+      60.05,
+      -30,
+      -0.2
+     ],
+     "rot": 3.14159,
+     "action": "hoodDown",
+     "t": 135.841,
+     "scene": 14
+    }
+   ]
+  }
+ },
+ "overlays": [
+  {
+   "type": "handwriting",
+   "text": "tomorrow",
+   "anchor": [
+    60,
+    -28.98,
+    -2.83
+   ],
+   "from": 124.091,
+   "to": 126.961,
+   "scene": 13
+  }
+ ],
+ "captions": [
+  {
+   "scene": 0,
+   "words": [
+    {
+     "w": "I",
+     "t0": 4.65,
+     "t1": 4.92,
+     "sentence": 0,
+     "last": false
+    },
+    {
+     "w": "spun",
+     "t0": 4.92,
+     "t1": 5.191,
+     "sentence": 0,
+     "last": false
+    },
+    {
+     "w": "around.",
+     "t0": 5.191,
+     "t1": 5.63,
+     "sentence": 0,
+     "last": true
+    }
+   ],
+   "start": 4.47,
+   "end": 5.77,
+   "text": "I spun around."
+  },
+  {
+   "scene": 0,
+   "words": [
+    {
+     "w": "Nobody.",
+     "t0": 5.99,
+     "t1": 6.67,
+     "sentence": 1,
+     "last": true
+    }
+   ],
+   "start": 5.81,
+   "end": 6.81,
+   "text": "Nobody."
+  },
+  {
+   "scene": 0,
+   "words": [
+    {
+     "w": "Just",
+     "t0": 7.03,
+     "t1": 7.25,
+     "sentence": 2,
+     "last": false
+    },
+    {
+     "w": "the",
+     "t0": 7.25,
+     "t1": 7.47,
+     "sentence": 2,
+     "last": false
+    },
+    {
+     "w": "bell,",
+     "t0": 7.47,
+     "t1": 7.69,
+     "sentence": 2,
+     "last": false
+    }
+   ],
+   "start": 6.85,
+   "end": 7.7,
+   "text": "Just the bell,"
+  },
+  {
+   "scene": 0,
+   "words": [
+    {
+     "w": "still",
+     "t0": 7.92,
+     "t1": 8.193,
+     "sentence": 2,
+     "last": false
+    },
+    {
+     "w": "ringing",
+     "t0": 8.193,
+     "t1": 8.637,
+     "sentence": 2,
+     "last": false
+    },
+    {
+     "w": "wrong,",
+     "t0": 8.637,
+     "t1": 8.91,
+     "sentence": 2,
+     "last": false
+    }
+   ],
+   "start": 7.74,
+   "end": 8.94,
+   "text": "still ringing wrong,"
+  },
+  {
+   "scene": 0,
+   "words": [
+    {
+     "w": "like",
+     "t0": 9.16,
+     "t1": 9.326,
+     "sentence": 2,
+     "last": false
+    },
+    {
+     "w": "it",
+     "t0": 9.326,
+     "t1": 9.492,
+     "sentence": 2,
+     "last": false
+    },
+    {
+     "w": "was",
+     "t0": 9.492,
+     "t1": 9.658,
+     "sentence": 2,
+     "last": false
+    },
+    {
+     "w": "laughing",
+     "t0": 9.658,
+     "t1": 9.928,
+     "sentence": 2,
+     "last": false
+    },
+    {
+     "w": "at",
+     "t0": 9.928,
+     "t1": 10.094,
+     "sentence": 2,
+     "last": false
+    },
+    {
+     "w": "me.",
+     "t0": 10.094,
+     "t1": 10.26,
+     "sentence": 2,
+     "last": true
+    }
+   ],
+   "start": 8.98,
+   "end": 10.81,
+   "text": "like it was laughing at me."
+  },
+  {
+   "scene": 1,
+   "words": [
+    {
+     "w": "Then,",
+     "t0": 11.96,
+     "t1": 12.31,
+     "sentence": 0,
+     "last": false
+    },
+    {
+     "w": "Tuesday.",
+     "t0": 12.31,
+     "t1": 12.88,
+     "sentence": 0,
+     "last": true
+    }
+   ],
+   "start": 11.78,
+   "end": 13.02,
+   "text": "Then, Tuesday."
+  },
+  {
+   "scene": 1,
+   "words": [
+    {
+     "w": "Bed.",
+     "t0": 13.24,
+     "t1": 13.73,
+     "sentence": 1,
+     "last": true
+    }
+   ],
+   "start": 13.06,
+   "end": 13.87,
+   "text": "Bed."
+  },
+  {
+   "scene": 1,
+   "words": [
+    {
+     "w": "Bell.",
+     "t0": 14.09,
+     "t1": 14.57,
+     "sentence": 2,
+     "last": true
+    }
+   ],
+   "start": 13.91,
+   "end": 14.71,
+   "text": "Bell."
+  },
+  {
+   "scene": 1,
+   "words": [
+    {
+     "w": "Bread.",
+     "t0": 14.93,
+     "t1": 15.45,
+     "sentence": 3,
+     "last": true
+    }
+   ],
+   "start": 14.75,
+   "end": 15.59,
+   "text": "Bread."
+  },
+  {
+   "scene": 1,
+   "words": [
+    {
+     "w": "The",
+     "t0": 15.81,
+     "t1": 16.07,
+     "sentence": 4,
+     "last": false
+    },
+    {
+     "w": "old",
+     "t0": 16.07,
+     "t1": 16.33,
+     "sentence": 4,
+     "last": false
+    },
+    {
+     "w": "man",
+     "t0": 16.33,
+     "t1": 16.59,
+     "sentence": 4,
+     "last": false
+    },
+    {
+     "w": "and",
+     "t0": 16.59,
+     "t1": 16.85,
+     "sentence": 4,
+     "last": false
+    },
+    {
+     "w": "his",
+     "t0": 16.85,
+     "t1": 17.11,
+     "sentence": 4,
+     "last": false
+    },
+    {
+     "w": "goat.",
+     "t0": 17.11,
+     "t1": 17.37,
+     "sentence": 4,
+     "last": true
+    }
+   ],
+   "start": 15.63,
+   "end": 17.51,
+   "text": "The old man and his goat."
+  },
+  {
+   "scene": 1,
+   "words": [
+    {
+     "w": "Same",
+     "t0": 17.73,
+     "t1": 18.006,
+     "sentence": 5,
+     "last": false
+    },
+    {
+     "w": "as",
+     "t0": 18.006,
+     "t1": 18.282,
+     "sentence": 5,
+     "last": false
+    },
+    {
+     "w": "always.",
+     "t0": 18.282,
+     "t1": 18.73,
+     "sentence": 5,
+     "last": true
+    }
+   ],
+   "start": 17.55,
+   "end": 19.28,
+   "text": "Same as always."
+  },
+  {
+   "scene": 2,
+   "words": [
+    {
+     "w": "Except",
+     "t0": 20.43,
+     "t1": 20.887,
+     "sentence": 0,
+     "last": false
+    },
+    {
+     "w": "one",
+     "t0": 20.887,
+     "t1": 21.169,
+     "sentence": 0,
+     "last": false
+    },
+    {
+     "w": "thing.",
+     "t0": 21.169,
+     "t1": 21.45,
+     "sentence": 0,
+     "last": true
+    }
+   ],
+   "start": 20.25,
+   "end": 21.59,
+   "text": "Except one thing."
+  },
+  {
+   "scene": 2,
+   "words": [
+    {
+     "w": "The",
+     "t0": 21.81,
+     "t1": 22.067,
+     "sentence": 1,
+     "last": false
+    },
+    {
+     "w": "chalk",
+     "t0": 22.067,
+     "t1": 22.325,
+     "sentence": 1,
+     "last": false
+    },
+    {
+     "w": "clock",
+     "t0": 22.325,
+     "t1": 22.582,
+     "sentence": 1,
+     "last": false
+    },
+    {
+     "w": "on",
+     "t0": 22.582,
+     "t1": 22.839,
+     "sentence": 1,
+     "last": false
+    },
+    {
+     "w": "my",
+     "t0": 22.839,
+     "t1": 23.096,
+     "sentence": 1,
+     "last": false
+    },
+    {
+     "w": "door",
+     "t0": 23.096,
+     "t1": 23.354,
+     "sentence": 1,
+     "last": false
+    },
+    {
+     "w": "didn't",
+     "t0": 23.354,
+     "t1": 23.611,
+     "sentence": 1,
+     "last": false
+    }
+   ],
+   "start": 21.63,
+   "end": 23.391,
+   "text": "The chalk clock on my door didn't"
+  },
+  {
+   "scene": 2,
+   "words": [
+    {
+     "w": "say",
+     "t0": 23.611,
+     "t1": 23.868,
+     "sentence": 1,
+     "last": false
+    },
+    {
+     "w": "three",
+     "t0": 23.868,
+     "t1": 24.126,
+     "sentence": 1,
+     "last": false
+    },
+    {
+     "w": "oh",
+     "t0": 24.126,
+     "t1": 24.383,
+     "sentence": 1,
+     "last": false
+    },
+    {
+     "w": "seven",
+     "t0": 24.383,
+     "t1": 24.801,
+     "sentence": 1,
+     "last": false
+    },
+    {
+     "w": "anymore.",
+     "t0": 24.801,
+     "t1": 25.38,
+     "sentence": 1,
+     "last": true
+    }
+   ],
+   "start": 23.431,
+   "end": 25.52,
+   "text": "say three oh seven anymore."
+  },
+  {
+   "scene": 2,
+   "words": [
+    {
+     "w": "It",
+     "t0": 25.74,
+     "t1": 25.974,
+     "sentence": 2,
+     "last": false
+    },
+    {
+     "w": "said",
+     "t0": 25.974,
+     "t1": 26.208,
+     "sentence": 2,
+     "last": false
+    },
+    {
+     "w": "three",
+     "t0": 26.208,
+     "t1": 26.442,
+     "sentence": 2,
+     "last": false
+    },
+    {
+     "w": "oh",
+     "t0": 26.442,
+     "t1": 26.676,
+     "sentence": 2,
+     "last": false
+    },
+    {
+     "w": "eight.",
+     "t0": 26.676,
+     "t1": 26.91,
+     "sentence": 2,
+     "last": true
+    }
+   ],
+   "start": 25.56,
+   "end": 27.46,
+   "text": "It said three oh eight."
+  },
+  {
+   "scene": 3,
+   "words": [
+    {
+     "w": "One",
+     "t0": 28.61,
+     "t1": 28.88,
+     "sentence": 0,
+     "last": false
+    },
+    {
+     "w": "minute.",
+     "t0": 28.88,
+     "t1": 29.32,
+     "sentence": 0,
+     "last": true
+    }
+   ],
+   "start": 28.43,
+   "end": 29.46,
+   "text": "One minute."
+  },
+  {
+   "scene": 3,
+   "words": [
+    {
+     "w": "After",
+     "t0": 29.68,
+     "t1": 30.079,
+     "sentence": 1,
+     "last": false
+    },
+    {
+     "w": "four",
+     "t0": 30.079,
+     "t1": 30.324,
+     "sentence": 1,
+     "last": false
+    },
+    {
+     "w": "hundred",
+     "t0": 30.324,
+     "t1": 30.723,
+     "sentence": 1,
+     "last": false
+    },
+    {
+     "w": "and",
+     "t0": 30.723,
+     "t1": 30.969,
+     "sentence": 1,
+     "last": false
+    },
+    {
+     "w": "twelve",
+     "t0": 30.969,
+     "t1": 31.214,
+     "sentence": 1,
+     "last": false
+    },
+    {
+     "w": "days,",
+     "t0": 31.214,
+     "t1": 31.46,
+     "sentence": 1,
+     "last": false
+    }
+   ],
+   "start": 29.5,
+   "end": 31.64,
+   "text": "After four hundred and twelve days,"
+  },
+  {
+   "scene": 3,
+   "words": [
+    {
+     "w": "time",
+     "t0": 31.86,
+     "t1": 32.136,
+     "sentence": 1,
+     "last": false
+    },
+    {
+     "w": "had",
+     "t0": 32.136,
+     "t1": 32.412,
+     "sentence": 1,
+     "last": false
+    },
+    {
+     "w": "moved.",
+     "t0": 32.412,
+     "t1": 32.86,
+     "sentence": 1,
+     "last": true
+    }
+   ],
+   "start": 31.68,
+   "end": 33,
+   "text": "time had moved."
+  },
+  {
+   "scene": 3,
+   "words": [
+    {
+     "w": "One.",
+     "t0": 33.22,
+     "t1": 33.505,
+     "sentence": 2,
+     "last": false
+    },
+    {
+     "w": "Single.",
+     "t0": 33.505,
+     "t1": 33.967,
+     "sentence": 2,
+     "last": false
+    },
+    {
+     "w": "Minute.",
+     "t0": 33.967,
+     "t1": 34.43,
+     "sentence": 2,
+     "last": true
+    }
+   ],
+   "start": 33.04,
+   "end": 34.57,
+   "text": "One. Single. Minute."
+  },
+  {
+   "scene": 3,
+   "words": [
+    {
+     "w": "Somewhere,",
+     "t0": 34.79,
+     "t1": 36.44,
+     "sentence": 3,
+     "last": false
+    },
+    {
+     "w": "a",
+     "t0": 36.75,
+     "t1": 36.865,
+     "sentence": 3,
+     "last": false
+    },
+    {
+     "w": "clock",
+     "t0": 36.865,
+     "t1": 36.98,
+     "sentence": 3,
+     "last": false
+    },
+    {
+     "w": "was",
+     "t0": 36.98,
+     "t1": 37.094,
+     "sentence": 3,
+     "last": false
+    },
+    {
+     "w": "ticking",
+     "t0": 37.094,
+     "t1": 37.281,
+     "sentence": 3,
+     "last": false
+    },
+    {
+     "w": "that",
+     "t0": 37.281,
+     "t1": 37.396,
+     "sentence": 3,
+     "last": false
+    },
+    {
+     "w": "had",
+     "t0": 37.396,
+     "t1": 37.51,
+     "sentence": 3,
+     "last": false
+    }
+   ],
+   "start": 34.61,
+   "end": 37.29,
+   "text": "Somewhere, a clock was ticking that had"
+  },
+  {
+   "scene": 3,
+   "words": [
+    {
+     "w": "never",
+     "t0": 37.51,
+     "t1": 37.697,
+     "sentence": 3,
+     "last": false
+    },
+    {
+     "w": "ticked",
+     "t0": 37.697,
+     "t1": 37.883,
+     "sentence": 3,
+     "last": false
+    },
+    {
+     "w": "before.",
+     "t0": 37.883,
+     "t1": 38.07,
+     "sentence": 3,
+     "last": true
+    }
+   ],
+   "start": 37.33,
+   "end": 38.62,
+   "text": "never ticked before."
+  },
+  {
+   "scene": 4,
+   "words": [
+    {
+     "w": "So",
+     "t0": 39.77,
+     "t1": 39.975,
+     "sentence": 0,
+     "last": false
+    },
+    {
+     "w": "I",
+     "t0": 39.975,
+     "t1": 40.18,
+     "sentence": 0,
+     "last": false
+    },
+    {
+     "w": "tested",
+     "t0": 40.18,
+     "t1": 40.512,
+     "sentence": 0,
+     "last": false
+    },
+    {
+     "w": "the",
+     "t0": 40.512,
+     "t1": 40.717,
+     "sentence": 0,
+     "last": false
+    },
+    {
+     "w": "rules.",
+     "t0": 40.717,
+     "t1": 41.05,
+     "sentence": 0,
+     "last": true
+    }
+   ],
+   "start": 39.59,
+   "end": 41.19,
+   "text": "So I tested the rules."
+  },
+  {
+   "scene": 4,
+   "words": [
+    {
+     "w": "Before",
+     "t0": 41.41,
+     "t1": 41.747,
+     "sentence": 1,
+     "last": false
+    },
+    {
+     "w": "the",
+     "t0": 41.747,
+     "t1": 41.954,
+     "sentence": 1,
+     "last": false
+    },
+    {
+     "w": "baker",
+     "t0": 41.954,
+     "t1": 42.291,
+     "sentence": 1,
+     "last": false
+    },
+    {
+     "w": "could",
+     "t0": 42.291,
+     "t1": 42.498,
+     "sentence": 1,
+     "last": false
+    },
+    {
+     "w": "drop",
+     "t0": 42.498,
+     "t1": 42.705,
+     "sentence": 1,
+     "last": false
+    },
+    {
+     "w": "his",
+     "t0": 42.705,
+     "t1": 42.913,
+     "sentence": 1,
+     "last": false
+    },
+    {
+     "w": "tray,",
+     "t0": 42.913,
+     "t1": 43.12,
+     "sentence": 1,
+     "last": false
+    }
+   ],
+   "start": 41.23,
+   "end": 43.39,
+   "text": "Before the baker could drop his tray,"
+  },
+  {
+   "scene": 4,
+   "words": [
+    {
+     "w": "I",
+     "t0": 43.61,
+     "t1": 43.794,
+     "sentence": 1,
+     "last": false
+    },
+    {
+     "w": "knocked",
+     "t0": 43.794,
+     "t1": 44.092,
+     "sentence": 1,
+     "last": false
+    },
+    {
+     "w": "it",
+     "t0": 44.092,
+     "t1": 44.276,
+     "sentence": 1,
+     "last": false
+    },
+    {
+     "w": "out",
+     "t0": 44.276,
+     "t1": 44.459,
+     "sentence": 1,
+     "last": false
+    },
+    {
+     "w": "of",
+     "t0": 44.459,
+     "t1": 44.643,
+     "sentence": 1,
+     "last": false
+    },
+    {
+     "w": "his",
+     "t0": 44.643,
+     "t1": 44.826,
+     "sentence": 1,
+     "last": false
+    },
+    {
+     "w": "hands.",
+     "t0": 44.826,
+     "t1": 45.01,
+     "sentence": 1,
+     "last": true
+    }
+   ],
+   "start": 43.43,
+   "end": 45.56,
+   "text": "I knocked it out of his hands."
+  },
+  {
+   "scene": 5,
+   "words": [
+    {
+     "w": "The",
+     "t0": 46.71,
+     "t1": 46.976,
+     "sentence": 0,
+     "last": false
+    },
+    {
+     "w": "square",
+     "t0": 46.976,
+     "t1": 47.242,
+     "sentence": 0,
+     "last": false
+    },
+    {
+     "w": "went",
+     "t0": 47.242,
+     "t1": 47.508,
+     "sentence": 0,
+     "last": false
+    },
+    {
+     "w": "silent.",
+     "t0": 47.508,
+     "t1": 47.94,
+     "sentence": 0,
+     "last": true
+    }
+   ],
+   "start": 46.53,
+   "end": 48.08,
+   "text": "The square went silent."
+  },
+  {
+   "scene": 5,
+   "words": [
+    {
+     "w": "And",
+     "t0": 48.3,
+     "t1": 48.491,
+     "sentence": 1,
+     "last": false
+    },
+    {
+     "w": "every",
+     "t0": 48.491,
+     "t1": 48.922,
+     "sentence": 1,
+     "last": false
+    },
+    {
+     "w": "single",
+     "t0": 48.922,
+     "t1": 49.233,
+     "sentence": 1,
+     "last": false
+    },
+    {
+     "w": "person",
+     "t0": 49.233,
+     "t1": 49.544,
+     "sentence": 1,
+     "last": false
+    },
+    {
+     "w": "turned",
+     "t0": 49.544,
+     "t1": 49.855,
+     "sentence": 1,
+     "last": false
+    },
+    {
+     "w": "to",
+     "t0": 49.855,
+     "t1": 50.046,
+     "sentence": 1,
+     "last": false
+    },
+    {
+     "w": "look",
+     "t0": 50.046,
+     "t1": 50.237,
+     "sentence": 1,
+     "last": false
+    }
+   ],
+   "start": 48.12,
+   "end": 50.017,
+   "text": "And every single person turned to look"
+  },
+  {
+   "scene": 5,
+   "words": [
+    {
+     "w": "at",
+     "t0": 50.237,
+     "t1": 50.429,
+     "sentence": 1,
+     "last": false
+    },
+    {
+     "w": "me.",
+     "t0": 50.429,
+     "t1": 50.62,
+     "sentence": 1,
+     "last": true
+    }
+   ],
+   "start": 50.057,
+   "end": 50.76,
+   "text": "at me."
+  },
+  {
+   "scene": 5,
+   "words": [
+    {
+     "w": "At",
+     "t0": 50.98,
+     "t1": 51.232,
+     "sentence": 2,
+     "last": false
+    },
+    {
+     "w": "the",
+     "t0": 51.232,
+     "t1": 51.485,
+     "sentence": 2,
+     "last": false
+    },
+    {
+     "w": "exact",
+     "t0": 51.485,
+     "t1": 51.895,
+     "sentence": 2,
+     "last": false
+    },
+    {
+     "w": "same",
+     "t0": 51.895,
+     "t1": 52.148,
+     "sentence": 2,
+     "last": false
+    },
+    {
+     "w": "time.",
+     "t0": 52.148,
+     "t1": 52.4,
+     "sentence": 2,
+     "last": true
+    }
+   ],
+   "start": 50.8,
+   "end": 52.95,
+   "text": "At the exact same time."
+  },
+  {
+   "scene": 6,
+   "words": [
+    {
+     "w": "Then",
+     "t0": 54.1,
+     "t1": 54.357,
+     "sentence": 0,
+     "last": false
+    },
+    {
+     "w": "they",
+     "t0": 54.357,
+     "t1": 54.613,
+     "sentence": 0,
+     "last": false
+    },
+    {
+     "w": "smiled.",
+     "t0": 54.613,
+     "t1": 55.03,
+     "sentence": 0,
+     "last": true
+    }
+   ],
+   "start": 53.92,
+   "end": 55.17,
+   "text": "Then they smiled."
+  },
+  {
+   "scene": 6,
+   "words": [
+    {
+     "w": "All",
+     "t0": 55.39,
+     "t1": 55.637,
+     "sentence": 1,
+     "last": false
+    },
+    {
+     "w": "of",
+     "t0": 55.637,
+     "t1": 55.883,
+     "sentence": 1,
+     "last": false
+    },
+    {
+     "w": "them.",
+     "t0": 55.883,
+     "t1": 56.13,
+     "sentence": 1,
+     "last": true
+    }
+   ],
+   "start": 55.21,
+   "end": 56.27,
+   "text": "All of them."
+  },
+  {
+   "scene": 6,
+   "words": [
+    {
+     "w": "And",
+     "t0": 56.49,
+     "t1": 56.692,
+     "sentence": 2,
+     "last": false
+    },
+    {
+     "w": "went",
+     "t0": 56.692,
+     "t1": 56.894,
+     "sentence": 2,
+     "last": false
+    },
+    {
+     "w": "right",
+     "t0": 56.894,
+     "t1": 57.097,
+     "sentence": 2,
+     "last": false
+    },
+    {
+     "w": "back",
+     "t0": 57.097,
+     "t1": 57.299,
+     "sentence": 2,
+     "last": false
+    },
+    {
+     "w": "to",
+     "t0": 57.299,
+     "t1": 57.501,
+     "sentence": 2,
+     "last": false
+    },
+    {
+     "w": "what",
+     "t0": 57.501,
+     "t1": 57.703,
+     "sentence": 2,
+     "last": false
+    },
+    {
+     "w": "they",
+     "t0": 57.703,
+     "t1": 57.906,
+     "sentence": 2,
+     "last": false
+    }
+   ],
+   "start": 56.31,
+   "end": 57.686,
+   "text": "And went right back to what they"
+  },
+  {
+   "scene": 6,
+   "words": [
+    {
+     "w": "were",
+     "t0": 57.906,
+     "t1": 58.108,
+     "sentence": 2,
+     "last": false
+    },
+    {
+     "w": "doing,",
+     "t0": 58.108,
+     "t1": 58.31,
+     "sentence": 2,
+     "last": false
+    },
+    {
+     "w": "like",
+     "t0": 58.75,
+     "t1": 58.972,
+     "sentence": 2,
+     "last": false
+    },
+    {
+     "w": "nothing",
+     "t0": 58.972,
+     "t1": 59.332,
+     "sentence": 2,
+     "last": false
+    },
+    {
+     "w": "happened.",
+     "t0": 59.332,
+     "t1": 59.83,
+     "sentence": 2,
+     "last": true
+    }
+   ],
+   "start": 57.726,
+   "end": 60.38,
+   "text": "were doing, like nothing happened."
+  },
+  {
+   "scene": 7,
+   "words": [
+    {
+     "w": "The",
+     "t0": 61.53,
+     "t1": 61.715,
+     "sentence": 0,
+     "last": false
+    },
+    {
+     "w": "baker",
+     "t0": 61.715,
+     "t1": 62.015,
+     "sentence": 0,
+     "last": false
+    },
+    {
+     "w": "even",
+     "t0": 62.015,
+     "t1": 62.315,
+     "sentence": 0,
+     "last": false
+    },
+    {
+     "w": "picked",
+     "t0": 62.315,
+     "t1": 62.616,
+     "sentence": 0,
+     "last": false
+    },
+    {
+     "w": "up",
+     "t0": 62.616,
+     "t1": 62.8,
+     "sentence": 0,
+     "last": false
+    },
+    {
+     "w": "his",
+     "t0": 62.8,
+     "t1": 62.985,
+     "sentence": 0,
+     "last": false
+    },
+    {
+     "w": "bread,",
+     "t0": 62.985,
+     "t1": 63.17,
+     "sentence": 0,
+     "last": false
+    }
+   ],
+   "start": 61.35,
+   "end": 63.06,
+   "text": "The baker even picked up his bread,"
+  },
+  {
+   "scene": 7,
+   "words": [
+    {
+     "w": "and",
+     "t0": 63.28,
+     "t1": 63.485,
+     "sentence": 0,
+     "last": false
+    },
+    {
+     "w": "said,",
+     "t0": 63.485,
+     "t1": 63.69,
+     "sentence": 0,
+     "last": false
+    },
+    {
+     "w": "lovely",
+     "t0": 64.17,
+     "t1": 64.696,
+     "sentence": 0,
+     "last": false
+    },
+    {
+     "w": "morning,",
+     "t0": 64.696,
+     "t1": 65.076,
+     "sentence": 0,
+     "last": false
+    }
+   ],
+   "start": 63.1,
+   "end": 64.856,
+   "text": "and said, lovely morning,"
+  },
+  {
+   "scene": 7,
+   "words": [
+    {
+     "w": "Wren.",
+     "t0": 65.076,
+     "t1": 65.31,
+     "sentence": 0,
+     "last": true
+    }
+   ],
+   "start": 64.896,
+   "end": 65.45,
+   "text": "Wren."
+  },
+  {
+   "scene": 7,
+   "words": [
+    {
+     "w": "He",
+     "t0": 65.67,
+     "t1": 65.889,
+     "sentence": 1,
+     "last": false
+    },
+    {
+     "w": "has",
+     "t0": 65.889,
+     "t1": 66.108,
+     "sentence": 1,
+     "last": false
+    },
+    {
+     "w": "never",
+     "t0": 66.108,
+     "t1": 66.464,
+     "sentence": 1,
+     "last": false
+    },
+    {
+     "w": "once",
+     "t0": 66.464,
+     "t1": 66.683,
+     "sentence": 1,
+     "last": false
+    },
+    {
+     "w": "said",
+     "t0": 66.683,
+     "t1": 66.902,
+     "sentence": 1,
+     "last": false
+    },
+    {
+     "w": "my",
+     "t0": 66.902,
+     "t1": 67.121,
+     "sentence": 1,
+     "last": false
+    },
+    {
+     "w": "name.",
+     "t0": 67.121,
+     "t1": 67.34,
+     "sentence": 1,
+     "last": true
+    }
+   ],
+   "start": 65.49,
+   "end": 67.89,
+   "text": "He has never once said my name."
+  },
+  {
+   "scene": 8,
+   "words": [
+    {
+     "w": "So",
+     "t0": 69.04,
+     "t1": 69.256,
+     "sentence": 0,
+     "last": false
+    },
+    {
+     "w": "I",
+     "t0": 69.256,
+     "t1": 69.472,
+     "sentence": 0,
+     "last": false
+    },
+    {
+     "w": "followed",
+     "t0": 69.472,
+     "t1": 69.957,
+     "sentence": 0,
+     "last": false
+    },
+    {
+     "w": "the",
+     "t0": 69.957,
+     "t1": 70.173,
+     "sentence": 0,
+     "last": false
+    },
+    {
+     "w": "one",
+     "t0": 70.173,
+     "t1": 70.389,
+     "sentence": 0,
+     "last": false
+    },
+    {
+     "w": "thing",
+     "t0": 70.389,
+     "t1": 70.604,
+     "sentence": 0,
+     "last": false
+    },
+    {
+     "w": "that",
+     "t0": 70.604,
+     "t1": 70.82,
+     "sentence": 0,
+     "last": false
+    }
+   ],
+   "start": 68.86,
+   "end": 70.6,
+   "text": "So I followed the one thing that"
+  },
+  {
+   "scene": 8,
+   "words": [
+    {
+     "w": "never",
+     "t0": 70.82,
+     "t1": 71.171,
+     "sentence": 0,
+     "last": false
+    },
+    {
+     "w": "leaves.",
+     "t0": 71.171,
+     "t1": 71.521,
+     "sentence": 0,
+     "last": true
+    }
+   ],
+   "start": 70.64,
+   "end": 71.661,
+   "text": "never leaves."
+  },
+  {
+   "scene": 8,
+   "words": [
+    {
+     "w": "The",
+     "t0": 71.881,
+     "t1": 72.212,
+     "sentence": 1,
+     "last": false
+    },
+    {
+     "w": "stranger's",
+     "t0": 72.212,
+     "t1": 72.75,
+     "sentence": 1,
+     "last": false
+    },
+    {
+     "w": "cart.",
+     "t0": 72.75,
+     "t1": 73.081,
+     "sentence": 1,
+     "last": true
+    }
+   ],
+   "start": 71.701,
+   "end": 73.221,
+   "text": "The stranger's cart."
+  },
+  {
+   "scene": 8,
+   "words": [
+    {
+     "w": "It",
+     "t0": 73.441,
+     "t1": 73.685,
+     "sentence": 2,
+     "last": false
+    },
+    {
+     "w": "rolls",
+     "t0": 73.685,
+     "t1": 73.929,
+     "sentence": 2,
+     "last": false
+    },
+    {
+     "w": "in",
+     "t0": 73.929,
+     "t1": 74.173,
+     "sentence": 2,
+     "last": false
+    },
+    {
+     "w": "at",
+     "t0": 74.173,
+     "t1": 74.418,
+     "sentence": 2,
+     "last": false
+    },
+    {
+     "w": "seven",
+     "t0": 74.418,
+     "t1": 74.814,
+     "sentence": 2,
+     "last": false
+    },
+    {
+     "w": "fourteen,",
+     "t0": 74.814,
+     "t1": 75.211,
+     "sentence": 2,
+     "last": false
+    }
+   ],
+   "start": 73.261,
+   "end": 75.441,
+   "text": "It rolls in at seven fourteen,"
+  },
+  {
+   "scene": 8,
+   "words": [
+    {
+     "w": "every",
+     "t0": 75.661,
+     "t1": 76.113,
+     "sentence": 2,
+     "last": false
+    },
+    {
+     "w": "single",
+     "t0": 76.113,
+     "t1": 76.44,
+     "sentence": 2,
+     "last": false
+    },
+    {
+     "w": "day.",
+     "t0": 76.44,
+     "t1": 76.641,
+     "sentence": 2,
+     "last": true
+    }
+   ],
+   "start": 75.481,
+   "end": 76.781,
+   "text": "every single day."
+  },
+  {
+   "scene": 8,
+   "words": [
+    {
+     "w": "It",
+     "t0": 77.001,
+     "t1": 77.18,
+     "sentence": 3,
+     "last": false
+    },
+    {
+     "w": "never,",
+     "t0": 77.18,
+     "t1": 77.471,
+     "sentence": 3,
+     "last": false
+    },
+    {
+     "w": "ever",
+     "t0": 77.641,
+     "t1": 78.049,
+     "sentence": 3,
+     "last": false
+    },
+    {
+     "w": "rolls",
+     "t0": 78.049,
+     "t1": 78.3,
+     "sentence": 3,
+     "last": false
+    },
+    {
+     "w": "out.",
+     "t0": 78.3,
+     "t1": 78.551,
+     "sentence": 3,
+     "last": true
+    }
+   ],
+   "start": 76.821,
+   "end": 79.101,
+   "text": "It never, ever rolls out."
+  },
+  {
+   "scene": 9,
+   "words": [
+    {
+     "w": "It",
+     "t0": 80.251,
+     "t1": 80.456,
+     "sentence": 0,
+     "last": false
+    },
+    {
+     "w": "rolled",
+     "t0": 80.456,
+     "t1": 80.789,
+     "sentence": 0,
+     "last": false
+    },
+    {
+     "w": "behind",
+     "t0": 80.789,
+     "t1": 81.121,
+     "sentence": 0,
+     "last": false
+    },
+    {
+     "w": "the",
+     "t0": 81.121,
+     "t1": 81.326,
+     "sentence": 0,
+     "last": false
+    },
+    {
+     "w": "mill.",
+     "t0": 81.326,
+     "t1": 81.531,
+     "sentence": 0,
+     "last": true
+    }
+   ],
+   "start": 80.071,
+   "end": 81.671,
+   "text": "It rolled behind the mill."
+  },
+  {
+   "scene": 9,
+   "words": [
+    {
+     "w": "And",
+     "t0": 81.891,
+     "t1": 82.072,
+     "sentence": 1,
+     "last": false
+    },
+    {
+     "w": "it",
+     "t0": 82.072,
+     "t1": 82.253,
+     "sentence": 1,
+     "last": false
+    },
+    {
+     "w": "didn't",
+     "t0": 82.253,
+     "t1": 82.434,
+     "sentence": 1,
+     "last": false
+    },
+    {
+     "w": "come",
+     "t0": 82.434,
+     "t1": 82.614,
+     "sentence": 1,
+     "last": false
+    },
+    {
+     "w": "out",
+     "t0": 82.614,
+     "t1": 82.795,
+     "sentence": 1,
+     "last": false
+    },
+    {
+     "w": "the",
+     "t0": 82.795,
+     "t1": 82.976,
+     "sentence": 1,
+     "last": false
+    },
+    {
+     "w": "other",
+     "t0": 82.976,
+     "t1": 83.27,
+     "sentence": 1,
+     "last": false
+    }
+   ],
+   "start": 81.711,
+   "end": 83.05,
+   "text": "And it didn't come out the other"
+  },
+  {
+   "scene": 9,
+   "words": [
+    {
+     "w": "side.",
+     "t0": 83.27,
+     "t1": 83.451,
+     "sentence": 1,
+     "last": true
+    }
+   ],
+   "start": 83.09,
+   "end": 83.591,
+   "text": "side."
+  },
+  {
+   "scene": 9,
+   "words": [
+    {
+     "w": "No",
+     "t0": 83.811,
+     "t1": 84.181,
+     "sentence": 2,
+     "last": false
+    },
+    {
+     "w": "tracks.",
+     "t0": 84.181,
+     "t1": 84.551,
+     "sentence": 2,
+     "last": false
+    },
+    {
+     "w": "No",
+     "t0": 84.551,
+     "t1": 84.92,
+     "sentence": 2,
+     "last": false
+    },
+    {
+     "w": "wheels.",
+     "t0": 84.92,
+     "t1": 85.29,
+     "sentence": 2,
+     "last": false
+    },
+    {
+     "w": "No",
+     "t0": 85.29,
+     "t1": 85.66,
+     "sentence": 2,
+     "last": false
+    },
+    {
+     "w": "stranger.",
+     "t0": 85.66,
+     "t1": 86.261,
+     "sentence": 2,
+     "last": true
+    }
+   ],
+   "start": 83.631,
+   "end": 86.811,
+   "text": "No tracks. No wheels. No stranger."
+  },
+  {
+   "scene": 10,
+   "words": [
+    {
+     "w": "Where",
+     "t0": 87.961,
+     "t1": 88.149,
+     "sentence": 0,
+     "last": false
+    },
+    {
+     "w": "it",
+     "t0": 88.149,
+     "t1": 88.337,
+     "sentence": 0,
+     "last": false
+    },
+    {
+     "w": "should",
+     "t0": 88.337,
+     "t1": 88.525,
+     "sentence": 0,
+     "last": false
+    },
+    {
+     "w": "have",
+     "t0": 88.525,
+     "t1": 88.713,
+     "sentence": 0,
+     "last": false
+    },
+    {
+     "w": "been,",
+     "t0": 88.713,
+     "t1": 88.901,
+     "sentence": 0,
+     "last": false
+    }
+   ],
+   "start": 87.781,
+   "end": 88.931,
+   "text": "Where it should have been,"
+  },
+  {
+   "scene": 10,
+   "words": [
+    {
+     "w": "there",
+     "t0": 89.151,
+     "t1": 89.352,
+     "sentence": 0,
+     "last": false
+    },
+    {
+     "w": "was",
+     "t0": 89.352,
+     "t1": 89.553,
+     "sentence": 0,
+     "last": false
+    },
+    {
+     "w": "a",
+     "t0": 89.553,
+     "t1": 89.754,
+     "sentence": 0,
+     "last": false
+    },
+    {
+     "w": "trapdoor.",
+     "t0": 89.754,
+     "t1": 90.081,
+     "sentence": 0,
+     "last": true
+    }
+   ],
+   "start": 88.971,
+   "end": 90.221,
+   "text": "there was a trapdoor."
+  },
+  {
+   "scene": 10,
+   "words": [
+    {
+     "w": "I've",
+     "t0": 90.441,
+     "t1": 90.692,
+     "sentence": 1,
+     "last": false
+    },
+    {
+     "w": "walked",
+     "t0": 90.692,
+     "t1": 91.101,
+     "sentence": 1,
+     "last": false
+    },
+    {
+     "w": "past",
+     "t0": 91.101,
+     "t1": 91.352,
+     "sentence": 1,
+     "last": false
+    },
+    {
+     "w": "that",
+     "t0": 91.352,
+     "t1": 91.603,
+     "sentence": 1,
+     "last": false
+    },
+    {
+     "w": "spot",
+     "t0": 91.603,
+     "t1": 91.854,
+     "sentence": 1,
+     "last": false
+    },
+    {
+     "w": "a",
+     "t0": 91.854,
+     "t1": 92.106,
+     "sentence": 1,
+     "last": false
+    },
+    {
+     "w": "thousand",
+     "t0": 92.106,
+     "t1": 92.514,
+     "sentence": 1,
+     "last": false
+    }
+   ],
+   "start": 90.261,
+   "end": 92.294,
+   "text": "I've walked past that spot a thousand"
+  },
+  {
+   "scene": 10,
+   "words": [
+    {
+     "w": "times.",
+     "t0": 92.514,
+     "t1": 92.922,
+     "sentence": 1,
+     "last": true
+    }
+   ],
+   "start": 92.334,
+   "end": 93.062,
+   "text": "times."
+  },
+  {
+   "scene": 10,
+   "words": [
+    {
+     "w": "It",
+     "t0": 93.282,
+     "t1": 93.495,
+     "sentence": 2,
+     "last": false
+    },
+    {
+     "w": "was",
+     "t0": 93.495,
+     "t1": 93.708,
+     "sentence": 2,
+     "last": false
+    },
+    {
+     "w": "never",
+     "t0": 93.708,
+     "t1": 94.053,
+     "sentence": 2,
+     "last": false
+    },
+    {
+     "w": "there",
+     "t0": 94.053,
+     "t1": 94.266,
+     "sentence": 2,
+     "last": false
+    },
+    {
+     "w": "before.",
+     "t0": 94.266,
+     "t1": 94.612,
+     "sentence": 2,
+     "last": true
+    }
+   ],
+   "start": 93.102,
+   "end": 95.162,
+   "text": "It was never there before."
+  },
+  {
+   "scene": 11,
+   "words": [
+    {
+     "w": "Then",
+     "t0": 96.312,
+     "t1": 96.538,
+     "sentence": 0,
+     "last": false
+    },
+    {
+     "w": "the",
+     "t0": 96.538,
+     "t1": 96.763,
+     "sentence": 0,
+     "last": false
+    },
+    {
+     "w": "sun",
+     "t0": 96.763,
+     "t1": 96.989,
+     "sentence": 0,
+     "last": false
+    },
+    {
+     "w": "started",
+     "t0": 96.989,
+     "t1": 97.355,
+     "sentence": 0,
+     "last": false
+    },
+    {
+     "w": "moving.",
+     "t0": 97.355,
+     "t1": 97.722,
+     "sentence": 0,
+     "last": true
+    }
+   ],
+   "start": 96.132,
+   "end": 97.862,
+   "text": "Then the sun started moving."
+  },
+  {
+   "scene": 11,
+   "words": [
+    {
+     "w": "Fast.",
+     "t0": 98.082,
+     "t1": 98.672,
+     "sentence": 1,
+     "last": true
+    }
+   ],
+   "start": 97.902,
+   "end": 98.812,
+   "text": "Fast."
+  },
+  {
+   "scene": 11,
+   "words": [
+    {
+     "w": "Like",
+     "t0": 99.032,
+     "t1": 99.269,
+     "sentence": 2,
+     "last": false
+    },
+    {
+     "w": "someone",
+     "t0": 99.269,
+     "t1": 99.654,
+     "sentence": 2,
+     "last": false
+    },
+    {
+     "w": "was",
+     "t0": 99.654,
+     "t1": 99.891,
+     "sentence": 2,
+     "last": false
+    },
+    {
+     "w": "dragging",
+     "t0": 99.891,
+     "t1": 100.276,
+     "sentence": 2,
+     "last": false
+    },
+    {
+     "w": "the",
+     "t0": 100.276,
+     "t1": 100.513,
+     "sentence": 2,
+     "last": false
+    },
+    {
+     "w": "day",
+     "t0": 100.513,
+     "t1": 100.75,
+     "sentence": 2,
+     "last": false
+    },
+    {
+     "w": "toward",
+     "t0": 100.75,
+     "t1": 101.135,
+     "sentence": 2,
+     "last": false
+    }
+   ],
+   "start": 98.852,
+   "end": 100.915,
+   "text": "Like someone was dragging the day toward"
+  },
+  {
+   "scene": 11,
+   "words": [
+    {
+     "w": "night.",
+     "t0": 101.135,
+     "t1": 101.372,
+     "sentence": 2,
+     "last": true
+    }
+   ],
+   "start": 100.955,
+   "end": 101.512,
+   "text": "night."
+  },
+  {
+   "scene": 11,
+   "words": [
+    {
+     "w": "So",
+     "t0": 101.732,
+     "t1": 101.921,
+     "sentence": 3,
+     "last": false
+    },
+    {
+     "w": "I",
+     "t0": 101.921,
+     "t1": 102.109,
+     "sentence": 3,
+     "last": false
+    },
+    {
+     "w": "opened",
+     "t0": 102.109,
+     "t1": 102.533,
+     "sentence": 3,
+     "last": false
+    },
+    {
+     "w": "it.",
+     "t0": 102.533,
+     "t1": 102.722,
+     "sentence": 3,
+     "last": true
+    }
+   ],
+   "start": 101.552,
+   "end": 103.272,
+   "text": "So I opened it."
+  },
+  {
+   "scene": 12,
+   "words": [
+    {
+     "w": "Underneath",
+     "t0": 104.422,
+     "t1": 105.068,
+     "sentence": 0,
+     "last": false
+    },
+    {
+     "w": "were",
+     "t0": 105.068,
+     "t1": 105.355,
+     "sentence": 0,
+     "last": false
+    },
+    {
+     "w": "clocks.",
+     "t0": 105.355,
+     "t1": 105.642,
+     "sentence": 0,
+     "last": true
+    }
+   ],
+   "start": 104.242,
+   "end": 105.782,
+   "text": "Underneath were clocks."
+  },
+  {
+   "scene": 12,
+   "words": [
+    {
+     "w": "Hundreds",
+     "t0": 106.002,
+     "t1": 106.454,
+     "sentence": 1,
+     "last": false
+    },
+    {
+     "w": "of",
+     "t0": 106.454,
+     "t1": 106.733,
+     "sentence": 1,
+     "last": false
+    },
+    {
+     "w": "them.",
+     "t0": 106.733,
+     "t1": 107.011,
+     "sentence": 1,
+     "last": true
+    }
+   ],
+   "start": 105.822,
+   "end": 107.151,
+   "text": "Hundreds of them."
+  },
+  {
+   "scene": 12,
+   "words": [
+    {
+     "w": "Chalked",
+     "t0": 107.371,
+     "t1": 107.678,
+     "sentence": 2,
+     "last": false
+    },
+    {
+     "w": "on",
+     "t0": 107.678,
+     "t1": 107.867,
+     "sentence": 2,
+     "last": false
+    },
+    {
+     "w": "every",
+     "t0": 107.867,
+     "t1": 108.292,
+     "sentence": 2,
+     "last": false
+    },
+    {
+     "w": "wall,",
+     "t0": 108.292,
+     "t1": 108.481,
+     "sentence": 2,
+     "last": false
+    }
+   ],
+   "start": 107.191,
+   "end": 108.561,
+   "text": "Chalked on every wall,"
+  },
+  {
+   "scene": 12,
+   "words": [
+    {
+     "w": "in",
+     "t0": 108.781,
+     "t1": 108.993,
+     "sentence": 2,
+     "last": false
+    },
+    {
+     "w": "my",
+     "t0": 108.993,
+     "t1": 109.205,
+     "sentence": 2,
+     "last": false
+    },
+    {
+     "w": "handwriting.",
+     "t0": 109.205,
+     "t1": 109.681,
+     "sentence": 2,
+     "last": true
+    }
+   ],
+   "start": 108.601,
+   "end": 109.821,
+   "text": "in my handwriting."
+  },
+  {
+   "scene": 12,
+   "words": [
+    {
+     "w": "Some",
+     "t0": 110.041,
+     "t1": 110.281,
+     "sentence": 3,
+     "last": false
+    },
+    {
+     "w": "so",
+     "t0": 110.281,
+     "t1": 110.521,
+     "sentence": 3,
+     "last": false
+    },
+    {
+     "w": "old",
+     "t0": 110.521,
+     "t1": 110.761,
+     "sentence": 3,
+     "last": false
+    },
+    {
+     "w": "the",
+     "t0": 110.761,
+     "t1": 111.001,
+     "sentence": 3,
+     "last": false
+    },
+    {
+     "w": "chalk",
+     "t0": 111.001,
+     "t1": 111.241,
+     "sentence": 3,
+     "last": false
+    },
+    {
+     "w": "had",
+     "t0": 111.241,
+     "t1": 111.481,
+     "sentence": 3,
+     "last": false
+    },
+    {
+     "w": "almost",
+     "t0": 111.481,
+     "t1": 111.871,
+     "sentence": 3,
+     "last": false
+    }
+   ],
+   "start": 109.861,
+   "end": 111.651,
+   "text": "Some so old the chalk had almost"
+  },
+  {
+   "scene": 12,
+   "words": [
+    {
+     "w": "faded",
+     "t0": 111.871,
+     "t1": 112.261,
+     "sentence": 3,
+     "last": false
+    },
+    {
+     "w": "away.",
+     "t0": 112.261,
+     "t1": 112.651,
+     "sentence": 3,
+     "last": true
+    }
+   ],
+   "start": 111.691,
+   "end": 113.201,
+   "text": "faded away."
+  },
+  {
+   "scene": 13,
+   "words": [
+    {
+     "w": "I",
+     "t0": 114.351,
+     "t1": 114.613,
+     "sentence": 0,
+     "last": false
+    },
+    {
+     "w": "counted",
+     "t0": 114.613,
+     "t1": 115.039,
+     "sentence": 0,
+     "last": false
+    },
+    {
+     "w": "them.",
+     "t0": 115.039,
+     "t1": 115.301,
+     "sentence": 0,
+     "last": true
+    }
+   ],
+   "start": 114.171,
+   "end": 115.441,
+   "text": "I counted them."
+  },
+  {
+   "scene": 13,
+   "words": [
+    {
+     "w": "Four",
+     "t0": 115.661,
+     "t1": 115.983,
+     "sentence": 1,
+     "last": false
+    },
+    {
+     "w": "hundred",
+     "t0": 115.983,
+     "t1": 116.507,
+     "sentence": 1,
+     "last": false
+    },
+    {
+     "w": "and",
+     "t0": 116.507,
+     "t1": 116.829,
+     "sentence": 1,
+     "last": false
+    },
+    {
+     "w": "twelve.",
+     "t0": 116.829,
+     "t1": 117.151,
+     "sentence": 1,
+     "last": true
+    }
+   ],
+   "start": 115.481,
+   "end": 117.291,
+   "text": "Four hundred and twelve."
+  },
+  {
+   "scene": 13,
+   "words": [
+    {
+     "w": "One",
+     "t0": 117.511,
+     "t1": 117.741,
+     "sentence": 2,
+     "last": false
+    },
+    {
+     "w": "for",
+     "t0": 117.741,
+     "t1": 117.971,
+     "sentence": 2,
+     "last": false
+    },
+    {
+     "w": "every",
+     "t0": 117.971,
+     "t1": 118.488,
+     "sentence": 2,
+     "last": false
+    },
+    {
+     "w": "Tuesday.",
+     "t0": 118.488,
+     "t1": 118.861,
+     "sentence": 2,
+     "last": true
+    }
+   ],
+   "start": 117.331,
+   "end": 119.001,
+   "text": "One for every Tuesday."
+  },
+  {
+   "scene": 13,
+   "words": [
+    {
+     "w": "Every",
+     "t0": 119.221,
+     "t1": 119.705,
+     "sentence": 3,
+     "last": false
+    },
+    {
+     "w": "single",
+     "t0": 119.705,
+     "t1": 120.055,
+     "sentence": 3,
+     "last": false
+    },
+    {
+     "w": "one",
+     "t0": 120.055,
+     "t1": 120.271,
+     "sentence": 3,
+     "last": false
+    },
+    {
+     "w": "was",
+     "t0": 120.271,
+     "t1": 120.486,
+     "sentence": 3,
+     "last": false
+    },
+    {
+     "w": "crossed",
+     "t0": 120.486,
+     "t1": 120.836,
+     "sentence": 3,
+     "last": false
+    },
+    {
+     "w": "out.",
+     "t0": 120.836,
+     "t1": 121.051,
+     "sentence": 3,
+     "last": true
+    }
+   ],
+   "start": 119.041,
+   "end": 121.191,
+   "text": "Every single one was crossed out."
+  },
+  {
+   "scene": 13,
+   "words": [
+    {
+     "w": "Except",
+     "t0": 121.411,
+     "t1": 121.832,
+     "sentence": 4,
+     "last": false
+    },
+    {
+     "w": "the",
+     "t0": 121.832,
+     "t1": 122.092,
+     "sentence": 4,
+     "last": false
+    },
+    {
+     "w": "last.",
+     "t0": 122.092,
+     "t1": 122.351,
+     "sentence": 4,
+     "last": true
+    }
+   ],
+   "start": 121.231,
+   "end": 122.491,
+   "text": "Except the last."
+  },
+  {
+   "scene": 13,
+   "words": [
+    {
+     "w": "Three",
+     "t0": 122.711,
+     "t1": 123.001,
+     "sentence": 5,
+     "last": false
+    },
+    {
+     "w": "oh",
+     "t0": 123.001,
+     "t1": 123.291,
+     "sentence": 5,
+     "last": false
+    },
+    {
+     "w": "eight.",
+     "t0": 123.291,
+     "t1": 123.581,
+     "sentence": 5,
+     "last": true
+    }
+   ],
+   "start": 122.531,
+   "end": 123.721,
+   "text": "Three oh eight."
+  },
+  {
+   "scene": 13,
+   "words": [
+    {
+     "w": "And",
+     "t0": 123.941,
+     "t1": 124.185,
+     "sentence": 6,
+     "last": false
+    },
+    {
+     "w": "under",
+     "t0": 124.185,
+     "t1": 124.58,
+     "sentence": 6,
+     "last": false
+    },
+    {
+     "w": "it,",
+     "t0": 124.58,
+     "t1": 124.824,
+     "sentence": 6,
+     "last": false
+    }
+   ],
+   "start": 123.761,
+   "end": 124.604,
+   "text": "And under it,"
+  },
+  {
+   "scene": 13,
+   "words": [
+    {
+     "w": "one",
+     "t0": 124.824,
+     "t1": 125.067,
+     "sentence": 6,
+     "last": false
+    },
+    {
+     "w": "word.",
+     "t0": 125.067,
+     "t1": 125.311,
+     "sentence": 6,
+     "last": true
+    }
+   ],
+   "start": 124.644,
+   "end": 125.451,
+   "text": "one word."
+  },
+  {
+   "scene": 13,
+   "words": [
+    {
+     "w": "Tomorrow.",
+     "t0": 125.671,
+     "t1": 126.311,
+     "sentence": 7,
+     "last": true
+    }
+   ],
+   "start": 125.491,
+   "end": 126.861,
+   "text": "Tomorrow."
+  },
+  {
+   "scene": 14,
+   "words": [
+    {
+     "w": "Then",
+     "t0": 128.011,
+     "t1": 128.319,
+     "sentence": 0,
+     "last": false
+    },
+    {
+     "w": "the",
+     "t0": 128.319,
+     "t1": 128.626,
+     "sentence": 0,
+     "last": false
+    },
+    {
+     "w": "whisper",
+     "t0": 128.626,
+     "t1": 129.126,
+     "sentence": 0,
+     "last": false
+    },
+    {
+     "w": "came",
+     "t0": 129.126,
+     "t1": 129.433,
+     "sentence": 0,
+     "last": false
+    },
+    {
+     "w": "back.",
+     "t0": 129.433,
+     "t1": 129.741,
+     "sentence": 0,
+     "last": true
+    }
+   ],
+   "start": 127.831,
+   "end": 129.881,
+   "text": "Then the whisper came back."
+  },
+  {
+   "scene": 14,
+   "words": [
+    {
+     "w": "Right",
+     "t0": 130.101,
+     "t1": 130.418,
+     "sentence": 1,
+     "last": false
+    },
+    {
+     "w": "behind",
+     "t0": 130.418,
+     "t1": 130.934,
+     "sentence": 1,
+     "last": false
+    },
+    {
+     "w": "me.",
+     "t0": 130.934,
+     "t1": 131.251,
+     "sentence": 1,
+     "last": true
+    }
+   ],
+   "start": 129.921,
+   "end": 131.391,
+   "text": "Right behind me."
+  },
+  {
+   "scene": 14,
+   "words": [
+    {
+     "w": "You",
+     "t0": 131.611,
+     "t1": 131.862,
+     "sentence": 2,
+     "last": false
+    },
+    {
+     "w": "always",
+     "t0": 131.862,
+     "t1": 132.269,
+     "sentence": 2,
+     "last": false
+    },
+    {
+     "w": "get",
+     "t0": 132.269,
+     "t1": 132.52,
+     "sentence": 2,
+     "last": false
+    },
+    {
+     "w": "this",
+     "t0": 132.52,
+     "t1": 132.77,
+     "sentence": 2,
+     "last": false
+    },
+    {
+     "w": "far,",
+     "t0": 132.77,
+     "t1": 133.021,
+     "sentence": 2,
+     "last": false
+    }
+   ],
+   "start": 131.431,
+   "end": 133.011,
+   "text": "You always get this far,"
+  },
+  {
+   "scene": 14,
+   "words": [
+    {
+     "w": "Wren.",
+     "t0": 133.231,
+     "t1": 133.611,
+     "sentence": 2,
+     "last": true
+    }
+   ],
+   "start": 133.051,
+   "end": 133.751,
+   "text": "Wren."
+  },
+  {
+   "scene": 14,
+   "words": [
+    {
+     "w": "You",
+     "t0": 133.971,
+     "t1": 134.268,
+     "sentence": 3,
+     "last": false
+    },
+    {
+     "w": "always",
+     "t0": 134.268,
+     "t1": 134.751,
+     "sentence": 3,
+     "last": false
+    },
+    {
+     "w": "forget",
+     "t0": 134.751,
+     "t1": 135.234,
+     "sentence": 3,
+     "last": false
+    },
+    {
+     "w": "why.",
+     "t0": 135.234,
+     "t1": 135.531,
+     "sentence": 3,
+     "last": true
+    }
+   ],
+   "start": 133.791,
+   "end": 135.671,
+   "text": "You always forget why."
+  },
+  {
+   "scene": 14,
+   "words": [
+    {
+     "w": "It",
+     "t0": 135.891,
+     "t1": 136.158,
+     "sentence": 4,
+     "last": false
+    },
+    {
+     "w": "pulled",
+     "t0": 136.158,
+     "t1": 136.591,
+     "sentence": 4,
+     "last": false
+    },
+    {
+     "w": "back",
+     "t0": 136.591,
+     "t1": 136.858,
+     "sentence": 4,
+     "last": false
+    },
+    {
+     "w": "its",
+     "t0": 136.858,
+     "t1": 137.124,
+     "sentence": 4,
+     "last": false
+    },
+    {
+     "w": "hood...",
+     "t0": 137.124,
+     "t1": 137.391,
+     "sentence": 4,
+     "last": true
+    }
+   ],
+   "start": 135.711,
+   "end": 137.531,
+   "text": "It pulled back its hood..."
+  },
+  {
+   "scene": 14,
+   "words": [
+    {
+     "w": "and",
+     "t0": 137.751,
+     "t1": 138.023,
+     "sentence": 5,
+     "last": false
+    },
+    {
+     "w": "I",
+     "t0": 138.023,
+     "t1": 138.295,
+     "sentence": 5,
+     "last": false
+    },
+    {
+     "w": "knew",
+     "t0": 138.295,
+     "t1": 138.567,
+     "sentence": 5,
+     "last": false
+    },
+    {
+     "w": "that",
+     "t0": 138.567,
+     "t1": 138.839,
+     "sentence": 5,
+     "last": false
+    },
+    {
+     "w": "face.",
+     "t0": 138.839,
+     "t1": 139.111,
+     "sentence": 5,
+     "last": true
+    }
+   ],
+   "start": 137.571,
+   "end": 139.251,
+   "text": "and I knew that face."
+  },
+  {
+   "scene": 14,
+   "words": [
+    {
+     "w": "I",
+     "t0": 139.471,
+     "t1": 139.699,
+     "sentence": 6,
+     "last": false
+    },
+    {
+     "w": "see",
+     "t0": 139.699,
+     "t1": 139.928,
+     "sentence": 6,
+     "last": false
+    },
+    {
+     "w": "it",
+     "t0": 139.928,
+     "t1": 140.156,
+     "sentence": 6,
+     "last": false
+    },
+    {
+     "w": "every",
+     "t0": 140.156,
+     "t1": 140.67,
+     "sentence": 6,
+     "last": false
+    },
+    {
+     "w": "morning,",
+     "t0": 140.67,
+     "t1": 141.041,
+     "sentence": 6,
+     "last": false
+    }
+   ],
+   "start": 139.291,
+   "end": 141.401,
+   "text": "I see it every morning,"
+  },
+  {
+   "scene": 14,
+   "words": [
+    {
+     "w": "in",
+     "t0": 141.621,
+     "t1": 141.814,
+     "sentence": 6,
+     "last": false
+    },
+    {
+     "w": "the",
+     "t0": 141.814,
+     "t1": 142.007,
+     "sentence": 6,
+     "last": false
+    },
+    {
+     "w": "mirror.",
+     "t0": 142.007,
+     "t1": 142.321,
+     "sentence": 6,
+     "last": true
+    }
+   ],
+   "start": 141.441,
+   "end": 142.871,
+   "text": "in the mirror."
+  }
+ ],
+ "words": [
+  {
+   "w": "I",
+   "t0": 4.65,
+   "t1": 4.92,
+   "sentence": 0,
+   "last": false,
+   "scene": 0
+  },
+  {
+   "w": "spun",
+   "t0": 4.92,
+   "t1": 5.191,
+   "sentence": 0,
+   "last": false,
+   "scene": 0
+  },
+  {
+   "w": "around.",
+   "t0": 5.191,
+   "t1": 5.63,
+   "sentence": 0,
+   "last": true,
+   "scene": 0
+  },
+  {
+   "w": "Nobody.",
+   "t0": 5.99,
+   "t1": 6.67,
+   "sentence": 1,
+   "last": true,
+   "scene": 0
+  },
+  {
+   "w": "Just",
+   "t0": 7.03,
+   "t1": 7.25,
+   "sentence": 2,
+   "last": false,
+   "scene": 0
+  },
+  {
+   "w": "the",
+   "t0": 7.25,
+   "t1": 7.47,
+   "sentence": 2,
+   "last": false,
+   "scene": 0
+  },
+  {
+   "w": "bell,",
+   "t0": 7.47,
+   "t1": 7.69,
+   "sentence": 2,
+   "last": false,
+   "scene": 0
+  },
+  {
+   "w": "still",
+   "t0": 7.92,
+   "t1": 8.193,
+   "sentence": 2,
+   "last": false,
+   "scene": 0
+  },
+  {
+   "w": "ringing",
+   "t0": 8.193,
+   "t1": 8.637,
+   "sentence": 2,
+   "last": false,
+   "scene": 0
+  },
+  {
+   "w": "wrong,",
+   "t0": 8.637,
+   "t1": 8.91,
+   "sentence": 2,
+   "last": false,
+   "scene": 0
+  },
+  {
+   "w": "like",
+   "t0": 9.16,
+   "t1": 9.326,
+   "sentence": 2,
+   "last": false,
+   "scene": 0
+  },
+  {
+   "w": "it",
+   "t0": 9.326,
+   "t1": 9.492,
+   "sentence": 2,
+   "last": false,
+   "scene": 0
+  },
+  {
+   "w": "was",
+   "t0": 9.492,
+   "t1": 9.658,
+   "sentence": 2,
+   "last": false,
+   "scene": 0
+  },
+  {
+   "w": "laughing",
+   "t0": 9.658,
+   "t1": 9.928,
+   "sentence": 2,
+   "last": false,
+   "scene": 0
+  },
+  {
+   "w": "at",
+   "t0": 9.928,
+   "t1": 10.094,
+   "sentence": 2,
+   "last": false,
+   "scene": 0
+  },
+  {
+   "w": "me.",
+   "t0": 10.094,
+   "t1": 10.26,
+   "sentence": 2,
+   "last": true,
+   "scene": 0
+  },
+  {
+   "w": "Then,",
+   "t0": 11.96,
+   "t1": 12.31,
+   "sentence": 0,
+   "last": false,
+   "scene": 1
+  },
+  {
+   "w": "Tuesday.",
+   "t0": 12.31,
+   "t1": 12.88,
+   "sentence": 0,
+   "last": true,
+   "scene": 1
+  },
+  {
+   "w": "Bed.",
+   "t0": 13.24,
+   "t1": 13.73,
+   "sentence": 1,
+   "last": true,
+   "scene": 1
+  },
+  {
+   "w": "Bell.",
+   "t0": 14.09,
+   "t1": 14.57,
+   "sentence": 2,
+   "last": true,
+   "scene": 1
+  },
+  {
+   "w": "Bread.",
+   "t0": 14.93,
+   "t1": 15.45,
+   "sentence": 3,
+   "last": true,
+   "scene": 1
+  },
+  {
+   "w": "The",
+   "t0": 15.81,
+   "t1": 16.07,
+   "sentence": 4,
+   "last": false,
+   "scene": 1
+  },
+  {
+   "w": "old",
+   "t0": 16.07,
+   "t1": 16.33,
+   "sentence": 4,
+   "last": false,
+   "scene": 1
+  },
+  {
+   "w": "man",
+   "t0": 16.33,
+   "t1": 16.59,
+   "sentence": 4,
+   "last": false,
+   "scene": 1
+  },
+  {
+   "w": "and",
+   "t0": 16.59,
+   "t1": 16.85,
+   "sentence": 4,
+   "last": false,
+   "scene": 1
+  },
+  {
+   "w": "his",
+   "t0": 16.85,
+   "t1": 17.11,
+   "sentence": 4,
+   "last": false,
+   "scene": 1
+  },
+  {
+   "w": "goat.",
+   "t0": 17.11,
+   "t1": 17.37,
+   "sentence": 4,
+   "last": true,
+   "scene": 1
+  },
+  {
+   "w": "Same",
+   "t0": 17.73,
+   "t1": 18.006,
+   "sentence": 5,
+   "last": false,
+   "scene": 1
+  },
+  {
+   "w": "as",
+   "t0": 18.006,
+   "t1": 18.282,
+   "sentence": 5,
+   "last": false,
+   "scene": 1
+  },
+  {
+   "w": "always.",
+   "t0": 18.282,
+   "t1": 18.73,
+   "sentence": 5,
+   "last": true,
+   "scene": 1
+  },
+  {
+   "w": "Except",
+   "t0": 20.43,
+   "t1": 20.887,
+   "sentence": 0,
+   "last": false,
+   "scene": 2
+  },
+  {
+   "w": "one",
+   "t0": 20.887,
+   "t1": 21.169,
+   "sentence": 0,
+   "last": false,
+   "scene": 2
+  },
+  {
+   "w": "thing.",
+   "t0": 21.169,
+   "t1": 21.45,
+   "sentence": 0,
+   "last": true,
+   "scene": 2
+  },
+  {
+   "w": "The",
+   "t0": 21.81,
+   "t1": 22.067,
+   "sentence": 1,
+   "last": false,
+   "scene": 2
+  },
+  {
+   "w": "chalk",
+   "t0": 22.067,
+   "t1": 22.325,
+   "sentence": 1,
+   "last": false,
+   "scene": 2
+  },
+  {
+   "w": "clock",
+   "t0": 22.325,
+   "t1": 22.582,
+   "sentence": 1,
+   "last": false,
+   "scene": 2
+  },
+  {
+   "w": "on",
+   "t0": 22.582,
+   "t1": 22.839,
+   "sentence": 1,
+   "last": false,
+   "scene": 2
+  },
+  {
+   "w": "my",
+   "t0": 22.839,
+   "t1": 23.096,
+   "sentence": 1,
+   "last": false,
+   "scene": 2
+  },
+  {
+   "w": "door",
+   "t0": 23.096,
+   "t1": 23.354,
+   "sentence": 1,
+   "last": false,
+   "scene": 2
+  },
+  {
+   "w": "didn't",
+   "t0": 23.354,
+   "t1": 23.611,
+   "sentence": 1,
+   "last": false,
+   "scene": 2
+  },
+  {
+   "w": "say",
+   "t0": 23.611,
+   "t1": 23.868,
+   "sentence": 1,
+   "last": false,
+   "scene": 2
+  },
+  {
+   "w": "three",
+   "t0": 23.868,
+   "t1": 24.126,
+   "sentence": 1,
+   "last": false,
+   "scene": 2
+  },
+  {
+   "w": "oh",
+   "t0": 24.126,
+   "t1": 24.383,
+   "sentence": 1,
+   "last": false,
+   "scene": 2
+  },
+  {
+   "w": "seven",
+   "t0": 24.383,
+   "t1": 24.801,
+   "sentence": 1,
+   "last": false,
+   "scene": 2
+  },
+  {
+   "w": "anymore.",
+   "t0": 24.801,
+   "t1": 25.38,
+   "sentence": 1,
+   "last": true,
+   "scene": 2
+  },
+  {
+   "w": "It",
+   "t0": 25.74,
+   "t1": 25.974,
+   "sentence": 2,
+   "last": false,
+   "scene": 2
+  },
+  {
+   "w": "said",
+   "t0": 25.974,
+   "t1": 26.208,
+   "sentence": 2,
+   "last": false,
+   "scene": 2
+  },
+  {
+   "w": "three",
+   "t0": 26.208,
+   "t1": 26.442,
+   "sentence": 2,
+   "last": false,
+   "scene": 2
+  },
+  {
+   "w": "oh",
+   "t0": 26.442,
+   "t1": 26.676,
+   "sentence": 2,
+   "last": false,
+   "scene": 2
+  },
+  {
+   "w": "eight.",
+   "t0": 26.676,
+   "t1": 26.91,
+   "sentence": 2,
+   "last": true,
+   "scene": 2
+  },
+  {
+   "w": "One",
+   "t0": 28.61,
+   "t1": 28.88,
+   "sentence": 0,
+   "last": false,
+   "scene": 3
+  },
+  {
+   "w": "minute.",
+   "t0": 28.88,
+   "t1": 29.32,
+   "sentence": 0,
+   "last": true,
+   "scene": 3
+  },
+  {
+   "w": "After",
+   "t0": 29.68,
+   "t1": 30.079,
+   "sentence": 1,
+   "last": false,
+   "scene": 3
+  },
+  {
+   "w": "four",
+   "t0": 30.079,
+   "t1": 30.324,
+   "sentence": 1,
+   "last": false,
+   "scene": 3
+  },
+  {
+   "w": "hundred",
+   "t0": 30.324,
+   "t1": 30.723,
+   "sentence": 1,
+   "last": false,
+   "scene": 3
+  },
+  {
+   "w": "and",
+   "t0": 30.723,
+   "t1": 30.969,
+   "sentence": 1,
+   "last": false,
+   "scene": 3
+  },
+  {
+   "w": "twelve",
+   "t0": 30.969,
+   "t1": 31.214,
+   "sentence": 1,
+   "last": false,
+   "scene": 3
+  },
+  {
+   "w": "days,",
+   "t0": 31.214,
+   "t1": 31.46,
+   "sentence": 1,
+   "last": false,
+   "scene": 3
+  },
+  {
+   "w": "time",
+   "t0": 31.86,
+   "t1": 32.136,
+   "sentence": 1,
+   "last": false,
+   "scene": 3
+  },
+  {
+   "w": "had",
+   "t0": 32.136,
+   "t1": 32.412,
+   "sentence": 1,
+   "last": false,
+   "scene": 3
+  },
+  {
+   "w": "moved.",
+   "t0": 32.412,
+   "t1": 32.86,
+   "sentence": 1,
+   "last": true,
+   "scene": 3
+  },
+  {
+   "w": "One.",
+   "t0": 33.22,
+   "t1": 33.505,
+   "sentence": 2,
+   "last": false,
+   "scene": 3
+  },
+  {
+   "w": "Single.",
+   "t0": 33.505,
+   "t1": 33.967,
+   "sentence": 2,
+   "last": false,
+   "scene": 3
+  },
+  {
+   "w": "Minute.",
+   "t0": 33.967,
+   "t1": 34.43,
+   "sentence": 2,
+   "last": true,
+   "scene": 3
+  },
+  {
+   "w": "Somewhere,",
+   "t0": 34.79,
+   "t1": 36.44,
+   "sentence": 3,
+   "last": false,
+   "scene": 3
+  },
+  {
+   "w": "a",
+   "t0": 36.75,
+   "t1": 36.865,
+   "sentence": 3,
+   "last": false,
+   "scene": 3
+  },
+  {
+   "w": "clock",
+   "t0": 36.865,
+   "t1": 36.98,
+   "sentence": 3,
+   "last": false,
+   "scene": 3
+  },
+  {
+   "w": "was",
+   "t0": 36.98,
+   "t1": 37.094,
+   "sentence": 3,
+   "last": false,
+   "scene": 3
+  },
+  {
+   "w": "ticking",
+   "t0": 37.094,
+   "t1": 37.281,
+   "sentence": 3,
+   "last": false,
+   "scene": 3
+  },
+  {
+   "w": "that",
+   "t0": 37.281,
+   "t1": 37.396,
+   "sentence": 3,
+   "last": false,
+   "scene": 3
+  },
+  {
+   "w": "had",
+   "t0": 37.396,
+   "t1": 37.51,
+   "sentence": 3,
+   "last": false,
+   "scene": 3
+  },
+  {
+   "w": "never",
+   "t0": 37.51,
+   "t1": 37.697,
+   "sentence": 3,
+   "last": false,
+   "scene": 3
+  },
+  {
+   "w": "ticked",
+   "t0": 37.697,
+   "t1": 37.883,
+   "sentence": 3,
+   "last": false,
+   "scene": 3
+  },
+  {
+   "w": "before.",
+   "t0": 37.883,
+   "t1": 38.07,
+   "sentence": 3,
+   "last": true,
+   "scene": 3
+  },
+  {
+   "w": "So",
+   "t0": 39.77,
+   "t1": 39.975,
+   "sentence": 0,
+   "last": false,
+   "scene": 4
+  },
+  {
+   "w": "I",
+   "t0": 39.975,
+   "t1": 40.18,
+   "sentence": 0,
+   "last": false,
+   "scene": 4
+  },
+  {
+   "w": "tested",
+   "t0": 40.18,
+   "t1": 40.512,
+   "sentence": 0,
+   "last": false,
+   "scene": 4
+  },
+  {
+   "w": "the",
+   "t0": 40.512,
+   "t1": 40.717,
+   "sentence": 0,
+   "last": false,
+   "scene": 4
+  },
+  {
+   "w": "rules.",
+   "t0": 40.717,
+   "t1": 41.05,
+   "sentence": 0,
+   "last": true,
+   "scene": 4
+  },
+  {
+   "w": "Before",
+   "t0": 41.41,
+   "t1": 41.747,
+   "sentence": 1,
+   "last": false,
+   "scene": 4
+  },
+  {
+   "w": "the",
+   "t0": 41.747,
+   "t1": 41.954,
+   "sentence": 1,
+   "last": false,
+   "scene": 4
+  },
+  {
+   "w": "baker",
+   "t0": 41.954,
+   "t1": 42.291,
+   "sentence": 1,
+   "last": false,
+   "scene": 4
+  },
+  {
+   "w": "could",
+   "t0": 42.291,
+   "t1": 42.498,
+   "sentence": 1,
+   "last": false,
+   "scene": 4
+  },
+  {
+   "w": "drop",
+   "t0": 42.498,
+   "t1": 42.705,
+   "sentence": 1,
+   "last": false,
+   "scene": 4
+  },
+  {
+   "w": "his",
+   "t0": 42.705,
+   "t1": 42.913,
+   "sentence": 1,
+   "last": false,
+   "scene": 4
+  },
+  {
+   "w": "tray,",
+   "t0": 42.913,
+   "t1": 43.12,
+   "sentence": 1,
+   "last": false,
+   "scene": 4
+  },
+  {
+   "w": "I",
+   "t0": 43.61,
+   "t1": 43.794,
+   "sentence": 1,
+   "last": false,
+   "scene": 4
+  },
+  {
+   "w": "knocked",
+   "t0": 43.794,
+   "t1": 44.092,
+   "sentence": 1,
+   "last": false,
+   "scene": 4
+  },
+  {
+   "w": "it",
+   "t0": 44.092,
+   "t1": 44.276,
+   "sentence": 1,
+   "last": false,
+   "scene": 4
+  },
+  {
+   "w": "out",
+   "t0": 44.276,
+   "t1": 44.459,
+   "sentence": 1,
+   "last": false,
+   "scene": 4
+  },
+  {
+   "w": "of",
+   "t0": 44.459,
+   "t1": 44.643,
+   "sentence": 1,
+   "last": false,
+   "scene": 4
+  },
+  {
+   "w": "his",
+   "t0": 44.643,
+   "t1": 44.826,
+   "sentence": 1,
+   "last": false,
+   "scene": 4
+  },
+  {
+   "w": "hands.",
+   "t0": 44.826,
+   "t1": 45.01,
+   "sentence": 1,
+   "last": true,
+   "scene": 4
+  },
+  {
+   "w": "The",
+   "t0": 46.71,
+   "t1": 46.976,
+   "sentence": 0,
+   "last": false,
+   "scene": 5
+  },
+  {
+   "w": "square",
+   "t0": 46.976,
+   "t1": 47.242,
+   "sentence": 0,
+   "last": false,
+   "scene": 5
+  },
+  {
+   "w": "went",
+   "t0": 47.242,
+   "t1": 47.508,
+   "sentence": 0,
+   "last": false,
+   "scene": 5
+  },
+  {
+   "w": "silent.",
+   "t0": 47.508,
+   "t1": 47.94,
+   "sentence": 0,
+   "last": true,
+   "scene": 5
+  },
+  {
+   "w": "And",
+   "t0": 48.3,
+   "t1": 48.491,
+   "sentence": 1,
+   "last": false,
+   "scene": 5
+  },
+  {
+   "w": "every",
+   "t0": 48.491,
+   "t1": 48.922,
+   "sentence": 1,
+   "last": false,
+   "scene": 5
+  },
+  {
+   "w": "single",
+   "t0": 48.922,
+   "t1": 49.233,
+   "sentence": 1,
+   "last": false,
+   "scene": 5
+  },
+  {
+   "w": "person",
+   "t0": 49.233,
+   "t1": 49.544,
+   "sentence": 1,
+   "last": false,
+   "scene": 5
+  },
+  {
+   "w": "turned",
+   "t0": 49.544,
+   "t1": 49.855,
+   "sentence": 1,
+   "last": false,
+   "scene": 5
+  },
+  {
+   "w": "to",
+   "t0": 49.855,
+   "t1": 50.046,
+   "sentence": 1,
+   "last": false,
+   "scene": 5
+  },
+  {
+   "w": "look",
+   "t0": 50.046,
+   "t1": 50.237,
+   "sentence": 1,
+   "last": false,
+   "scene": 5
+  },
+  {
+   "w": "at",
+   "t0": 50.237,
+   "t1": 50.429,
+   "sentence": 1,
+   "last": false,
+   "scene": 5
+  },
+  {
+   "w": "me.",
+   "t0": 50.429,
+   "t1": 50.62,
+   "sentence": 1,
+   "last": true,
+   "scene": 5
+  },
+  {
+   "w": "At",
+   "t0": 50.98,
+   "t1": 51.232,
+   "sentence": 2,
+   "last": false,
+   "scene": 5
+  },
+  {
+   "w": "the",
+   "t0": 51.232,
+   "t1": 51.485,
+   "sentence": 2,
+   "last": false,
+   "scene": 5
+  },
+  {
+   "w": "exact",
+   "t0": 51.485,
+   "t1": 51.895,
+   "sentence": 2,
+   "last": false,
+   "scene": 5
+  },
+  {
+   "w": "same",
+   "t0": 51.895,
+   "t1": 52.148,
+   "sentence": 2,
+   "last": false,
+   "scene": 5
+  },
+  {
+   "w": "time.",
+   "t0": 52.148,
+   "t1": 52.4,
+   "sentence": 2,
+   "last": true,
+   "scene": 5
+  },
+  {
+   "w": "Then",
+   "t0": 54.1,
+   "t1": 54.357,
+   "sentence": 0,
+   "last": false,
+   "scene": 6
+  },
+  {
+   "w": "they",
+   "t0": 54.357,
+   "t1": 54.613,
+   "sentence": 0,
+   "last": false,
+   "scene": 6
+  },
+  {
+   "w": "smiled.",
+   "t0": 54.613,
+   "t1": 55.03,
+   "sentence": 0,
+   "last": true,
+   "scene": 6
+  },
+  {
+   "w": "All",
+   "t0": 55.39,
+   "t1": 55.637,
+   "sentence": 1,
+   "last": false,
+   "scene": 6
+  },
+  {
+   "w": "of",
+   "t0": 55.637,
+   "t1": 55.883,
+   "sentence": 1,
+   "last": false,
+   "scene": 6
+  },
+  {
+   "w": "them.",
+   "t0": 55.883,
+   "t1": 56.13,
+   "sentence": 1,
+   "last": true,
+   "scene": 6
+  },
+  {
+   "w": "And",
+   "t0": 56.49,
+   "t1": 56.692,
+   "sentence": 2,
+   "last": false,
+   "scene": 6
+  },
+  {
+   "w": "went",
+   "t0": 56.692,
+   "t1": 56.894,
+   "sentence": 2,
+   "last": false,
+   "scene": 6
+  },
+  {
+   "w": "right",
+   "t0": 56.894,
+   "t1": 57.097,
+   "sentence": 2,
+   "last": false,
+   "scene": 6
+  },
+  {
+   "w": "back",
+   "t0": 57.097,
+   "t1": 57.299,
+   "sentence": 2,
+   "last": false,
+   "scene": 6
+  },
+  {
+   "w": "to",
+   "t0": 57.299,
+   "t1": 57.501,
+   "sentence": 2,
+   "last": false,
+   "scene": 6
+  },
+  {
+   "w": "what",
+   "t0": 57.501,
+   "t1": 57.703,
+   "sentence": 2,
+   "last": false,
+   "scene": 6
+  },
+  {
+   "w": "they",
+   "t0": 57.703,
+   "t1": 57.906,
+   "sentence": 2,
+   "last": false,
+   "scene": 6
+  },
+  {
+   "w": "were",
+   "t0": 57.906,
+   "t1": 58.108,
+   "sentence": 2,
+   "last": false,
+   "scene": 6
+  },
+  {
+   "w": "doing,",
+   "t0": 58.108,
+   "t1": 58.31,
+   "sentence": 2,
+   "last": false,
+   "scene": 6
+  },
+  {
+   "w": "like",
+   "t0": 58.75,
+   "t1": 58.972,
+   "sentence": 2,
+   "last": false,
+   "scene": 6
+  },
+  {
+   "w": "nothing",
+   "t0": 58.972,
+   "t1": 59.332,
+   "sentence": 2,
+   "last": false,
+   "scene": 6
+  },
+  {
+   "w": "happened.",
+   "t0": 59.332,
+   "t1": 59.83,
+   "sentence": 2,
+   "last": true,
+   "scene": 6
+  },
+  {
+   "w": "The",
+   "t0": 61.53,
+   "t1": 61.715,
+   "sentence": 0,
+   "last": false,
+   "scene": 7
+  },
+  {
+   "w": "baker",
+   "t0": 61.715,
+   "t1": 62.015,
+   "sentence": 0,
+   "last": false,
+   "scene": 7
+  },
+  {
+   "w": "even",
+   "t0": 62.015,
+   "t1": 62.315,
+   "sentence": 0,
+   "last": false,
+   "scene": 7
+  },
+  {
+   "w": "picked",
+   "t0": 62.315,
+   "t1": 62.616,
+   "sentence": 0,
+   "last": false,
+   "scene": 7
+  },
+  {
+   "w": "up",
+   "t0": 62.616,
+   "t1": 62.8,
+   "sentence": 0,
+   "last": false,
+   "scene": 7
+  },
+  {
+   "w": "his",
+   "t0": 62.8,
+   "t1": 62.985,
+   "sentence": 0,
+   "last": false,
+   "scene": 7
+  },
+  {
+   "w": "bread,",
+   "t0": 62.985,
+   "t1": 63.17,
+   "sentence": 0,
+   "last": false,
+   "scene": 7
+  },
+  {
+   "w": "and",
+   "t0": 63.28,
+   "t1": 63.485,
+   "sentence": 0,
+   "last": false,
+   "scene": 7
+  },
+  {
+   "w": "said,",
+   "t0": 63.485,
+   "t1": 63.69,
+   "sentence": 0,
+   "last": false,
+   "scene": 7
+  },
+  {
+   "w": "lovely",
+   "t0": 64.17,
+   "t1": 64.696,
+   "sentence": 0,
+   "last": false,
+   "scene": 7
+  },
+  {
+   "w": "morning,",
+   "t0": 64.696,
+   "t1": 65.076,
+   "sentence": 0,
+   "last": false,
+   "scene": 7
+  },
+  {
+   "w": "Wren.",
+   "t0": 65.076,
+   "t1": 65.31,
+   "sentence": 0,
+   "last": true,
+   "scene": 7
+  },
+  {
+   "w": "He",
+   "t0": 65.67,
+   "t1": 65.889,
+   "sentence": 1,
+   "last": false,
+   "scene": 7
+  },
+  {
+   "w": "has",
+   "t0": 65.889,
+   "t1": 66.108,
+   "sentence": 1,
+   "last": false,
+   "scene": 7
+  },
+  {
+   "w": "never",
+   "t0": 66.108,
+   "t1": 66.464,
+   "sentence": 1,
+   "last": false,
+   "scene": 7
+  },
+  {
+   "w": "once",
+   "t0": 66.464,
+   "t1": 66.683,
+   "sentence": 1,
+   "last": false,
+   "scene": 7
+  },
+  {
+   "w": "said",
+   "t0": 66.683,
+   "t1": 66.902,
+   "sentence": 1,
+   "last": false,
+   "scene": 7
+  },
+  {
+   "w": "my",
+   "t0": 66.902,
+   "t1": 67.121,
+   "sentence": 1,
+   "last": false,
+   "scene": 7
+  },
+  {
+   "w": "name.",
+   "t0": 67.121,
+   "t1": 67.34,
+   "sentence": 1,
+   "last": true,
+   "scene": 7
+  },
+  {
+   "w": "So",
+   "t0": 69.04,
+   "t1": 69.256,
+   "sentence": 0,
+   "last": false,
+   "scene": 8
+  },
+  {
+   "w": "I",
+   "t0": 69.256,
+   "t1": 69.472,
+   "sentence": 0,
+   "last": false,
+   "scene": 8
+  },
+  {
+   "w": "followed",
+   "t0": 69.472,
+   "t1": 69.957,
+   "sentence": 0,
+   "last": false,
+   "scene": 8
+  },
+  {
+   "w": "the",
+   "t0": 69.957,
+   "t1": 70.173,
+   "sentence": 0,
+   "last": false,
+   "scene": 8
+  },
+  {
+   "w": "one",
+   "t0": 70.173,
+   "t1": 70.389,
+   "sentence": 0,
+   "last": false,
+   "scene": 8
+  },
+  {
+   "w": "thing",
+   "t0": 70.389,
+   "t1": 70.604,
+   "sentence": 0,
+   "last": false,
+   "scene": 8
+  },
+  {
+   "w": "that",
+   "t0": 70.604,
+   "t1": 70.82,
+   "sentence": 0,
+   "last": false,
+   "scene": 8
+  },
+  {
+   "w": "never",
+   "t0": 70.82,
+   "t1": 71.171,
+   "sentence": 0,
+   "last": false,
+   "scene": 8
+  },
+  {
+   "w": "leaves.",
+   "t0": 71.171,
+   "t1": 71.521,
+   "sentence": 0,
+   "last": true,
+   "scene": 8
+  },
+  {
+   "w": "The",
+   "t0": 71.881,
+   "t1": 72.212,
+   "sentence": 1,
+   "last": false,
+   "scene": 8
+  },
+  {
+   "w": "stranger's",
+   "t0": 72.212,
+   "t1": 72.75,
+   "sentence": 1,
+   "last": false,
+   "scene": 8
+  },
+  {
+   "w": "cart.",
+   "t0": 72.75,
+   "t1": 73.081,
+   "sentence": 1,
+   "last": true,
+   "scene": 8
+  },
+  {
+   "w": "It",
+   "t0": 73.441,
+   "t1": 73.685,
+   "sentence": 2,
+   "last": false,
+   "scene": 8
+  },
+  {
+   "w": "rolls",
+   "t0": 73.685,
+   "t1": 73.929,
+   "sentence": 2,
+   "last": false,
+   "scene": 8
+  },
+  {
+   "w": "in",
+   "t0": 73.929,
+   "t1": 74.173,
+   "sentence": 2,
+   "last": false,
+   "scene": 8
+  },
+  {
+   "w": "at",
+   "t0": 74.173,
+   "t1": 74.418,
+   "sentence": 2,
+   "last": false,
+   "scene": 8
+  },
+  {
+   "w": "seven",
+   "t0": 74.418,
+   "t1": 74.814,
+   "sentence": 2,
+   "last": false,
+   "scene": 8
+  },
+  {
+   "w": "fourteen,",
+   "t0": 74.814,
+   "t1": 75.211,
+   "sentence": 2,
+   "last": false,
+   "scene": 8
+  },
+  {
+   "w": "every",
+   "t0": 75.661,
+   "t1": 76.113,
+   "sentence": 2,
+   "last": false,
+   "scene": 8
+  },
+  {
+   "w": "single",
+   "t0": 76.113,
+   "t1": 76.44,
+   "sentence": 2,
+   "last": false,
+   "scene": 8
+  },
+  {
+   "w": "day.",
+   "t0": 76.44,
+   "t1": 76.641,
+   "sentence": 2,
+   "last": true,
+   "scene": 8
+  },
+  {
+   "w": "It",
+   "t0": 77.001,
+   "t1": 77.18,
+   "sentence": 3,
+   "last": false,
+   "scene": 8
+  },
+  {
+   "w": "never,",
+   "t0": 77.18,
+   "t1": 77.471,
+   "sentence": 3,
+   "last": false,
+   "scene": 8
+  },
+  {
+   "w": "ever",
+   "t0": 77.641,
+   "t1": 78.049,
+   "sentence": 3,
+   "last": false,
+   "scene": 8
+  },
+  {
+   "w": "rolls",
+   "t0": 78.049,
+   "t1": 78.3,
+   "sentence": 3,
+   "last": false,
+   "scene": 8
+  },
+  {
+   "w": "out.",
+   "t0": 78.3,
+   "t1": 78.551,
+   "sentence": 3,
+   "last": true,
+   "scene": 8
+  },
+  {
+   "w": "It",
+   "t0": 80.251,
+   "t1": 80.456,
+   "sentence": 0,
+   "last": false,
+   "scene": 9
+  },
+  {
+   "w": "rolled",
+   "t0": 80.456,
+   "t1": 80.789,
+   "sentence": 0,
+   "last": false,
+   "scene": 9
+  },
+  {
+   "w": "behind",
+   "t0": 80.789,
+   "t1": 81.121,
+   "sentence": 0,
+   "last": false,
+   "scene": 9
+  },
+  {
+   "w": "the",
+   "t0": 81.121,
+   "t1": 81.326,
+   "sentence": 0,
+   "last": false,
+   "scene": 9
+  },
+  {
+   "w": "mill.",
+   "t0": 81.326,
+   "t1": 81.531,
+   "sentence": 0,
+   "last": true,
+   "scene": 9
+  },
+  {
+   "w": "And",
+   "t0": 81.891,
+   "t1": 82.072,
+   "sentence": 1,
+   "last": false,
+   "scene": 9
+  },
+  {
+   "w": "it",
+   "t0": 82.072,
+   "t1": 82.253,
+   "sentence": 1,
+   "last": false,
+   "scene": 9
+  },
+  {
+   "w": "didn't",
+   "t0": 82.253,
+   "t1": 82.434,
+   "sentence": 1,
+   "last": false,
+   "scene": 9
+  },
+  {
+   "w": "come",
+   "t0": 82.434,
+   "t1": 82.614,
+   "sentence": 1,
+   "last": false,
+   "scene": 9
+  },
+  {
+   "w": "out",
+   "t0": 82.614,
+   "t1": 82.795,
+   "sentence": 1,
+   "last": false,
+   "scene": 9
+  },
+  {
+   "w": "the",
+   "t0": 82.795,
+   "t1": 82.976,
+   "sentence": 1,
+   "last": false,
+   "scene": 9
+  },
+  {
+   "w": "other",
+   "t0": 82.976,
+   "t1": 83.27,
+   "sentence": 1,
+   "last": false,
+   "scene": 9
+  },
+  {
+   "w": "side.",
+   "t0": 83.27,
+   "t1": 83.451,
+   "sentence": 1,
+   "last": true,
+   "scene": 9
+  },
+  {
+   "w": "No",
+   "t0": 83.811,
+   "t1": 84.181,
+   "sentence": 2,
+   "last": false,
+   "scene": 9
+  },
+  {
+   "w": "tracks.",
+   "t0": 84.181,
+   "t1": 84.551,
+   "sentence": 2,
+   "last": false,
+   "scene": 9
+  },
+  {
+   "w": "No",
+   "t0": 84.551,
+   "t1": 84.92,
+   "sentence": 2,
+   "last": false,
+   "scene": 9
+  },
+  {
+   "w": "wheels.",
+   "t0": 84.92,
+   "t1": 85.29,
+   "sentence": 2,
+   "last": false,
+   "scene": 9
+  },
+  {
+   "w": "No",
+   "t0": 85.29,
+   "t1": 85.66,
+   "sentence": 2,
+   "last": false,
+   "scene": 9
+  },
+  {
+   "w": "stranger.",
+   "t0": 85.66,
+   "t1": 86.261,
+   "sentence": 2,
+   "last": true,
+   "scene": 9
+  },
+  {
+   "w": "Where",
+   "t0": 87.961,
+   "t1": 88.149,
+   "sentence": 0,
+   "last": false,
+   "scene": 10
+  },
+  {
+   "w": "it",
+   "t0": 88.149,
+   "t1": 88.337,
+   "sentence": 0,
+   "last": false,
+   "scene": 10
+  },
+  {
+   "w": "should",
+   "t0": 88.337,
+   "t1": 88.525,
+   "sentence": 0,
+   "last": false,
+   "scene": 10
+  },
+  {
+   "w": "have",
+   "t0": 88.525,
+   "t1": 88.713,
+   "sentence": 0,
+   "last": false,
+   "scene": 10
+  },
+  {
+   "w": "been,",
+   "t0": 88.713,
+   "t1": 88.901,
+   "sentence": 0,
+   "last": false,
+   "scene": 10
+  },
+  {
+   "w": "there",
+   "t0": 89.151,
+   "t1": 89.352,
+   "sentence": 0,
+   "last": false,
+   "scene": 10
+  },
+  {
+   "w": "was",
+   "t0": 89.352,
+   "t1": 89.553,
+   "sentence": 0,
+   "last": false,
+   "scene": 10
+  },
+  {
+   "w": "a",
+   "t0": 89.553,
+   "t1": 89.754,
+   "sentence": 0,
+   "last": false,
+   "scene": 10
+  },
+  {
+   "w": "trapdoor.",
+   "t0": 89.754,
+   "t1": 90.081,
+   "sentence": 0,
+   "last": true,
+   "scene": 10
+  },
+  {
+   "w": "I've",
+   "t0": 90.441,
+   "t1": 90.692,
+   "sentence": 1,
+   "last": false,
+   "scene": 10
+  },
+  {
+   "w": "walked",
+   "t0": 90.692,
+   "t1": 91.101,
+   "sentence": 1,
+   "last": false,
+   "scene": 10
+  },
+  {
+   "w": "past",
+   "t0": 91.101,
+   "t1": 91.352,
+   "sentence": 1,
+   "last": false,
+   "scene": 10
+  },
+  {
+   "w": "that",
+   "t0": 91.352,
+   "t1": 91.603,
+   "sentence": 1,
+   "last": false,
+   "scene": 10
+  },
+  {
+   "w": "spot",
+   "t0": 91.603,
+   "t1": 91.854,
+   "sentence": 1,
+   "last": false,
+   "scene": 10
+  },
+  {
+   "w": "a",
+   "t0": 91.854,
+   "t1": 92.106,
+   "sentence": 1,
+   "last": false,
+   "scene": 10
+  },
+  {
+   "w": "thousand",
+   "t0": 92.106,
+   "t1": 92.514,
+   "sentence": 1,
+   "last": false,
+   "scene": 10
+  },
+  {
+   "w": "times.",
+   "t0": 92.514,
+   "t1": 92.922,
+   "sentence": 1,
+   "last": true,
+   "scene": 10
+  },
+  {
+   "w": "It",
+   "t0": 93.282,
+   "t1": 93.495,
+   "sentence": 2,
+   "last": false,
+   "scene": 10
+  },
+  {
+   "w": "was",
+   "t0": 93.495,
+   "t1": 93.708,
+   "sentence": 2,
+   "last": false,
+   "scene": 10
+  },
+  {
+   "w": "never",
+   "t0": 93.708,
+   "t1": 94.053,
+   "sentence": 2,
+   "last": false,
+   "scene": 10
+  },
+  {
+   "w": "there",
+   "t0": 94.053,
+   "t1": 94.266,
+   "sentence": 2,
+   "last": false,
+   "scene": 10
+  },
+  {
+   "w": "before.",
+   "t0": 94.266,
+   "t1": 94.612,
+   "sentence": 2,
+   "last": true,
+   "scene": 10
+  },
+  {
+   "w": "Then",
+   "t0": 96.312,
+   "t1": 96.538,
+   "sentence": 0,
+   "last": false,
+   "scene": 11
+  },
+  {
+   "w": "the",
+   "t0": 96.538,
+   "t1": 96.763,
+   "sentence": 0,
+   "last": false,
+   "scene": 11
+  },
+  {
+   "w": "sun",
+   "t0": 96.763,
+   "t1": 96.989,
+   "sentence": 0,
+   "last": false,
+   "scene": 11
+  },
+  {
+   "w": "started",
+   "t0": 96.989,
+   "t1": 97.355,
+   "sentence": 0,
+   "last": false,
+   "scene": 11
+  },
+  {
+   "w": "moving.",
+   "t0": 97.355,
+   "t1": 97.722,
+   "sentence": 0,
+   "last": true,
+   "scene": 11
+  },
+  {
+   "w": "Fast.",
+   "t0": 98.082,
+   "t1": 98.672,
+   "sentence": 1,
+   "last": true,
+   "scene": 11
+  },
+  {
+   "w": "Like",
+   "t0": 99.032,
+   "t1": 99.269,
+   "sentence": 2,
+   "last": false,
+   "scene": 11
+  },
+  {
+   "w": "someone",
+   "t0": 99.269,
+   "t1": 99.654,
+   "sentence": 2,
+   "last": false,
+   "scene": 11
+  },
+  {
+   "w": "was",
+   "t0": 99.654,
+   "t1": 99.891,
+   "sentence": 2,
+   "last": false,
+   "scene": 11
+  },
+  {
+   "w": "dragging",
+   "t0": 99.891,
+   "t1": 100.276,
+   "sentence": 2,
+   "last": false,
+   "scene": 11
+  },
+  {
+   "w": "the",
+   "t0": 100.276,
+   "t1": 100.513,
+   "sentence": 2,
+   "last": false,
+   "scene": 11
+  },
+  {
+   "w": "day",
+   "t0": 100.513,
+   "t1": 100.75,
+   "sentence": 2,
+   "last": false,
+   "scene": 11
+  },
+  {
+   "w": "toward",
+   "t0": 100.75,
+   "t1": 101.135,
+   "sentence": 2,
+   "last": false,
+   "scene": 11
+  },
+  {
+   "w": "night.",
+   "t0": 101.135,
+   "t1": 101.372,
+   "sentence": 2,
+   "last": true,
+   "scene": 11
+  },
+  {
+   "w": "So",
+   "t0": 101.732,
+   "t1": 101.921,
+   "sentence": 3,
+   "last": false,
+   "scene": 11
+  },
+  {
+   "w": "I",
+   "t0": 101.921,
+   "t1": 102.109,
+   "sentence": 3,
+   "last": false,
+   "scene": 11
+  },
+  {
+   "w": "opened",
+   "t0": 102.109,
+   "t1": 102.533,
+   "sentence": 3,
+   "last": false,
+   "scene": 11
+  },
+  {
+   "w": "it.",
+   "t0": 102.533,
+   "t1": 102.722,
+   "sentence": 3,
+   "last": true,
+   "scene": 11
+  },
+  {
+   "w": "Underneath",
+   "t0": 104.422,
+   "t1": 105.068,
+   "sentence": 0,
+   "last": false,
+   "scene": 12
+  },
+  {
+   "w": "were",
+   "t0": 105.068,
+   "t1": 105.355,
+   "sentence": 0,
+   "last": false,
+   "scene": 12
+  },
+  {
+   "w": "clocks.",
+   "t0": 105.355,
+   "t1": 105.642,
+   "sentence": 0,
+   "last": true,
+   "scene": 12
+  },
+  {
+   "w": "Hundreds",
+   "t0": 106.002,
+   "t1": 106.454,
+   "sentence": 1,
+   "last": false,
+   "scene": 12
+  },
+  {
+   "w": "of",
+   "t0": 106.454,
+   "t1": 106.733,
+   "sentence": 1,
+   "last": false,
+   "scene": 12
+  },
+  {
+   "w": "them.",
+   "t0": 106.733,
+   "t1": 107.011,
+   "sentence": 1,
+   "last": true,
+   "scene": 12
+  },
+  {
+   "w": "Chalked",
+   "t0": 107.371,
+   "t1": 107.678,
+   "sentence": 2,
+   "last": false,
+   "scene": 12
+  },
+  {
+   "w": "on",
+   "t0": 107.678,
+   "t1": 107.867,
+   "sentence": 2,
+   "last": false,
+   "scene": 12
+  },
+  {
+   "w": "every",
+   "t0": 107.867,
+   "t1": 108.292,
+   "sentence": 2,
+   "last": false,
+   "scene": 12
+  },
+  {
+   "w": "wall,",
+   "t0": 108.292,
+   "t1": 108.481,
+   "sentence": 2,
+   "last": false,
+   "scene": 12
+  },
+  {
+   "w": "in",
+   "t0": 108.781,
+   "t1": 108.993,
+   "sentence": 2,
+   "last": false,
+   "scene": 12
+  },
+  {
+   "w": "my",
+   "t0": 108.993,
+   "t1": 109.205,
+   "sentence": 2,
+   "last": false,
+   "scene": 12
+  },
+  {
+   "w": "handwriting.",
+   "t0": 109.205,
+   "t1": 109.681,
+   "sentence": 2,
+   "last": true,
+   "scene": 12
+  },
+  {
+   "w": "Some",
+   "t0": 110.041,
+   "t1": 110.281,
+   "sentence": 3,
+   "last": false,
+   "scene": 12
+  },
+  {
+   "w": "so",
+   "t0": 110.281,
+   "t1": 110.521,
+   "sentence": 3,
+   "last": false,
+   "scene": 12
+  },
+  {
+   "w": "old",
+   "t0": 110.521,
+   "t1": 110.761,
+   "sentence": 3,
+   "last": false,
+   "scene": 12
+  },
+  {
+   "w": "the",
+   "t0": 110.761,
+   "t1": 111.001,
+   "sentence": 3,
+   "last": false,
+   "scene": 12
+  },
+  {
+   "w": "chalk",
+   "t0": 111.001,
+   "t1": 111.241,
+   "sentence": 3,
+   "last": false,
+   "scene": 12
+  },
+  {
+   "w": "had",
+   "t0": 111.241,
+   "t1": 111.481,
+   "sentence": 3,
+   "last": false,
+   "scene": 12
+  },
+  {
+   "w": "almost",
+   "t0": 111.481,
+   "t1": 111.871,
+   "sentence": 3,
+   "last": false,
+   "scene": 12
+  },
+  {
+   "w": "faded",
+   "t0": 111.871,
+   "t1": 112.261,
+   "sentence": 3,
+   "last": false,
+   "scene": 12
+  },
+  {
+   "w": "away.",
+   "t0": 112.261,
+   "t1": 112.651,
+   "sentence": 3,
+   "last": true,
+   "scene": 12
+  },
+  {
+   "w": "I",
+   "t0": 114.351,
+   "t1": 114.613,
+   "sentence": 0,
+   "last": false,
+   "scene": 13
+  },
+  {
+   "w": "counted",
+   "t0": 114.613,
+   "t1": 115.039,
+   "sentence": 0,
+   "last": false,
+   "scene": 13
+  },
+  {
+   "w": "them.",
+   "t0": 115.039,
+   "t1": 115.301,
+   "sentence": 0,
+   "last": true,
+   "scene": 13
+  },
+  {
+   "w": "Four",
+   "t0": 115.661,
+   "t1": 115.983,
+   "sentence": 1,
+   "last": false,
+   "scene": 13
+  },
+  {
+   "w": "hundred",
+   "t0": 115.983,
+   "t1": 116.507,
+   "sentence": 1,
+   "last": false,
+   "scene": 13
+  },
+  {
+   "w": "and",
+   "t0": 116.507,
+   "t1": 116.829,
+   "sentence": 1,
+   "last": false,
+   "scene": 13
+  },
+  {
+   "w": "twelve.",
+   "t0": 116.829,
+   "t1": 117.151,
+   "sentence": 1,
+   "last": true,
+   "scene": 13
+  },
+  {
+   "w": "One",
+   "t0": 117.511,
+   "t1": 117.741,
+   "sentence": 2,
+   "last": false,
+   "scene": 13
+  },
+  {
+   "w": "for",
+   "t0": 117.741,
+   "t1": 117.971,
+   "sentence": 2,
+   "last": false,
+   "scene": 13
+  },
+  {
+   "w": "every",
+   "t0": 117.971,
+   "t1": 118.488,
+   "sentence": 2,
+   "last": false,
+   "scene": 13
+  },
+  {
+   "w": "Tuesday.",
+   "t0": 118.488,
+   "t1": 118.861,
+   "sentence": 2,
+   "last": true,
+   "scene": 13
+  },
+  {
+   "w": "Every",
+   "t0": 119.221,
+   "t1": 119.705,
+   "sentence": 3,
+   "last": false,
+   "scene": 13
+  },
+  {
+   "w": "single",
+   "t0": 119.705,
+   "t1": 120.055,
+   "sentence": 3,
+   "last": false,
+   "scene": 13
+  },
+  {
+   "w": "one",
+   "t0": 120.055,
+   "t1": 120.271,
+   "sentence": 3,
+   "last": false,
+   "scene": 13
+  },
+  {
+   "w": "was",
+   "t0": 120.271,
+   "t1": 120.486,
+   "sentence": 3,
+   "last": false,
+   "scene": 13
+  },
+  {
+   "w": "crossed",
+   "t0": 120.486,
+   "t1": 120.836,
+   "sentence": 3,
+   "last": false,
+   "scene": 13
+  },
+  {
+   "w": "out.",
+   "t0": 120.836,
+   "t1": 121.051,
+   "sentence": 3,
+   "last": true,
+   "scene": 13
+  },
+  {
+   "w": "Except",
+   "t0": 121.411,
+   "t1": 121.832,
+   "sentence": 4,
+   "last": false,
+   "scene": 13
+  },
+  {
+   "w": "the",
+   "t0": 121.832,
+   "t1": 122.092,
+   "sentence": 4,
+   "last": false,
+   "scene": 13
+  },
+  {
+   "w": "last.",
+   "t0": 122.092,
+   "t1": 122.351,
+   "sentence": 4,
+   "last": true,
+   "scene": 13
+  },
+  {
+   "w": "Three",
+   "t0": 122.711,
+   "t1": 123.001,
+   "sentence": 5,
+   "last": false,
+   "scene": 13
+  },
+  {
+   "w": "oh",
+   "t0": 123.001,
+   "t1": 123.291,
+   "sentence": 5,
+   "last": false,
+   "scene": 13
+  },
+  {
+   "w": "eight.",
+   "t0": 123.291,
+   "t1": 123.581,
+   "sentence": 5,
+   "last": true,
+   "scene": 13
+  },
+  {
+   "w": "And",
+   "t0": 123.941,
+   "t1": 124.185,
+   "sentence": 6,
+   "last": false,
+   "scene": 13
+  },
+  {
+   "w": "under",
+   "t0": 124.185,
+   "t1": 124.58,
+   "sentence": 6,
+   "last": false,
+   "scene": 13
+  },
+  {
+   "w": "it,",
+   "t0": 124.58,
+   "t1": 124.824,
+   "sentence": 6,
+   "last": false,
+   "scene": 13
+  },
+  {
+   "w": "one",
+   "t0": 124.824,
+   "t1": 125.067,
+   "sentence": 6,
+   "last": false,
+   "scene": 13
+  },
+  {
+   "w": "word.",
+   "t0": 125.067,
+   "t1": 125.311,
+   "sentence": 6,
+   "last": true,
+   "scene": 13
+  },
+  {
+   "w": "Tomorrow.",
+   "t0": 125.671,
+   "t1": 126.311,
+   "sentence": 7,
+   "last": true,
+   "scene": 13
+  },
+  {
+   "w": "Then",
+   "t0": 128.011,
+   "t1": 128.319,
+   "sentence": 0,
+   "last": false,
+   "scene": 14
+  },
+  {
+   "w": "the",
+   "t0": 128.319,
+   "t1": 128.626,
+   "sentence": 0,
+   "last": false,
+   "scene": 14
+  },
+  {
+   "w": "whisper",
+   "t0": 128.626,
+   "t1": 129.126,
+   "sentence": 0,
+   "last": false,
+   "scene": 14
+  },
+  {
+   "w": "came",
+   "t0": 129.126,
+   "t1": 129.433,
+   "sentence": 0,
+   "last": false,
+   "scene": 14
+  },
+  {
+   "w": "back.",
+   "t0": 129.433,
+   "t1": 129.741,
+   "sentence": 0,
+   "last": true,
+   "scene": 14
+  },
+  {
+   "w": "Right",
+   "t0": 130.101,
+   "t1": 130.418,
+   "sentence": 1,
+   "last": false,
+   "scene": 14
+  },
+  {
+   "w": "behind",
+   "t0": 130.418,
+   "t1": 130.934,
+   "sentence": 1,
+   "last": false,
+   "scene": 14
+  },
+  {
+   "w": "me.",
+   "t0": 130.934,
+   "t1": 131.251,
+   "sentence": 1,
+   "last": true,
+   "scene": 14
+  },
+  {
+   "w": "You",
+   "t0": 131.611,
+   "t1": 131.862,
+   "sentence": 2,
+   "last": false,
+   "scene": 14
+  },
+  {
+   "w": "always",
+   "t0": 131.862,
+   "t1": 132.269,
+   "sentence": 2,
+   "last": false,
+   "scene": 14
+  },
+  {
+   "w": "get",
+   "t0": 132.269,
+   "t1": 132.52,
+   "sentence": 2,
+   "last": false,
+   "scene": 14
+  },
+  {
+   "w": "this",
+   "t0": 132.52,
+   "t1": 132.77,
+   "sentence": 2,
+   "last": false,
+   "scene": 14
+  },
+  {
+   "w": "far,",
+   "t0": 132.77,
+   "t1": 133.021,
+   "sentence": 2,
+   "last": false,
+   "scene": 14
+  },
+  {
+   "w": "Wren.",
+   "t0": 133.231,
+   "t1": 133.611,
+   "sentence": 2,
+   "last": true,
+   "scene": 14
+  },
+  {
+   "w": "You",
+   "t0": 133.971,
+   "t1": 134.268,
+   "sentence": 3,
+   "last": false,
+   "scene": 14
+  },
+  {
+   "w": "always",
+   "t0": 134.268,
+   "t1": 134.751,
+   "sentence": 3,
+   "last": false,
+   "scene": 14
+  },
+  {
+   "w": "forget",
+   "t0": 134.751,
+   "t1": 135.234,
+   "sentence": 3,
+   "last": false,
+   "scene": 14
+  },
+  {
+   "w": "why.",
+   "t0": 135.234,
+   "t1": 135.531,
+   "sentence": 3,
+   "last": true,
+   "scene": 14
+  },
+  {
+   "w": "It",
+   "t0": 135.891,
+   "t1": 136.158,
+   "sentence": 4,
+   "last": false,
+   "scene": 14
+  },
+  {
+   "w": "pulled",
+   "t0": 136.158,
+   "t1": 136.591,
+   "sentence": 4,
+   "last": false,
+   "scene": 14
+  },
+  {
+   "w": "back",
+   "t0": 136.591,
+   "t1": 136.858,
+   "sentence": 4,
+   "last": false,
+   "scene": 14
+  },
+  {
+   "w": "its",
+   "t0": 136.858,
+   "t1": 137.124,
+   "sentence": 4,
+   "last": false,
+   "scene": 14
+  },
+  {
+   "w": "hood...",
+   "t0": 137.124,
+   "t1": 137.391,
+   "sentence": 4,
+   "last": true,
+   "scene": 14
+  },
+  {
+   "w": "and",
+   "t0": 137.751,
+   "t1": 138.023,
+   "sentence": 5,
+   "last": false,
+   "scene": 14
+  },
+  {
+   "w": "I",
+   "t0": 138.023,
+   "t1": 138.295,
+   "sentence": 5,
+   "last": false,
+   "scene": 14
+  },
+  {
+   "w": "knew",
+   "t0": 138.295,
+   "t1": 138.567,
+   "sentence": 5,
+   "last": false,
+   "scene": 14
+  },
+  {
+   "w": "that",
+   "t0": 138.567,
+   "t1": 138.839,
+   "sentence": 5,
+   "last": false,
+   "scene": 14
+  },
+  {
+   "w": "face.",
+   "t0": 138.839,
+   "t1": 139.111,
+   "sentence": 5,
+   "last": true,
+   "scene": 14
+  },
+  {
+   "w": "I",
+   "t0": 139.471,
+   "t1": 139.699,
+   "sentence": 6,
+   "last": false,
+   "scene": 14
+  },
+  {
+   "w": "see",
+   "t0": 139.699,
+   "t1": 139.928,
+   "sentence": 6,
+   "last": false,
+   "scene": 14
+  },
+  {
+   "w": "it",
+   "t0": 139.928,
+   "t1": 140.156,
+   "sentence": 6,
+   "last": false,
+   "scene": 14
+  },
+  {
+   "w": "every",
+   "t0": 140.156,
+   "t1": 140.67,
+   "sentence": 6,
+   "last": false,
+   "scene": 14
+  },
+  {
+   "w": "morning,",
+   "t0": 140.67,
+   "t1": 141.041,
+   "sentence": 6,
+   "last": false,
+   "scene": 14
+  },
+  {
+   "w": "in",
+   "t0": 141.621,
+   "t1": 141.814,
+   "sentence": 6,
+   "last": false,
+   "scene": 14
+  },
+  {
+   "w": "the",
+   "t0": 141.814,
+   "t1": 142.007,
+   "sentence": 6,
+   "last": false,
+   "scene": 14
+  },
+  {
+   "w": "mirror.",
+   "t0": 142.007,
+   "t1": 142.321,
+   "sentence": 6,
+   "last": true,
+   "scene": 14
+  }
+ ],
+ "voiceLines": [
+  {
+   "scene": "cold_open",
+   "file": "audio/line_00_cold_open.wav",
+   "start": 4.6,
+   "duration": 5.71,
+   "whisper": false
+  },
+  {
+   "scene": "tuesday_again",
+   "file": "audio/line_01_tuesday_again.wav",
+   "start": 11.91,
+   "duration": 6.87,
+   "whisper": false
+  },
+  {
+   "scene": "one_minute",
+   "file": "audio/line_02_one_minute.wav",
+   "start": 20.38,
+   "duration": 6.58,
+   "whisper": false
+  },
+  {
+   "scene": "time_moved",
+   "file": "audio/line_03_time_moved.wav",
+   "start": 28.56,
+   "duration": 9.56,
+   "whisper": false
+  },
+  {
+   "scene": "the_test",
+   "file": "audio/line_04_the_test.wav",
+   "start": 39.72,
+   "duration": 5.34,
+   "whisper": false
+  },
+  {
+   "scene": "they_turn",
+   "file": "audio/line_05_they_turn.wav",
+   "start": 46.66,
+   "duration": 5.79,
+   "whisper": false
+  },
+  {
+   "scene": "they_smile",
+   "file": "audio/line_06_they_smile.wav",
+   "start": 54.05,
+   "duration": 5.83,
+   "whisper": false
+  },
+  {
+   "scene": "her_name",
+   "file": "audio/line_07_her_name.wav",
+   "start": 61.48,
+   "duration": 5.91,
+   "whisper": false
+  },
+  {
+   "scene": "the_cart",
+   "file": "audio/line_08_the_cart.wav",
+   "start": 68.99,
+   "duration": 9.611,
+   "whisper": false
+  },
+  {
+   "scene": "behind_the_mill",
+   "file": "audio/line_09_behind_the_mill.wav",
+   "start": 80.201,
+   "duration": 6.11,
+   "whisper": false
+  },
+  {
+   "scene": "trapdoor",
+   "file": "audio/line_10_trapdoor.wav",
+   "start": 87.911,
+   "duration": 6.751,
+   "whisper": false
+  },
+  {
+   "scene": "sun_running",
+   "file": "audio/line_11_sun_running.wav",
+   "start": 96.262,
+   "duration": 6.51,
+   "whisper": false
+  },
+  {
+   "scene": "the_cellar",
+   "file": "audio/line_12_the_cellar.wav",
+   "start": 104.372,
+   "duration": 8.329,
+   "whisper": false
+  },
+  {
+   "scene": "crossed_out",
+   "file": "audio/line_13_crossed_out.wav",
+   "start": 114.301,
+   "duration": 12.06,
+   "whisper": false
+  },
+  {
+   "scene": "cliffhanger",
+   "file": "audio/line_14_cliffhanger.wav",
+   "start": 127.961,
+   "duration": 14.41,
+   "whisper": true
+  }
+ ],
+ "voiceRegions": [
+  [
+   4.6,
+   10.31
+  ],
+  [
+   11.91,
+   18.78
+  ],
+  [
+   20.38,
+   26.96
+  ],
+  [
+   28.56,
+   38.12
+  ],
+  [
+   39.72,
+   45.06
+  ],
+  [
+   46.66,
+   52.45
+  ],
+  [
+   54.05,
+   59.88
+  ],
+  [
+   61.48,
+   67.39
+  ],
+  [
+   68.99,
+   78.601
+  ],
+  [
+   80.201,
+   86.311
+  ],
+  [
+   87.911,
+   94.662
+  ],
+  [
+   96.262,
+   102.772
+  ],
+  [
+   104.372,
+   112.701
+  ],
+  [
+   114.301,
+   126.361
+  ],
+  [
+   127.961,
+   142.371
+  ]
+ ]
+}

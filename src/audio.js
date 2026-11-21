@@ -91,6 +91,15 @@ export function buildMix(ctx, tl, voices, T0 = 0) {
     musicMaster.gain.linearRampToValueAtTime(1, at(endT + 0.1));
   }
   const musicOff = (t) => silence && t > silence.t && t < endT;
+  // short music drop-outs ("the square went silent")
+  const drops = tl.events.filter((e) => e.type === 'drop');
+  const dropped = (t) => drops.some((e) => t > e.t && t < e.t + (e.dur ?? 2));
+  for (const e of drops) {
+    musicMaster.gain.setValueAtTime(1, at(e.t - 0.05));
+    musicMaster.gain.linearRampToValueAtTime(0.06, at(e.t + 0.12));
+    musicMaster.gain.setValueAtTime(0.06, at(e.t + (e.dur ?? 2)));
+    musicMaster.gain.linearRampToValueAtTime(1, at(e.t + (e.dur ?? 2) + 0.4));
+  }
 
   // ---- per-scene mood automation
   const sceneAt = (t) => { let s = tl.scenes[0]; for (const x of tl.scenes) if (x.start <= t) s = x; return s; };
@@ -145,9 +154,8 @@ export function buildMix(ctx, tl, voices, T0 = 0) {
       o.connect(og).connect(g); o.start(at(t)); o.stop(at(t) + 2.6);
     });
   };
-  const step = 60 / 66 / 2; // eighth notes at 66 bpm
-  for (let t = 0.6, i = 0; t < endT - 0.5; t += step, i++) {
-    if (musicOff(t)) continue;
+  for (let t = 0.6, i = 0; t < endT - 0.5; t += 60 / (sceneAt(t).sound.tempo ?? 66) / 2, i++) {
+    if (musicOff(t) || dropped(t)) continue;
     const s = sceneAt(t);
     const dens = s.sound.box ?? 0.5;
     const bar = Math.floor(i / 16);
@@ -162,7 +170,7 @@ export function buildMix(ctx, tl, voices, T0 = 0) {
   // ticking clock: louder toward the cliffhanger, stops at the silence
   const nb = noiseBuffer(ctx, 0.05, 3);
   const firstTick = 1;
-  for (let t = firstTick, i = 0; t < endT; t += 1, i++) {
+  for (let t = firstTick, i = 0; t < endT; t += 1 / (sceneAt(t).sound.tickRate ?? 1), i++) {
     if (musicOff(t)) continue;
     const s = sceneAt(t);
     const prog = t / endT;
@@ -241,6 +249,24 @@ export function buildMix(ctx, tl, voices, T0 = 0) {
     o.connect(gg).connect(score); o.start(at(t)); o.stop(at(t) + 3);
   };
 
+  // ---- pulse: a soft heartbeat kick on the beat, for drive
+  {
+    let t = 0.5;
+    while (t < endT) {
+      const s = sceneAt(t);
+      const bpm = s.sound.tempo ?? 66;
+      const lvl = s.sound.pulse ?? 0;
+      if (lvl > 0.01 && !musicOff(t)) {
+        for (const [dt, a] of [[0, 1], [0.22, 0.55]]) {
+          const o = ctx.createOscillator(); o.frequency.setValueAtTime(78, at(t + dt)); o.frequency.exponentialRampToValueAtTime(38, at(t + dt) + 0.18);
+          const g = ctx.createGain(); g.gain.setValueAtTime(0, at(t + dt)); g.gain.linearRampToValueAtTime(0.42 * lvl * a, at(t + dt) + 0.006); g.gain.exponentialRampToValueAtTime(0.0001, at(t + dt) + 0.3);
+          o.connect(g).connect(score); o.start(at(t + dt)); o.stop(at(t + dt) + 0.35);
+        }
+      }
+      t += 60 / bpm;
+    }
+  }
+
   // ---- event-driven sounds
   const rainStart = tl.events.find((e) => e.type === 'rainStart');
   for (const e of tl.events) {
@@ -271,6 +297,32 @@ export function buildMix(ctx, tl, voices, T0 = 0) {
       case 'chime': [86, 89, 93].forEach((m, k) => musicBox(t + k * 0.12, midi(m), 0.5)); break;
       case 'sting': boom(t, 0.25); musicBox(t + 0.05, midi(93), 1); musicBox(t + 0.05, midi(98), 0.6); break;
       case 'hush': noiseHit(t, { len: 1.2, f: 600, q: 0.5, g: 0.06, attack: 0.5 }); break;
+      case 'whip': {
+        const n = noiseHit(t - 0.12, { len: 0.32, f: 1800, q: 0.9, g: 0.2, attack: 0.1 });
+        n.flt.frequency.setValueAtTime(500, at(t - 0.12)); n.flt.frequency.exponentialRampToValueAtTime(5000, at(t + 0.1));
+        break;
+      }
+      case 'dip': noiseHit(t - 0.4, { len: 0.9, f: 220, q: 0.7, g: 0.3, type: 'lowpass', brown: true, attack: 0.4 }); break;
+      case 'heartbeat': for (let k = 0; k < (e.n ?? 3); k++) for (const [dt, a] of [[0, 1], [0.24, 0.6]]) {
+        const tt = t + k * 0.8 + dt;
+        const o = ctx.createOscillator(); o.frequency.setValueAtTime(70, at(tt)); o.frequency.exponentialRampToValueAtTime(34, at(tt) + 0.2);
+        const g = ctx.createGain(); g.gain.setValueAtTime(0, at(tt)); g.gain.linearRampToValueAtTime(0.55 * a, at(tt) + 0.006); g.gain.exponentialRampToValueAtTime(0.0001, at(tt) + 0.32);
+        o.connect(g).connect(fxBus); o.start(at(tt)); o.stop(at(tt) + 0.4);
+      } break;
+      case 'riser': {
+        const d = e.dur ?? 3;
+        const n = noiseHit(t, { len: d, f: 400, q: 1.2, g: 0.16, attack: d * 0.95 });
+        n.flt.frequency.setValueAtTime(300, at(t)); n.flt.frequency.exponentialRampToValueAtTime(7000, at(t + d));
+        const o = ctx.createOscillator(); o.type = 'sawtooth'; o.frequency.setValueAtTime(110, at(t)); o.frequency.exponentialRampToValueAtTime(440, at(t + d));
+        const og = ctx.createGain(); og.gain.setValueAtTime(0.0001, at(t)); og.gain.exponentialRampToValueAtTime(0.03, at(t + d)); og.gain.linearRampToValueAtTime(0, at(t + d) + 0.05);
+        const lp = ctx.createBiquadFilter(); lp.type = 'lowpass'; lp.frequency.value = 1500;
+        o.connect(lp).connect(og).connect(fxBus); o.start(at(t)); o.stop(at(t + d) + 0.1);
+        break;
+      }
+      case 'thud': boom(t, 0.4); noiseHit(t, { len: 0.2, f: 300, q: 1, g: 0.35, type: 'lowpass', brown: true }); creak(t + 0.05, { f: 110, len: 0.5, g: 0.08 }); break;
+      case 'stinger': boom(t, 0.45); [93, 98, 99].forEach((m) => musicBox(t + 0.02, midi(m), 0.8)); noiseHit(t, { len: 0.6, f: 5000, q: 0.5, g: 0.08 }); break;
+      case 'flicker': noiseHit(t, { len: e.dur ?? 0.5, f: 3500, q: 0.6, g: 0.12 }); break;
+      case 'tickBurst': for (let k = 0; k < 10; k++) noiseHit(t + k * 0.11, { len: 0.03, f: k % 2 ? 1900 : 2700, q: 9, g: 0.3 }); break;
       case 'scratch': {
         const n = noiseHit(t, { len: 4.0, f: 3200, q: 2.5, g: 0.06, attack: 0.2 });
         const tr = ctx.createOscillator(); tr.frequency.value = 7; const trg = ctx.createGain(); trg.gain.value = 0.05;

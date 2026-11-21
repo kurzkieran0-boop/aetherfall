@@ -89,10 +89,26 @@ export function humanoid(o = {}) {
   head.add(headM);
   const hy = headR + 0.02;
   if (o.face !== false) {
+    head.userData.eyes = [];
     for (const side of [1, -1]) {
-      const eye = mesh(new THREE.IcosahedronGeometry(0.019, 0), 0x1b1512);
-      eye.position.set(0.052 * side, hy + 0.015, headR * 0.9);
+      const eye = new THREE.Group();
+      eye.position.set(0.052 * side, hy + 0.015, headR * 0.86);
+      const white = mesh(new THREE.SphereGeometry(0.026, 8, 6), 0xf4efe6, { flat: false });
+      white.scale.set(1, 0.85, 0.6);
+      const iris = mesh(new THREE.SphereGeometry(0.016, 8, 6), o.eyes ?? 0x2b3f45, { flat: false });
+      iris.position.z = 0.012; iris.scale.set(1, 1, 0.6);
+      const pupil = mesh(new THREE.SphereGeometry(0.008, 6, 4), 0x0a0a0a, { flat: false });
+      pupil.position.z = 0.019;
+      const glint = new THREE.Mesh(new THREE.SphereGeometry(0.0045, 4, 3), new THREE.MeshBasicMaterial({ color: 0xffffff }));
+      glint.position.set(0.006 * side, 0.006, 0.022);
+      eye.add(white, iris, pupil, glint);
       head.add(eye);
+      head.userData.eyes.push(eye);
+      const lid = mesh(new THREE.SphereGeometry(0.028, 8, 4, 0, Math.PI * 2, 0, Math.PI * 0.5), o.skin ?? C.skin, { flat: false });
+      lid.position.copy(eye.position);
+      lid.scale.set(1, 0.05, 0.7);
+      head.add(lid);
+      (head.userData.lids ||= []).push(lid);
       const brow = mesh(new THREE.BoxGeometry(0.05, 0.01, 0.01), o.hair ?? 0x3a2a20);
       brow.position.set(0.052 * side, hy + 0.06, headR * 0.92);
       brow.rotation.z = -0.12 * side;
@@ -164,6 +180,18 @@ export function humanoid(o = {}) {
     const hood = mesh(new THREE.ConeGeometry(0.24, 0.52, 7, 1, true), o.top, { side: THREE.DoubleSide });
     hood.position.set(0, hy + 0.06, -0.03);
     head.add(hood);
+  }
+  if (o.hoodOver) {
+    const pivot = new THREE.Group();
+    pivot.position.set(0, hy - 0.12, -0.02);
+    const hood = mesh(new THREE.ConeGeometry(0.26, 0.72, 8, 1, true), o.top, { side: THREE.DoubleSide });
+    hood.position.y = 0.3;
+    const cowl = mesh(new THREE.SphereGeometry(0.235, 10, 7, 0, TAU, 0, Math.PI * 0.62), o.top, { side: THREE.DoubleSide });
+    cowl.position.y = 0.14;
+    cowl.scale.set(1, 1.1, 1.08);
+    pivot.add(hood, cowl);
+    head.add(pivot);
+    head.userData.hood = pivot;
   }
   if (o.beard) {
     const b = mesh(new THREE.ConeGeometry(0.1, 0.24, 6), o.beard);
@@ -242,6 +270,10 @@ const makers = {
   sweeper: () => humanoid({ height: 1.65, top: 0xb7873f, skirt: 0x9b6f33, hairStyle: 'scarf', scarfColor: 0x2f5a5d, skirtLen: 0.5 }),
   bucketman: () => humanoid({ height: 1.72, top: 0x6c4a30, sleeves: 0xe8dcc0, skirt: false, legs: 0x3f3b36, hair: 0x3d2b1f, hairStyle: 'cap', capColor: 0x3b585e }),
   stranger: () => humanoid({ height: 1.8, top: 0x1d3439, skirt: 0x1a2f33, skirtLen: 0.6, skirtR: 0.33, hairStyle: 'hood', face: false, skin: 0x161616 }),
+  villagerA: () => humanoid({ height: 1.66, top: 0x8f6a44, skirt: 0x6d5137, apron: 0xe9dcc0, hair: 0x6a4a30, hairStyle: 'bun', skirtLen: 0.5 }),
+  villagerB: () => humanoid({ height: 1.75, top: 0x41605f, sleeves: 0xd9cdb2, skirt: false, legs: 0x4a3d30, hair: 0x2f2620, hairStyle: 'cap', capColor: 0x8d6a45, mustache: 0x2f2620 }),
+  child: () => humanoid({ height: 1.15, top: 0xc29a5a, skirt: false, legs: 0x5b4a3a, hair: 0x7a5232, hairStyle: 'bob' }),
+  otherwren: () => humanoid({ height: 1.55, top: 0x0d1416, skirt: 0x0b1113, sleeves: 0x0d1416, skirtLen: 0.62, skirtR: 0.34, hair: 0x4a2b1e, hairStyle: 'bob', hoodOver: true, skin: 0xdcc0ac, legs: 0x0b1113, shoes: 0x050505 }),
   shadow: () => humanoid({ height: 2.05, top: 0x0a0d0e, skirt: 0x08090a, sleeves: 0x0a0d0e, skirtLen: 0.62, skirtR: 0.36, hairStyle: 'hood', face: false, skin: 0x050505, legs: 0x050505, shoes: 0x050505 }),
 };
 
@@ -369,6 +401,14 @@ function bellActor(world) {
 
 // ------------------------------------------------------------------ actions
 // ctx: { t (abs), lt (since key), loopT (since key or last reset), key, world, dt }
+function blink(r, t, seed = 0) {
+  const lids = r.head.userData.lids;
+  if (!lids) return;
+  const ph = (t + seed * 7.3) % 3.9;
+  const c = ph < 0.13 ? Math.sin((ph / 0.13) * Math.PI) : 0;
+  lids.forEach((l) => (l.scale.y = 0.05 + 0.85 * c));
+}
+
 export function applyAction(actor, action, ctx) {
   const { lt, loopT, key, world, t } = ctx;
   if (actor.name === 'bell') {
@@ -399,7 +439,64 @@ export function applyAction(actor, action, ctx) {
   }
   const r = actor.rig;
   resetPose(r);
+  blink(r, t, actor.seed || 0);
+  if (r.head.userData.hood) r.head.userData.hood.rotation.x = 0;
+  if (r.head.userData.mouth) r.head.userData.mouth.scale.set(1, 1, 1);
   switch (action) {
+    case 'run': {
+      const ph = t * 9.5;
+      r.legs[0].rotation.x = Math.sin(ph) * 0.85;
+      r.legs[1].rotation.x = -Math.sin(ph) * 0.85;
+      r.arms[0].rotation.x = -Math.sin(ph) * 0.9 - 0.3;
+      r.arms[1].rotation.x = Math.sin(ph) * 0.9 - 0.3;
+      r.arms[0].rotation.z = 0.15; r.arms[1].rotation.z = -0.15;
+      r.hips.position.y = r.legLen + Math.abs(Math.cos(ph)) * 0.05;
+      r.upper.rotation.x = 0.22;
+      r.head.rotation.x = -0.1;
+      break;
+    }
+    case 'spin': {
+      const k = 1 - Math.pow(1 - clamp(lt / 0.45), 3);
+      r.body.rotation.y = Math.PI * k;
+      r.arms[0].rotation.z = 0.35 * Math.sin(k * Math.PI); r.arms[1].rotation.z = -0.35 * Math.sin(k * Math.PI);
+      r.head.rotation.y = k > 0.95 ? 0.25 * Math.sin((lt - 0.45) * 3) : 0;
+      r.upper.rotation.x = -0.05;
+      break;
+    }
+    case 'lookAround':
+      breathe(r, t, 0.5);
+      r.head.rotation.y = 0.9 * Math.sin(lt * 1.6);
+      r.head.rotation.x = -0.1;
+      r.upper.rotation.y = 0.25 * Math.sin(lt * 1.6 - 0.4);
+      break;
+    case 'crouch': {
+      const k = ease(lt / 0.6);
+      r.hips.position.y = r.legLen * (1 - 0.42 * k);
+      r.legs.forEach((l) => (l.rotation.x = -1.0 * k));
+      r.upper.rotation.x = 0.6 * k;
+      r.arms.forEach((a, i) => { a.rotation.x = -1.1 * k; a.rotation.z = (i ? -1 : 1) * 0.15; });
+      r.head.rotation.x = 0.35 * k;
+      break;
+    }
+    case 'knock': {
+      run_or_reach(r, lt);
+      break;
+    }
+    case 'stare':
+    case 'smileStare':
+      r.arms[0].rotation.z = 0.04; r.arms[1].rotation.z = -0.04;
+      r.head.rotation.x = -0.05;
+      if (action === 'smileStare' && r.head.userData.mouth) r.head.userData.mouth.scale.set(2.2, 2.2, 1);
+      break;
+    case 'hoodDown': {
+      breathe(r, t, 0.3);
+      const k = ease((lt - 0.3) / 0.9);
+      if (r.head.userData.hood) r.head.userData.hood.rotation.x = -1.9 * k;
+      r.arms[1].rotation.x = -2.4 * Math.sin(Math.min(1, lt / 1.3) * Math.PI);
+      r.arms[0].rotation.x = -2.4 * Math.sin(Math.min(1, lt / 1.3) * Math.PI);
+      r.head.rotation.x = 0.1 - 0.15 * k;
+      break;
+    }
     case 'idle':
     case 'smile':
       breathe(r, t);
@@ -531,6 +628,16 @@ export function applyAction(actor, action, ctx) {
     default:
       breathe(r, t);
   }
+}
+
+function run_or_reach(r, lt) {
+  // a fast swipe with the right arm (knocking something out of someone's hands)
+  const k = Math.sin(clamp(lt / 0.35) * Math.PI);
+  r.arms[1].rotation.x = -1.5 * k - 0.2;
+  r.arms[1].rotation.z = -0.6 * k;
+  r.upper.rotation.y = -0.5 * k;
+  r.upper.rotation.x = 0.2;
+  r.legs[0].rotation.x = 0.35; r.legs[1].rotation.x = -0.25;
 }
 
 function trayPose(actor, _drop, t) {

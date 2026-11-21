@@ -20,7 +20,7 @@ const BASE = `${import.meta.env.BASE_URL}episodes/${EP}`;
 const EXPORT = q.has('export');
 const clamp = (x, a = 0, b = 1) => Math.min(b, Math.max(a, x));
 const smooth = (a, b, x) => { const k = clamp((x - a) / (b - a)); return k * k * (3 - 2 * k); };
-const LOCO = new Set(['walk', 'walkJoke', 'roll', 'loom']);
+const LOCO = new Set(['walk', 'walkJoke', 'roll', 'loom', 'run']);
 
 async function main() {
   const tl = await (await fetch(`${BASE}/timeline.json`)).json();
@@ -153,6 +153,12 @@ async function main() {
         pos = key.pos.map((v, j) => v + (nxt.pos[j] - v) * u);
         rot = rot + ((nxt.rot ?? rot) - rot) * u;
       }
+      if (key.target && pos && i >= 0) { // turn to face a point ("everyone turned to look at me")
+        const want = Math.atan2(key.target[0] - pos[0], key.target[1] - pos[2]);
+        const from = keys[i - 1]?.target ? want : (keys[i - 1]?.rot ?? rot);
+        let d = want - from; d = Math.atan2(Math.sin(d), Math.cos(d));
+        rot = from + d * smooth(key.t, key.t + (key.turn ?? 0.28), t);
+      }
       if (actor.root && pos) { actor.root.position.set(pos[0], pos[1], pos[2]); actor.root.rotation.y = rot; }
       const lt = Math.max(0, t - key.t);
       let action = key.action;
@@ -181,6 +187,10 @@ async function main() {
       const a = 0.025 * Math.exp(-(t - e.t) * 1.2);
       cam.P.add(tmpV.set(Math.sin(t * 61) * a, Math.sin(t * 47) * a, 0));
     }
+    { // sun position (palettes may animate sunEl / sunAz in degrees)
+      const el = ((pal.sunEl ?? 7.8) * Math.PI) / 180, az = ((pal.sunAz ?? 194) * Math.PI) / 180;
+      sunDir.set(Math.sin(az) * Math.cos(el), Math.sin(el), Math.cos(az) * Math.cos(el)).normalize();
+    }
     camera.position.copy(cam.P);
     camera.lookAt(cam.L);
     const asp = W / H;
@@ -201,11 +211,41 @@ async function main() {
     world.skyU.sunColor.value.set(pal.sun); world.skyU.sunInt.value = pal.sunIntensity / 2;
     world.skyU.fogAmt.value = clamp(fogD * 18);
     world.sky.position.copy(camera.position);
+    world.skyU.stars.value = clamp((0.9 - pal.sunIntensity) / 0.6) * (1 - clamp(fogD * 10));
 
     const p = camera.position;
     const inside = p.x > 11.1 && p.x < 20.9 && p.z > 4.1 && p.z < 11.9 && p.y < 4;
     const flick = 0.85 + 0.1 * Math.sin(t * 13.1) * Math.sin(t * 7.3) + 0.05 * Math.sin(t * 31);
     for (const l of Object.values(world.lights)) l.visible = inside;
+    const inCellar = p.y < -20;
+    world.cellarLights.forEach((l) => (l.visible = inCellar));
+    world.cellarLights[0].intensity = 7 * flick; world.cellarLights[1].intensity = 3 * flick;
+    world.cellarFlames.forEach((f, k) => (f.scale.y = 0.85 + 0.3 * Math.sin(t * 11 + k * 2)));
+    world.hatch.visible = !!set.hatch;
+    let hOpen = 0;
+    for (const e of evOf('hatchOpen')) if (t > e.t) hOpen = smooth(e.t, e.t + 1.1, t);
+    world.hatchHinge.rotation.x = -1.95 * hOpen;
+    world.hatchGlow.material.opacity = 0.35 * hOpen;
+    // chalk clock time on Wren's door (series continuity: 3:07 -> 3:08 ...)
+    const ct = set.chalkTime || '3:07';
+    if (world._clockTime !== ct) {
+      world._clockTime = ct;
+      const tex = (world._clockTex ||= {})[ct] ||= world.makeDoorClock(ct);
+      world.doorDecal.material.map = tex; world.doorDecal.material.emissiveMap = tex; world.doorDecal.material.needsUpdate = true;
+    }
+    // smoke + birds
+    world.smokeU.uAmt.value = (1 - night * 0.7) * (set.noSmoke ? 0 : 1);
+    world.smokeU.uColor.value.set(pal.fog).lerp(cB.set(0xe8e0d0), 0.6);
+    const day = clamp((pal.sunIntensity - 0.8) / 1.2);
+    world.birds.forEach((b) => {
+      const d = b.userData;
+      const a = d.ph + t * d.sp;
+      b.visible = day > 0.05 && !set.noBirds;
+      b.position.set(Math.cos(a) * d.r, d.h + Math.sin(t * 0.7 + d.ph) * 0.8, -24 + Math.sin(a) * d.r);
+      b.rotation.set(0, -a, Math.sin(t * 0.7 + d.ph) * 0.2);
+      const fl = Math.sin(t * d.flap + d.ph) * 0.7;
+      d.wl.rotation.z = fl; d.wr.rotation.z = -fl;
+    });
     world.lights.kitchen.intensity = inside ? pal.interior * 9 : 0;
     world.lights.hearth.intensity = inside ? pal.interior * 7 * flick : 0;
     world.lights.bedroom.intensity = inside ? pal.interior * 3.5 * (1 - night * 0.85) : 0;
@@ -268,6 +308,10 @@ async function main() {
       }
     }
     for (const e of evOf('fadeIn')) fade = Math.max(fade, 1 - smooth(e.t, e.t + 2.0, t));
+    for (const e of evOf('dip')) fade = Math.max(fade, Math.exp(-(((t - e.t) / 0.32) ** 2)));
+    let whip = 0, whipDir = 1;
+    for (const e of evOf('whip')) { const w = Math.exp(-(((t - e.t) / 0.1) ** 2)); if (w > whip) { whip = w; whipDir = e.dir ?? 1; } }
+    for (const e of evOf('flicker')) if (t >= e.t && t < e.t + (e.dur ?? 0.5)) { const k = Math.sin((t - e.t) * 70); if (k > 0.3) { glitch = Math.max(glitch, 0.45); flash = Math.max(flash, 0.08); } }
     for (const e of evOf('blackout')) if (t >= e.t) fade = Math.max(fade, smooth(e.t, e.t + 0.4, t));
     for (const e of evOf('glitchFrame')) if (t >= e.t && t < e.t + 2.5 / fps) { glitch = 1; fade = 0.15; flash = 0.12; }
     const fr = Math.round(t * fps);
@@ -276,6 +320,7 @@ async function main() {
     u.exposure.value = pal.exposure; u.raysColor.value.set(pal.sun); u.raysAmt.value = pal.rays;
     u.shadowTint.value.set(pal.shadowTint); u.highlightTint.value.set(pal.highlightTint);
     u.glitch.value = glitch; u.rewind.value = rewind; u.flash.value = flash; u.fade.value = fade;
+    u.whip.value = whip; u.whipDir.value = whipDir;
     u.seed.value = Math.floor(t * 12) * 1.37 % 97;
     u.ca.value = 0.0018;
 

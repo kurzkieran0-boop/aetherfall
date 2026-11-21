@@ -21,7 +21,7 @@ if (!fs.existsSync(manifestPath)) {
   process.exit(1);
 }
 const manifest = JSON.parse(fs.readFileSync(manifestPath, 'utf8'));
-const T = series.timing;
+const T = { ...series.timing, ...(script.timing || {}) };
 const r3 = (x) => Math.round(x * 1000) / 1000;
 
 // ------------------------------------------------------------------ WAV helpers (PCM16 mono)
@@ -185,7 +185,9 @@ let lastPalette = null;
 for (const s of scenes) {
   const sc = s.src;
   const tin = sc.transitionIn || 'blend';
-  const cutIn = tin === 'reset' || tin === 'fog';
+  const cutIn = tin === 'reset' || tin === 'fog' || tin === 'whip' || tin === 'dark';
+  if (tin === 'whip') events.push({ t: r3(s.start), type: 'whip', scene: s.index, dir: sc.whipDir ?? 1 });
+  if (tin === 'dark') events.push({ t: r3(s.start), type: 'dip', scene: s.index });
   if (tin === 'reset') events.push({ t: r3(s.start), type: 'reset', scene: s.index });
   if (tin === 'fog') events.push({ t: r3(s.start), type: 'fogPulse', scene: s.index });
   if (tin === 'fadeFromBlack') events.push({ t: r3(s.start), type: 'fadeIn', scene: s.index });
@@ -261,7 +263,7 @@ const timeline = {
   duration,
   voiceEngine: manifest.engine,
   timing: { blend: T.blend, breathPause: T.breathPause, sentenceGap: r3(gap), adjustedFrom: r3(before) },
-  titleCard: { start: 0, duration: titleDur, title: script.episode.title, subtitle: script.episode.subtitle, kicker: series.titleCard.kicker },
+  titleCard: { start: 0, duration: titleDur, title: script.episode.title, subtitle: script.episode.subtitle, kicker: script.episode.kicker ?? series.titleCard.kicker },
   endCard: { start: r3(endCardStart), duration: endDur, text: series.endCard.text.replace('{next}', script.episode.next), title: script.episode.title },
   scenes: scenes.map((s) => ({
     index: s.index,

@@ -1,6 +1,7 @@
 // The village set: procedural low-poly geometry built once, toggled by timeline state.
 import * as THREE from 'three';
 import { mat, rng, C, shared } from './materials.js';
+import { buildExtras } from './extras.js';
 
 const TAU = Math.PI * 2;
 
@@ -22,7 +23,8 @@ function prismRoof(w, d, h, color, overhang = 0.35) {
 }
 
 // ---------------------------------------------------------------- chalk textures
-function chalkCanvas(draw, size = 256) {
+export function chalkCanvas(draw, size = 256, time = '3:07') {
+  const [hh, mm] = time.split(':').map(Number);
   const c = document.createElement('canvas');
   c.width = c.height = size;
   const g = c.getContext('2d');
@@ -66,17 +68,17 @@ function chalkCanvas(draw, size = 256) {
       stroke([[cx + Math.sin(a) * r * 0.78, cy - Math.cos(a) * r * 0.78], [cx + Math.sin(a) * r * 0.9, cy - Math.cos(a) * r * 0.9]], w * 0.6);
     }
     // 3:07 -> hour hand 93.5deg, minute hand 42deg
-    hand(cx, cy, (93.5 * Math.PI) / 180, r * 0.48, w);
-    hand(cx, cy, (42 * Math.PI) / 180, r * 0.72, w * 0.8);
+    hand(cx, cy, (((hh % 12) * 30 + mm * 0.5) * Math.PI) / 180, r * 0.48, w);
+    hand(cx, cy, ((mm * 6) * Math.PI) / 180, r * 0.72, w * 0.8);
   };
-  draw({ g, stroke, circle, arrow, clock, size });
+  draw({ g, stroke, circle, arrow, clock, size, R });
   const tex = new THREE.CanvasTexture(c);
   tex.colorSpace = THREE.SRGBColorSpace;
   tex.anisotropy = 4;
   return tex;
 }
 
-function chalkDecal(tex, w, h) {
+export function chalkDecal(tex, w, h) {
   const m = mat(C.chalk, { map: tex, transparent: true, emissive: 0x8a1016, emissiveIntensity: 0.5, emissiveMap: tex, depthWrite: false, polygonOffset: true, unique: true });
   m.color.set(0xffffff);
   return new THREE.Mesh(new THREE.PlaneGeometry(w, h), m);
@@ -137,9 +139,20 @@ function house({ w = 5, d = 4.5, h = 3.6, roofH = 2.0, wall = C.plaster, roof = 
     const win = box(0.75, 0.8, 0.1, 0x1c2a2c, x, h * 0.62, d / 2 + 0.04, { emissive: 0xffb25e, emissiveIntensity: 0, unique: true });
     g.add(win);
     g.add(box(0.95, 0.08, 0.16, C.wood, x, h * 0.62 - 0.45, d / 2 + 0.06));
+    // shutters + flower box
+    for (const sd of [1, -1]) g.add(box(0.32, 0.86, 0.05, roof, x + sd * 0.56, h * 0.62, d / 2 + 0.07));
+    g.add(box(0.8, 0.18, 0.2, C.wood, x, h * 0.62 - 0.56, d / 2 + 0.14));
+    for (let k = 0; k < 4; k++) {
+      const fl = new THREE.Mesh(new THREE.IcosahedronGeometry(0.075, 0), mat([0xf2c879, 0xf1e4c8, 0x7fb0a8, 0xe9a25a][(k + i) % 4]));
+      fl.position.set(x - 0.27 + k * 0.18, h * 0.62 - 0.43, d / 2 + 0.16);
+      g.add(fl);
+    }
     wins.push(win);
   }
-  if (R() > 0.35) g.add(box(0.45, 1.2, 0.45, C.stoneDark, w * 0.25, h + roofH * 0.6, -d * 0.15));
+  if (R() > 0.35) {
+    g.add(box(0.45, 1.2, 0.45, C.stoneDark, w * 0.25, h + roofH * 0.6, -d * 0.15));
+    g.userData.chimney = new THREE.Vector3(w * 0.25, h + roofH * 0.6 + 0.65, -d * 0.15);
+  }
   g.userData.windows = wins;
   return g;
 }
@@ -152,14 +165,14 @@ export function buildWorld(scene) {
   const skyU = {
     top: { value: new THREE.Color() }, horizon: { value: new THREE.Color() }, fogC: { value: new THREE.Color() },
     sunColor: { value: new THREE.Color() }, sunDir: { value: new THREE.Vector3(-0.25, 0.14, -1).normalize() },
-    sunInt: { value: 1 }, time: shared.uTime, fogAmt: { value: 0.5 },
+    sunInt: { value: 1 }, time: shared.uTime, fogAmt: { value: 0.5 }, stars: { value: 0 },
   };
   const sky = new THREE.Mesh(
     new THREE.SphereGeometry(450, 32, 18),
     new THREE.ShaderMaterial({
       side: THREE.BackSide, depthWrite: false, depthTest: true, fog: false, uniforms: skyU,
       vertexShader: `varying vec3 vDir; void main(){ vDir = normalize(position); vec4 p = projectionMatrix * modelViewMatrix * vec4(position,1.0); gl_Position = p.xyww; }`,
-      fragmentShader: `uniform vec3 top, horizon, fogC, sunColor, sunDir; uniform float sunInt, time, fogAmt; varying vec3 vDir;
+      fragmentShader: `uniform vec3 top, horizon, fogC, sunColor, sunDir; uniform float sunInt, time, fogAmt, stars; varying vec3 vDir;
         float hash(vec2 p){ return fract(sin(dot(p, vec2(127.1,311.7)))*43758.5453); }
         float noise(vec2 p){ vec2 i=floor(p), f=fract(p); f=f*f*(3.0-2.0*f);
           return mix(mix(hash(i),hash(i+vec2(1,0)),f.x), mix(hash(i+vec2(0,1)),hash(i+vec2(1,1)),f.x), f.y); }
@@ -171,6 +184,12 @@ export function buildWorld(scene) {
           float cl = smoothstep(0.55, 0.85, noise(cp) * 0.65 + noise(cp * 2.7) * 0.35) * smoothstep(0.0, 0.2, h);
           col = mix(col, mix(top * 1.4, sunColor * 1.2, pow(s, 3.0)), cl * 0.45);
           col += sunColor * (pow(s, 1400.0) * 40.0 + pow(s, 18.0) * 0.9 + pow(s, 3.0) * 0.25) * sunInt;
+          if (stars > 0.01) {
+            vec2 sp = d.xz / max(d.y + 0.35, 0.05) * 160.0;
+            float st = step(0.9965, hash(floor(sp))) * smoothstep(0.05, 0.3, h);
+            float tw = 0.6 + 0.4 * sin(time * 3.0 + hash(floor(sp) + 3.0) * 40.0);
+            col += vec3(0.85, 0.9, 1.0) * st * tw * stars * 1.6;
+          }
           col = mix(col, fogC, smoothstep(0.22, -0.02, h) * fogAmt);
           gl_FragColor = vec4(col, 1.0); }`,
     })
@@ -198,7 +217,7 @@ export function buildWorld(scene) {
   }
   groundGeo.setAttribute('color', new THREE.BufferAttribute(col, 3));
   groundGeo.computeVertexNormals();
-  const groundMat = mat(0xffffff, { unique: true });
+  const groundMat = mat(0xffffff, { unique: true, detail: 5 });
   groundMat.vertexColors = true;
   scene.add(new THREE.Mesh(groundGeo, groundMat));
 
@@ -545,6 +564,8 @@ export function buildWorld(scene) {
     scene.add(d);
     W.decals.push(d);
     W.doorDecal = d;
+    W.makeDoorClock = (time) => chalkCanvas(({ arrow, clock }) => { clock(128, 104, 66, 8); arrow(128, 212, -1, 0, 30, 7); }, 256, time);
+    W.chimneys = [new THREE.Vector3(12.4, 6.4, 5.2)];
   }
 
   // ------------------------------------------------ village houses
@@ -560,6 +581,7 @@ export function buildWorld(scene) {
     g.rotation.y = Math.atan2(-x, -z) + (R() - 0.5) * 0.25;
     scene.add(g);
     W.windows.push(...g.userData.windows);
+    if (g.userData.chimney) { g.updateMatrixWorld(true); W.chimneys.push(g.localToWorld(g.userData.chimney.clone())); }
   });
 
   // lantern posts around the square
@@ -665,5 +687,6 @@ export function buildWorld(scene) {
     W.motesU = U;
   }
 
+  buildExtras(W, scene);
   return W;
 }

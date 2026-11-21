@@ -1,0 +1,3561 @@
+{
+ "episode": {
+  "part": 2,
+  "next": 3,
+  "title": "THE VILLAGE THAT REPEATS",
+  "subtitle": "PART 2",
+  "kicker": "the one who never forgets",
+  "fps": 30
+ },
+ "voice": {
+  "engine": "kokoro",
+  "voice": "af_heart:0.6,af_nicole:0.4",
+  "speed": 1.05,
+  "whisperVoice": "af_nicole",
+  "whisperSpeed": 0.95
+ },
+ "timing": {
+  "sentenceGap": 0.26,
+  "defaultLeadIn": 0.45,
+  "defaultHold": 0.35,
+  "blend": 1.0,
+  "targetMin": 146,
+  "targetMax": 150
+ },
+ "_timeSpec": "see part1/script.json",
+ "scenes": [
+  {
+   "id": "cold_open",
+   "title": "COLD OPEN",
+   "palette": "fog",
+   "leadIn": 4.6,
+   "hold": 0.4,
+   "stretch": 0.6,
+   "transitionIn": "fadeFromBlack",
+   "titleCard": true,
+   "narration": [
+    "I spun around.",
+    "Nobody.",
+    "Just the bell, still ringing wrong, like it was laughing at me."
+   ],
+   "sound": {
+    "drone": 0.6,
+    "pad": 0.15,
+    "box": 0.2,
+    "tick": 0.6,
+    "chord": "Dm",
+    "tempo": 72,
+    "pulse": 0.25,
+    "tickRate": 2
+   },
+   "camera": [
+    {
+     "at": 0,
+     "pos": [
+      0.5,
+      17.2,
+      -16.4
+     ],
+     "look": [
+      0,
+      18.0,
+      -24
+     ],
+     "fov": 34
+    },
+    {
+     "at": 0.3,
+     "pos": [
+      0.9,
+      16.6,
+      -15.8
+     ],
+     "look": [
+      0,
+      17.8,
+      -24
+     ],
+     "fov": 38
+    },
+    {
+     "at": {
+      "s": 0,
+      "edge": "start",
+      "o": 0.05
+     },
+     "pos": [
+      1.1,
+      1.45,
+      -17.6
+     ],
+     "look": [
+      0,
+      1.25,
+      -20.4
+     ],
+     "fov": 44
+    },
+    {
+     "at": {
+      "s": 1,
+      "edge": "start",
+      "o": 0.1
+     },
+     "pos": [
+      0.25,
+      1.4,
+      -19.0
+     ],
+     "look": [
+      0,
+      1.3,
+      -21.3
+     ],
+     "fov": 40
+    },
+    {
+     "at": {
+      "s": 2,
+      "edge": "start",
+      "o": 0.6
+     },
+     "pos": [
+      0.6,
+      1.6,
+      -18.6
+     ],
+     "look": [
+      0,
+      17.5,
+      -24
+     ],
+     "fov": 46
+    },
+    {
+     "at": 1,
+     "pos": [
+      0.4,
+      1.7,
+      -18.2
+     ],
+     "look": [
+      0,
+      18.6,
+      -24
+     ],
+     "fov": 42
+    }
+   ],
+   "actors": {
+    "wren": [
+     {
+      "at": 0,
+      "pos": [
+       0,
+       0,
+       -20.2
+      ],
+      "rot": 0,
+      "action": "idle"
+     },
+     {
+      "at": {
+       "s": 0,
+       "edge": "start",
+       "o": -0.25
+      },
+      "pos": [
+       0,
+       0,
+       -20.2
+      ],
+      "rot": 0,
+      "action": "spin"
+     }
+    ],
+    "bell": [
+     {
+      "at": 0,
+      "action": "swingWrong",
+      "amp": 0.7
+     }
+    ]
+   },
+   "events": [
+    {
+     "at": {
+      "t": 0.3
+     },
+     "type": "bellWrong"
+    },
+    {
+     "at": {
+      "s": 0,
+      "edge": "start",
+      "o": -0.2
+     },
+     "type": "whip"
+    },
+    {
+     "at": {
+      "s": 2,
+      "edge": "start",
+      "o": 0.2
+     },
+     "type": "bellWrong"
+    }
+   ],
+   "set": {
+    "chalk": true,
+    "towerDoorAjar": true,
+    "chalkTime": "3:07",
+    "noBirds": true
+   }
+  },
+  {
+   "id": "tuesday_again",
+   "title": "TUESDAY AGAIN",
+   "palette": "dawn",
+   "transitionIn": "reset",
+   "stretch": 0.6,
+   "narration": [
+    "Then, Tuesday.",
+    "Bed.",
+    "Bell.",
+    "Bread.",
+    "The old man and his goat.",
+    "Same as always."
+   ],
+   "sound": {
+    "drone": 0.45,
+    "pad": 0.35,
+    "box": 0.65,
+    "tick": 0.25,
+    "chord": "Dm",
+    "tempo": 84,
+    "pulse": 0.35
+   },
+   "camera": [
+    {
+     "at": 0,
+     "pos": [
+      17.0,
+      1.7,
+      7.3
+     ],
+     "look": [
+      19.6,
+      0.8,
+      9.6
+     ],
+     "fov": 46
+    },
+    {
+     "at": {
+      "s": 1,
+      "edge": "start",
+      "o": -0.14
+     },
+     "pos": [
+      17.3,
+      1.6,
+      7.5
+     ],
+     "look": [
+      19.6,
+      0.85,
+      9.6
+     ],
+     "fov": 44
+    },
+    {
+     "at": {
+      "s": 2,
+      "edge": "start",
+      "o": -0.1
+     },
+     "pos": [
+      0.9,
+      16.9,
+      -16.2
+     ],
+     "look": [
+      0,
+      18.2,
+      -24
+     ],
+     "fov": 36,
+     "cut": true
+    },
+    {
+     "at": {
+      "s": 3,
+      "edge": "start",
+      "o": -0.14
+     },
+     "pos": [
+      1.1,
+      16.6,
+      -16.6
+     ],
+     "look": [
+      0,
+      18.0,
+      -24
+     ],
+     "fov": 38
+    },
+    {
+     "at": {
+      "s": 3,
+      "edge": "start",
+      "o": -0.1
+     },
+     "pos": [
+      -2.4,
+      1.7,
+      -2.4
+     ],
+     "look": [
+      -5.5,
+      0.9,
+      -5.0
+     ],
+     "fov": 42,
+     "cut": true
+    },
+    {
+     "at": {
+      "s": 4,
+      "edge": "start",
+      "o": -0.14
+     },
+     "pos": [
+      -2.7,
+      1.5,
+      -2.7
+     ],
+     "look": [
+      -5.5,
+      0.6,
+      -5.0
+     ],
+     "fov": 42
+    },
+    {
+     "at": {
+      "s": 4,
+      "edge": "start",
+      "o": -0.1
+     },
+     "pos": [
+      4.6,
+      1.6,
+      5.0
+     ],
+     "look": [
+      2.6,
+      1.25,
+      2.6
+     ],
+     "fov": 40,
+     "cut": true
+    },
+    {
+     "at": {
+      "s": 5,
+      "edge": "start",
+      "o": 0
+     },
+     "pos": [
+      5.0,
+      1.7,
+      4.2
+     ],
+     "look": [
+      2.6,
+      1.2,
+      2.6
+     ],
+     "fov": 40
+    },
+    {
+     "at": 1,
+     "pos": [
+      6.0,
+      2.2,
+      3.0
+     ],
+     "look": [
+      1.0,
+      1.2,
+      0.5
+     ],
+     "fov": 48
+    }
+   ],
+   "actors": {
+    "wren": [
+     {
+      "at": 0,
+      "pos": [
+       19.9,
+       0,
+       9.6
+      ],
+      "rot": -1.5708,
+      "action": "sitUpInBed"
+     }
+    ],
+    "bell": [
+     {
+      "at": 0,
+      "action": "swing",
+      "amp": 0.6
+     }
+    ],
+    "baker": [
+     {
+      "at": 0,
+      "pos": [
+       -5.5,
+       0,
+       -5.0
+      ],
+      "rot": 1.2,
+      "action": "dropLoop",
+      "period": 5.0
+     }
+    ],
+    "sweeper": [
+     {
+      "at": 0,
+      "pos": [
+       -4.2,
+       0,
+       6.2
+      ],
+      "rot": 0.6,
+      "action": "sweep"
+     }
+    ],
+    "bucketman": [
+     {
+      "at": 0,
+      "pos": [
+       -1.75,
+       0,
+       -0.3
+      ],
+      "rot": 1.4,
+      "action": "bucket"
+     }
+    ],
+    "oldman": [
+     {
+      "at": 0,
+      "pos": [
+       2.5,
+       0,
+       2.4
+      ],
+      "rot": 0.9,
+      "action": "joke"
+     }
+    ],
+    "goat": [
+     {
+      "at": 0,
+      "pos": [
+       3.7,
+       0,
+       3.3
+      ],
+      "rot": -2.3,
+      "action": "graze"
+     }
+    ],
+    "villagerA": [
+     {
+      "at": 0,
+      "pos": [
+       -0.8,
+       0,
+       4.4
+      ],
+      "rot": 2.6,
+      "action": "idle"
+     }
+    ],
+    "villagerB": [
+     {
+      "at": 0,
+      "pos": [
+       3.8,
+       0,
+       -2.2
+      ],
+      "rot": -0.9,
+      "action": "idle"
+     }
+    ],
+    "child": [
+     {
+      "at": 0,
+      "pos": [
+       1.3,
+       0,
+       0.9
+      ],
+      "rot": 2.2,
+      "action": "lookAround"
+     }
+    ]
+   },
+   "events": [
+    {
+     "at": {
+      "s": 2,
+      "edge": "start",
+      "o": -0.1
+     },
+     "type": "whip"
+    },
+    {
+     "at": {
+      "s": 2,
+      "edge": "start",
+      "o": 0.05
+     },
+     "type": "bell"
+    },
+    {
+     "at": {
+      "s": 3,
+      "edge": "start",
+      "o": -0.1
+     },
+     "type": "whip",
+     "dir": -1
+    },
+    {
+     "at": {
+      "s": 3,
+      "edge": "start",
+      "o": 0.25
+     },
+     "type": "clatter"
+    },
+    {
+     "at": {
+      "s": 4,
+      "edge": "start",
+      "o": -0.1
+     },
+     "type": "whip"
+    }
+   ],
+   "set": {
+    "chalk": true,
+    "chalkTime": "3:08",
+    "candle": true
+   }
+  },
+  {
+   "id": "one_minute",
+   "title": "ONE MINUTE",
+   "palette": "morning",
+   "stretch": 0.8,
+   "narration": [
+    "Except one thing.",
+    "The chalk clock on my door didn't say three oh seven anymore.",
+    "It said three oh eight."
+   ],
+   "sound": {
+    "drone": 0.5,
+    "pad": 0.3,
+    "box": 0.5,
+    "tick": 0.5,
+    "chord": "Bb",
+    "tempo": 84,
+    "pulse": 0.3,
+    "tickRate": 2
+   },
+   "camera": [
+    {
+     "at": 0.03,
+     "pos": [
+      6.2,
+      1.9,
+      10.4
+     ],
+     "look": [
+      10.9,
+      1.5,
+      8.1
+     ],
+     "fov": 46
+    },
+    {
+     "at": {
+      "s": 1,
+      "edge": "start",
+      "o": 0.2
+     },
+     "pos": [
+      7.8,
+      1.6,
+      9.0
+     ],
+     "look": [
+      10.9,
+      1.48,
+      8.0
+     ],
+     "fov": 40
+    },
+    {
+     "at": {
+      "s": 2,
+      "edge": "start",
+      "o": -0.05
+     },
+     "pos": [
+      9.0,
+      1.52,
+      8.3
+     ],
+     "look": [
+      10.9,
+      1.48,
+      8.0
+     ],
+     "fov": 36
+    },
+    {
+     "at": {
+      "s": 2,
+      "edge": "start",
+      "o": 0.35
+     },
+     "pos": [
+      10.15,
+      1.49,
+      8.05
+     ],
+     "look": [
+      10.9,
+      1.48,
+      8.0
+     ],
+     "fov": 28
+    },
+    {
+     "at": 1,
+     "pos": [
+      10.25,
+      1.49,
+      8.04
+     ],
+     "look": [
+      10.9,
+      1.48,
+      8.0
+     ],
+     "fov": 26
+    }
+   ],
+   "actors": {
+    "wren": [
+     {
+      "at": 0,
+      "pos": [
+       9.0,
+       0,
+       9.9
+      ],
+      "rot": 1.2,
+      "action": "idle"
+     },
+     {
+      "at": {
+       "s": 1,
+       "edge": "start",
+       "o": 0
+      },
+      "pos": [
+       9.3,
+       0,
+       9.8
+      ],
+      "rot": 1.0,
+      "action": "lean"
+     }
+    ]
+   },
+   "events": [
+    {
+     "at": {
+      "s": 2,
+      "edge": "start",
+      "o": 0.3
+     },
+     "type": "stinger"
+    },
+    {
+     "at": {
+      "s": 2,
+      "edge": "start",
+      "o": 0.3
+     },
+     "type": "tickBurst"
+    }
+   ],
+   "set": {
+    "chalk": true,
+    "chalkTime": "3:08"
+   }
+  },
+  {
+   "id": "time_moved",
+   "title": "TIME MOVED",
+   "palette": "dawn",
+   "stretch": 0.8,
+   "narration": [
+    "One minute.",
+    "After four hundred and twelve days, time had moved.",
+    "One. Single. Minute.",
+    "Somewhere, a clock was ticking that had never ticked before."
+   ],
+   "sound": {
+    "drone": 0.55,
+    "pad": 0.45,
+    "box": 0.75,
+    "tick": 0.7,
+    "chord": "F",
+    "tempo": 88,
+    "pulse": 0.4,
+    "tickRate": 2
+   },
+   "camera": [
+    {
+     "at": 0.03,
+     "pos": [
+      4.645,
+      1.55,
+      3.651
+     ],
+     "look": [
+      5.5,
+      1.2,
+      6.0
+     ],
+     "fov": 42
+    },
+    {
+     "at": 0.3,
+     "pos": [
+      3.151,
+      1.55,
+      5.145
+     ],
+     "look": [
+      5.5,
+      1.2,
+      6.0
+     ],
+     "fov": 42
+    },
+    {
+     "at": 0.55,
+     "pos": [
+      3.335,
+      1.55,
+      7.25
+     ],
+     "look": [
+      5.5,
+      1.2,
+      6.0
+     ],
+     "fov": 42
+    },
+    {
+     "at": 0.8,
+     "pos": [
+      4.853,
+      1.55,
+      8.415
+     ],
+     "look": [
+      5.5,
+      1.2,
+      6.0
+     ],
+     "fov": 42
+    },
+    {
+     "at": 1.0,
+     "pos": [
+      6.355,
+      1.55,
+      8.349
+     ],
+     "look": [
+      5.5,
+      1.2,
+      6.0
+     ],
+     "fov": 42
+    }
+   ],
+   "actors": {
+    "wren": [
+     {
+      "at": 0,
+      "pos": [
+       5.5,
+       0,
+       6.0
+      ],
+      "rot": 2.6,
+      "action": "lookAround"
+     }
+    ],
+    "baker": [
+     {
+      "at": 0,
+      "pos": [
+       -5.5,
+       0,
+       -5.0
+      ],
+      "rot": 1.2,
+      "action": "dropLoop",
+      "period": 5.0
+     }
+    ],
+    "sweeper": [
+     {
+      "at": 0,
+      "pos": [
+       -4.2,
+       0,
+       6.2
+      ],
+      "rot": 0.6,
+      "action": "sweep"
+     }
+    ],
+    "bucketman": [
+     {
+      "at": 0,
+      "pos": [
+       -1.75,
+       0,
+       -0.3
+      ],
+      "rot": 1.4,
+      "action": "bucket"
+     }
+    ],
+    "oldman": [
+     {
+      "at": 0,
+      "pos": [
+       2.5,
+       0,
+       2.4
+      ],
+      "rot": 0.9,
+      "action": "joke"
+     }
+    ],
+    "goat": [
+     {
+      "at": 0,
+      "pos": [
+       3.7,
+       0,
+       3.3
+      ],
+      "rot": -2.3,
+      "action": "graze"
+     }
+    ],
+    "villagerA": [
+     {
+      "at": 0,
+      "pos": [
+       -0.8,
+       0,
+       4.4
+      ],
+      "rot": 2.6,
+      "action": "idle"
+     }
+    ],
+    "villagerB": [
+     {
+      "at": 0,
+      "pos": [
+       3.8,
+       0,
+       -2.2
+      ],
+      "rot": -0.9,
+      "action": "idle"
+     }
+    ],
+    "child": [
+     {
+      "at": 0,
+      "pos": [
+       1.3,
+       0,
+       0.9
+      ],
+      "rot": 2.2,
+      "action": "lookAround"
+     }
+    ]
+   },
+   "events": [
+    {
+     "at": {
+      "s": 2,
+      "edge": "start",
+      "o": 0
+     },
+     "type": "tickBurst"
+    },
+    {
+     "at": {
+      "s": 2,
+      "edge": "start",
+      "o": 0.9
+     },
+     "type": "tickBurst"
+    }
+   ],
+   "set": {
+    "chalk": true,
+    "chalkTime": "3:08"
+   }
+  },
+  {
+   "id": "the_test",
+   "title": "THE TEST",
+   "palette": "morning",
+   "stretch": 0.8,
+   "narration": [
+    "So I tested the rules.",
+    "Before the baker could drop his tray, I knocked it out of his hands."
+   ],
+   "sound": {
+    "drone": 0.5,
+    "pad": 0.3,
+    "box": 0.6,
+    "tick": 0.6,
+    "chord": "Gm",
+    "tempo": 96,
+    "pulse": 0.55
+   },
+   "camera": [
+    {
+     "at": 0.03,
+     "pos": [
+      4.6,
+      1.7,
+      4.4
+     ],
+     "look": [
+      0,
+      1.0,
+      -1.0
+     ],
+     "fov": 48
+    },
+    {
+     "at": {
+      "s": 0,
+      "edge": "end",
+      "o": 0
+     },
+     "pos": [
+      0.8,
+      1.6,
+      1.1
+     ],
+     "look": [
+      -4.6,
+      1.1,
+      -4.6
+     ],
+     "fov": 46
+    },
+    {
+     "at": {
+      "s": 1,
+      "edge": "start",
+      "o": 0.7
+     },
+     "pos": [
+      -2.4,
+      1.45,
+      -1.9
+     ],
+     "look": [
+      -5.2,
+      1.1,
+      -4.8
+     ],
+     "fov": 40
+    },
+    {
+     "at": {
+      "s": 1,
+      "edge": "start",
+      "o": 1.6
+     },
+     "pos": [
+      -2.9,
+      1.3,
+      -2.5
+     ],
+     "look": [
+      -5.3,
+      0.6,
+      -5.0
+     ],
+     "fov": 38
+    },
+    {
+     "at": 1,
+     "pos": [
+      -3.0,
+      1.35,
+      -2.6
+     ],
+     "look": [
+      -5.3,
+      0.5,
+      -5.0
+     ],
+     "fov": 38
+    }
+   ],
+   "actors": {
+    "wren": [
+     {
+      "at": 0,
+      "pos": [
+       3.2,
+       0,
+       1.8
+      ],
+      "rot": -2.25,
+      "action": "run"
+     },
+     {
+      "at": {
+       "s": 1,
+       "edge": "start",
+       "o": 0.8
+      },
+      "pos": [
+       -4.75,
+       0,
+       -4.35
+      ],
+      "rot": -2.25,
+      "action": "knock"
+     }
+    ],
+    "baker": [
+     {
+      "at": 0,
+      "pos": [
+       -5.5,
+       0,
+       -5.0
+      ],
+      "rot": 1.2,
+      "action": "carryTray"
+     },
+     {
+      "at": {
+       "s": 1,
+       "edge": "start",
+       "o": 0.95
+      },
+      "pos": [
+       -5.5,
+       0,
+       -5.0
+      ],
+      "rot": 1.2,
+      "action": "dropTray"
+     }
+    ],
+    "sweeper": [
+     {
+      "at": 0,
+      "pos": [
+       -4.2,
+       0,
+       6.2
+      ],
+      "rot": 0.6,
+      "action": "sweep"
+     }
+    ],
+    "bucketman": [
+     {
+      "at": 0,
+      "pos": [
+       -1.75,
+       0,
+       -0.3
+      ],
+      "rot": 1.4,
+      "action": "bucket"
+     }
+    ],
+    "oldman": [
+     {
+      "at": 0,
+      "pos": [
+       2.5,
+       0,
+       2.4
+      ],
+      "rot": 0.9,
+      "action": "joke"
+     }
+    ],
+    "goat": [
+     {
+      "at": 0,
+      "pos": [
+       3.7,
+       0,
+       3.3
+      ],
+      "rot": -2.3,
+      "action": "graze"
+     }
+    ],
+    "villagerA": [
+     {
+      "at": 0,
+      "pos": [
+       -0.8,
+       0,
+       4.4
+      ],
+      "rot": 2.6,
+      "action": "idle"
+     }
+    ],
+    "villagerB": [
+     {
+      "at": 0,
+      "pos": [
+       3.8,
+       0,
+       -2.2
+      ],
+      "rot": -0.9,
+      "action": "idle"
+     }
+    ],
+    "child": [
+     {
+      "at": 0,
+      "pos": [
+       1.3,
+       0,
+       0.9
+      ],
+      "rot": 2.2,
+      "action": "lookAround"
+     }
+    ]
+   },
+   "events": [
+    {
+     "at": {
+      "s": 1,
+      "edge": "start",
+      "o": 1.1
+     },
+     "type": "clatter"
+    },
+    {
+     "at": {
+      "s": 1,
+      "edge": "start",
+      "o": 0.95
+     },
+     "type": "whip",
+     "dir": -1
+    }
+   ],
+   "set": {
+    "chalk": true,
+    "chalkTime": "3:08"
+   }
+  },
+  {
+   "id": "they_turn",
+   "title": "THEY TURN",
+   "palette": "morning",
+   "paletteKeys": [
+    {
+     "at": {
+      "s": 1,
+      "edge": "start",
+      "o": 0
+     },
+     "palette": "rain",
+     "fogDensity": 0.02
+    }
+   ],
+   "stretch": 1.0,
+   "narration": [
+    "The square went silent.",
+    "And every single person turned to look at me.",
+    "At the exact same time."
+   ],
+   "sound": {
+    "drone": 0.7,
+    "pad": 0.0,
+    "box": 0.0,
+    "tick": 0.0,
+    "chord": "A",
+    "tempo": 96,
+    "pulse": 0.0
+   },
+   "camera": [
+    {
+     "at": 0.03,
+     "pos": [
+      -4.1,
+      1.55,
+      -3.7
+     ],
+     "look": [
+      1.5,
+      1.3,
+      2.5
+     ],
+     "fov": 50
+    },
+    {
+     "at": {
+      "s": 1,
+      "edge": "start",
+      "o": 0.3
+     },
+     "pos": [
+      -3.6,
+      1.5,
+      -3.1
+     ],
+     "look": [
+      1.5,
+      1.3,
+      2.5
+     ],
+     "fov": 48
+    },
+    {
+     "at": {
+      "s": 2,
+      "edge": "start",
+      "o": 0
+     },
+     "pos": [
+      -2.6,
+      1.5,
+      -2.0
+     ],
+     "look": [
+      2.0,
+      1.4,
+      2.2
+     ],
+     "fov": 40
+    },
+    {
+     "at": 1,
+     "pos": [
+      -2.2,
+      1.5,
+      -1.6
+     ],
+     "look": [
+      2.4,
+      1.45,
+      2.4
+     ],
+     "fov": 34
+    }
+   ],
+   "actors": {
+    "wren": [
+     {
+      "at": 0,
+      "pos": [
+       -4.75,
+       0,
+       -4.35
+      ],
+      "rot": 0.6,
+      "action": "stiffen"
+     }
+    ],
+    "baker": [
+     {
+      "at": 0,
+      "pos": [
+       -5.5,
+       0,
+       -5.0
+      ],
+      "rot": 1.2,
+      "action": "idle"
+     },
+     {
+      "at": {
+       "s": 1,
+       "edge": "start",
+       "o": 0.05
+      },
+      "pos": [
+       -5.5,
+       0,
+       -5.0
+      ],
+      "action": "stare",
+      "target": [
+       -4.75,
+       -4.35
+      ],
+      "turn": 0.22
+     }
+    ],
+    "sweeper": [
+     {
+      "at": 0,
+      "pos": [
+       -4.2,
+       0,
+       6.2
+      ],
+      "rot": 0.6,
+      "action": "sweep"
+     },
+     {
+      "at": {
+       "s": 1,
+       "edge": "start",
+       "o": 0.05
+      },
+      "pos": [
+       -4.2,
+       0,
+       6.2
+      ],
+      "action": "stare",
+      "target": [
+       -4.75,
+       -4.35
+      ],
+      "turn": 0.22
+     }
+    ],
+    "bucketman": [
+     {
+      "at": 0,
+      "pos": [
+       -1.75,
+       0,
+       -0.3
+      ],
+      "rot": 1.4,
+      "action": "bucket"
+     },
+     {
+      "at": {
+       "s": 1,
+       "edge": "start",
+       "o": 0.05
+      },
+      "pos": [
+       -1.75,
+       0,
+       -0.3
+      ],
+      "action": "stare",
+      "target": [
+       -4.75,
+       -4.35
+      ],
+      "turn": 0.22
+     }
+    ],
+    "oldman": [
+     {
+      "at": 0,
+      "pos": [
+       2.5,
+       0,
+       2.4
+      ],
+      "rot": 0.9,
+      "action": "joke"
+     },
+     {
+      "at": {
+       "s": 1,
+       "edge": "start",
+       "o": 0.05
+      },
+      "pos": [
+       2.5,
+       0,
+       2.4
+      ],
+      "action": "stare",
+      "target": [
+       -4.75,
+       -4.35
+      ],
+      "turn": 0.22
+     }
+    ],
+    "goat": [
+     {
+      "at": 0,
+      "pos": [
+       3.7,
+       0,
+       3.3
+      ],
+      "rot": -2.3,
+      "action": "graze"
+     },
+     {
+      "at": {
+       "s": 1,
+       "edge": "start",
+       "o": 0.05
+      },
+      "pos": [
+       3.7,
+       0,
+       3.3
+      ],
+      "action": "stare",
+      "target": [
+       -4.75,
+       -4.35
+      ],
+      "turn": 0.22
+     }
+    ],
+    "villagerA": [
+     {
+      "at": 0,
+      "pos": [
+       -0.8,
+       0,
+       4.4
+      ],
+      "rot": 2.6,
+      "action": "idle"
+     },
+     {
+      "at": {
+       "s": 1,
+       "edge": "start",
+       "o": 0.05
+      },
+      "pos": [
+       -0.8,
+       0,
+       4.4
+      ],
+      "action": "stare",
+      "target": [
+       -4.75,
+       -4.35
+      ],
+      "turn": 0.22
+     }
+    ],
+    "villagerB": [
+     {
+      "at": 0,
+      "pos": [
+       3.8,
+       0,
+       -2.2
+      ],
+      "rot": -0.9,
+      "action": "idle"
+     },
+     {
+      "at": {
+       "s": 1,
+       "edge": "start",
+       "o": 0.05
+      },
+      "pos": [
+       3.8,
+       0,
+       -2.2
+      ],
+      "action": "stare",
+      "target": [
+       -4.75,
+       -4.35
+      ],
+      "turn": 0.22
+     }
+    ],
+    "child": [
+     {
+      "at": 0,
+      "pos": [
+       1.3,
+       0,
+       0.9
+      ],
+      "rot": 2.2,
+      "action": "lookAround"
+     },
+     {
+      "at": {
+       "s": 1,
+       "edge": "start",
+       "o": 0.05
+      },
+      "pos": [
+       1.3,
+       0,
+       0.9
+      ],
+      "action": "stare",
+      "target": [
+       -4.75,
+       -4.35
+      ],
+      "turn": 0.22
+     }
+    ]
+   },
+   "events": [
+    {
+     "at": {
+      "s": 0,
+      "edge": "start",
+      "o": -0.1
+     },
+     "type": "drop",
+     "dur": 9
+    },
+    {
+     "at": {
+      "s": 1,
+      "edge": "start",
+      "o": 0.05
+     },
+     "type": "thud"
+    },
+    {
+     "at": {
+      "s": 1,
+      "edge": "start",
+      "o": 0.6
+     },
+     "type": "heartbeat",
+     "n": 5
+    }
+   ],
+   "set": {
+    "chalk": true,
+    "chalkTime": "3:08",
+    "noSmoke": true,
+    "noBirds": true
+   }
+  },
+  {
+   "id": "they_smile",
+   "title": "THEY SMILE",
+   "palette": "morning",
+   "stretch": 0.8,
+   "narration": [
+    "Then they smiled.",
+    "All of them.",
+    "And went right back to what they were doing, like nothing happened."
+   ],
+   "sound": {
+    "drone": 0.6,
+    "pad": 0.2,
+    "box": 0.5,
+    "tick": 0.4,
+    "chord": "Dm",
+    "tempo": 96,
+    "pulse": 0.3
+   },
+   "camera": [
+    {
+     "at": 0.03,
+     "pos": [
+      0.6,
+      1.55,
+      0.6
+     ],
+     "look": [
+      2.5,
+      1.45,
+      2.4
+     ],
+     "fov": 36
+    },
+    {
+     "at": {
+      "s": 1,
+      "edge": "start",
+      "o": -0.1
+     },
+     "pos": [
+      1.0,
+      1.55,
+      1.0
+     ],
+     "look": [
+      2.5,
+      1.45,
+      2.4
+     ],
+     "fov": 32
+    },
+    {
+     "at": {
+      "s": 1,
+      "edge": "start",
+      "o": 0.1
+     },
+     "pos": [
+      -3.3,
+      1.45,
+      4.4
+     ],
+     "look": [
+      -4.2,
+      1.4,
+      6.2
+     ],
+     "fov": 34,
+     "cut": true
+    },
+    {
+     "at": {
+      "s": 2,
+      "edge": "start",
+      "o": 0.2
+     },
+     "pos": [
+      -2.9,
+      1.6,
+      3.9
+     ],
+     "look": [
+      -4.2,
+      1.3,
+      6.2
+     ],
+     "fov": 38
+    },
+    {
+     "at": 1,
+     "pos": [
+      1.5,
+      5.5,
+      9.5
+     ],
+     "look": [
+      -1.5,
+      0.8,
+      -0.5
+     ],
+     "fov": 52
+    }
+   ],
+   "actors": {
+    "wren": [
+     {
+      "at": 0,
+      "pos": [
+       -4.75,
+       0,
+       -4.35
+      ],
+      "rot": 0.6,
+      "action": "stiffen"
+     }
+    ],
+    "baker": [
+     {
+      "at": 0,
+      "pos": [
+       -5.5,
+       0,
+       -5.0
+      ],
+      "action": "stare",
+      "target": [
+       -4.75,
+       -4.35
+      ],
+      "turn": 0.01
+     },
+     {
+      "at": {
+       "s": 0,
+       "edge": "start",
+       "o": 0.1
+      },
+      "pos": [
+       -5.5,
+       0,
+       -5.0
+      ],
+      "action": "smileStare",
+      "target": [
+       -4.75,
+       -4.35
+      ]
+     },
+     {
+      "at": {
+       "s": 2,
+       "edge": "start",
+       "o": 0.6
+      },
+      "pos": [
+       -5.5,
+       0,
+       -5.0
+      ],
+      "rot": 1.2,
+      "action": "dropLoop",
+      "period": 5.0
+     }
+    ],
+    "sweeper": [
+     {
+      "at": 0,
+      "pos": [
+       -4.2,
+       0,
+       6.2
+      ],
+      "action": "stare",
+      "target": [
+       -4.75,
+       -4.35
+      ],
+      "turn": 0.01
+     },
+     {
+      "at": 0,
+      "pos": [
+       -4.2,
+       0,
+       6.2
+      ],
+      "action": "stare",
+      "target": [
+       -4.75,
+       -4.35
+      ],
+      "turn": 0.22
+     },
+     {
+      "at": {
+       "s": 0,
+       "edge": "start",
+       "o": 0.1
+      },
+      "pos": [
+       -4.2,
+       0,
+       6.2
+      ],
+      "action": "smileStare",
+      "target": [
+       -4.75,
+       -4.35
+      ]
+     },
+     {
+      "at": {
+       "s": 2,
+       "edge": "start",
+       "o": 0.6
+      },
+      "pos": [
+       -4.2,
+       0,
+       6.2
+      ],
+      "rot": 0.6,
+      "action": "sweep"
+     }
+    ],
+    "bucketman": [
+     {
+      "at": 0,
+      "pos": [
+       -1.75,
+       0,
+       -0.3
+      ],
+      "action": "stare",
+      "target": [
+       -4.75,
+       -4.35
+      ],
+      "turn": 0.01
+     },
+     {
+      "at": 0,
+      "pos": [
+       -1.75,
+       0,
+       -0.3
+      ],
+      "action": "stare",
+      "target": [
+       -4.75,
+       -4.35
+      ],
+      "turn": 0.22
+     },
+     {
+      "at": {
+       "s": 0,
+       "edge": "start",
+       "o": 0.1
+      },
+      "pos": [
+       -1.75,
+       0,
+       -0.3
+      ],
+      "action": "smileStare",
+      "target": [
+       -4.75,
+       -4.35
+      ]
+     },
+     {
+      "at": {
+       "s": 2,
+       "edge": "start",
+       "o": 0.6
+      },
+      "pos": [
+       -1.75,
+       0,
+       -0.3
+      ],
+      "rot": 1.4,
+      "action": "bucket"
+     }
+    ],
+    "oldman": [
+     {
+      "at": 0,
+      "pos": [
+       2.5,
+       0,
+       2.4
+      ],
+      "action": "stare",
+      "target": [
+       -4.75,
+       -4.35
+      ],
+      "turn": 0.01
+     },
+     {
+      "at": 0,
+      "pos": [
+       2.5,
+       0,
+       2.4
+      ],
+      "action": "stare",
+      "target": [
+       -4.75,
+       -4.35
+      ],
+      "turn": 0.22
+     },
+     {
+      "at": {
+       "s": 0,
+       "edge": "start",
+       "o": 0.1
+      },
+      "pos": [
+       2.5,
+       0,
+       2.4
+      ],
+      "action": "smileStare",
+      "target": [
+       -4.75,
+       -4.35
+      ]
+     },
+     {
+      "at": {
+       "s": 2,
+       "edge": "start",
+       "o": 0.6
+      },
+      "pos": [
+       2.5,
+       0,
+       2.4
+      ],
+      "rot": 0.9,
+      "action": "joke"
+     }
+    ],
+    "goat": [
+     {
+      "at": 0,
+      "pos": [
+       3.7,
+       0,
+       3.3
+      ],
+      "action": "stare",
+      "target": [
+       -4.75,
+       -4.35
+      ],
+      "turn": 0.01
+     },
+     {
+      "at": 0,
+      "pos": [
+       3.7,
+       0,
+       3.3
+      ],
+      "action": "stare",
+      "target": [
+       -4.75,
+       -4.35
+      ],
+      "turn": 0.22
+     },
+     {
+      "at": {
+       "s": 0,
+       "edge": "start",
+       "o": 0.1
+      },
+      "pos": [
+       3.7,
+       0,
+       3.3
+      ],
+      "action": "smileStare",
+      "target": [
+       -4.75,
+       -4.35
+      ]
+     },
+     {
+      "at": {
+       "s": 2,
+       "edge": "start",
+       "o": 0.6
+      },
+      "pos": [
+       3.7,
+       0,
+       3.3
+      ],
+      "rot": -2.3,
+      "action": "graze"
+     }
+    ],
+    "villagerA": [
+     {
+      "at": 0,
+      "pos": [
+       -0.8,
+       0,
+       4.4
+      ],
+      "action": "stare",
+      "target": [
+       -4.75,
+       -4.35
+      ],
+      "turn": 0.01
+     },
+     {
+      "at": 0,
+      "pos": [
+       -0.8,
+       0,
+       4.4
+      ],
+      "action": "stare",
+      "target": [
+       -4.75,
+       -4.35
+      ],
+      "turn": 0.22
+     },
+     {
+      "at": {
+       "s": 0,
+       "edge": "start",
+       "o": 0.1
+      },
+      "pos": [
+       -0.8,
+       0,
+       4.4
+      ],
+      "action": "smileStare",
+      "target": [
+       -4.75,
+       -4.35
+      ]
+     },
+     {
+      "at": {
+       "s": 2,
+       "edge": "start",
+       "o": 0.6
+      },
+      "pos": [
+       -0.8,
+       0,
+       4.4
+      ],
+      "rot": 2.6,
+      "action": "idle"
+     }
+    ],
+    "villagerB": [
+     {
+      "at": 0,
+      "pos": [
+       3.8,
+       0,
+       -2.2
+      ],
+      "action": "stare",
+      "target": [
+       -4.75,
+       -4.35
+      ],
+      "turn": 0.01
+     },
+     {
+      "at": 0,
+      "pos": [
+       3.8,
+       0,
+       -2.2
+      ],
+      "action": "stare",
+      "target": [
+       -4.75,
+       -4.35
+      ],
+      "turn": 0.22
+     },
+     {
+      "at": {
+       "s": 0,
+       "edge": "start",
+       "o": 0.1
+      },
+      "pos": [
+       3.8,
+       0,
+       -2.2
+      ],
+      "action": "smileStare",
+      "target": [
+       -4.75,
+       -4.35
+      ]
+     },
+     {
+      "at": {
+       "s": 2,
+       "edge": "start",
+       "o": 0.6
+      },
+      "pos": [
+       3.8,
+       0,
+       -2.2
+      ],
+      "rot": -0.9,
+      "action": "idle"
+     }
+    ],
+    "child": [
+     {
+      "at": 0,
+      "pos": [
+       1.3,
+       0,
+       0.9
+      ],
+      "action": "stare",
+      "target": [
+       -4.75,
+       -4.35
+      ],
+      "turn": 0.01
+     },
+     {
+      "at": 0,
+      "pos": [
+       1.3,
+       0,
+       0.9
+      ],
+      "action": "stare",
+      "target": [
+       -4.75,
+       -4.35
+      ],
+      "turn": 0.22
+     },
+     {
+      "at": {
+       "s": 0,
+       "edge": "start",
+       "o": 0.1
+      },
+      "pos": [
+       1.3,
+       0,
+       0.9
+      ],
+      "action": "smileStare",
+      "target": [
+       -4.75,
+       -4.35
+      ]
+     },
+     {
+      "at": {
+       "s": 2,
+       "edge": "start",
+       "o": 0.6
+      },
+      "pos": [
+       1.3,
+       0,
+       0.9
+      ],
+      "rot": 2.2,
+      "action": "lookAround"
+     }
+    ]
+   },
+   "events": [
+    {
+     "at": {
+      "s": 1,
+      "edge": "start",
+      "o": 0.1
+     },
+     "type": "whip"
+    },
+    {
+     "at": {
+      "s": 2,
+      "edge": "start",
+      "o": 0.6
+     },
+     "type": "flicker",
+     "dur": 0.45
+    }
+   ],
+   "set": {
+    "chalk": true,
+    "chalkTime": "3:08"
+   }
+  },
+  {
+   "id": "her_name",
+   "title": "HER NAME",
+   "palette": "morning",
+   "stretch": 0.8,
+   "narration": [
+    "The baker even picked up his bread, and said, lovely morning, Wren.",
+    "He has never once said my name."
+   ],
+   "sound": {
+    "drone": 0.6,
+    "pad": 0.25,
+    "box": 0.45,
+    "tick": 0.6,
+    "chord": "A",
+    "tempo": 100,
+    "pulse": 0.4
+   },
+   "camera": [
+    {
+     "at": 0.03,
+     "pos": [
+      -3.4,
+      1.6,
+      -3.1
+     ],
+     "look": [
+      -5.5,
+      1.5,
+      -5.0
+     ],
+     "fov": 38
+    },
+    {
+     "at": {
+      "s": 1
+     },
+     "pos": [
+      -3.9,
+      1.62,
+      -3.6
+     ],
+     "look": [
+      -5.5,
+      1.55,
+      -5.0
+     ],
+     "fov": 30
+    },
+    {
+     "at": 1,
+     "pos": [
+      -4.1,
+      1.63,
+      -3.8
+     ],
+     "look": [
+      -5.5,
+      1.57,
+      -5.0
+     ],
+     "fov": 26
+    }
+   ],
+   "actors": {
+    "baker": [
+     {
+      "at": 0,
+      "pos": [
+       -5.5,
+       0,
+       -5.0
+      ],
+      "action": "smileStare",
+      "target": [
+       -4.75,
+       -4.35
+      ]
+     }
+    ],
+    "wren": [
+     {
+      "at": 0,
+      "pos": [
+       -4.75,
+       0,
+       -4.35
+      ],
+      "rot": 0.6,
+      "action": "stiffen"
+     }
+    ]
+   },
+   "events": [
+    {
+     "at": {
+      "s": 0,
+      "edge": "end",
+      "o": -0.4
+     },
+     "type": "stinger"
+    },
+    {
+     "at": {
+      "s": 1,
+      "o": 0.2
+     },
+     "type": "heartbeat",
+     "n": 3
+    }
+   ],
+   "set": {
+    "chalk": true,
+    "chalkTime": "3:08"
+   }
+  },
+  {
+   "id": "the_cart",
+   "title": "THE CART",
+   "palette": "morning",
+   "stretch": 0.8,
+   "narration": [
+    "So I followed the one thing that never leaves.",
+    "The stranger's cart.",
+    "It rolls in at seven fourteen, every single day.",
+    "It never, ever rolls out."
+   ],
+   "sound": {
+    "drone": 0.5,
+    "pad": 0.3,
+    "box": 0.6,
+    "tick": 0.6,
+    "chord": "Gm",
+    "tempo": 100,
+    "pulse": 0.6
+   },
+   "camera": [
+    {
+     "at": 0.03,
+     "pos": [
+      -1.5,
+      1.9,
+      2.0
+     ],
+     "look": [
+      3.5,
+      1.0,
+      -3.0
+     ],
+     "fov": 48
+    },
+    {
+     "at": {
+      "s": 1,
+      "edge": "start",
+      "o": 0
+     },
+     "pos": [
+      3.2,
+      1.8,
+      -1.0
+     ],
+     "look": [
+      8.8,
+      1.0,
+      -7.5
+     ],
+     "fov": 46
+    },
+    {
+     "at": 1,
+     "pos": [
+      6.0,
+      1.9,
+      -4.8
+     ],
+     "look": [
+      10.0,
+      1.0,
+      -12.0
+     ],
+     "fov": 46
+    }
+   ],
+   "actors": {
+    "cart": [
+     {
+      "at": 0,
+      "pos": [
+       2.0,
+       0,
+       -0.8
+      ],
+      "rot": 2.33,
+      "action": "roll"
+     },
+     {
+      "at": {
+       "s": 1,
+       "edge": "start",
+       "o": 0
+      },
+      "pos": [
+       8.5,
+       0,
+       -7.0
+      ],
+      "rot": 2.94,
+      "action": "roll"
+     },
+     {
+      "at": 1,
+      "pos": [
+       9.8,
+       0,
+       -12.6
+      ],
+      "rot": 2.47,
+      "action": "roll"
+     }
+    ],
+    "wren": [
+     {
+      "at": 0,
+      "pos": [
+       -3.6,
+       0,
+       -2.4
+      ],
+      "rot": 1.9,
+      "action": "run"
+     },
+     {
+      "at": {
+       "s": 1,
+       "edge": "start",
+       "o": 0
+      },
+      "pos": [
+       3.0,
+       0,
+       -2.6
+      ],
+      "rot": 2.4,
+      "action": "run"
+     },
+     {
+      "at": 1,
+      "pos": [
+       6.9,
+       0,
+       -7.2
+      ],
+      "rot": 2.6,
+      "action": "run"
+     }
+    ],
+    "baker": [
+     {
+      "at": 0,
+      "pos": [
+       -5.5,
+       0,
+       -5.0
+      ],
+      "rot": 1.2,
+      "action": "dropLoop",
+      "period": 5.0
+     }
+    ],
+    "sweeper": [
+     {
+      "at": 0,
+      "pos": [
+       -4.2,
+       0,
+       6.2
+      ],
+      "rot": 0.6,
+      "action": "sweep"
+     }
+    ],
+    "bucketman": [
+     {
+      "at": 0,
+      "pos": [
+       -1.75,
+       0,
+       -0.3
+      ],
+      "rot": 1.4,
+      "action": "bucket"
+     }
+    ],
+    "oldman": [
+     {
+      "at": 0,
+      "pos": [
+       2.5,
+       0,
+       2.4
+      ],
+      "rot": 0.9,
+      "action": "joke"
+     }
+    ],
+    "goat": [
+     {
+      "at": 0,
+      "pos": [
+       3.7,
+       0,
+       3.3
+      ],
+      "rot": -2.3,
+      "action": "graze"
+     }
+    ]
+   },
+   "events": [
+    {
+     "at": {
+      "t": 0.2
+     },
+     "type": "rumble"
+    }
+   ],
+   "set": {
+    "chalk": true,
+    "chalkTime": "3:08"
+   }
+  },
+  {
+   "id": "behind_the_mill",
+   "title": "BEHIND THE MILL",
+   "palette": "morning",
+   "stretch": 0.8,
+   "narration": [
+    "It rolled behind the mill.",
+    "And it didn't come out the other side.",
+    "No tracks. No wheels. No stranger."
+   ],
+   "sound": {
+    "drone": 0.65,
+    "pad": 0.15,
+    "box": 0.3,
+    "tick": 0.7,
+    "chord": "A",
+    "tempo": 100,
+    "pulse": 0.45
+   },
+   "camera": [
+    {
+     "at": 0.03,
+     "pos": [
+      7.6,
+      2.0,
+      -8.6
+     ],
+     "look": [
+      11.5,
+      1.0,
+      -13.5
+     ],
+     "fov": 46
+    },
+    {
+     "at": {
+      "s": 1,
+      "edge": "start",
+      "o": 0
+     },
+     "pos": [
+      8.8,
+      2.2,
+      -14.6
+     ],
+     "look": [
+      13.5,
+      0.8,
+      -16.0
+     ],
+     "fov": 48
+    },
+    {
+     "at": 1,
+     "pos": [
+      11.0,
+      2.1,
+      -18.6
+     ],
+     "look": [
+      14.5,
+      0.3,
+      -15.2
+     ],
+     "fov": 46
+    }
+   ],
+   "actors": {
+    "cart": [
+     {
+      "at": 0,
+      "pos": [
+       9.8,
+       0,
+       -12.6
+      ],
+      "rot": 2.47,
+      "action": "roll"
+     },
+     {
+      "at": {
+       "s": 0,
+       "edge": "end",
+       "o": 0
+      },
+      "pos": [
+       12.4,
+       0,
+       -15.9
+      ],
+      "rot": 2.2,
+      "action": "roll"
+     },
+     {
+      "at": {
+       "s": 1,
+       "edge": "start",
+       "o": -0.1
+      },
+      "pos": [
+       12.4,
+       0,
+       -15.9
+      ],
+      "action": "hidden"
+     }
+    ],
+    "wren": [
+     {
+      "at": 0,
+      "pos": [
+       6.9,
+       0,
+       -7.2
+      ],
+      "rot": 2.6,
+      "action": "run"
+     },
+     {
+      "at": {
+       "s": 1,
+       "edge": "start",
+       "o": 0
+      },
+      "pos": [
+       9.2,
+       0,
+       -11.0
+      ],
+      "rot": 2.5,
+      "action": "walk"
+     },
+     {
+      "at": 1,
+      "pos": [
+       10.4,
+       0,
+       -14.2
+      ],
+      "rot": 2.3,
+      "action": "lookAround"
+     }
+    ]
+   },
+   "events": [
+    {
+     "at": {
+      "s": 1,
+      "edge": "start",
+      "o": -0.1
+     },
+     "type": "fogPulse"
+    },
+    {
+     "at": {
+      "s": 1,
+      "edge": "start",
+      "o": 0.1
+     },
+     "type": "stinger"
+    }
+   ],
+   "set": {
+    "chalk": true,
+    "chalkTime": "3:08"
+   }
+  },
+  {
+   "id": "trapdoor",
+   "title": "TRAPDOOR",
+   "palette": "morning",
+   "stretch": 0.8,
+   "narration": [
+    "Where it should have been, there was a trapdoor.",
+    "I've walked past that spot a thousand times.",
+    "It was never there before."
+   ],
+   "sound": {
+    "drone": 0.6,
+    "pad": 0.2,
+    "box": 0.6,
+    "tick": 0.75,
+    "chord": "Dm",
+    "tempo": 104,
+    "pulse": 0.5
+   },
+   "camera": [
+    {
+     "at": 0.03,
+     "pos": [
+      12.8,
+      2.8,
+      -13.2
+     ],
+     "look": [
+      15.0,
+      0.0,
+      -15.8
+     ],
+     "fov": 46
+    },
+    {
+     "at": {
+      "s": 1,
+      "edge": "start",
+      "o": 0
+     },
+     "pos": [
+      13.7,
+      2.0,
+      -14.0
+     ],
+     "look": [
+      15.0,
+      0.05,
+      -15.8
+     ],
+     "fov": 40
+    },
+    {
+     "at": 1,
+     "pos": [
+      14.4,
+      1.5,
+      -14.4
+     ],
+     "look": [
+      15.0,
+      0.05,
+      -15.9
+     ],
+     "fov": 34
+    }
+   ],
+   "actors": {
+    "wren": [
+     {
+      "at": 0,
+      "pos": [
+       12.0,
+       0,
+       -14.6
+      ],
+      "rot": 2.0,
+      "action": "walk"
+     },
+     {
+      "at": {
+       "s": 1,
+       "edge": "start",
+       "o": 0
+      },
+      "pos": [
+       14.0,
+       0,
+       -14.7
+      ],
+      "rot": 2.6,
+      "action": "idle"
+     }
+    ]
+   },
+   "events": [
+    {
+     "at": {
+      "s": 0,
+      "edge": "start",
+      "o": 0.6
+     },
+     "type": "thud"
+    }
+   ],
+   "set": {
+    "chalk": true,
+    "chalkTime": "3:08",
+    "hatch": true
+   }
+  },
+  {
+   "id": "sun_running",
+   "title": "THE SUN RUNS",
+   "palette": "morning",
+   "paletteKeys": [
+    {
+     "at": {
+      "s": 1,
+      "edge": "start",
+      "o": 0
+     },
+     "palette": "morning",
+     "sunEl": 40,
+     "sunAz": 120
+    },
+    {
+     "at": {
+      "s": 2,
+      "edge": "start",
+      "o": 0.4
+     },
+     "palette": "dusk",
+     "sunEl": 6,
+     "sunAz": 60
+    },
+    {
+     "at": 1,
+     "palette": "night",
+     "sunEl": -6,
+     "sunAz": 40
+    }
+   ],
+   "stretch": 1.0,
+   "narration": [
+    "Then the sun started moving.",
+    "Fast.",
+    "Like someone was dragging the day toward night.",
+    "So I opened it."
+   ],
+   "sound": {
+    "drone": 0.7,
+    "pad": 0.3,
+    "box": 0.7,
+    "tick": 0.95,
+    "chord": "Gm",
+    "tempo": 112,
+    "pulse": 0.6,
+    "tickRate": 4
+   },
+   "camera": [
+    {
+     "at": 0.03,
+     "pos": [
+      10.0,
+      0.9,
+      -20.5
+     ],
+     "look": [
+      14.0,
+      3.0,
+      -14.5
+     ],
+     "fov": 52
+    },
+    {
+     "at": {
+      "s": 2,
+      "edge": "start",
+      "o": 0
+     },
+     "pos": [
+      10.6,
+      1.2,
+      -19.0
+     ],
+     "look": [
+      14.5,
+      2.5,
+      -14.8
+     ],
+     "fov": 54
+    },
+    {
+     "at": {
+      "s": 3,
+      "edge": "start",
+      "o": 0
+     },
+     "pos": [
+      14.2,
+      2.1,
+      -13.9
+     ],
+     "look": [
+      15.0,
+      0.0,
+      -16.0
+     ],
+     "fov": 44
+    },
+    {
+     "at": 1,
+     "pos": [
+      14.7,
+      1.6,
+      -14.6
+     ],
+     "look": [
+      15.0,
+      -0.4,
+      -16.2
+     ],
+     "fov": 40
+    }
+   ],
+   "actors": {
+    "wren": [
+     {
+      "at": 0,
+      "pos": [
+       14.0,
+       0,
+       -14.7
+      ],
+      "rot": 2.9,
+      "action": "idle"
+     },
+     {
+      "at": {
+       "s": 3,
+       "edge": "start",
+       "o": -0.3
+      },
+      "pos": [
+       15.0,
+       0,
+       -14.5
+      ],
+      "rot": 3.14159,
+      "action": "crouch"
+     }
+    ]
+   },
+   "events": [
+    {
+     "at": {
+      "s": 0,
+      "edge": "start",
+      "o": 0
+     },
+     "type": "riser",
+     "dur": 6.5
+    },
+    {
+     "at": {
+      "s": 3,
+      "edge": "start",
+      "o": 0.2
+     },
+     "type": "hatchOpen"
+    },
+    {
+     "at": {
+      "s": 3,
+      "edge": "start",
+      "o": 0.2
+     },
+     "type": "doorCreak"
+    }
+   ],
+   "set": {
+    "chalk": true,
+    "chalkTime": "3:08",
+    "hatch": true,
+    "millFast": true
+   }
+  },
+  {
+   "id": "the_cellar",
+   "title": "THE CELLAR",
+   "palette": "cellar",
+   "transitionIn": "dark",
+   "stretch": 1.2,
+   "narration": [
+    "Underneath were clocks.",
+    "Hundreds of them.",
+    "Chalked on every wall, in my handwriting.",
+    "Some so old the chalk had almost faded away."
+   ],
+   "sound": {
+    "drone": 0.75,
+    "pad": 0.35,
+    "box": 0.55,
+    "tick": 0.9,
+    "chord": "A",
+    "tempo": 96,
+    "pulse": 0.35,
+    "tickRate": 2
+   },
+   "camera": [
+    {
+     "at": 0,
+     "pos": [
+      60,
+      -27.4,
+      2.3
+     ],
+     "look": [
+      60,
+      -28.8,
+      -1.0
+     ],
+     "fov": 50
+    },
+    {
+     "at": {
+      "s": 1,
+      "edge": "start",
+      "o": 0
+     },
+     "pos": [
+      58.2,
+      -28.5,
+      1.0
+     ],
+     "look": [
+      55.9,
+      -28.4,
+      -1.0
+     ],
+     "fov": 46
+    },
+    {
+     "at": {
+      "s": 2,
+      "edge": "start",
+      "o": 0
+     },
+     "pos": [
+      61.6,
+      -28.4,
+      0.6
+     ],
+     "look": [
+      64.1,
+      -28.4,
+      -0.6
+     ],
+     "fov": 46
+    },
+    {
+     "at": 1,
+     "pos": [
+      60.3,
+      -28.45,
+      0.9
+     ],
+     "look": [
+      60,
+      -28.4,
+      -2.8
+     ],
+     "fov": 44
+    }
+   ],
+   "actors": {
+    "wren": [
+     {
+      "at": 0,
+      "pos": [
+       60.2,
+       -30,
+       1.6
+      ],
+      "rot": 3.14159,
+      "action": "lookAround"
+     }
+    ]
+   },
+   "events": [
+    {
+     "at": {
+      "s": 1,
+      "edge": "start",
+      "o": 0
+     },
+     "type": "sting"
+    }
+   ],
+   "set": {
+    "chalk": true,
+    "chalkTime": "3:08",
+    "noBirds": true
+   }
+  },
+  {
+   "id": "crossed_out",
+   "title": "CROSSED OUT",
+   "palette": "cellar",
+   "stretch": 1.0,
+   "narration": [
+    "I counted them.",
+    "Four hundred and twelve.",
+    "One for every Tuesday.",
+    "Every single one was crossed out.",
+    "Except the last.",
+    "Three oh eight.",
+    "And under it, one word.",
+    "Tomorrow."
+   ],
+   "sound": {
+    "drone": 0.7,
+    "pad": 0.2,
+    "box": 0.35,
+    "tick": 1.0,
+    "chord": "Dm",
+    "tempo": 96,
+    "pulse": 0.45,
+    "tickRate": 2
+   },
+   "camera": [
+    {
+     "at": 0.02,
+     "pos": [
+      59.0,
+      -28.5,
+      0.9
+     ],
+     "look": [
+      55.9,
+      -28.4,
+      -1.0
+     ],
+     "fov": 46
+    },
+    {
+     "at": {
+      "s": 1,
+      "edge": "start"
+     },
+     "pos": [
+      61.8,
+      -28.4,
+      0.2
+     ],
+     "look": [
+      64.1,
+      -28.4,
+      -0.8
+     ],
+     "fov": 46
+    },
+    {
+     "at": {
+      "s": 4,
+      "edge": "start",
+      "o": 0
+     },
+     "pos": [
+      60.1,
+      -28.4,
+      -0.6
+     ],
+     "look": [
+      60,
+      -28.35,
+      -2.84
+     ],
+     "fov": 40
+    },
+    {
+     "at": {
+      "s": 6,
+      "edge": "start",
+      "o": 0
+     },
+     "pos": [
+      60.05,
+      -28.6,
+      -1.6
+     ],
+     "look": [
+      60,
+      -28.75,
+      -2.84
+     ],
+     "fov": 36
+    },
+    {
+     "at": 1,
+     "pos": [
+      60.02,
+      -28.7,
+      -1.9
+     ],
+     "look": [
+      60,
+      -28.85,
+      -2.84
+     ],
+     "fov": 34
+    }
+   ],
+   "actors": {
+    "wren": [
+     {
+      "at": 0,
+      "pos": [
+       60.2,
+       -30,
+       1.2
+      ],
+      "rot": 3.14159,
+      "action": "walk"
+     },
+     {
+      "at": {
+       "s": 4,
+       "edge": "start",
+       "o": 0
+      },
+      "pos": [
+       59.45,
+       -30,
+       -1.2
+      ],
+      "rot": 3.0,
+      "action": "idle"
+     }
+    ]
+   },
+   "events": [
+    {
+     "at": {
+      "s": 5,
+      "edge": "start",
+      "o": -0.1
+     },
+     "type": "stinger"
+    },
+    {
+     "at": {
+      "s": 7,
+      "edge": "start",
+      "o": -0.2
+     },
+     "type": "scratch"
+    }
+   ],
+   "overlays": [
+    {
+     "type": "handwriting",
+     "text": "tomorrow",
+     "anchor": [
+      60,
+      -28.98,
+      -2.83
+     ],
+     "from": {
+      "s": 6,
+      "edge": "start",
+      "o": 0.2
+     },
+     "to": {
+      "s": 7,
+      "edge": "end",
+      "o": 0.6
+     }
+    }
+   ],
+   "set": {
+    "chalk": true,
+    "chalkTime": "3:08",
+    "noBirds": true
+   }
+  },
+  {
+   "id": "cliffhanger",
+   "title": "CLIFFHANGER",
+   "palette": "cellar",
+   "paletteKeys": [
+    {
+     "at": {
+      "s": 2,
+      "edge": "start",
+      "o": 0
+     },
+     "palette": "cellar",
+     "exposure": 0.85
+    }
+   ],
+   "stretch": 1.0,
+   "hold": 1.6,
+   "whisper": true,
+   "narration": [
+    "Then the whisper came back.",
+    "Right behind me.",
+    "You always get this far, Wren.",
+    "You always forget why.",
+    "It pulled back its hood...",
+    "and I knew that face.",
+    "I see it every morning, in the mirror."
+   ],
+   "sound": {
+    "drone": 0.6,
+    "pad": 0.0,
+    "box": 0.0,
+    "tick": 1.0,
+    "chord": "Dm",
+    "tempo": 96,
+    "pulse": 0.0,
+    "tickRate": 2
+   },
+   "camera": [
+    {
+     "at": 0.03,
+     "pos": [
+      60.1,
+      -28.65,
+      -2.45
+     ],
+     "look": [
+      59.45,
+      -28.7,
+      -1.2
+     ],
+     "fov": 36
+    },
+    {
+     "at": {
+      "s": 1,
+      "edge": "start",
+      "o": 0
+     },
+     "pos": [
+      60.15,
+      -28.68,
+      -2.5
+     ],
+     "look": [
+      59.6,
+      -28.65,
+      -0.6
+     ],
+     "fov": 40
+    },
+    {
+     "at": {
+      "s": 4,
+      "edge": "start",
+      "o": 0
+     },
+     "pos": [
+      60.1,
+      -28.6,
+      -2.4
+     ],
+     "look": [
+      59.9,
+      -28.55,
+      -0.3
+     ],
+     "fov": 36
+    },
+    {
+     "at": {
+      "s": 5,
+      "edge": "start",
+      "o": 0.2
+     },
+     "pos": [
+      59.8,
+      -28.5,
+      -1.65
+     ],
+     "look": [
+      60.05,
+      -28.58,
+      -0.2
+     ],
+     "fov": 32
+    },
+    {
+     "at": 1,
+     "pos": [
+      59.85,
+      -28.54,
+      -1.0
+     ],
+     "look": [
+      60.05,
+      -28.58,
+      -0.2
+     ],
+     "fov": 28
+    }
+   ],
+   "actors": {
+    "wren": [
+     {
+      "at": 0,
+      "pos": [
+       59.45,
+       -30,
+       -1.2
+      ],
+      "rot": 3.0,
+      "action": "idle"
+     },
+     {
+      "at": {
+       "s": 1,
+       "edge": "start",
+       "o": 0
+      },
+      "action": "stiffen"
+     }
+    ],
+    "otherwren": [
+     {
+      "at": 0,
+      "pos": [
+       60.05,
+       -30,
+       0.9
+      ],
+      "rot": 3.14159,
+      "action": "hidden"
+     },
+     {
+      "at": {
+       "s": 0,
+       "edge": "start",
+       "o": 0.3
+      },
+      "pos": [
+       60.05,
+       -30,
+       0.9
+      ],
+      "rot": 3.14159,
+      "action": "loom"
+     },
+     {
+      "at": {
+       "s": 3,
+       "edge": "end",
+       "o": 0
+      },
+      "pos": [
+       60.05,
+       -30,
+       -0.2
+      ],
+      "rot": 3.14159,
+      "action": "loom"
+     },
+     {
+      "at": {
+       "s": 4,
+       "edge": "start",
+       "o": 0
+      },
+      "pos": [
+       60.05,
+       -30,
+       -0.2
+      ],
+      "rot": 3.14159,
+      "action": "hoodDown"
+     }
+    ]
+   },
+   "events": [
+    {
+     "at": {
+      "s": 0,
+      "edge": "start",
+      "o": 0
+     },
+     "type": "silence"
+    },
+    {
+     "at": {
+      "s": 1,
+      "edge": "start",
+      "o": -0.2
+     },
+     "type": "heartbeat",
+     "n": 4
+    },
+    {
+     "at": {
+      "s": 4,
+      "edge": "start",
+      "o": 0.4
+     },
+     "type": "doorCreak"
+    },
+    {
+     "at": {
+      "s": 6,
+      "edge": "end",
+      "o": 0.6
+     },
+     "type": "stinger"
+    },
+    {
+     "at": {
+      "end": 0.9
+     },
+     "type": "blackout"
+    },
+    {
+     "at": {
+      "end": 1.45
+     },
+     "type": "glitchFrame"
+    }
+   ],
+   "shadowSweep": {
+    "from": {
+     "s": 1,
+     "edge": "start",
+     "o": 0
+    },
+    "to": {
+     "s": 3,
+     "edge": "end",
+     "o": 0.3
+    }
+   },
+   "set": {
+    "chalk": true,
+    "chalkTime": "3:08",
+    "noBirds": true
+   }
+  }
+ ]
+}

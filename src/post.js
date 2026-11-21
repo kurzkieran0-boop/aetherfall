@@ -13,6 +13,25 @@ export class Post {
     const sw = Math.round(w * scale), sh = Math.round(h * scale);
     this.rtScene = new THREE.WebGLRenderTarget(sw, sh, { type: THREE.HalfFloatType, samples, minFilter: THREE.LinearFilter, magFilter: THREE.LinearFilter });
     this.rtRays = new THREE.WebGLRenderTarget(Math.ceil(w / 5), Math.ceil(h / 5), { type: THREE.HalfFloatType });
+    // bloom: bright-pass + separable blur at 1/4 res
+    const bw = Math.ceil(w / 4), bh = Math.ceil(h / 4);
+    this.rtB1 = new THREE.WebGLRenderTarget(bw, bh, { type: THREE.HalfFloatType });
+    this.rtB2 = new THREE.WebGLRenderTarget(bw, bh, { type: THREE.HalfFloatType });
+    this.brightMat = new THREE.ShaderMaterial({
+      uniforms: { tScene: { value: null }, thr: { value: 1.1 } }, vertexShader: VERT,
+      fragmentShader: `uniform sampler2D tScene; uniform float thr; varying vec2 vUv;
+        void main(){ vec3 c = texture2D(tScene, vUv).rgb; float l = dot(c, vec3(0.299,0.587,0.114));
+          gl_FragColor = vec4(c * smoothstep(thr, thr + 1.2, l), 1.0); }`,
+    });
+    this.blurMat = new THREE.ShaderMaterial({
+      uniforms: { tSrc: { value: null }, dir: { value: new THREE.Vector2() } }, vertexShader: VERT,
+      fragmentShader: `uniform sampler2D tSrc; uniform vec2 dir; varying vec2 vUv;
+        void main(){ vec3 a = texture2D(tSrc, vUv).rgb * 0.227;
+          a += (texture2D(tSrc, vUv + dir * 1.385).rgb + texture2D(tSrc, vUv - dir * 1.385).rgb) * 0.316;
+          a += (texture2D(tSrc, vUv + dir * 3.231).rgb + texture2D(tSrc, vUv - dir * 3.231).rgb) * 0.070;
+          gl_FragColor = vec4(a, 1.0); }`,
+    });
+    this.bw = bw; this.bh = bh;
     this.cam = new THREE.OrthographicCamera(-1, 1, 1, -1, 0, 1);
 
     this.raysMat = new THREE.ShaderMaterial({
@@ -37,7 +56,7 @@ export class Post {
     });
     this.compMat = new THREE.ShaderMaterial({
       uniforms: {
-        tScene: { value: null }, tRays: { value: null }, res: { value: new THREE.Vector2(w, h) }, sceneTexel: { value: new THREE.Vector2(1 / sw, 1 / sh) },
+        tScene: { value: null }, tRays: { value: null }, tBloom: { value: null }, bloom: { value: 0.55 }, whip: { value: 0 }, whipDir: { value: 1 }, res: { value: new THREE.Vector2(w, h) }, sceneTexel: { value: new THREE.Vector2(1 / sw, 1 / sh) },
         time: { value: 0 }, frame: { value: 0 }, exposure: { value: 1 },
         raysColor: { value: new THREE.Color(1, 0.8, 0.55) }, raysAmt: { value: 1 },
         glitch: { value: 0 }, rewind: { value: 0 }, seed: { value: 0 }, flash: { value: 0 },
@@ -46,7 +65,7 @@ export class Post {
       },
       vertexShader: VERT,
       fragmentShader: `uniform sampler2D tScene, tRays; uniform vec2 res; uniform float time, frame, exposure, raysAmt,
-          glitch, rewind, seed, flash, fade, ca, grain, vignette;
+          glitch, rewind, seed, flash, fade, ca, grain, vignette, bloom, whip, whipDir; uniform sampler2D tBloom;
         uniform vec3 raysColor, shadowTint, highlightTint; uniform vec2 sceneTexel; varying vec2 vUv;
         float lumaT(vec3 c){ float l = dot(c, vec3(0.299, 0.587, 0.114)); return l / (1.0 + l); }
         vec3 fxaa(vec2 uv){
@@ -92,7 +111,14 @@ export class Post {
           uv.y = fract(uv.y + rewind * rewind * 0.35 * sin(time * 9.0));
           vec3 col;
           float amt = ca + glitch * 0.02 + rewind * 0.01;
-          if (rewind > 0.01) {
+          if (whip > 0.01) {
+            col = vec3(0.0);
+            for (int i = 0; i < 11; i++) {
+              float o = (float(i) - 5.0) / 5.0;
+              col += texture2D(tScene, uv + vec2(o * 0.14 * whip * whipDir, o * 0.01 * whip)).rgb;
+            }
+            col /= 11.0;
+          } else if (rewind > 0.01) {
             col = vec3(0.0);
             for (int i = 0; i < 9; i++) {
               float o = (float(i) - 4.0) / 4.0;
@@ -106,6 +132,7 @@ export class Post {
             col.b = mix(col.b, texture2D(tScene, uv - cd).b, 0.65);
           }
           col += texture2D(tRays, uv).rgb * raysColor * raysAmt * 1.6;
+          col += texture2D(tBloom, uv).rgb * bloom;
           // tone map + grade (split toning: teal shadows, cream/amber highlights)
           col = aces(col * exposure);
           col = pow(col, vec3(1.0 / 2.2));
@@ -152,6 +179,17 @@ export class Post {
     this.raysMat.uniforms.sun.value.copy(sun);
     this.raysMat.uniforms.onScreen.value = behind ? 0 : Math.exp(-off * 1.4);
     this.raysMat.uniforms.tScene.value = this.rtScene.texture;
+    this.quad.material = this.raysMat;
+    // bloom chain
+    this.brightMat.uniforms.tScene.value = this.rtScene.texture;
+    this.quad.material = this.brightMat;
+    r.setRenderTarget(this.rtB1); r.render(this.qscene, this.cam);
+    this.blurMat.uniforms.tSrc.value = this.rtB1.texture; this.blurMat.uniforms.dir.value.set(1.6 / this.bw, 0);
+    this.quad.material = this.blurMat;
+    r.setRenderTarget(this.rtB2); r.render(this.qscene, this.cam);
+    this.blurMat.uniforms.tSrc.value = this.rtB2.texture; this.blurMat.uniforms.dir.value.set(0, 1.6 / this.bh);
+    r.setRenderTarget(this.rtB1); r.render(this.qscene, this.cam);
+    this.compMat.uniforms.tBloom.value = this.rtB1.texture;
     this.quad.material = this.raysMat;
     r.setRenderTarget(this.rtRays);
     r.render(this.qscene, this.cam);
