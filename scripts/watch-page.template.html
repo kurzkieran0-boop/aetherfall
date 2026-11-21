@@ -1,0 +1,141 @@
+<title>The Village That Repeats</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IM+Fell+English:ital@0;1&family=IM+Fell+English+SC&display=swap">
+<style>
+/* Layout: a dark screening room; the film is the page, episode + format choices sit beneath the title */
+:root {
+  --bg: #0b1417; --panel: #122127; --fg: #f1e4c8; --muted: #a9b9b4; --amber: #f2a65a; --line: #24393f; --ink: #1a1208;
+  --display: 'IM Fell English SC', 'Iowan Old Style', Georgia, serif;
+  --body: 'IM Fell English', 'Iowan Old Style', Georgia, serif;
+  color-scheme: dark;
+}
+body { background: var(--bg); color: var(--fg); font-family: var(--body); font-size: 17px; }
+main { max-width: 1100px; margin: 0 auto; padding-block: 24px 48px;
+  padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px));
+  display: grid; gap: 18px; justify-items: center; }
+header { text-align: center; display: grid; gap: 6px; }
+.kicker { font-style: italic; color: var(--muted); letter-spacing: 0.08em; }
+h1 { font-family: var(--display); font-weight: 400; margin: 0; font-size: clamp(30px, 6vw, 54px); letter-spacing: 0.04em; text-wrap: balance;
+  text-shadow: 0 0 28px rgba(242,166,90,0.35); }
+.controls { display: flex; flex-wrap: wrap; gap: 10px; justify-content: center; }
+.switch { display: flex; gap: 4px; background: var(--panel); border: 1px solid var(--line); border-radius: 999px; padding: 4px; }
+.switch button { font: inherit; color: var(--muted); background: none; border: 0; border-radius: 999px; padding: 7px 16px; cursor: pointer; }
+.switch button[aria-pressed="true"] { background: var(--amber); color: var(--ink); }
+.switch button:focus-visible { outline: 2px solid var(--amber); outline-offset: 2px; }
+.screen { width: 100%; display: grid; justify-items: center; }
+video { display: block; background: #000; border-radius: 6px; box-shadow: 0 20px 60px rgba(0,0,0,0.6); max-width: 100%; }
+video.v916 { height: min(78vh, 900px); aspect-ratio: 9 / 16; width: auto; }
+video.v169 { width: 100%; aspect-ratio: 16 / 9; height: auto; }
+.meta { color: var(--muted); font-style: italic; text-align: center; max-width: 62ch; line-height: 1.5; margin: 0; }
+.status { color: var(--muted); font-size: 14px; font-family: ui-monospace, monospace; min-height: 1.2em; font-variant-numeric: tabular-nums; }
+</style>
+<main>
+  <header>
+    <div class="kicker" id="kicker">a story in parts</div>
+    <h1>The Village That Repeats</h1>
+  </header>
+  <div class="controls">
+    <div class="switch" role="group" aria-label="Episode">
+      <button id="ep1" data-ep="part1" aria-pressed="false">Part 1</button>
+      <button id="ep2" data-ep="part2" aria-pressed="true">Part 2</button>
+    </div>
+    <div class="switch" role="group" aria-label="Format">
+      <button id="f916" data-fmt="9x16" aria-pressed="true">Vertical 9:16</button>
+      <button id="f169" data-fmt="16x9" aria-pressed="false">Widescreen 16:9</button>
+    </div>
+  </div>
+  <div class="screen"><video id="film" class="v916" controls playsinline preload="auto"></video></div>
+  <div class="status" id="status"></div>
+  <p class="meta" id="logline"></p>
+</main>
+<script>
+// Full-quality 1080p: each film is stored as ~6 s standalone fMP4 chunks and streamed
+// back-to-back through Media Source Extensions (ManagedMediaSource on iPhone).
+const STREAMS = __STREAMS__;
+const LOG = {
+  part1: ['a story in parts', 'My name is Wren. Today is Tuesday. It has been Tuesday for four hundred and twelve days.'],
+  part2: ['the one who never forgets', 'The chalk clock on her door moved one minute. Someone has been here before her. Four hundred and twelve times.'],
+};
+const video = document.getElementById('film');
+const status = document.getElementById('status');
+let state = { ep: 'part2', fmt: '9x16' };
+let session = 0;
+
+function pressed() {
+  document.querySelectorAll('[data-ep]').forEach((b) => b.setAttribute('aria-pressed', String(b.dataset.ep === state.ep)));
+  document.querySelectorAll('[data-fmt]').forEach((b) => b.setAttribute('aria-pressed', String(b.dataset.fmt === state.fmt)));
+  document.getElementById('kicker').textContent = LOG[state.ep][0];
+  document.getElementById('logline').textContent = LOG[state.ep][1];
+}
+
+async function load(keepTime) {
+  const my = ++session;
+  const s = STREAMS[state.ep][state.fmt];
+  const resume = keepTime ? video.currentTime : 0, wasPlaying = keepTime && !video.paused;
+  video.className = state.fmt === '9x16' ? 'v916' : 'v169';
+  pressed();
+  const MS = window.ManagedMediaSource || window.MediaSource;
+  const mime = `video/mp4; codecs="${s.codecs}"`;
+  if (!MS || !MS.isTypeSupported(mime)) return fallback(s, my, resume, wasPlaying);
+  const ms = new MS();
+  if (window.ManagedMediaSource && MS === window.ManagedMediaSource) video.disableRemotePlayback = true;
+  video.removeAttribute('src');
+  video.src = URL.createObjectURL(ms);
+  await new Promise((r) => ms.addEventListener('sourceopen', r, { once: true }));
+  if (my !== session) return;
+  const sb = ms.addSourceBuffer(mime);
+  ms.duration = s.duration;
+  const done = new Array(s.chunks.length).fill(false);
+  const cache = new Map();
+  const get = (i) => { if (!cache.has(i)) cache.set(i, fetch(s.chunks[i].url).then((r) => { if (!r.ok) throw new Error(r.status); return r.arrayBuffer(); })); return cache.get(i); };
+  const append = (buf) => new Promise((res, rej) => { sb.addEventListener('updateend', res, { once: true }); sb.addEventListener('error', rej, { once: true }); sb.appendBuffer(buf); });
+  const idxAt = (t) => { let k = 0; s.chunks.forEach((c, i) => { if (c.start <= t + 0.01) k = i; }); return k; };
+  if (resume) video.currentTime = resume;
+  if (wasPlaying) video.play().catch(() => {});
+  const ahead = 45;
+  while (my === session) {
+    const now = video.currentTime;
+    let i = idxAt(now);
+    while (i < done.length && done[i]) i++;
+    if (i >= done.length || s.chunks[i].start > now + ahead) {
+      if (done.every(Boolean)) { if (ms.readyState === 'open' && !sb.updating) try { ms.endOfStream(); } catch (e) {} break; }
+      await new Promise((r) => setTimeout(r, 500));
+      continue;
+    }
+    try {
+      const buf = await get(i);
+      get(i + 1 < done.length ? i + 1 : i);
+      if (my !== session) return;
+      await append(buf);
+      done[i] = true;
+      cache.delete(i);
+      const n = done.filter(Boolean).length;
+      status.textContent = n < done.length ? `1080p · buffered ${n}/${done.length}` : '1080p · fully loaded';
+    } catch (e) {
+      if (e && e.name === 'QuotaExceededError') {
+        try { await new Promise((res) => { sb.addEventListener('updateend', res, { once: true }); sb.remove(0, Math.max(0, now - 10)); }); } catch (_) {}
+        for (let k = 0; k < done.length; k++) if (s.chunks[k].start + s.chunks[k].duration < now - 10) done[k] = false;
+        await new Promise((r) => setTimeout(r, 500));
+      } else { status.textContent = 'Streaming hit a problem; switching to chunk playback.'; return fallback(s, my, video.currentTime, !video.paused); }
+    }
+  }
+}
+
+// fallback: play each standalone chunk in turn (tiny gaps possible)
+function fallback(s, my, resume, playing) {
+  let i = 0; s.chunks.forEach((c, k) => { if (c.start <= resume) i = k; });
+  const play = (k, offset) => {
+    if (my !== session || k >= s.chunks.length) return;
+    video.src = s.chunks[k].url;
+    video.onloadedmetadata = () => { if (offset) video.currentTime = offset; if (playing || k > 0) video.play().catch(() => {}); };
+    video.onended = () => { playing = true; play(k + 1, 0); };
+    status.textContent = `1080p · part ${k + 1}/${s.chunks.length}`;
+  };
+  play(i, resume - s.chunks[i].start);
+}
+
+document.querySelectorAll('[data-ep]').forEach((b) => b.addEventListener('click', () => { if (state.ep === b.dataset.ep) return; state.ep = b.dataset.ep; load(false); }));
+document.querySelectorAll('[data-fmt]').forEach((b) => b.addEventListener('click', () => { if (state.fmt === b.dataset.fmt) return; state.fmt = b.dataset.fmt; load(true); }));
+try { if (matchMedia('(min-aspect-ratio: 1/1)').matches) state.fmt = '16x9'; } catch (e) {}
+load(false);
+</script>
