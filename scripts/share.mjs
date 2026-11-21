@@ -7,7 +7,7 @@ import path from 'node:path';
 import { execFileSync } from 'node:child_process';
 const args = process.argv.slice(2);
 const ep = args.find((a) => !a.startsWith('--')) || 'part1';
-const crf = (args.find((a) => a.startsWith('--crf=')) || '--crf=24').split('=')[1];
+const crf = (args.find((a) => a.startsWith('--crf=')) || '--crf=27').split('=')[1];
 const out = [];
 for (const fmt of ['9x16', '16x9']) {
   const src = path.join('out', `${ep}_${fmt}.mp4`);
@@ -16,7 +16,7 @@ for (const fmt of ['9x16', '16x9']) {
   fs.rmSync(dir, { recursive: true, force: true });
   fs.mkdirSync(dir, { recursive: true });
   execFileSync('ffmpeg', ['-y', '-loglevel', 'error', '-i', src,
-    '-c:v', 'libx264', '-preset', 'slow', '-crf', crf, '-tune', 'grain', '-maxrate', '9M', '-bufsize', '18M',
+    '-vf', 'hqdn3d=1.2:1.2:3:3', '-c:v', 'libx264', '-preset', 'slow', '-crf', crf, '-maxrate', '6M', '-bufsize', '12M',
     '-profile:v', 'high', '-level', '4.0', '-pix_fmt', 'yuv420p', '-g', '60', '-keyint_min', '60', '-sc_threshold', '0',
     '-c:a', 'aac', '-b:a', '160k', '-ac', '2',
     '-f', 'hls', '-hls_time', '6', '-hls_playlist_type', 'vod', '-hls_segment_type', 'fmp4',
