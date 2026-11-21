@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>The Signal Beneath</title>
+  <style>
+    html, body { margin: 0; height: 100%; background: #02060d; overflow: hidden; }
+    body { display: grid; place-items: center; }
+    #view { display: block; height: 100vh; aspect-ratio: 9 / 16; max-width: 100vw; }
+    body.export { display: block; }
+    #play { position: fixed; inset: auto 0 12vh 0; margin: auto; width: max-content; padding: 14px 28px; font: 500 18px "IBM Plex Mono", monospace; letter-spacing: 4px;
+      color: #19f0ff; background: #02060dcc; border: 1px solid #19f0ff; cursor: pointer; }
+  </style>
+</head>
+<body>
+  <canvas id="view"></canvas>
+  <button id="play" hidden>▶ PLAY PART</button>
+  <script>if (location.search.includes('export')) document.body.classList.add('export');</script>
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>

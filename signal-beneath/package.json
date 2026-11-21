@@ -1,0 +1,24 @@
+{
+  "name": "signal-beneath",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "THE SIGNAL BENEATH — neon sonar line-art vertical story series (Canvas 2D + GLSL + GSAP). Reusable: each part is one timeline.json.",
+  "scripts": {
+    "voice": "python3 scripts/tts.py",
+    "timeline": "node scripts/build-timeline.mjs",
+    "dev": "node scripts/build-timeline.mjs && vite",
+    "shots": "node scripts/shots.mjs",
+    "new-part": "node scripts/new-part.mjs",
+    "export": "node scripts/export.mjs"
+  },
+  "dependencies": {
+    "@fontsource/ibm-plex-mono": "5.2.7",
+    "@fontsource/vt323": "5.2.7",
+    "gsap": "3.13.0"
+  },
+  "devDependencies": {
+    "playwright": "1.63.0",
+    "vite": "7.1.12"
+  }
+}

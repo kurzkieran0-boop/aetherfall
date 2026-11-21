@@ -1,0 +1,28 @@
+{
+  "title": "THE SIGNAL BENEATH",
+  "format": { "width": 1080, "height": 1920, "fps": 30 },
+  "safeArea": { "top": 0.10, "bottom": 0.20, "side": 0.05 },
+  "palette": { "bg": "#02060d", "line": "#19f0ff", "accent": "#ff2e88" },
+  "timing": {
+    "minTotal": 120,
+    "maxTotal": 170,
+    "targetMin": 124,
+    "breathingPause": 0.8,
+    "sentenceGap": 0.34,
+    "leadIn": 0.9,
+    "transition": 1.2
+  },
+  "voice": {
+    "engine": "kokoro",
+    "voice": "af_sarah",
+    "speed": 0.93,
+    "whisperVoice": "af_sarah",
+    "whisperSpeed": 0.84,
+    "radio": { "lowHz": 300, "highHz": 3400, "static": 0.010 }
+  },
+  "template": {
+    "titleCard": { "duration": 4.2, "after": 0 },
+    "endCard": { "duration": 6.5 },
+    "sting": { "freq": 1046, "sub": 41 }
+  }
+}

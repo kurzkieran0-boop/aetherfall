@@ -1,0 +1,8 @@
+# Free, offline voiceover. tts.py tries: kokoro -> kokoro-onnx -> piper -> edge-tts -> espeak-ng
+kokoro-onnx==0.6.1   # Kokoro-82M via ONNX runtime; weights auto-download into .models/ (used for Part 1)
+soundfile
+numpy
+# optional engines:
+# kokoro             # PyTorch Kokoro (`pip install kokoro soundfile`; needs a Python with spaCy/blis wheels)
+# piper-tts          # put a voice .onnx in .models/piper/
+# edge-tts           # needs network access

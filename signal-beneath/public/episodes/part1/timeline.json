@@ -1,0 +1,1743 @@
+{
+  "episode": {
+    "part": 1,
+    "next": 2,
+    "subtitle": "PART 1"
+  },
+  "_doc": "Authoring file for one part. Edit scenes/narration/visuals; `npm run timeline` (or export) measures the voiceover and writes start/duration/voice fields back into this file. visual.type picks a renderer in src/scenes.js.",
+  "endCard": {
+    "text": "PART 2: Follow so you don't miss it.",
+    "start": 117.5,
+    "duration": 6.5
+  },
+  "scenes": [
+    {
+      "id": "cold_open",
+      "title": "COLD OPEN",
+      "palette": [
+        "#02060d",
+        "#19f0ff"
+      ],
+      "leadIn": 2.4,
+      "visuals": "Black screen; a single cyan sonar ping ripples out. Terminal text types in: STATION LOG. Day / depth readouts appear with the narration.",
+      "visual": {
+        "type": "coldOpen",
+        "heading": "STATION LOG",
+        "readouts": [
+          "DAY 041",
+          "DEPTH 11,000 M",
+          "LISTENING: 1 OF 6"
+        ]
+      },
+      "sound": {
+        "mood": "near silence, one ping, pressure drone fading in",
+        "drone": 0.45,
+        "static": 0.25,
+        "pingEvery": 7
+      },
+      "narration": [
+        "Station log.",
+        "Day forty-one.",
+        "Depth: eleven thousand meters.",
+        "I'm the only one still listening."
+      ],
+      "start": 0,
+      "duration": 11.314,
+      "voice": {
+        "file": "audio/line_00_cold_open.wav",
+        "offset": 2.797,
+        "duration": 6.79,
+        "breathingPause": 1.727,
+        "sentences": [
+          {
+            "text": "Station log.",
+            "start": 2.797,
+            "duration": 1.05,
+            "voice": false,
+            "final": false,
+            "silenceBefore": 0,
+            "words": [
+              {
+                "w": "Station",
+                "t0": 2.837,
+                "t1": 3.437
+              },
+              {
+                "w": "log.",
+                "t0": 3.437,
+                "t1": 3.807
+              }
+            ]
+          },
+          {
+            "text": "Day forty-one.",
+            "start": 4.187,
+            "duration": 1.06,
+            "voice": false,
+            "final": false,
+            "silenceBefore": 0,
+            "words": [
+              {
+                "w": "Day",
+                "t0": 4.227,
+                "t1": 4.6
+              },
+              {
+                "w": "forty-one.",
+                "t0": 4.6,
+                "t1": 5.207
+              }
+            ]
+          },
+          {
+            "text": "Depth: eleven thousand meters.",
+            "start": 5.587,
+            "duration": 1.95,
+            "voice": false,
+            "final": false,
+            "silenceBefore": 0,
+            "words": [
+              {
+                "w": "Depth:",
+                "t0": 5.627,
+                "t1": 5.867
+              },
+              {
+                "w": "eleven",
+                "t0": 6.127,
+                "t1": 6.687
+              },
+              {
+                "w": "thousand",
+                "t0": 6.687,
+                "t1": 7.092
+              },
+              {
+                "w": "meters.",
+                "t0": 7.092,
+                "t1": 7.497
+              }
+            ]
+          },
+          {
+            "text": "I'm the only one still listening.",
+            "start": 7.877,
+            "duration": 1.71,
+            "voice": false,
+            "final": false,
+            "silenceBefore": 0,
+            "words": [
+              {
+                "w": "I'm",
+                "t0": 7.917,
+                "t1": 8.124
+              },
+              {
+                "w": "the",
+                "t0": 8.124,
+                "t1": 8.331
+              },
+              {
+                "w": "only",
+                "t0": 8.331,
+                "t1": 8.667
+              },
+              {
+                "w": "one",
+                "t0": 8.667,
+                "t1": 8.874
+              },
+              {
+                "w": "still",
+                "t0": 8.874,
+                "t1": 9.081
+              },
+              {
+                "w": "listening.",
+                "t0": 9.081,
+                "t1": 9.547
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "the_station",
+      "title": "THE STATION",
+      "palette": [
+        "#02060d",
+        "#19f0ff"
+      ],
+      "visuals": "Glowing line-art cross-section of Hadal Nine hanging above the trench; six crew pods, only one lit. An ascent capsule rises up the cable (day 30).",
+      "visual": {
+        "type": "station",
+        "name": "HADAL-9",
+        "pods": 6,
+        "lit": [
+          0
+        ]
+      },
+      "sound": {
+        "mood": "pressure drone, metal hull ambience",
+        "drone": 0.7,
+        "static": 0.3,
+        "pingEvery": 6
+      },
+      "narration": [
+        "Hadal Nine was built for six.",
+        "The others went topside on day thirty.",
+        "They said the pressure was getting to me.",
+        "They said nobody hears anything down here."
+      ],
+      "start": 15.514,
+      "duration": 12.367,
+      "voice": {
+        "file": "audio/line_01_the_station.wav",
+        "offset": 1.334,
+        "duration": 9.22,
+        "breathingPause": 1.813,
+        "sentences": [
+          {
+            "text": "Hadal Nine was built for six.",
+            "start": 1.334,
+            "duration": 1.88,
+            "voice": false,
+            "final": false,
+            "silenceBefore": 0,
+            "words": [
+              {
+                "w": "Hadal",
+                "t0": 1.374,
+                "t1": 1.816
+              },
+              {
+                "w": "Nine",
+                "t0": 1.816,
+                "t1": 2.087
+              },
+              {
+                "w": "was",
+                "t0": 2.087,
+                "t1": 2.359
+              },
+              {
+                "w": "built",
+                "t0": 2.359,
+                "t1": 2.631
+              },
+              {
+                "w": "for",
+                "t0": 2.631,
+                "t1": 2.902
+              },
+              {
+                "w": "six.",
+                "t0": 2.902,
+                "t1": 3.174
+              }
+            ]
+          },
+          {
+            "text": "The others went topside on day thirty.",
+            "start": 3.554,
+            "duration": 2.08,
+            "voice": false,
+            "final": false,
+            "silenceBefore": 0,
+            "words": [
+              {
+                "w": "The",
+                "t0": 3.594,
+                "t1": 3.819
+              },
+              {
+                "w": "others",
+                "t0": 3.819,
+                "t1": 4.186
+              },
+              {
+                "w": "went",
+                "t0": 4.186,
+                "t1": 4.411
+              },
+              {
+                "w": "topside",
+                "t0": 4.411,
+                "t1": 4.777
+              },
+              {
+                "w": "on",
+                "t0": 4.777,
+                "t1": 5.002
+              },
+              {
+                "w": "day",
+                "t0": 5.002,
+                "t1": 5.228
+              },
+              {
+                "w": "thirty.",
+                "t0": 5.228,
+                "t1": 5.594
+              }
+            ]
+          },
+          {
+            "text": "They said the pressure was getting to me.",
+            "start": 5.974,
+            "duration": 1.95,
+            "voice": false,
+            "final": false,
+            "silenceBefore": 0,
+            "words": [
+              {
+                "w": "They",
+                "t0": 6.014,
+                "t1": 6.216
+              },
+              {
+                "w": "said",
+                "t0": 6.216,
+                "t1": 6.418
+              },
+              {
+                "w": "the",
+                "t0": 6.418,
+                "t1": 6.62
+              },
+              {
+                "w": "pressure",
+                "t0": 6.62,
+                "t1": 6.949
+              },
+              {
+                "w": "was",
+                "t0": 6.949,
+                "t1": 7.151
+              },
+              {
+                "w": "getting",
+                "t0": 7.151,
+                "t1": 7.48
+              },
+              {
+                "w": "to",
+                "t0": 7.48,
+                "t1": 7.682
+              },
+              {
+                "w": "me.",
+                "t0": 7.682,
+                "t1": 7.884
+              }
+            ]
+          },
+          {
+            "text": "They said nobody hears anything down here.",
+            "start": 8.264,
+            "duration": 2.29,
+            "voice": false,
+            "final": false,
+            "silenceBefore": 0,
+            "words": [
+              {
+                "w": "They",
+                "t0": 8.304,
+                "t1": 8.537
+              },
+              {
+                "w": "said",
+                "t0": 8.537,
+                "t1": 8.769
+              },
+              {
+                "w": "nobody",
+                "t0": 8.769,
+                "t1": 9.293
+              },
+              {
+                "w": "hears",
+                "t0": 9.293,
+                "t1": 9.525
+              },
+              {
+                "w": "anything",
+                "t0": 9.525,
+                "t1": 10.049
+              },
+              {
+                "w": "down",
+                "t0": 10.049,
+                "t1": 10.281
+              },
+              {
+                "w": "here.",
+                "t0": 10.281,
+                "t1": 10.514
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "the_sound",
+      "title": "THE SOUND",
+      "palette": [
+        "#02060d",
+        "#19f0ff",
+        "#ff2e88"
+      ],
+      "visuals": "Waveform and spectrogram scroll across the screen; a spike hits at 02:14 (magenta).",
+      "visual": {
+        "type": "spectrum",
+        "spikeWord": "fourteen,",
+        "clockAt": "02:14:00",
+        "tags": [
+          [
+            "NOT BIOLOGIC",
+            1
+          ],
+          [
+            "NOT MECHANICAL",
+            2
+          ],
+          [
+            "VOICE // COUNTING",
+            3
+          ]
+        ]
+      },
+      "sound": {
+        "mood": "hydrophone hiss, static rises, a hollow thump on the spike",
+        "drone": 0.75,
+        "static": 0.55,
+        "pingEvery": 5.2
+      },
+      "narration": [
+        "But every night at two fourteen, the hydrophones pick up a sound.",
+        "Not whale song.",
+        "Not machinery.",
+        {
+          "text": "A voice, counting down."
+        }
+      ],
+      "start": 27.882,
+      "duration": 11.371,
+      "voice": {
+        "file": "audio/line_02_the_sound.wav",
+        "offset": 1.299,
+        "duration": 8.34,
+        "breathingPause": 1.732,
+        "sentences": [
+          {
+            "text": "But every night at two fourteen, the hydrophones pick up a sound.",
+            "start": 1.299,
+            "duration": 3.7,
+            "voice": false,
+            "final": false,
+            "silenceBefore": 0,
+            "words": [
+              {
+                "w": "But",
+                "t0": 1.339,
+                "t1": 1.555
+              },
+              {
+                "w": "every",
+                "t0": 1.555,
+                "t1": 2.041
+              },
+              {
+                "w": "night",
+                "t0": 2.041,
+                "t1": 2.256
+              },
+              {
+                "w": "at",
+                "t0": 2.256,
+                "t1": 2.472
+              },
+              {
+                "w": "two",
+                "t0": 2.472,
+                "t1": 2.688
+              },
+              {
+                "w": "fourteen,",
+                "t0": 2.688,
+                "t1": 3.039
+              },
+              {
+                "w": "the",
+                "t0": 3.349,
+                "t1": 3.553
+              },
+              {
+                "w": "hydrophones",
+                "t0": 3.553,
+                "t1": 4.141
+              },
+              {
+                "w": "pick",
+                "t0": 4.141,
+                "t1": 4.346
+              },
+              {
+                "w": "up",
+                "t0": 4.346,
+                "t1": 4.55
+              },
+              {
+                "w": "a",
+                "t0": 4.55,
+                "t1": 4.755
+              },
+              {
+                "w": "sound.",
+                "t0": 4.755,
+                "t1": 4.959
+              }
+            ]
+          },
+          {
+            "text": "Not whale song.",
+            "start": 5.339,
+            "duration": 1.1,
+            "voice": false,
+            "final": false,
+            "silenceBefore": 0,
+            "words": [
+              {
+                "w": "Not",
+                "t0": 5.379,
+                "t1": 5.66
+              },
+              {
+                "w": "whale",
+                "t0": 5.66,
+                "t1": 6.118
+              },
+              {
+                "w": "song.",
+                "t0": 6.118,
+                "t1": 6.399
+              }
+            ]
+          },
+          {
+            "text": "Not machinery.",
+            "start": 6.779,
+            "duration": 1,
+            "voice": false,
+            "final": false,
+            "silenceBefore": 0,
+            "words": [
+              {
+                "w": "Not",
+                "t0": 6.819,
+                "t1": 7.056
+              },
+              {
+                "w": "machinery.",
+                "t0": 7.056,
+                "t1": 7.739
+              }
+            ]
+          },
+          {
+            "text": "A voice, counting down.",
+            "start": 8.119,
+            "duration": 1.52,
+            "voice": false,
+            "final": false,
+            "silenceBefore": 0,
+            "words": [
+              {
+                "w": "A",
+                "t0": 8.159,
+                "t1": 8.47
+              },
+              {
+                "w": "voice,",
+                "t0": 8.47,
+                "t1": 8.782
+              },
+              {
+                "w": "counting",
+                "t0": 8.782,
+                "t1": 9.288
+              },
+              {
+                "w": "down.",
+                "t0": 9.288,
+                "t1": 9.599
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "the_count",
+      "title": "THE COUNT",
+      "palette": [
+        "#02060d",
+        "#19f0ff",
+        "#ff2e88"
+      ],
+      "visuals": "Huge glowing magenta numbers tick down over a rotating sonar grid.",
+      "visual": {
+        "type": "countdown",
+        "marks": [
+          {
+            "word": "hundred",
+            "n": 100
+          },
+          {
+            "word": "Ninety-nine.",
+            "n": 99
+          },
+          {
+            "word": "Ninety-eight.",
+            "n": 98
+          },
+          {
+            "rushFrom": "Tonight,",
+            "rushTo": "eleven.",
+            "from": 97,
+            "to": 11
+          }
+        ]
+      },
+      "sound": {
+        "mood": "drone tightens, magenta ticks on every number",
+        "drone": 0.8,
+        "static": 0.35,
+        "pingEvery": 4.4
+      },
+      "narration": [
+        "It started at one hundred the night the crew left.",
+        "Ninety-nine.",
+        "Ninety-eight.",
+        "Tonight, it reached eleven."
+      ],
+      "start": 39.252,
+      "duration": 9.774,
+      "voice": {
+        "file": "audio/line_03_the_count.wav",
+        "offset": 1.243,
+        "duration": 6.93,
+        "breathingPause": 1.601,
+        "sentences": [
+          {
+            "text": "It started at one hundred the night the crew left.",
+            "start": 1.243,
+            "duration": 2.39,
+            "voice": false,
+            "final": false,
+            "silenceBefore": 0,
+            "words": [
+              {
+                "w": "It",
+                "t0": 1.283,
+                "t1": 1.488
+              },
+              {
+                "w": "started",
+                "t0": 1.488,
+                "t1": 1.822
+              },
+              {
+                "w": "at",
+                "t0": 1.822,
+                "t1": 2.027
+              },
+              {
+                "w": "one",
+                "t0": 2.027,
+                "t1": 2.233
+              },
+              {
+                "w": "hundred",
+                "t0": 2.233,
+                "t1": 2.566
+              },
+              {
+                "w": "the",
+                "t0": 2.566,
+                "t1": 2.772
+              },
+              {
+                "w": "night",
+                "t0": 2.772,
+                "t1": 2.977
+              },
+              {
+                "w": "the",
+                "t0": 2.977,
+                "t1": 3.182
+              },
+              {
+                "w": "crew",
+                "t0": 3.182,
+                "t1": 3.388
+              },
+              {
+                "w": "left.",
+                "t0": 3.388,
+                "t1": 3.593
+              }
+            ]
+          },
+          {
+            "text": "Ninety-nine.",
+            "start": 3.973,
+            "duration": 1,
+            "voice": false,
+            "final": false,
+            "silenceBefore": 0,
+            "words": [
+              {
+                "w": "Ninety-nine.",
+                "t0": 4.013,
+                "t1": 4.933
+              }
+            ]
+          },
+          {
+            "text": "Ninety-eight.",
+            "start": 5.313,
+            "duration": 0.97,
+            "voice": false,
+            "final": false,
+            "silenceBefore": 0,
+            "words": [
+              {
+                "w": "Ninety-eight.",
+                "t0": 5.353,
+                "t1": 6.243
+              }
+            ]
+          },
+          {
+            "text": "Tonight, it reached eleven.",
+            "start": 6.623,
+            "duration": 1.55,
+            "voice": false,
+            "final": false,
+            "silenceBefore": 0,
+            "words": [
+              {
+                "w": "Tonight,",
+                "t0": 6.663,
+                "t1": 7.03
+              },
+              {
+                "w": "it",
+                "t0": 7.03,
+                "t1": 7.257
+              },
+              {
+                "w": "reached",
+                "t0": 7.257,
+                "t1": 7.624
+              },
+              {
+                "w": "eleven.",
+                "t0": 7.624,
+                "t1": 8.133
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "triangulation",
+      "title": "TRIANGULATION",
+      "palette": [
+        "#02060d",
+        "#19f0ff",
+        "#ff2e88"
+      ],
+      "visuals": "Bathymetric contour map of the trench; three bearing lines sweep in from three hydrophones and cross at one point below the sea floor.",
+      "visual": {
+        "type": "triangulation",
+        "seed": 41,
+        "source": [
+          0.58,
+          0.66
+        ],
+        "sourceLabel": "SOURCE  -340 M BELOW FLOOR"
+      },
+      "sound": {
+        "mood": "sonar sweeps, data chirps",
+        "drone": 0.8,
+        "static": 0.3,
+        "pingEvery": 3.8
+      },
+      "narration": [
+        "I triangulated it.",
+        "Three hydrophones, three bearings.",
+        "All three lines crossed in the same place.",
+        "Not above me.",
+        "Below the trench floor."
+      ],
+      "start": 49.026,
+      "duration": 12.639,
+      "voice": {
+        "file": "audio/line_04_triangulation.wav",
+        "offset": 1.344,
+        "duration": 9.46,
+        "breathingPause": 1.835,
+        "sentences": [
+          {
+            "text": "I triangulated it.",
+            "start": 1.344,
+            "duration": 1.43,
+            "voice": false,
+            "final": false,
+            "silenceBefore": 0,
+            "words": [
+              {
+                "w": "I",
+                "t0": 1.384,
+                "t1": 1.661
+              },
+              {
+                "w": "triangulated",
+                "t0": 1.661,
+                "t1": 2.457
+              },
+              {
+                "w": "it.",
+                "t0": 2.457,
+                "t1": 2.734
+              }
+            ]
+          },
+          {
+            "text": "Three hydrophones, three bearings.",
+            "start": 3.114,
+            "duration": 2.02,
+            "voice": false,
+            "final": false,
+            "silenceBefore": 0,
+            "words": [
+              {
+                "w": "Three",
+                "t0": 3.154,
+                "t1": 3.412
+              },
+              {
+                "w": "hydrophones,",
+                "t0": 3.412,
+                "t1": 4.154
+              },
+              {
+                "w": "three",
+                "t0": 4.324,
+                "t1": 4.617
+              },
+              {
+                "w": "bearings.",
+                "t0": 4.617,
+                "t1": 5.094
+              }
+            ]
+          },
+          {
+            "text": "All three lines crossed in the same place.",
+            "start": 5.474,
+            "duration": 2.33,
+            "voice": false,
+            "final": false,
+            "silenceBefore": 0,
+            "words": [
+              {
+                "w": "All",
+                "t0": 5.514,
+                "t1": 5.757
+              },
+              {
+                "w": "three",
+                "t0": 5.757,
+                "t1": 6
+              },
+              {
+                "w": "lines",
+                "t0": 6,
+                "t1": 6.396
+              },
+              {
+                "w": "crossed",
+                "t0": 6.396,
+                "t1": 6.791
+              },
+              {
+                "w": "in",
+                "t0": 6.791,
+                "t1": 7.034
+              },
+              {
+                "w": "the",
+                "t0": 7.034,
+                "t1": 7.278
+              },
+              {
+                "w": "same",
+                "t0": 7.278,
+                "t1": 7.521
+              },
+              {
+                "w": "place.",
+                "t0": 7.521,
+                "t1": 7.764
+              }
+            ]
+          },
+          {
+            "text": "Not above me.",
+            "start": 8.144,
+            "duration": 0.97,
+            "voice": false,
+            "final": false,
+            "silenceBefore": 0,
+            "words": [
+              {
+                "w": "Not",
+                "t0": 8.184,
+                "t1": 8.43
+              },
+              {
+                "w": "above",
+                "t0": 8.43,
+                "t1": 8.828
+              },
+              {
+                "w": "me.",
+                "t0": 8.828,
+                "t1": 9.074
+              }
+            ]
+          },
+          {
+            "text": "Below the trench floor.",
+            "start": 9.454,
+            "duration": 1.35,
+            "voice": false,
+            "final": false,
+            "silenceBefore": 0,
+            "words": [
+              {
+                "w": "Below",
+                "t0": 9.494,
+                "t1": 9.94
+              },
+              {
+                "w": "the",
+                "t0": 9.94,
+                "t1": 10.215
+              },
+              {
+                "w": "trench",
+                "t0": 10.215,
+                "t1": 10.489
+              },
+              {
+                "w": "floor.",
+                "t0": 10.489,
+                "t1": 10.764
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "second_voice",
+      "title": "THE SECOND VOICE",
+      "palette": [
+        "#02060d",
+        "#19f0ff",
+        "#ff2e88"
+      ],
+      "visuals": "The spectrogram slows and stretches (playback 1.00x -> 0.08x); a faint second magenta waveform appears beneath the first.",
+      "visual": {
+        "type": "slowdown",
+        "speeds": [
+          1,
+          0.25,
+          0.08
+        ]
+      },
+      "sound": {
+        "mood": "everything slows; drone detunes downward, whisper-texture static",
+        "drone": 0.7,
+        "static": 0.45,
+        "pingEvery": 3.3,
+        "detune": -40
+      },
+      "narration": [
+        "So I slowed the recording down.",
+        "Way down.",
+        "Underneath the numbers, there's a second voice.",
+        "Whispering the same four words, over and over."
+      ],
+      "start": 61.665,
+      "duration": 11.722,
+      "voice": {
+        "file": "audio/line_05_second_voice.wav",
+        "offset": 1.312,
+        "duration": 8.65,
+        "breathingPause": 1.76,
+        "sentences": [
+          {
+            "text": "So I slowed the recording down.",
+            "start": 1.312,
+            "duration": 1.77,
+            "voice": false,
+            "final": false,
+            "silenceBefore": 0,
+            "words": [
+              {
+                "w": "So",
+                "t0": 1.352,
+                "t1": 1.567
+              },
+              {
+                "w": "I",
+                "t0": 1.567,
+                "t1": 1.781
+              },
+              {
+                "w": "slowed",
+                "t0": 1.781,
+                "t1": 2.13
+              },
+              {
+                "w": "the",
+                "t0": 2.13,
+                "t1": 2.345
+              },
+              {
+                "w": "recording",
+                "t0": 2.345,
+                "t1": 2.827
+              },
+              {
+                "w": "down.",
+                "t0": 2.827,
+                "t1": 3.042
+              }
+            ]
+          },
+          {
+            "text": "Way down.",
+            "start": 3.422,
+            "duration": 0.8,
+            "voice": false,
+            "final": false,
+            "silenceBefore": 0,
+            "words": [
+              {
+                "w": "Way",
+                "t0": 3.462,
+                "t1": 3.822
+              },
+              {
+                "w": "down.",
+                "t0": 3.822,
+                "t1": 4.182
+              }
+            ]
+          },
+          {
+            "text": "Underneath the numbers, there's a second voice.",
+            "start": 4.562,
+            "duration": 2.46,
+            "voice": false,
+            "final": false,
+            "silenceBefore": 0,
+            "words": [
+              {
+                "w": "Underneath",
+                "t0": 4.602,
+                "t1": 5.11
+              },
+              {
+                "w": "the",
+                "t0": 5.11,
+                "t1": 5.335
+              },
+              {
+                "w": "numbers,",
+                "t0": 5.335,
+                "t1": 5.702
+              },
+              {
+                "w": "there's",
+                "t0": 5.912,
+                "t1": 6.243
+              },
+              {
+                "w": "a",
+                "t0": 6.243,
+                "t1": 6.447
+              },
+              {
+                "w": "second",
+                "t0": 6.447,
+                "t1": 6.778
+              },
+              {
+                "w": "voice.",
+                "t0": 6.778,
+                "t1": 6.982
+              }
+            ]
+          },
+          {
+            "text": "Whispering the same four words, over and over.",
+            "start": 7.362,
+            "duration": 2.6,
+            "voice": false,
+            "final": false,
+            "silenceBefore": 0,
+            "words": [
+              {
+                "w": "Whispering",
+                "t0": 7.402,
+                "t1": 7.92
+              },
+              {
+                "w": "the",
+                "t0": 7.92,
+                "t1": 8.151
+              },
+              {
+                "w": "same",
+                "t0": 8.151,
+                "t1": 8.381
+              },
+              {
+                "w": "four",
+                "t0": 8.381,
+                "t1": 8.612
+              },
+              {
+                "w": "words,",
+                "t0": 8.612,
+                "t1": 8.842
+              },
+              {
+                "w": "over",
+                "t0": 9.112,
+                "t1": 9.422
+              },
+              {
+                "w": "and",
+                "t0": 9.422,
+                "t1": 9.612
+              },
+              {
+                "w": "over.",
+                "t0": 9.612,
+                "t1": 9.922
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "the_words",
+      "title": "THE WORDS",
+      "palette": [
+        "#02060d",
+        "#ff2e88"
+      ],
+      "minDuration": 7.5,
+      "visuals": "Four words assemble from glitching characters in magenta: DO NOT ANSWER IT.",
+      "visual": {
+        "type": "glitchWords",
+        "lines": [
+          "DO NOT",
+          "ANSWER IT"
+        ]
+      },
+      "sound": {
+        "mood": "digital glitch bursts, drone drops out to sub only",
+        "drone": 0.55,
+        "static": 0.6,
+        "pingEvery": 3,
+        "glitch": true
+      },
+      "narration": [
+        {
+          "text": "Do not answer it.",
+          "voice": true
+        }
+      ],
+      "start": 73.387,
+      "duration": 8.494,
+      "voice": {
+        "file": "audio/line_06_the_words.wav",
+        "offset": 1.198,
+        "duration": 1.24,
+        "breathingPause": 6.056,
+        "sentences": [
+          {
+            "text": "Do not answer it.",
+            "start": 1.198,
+            "duration": 1.24,
+            "voice": true,
+            "final": false,
+            "silenceBefore": 0,
+            "words": [
+              {
+                "w": "Do",
+                "t0": 1.238,
+                "t1": 1.489
+              },
+              {
+                "w": "not",
+                "t0": 1.489,
+                "t1": 1.74
+              },
+              {
+                "w": "answer",
+                "t0": 1.74,
+                "t1": 2.147
+              },
+              {
+                "w": "it.",
+                "t0": 2.147,
+                "t1": 2.398
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "the_log",
+      "title": "THE LOG",
+      "palette": [
+        "#02060d",
+        "#19f0ff",
+        "#ff2e88"
+      ],
+      "visuals": "A terminal scrolls through station logs; one line highlights in magenta: OUTGOING TRANSMISSION, console 1, four nights ago.",
+      "visual": {
+        "type": "terminalLog",
+        "highlightSentence": 2,
+        "lines": [
+          "D35 22:41  HULL STRAIN GAUGE 4 .... NOMINAL",
+          "D35 23:58  CO2 SCRUBBER B ......... NOMINAL",
+          "D36 01:12  HYDROPHONE ARRAY ....... GAIN +6DB",
+          "D36 02:14  ACOUSTIC EVENT ......... LOGGED",
+          "D36 06:30  BALLAST TRIM ........... -0.2%",
+          "D36 14:05  OPERATOR NOTE .......... (EMPTY)",
+          "D36 21:47  LIGHTING POD 2-6 ....... OFF",
+          "D37 00:03  CONSOLE 1 .............. LOGIN",
+          "D37 02:14  OUTGOING TRANSMISSION .. CONSOLE 1",
+          "D37 02:14  CARRIER ................ 3.2 KHZ",
+          "D37 02:15  CONSOLE 1 .............. IDLE",
+          "D38 02:14  ACOUSTIC EVENT ......... LOGGED",
+          "D39 02:14  ACOUSTIC EVENT ......... LOGGED",
+          "D40 02:14  ACOUSTIC EVENT ......... LOGGED",
+          "D41 01:58  CONSOLE 1 .............. LOGIN"
+        ],
+        "highlight": 8
+      },
+      "sound": {
+        "mood": "keyboard-like data ticks, static, pings quicken",
+        "drone": 0.75,
+        "static": 0.4,
+        "pingEvery": 2.6
+      },
+      "narration": [
+        "I checked the station logs, looking for proof I wasn't imagining it.",
+        "And that's when I saw it.",
+        "An outgoing transmission.",
+        "Sent from my console.",
+        "Four nights ago."
+      ],
+      "start": 81.881,
+      "duration": 14.112,
+      "voice": {
+        "file": "audio/line_07_the_log.wav",
+        "offset": 1.395,
+        "duration": 10.76,
+        "breathingPause": 1.956,
+        "sentences": [
+          {
+            "text": "I checked the station logs, looking for proof I wasn't imagining it.",
+            "start": 1.395,
+            "duration": 3.99,
+            "voice": false,
+            "final": false,
+            "silenceBefore": 0,
+            "words": [
+              {
+                "w": "I",
+                "t0": 1.435,
+                "t1": 1.673
+              },
+              {
+                "w": "checked",
+                "t0": 1.673,
+                "t1": 2.061
+              },
+              {
+                "w": "the",
+                "t0": 2.061,
+                "t1": 2.299
+              },
+              {
+                "w": "station",
+                "t0": 2.299,
+                "t1": 2.687
+              },
+              {
+                "w": "logs,",
+                "t0": 2.687,
+                "t1": 2.925
+              },
+              {
+                "w": "looking",
+                "t0": 3.315,
+                "t1": 3.662
+              },
+              {
+                "w": "for",
+                "t0": 3.662,
+                "t1": 3.876
+              },
+              {
+                "w": "proof",
+                "t0": 3.876,
+                "t1": 4.09
+              },
+              {
+                "w": "I",
+                "t0": 4.09,
+                "t1": 4.303
+              },
+              {
+                "w": "wasn't",
+                "t0": 4.303,
+                "t1": 4.517
+              },
+              {
+                "w": "imagining",
+                "t0": 4.517,
+                "t1": 5.131
+              },
+              {
+                "w": "it.",
+                "t0": 5.131,
+                "t1": 5.345
+              }
+            ]
+          },
+          {
+            "text": "And that's when I saw it.",
+            "start": 5.725,
+            "duration": 1.33,
+            "voice": false,
+            "final": false,
+            "silenceBefore": 0,
+            "words": [
+              {
+                "w": "And",
+                "t0": 5.765,
+                "t1": 5.973
+              },
+              {
+                "w": "that's",
+                "t0": 5.973,
+                "t1": 6.182
+              },
+              {
+                "w": "when",
+                "t0": 6.182,
+                "t1": 6.39
+              },
+              {
+                "w": "I",
+                "t0": 6.39,
+                "t1": 6.598
+              },
+              {
+                "w": "saw",
+                "t0": 6.598,
+                "t1": 6.807
+              },
+              {
+                "w": "it.",
+                "t0": 6.807,
+                "t1": 7.015
+              }
+            ]
+          },
+          {
+            "text": "An outgoing transmission.",
+            "start": 7.395,
+            "duration": 1.58,
+            "voice": false,
+            "final": false,
+            "silenceBefore": 0,
+            "words": [
+              {
+                "w": "An",
+                "t0": 7.435,
+                "t1": 7.743
+              },
+              {
+                "w": "outgoing",
+                "t0": 7.743,
+                "t1": 8.243
+              },
+              {
+                "w": "transmission.",
+                "t0": 8.243,
+                "t1": 8.935
+              }
+            ]
+          },
+          {
+            "text": "Sent from my console.",
+            "start": 9.315,
+            "duration": 1.34,
+            "voice": false,
+            "final": false,
+            "silenceBefore": 0,
+            "words": [
+              {
+                "w": "Sent",
+                "t0": 9.355,
+                "t1": 9.595
+              },
+              {
+                "w": "from",
+                "t0": 9.595,
+                "t1": 9.835
+              },
+              {
+                "w": "my",
+                "t0": 9.835,
+                "t1": 10.075
+              },
+              {
+                "w": "console.",
+                "t0": 10.075,
+                "t1": 10.615
+              }
+            ]
+          },
+          {
+            "text": "Four nights ago.",
+            "start": 10.995,
+            "duration": 1.16,
+            "voice": false,
+            "final": false,
+            "silenceBefore": 0,
+            "words": [
+              {
+                "w": "Four",
+                "t0": 11.035,
+                "t1": 11.333
+              },
+              {
+                "w": "nights",
+                "t0": 11.333,
+                "t1": 11.631
+              },
+              {
+                "w": "ago.",
+                "t0": 11.631,
+                "t1": 12.115
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "the_question",
+      "title": "THE QUESTION",
+      "palette": [
+        "#02060d",
+        "#19f0ff",
+        "#ff2e88"
+      ],
+      "minDuration": 6.5,
+      "visuals": "Close on the highlighted log line; the jellyfish stop drifting; the music thins to a single tone.",
+      "visual": {
+        "type": "logZoom",
+        "line": "D37 02:14  OUTGOING TRANSMISSION",
+        "meta": [
+          "SOURCE ....... CONSOLE 1",
+          "AUTH ......... OPERATOR-01",
+          "PAYLOAD ...... 4 WORDS",
+          "OPERATOR RECALL  NONE"
+        ]
+      },
+      "sound": {
+        "mood": "music thins to a single sustained tone",
+        "drone": 0,
+        "static": 0.12,
+        "pingEvery": 0,
+        "tone": 0.5
+      },
+      "freezeJellyfish": true,
+      "narration": [
+        "I don't remember sending anything."
+      ],
+      "start": 95.993,
+      "duration": 7.362,
+      "voice": {
+        "file": "audio/line_08_the_question.wav",
+        "offset": 1.158,
+        "duration": 1.76,
+        "breathingPause": 4.443,
+        "sentences": [
+          {
+            "text": "I don't remember sending anything.",
+            "start": 1.158,
+            "duration": 1.76,
+            "voice": false,
+            "final": false,
+            "silenceBefore": 0,
+            "words": [
+              {
+                "w": "I",
+                "t0": 1.198,
+                "t1": 1.405
+              },
+              {
+                "w": "don't",
+                "t0": 1.405,
+                "t1": 1.612
+              },
+              {
+                "w": "remember",
+                "t0": 1.612,
+                "t1": 2.077
+              },
+              {
+                "w": "sending",
+                "t0": 2.077,
+                "t1": 2.413
+              },
+              {
+                "w": "anything.",
+                "t0": 2.413,
+                "t1": 2.878
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "cliffhanger",
+      "title": "CLIFFHANGER",
+      "palette": [
+        "#02060d",
+        "#19f0ff",
+        "#ff2e88"
+      ],
+      "delivery": "whisper",
+      "visuals": "The clock hits 02:14, a heartbeat pulses on an ECG trace, then total silence; the sonar ripples in magenta for the first time. Cut to black, one glitch frame, end card.",
+      "visual": {
+        "type": "cliffhanger",
+        "clockWord": "fourteen,",
+        "clockFrom": "02:13:52",
+        "clockAt": "02:14:00"
+      },
+      "sound": {
+        "mood": "heartbeat, fast pings, then 1.5s of total silence before the final line; magenta ping",
+        "drone": 0.6,
+        "static": 0.3,
+        "pingEvery": 1.6,
+        "heartbeat": true
+      },
+      "freezeJellyfish": true,
+      "tailHold": 1.4,
+      "narration": [
+        "Tonight, at two fourteen, the voice stopped counting.",
+        "It said my name.",
+        "And then it said:",
+        {
+          "text": "thank you for answering.",
+          "voice": true,
+          "silenceBefore": 1.5,
+          "final": true
+        }
+      ],
+      "start": 103.354,
+      "duration": 14.146,
+      "voice": {
+        "file": "audio/line_09_cliffhanger.wav",
+        "offset": 1.397,
+        "duration": 9.39,
+        "breathingPause": 1.959,
+        "sentences": [
+          {
+            "text": "Tonight, at two fourteen, the voice stopped counting.",
+            "start": 1.397,
+            "duration": 3.06,
+            "voice": false,
+            "final": false,
+            "silenceBefore": 0,
+            "words": [
+              {
+                "w": "Tonight,",
+                "t0": 1.437,
+                "t1": 1.887
+              },
+              {
+                "w": "at",
+                "t0": 2.057,
+                "t1": 2.316
+              },
+              {
+                "w": "two",
+                "t0": 2.316,
+                "t1": 2.576
+              },
+              {
+                "w": "fourteen,",
+                "t0": 2.576,
+                "t1": 2.997
+              },
+              {
+                "w": "the",
+                "t0": 3.127,
+                "t1": 3.373
+              },
+              {
+                "w": "voice",
+                "t0": 3.373,
+                "t1": 3.618
+              },
+              {
+                "w": "stopped",
+                "t0": 3.618,
+                "t1": 4.018
+              },
+              {
+                "w": "counting.",
+                "t0": 4.018,
+                "t1": 4.417
+              }
+            ]
+          },
+          {
+            "text": "It said my name.",
+            "start": 4.797,
+            "duration": 1.23,
+            "voice": false,
+            "final": false,
+            "silenceBefore": 0,
+            "words": [
+              {
+                "w": "It",
+                "t0": 4.837,
+                "t1": 5.124
+              },
+              {
+                "w": "said",
+                "t0": 5.124,
+                "t1": 5.412
+              },
+              {
+                "w": "my",
+                "t0": 5.412,
+                "t1": 5.7
+              },
+              {
+                "w": "name.",
+                "t0": 5.7,
+                "t1": 5.987
+              }
+            ]
+          },
+          {
+            "text": "And then it said:",
+            "start": 6.367,
+            "duration": 1.11,
+            "voice": false,
+            "final": false,
+            "silenceBefore": 0,
+            "words": [
+              {
+                "w": "And",
+                "t0": 6.407,
+                "t1": 6.664
+              },
+              {
+                "w": "then",
+                "t0": 6.664,
+                "t1": 6.922
+              },
+              {
+                "w": "it",
+                "t0": 6.922,
+                "t1": 7.18
+              },
+              {
+                "w": "said:",
+                "t0": 7.18,
+                "t1": 7.437
+              }
+            ]
+          },
+          {
+            "text": "thank you for answering.",
+            "start": 9.317,
+            "duration": 1.47,
+            "voice": true,
+            "final": true,
+            "silenceBefore": 1.5,
+            "words": [
+              {
+                "w": "thank",
+                "t0": 9.357,
+                "t1": 9.622
+              },
+              {
+                "w": "you",
+                "t0": 9.622,
+                "t1": 9.887
+              },
+              {
+                "w": "for",
+                "t0": 9.887,
+                "t1": 10.151
+              },
+              {
+                "w": "answering.",
+                "t0": 10.151,
+                "t1": 10.747
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "titleCard": {
+    "start": 11.314,
+    "duration": 4.2
+  },
+  "total": 124,
+  "fps": 30,
+  "engine": "kokoro-onnx",
+  "voiceName": "af_sarah"
+}
