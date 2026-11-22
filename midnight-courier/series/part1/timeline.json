@@ -1,0 +1,1981 @@
+{
+  "series": "THE MIDNIGHT COURIER",
+  "part": 1,
+  "output": "midnight-part1.mp4",
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "bpm": 110,
+  "minDuration": 120,
+  "maxDuration": 170,
+  "shotBeats": {
+    "min": 6,
+    "max": 9
+  },
+  "voice": {
+    "engine": "kokoro",
+    "voice": "af_bella",
+    "speed": 1.1,
+    "lang": "en-us",
+    "fallbacks": [
+      "piper",
+      "edge-tts"
+    ],
+    "edgeVoice": "en-US-AnaNeural"
+  },
+  "_notes": "Durations are 'auto': scripts/fit.mjs fits every shot to the measured voiceover on a 110 BPM grid (6-9 beats = 3.3-4.9 s per shot, every cut on a beat). Key words for gold captions are wrapped in *asterisks*. Camera coordinates are world units of the shot's scene (see src/scenes/*.js CAM ranges).",
+  "beats": [
+    {
+      "id": "B0",
+      "name": "HOOK",
+      "palette": "dusk",
+      "lead": 0.12,
+      "tease": "WHAT LETTER?",
+      "music": {
+        "kick": true,
+        "clap": true,
+        "hats": "8",
+        "bass": true,
+        "arp": "16",
+        "lead": true,
+        "energy": 1
+      },
+      "narration": [
+        "Every *midnight*, my city *rearranges* itself.",
+        "Streets *swap*.",
+        "Towers *walk*.",
+        "And I have until *sunrise* to deliver *one letter*."
+      ],
+      "shots": [
+        {
+          "id": "B0-1",
+          "scene": "skyline",
+          "duration": "auto",
+          "camera": {
+            "move": "flyover",
+            "from": {
+              "x": -1200,
+              "y": -160,
+              "z": 0.05,
+              "zoom": 1.08,
+              "roll": 3
+            },
+            "to": {
+              "x": 600,
+              "y": -420,
+              "z": 0.42,
+              "zoom": 1.08,
+              "roll": 0
+            },
+            "ease": "power1.out",
+            "whipOut": "right"
+          },
+          "fx": {
+            "shafts": true,
+            "cranes": 16
+          },
+          "overlay": {
+            "style": "hook",
+            "text": [
+              "EVERY MIDNIGHT,",
+              "THIS CITY",
+              "MOVES."
+            ]
+          },
+          "sound": []
+        },
+        {
+          "id": "B0-2",
+          "scene": "skyline",
+          "duration": "auto",
+          "camera": {
+            "move": "push-in",
+            "from": {
+              "x": 250,
+              "y": -60,
+              "z": 0.1
+            },
+            "to": {
+              "x": 420,
+              "y": -140,
+              "z": 0.34
+            },
+            "whipIn": "right",
+            "ease": "power2.out"
+          },
+          "fx": {
+            "shift": [
+              [
+                3,
+                460,
+                0,
+                0.15,
+                0.85
+              ],
+              [
+                4,
+                -460,
+                0,
+                0.15,
+                0.85
+              ],
+              [
+                5,
+                300,
+                0,
+                0.2,
+                0.9
+              ]
+            ]
+          },
+          "sound": [
+            {
+              "sfx": "rustle",
+              "at": 0.2,
+              "dur": 1.6,
+              "gain": 0.6
+            }
+          ]
+        },
+        {
+          "id": "B0-3",
+          "scene": "skyline",
+          "duration": "auto",
+          "camera": {
+            "move": "tilt-up",
+            "from": {
+              "x": -900,
+              "y": 520,
+              "z": 0.12
+            },
+            "to": {
+              "x": -760,
+              "y": -760,
+              "z": 0.22
+            },
+            "ease": "power2.inOut"
+          },
+          "sceneOpts": {
+            "walkingTower": true
+          },
+          "fx": {
+            "walkingTower": {
+              "x0": -560,
+              "x1": -160,
+              "y": 560,
+              "scale": 0.62
+            }
+          }
+        },
+        {
+          "id": "B0-4",
+          "scene": "skyline",
+          "duration": "auto",
+          "camera": {
+            "move": "push-in",
+            "from": {
+              "x": -40,
+              "y": 420,
+              "z": 0.0
+            },
+            "to": {
+              "x": 30,
+              "y": 380,
+              "z": 0.38
+            },
+            "ease": "power2.out"
+          },
+          "fx": {
+            "juno": {
+              "x": 0,
+              "h": 118,
+              "mode": "hold",
+              "letter": true
+            }
+          },
+          "sound": [
+            {
+              "sfx": "chime",
+              "at": 0.55
+            }
+          ]
+        }
+      ],
+      "cutaways": [
+        {
+          "id": "B0-c1",
+          "scene": "skyline",
+          "camera": {
+            "move": "tracking",
+            "from": {
+              "x": 900,
+              "y": -700,
+              "z": 0.2
+            },
+            "to": {
+              "x": 1300,
+              "y": -820,
+              "z": 0.3
+            },
+            "ease": "none"
+          },
+          "fx": {
+            "cranes": 26
+          }
+        }
+      ]
+    },
+    {
+      "id": "B1",
+      "name": "MEET JUNO",
+      "palette": "dusk",
+      "tease": "WHERE TO?",
+      "music": {
+        "kick": true,
+        "clap": true,
+        "hats": "8",
+        "bass": true,
+        "arp": "16",
+        "pad": true,
+        "energy": 0.9
+      },
+      "narration": [
+        "My name is *Juno*, and I'm the *last courier* who can still *read* the city.",
+        "The *tram lines* slide.",
+        "The *bridges* unfold.",
+        "The only *map* that works is the one in my *head*."
+      ],
+      "shots": [
+        {
+          "id": "B1-1",
+          "scene": "rooftops",
+          "duration": "auto",
+          "camera": {
+            "move": "push-in",
+            "from": {
+              "x": 380,
+              "y": -40,
+              "z": 0.0
+            },
+            "to": {
+              "x": 470,
+              "y": -10,
+              "z": 0.4
+            },
+            "ease": "power2.out"
+          },
+          "fx": {
+            "juno": {
+              "x": 300,
+              "mode": "look",
+              "h": 140
+            }
+          },
+          "overlay": {
+            "style": "title",
+            "text": "PART 1"
+          }
+        },
+        {
+          "id": "B1-2",
+          "scene": "skyline",
+          "duration": "auto",
+          "camera": {
+            "move": "tracking",
+            "from": {
+              "x": -300,
+              "y": -240,
+              "z": 0.15
+            },
+            "to": {
+              "x": 200,
+              "y": -260,
+              "z": 0.25
+            },
+            "ease": "none",
+            "whipOut": "left"
+          },
+          "fx": {
+            "shift": [
+              [
+                2,
+                -380,
+                0,
+                0.1,
+                0.8
+              ],
+              [
+                3,
+                520,
+                0,
+                0.1,
+                0.8
+              ],
+              [
+                4,
+                -520,
+                0,
+                0.15,
+                0.85
+              ],
+              [
+                5,
+                420,
+                0,
+                0.15,
+                0.9
+              ]
+            ]
+          },
+          "sound": [
+            {
+              "sfx": "rustle",
+              "at": 0.15,
+              "dur": 1.4,
+              "gain": 0.5
+            }
+          ]
+        },
+        {
+          "id": "B1-3",
+          "scene": "skyline",
+          "duration": "auto",
+          "camera": {
+            "move": "tracking",
+            "from": {
+              "x": -1250,
+              "y": -120,
+              "z": 0.25
+            },
+            "to": {
+              "x": 200,
+              "y": -160,
+              "z": 0.3
+            },
+            "ease": "power1.inOut",
+            "whipIn": "left"
+          },
+          "fx": {
+            "tramUnfold": {
+              "x": -640,
+              "y": -300,
+              "n": 15,
+              "seg": 112,
+              "a": 0.0,
+              "b": 0.75
+            },
+            "noTram": true
+          },
+          "sound": [
+            {
+              "sfx": "tram",
+              "at": 0.45
+            }
+          ]
+        },
+        {
+          "id": "B1-4",
+          "scene": "skyline",
+          "duration": "auto",
+          "camera": {
+            "move": "drop",
+            "from": {
+              "x": 0,
+              "y": -900,
+              "z": 0.1
+            },
+            "to": {
+              "x": 40,
+              "y": -120,
+              "z": 0.5
+            },
+            "ease": "power2.inOut"
+          },
+          "fx": {
+            "bridgeOpen": {
+              "x": 0,
+              "y": -140,
+              "w": 560,
+              "a": 0.2,
+              "b": 0.8
+            }
+          },
+          "sound": [
+            {
+              "sfx": "creak",
+              "at": 0.2,
+              "dur": 1.6
+            }
+          ]
+        },
+        {
+          "id": "B1-5",
+          "scene": "skyline",
+          "palette": "violet",
+          "duration": "auto",
+          "camera": {
+            "move": "tilt-up",
+            "from": {
+              "x": 300,
+              "y": 420,
+              "z": 0.1
+            },
+            "to": {
+              "x": 120,
+              "y": -260,
+              "z": 0.25
+            },
+            "ease": "power2.inOut"
+          },
+          "fx": {
+            "mapLines": true
+          }
+        }
+      ],
+      "cutaways": [
+        {
+          "id": "B1-c1",
+          "scene": "skyline",
+          "camera": {
+            "move": "whip",
+            "from": {
+              "x": 1100,
+              "y": -300,
+              "z": 0.2
+            },
+            "to": {
+              "x": 1400,
+              "y": -380,
+              "z": 0.3
+            },
+            "ease": "none",
+            "whipIn": "right"
+          },
+          "fx": {}
+        }
+      ]
+    },
+    {
+      "id": "B2",
+      "name": "LANTERN MARKET",
+      "palette": "violet",
+      "tease": "GONE?!",
+      "music": {
+        "kick": true,
+        "clap": true,
+        "hats": "16",
+        "bass": true,
+        "arp": "16",
+        "lead": true,
+        "energy": 1
+      },
+      "narration": [
+        "The *Lantern Market* goes first.",
+        "Stalls fold into the sky like *paper cranes*.",
+        "The *baker* waves me through, and in *ten seconds* his whole street is *gone*."
+      ],
+      "shots": [
+        {
+          "id": "B2-1",
+          "scene": "market",
+          "duration": "auto",
+          "camera": {
+            "move": "dolly",
+            "from": {
+              "x": -1700,
+              "y": -140,
+              "z": 0.1
+            },
+            "to": {
+              "x": -350,
+              "y": -140,
+              "z": 0.12
+            },
+            "ease": "none"
+          },
+          "fx": {
+            "juno": {
+              "offset": -40,
+              "mode": "run",
+              "h": 150
+            }
+          }
+        },
+        {
+          "id": "B2-2",
+          "scene": "market",
+          "duration": "auto",
+          "camera": {
+            "move": "tilt-up",
+            "from": {
+              "x": -200,
+              "y": -80,
+              "z": 0.18
+            },
+            "to": {
+              "x": 60,
+              "y": -1150,
+              "z": 0.18
+            },
+            "ease": "power2.inOut"
+          },
+          "fx": {
+            "fold": [
+              0.02,
+              0.6,
+              "ltr"
+            ]
+          },
+          "sound": [
+            {
+              "sfx": "rustle",
+              "at": 0.05,
+              "dur": 2.6,
+              "gain": 1.0
+            }
+          ]
+        },
+        {
+          "id": "B2-3",
+          "scene": "market",
+          "duration": "auto",
+          "camera": {
+            "move": "push-in",
+            "from": {
+              "x": 600,
+              "y": -150,
+              "z": 0.1
+            },
+            "to": {
+              "x": 760,
+              "y": -120,
+              "z": 0.45
+            },
+            "ease": "power2.out"
+          },
+          "fx": {
+            "baker": {
+              "x": 470
+            },
+            "juno": {
+              "offset": -260,
+              "mode": "run",
+              "h": 150
+            }
+          }
+        },
+        {
+          "id": "B2-4",
+          "scene": "market",
+          "duration": "auto",
+          "camera": {
+            "move": "pull-back",
+            "from": {
+              "x": 700,
+              "y": -350,
+              "z": 0.45
+            },
+            "to": {
+              "x": 700,
+              "y": -820,
+              "z": 0.0
+            },
+            "ease": "power2.inOut"
+          },
+          "fx": {
+            "streetGone": [
+              0.05,
+              0.85
+            ]
+          },
+          "sound": [
+            {
+              "sfx": "rustle",
+              "at": 0.05,
+              "dur": 3.0,
+              "gain": 1.1
+            },
+            {
+              "sfx": "whoosh",
+              "at": 0.5,
+              "gain": 0.5
+            }
+          ]
+        }
+      ],
+      "cutaways": [
+        {
+          "id": "B2-c1",
+          "scene": "skyline",
+          "palette": "violet",
+          "camera": {
+            "move": "tracking",
+            "from": {
+              "x": -700,
+              "y": -900,
+              "z": 0.3
+            },
+            "to": {
+              "x": -300,
+              "y": -1000,
+              "z": 0.4
+            },
+            "ease": "none"
+          },
+          "fx": {
+            "cranes": 30
+          }
+        }
+      ]
+    },
+    {
+      "id": "B3",
+      "name": "ROOFTOP CHASE",
+      "palette": "midnight",
+      "tease": "WHAT'S IN THE BAG?",
+      "music": {
+        "kick": "busy",
+        "clap": true,
+        "hats": "16",
+        "bass": true,
+        "arp": "16",
+        "lead": true,
+        "energy": 1.1
+      },
+      "narration": [
+        "I run the *rooftops*, because the streets are *never* where you left them.",
+        "*Clock tower* to the left.",
+        "*Greenhouse bridge* on the right.",
+        "The *Spire Library* is *rising* ahead."
+      ],
+      "shots": [
+        {
+          "id": "B3-1",
+          "scene": "rooftops",
+          "duration": "auto",
+          "camera": {
+            "move": "tracking",
+            "from": {
+              "x": 500,
+              "y": -60,
+              "z": 0.0
+            },
+            "to": {
+              "x": 2500,
+              "y": -90,
+              "z": 0.05
+            },
+            "ease": "none",
+            "shake": 0.15
+          },
+          "fx": {
+            "juno": {
+              "offset": -120,
+              "mode": "run"
+            }
+          }
+        },
+        {
+          "id": "B3-2",
+          "scene": "rooftops",
+          "duration": "auto",
+          "camera": {
+            "move": "tracking",
+            "from": {
+              "x": 1500,
+              "y": 40,
+              "z": 0.05,
+              "roll": -2
+            },
+            "to": {
+              "x": 3400,
+              "y": -200,
+              "z": 0.1,
+              "roll": 1
+            },
+            "ease": "none",
+            "whipIn": "left",
+            "shake": 0.12
+          },
+          "fx": {
+            "juno": {
+              "offset": -100,
+              "mode": "run"
+            }
+          }
+        },
+        {
+          "id": "B3-3",
+          "scene": "rooftops",
+          "duration": "auto",
+          "camera": {
+            "move": "tracking",
+            "from": {
+              "x": 5900,
+              "y": -40,
+              "z": 0.05
+            },
+            "to": {
+              "x": 7300,
+              "y": -80,
+              "z": 0.08
+            },
+            "ease": "none",
+            "whipIn": "right",
+            "shake": 0.12
+          },
+          "fx": {
+            "juno": {
+              "offset": -140,
+              "mode": "run"
+            }
+          }
+        },
+        {
+          "id": "B3-4",
+          "scene": "rooftops",
+          "duration": "auto",
+          "camera": {
+            "move": "tilt-up",
+            "from": {
+              "x": 6000,
+              "y": 120,
+              "z": 0.0
+            },
+            "to": {
+              "x": 6180,
+              "y": -1250,
+              "z": 0.22
+            },
+            "ease": "power2.inOut"
+          },
+          "fx": {
+            "juno": {
+              "offset": -60,
+              "mode": "run"
+            },
+            "libRise": [
+              760,
+              0
+            ]
+          },
+          "sound": [
+            {
+              "sfx": "chime",
+              "at": 0.6,
+              "gain": 0.7
+            }
+          ]
+        }
+      ],
+      "cutaways": [
+        {
+          "id": "B3-c1",
+          "scene": "rooftops",
+          "camera": {
+            "move": "tracking",
+            "from": {
+              "x": 3500,
+              "y": -40,
+              "z": 0.1
+            },
+            "to": {
+              "x": 5300,
+              "y": -60,
+              "z": 0.1
+            },
+            "ease": "none",
+            "shake": 0.12
+          },
+          "fx": {
+            "juno": {
+              "offset": -120,
+              "mode": "run"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "B4",
+      "name": "THE LETTER",
+      "palette": "midnight",
+      "tease": "WHICH DOOR?",
+      "music": {
+        "arp": "8",
+        "arpLevel": 0.7,
+        "pad": true,
+        "bass": true,
+        "energy": 0.7
+      },
+      "narration": [
+        "The letter in my bag has *no street address*.",
+        "*No name*.",
+        "Just a drawing of a *door*, and the words:",
+        "*deliver before dawn*, or the city *forgets itself*."
+      ],
+      "shots": [
+        {
+          "id": "B4-1",
+          "scene": "rooftops",
+          "duration": "auto",
+          "camera": {
+            "move": "push-in",
+            "from": {
+              "x": 7700,
+              "y": -30,
+              "z": 0.0
+            },
+            "to": {
+              "x": 7760,
+              "y": -10,
+              "z": 0.4
+            },
+            "ease": "power2.out"
+          },
+          "fx": {
+            "juno": {
+              "x": 5160,
+              "mode": "reach",
+              "reach": [
+                0.15,
+                0.6
+              ],
+              "letter": true,
+              "letterAt": 0.55,
+              "h": 140
+            }
+          },
+          "sound": [
+            {
+              "sfx": "rustle",
+              "at": 0.5,
+              "dur": 0.8,
+              "gain": 0.6
+            }
+          ],
+          "fromLine": 0
+        },
+        {
+          "id": "B4-2",
+          "scene": "letter",
+          "duration": "auto",
+          "camera": {
+            "move": "slide",
+            "from": {
+              "x": -160,
+              "y": 40,
+              "z": 0.12,
+              "roll": -2
+            },
+            "to": {
+              "x": 90,
+              "y": 0,
+              "z": 0.28,
+              "roll": 1
+            },
+            "ease": "power1.inOut"
+          },
+          "fx": {
+            "mode": "envelope",
+            "question": [
+              0.35,
+              0.8
+            ]
+          },
+          "fromLine": 1
+        },
+        {
+          "id": "B4-3",
+          "scene": "letter",
+          "duration": "auto",
+          "camera": {
+            "move": "push-in",
+            "from": {
+              "x": 0,
+              "y": -120,
+              "z": 0.0
+            },
+            "to": {
+              "x": 0,
+              "y": -200,
+              "z": 0.32
+            },
+            "ease": "power2.out"
+          },
+          "fx": {
+            "mode": "sheet",
+            "drawing": [
+              0.05,
+              0.6
+            ]
+          },
+          "sound": [
+            {
+              "sfx": "chime",
+              "at": 0.6
+            }
+          ],
+          "fromLine": 2
+        },
+        {
+          "id": "B4-4",
+          "scene": "letter",
+          "duration": "auto",
+          "camera": {
+            "move": "tilt-down",
+            "from": {
+              "x": 0,
+              "y": 150,
+              "z": 0.18
+            },
+            "to": {
+              "x": 0,
+              "y": 450,
+              "z": 0.34
+            },
+            "ease": "power1.inOut"
+          },
+          "fx": {
+            "mode": "sheet",
+            "drawing": [
+              0,
+              0.001
+            ],
+            "text": [
+              {
+                "t": "deliver before dawn,",
+                "y": 130,
+                "size": 84,
+                "line": 3,
+                "part": [
+                  0,
+                  0.4
+                ]
+              },
+              {
+                "t": "or the city",
+                "y": 225,
+                "size": 84,
+                "line": 3,
+                "part": [
+                  0.4,
+                  0.65
+                ]
+              },
+              {
+                "t": "forgets itself.",
+                "y": 325,
+                "size": 92,
+                "line": 3,
+                "part": [
+                  0.65,
+                  1
+                ],
+                "underline": true
+              }
+            ]
+          },
+          "fromLine": 3
+        }
+      ],
+      "cutaways": [
+        {
+          "id": "B4-c1",
+          "scene": "letter",
+          "camera": {
+            "move": "push-in",
+            "from": {
+              "x": 120,
+              "y": -260,
+              "z": 0.3
+            },
+            "to": {
+              "x": 80,
+              "y": -240,
+              "z": 0.5
+            },
+            "ease": "power1.inOut"
+          },
+          "fx": {
+            "mode": "sheet",
+            "drawing": [
+              0,
+              0.001
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "B5",
+      "name": "THE LIBRARY",
+      "palette": "midnight",
+      "tease": "FORBIDDEN?",
+      "music": {
+        "kick": true,
+        "hats": "8",
+        "bass": true,
+        "arp": "16",
+        "pad": true,
+        "energy": 0.85
+      },
+      "narration": [
+        "Inside the *Spire Library*, the books are *rearranging* too.",
+        "A *thousand pages* flutter like startled *birds*,",
+        "and one of them points me to the *forbidden floor*."
+      ],
+      "shots": [
+        {
+          "id": "B5-1",
+          "scene": "library",
+          "duration": "auto",
+          "camera": {
+            "move": "tilt-up",
+            "from": {
+              "x": 0,
+              "y": 300,
+              "z": 0.0
+            },
+            "to": {
+              "x": 0,
+              "y": -900,
+              "z": 0.15
+            },
+            "ease": "power1.inOut"
+          },
+          "fx": {
+            "juno": {
+              "th0": 12.6,
+              "th1": 15.3,
+              "h": 120
+            }
+          }
+        },
+        {
+          "id": "B5-2",
+          "scene": "library",
+          "duration": "auto",
+          "camera": {
+            "move": "tracking",
+            "from": {
+              "x": -520,
+              "y": -2000,
+              "z": 0.4
+            },
+            "to": {
+              "x": 420,
+              "y": -2200,
+              "z": 0.55
+            },
+            "ease": "none",
+            "whipIn": "up"
+          },
+          "fx": {
+            "booksFast": true
+          },
+          "sound": [
+            {
+              "sfx": "rustle",
+              "at": 0.1,
+              "dur": 2.4,
+              "gain": 0.7
+            }
+          ]
+        },
+        {
+          "id": "B5-3",
+          "scene": "library",
+          "duration": "auto",
+          "camera": {
+            "move": "push-in",
+            "from": {
+              "x": 0,
+              "y": -3200,
+              "z": 0.0
+            },
+            "to": {
+              "x": 0,
+              "y": -3320,
+              "z": 0.65
+            },
+            "ease": "power2.out"
+          },
+          "fx": {
+            "burst": [
+              0.05,
+              0.35
+            ],
+            "pages": 70
+          },
+          "sound": [
+            {
+              "sfx": "flutter",
+              "at": 0.05,
+              "dur": 3.0,
+              "gain": 1.0
+            }
+          ]
+        },
+        {
+          "id": "B5-4",
+          "scene": "library",
+          "duration": "auto",
+          "camera": {
+            "move": "whip-tilt",
+            "from": {
+              "x": 0,
+              "y": -4200,
+              "z": 0.1
+            },
+            "to": {
+              "x": 0,
+              "y": -6760,
+              "z": 0.0
+            },
+            "ease": "power3.in"
+          },
+          "fx": {
+            "pointer": [
+              0.05,
+              0.45
+            ],
+            "pages": 24
+          },
+          "sound": [
+            {
+              "sfx": "chime",
+              "at": 0.1
+            },
+            {
+              "sfx": "whoosh",
+              "at": 0.8,
+              "gain": 0.8
+            }
+          ]
+        }
+      ],
+      "cutaways": [
+        {
+          "id": "B5-c1",
+          "scene": "library",
+          "camera": {
+            "move": "tilt-up",
+            "from": {
+              "x": 300,
+              "y": -1200,
+              "z": 0.3
+            },
+            "to": {
+              "x": 200,
+              "y": -1800,
+              "z": 0.4
+            },
+            "ease": "power1.inOut"
+          },
+          "fx": {
+            "pages": 50
+          }
+        }
+      ]
+    },
+    {
+      "id": "B6",
+      "name": "THE DOOR",
+      "palette": "midnight",
+      "tease": "WHO'S INSIDE?",
+      "music": {
+        "kick": true,
+        "bass": true,
+        "arp": "8",
+        "pad": "loud",
+        "energy": 0.8
+      },
+      "narration": [
+        "At the top, there's the *door* from the *drawing*.",
+        "Painted in *gold*.",
+        "*Humming*.",
+        "The *bells* are ringing.",
+        "*Four minutes* to *sunrise*."
+      ],
+      "shots": [
+        {
+          "id": "B6-1",
+          "scene": "door",
+          "duration": "auto",
+          "transition": "match",
+          "camera": {
+            "move": "push-in",
+            "from": {
+              "x": 0,
+              "y": 160,
+              "z": 0.05
+            },
+            "to": {
+              "x": 0,
+              "y": 240,
+              "z": 0.34
+            },
+            "ease": "power2.out"
+          },
+          "fx": {
+            "hum": true,
+            "juno": {
+              "x": -330,
+              "mode": "look",
+              "h": 140
+            },
+            "dawn": [
+              0,
+              1
+            ],
+            "dawnTo": "violet"
+          },
+          "sound": [
+            {
+              "sfx": "hum",
+              "at": 0.0,
+              "dur": 4.5,
+              "gain": 0.8
+            }
+          ],
+          "fromLine": 0
+        },
+        {
+          "id": "B6-2",
+          "scene": "door",
+          "duration": "auto",
+          "camera": {
+            "move": "push-in",
+            "from": {
+              "x": 30,
+              "y": 20,
+              "z": 0.5,
+              "roll": -1
+            },
+            "to": {
+              "x": 0,
+              "y": -10,
+              "z": 0.86,
+              "roll": 1
+            },
+            "ease": "power1.inOut",
+            "shake": 0.12
+          },
+          "fx": {
+            "hum": true
+          },
+          "sound": [
+            {
+              "sfx": "hum",
+              "at": 0.0,
+              "dur": 4.5,
+              "gain": 1.0
+            },
+            {
+              "sfx": "chime",
+              "at": 0.3,
+              "gain": 0.6
+            }
+          ],
+          "fromLine": 1
+        },
+        {
+          "id": "B6-3",
+          "scene": "door",
+          "duration": "auto",
+          "camera": {
+            "move": "push-in",
+            "from": {
+              "x": -1300,
+              "y": -1300,
+              "z": 0.85,
+              "roll": 2
+            },
+            "to": {
+              "x": -1430,
+              "y": -1420,
+              "z": 1.25,
+              "roll": -2
+            },
+            "ease": "power2.out",
+            "whipIn": "left"
+          },
+          "fx": {
+            "bells": [
+              0.02
+            ],
+            "hum": true
+          },
+          "sound": [
+            {
+              "sfx": "bell",
+              "at": 0.03,
+              "n": 3
+            }
+          ],
+          "fromLine": 3
+        },
+        {
+          "id": "B6-4",
+          "scene": "skyline",
+          "duration": "auto",
+          "camera": {
+            "move": "push-in",
+            "from": {
+              "x": -1560,
+              "y": -1800,
+              "z": 1.0
+            },
+            "to": {
+              "x": -1630,
+              "y": -1985,
+              "z": 1.55
+            },
+            "ease": "power1.inOut"
+          },
+          "fx": {
+            "clock": 5.933,
+            "dawn": [
+              0.05,
+              0.95
+            ],
+            "noPetals": true
+          },
+          "sound": [
+            {
+              "sfx": "tick",
+              "at": 0.0,
+              "dur": 4.5,
+              "gain": 0.8
+            }
+          ],
+          "fromLine": 4
+        }
+      ],
+      "cutaways": []
+    },
+    {
+      "id": "B7",
+      "name": "THE TWIST",
+      "palette": "predawn",
+      "tease": "TO ME?!",
+      "music": {
+        "pad": true,
+        "drone": true,
+        "energy": 0.5
+      },
+      "narration": [
+        "I *knock*.",
+        "*Nobody* answers.",
+        "So I *read* the letter, which I was *never* supposed to do.",
+        "It's addressed to *me*."
+      ],
+      "shots": [
+        {
+          "id": "B7-1",
+          "scene": "door",
+          "duration": "auto",
+          "camera": {
+            "move": "push-in",
+            "from": {
+              "x": -120,
+              "y": 140,
+              "z": 0.28
+            },
+            "to": {
+              "x": -90,
+              "y": 130,
+              "z": 0.46
+            },
+            "ease": "power1.out"
+          },
+          "fx": {
+            "hum": true,
+            "knock": [
+              0.12,
+              0.5
+            ],
+            "juno": {
+              "x": -150,
+              "mode": "knock",
+              "h": 140
+            }
+          },
+          "sound": [
+            {
+              "sfx": "knock",
+              "atLine": 0,
+              "offset": 0.05,
+              "n": 3
+            }
+          ],
+          "fromLine": 0
+        },
+        {
+          "id": "B7-2",
+          "scene": "door",
+          "duration": "auto",
+          "camera": {
+            "move": "pull-back",
+            "from": {
+              "x": 0,
+              "y": -60,
+              "z": 0.5
+            },
+            "to": {
+              "x": 0,
+              "y": -260,
+              "z": 0.0
+            },
+            "ease": "power2.inOut"
+          },
+          "fx": {
+            "hum": true,
+            "juno": {
+              "x": -150,
+              "mode": "stand",
+              "h": 140
+            }
+          },
+          "sound": [
+            {
+              "sfx": "wind",
+              "at": 0.0,
+              "dur": 4.5,
+              "gain": 1.0
+            }
+          ],
+          "fromLine": 1
+        },
+        {
+          "id": "B7-3",
+          "scene": "letter",
+          "duration": "auto",
+          "camera": {
+            "move": "push-in",
+            "from": {
+              "x": 0,
+              "y": -100,
+              "z": 0.0
+            },
+            "to": {
+              "x": 0,
+              "y": -220,
+              "z": 0.3
+            },
+            "ease": "power2.out"
+          },
+          "fx": {
+            "mode": "open"
+          },
+          "sound": [
+            {
+              "sfx": "rustle",
+              "at": 0.1,
+              "dur": 1.8,
+              "gain": 0.9
+            }
+          ],
+          "fromLine": 2
+        },
+        {
+          "id": "B7-4",
+          "scene": "letter",
+          "duration": "auto",
+          "camera": {
+            "move": "push-in",
+            "from": {
+              "x": 0,
+              "y": -260,
+              "z": 0.1
+            },
+            "to": {
+              "x": 0,
+              "y": -300,
+              "z": 0.55
+            },
+            "ease": "power2.inOut"
+          },
+          "fx": {
+            "mode": "sheet",
+            "text": [
+              {
+                "t": "To:",
+                "y": -420,
+                "size": 96,
+                "at": [
+                  0.02,
+                  0.15
+                ]
+              },
+              {
+                "t": "JUNO",
+                "y": -250,
+                "size": 190,
+                "line": 3,
+                "part": [
+                  0.35,
+                  1
+                ],
+                "underline": true
+              }
+            ]
+          },
+          "sound": [
+            {
+              "sfx": "chime",
+              "atLine": 3,
+              "offset": 0.5,
+              "gain": 0.7
+            }
+          ],
+          "fromLine": 3
+        }
+      ],
+      "cutaways": [
+        {
+          "id": "B7-c1",
+          "scene": "door",
+          "camera": {
+            "move": "push-in",
+            "from": {
+              "x": 0,
+              "y": 0,
+              "z": 0.6
+            },
+            "to": {
+              "x": 0,
+              "y": -20,
+              "z": 0.8
+            },
+            "ease": "power1.inOut"
+          },
+          "fx": {
+            "hum": true
+          }
+        }
+      ]
+    },
+    {
+      "id": "B8",
+      "name": "CLIFFHANGER",
+      "palette": "predawn",
+      "lead": 0.2,
+      "music": {
+        "drone": true,
+        "energy": 0.4
+      },
+      "musicDrop": {
+        "kick": "busy",
+        "clap": true,
+        "hats": "16",
+        "bass": true,
+        "arp": "16",
+        "lead": true,
+        "pad": "loud",
+        "energy": 1.15
+      },
+      "dropLine": 4,
+      "narration": [
+        {
+          "text": "It's in *my handwriting*.",
+          "speed": 1.0,
+          "gain": 0.82
+        },
+        {
+          "text": "It's dated *tomorrow*.",
+          "speed": 1.0,
+          "gain": 0.82
+        },
+        {
+          "text": "And it says: *Juno*, *don't open* the door.",
+          "speed": 1.0,
+          "gain": 0.82
+        },
+        {
+          "text": "Whatever you do, don't let the city see your *face*.",
+          "speed": 1.02,
+          "gain": 0.82
+        },
+        {
+          "text": "Then the door *opens* by itself...",
+          "speed": 1.2,
+          "gain": 1.0,
+          "pause": 0.0
+        },
+        {
+          "text": "and every *window* in the city turns to *look at me*.",
+          "speed": 1.22,
+          "gain": 1.0
+        }
+      ],
+      "shots": [
+        {
+          "id": "B8-1",
+          "scene": "letter",
+          "duration": "auto",
+          "camera": {
+            "move": "slide",
+            "from": {
+              "x": 120,
+              "y": -300,
+              "z": 0.3,
+              "roll": 1
+            },
+            "to": {
+              "x": -60,
+              "y": -260,
+              "z": 0.42,
+              "roll": -1
+            },
+            "ease": "power1.inOut"
+          },
+          "fx": {
+            "mode": "sheet",
+            "text": [
+              {
+                "t": "Juno —",
+                "y": -330,
+                "size": 110,
+                "line": 0,
+                "part": [
+                  0.2,
+                  0.9
+                ]
+              },
+              {
+                "t": "dated: tomorrow",
+                "y": -490,
+                "size": 72,
+                "x": 140,
+                "line": 1,
+                "part": [
+                  0.3,
+                  1
+                ],
+                "underline": true
+              }
+            ]
+          },
+          "fromLine": 0
+        },
+        {
+          "id": "B8-2",
+          "scene": "letter",
+          "duration": "auto",
+          "camera": {
+            "move": "push-in",
+            "from": {
+              "x": 0,
+              "y": -120,
+              "z": 0.25
+            },
+            "to": {
+              "x": 0,
+              "y": -80,
+              "z": 0.5
+            },
+            "ease": "power2.out",
+            "shake": 0.05
+          },
+          "fx": {
+            "mode": "sheet",
+            "text": [
+              {
+                "t": "Juno —",
+                "y": -330,
+                "size": 110
+              },
+              {
+                "t": "don't open",
+                "y": -150,
+                "size": 140,
+                "line": 2,
+                "part": [
+                  0.55,
+                  0.82
+                ]
+              },
+              {
+                "t": "the door.",
+                "y": 0,
+                "size": 140,
+                "line": 2,
+                "part": [
+                  0.82,
+                  1
+                ],
+                "underline": true
+              }
+            ]
+          },
+          "fromLine": 2
+        },
+        {
+          "id": "B8-3",
+          "scene": "letter",
+          "duration": "auto",
+          "camera": {
+            "move": "tilt-down",
+            "from": {
+              "x": 0,
+              "y": 0,
+              "z": 0.3
+            },
+            "to": {
+              "x": 0,
+              "y": 260,
+              "z": 0.42
+            },
+            "ease": "power1.inOut"
+          },
+          "fx": {
+            "mode": "sheet",
+            "text": [
+              {
+                "t": "don't open the door.",
+                "y": -150,
+                "size": 96
+              },
+              {
+                "t": "Whatever you do,",
+                "y": 60,
+                "size": 100,
+                "line": 3,
+                "part": [
+                  0,
+                  0.33
+                ]
+              },
+              {
+                "t": "don't let the city",
+                "y": 180,
+                "size": 100,
+                "line": 3,
+                "part": [
+                  0.33,
+                  0.72
+                ]
+              },
+              {
+                "t": "see your face.",
+                "y": 300,
+                "size": 110,
+                "line": 3,
+                "part": [
+                  0.72,
+                  1
+                ],
+                "underline": true
+              }
+            ]
+          },
+          "fromLine": 3
+        },
+        {
+          "id": "B8-4",
+          "scene": "skyline",
+          "duration": "auto",
+          "sceneOpts": {
+            "lit": true
+          },
+          "camera": {
+            "move": "push-in",
+            "from": {
+              "x": 0,
+              "y": -150,
+              "z": 0.1
+            },
+            "to": {
+              "x": 30,
+              "y": -200,
+              "z": 0.3
+            },
+            "ease": "power1.in"
+          },
+          "fx": {
+            "freeze": true,
+            "noPetals": true,
+            "lit": [
+              0.82,
+              0.83
+            ],
+            "flash": [
+              [
+                0.82,
+                0.8
+              ]
+            ]
+          },
+          "grade": {
+            "sat": 0.35,
+            "satTo": 0.75,
+            "vig": 1.1
+          },
+          "sound": [
+            {
+              "sfx": "riser",
+              "endLine": 4
+            }
+          ],
+          "beats": 7
+        },
+        {
+          "id": "B8-5",
+          "scene": "door",
+          "duration": "auto",
+          "sceneOpts": {
+            "lit": true
+          },
+          "camera": {
+            "move": "push-in",
+            "from": {
+              "x": 0,
+              "y": 80,
+              "z": 0.15
+            },
+            "to": {
+              "x": 0,
+              "y": 40,
+              "z": 0.62
+            },
+            "ease": "power2.out",
+            "shake": 0.25
+          },
+          "fx": {
+            "lit": [
+              0,
+              0
+            ],
+            "hum": true,
+            "doorOpen": [
+              0.0,
+              0.7
+            ],
+            "juno": {
+              "x": -330,
+              "mode": "look",
+              "h": 140
+            },
+            "flash": [
+              [
+                0.0,
+                0.9
+              ]
+            ]
+          },
+          "sound": [
+            {
+              "sfx": "impact",
+              "atLine": 4
+            },
+            {
+              "sfx": "creak",
+              "atLine": 4,
+              "dur": 1.8
+            }
+          ],
+          "fromLine": 4
+        },
+        {
+          "id": "B8-6",
+          "scene": "skyline",
+          "duration": "auto",
+          "sceneOpts": {
+            "lit": true
+          },
+          "camera": {
+            "move": "push-in",
+            "from": {
+              "x": -40,
+              "y": 330,
+              "z": 0.3
+            },
+            "to": {
+              "x": 0,
+              "y": 300,
+              "z": 0.75
+            },
+            "ease": "power2.in",
+            "shake": 0.2
+          },
+          "fx": {
+            "lit": [
+              0,
+              0
+            ],
+            "eyes": [
+              0.0,
+              0.35,
+              0.8
+            ],
+            "noPetals": true
+          },
+          "sound": [
+            {
+              "sfx": "whoosh",
+              "at": "end",
+              "gain": 1.0
+            }
+          ],
+          "fromLine": 5
+        }
+      ],
+      "cutaways": []
+    }
+  ],
+  "endCard": {
+    "id": "END",
+    "scene": "skyline",
+    "palette": "dusk",
+    "beats": 8,
+    "flashIn": 1.0,
+    "music": {
+      "kick": "busy",
+      "clap": true,
+      "hats": "16",
+      "bass": true,
+      "arp": "16",
+      "lead": true,
+      "pad": "loud",
+      "energy": 1.1
+    },
+    "camera": {
+      "move": "loop-into-first-frame",
+      "from": {
+        "x": -1900,
+        "y": -100,
+        "z": 0.05,
+        "zoom": 1.08,
+        "roll": 3
+      },
+      "to": {
+        "x": -1200,
+        "y": -160,
+        "z": 0.05,
+        "zoom": 1.08,
+        "roll": 3
+      },
+      "ease": "power4.in"
+    },
+    "fx": {
+      "shafts": true,
+      "cranes": 16
+    },
+    "overlay": {
+      "style": "end",
+      "text": [
+        "PART 2",
+        "FOLLOW SO YOU",
+        "DON'T MISS IT."
+      ]
+    },
+    "sound": [
+      {
+        "sfx": "impact",
+        "at": 0
+      }
+    ]
+  }
+}
