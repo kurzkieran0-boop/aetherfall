@@ -441,6 +441,19 @@ def stage_deliver(out):
         f.write(f"TITLE: {film['title']}\n\nTIKTOK CAPTION:\n{meta['tiktok']['caption']}\n\n"
                 f"YOUTUBE SHORTS TITLE:\n{meta['youtube_shorts']['title']}\n\nDESCRIPTION:\n{meta['youtube_shorts']['description']}\n")
     shutil.copy(os.path.join(ROOT, "assets", "credits.txt"), os.path.join(out, "credits.txt"))
+    # QA contact sheet built from the FINAL rendered frames (what is actually in the film)
+    from compose import contact_sheet
+    rj = json.load(open(os.path.join(out, "render.json")))
+    stills, labels = [], []
+    for s in tl["shots"]:
+        d = rj["dirs"][s["id"]]
+        m = json.load(open(os.path.join(d, "meta.json")))
+        f = m["frames"][int(len(m["frames"]) * 0.6)]
+        stills.append(os.path.join(d, f"f_{f:04d}.png"))
+        c = s["camera"]
+        tm = rj["timings"].get(s["id"], {})
+        labels.append(f"{s['id']} {s['frames'] / FPS:.1f}s {c.get('move')}\nrender {tm.get('wall_s', '?')}s {c.get('lens')}mm {c.get('framing')}")
+    contact_sheet(stills, labels, os.path.join(out, "contact_sheet_final.png"))
     log(f"[deliver] {out}/film.mp4 + thumbnail.jpg + metadata.json  (NOT posted anywhere)")
 
 

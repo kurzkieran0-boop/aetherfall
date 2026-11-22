@@ -70,7 +70,7 @@ def profile(kind, gpu=None):
                     motion_blur=False)
     if gpu:  # native finals
         return dict(w=1080, h=1920, step=1, samples=16, vol_tile='8', vol_samples=48, budget_s=4.0, gpu=gpu)
-    return dict(w=432, h=768, step=2, samples=4, vol_tile='16', vol_samples=24, budget_s=4.5, fx_scale=0.8)
+    return dict(w=432, h=768, step=2, samples=4, vol_tile='8', vol_samples=32, budget_s=8.0, fx_scale=0.8)
 
 
 def _kit_hash():

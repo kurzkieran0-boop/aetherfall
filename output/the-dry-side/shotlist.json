@@ -40,14 +40,14 @@
      "lens": 24,
      "az": 0,
      "pos": [
-      38,
-      -42,
+      2,
+      -46,
       42
      ],
      "pos2": [
-      22,
-      -48,
-      36
+      8,
+      -52,
+      34
      ]
     },
     "actions": [
@@ -1575,14 +1575,14 @@
      "lens": 24,
      "az": 0,
      "pos": [
-      22,
-      -6,
-      14
+      6,
+      -2,
+      24
      ],
      "pos2": [
-      16,
-      -14,
-      32
+      0,
+      -8,
+      30
      ]
     },
     "actions": [
@@ -2821,7 +2821,17 @@
      "move": "push_in",
      "angle": "low",
      "lens": 24,
-     "az": 0
+     "az": 0,
+     "pos": [
+      -2,
+      30,
+      3.2
+     ],
+     "pos2": [
+      -4,
+      31,
+      2.9
+     ]
     },
     "actions": [
      {
@@ -3200,7 +3210,7 @@
     "lens_mm": 24,
     "subject": "nora",
     "subject2": null,
-    "az": 160,
+    "az": 0,
     "note": ""
    },
    "action": [
@@ -3231,7 +3241,17 @@
      "move": "track",
      "angle": "low",
      "lens": 24,
-     "az": 160
+     "az": 0,
+     "pos": [
+      -8,
+      12,
+      3.0
+     ],
+     "pos2": [
+      -9,
+      24,
+      3.4
+     ]
     },
     "actions": [
      {
@@ -3665,14 +3685,14 @@
      "lens": 35,
      "az": 0,
      "pos": [
-      -1,
-      27,
-      2.5
+      -5,
+      29,
+      2.8
      ],
      "pos2": [
-      -3,
-      29,
-      2.2
+      -6.5,
+      30.5,
+      2.5
      ]
     },
     "actions": [
@@ -3867,7 +3887,7 @@
     "lens_mm": 24,
     "subject": "nora",
     "subject2": null,
-    "az": 90,
+    "az": 0,
     "note": ""
    },
    "action": [
@@ -3909,7 +3929,17 @@
      "move": "push_in",
      "angle": "low",
      "lens": 24,
-     "az": 90
+     "az": 0,
+     "pos": [
+      2,
+      30,
+      2.2
+     ],
+     "pos2": [
+      0,
+      31,
+      2.0
+     ]
     },
     "actions": [
      {
@@ -4323,7 +4353,7 @@
     "lens_mm": 35,
     "subject": "chief",
     "subject2": null,
-    "az": 20,
+    "az": -45,
     "note": ""
    },
    "action": [
@@ -4363,7 +4393,7 @@
      "move": "push_in",
      "angle": "low",
      "lens": 35,
-     "az": 20
+     "az": -45
     },
     "actions": [
      {
@@ -4809,7 +4839,7 @@
     "note": ""
    },
    "action": [
-    "monster:freeze"
+    "monster:collapse"
    ],
    "fx": [
     {
@@ -4862,14 +4892,16 @@
     "actions": [
      {
       "who": "monster",
-      "action": "freeze"
+      "action": "collapse",
+      "f0": 1,
+      "f1": 4
      }
     ],
     "w": 1.0,
     "monster_at": [
      -18,
      44,
-     -14
+     0
     ],
     "monster_glow": 0.0,
     "props": [

@@ -7,3 +7,5 @@ assets/textures/
 assets/voices/
 __pycache__/
 *.pyc
+output/*/film.mp4
+output/*/captions.json

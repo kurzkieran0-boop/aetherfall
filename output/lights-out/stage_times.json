@@ -1,6 +1,11 @@
 {
- "setup": 0.7,
+ "setup": 0.6,
  "story": 0.0,
  "voice": 0.0,
- "stills": 216.6
+ "stills": 234.1,
+ "final": 2896.8,
+ "audio": 15.2,
+ "captions": 31.3,
+ "compose": 273.0,
+ "deliver": 2.0
 }

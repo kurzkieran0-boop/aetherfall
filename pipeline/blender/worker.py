@@ -107,8 +107,8 @@ def auto_lights(film, shot, subj, cam_keys, look):
         back = Pm - camp
         back.z = 0
         back = back.normalized() if back.length > 0.1 else Vector((0, 1, 0))
-        K.light('SPOT', Pm + back * m.H * 0.9 + Vector((0, 0, m.H * 0.5)), 2.5e6 * m.u ** 2, L["rim"], size=4,
-                spot=50, name="rim_monster", target=Pm - Vector((0, 0, m.H * 0.3)), volume=0.3)
+        K.light('SPOT', Pm + back * m.H * 0.9 + Vector((0, 0, m.H * 0.5)), 1.5e6 * m.u ** 2, L["rim"], size=4,
+                spot=50, name="rim_monster", target=Pm - Vector((0, 0, m.H * 0.3)), volume=0.15)
     s1 = shot["camera"].get("subject", "hero")
     if s1 == "monster" or str(s1).startswith("mark:") or isinstance(s1, list):
         s1 = shot.get("light_subject") or next(iter(subj.chars), None)
