@@ -397,7 +397,9 @@ def score(duration, beats, key="D", seed=0, bpm=100):
         if kind in ("hit", "braam"):
             r = riser(2.0, int(b["t"] * 7)) * 0.5
             j = max(0, i - len(r))
-            mix[j:j + len(r)] += r[: len(mix) - j][: i - j] if i - j > 0 else 0
+            if i - j > 0:  # riser ends exactly on the hit (trimmed at its start near t=0)
+                seg = r[len(r) - (i - j):]
+                mix[j:j + len(seg)] += seg[: len(mix) - j]
             h = (braam(3.0, midi(root - 12), int(b["t"])) if kind == "braam" else boom(2.5, 50, int(b["t"]))) * 0.9
             mix[i:i + len(h)] += h[: n - i]
         elif kind == "riser":

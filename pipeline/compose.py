@@ -45,7 +45,7 @@ def vignette(strength=0.38):
     return v[..., None].astype(np.float32)
 
 
-def grain_bank(n=8, amount=7.0, seed=0):
+def grain_bank(n=8, amount=5.0, seed=0):
     rng = np.random.default_rng(seed)
     bank = []
     for _ in range(n):
@@ -78,7 +78,8 @@ def compose(shotlist, shot_dirs, audio_wav, captions, out_mp4, look="night_blue"
         total = min(total, int(max_seconds * FPS))
     cmd = ["ffmpeg", "-y", "-loglevel", "error", "-f", "rawvideo", "-pix_fmt", "rgb24", "-s", f"{W}x{H}",
            "-r", str(FPS), "-i", "-", "-i", audio_wav, "-map", "0:v", "-map", "1:a",
-           "-c:v", "libx264", "-preset", "veryfast" if preview else "medium", "-crf", "23" if preview else "17",
+           "-c:v", "libx264", "-preset", "veryfast" if preview else "slow", "-crf", "23" if preview else "19",
+           "-maxrate", "10M", "-bufsize", "20M", "-profile:v", "high", "-level", "4.1",
            "-pix_fmt", "yuv420p", "-c:a", "aac", "-b:a", "192k", "-shortest", "-movflags", "+faststart", out_mp4]
     enc = subprocess.Popen(cmd, stdin=subprocess.PIPE)
     shots = shotlist["shots"]
@@ -109,7 +110,7 @@ def compose(shotlist, shot_dirs, audio_wav, captions, out_mp4, look="night_blue"
             hsv[..., 1] = np.clip(hsv[..., 1] * GRADES.get(look, GRADES["night_blue"])["sat"], 0, 255)
             img = cv2.cvtColor(hsv.astype(np.uint8), cv2.COLOR_HSV2RGB)
             last_img, last_path = img, p
-        out = last_img.astype(np.float32) * vig + grains[n % len(grains)]
+        out = last_img.astype(np.float32) * vig + grains[(n // 2) % len(grains)]
         if n in flash_frames:
             out = out * (1 - flash_frames[n]) + 255 * flash_frames[n]
         # final fade in/out
