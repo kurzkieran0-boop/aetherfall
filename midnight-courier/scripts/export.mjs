@@ -156,6 +156,20 @@ async function main() {
   mux(null);
   let mb = fs.statSync(outFile).size / 1048576;
   if (mb > MAX_MB) { log(`size ${mb.toFixed(1)} MB > ${MAX_MB} MB, re-encoding -crf 24 -preset veryfast`); mux(24, 'veryfast'); mb = fs.statSync(outFile).size / 1048576; }
+  if (mb > MAX_MB) {
+    // animated paper grain is near-incompressible: light temporal denoise +
+    // two-pass encode at a bitrate that lands under the cap
+    const kbps = Math.floor(((MAX_MB - 4) * 8 * 1024) / tl.duration - 192);
+    log(`still ${mb.toFixed(1)} MB, two-pass ${kbps} kb/s with hqdn3d`);
+    const vf = ['-vf', 'hqdn3d=1.5:1.5:5:5', '-c:v', 'libx264', '-preset', 'medium', '-b:v', `${kbps}k`, '-maxrate', `${Math.round(kbps * 1.6)}k`, '-bufsize', `${kbps * 2}k`, '-pix_fmt', 'yuv420p'];
+    const pl = path.join(tmp, 'x264pass');
+    run('ffmpeg', ['-y', '-loglevel', 'error', '-i', video, ...vf, '-pass', '1', '-passlogfile', pl, '-an', '-f', 'mp4', '/dev/null']);
+    const v2 = path.join(tmp, 'video_2pass.mp4');
+    run('ffmpeg', ['-y', '-loglevel', 'error', '-i', video, ...vf, '-pass', '2', '-passlogfile', pl, '-an', v2]);
+    fs.renameSync(v2, video);
+    mux(null);
+    mb = fs.statSync(outFile).size / 1048576;
+  }
 
   const dur = probeDuration(outFile);
   const minD = 120, maxD = 170;
