@@ -1,0 +1,25 @@
+{
+  "name": "last-driver",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "LAST DRIVER — procedural Three.js 3D vertical video series",
+  "config": {
+    "part": "part1"
+  },
+  "scripts": {
+    "dev": "node scripts/prepare.mjs && vite",
+    "voice": "node scripts/voice.mjs",
+    "fit": "node scripts/fit.mjs",
+    "build": "node scripts/prepare.mjs && vite build",
+    "shots": "node scripts/shots.mjs",
+    "export": "node scripts/export.mjs"
+  },
+  "dependencies": {
+    "gsap": "^3.12.5",
+    "three": "^0.170.0"
+  },
+  "devDependencies": {
+    "vite": "^5.4.11"
+  }
+}
