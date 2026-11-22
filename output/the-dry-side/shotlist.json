@@ -1,0 +1,5323 @@
+{
+ "title": "The Dry Side",
+ "duration": 62.0,
+ "fps": 24,
+ "shots": [
+  {
+   "id": "s001",
+   "beat": 0,
+   "start": 0.0,
+   "dur": 2.21,
+   "frames": 53,
+   "set": "plaza",
+   "camera": {
+    "move": "drone_orbit",
+    "framing": "ews",
+    "angle": "high",
+    "lens_mm": 24,
+    "subject": "mark:canal",
+    "subject2": null,
+    "az": 0,
+    "note": ""
+   },
+   "action": [
+    "monster:walk"
+   ],
+   "fx": [
+    {
+     "kind": "embers",
+     "count": 260,
+     "area": 40,
+     "height": 18
+    }
+   ],
+   "spec": {
+    "camera": {
+     "subject": "mark:canal",
+     "framing": "ews",
+     "move": "drone_orbit",
+     "angle": "high",
+     "lens": 24,
+     "az": 0,
+     "pos": [
+      38,
+      -42,
+      42
+     ],
+     "pos2": [
+      22,
+      -48,
+      36
+     ]
+    },
+    "actions": [
+     {
+      "who": "monster",
+      "action": "walk",
+      "path": [
+       [
+        0,
+        80,
+        0
+       ],
+       [
+        0,
+        70,
+        0
+       ]
+      ],
+      "cycle": 32
+     }
+    ],
+    "w": 1.0,
+    "monster_at": [
+     0,
+     80,
+     0
+    ],
+    "id": "s001",
+    "beat": 0,
+    "start": 0.0,
+    "frames": 53,
+    "set": "plaza",
+    "cast": [],
+    "props": [
+     {
+      "kind": "fire_truck",
+      "at": [
+       15,
+       -9,
+       0
+      ],
+      "rot": 90,
+      "name": "truck1"
+     },
+     {
+      "kind": "police_car",
+      "at": [
+       -12,
+       -10,
+       0
+      ],
+      "rot": 40,
+      "name": "cop1"
+     },
+     {
+      "kind": "barrier",
+      "at": [
+       4,
+       8,
+       0
+      ]
+     },
+     {
+      "kind": "barrier",
+      "at": [
+       -6,
+       8,
+       0
+      ]
+     },
+     {
+      "kind": "crane",
+      "at": [
+       -80,
+       150,
+       0
+      ],
+      "height": 90,
+      "rot": 30
+     },
+     {
+      "kind": "pylon",
+      "at": [
+       100,
+       140,
+       0
+      ],
+      "height": 55
+     }
+    ],
+    "fx": [
+     {
+      "kind": "embers",
+      "count": 260,
+      "area": 40,
+      "height": 18
+     }
+    ],
+    "start_frame": 0
+   }
+  },
+  {
+   "id": "s002",
+   "beat": 1,
+   "start": 2.208,
+   "dur": 2.5,
+   "frames": 60,
+   "set": "plaza",
+   "camera": {
+    "move": "tilt_up",
+    "framing": "ws",
+    "angle": "worm",
+    "lens_mm": 24,
+    "subject": "monster",
+    "subject2": null,
+    "az": 0,
+    "note": ""
+   },
+   "action": [
+    "monster:walk"
+   ],
+   "fx": [
+    {
+     "kind": "embers",
+     "count": 260,
+     "area": 40,
+     "height": 18
+    }
+   ],
+   "spec": {
+    "camera": {
+     "subject": "monster",
+     "framing": "ws",
+     "move": "tilt_up",
+     "angle": "worm",
+     "lens": 24,
+     "az": 0
+    },
+    "actions": [
+     {
+      "who": "monster",
+      "action": "walk",
+      "path": [
+       [
+        0,
+        42,
+        0
+       ],
+       [
+        0,
+        33,
+        0
+       ]
+      ],
+      "cycle": 32
+     }
+    ],
+    "w": 1.0,
+    "monster_at": [
+     0,
+     42,
+     0
+    ],
+    "id": "s002",
+    "beat": 1,
+    "start": 2.208,
+    "frames": 60,
+    "set": "plaza",
+    "cast": [],
+    "props": [
+     {
+      "kind": "fire_truck",
+      "at": [
+       15,
+       -9,
+       0
+      ],
+      "rot": 90,
+      "name": "truck1"
+     },
+     {
+      "kind": "police_car",
+      "at": [
+       -12,
+       -10,
+       0
+      ],
+      "rot": 40,
+      "name": "cop1"
+     },
+     {
+      "kind": "barrier",
+      "at": [
+       4,
+       8,
+       0
+      ]
+     },
+     {
+      "kind": "barrier",
+      "at": [
+       -6,
+       8,
+       0
+      ]
+     },
+     {
+      "kind": "crane",
+      "at": [
+       -80,
+       150,
+       0
+      ],
+      "height": 90,
+      "rot": 30
+     },
+     {
+      "kind": "pylon",
+      "at": [
+       100,
+       140,
+       0
+      ],
+      "height": 55
+     }
+    ],
+    "fx": [
+     {
+      "kind": "embers",
+      "count": 260,
+      "area": 40,
+      "height": 18
+     }
+    ],
+    "start_frame": 53
+   }
+  },
+  {
+   "id": "s003",
+   "beat": 2,
+   "start": 4.708,
+   "dur": 2.29,
+   "frames": 55,
+   "set": "plaza",
+   "camera": {
+    "move": "push_in",
+    "framing": "mcu",
+    "angle": "low",
+    "lens_mm": 50,
+    "subject": "monster",
+    "subject2": null,
+    "az": 0,
+    "note": ""
+   },
+   "action": [
+    "monster:roar"
+   ],
+   "fx": [
+    {
+     "kind": "embers",
+     "count": 260,
+     "area": 40,
+     "height": 18
+    }
+   ],
+   "spec": {
+    "camera": {
+     "subject": "monster",
+     "framing": "mcu",
+     "move": "push_in",
+     "angle": "low",
+     "lens": 50,
+     "az": 0
+    },
+    "actions": [
+     {
+      "who": "monster",
+      "action": "roar"
+     }
+    ],
+    "w": 1.0,
+    "monster_at": [
+     0,
+     36,
+     0
+    ],
+    "id": "s003",
+    "beat": 2,
+    "start": 4.708,
+    "frames": 55,
+    "set": "plaza",
+    "cast": [],
+    "props": [
+     {
+      "kind": "fire_truck",
+      "at": [
+       15,
+       -9,
+       0
+      ],
+      "rot": 90,
+      "name": "truck1"
+     },
+     {
+      "kind": "police_car",
+      "at": [
+       -12,
+       -10,
+       0
+      ],
+      "rot": 40,
+      "name": "cop1"
+     },
+     {
+      "kind": "barrier",
+      "at": [
+       4,
+       8,
+       0
+      ]
+     },
+     {
+      "kind": "barrier",
+      "at": [
+       -6,
+       8,
+       0
+      ]
+     },
+     {
+      "kind": "crane",
+      "at": [
+       -80,
+       150,
+       0
+      ],
+      "height": 90,
+      "rot": 30
+     },
+     {
+      "kind": "pylon",
+      "at": [
+       100,
+       140,
+       0
+      ],
+      "height": 55
+     }
+    ],
+    "fx": [
+     {
+      "kind": "embers",
+      "count": 260,
+      "area": 40,
+      "height": 18
+     }
+    ],
+    "start_frame": 113
+   }
+  },
+  {
+   "id": "s004",
+   "beat": 3,
+   "start": 7.0,
+   "dur": 1.67,
+   "frames": 40,
+   "set": "plaza",
+   "camera": {
+    "move": "track",
+    "framing": "mws",
+    "angle": "eye",
+    "lens_mm": 35,
+    "subject": "nora",
+    "subject2": null,
+    "az": 0,
+    "note": ""
+   },
+   "action": [
+    "nora:run"
+   ],
+   "fx": [
+    {
+     "kind": "embers",
+     "count": 260,
+     "area": 40,
+     "height": 18
+    }
+   ],
+   "spec": {
+    "camera": {
+     "subject": "nora",
+     "framing": "mws",
+     "move": "track",
+     "angle": "eye",
+     "lens": 35,
+     "az": 0
+    },
+    "actions": [
+     {
+      "who": "nora",
+      "action": "run",
+      "path": [
+       [
+        0,
+        24,
+        0.6
+       ],
+       [
+        0,
+        4,
+        0
+       ]
+      ]
+     }
+    ],
+    "w": 1.0,
+    "monster_at": [
+     0,
+     70,
+     0
+    ],
+    "id": "s004",
+    "beat": 3,
+    "start": 7.0,
+    "frames": 40,
+    "set": "plaza",
+    "cast": [
+     "nora"
+    ],
+    "props": [
+     {
+      "kind": "fire_truck",
+      "at": [
+       15,
+       -9,
+       0
+      ],
+      "rot": 90,
+      "name": "truck1"
+     },
+     {
+      "kind": "police_car",
+      "at": [
+       -12,
+       -10,
+       0
+      ],
+      "rot": 40,
+      "name": "cop1"
+     },
+     {
+      "kind": "barrier",
+      "at": [
+       4,
+       8,
+       0
+      ]
+     },
+     {
+      "kind": "barrier",
+      "at": [
+       -6,
+       8,
+       0
+      ]
+     },
+     {
+      "kind": "crane",
+      "at": [
+       -80,
+       150,
+       0
+      ],
+      "height": 90,
+      "rot": 30
+     },
+     {
+      "kind": "pylon",
+      "at": [
+       100,
+       140,
+       0
+      ],
+      "height": 55
+     }
+    ],
+    "fx": [
+     {
+      "kind": "embers",
+      "count": 260,
+      "area": 40,
+      "height": 18
+     }
+    ],
+    "start_frame": 168
+   }
+  },
+  {
+   "id": "s005",
+   "beat": 4,
+   "start": 8.667,
+   "dur": 1.46,
+   "frames": 35,
+   "set": "plaza",
+   "camera": {
+    "move": "pull_out",
+    "framing": "ws",
+    "angle": "low",
+    "lens_mm": 24,
+    "subject": "leo",
+    "subject2": null,
+    "az": 10,
+    "note": ""
+   },
+   "action": [
+    "leo:idle",
+    "monster:lurk"
+   ],
+   "fx": [
+    {
+     "kind": "embers",
+     "count": 260,
+     "area": 40,
+     "height": 18
+    }
+   ],
+   "spec": {
+    "camera": {
+     "subject": "leo",
+     "framing": "ws",
+     "move": "pull_out",
+     "angle": "low",
+     "lens": 24,
+     "az": 10
+    },
+    "actions": [
+     {
+      "who": "leo",
+      "action": "idle",
+      "at": [
+       8,
+       36,
+       0
+      ],
+      "facing": 10,
+      "expr": "fear"
+     },
+     {
+      "who": "monster",
+      "action": "lurk"
+     }
+    ],
+    "w": 1.0,
+    "monster_at": [
+     -6,
+     62,
+     0
+    ],
+    "id": "s005",
+    "beat": 4,
+    "start": 8.667,
+    "frames": 35,
+    "set": "plaza",
+    "cast": [
+     "leo"
+    ],
+    "props": [
+     {
+      "kind": "fire_truck",
+      "at": [
+       15,
+       -9,
+       0
+      ],
+      "rot": 90,
+      "name": "truck1"
+     },
+     {
+      "kind": "police_car",
+      "at": [
+       -12,
+       -10,
+       0
+      ],
+      "rot": 40,
+      "name": "cop1"
+     },
+     {
+      "kind": "barrier",
+      "at": [
+       4,
+       8,
+       0
+      ]
+     },
+     {
+      "kind": "barrier",
+      "at": [
+       -6,
+       8,
+       0
+      ]
+     },
+     {
+      "kind": "crane",
+      "at": [
+       -80,
+       150,
+       0
+      ],
+      "height": 90,
+      "rot": 30
+     },
+     {
+      "kind": "pylon",
+      "at": [
+       100,
+       140,
+       0
+      ],
+      "height": 55
+     }
+    ],
+    "fx": [
+     {
+      "kind": "embers",
+      "count": 260,
+      "area": 40,
+      "height": 18
+     }
+    ],
+    "start_frame": 208
+   }
+  },
+  {
+   "id": "s006",
+   "beat": 5,
+   "start": 10.125,
+   "dur": 1.46,
+   "frames": 35,
+   "set": "plaza",
+   "camera": {
+    "move": "push_in",
+    "framing": "cu",
+    "angle": "eye",
+    "lens_mm": 85,
+    "subject": "leo",
+    "subject2": null,
+    "az": 0,
+    "note": ""
+   },
+   "action": [
+    "leo:talk"
+   ],
+   "fx": [
+    {
+     "kind": "embers",
+     "count": 260,
+     "area": 40,
+     "height": 18
+    }
+   ],
+   "spec": {
+    "camera": {
+     "subject": "leo",
+     "framing": "cu",
+     "move": "push_in",
+     "angle": "eye",
+     "lens": 85,
+     "az": 0
+    },
+    "actions": [
+     {
+      "who": "leo",
+      "action": "talk",
+      "at": [
+       8,
+       36,
+       0
+      ],
+      "facing": 10,
+      "expr": "fear"
+     }
+    ],
+    "w": 1.0,
+    "monster_at": [
+     -6,
+     62,
+     0
+    ],
+    "id": "s006",
+    "beat": 5,
+    "start": 10.125,
+    "frames": 35,
+    "set": "plaza",
+    "cast": [
+     "leo"
+    ],
+    "props": [
+     {
+      "kind": "fire_truck",
+      "at": [
+       15,
+       -9,
+       0
+      ],
+      "rot": 90,
+      "name": "truck1"
+     },
+     {
+      "kind": "police_car",
+      "at": [
+       -12,
+       -10,
+       0
+      ],
+      "rot": 40,
+      "name": "cop1"
+     },
+     {
+      "kind": "barrier",
+      "at": [
+       4,
+       8,
+       0
+      ]
+     },
+     {
+      "kind": "barrier",
+      "at": [
+       -6,
+       8,
+       0
+      ]
+     },
+     {
+      "kind": "crane",
+      "at": [
+       -80,
+       150,
+       0
+      ],
+      "height": 90,
+      "rot": 30
+     },
+     {
+      "kind": "pylon",
+      "at": [
+       100,
+       140,
+       0
+      ],
+      "height": 55
+     }
+    ],
+    "talk": {
+     "who": "leo",
+     "f0": 2,
+     "f1": 27
+    },
+    "fx": [
+     {
+      "kind": "embers",
+      "count": 260,
+      "area": 40,
+      "height": 18
+     }
+    ],
+    "start_frame": 243
+   }
+  },
+  {
+   "id": "s007",
+   "beat": 6,
+   "start": 11.583,
+   "dur": 2.75,
+   "frames": 66,
+   "set": "plaza",
+   "camera": {
+    "move": "push_in",
+    "framing": "mcu",
+    "angle": "low",
+    "lens_mm": 50,
+    "subject": "nora",
+    "subject2": null,
+    "az": 10,
+    "note": ""
+   },
+   "action": [
+    "nora:point"
+   ],
+   "fx": [
+    {
+     "kind": "embers",
+     "count": 260,
+     "area": 40,
+     "height": 18
+    }
+   ],
+   "spec": {
+    "camera": {
+     "subject": "nora",
+     "framing": "mcu",
+     "move": "push_in",
+     "angle": "low",
+     "lens": 50,
+     "az": 10
+    },
+    "actions": [
+     {
+      "who": "nora",
+      "action": "point",
+      "at": [
+       0,
+       -4,
+       0
+      ],
+      "facing": 170,
+      "expr": "determined"
+     }
+    ],
+    "w": 1.0,
+    "monster_at": [
+     -6,
+     62,
+     0
+    ],
+    "id": "s007",
+    "beat": 6,
+    "start": 11.583,
+    "frames": 66,
+    "set": "plaza",
+    "cast": [
+     "nora"
+    ],
+    "props": [
+     {
+      "kind": "fire_truck",
+      "at": [
+       15,
+       -9,
+       0
+      ],
+      "rot": 90,
+      "name": "truck1"
+     },
+     {
+      "kind": "police_car",
+      "at": [
+       -12,
+       -10,
+       0
+      ],
+      "rot": 40,
+      "name": "cop1"
+     },
+     {
+      "kind": "barrier",
+      "at": [
+       4,
+       8,
+       0
+      ]
+     },
+     {
+      "kind": "barrier",
+      "at": [
+       -6,
+       8,
+       0
+      ]
+     },
+     {
+      "kind": "crane",
+      "at": [
+       -80,
+       150,
+       0
+      ],
+      "height": 90,
+      "rot": 30
+     },
+     {
+      "kind": "pylon",
+      "at": [
+       100,
+       140,
+       0
+      ],
+      "height": 55
+     }
+    ],
+    "talk": {
+     "who": "nora",
+     "f0": 2,
+     "f1": 62
+    },
+    "fx": [
+     {
+      "kind": "embers",
+      "count": 260,
+      "area": 40,
+      "height": 18
+     }
+    ],
+    "start_frame": 278
+   }
+  },
+  {
+   "id": "s008",
+   "beat": 7,
+   "start": 14.333,
+   "dur": 2.17,
+   "frames": 52,
+   "set": "plaza",
+   "camera": {
+    "move": "ots",
+    "framing": "ms",
+    "angle": "eye",
+    "lens_mm": 35,
+    "subject": "chief",
+    "subject2": "nora",
+    "az": 200,
+    "note": ""
+   },
+   "action": [
+    "chief:grab",
+    "nora:idle"
+   ],
+   "fx": [
+    {
+     "kind": "embers",
+     "count": 260,
+     "area": 40,
+     "height": 18
+    }
+   ],
+   "spec": {
+    "camera": {
+     "subject": "chief",
+     "framing": "ms",
+     "move": "ots",
+     "angle": "eye",
+     "lens": 35,
+     "az": 200,
+     "subject2": "nora"
+    },
+    "actions": [
+     {
+      "who": "chief",
+      "action": "grab",
+      "at": [
+       1.5,
+       -6,
+       0
+      ],
+      "facing": 150
+     },
+     {
+      "who": "nora",
+      "action": "idle",
+      "at": [
+       0,
+       -4,
+       0
+      ],
+      "facing": 330,
+      "expr": "angry"
+     }
+    ],
+    "w": 1.0,
+    "monster_at": [
+     -6,
+     62,
+     0
+    ],
+    "id": "s008",
+    "beat": 7,
+    "start": 14.333,
+    "frames": 52,
+    "set": "plaza",
+    "cast": [
+     "chief",
+     "nora"
+    ],
+    "props": [
+     {
+      "kind": "fire_truck",
+      "at": [
+       15,
+       -9,
+       0
+      ],
+      "rot": 90,
+      "name": "truck1"
+     },
+     {
+      "kind": "police_car",
+      "at": [
+       -12,
+       -10,
+       0
+      ],
+      "rot": 40,
+      "name": "cop1"
+     },
+     {
+      "kind": "barrier",
+      "at": [
+       4,
+       8,
+       0
+      ]
+     },
+     {
+      "kind": "barrier",
+      "at": [
+       -6,
+       8,
+       0
+      ]
+     },
+     {
+      "kind": "crane",
+      "at": [
+       -80,
+       150,
+       0
+      ],
+      "height": 90,
+      "rot": 30
+     },
+     {
+      "kind": "pylon",
+      "at": [
+       100,
+       140,
+       0
+      ],
+      "height": 55
+     }
+    ],
+    "talk": {
+     "who": "chief",
+     "f0": 2,
+     "f1": 48
+    },
+    "fx": [
+     {
+      "kind": "embers",
+      "count": 260,
+      "area": 40,
+      "height": 18
+     }
+    ],
+    "start_frame": 344
+   }
+  },
+  {
+   "id": "s009",
+   "beat": 8,
+   "start": 16.5,
+   "dur": 2.17,
+   "frames": 52,
+   "set": "plaza",
+   "camera": {
+    "move": "push_in",
+    "framing": "cu",
+    "angle": "eye",
+    "lens_mm": 85,
+    "subject": "nora",
+    "subject2": null,
+    "az": 0,
+    "note": ""
+   },
+   "action": [
+    "nora:idle"
+   ],
+   "fx": [
+    {
+     "kind": "embers",
+     "count": 260,
+     "area": 40,
+     "height": 18
+    }
+   ],
+   "spec": {
+    "camera": {
+     "subject": "nora",
+     "framing": "cu",
+     "move": "push_in",
+     "angle": "eye",
+     "lens": 85,
+     "az": 0
+    },
+    "actions": [
+     {
+      "who": "nora",
+      "action": "idle",
+      "at": [
+       0,
+       -4,
+       0
+      ],
+      "facing": 180,
+      "expr": "determined"
+     }
+    ],
+    "w": 1.0,
+    "monster_at": [
+     -6,
+     62,
+     0
+    ],
+    "id": "s009",
+    "beat": 8,
+    "start": 16.5,
+    "frames": 52,
+    "set": "plaza",
+    "cast": [
+     "nora"
+    ],
+    "props": [
+     {
+      "kind": "fire_truck",
+      "at": [
+       15,
+       -9,
+       0
+      ],
+      "rot": 90,
+      "name": "truck1"
+     },
+     {
+      "kind": "police_car",
+      "at": [
+       -12,
+       -10,
+       0
+      ],
+      "rot": 40,
+      "name": "cop1"
+     },
+     {
+      "kind": "barrier",
+      "at": [
+       4,
+       8,
+       0
+      ]
+     },
+     {
+      "kind": "barrier",
+      "at": [
+       -6,
+       8,
+       0
+      ]
+     },
+     {
+      "kind": "crane",
+      "at": [
+       -80,
+       150,
+       0
+      ],
+      "height": 90,
+      "rot": 30
+     },
+     {
+      "kind": "pylon",
+      "at": [
+       100,
+       140,
+       0
+      ],
+      "height": 55
+     }
+    ],
+    "fx": [
+     {
+      "kind": "embers",
+      "count": 260,
+      "area": 40,
+      "height": 18
+     }
+    ],
+    "start_frame": 396
+   }
+  },
+  {
+   "id": "s010",
+   "beat": 9,
+   "start": 18.667,
+   "dur": 1.5,
+   "frames": 36,
+   "set": "plaza",
+   "camera": {
+    "move": "push_in",
+    "framing": "ws",
+    "angle": "low",
+    "lens_mm": 24,
+    "subject": "monster",
+    "subject2": null,
+    "az": 20,
+    "note": ""
+   },
+   "action": [
+    "monster:swipe"
+   ],
+   "fx": [
+    {
+     "kind": "embers",
+     "count": 260,
+     "area": 40,
+     "height": 18
+    }
+   ],
+   "spec": {
+    "camera": {
+     "subject": "monster",
+     "framing": "ws",
+     "move": "push_in",
+     "angle": "low",
+     "lens": 24,
+     "az": 20
+    },
+    "actions": [
+     {
+      "who": "monster",
+      "action": "swipe",
+      "side": "L",
+      "f0": 3,
+      "f1": 25
+     }
+    ],
+    "w": 1.0,
+    "monster_at": [
+     -22,
+     52,
+     0
+    ],
+    "monster_facing": 30,
+    "impacts": [
+     {
+      "f": 26,
+      "at": [
+       -40,
+       55,
+       20
+      ],
+      "power": 1.3,
+      "count": 50
+     }
+    ],
+    "id": "s010",
+    "beat": 9,
+    "start": 18.667,
+    "frames": 36,
+    "set": "plaza",
+    "cast": [],
+    "props": [
+     {
+      "kind": "fire_truck",
+      "at": [
+       15,
+       -9,
+       0
+      ],
+      "rot": 90,
+      "name": "truck1"
+     },
+     {
+      "kind": "police_car",
+      "at": [
+       -12,
+       -10,
+       0
+      ],
+      "rot": 40,
+      "name": "cop1"
+     },
+     {
+      "kind": "barrier",
+      "at": [
+       4,
+       8,
+       0
+      ]
+     },
+     {
+      "kind": "barrier",
+      "at": [
+       -6,
+       8,
+       0
+      ]
+     },
+     {
+      "kind": "crane",
+      "at": [
+       -80,
+       150,
+       0
+      ],
+      "height": 90,
+      "rot": 30
+     },
+     {
+      "kind": "pylon",
+      "at": [
+       100,
+       140,
+       0
+      ],
+      "height": 55
+     }
+    ],
+    "fx": [
+     {
+      "kind": "embers",
+      "count": 260,
+      "area": 40,
+      "height": 18
+     }
+    ],
+    "start_frame": 448
+   }
+  },
+  {
+   "id": "s011",
+   "beat": 10,
+   "start": 20.167,
+   "dur": 1.58,
+   "frames": 38,
+   "set": "plaza",
+   "camera": {
+    "move": "orbit_right",
+    "framing": "mws",
+    "angle": "low",
+    "lens_mm": 24,
+    "subject": "monster",
+    "subject2": null,
+    "az": 40,
+    "note": ""
+   },
+   "action": [
+    "monster:reach"
+   ],
+   "fx": [
+    {
+     "kind": "embers",
+     "count": 260,
+     "area": 40,
+     "height": 18
+    }
+   ],
+   "spec": {
+    "camera": {
+     "subject": "monster",
+     "framing": "mws",
+     "move": "orbit_right",
+     "angle": "low",
+     "lens": 24,
+     "az": 40
+    },
+    "actions": [
+     {
+      "who": "monster",
+      "action": "reach",
+      "side": "R"
+     }
+    ],
+    "w": 1.0,
+    "monster_at": [
+     -18,
+     42,
+     0
+    ],
+    "props": [
+     {
+      "kind": "fire_truck",
+      "at": [
+       15,
+       -9,
+       0
+      ],
+      "rot": 90,
+      "name": "truck1"
+     },
+     {
+      "kind": "police_car",
+      "at": [
+       -12,
+       -10,
+       0
+      ],
+      "rot": 40,
+      "name": "cop1"
+     },
+     {
+      "kind": "barrier",
+      "at": [
+       4,
+       8,
+       0
+      ]
+     },
+     {
+      "kind": "barrier",
+      "at": [
+       -6,
+       8,
+       0
+      ]
+     },
+     {
+      "kind": "crane",
+      "at": [
+       -80,
+       150,
+       0
+      ],
+      "height": 90,
+      "rot": 30
+     },
+     {
+      "kind": "pylon",
+      "at": [
+       100,
+       140,
+       0
+      ],
+      "height": 55
+     },
+     {
+      "kind": "rubble",
+      "start": [
+       -18,
+       9,
+       0
+      ],
+      "end": [
+       -18,
+       32,
+       0
+      ],
+      "width": 9,
+      "height": 1.2,
+      "count": 80,
+      "seed": 3
+     }
+    ],
+    "impacts": [
+     {
+      "f": 14,
+      "at": [
+       -18,
+       20,
+       0
+      ],
+      "power": 1.2,
+      "count": 30
+     }
+    ],
+    "id": "s011",
+    "beat": 10,
+    "start": 20.167,
+    "frames": 38,
+    "set": "plaza",
+    "cast": [],
+    "fx": [
+     {
+      "kind": "embers",
+      "count": 260,
+      "area": 40,
+      "height": 18
+     }
+    ],
+    "start_frame": 484
+   }
+  },
+  {
+   "id": "s012",
+   "beat": 11,
+   "start": 21.75,
+   "dur": 1.46,
+   "frames": 35,
+   "set": "plaza",
+   "camera": {
+    "move": "crane_up",
+    "framing": "ews",
+    "angle": "high",
+    "lens_mm": 24,
+    "subject": [
+     -18,
+     22,
+     0
+    ],
+    "subject2": null,
+    "az": 0,
+    "note": ""
+   },
+   "action": [
+    "monster:lurk"
+   ],
+   "fx": [
+    {
+     "kind": "embers",
+     "count": 260,
+     "area": 40,
+     "height": 18
+    }
+   ],
+   "spec": {
+    "camera": {
+     "subject": [
+      -18,
+      22,
+      0
+     ],
+     "framing": "ews",
+     "move": "crane_up",
+     "angle": "high",
+     "lens": 24,
+     "az": 0,
+     "pos": [
+      22,
+      -6,
+      14
+     ],
+     "pos2": [
+      16,
+      -14,
+      32
+     ]
+    },
+    "actions": [
+     {
+      "who": "monster",
+      "action": "lurk"
+     }
+    ],
+    "w": 1.0,
+    "monster_at": [
+     -18,
+     42,
+     0
+    ],
+    "props": [
+     {
+      "kind": "fire_truck",
+      "at": [
+       15,
+       -9,
+       0
+      ],
+      "rot": 90,
+      "name": "truck1"
+     },
+     {
+      "kind": "police_car",
+      "at": [
+       -12,
+       -10,
+       0
+      ],
+      "rot": 40,
+      "name": "cop1"
+     },
+     {
+      "kind": "barrier",
+      "at": [
+       4,
+       8,
+       0
+      ]
+     },
+     {
+      "kind": "barrier",
+      "at": [
+       -6,
+       8,
+       0
+      ]
+     },
+     {
+      "kind": "crane",
+      "at": [
+       -80,
+       150,
+       0
+      ],
+      "height": 90,
+      "rot": 30
+     },
+     {
+      "kind": "pylon",
+      "at": [
+       100,
+       140,
+       0
+      ],
+      "height": 55
+     },
+     {
+      "kind": "rubble",
+      "start": [
+       -18,
+       9,
+       0
+      ],
+      "end": [
+       -18,
+       32,
+       0
+      ],
+      "width": 9,
+      "height": 1.2,
+      "count": 80,
+      "seed": 3
+     }
+    ],
+    "id": "s012",
+    "beat": 11,
+    "start": 21.75,
+    "frames": 35,
+    "set": "plaza",
+    "cast": [],
+    "fx": [
+     {
+      "kind": "embers",
+      "count": 260,
+      "area": 40,
+      "height": 18
+     }
+    ],
+    "start_frame": 522
+   }
+  },
+  {
+   "id": "s013",
+   "beat": 12,
+   "start": 23.208,
+   "dur": 2.38,
+   "frames": 57,
+   "set": "plaza",
+   "camera": {
+    "move": "push_in",
+    "framing": "ws",
+    "angle": "worm",
+    "lens_mm": 24,
+    "subject": "monster",
+    "subject2": null,
+    "az": 10,
+    "note": ""
+   },
+   "action": [
+    "monster:walk"
+   ],
+   "fx": [
+    {
+     "kind": "embers",
+     "count": 260,
+     "area": 40,
+     "height": 18
+    }
+   ],
+   "spec": {
+    "camera": {
+     "subject": "monster",
+     "framing": "ws",
+     "move": "push_in",
+     "angle": "worm",
+     "lens": 24,
+     "az": 10
+    },
+    "actions": [
+     {
+      "who": "monster",
+      "action": "walk",
+      "path": [
+       [
+        -18,
+        44,
+        0
+       ],
+       [
+        -18,
+        36,
+        0
+       ]
+      ],
+      "cycle": 32
+     }
+    ],
+    "w": 1.0,
+    "monster_at": [
+     -18,
+     44,
+     0
+    ],
+    "props": [
+     {
+      "kind": "fire_truck",
+      "at": [
+       15,
+       -9,
+       0
+      ],
+      "rot": 90,
+      "name": "truck1"
+     },
+     {
+      "kind": "police_car",
+      "at": [
+       -12,
+       -10,
+       0
+      ],
+      "rot": 40,
+      "name": "cop1"
+     },
+     {
+      "kind": "barrier",
+      "at": [
+       4,
+       8,
+       0
+      ]
+     },
+     {
+      "kind": "barrier",
+      "at": [
+       -6,
+       8,
+       0
+      ]
+     },
+     {
+      "kind": "crane",
+      "at": [
+       -80,
+       150,
+       0
+      ],
+      "height": 90,
+      "rot": 30
+     },
+     {
+      "kind": "pylon",
+      "at": [
+       100,
+       140,
+       0
+      ],
+      "height": 55
+     },
+     {
+      "kind": "rubble",
+      "start": [
+       -18,
+       9,
+       0
+      ],
+      "end": [
+       -18,
+       32,
+       0
+      ],
+      "width": 9,
+      "height": 1.2,
+      "count": 80,
+      "seed": 3
+     }
+    ],
+    "id": "s013",
+    "beat": 12,
+    "start": 23.208,
+    "frames": 57,
+    "set": "plaza",
+    "cast": [],
+    "fx": [
+     {
+      "kind": "embers",
+      "count": 260,
+      "area": 40,
+      "height": 18
+     }
+    ],
+    "start_frame": 557
+   }
+  },
+  {
+   "id": "s014",
+   "beat": 13,
+   "start": 25.583,
+   "dur": 2.71,
+   "frames": 65,
+   "set": "plaza",
+   "camera": {
+    "move": "orbit_left",
+    "framing": "mcu",
+    "angle": "eye",
+    "lens_mm": 50,
+    "subject": "nora",
+    "subject2": null,
+    "az": 30,
+    "note": ""
+   },
+   "action": [
+    "nora:turn"
+   ],
+   "fx": [
+    {
+     "kind": "embers",
+     "count": 260,
+     "area": 40,
+     "height": 18
+    }
+   ],
+   "spec": {
+    "camera": {
+     "subject": "nora",
+     "framing": "mcu",
+     "move": "orbit_left",
+     "angle": "eye",
+     "lens": 50,
+     "az": 30
+    },
+    "actions": [
+     {
+      "who": "nora",
+      "action": "turn",
+      "at": [
+       0,
+       -4,
+       0
+      ],
+      "facing": 150,
+      "to": 60,
+      "expr": "determined"
+     }
+    ],
+    "w": 1.0,
+    "monster_at": [
+     -18,
+     36,
+     0
+    ],
+    "props": [
+     {
+      "kind": "fire_truck",
+      "at": [
+       15,
+       -9,
+       0
+      ],
+      "rot": 90,
+      "name": "truck1"
+     },
+     {
+      "kind": "police_car",
+      "at": [
+       -12,
+       -10,
+       0
+      ],
+      "rot": 40,
+      "name": "cop1"
+     },
+     {
+      "kind": "barrier",
+      "at": [
+       4,
+       8,
+       0
+      ]
+     },
+     {
+      "kind": "barrier",
+      "at": [
+       -6,
+       8,
+       0
+      ]
+     },
+     {
+      "kind": "crane",
+      "at": [
+       -80,
+       150,
+       0
+      ],
+      "height": 90,
+      "rot": 30
+     },
+     {
+      "kind": "pylon",
+      "at": [
+       100,
+       140,
+       0
+      ],
+      "height": 55
+     },
+     {
+      "kind": "rubble",
+      "start": [
+       -18,
+       9,
+       0
+      ],
+      "end": [
+       -18,
+       32,
+       0
+      ],
+      "width": 9,
+      "height": 1.2,
+      "count": 80,
+      "seed": 3
+     }
+    ],
+    "id": "s014",
+    "beat": 13,
+    "start": 25.583,
+    "frames": 65,
+    "set": "plaza",
+    "cast": [
+     "nora"
+    ],
+    "fx": [
+     {
+      "kind": "embers",
+      "count": 260,
+      "area": 40,
+      "height": 18
+     }
+    ],
+    "start_frame": 614
+   }
+  },
+  {
+   "id": "s015",
+   "beat": 14,
+   "start": 28.292,
+   "dur": 2.38,
+   "frames": 57,
+   "set": "plaza",
+   "camera": {
+    "move": "push_in",
+    "framing": "ms",
+    "angle": "low",
+    "lens_mm": 35,
+    "subject": "nora",
+    "subject2": null,
+    "az": 20,
+    "note": ""
+   },
+   "action": [
+    "nora:point",
+    "chief:idle"
+   ],
+   "fx": [
+    {
+     "kind": "embers",
+     "count": 260,
+     "area": 40,
+     "height": 18
+    }
+   ],
+   "spec": {
+    "camera": {
+     "subject": "nora",
+     "framing": "ms",
+     "move": "push_in",
+     "angle": "low",
+     "lens": 35,
+     "az": 20
+    },
+    "actions": [
+     {
+      "who": "nora",
+      "action": "point",
+      "at": [
+       0,
+       -4,
+       0
+      ],
+      "facing": 200,
+      "expr": "determined"
+     },
+     {
+      "who": "chief",
+      "action": "idle",
+      "at": [
+       3,
+       -6,
+       0
+      ],
+      "facing": 150
+     }
+    ],
+    "w": 1.0,
+    "monster_at": [
+     -18,
+     36,
+     0
+    ],
+    "props": [
+     {
+      "kind": "fire_truck",
+      "at": [
+       15,
+       -9,
+       0
+      ],
+      "rot": 90,
+      "name": "truck1"
+     },
+     {
+      "kind": "police_car",
+      "at": [
+       -12,
+       -10,
+       0
+      ],
+      "rot": 40,
+      "name": "cop1"
+     },
+     {
+      "kind": "barrier",
+      "at": [
+       4,
+       8,
+       0
+      ]
+     },
+     {
+      "kind": "barrier",
+      "at": [
+       -6,
+       8,
+       0
+      ]
+     },
+     {
+      "kind": "crane",
+      "at": [
+       -80,
+       150,
+       0
+      ],
+      "height": 90,
+      "rot": 30
+     },
+     {
+      "kind": "pylon",
+      "at": [
+       100,
+       140,
+       0
+      ],
+      "height": 55
+     },
+     {
+      "kind": "rubble",
+      "start": [
+       -18,
+       9,
+       0
+      ],
+      "end": [
+       -18,
+       32,
+       0
+      ],
+      "width": 9,
+      "height": 1.2,
+      "count": 80,
+      "seed": 3
+     }
+    ],
+    "id": "s015",
+    "beat": 14,
+    "start": 28.292,
+    "frames": 57,
+    "set": "plaza",
+    "cast": [
+     "chief",
+     "nora"
+    ],
+    "talk": {
+     "who": "nora",
+     "f0": 2,
+     "f1": 52
+    },
+    "fx": [
+     {
+      "kind": "embers",
+      "count": 260,
+      "area": 40,
+      "height": 18
+     }
+    ],
+    "start_frame": 679
+   }
+  },
+  {
+   "id": "s016",
+   "beat": 15,
+   "start": 30.667,
+   "dur": 1.54,
+   "frames": 37,
+   "set": "plaza",
+   "camera": {
+    "move": "push_in",
+    "framing": "ms",
+    "angle": "low",
+    "lens_mm": 24,
+    "subject": [
+     -6,
+     -2,
+     4.0
+    ],
+    "subject2": null,
+    "az": 0,
+    "note": ""
+   },
+   "action": [],
+   "fx": [
+    {
+     "kind": "embers",
+     "count": 260,
+     "area": 40,
+     "height": 18
+    },
+    {
+     "kind": "spray",
+     "at": [
+      -6,
+      -2,
+      0.2
+     ],
+     "count": 500,
+     "height": 9
+    },
+    {
+     "kind": "spray",
+     "at": [
+      6,
+      -2,
+      0.2
+     ],
+     "count": 500,
+     "height": 9
+    }
+   ],
+   "spec": {
+    "camera": {
+     "subject": [
+      -6,
+      -2,
+      4.0
+     ],
+     "framing": "ms",
+     "move": "push_in",
+     "angle": "low",
+     "lens": 24,
+     "az": 0,
+     "pos": [
+      -2,
+      -16,
+      1.2
+     ],
+     "pos2": [
+      -3,
+      -12,
+      1.4
+     ]
+    },
+    "actions": [],
+    "w": 1.0,
+    "monster_at": [
+     -18,
+     36,
+     0
+    ],
+    "props": [
+     {
+      "kind": "fire_truck",
+      "at": [
+       15,
+       -9,
+       0
+      ],
+      "rot": 90,
+      "name": "truck1"
+     },
+     {
+      "kind": "police_car",
+      "at": [
+       -12,
+       -10,
+       0
+      ],
+      "rot": 40,
+      "name": "cop1"
+     },
+     {
+      "kind": "barrier",
+      "at": [
+       4,
+       8,
+       0
+      ]
+     },
+     {
+      "kind": "barrier",
+      "at": [
+       -6,
+       8,
+       0
+      ]
+     },
+     {
+      "kind": "crane",
+      "at": [
+       -80,
+       150,
+       0
+      ],
+      "height": 90,
+      "rot": 30
+     },
+     {
+      "kind": "pylon",
+      "at": [
+       100,
+       140,
+       0
+      ],
+      "height": 55
+     },
+     {
+      "kind": "rubble",
+      "start": [
+       -18,
+       9,
+       0
+      ],
+      "end": [
+       -18,
+       32,
+       0
+      ],
+      "width": 9,
+      "height": 1.2,
+      "count": 80,
+      "seed": 3
+     }
+    ],
+    "fx": [
+     {
+      "kind": "embers",
+      "count": 260,
+      "area": 40,
+      "height": 18
+     },
+     {
+      "kind": "spray",
+      "at": [
+       -6,
+       -2,
+       0.2
+      ],
+      "count": 500,
+      "height": 9
+     },
+     {
+      "kind": "spray",
+      "at": [
+       6,
+       -2,
+       0.2
+      ],
+      "count": 500,
+      "height": 9
+     }
+    ],
+    "id": "s016",
+    "beat": 15,
+    "start": 30.667,
+    "frames": 37,
+    "set": "plaza",
+    "cast": [],
+    "start_frame": 736
+   }
+  },
+  {
+   "id": "s017",
+   "beat": 16,
+   "start": 32.208,
+   "dur": 1.46,
+   "frames": 35,
+   "set": "plaza",
+   "camera": {
+    "move": "drone_orbit",
+    "framing": "ews",
+    "angle": "high",
+    "lens_mm": 24,
+    "subject": "monster",
+    "subject2": null,
+    "az": 0,
+    "note": ""
+   },
+   "action": [
+    "monster:roar"
+   ],
+   "fx": [
+    {
+     "kind": "embers",
+     "count": 260,
+     "area": 40,
+     "height": 18
+    },
+    {
+     "kind": "flood",
+     "keys": [
+      [
+       1,
+       -0.4
+      ],
+      [
+       40,
+       0.35
+      ]
+     ]
+    }
+   ],
+   "spec": {
+    "camera": {
+     "subject": "monster",
+     "framing": "ews",
+     "move": "drone_orbit",
+     "angle": "high",
+     "lens": 24,
+     "az": 0,
+     "pos": [
+      34,
+      -2,
+      36
+     ],
+     "pos2": [
+      22,
+      -14,
+      30
+     ]
+    },
+    "actions": [
+     {
+      "who": "monster",
+      "action": "roar"
+     }
+    ],
+    "w": 1.0,
+    "monster_at": [
+     -18,
+     44,
+     2.0
+    ],
+    "props": [
+     {
+      "kind": "fire_truck",
+      "at": [
+       15,
+       -9,
+       0
+      ],
+      "rot": 90,
+      "name": "truck1"
+     },
+     {
+      "kind": "police_car",
+      "at": [
+       -12,
+       -10,
+       0
+      ],
+      "rot": 40,
+      "name": "cop1"
+     },
+     {
+      "kind": "barrier",
+      "at": [
+       4,
+       8,
+       0
+      ]
+     },
+     {
+      "kind": "barrier",
+      "at": [
+       -6,
+       8,
+       0
+      ]
+     },
+     {
+      "kind": "crane",
+      "at": [
+       -80,
+       150,
+       0
+      ],
+      "height": 90,
+      "rot": 30
+     },
+     {
+      "kind": "pylon",
+      "at": [
+       100,
+       140,
+       0
+      ],
+      "height": 55
+     },
+     {
+      "kind": "rubble",
+      "start": [
+       -18,
+       9,
+       0
+      ],
+      "end": [
+       -18,
+       32,
+       0
+      ],
+      "width": 9,
+      "height": 1.2,
+      "count": 80,
+      "seed": 3
+     },
+     {
+      "kind": "rubble",
+      "start": [
+       -26,
+       40,
+       0
+      ],
+      "end": [
+       -10,
+       46,
+       0
+      ],
+      "width": 18,
+      "height": 3,
+      "count": 70,
+      "seed": 7
+     },
+     {
+      "kind": "box",
+      "name": "platform",
+      "at": [
+       -10,
+       35,
+       0.8
+      ],
+      "size": [
+       3.2,
+       3.2,
+       1.6
+      ],
+      "color": [
+       0.32,
+       0.31,
+       0.3
+      ]
+     }
+    ],
+    "fx": [
+     {
+      "kind": "embers",
+      "count": 260,
+      "area": 40,
+      "height": 18
+     },
+     {
+      "kind": "flood",
+      "keys": [
+       [
+        1,
+        -0.4
+       ],
+       [
+        40,
+        0.35
+       ]
+      ]
+     }
+    ],
+    "id": "s017",
+    "beat": 16,
+    "start": 32.208,
+    "frames": 35,
+    "set": "plaza",
+    "cast": [],
+    "start_frame": 773
+   }
+  },
+  {
+   "id": "s018",
+   "beat": 17,
+   "start": 33.667,
+   "dur": 2.04,
+   "frames": 49,
+   "set": "plaza",
+   "camera": {
+    "move": "orbit_left",
+    "framing": "ws",
+    "angle": "low",
+    "lens_mm": 24,
+    "subject": "monster",
+    "subject2": null,
+    "az": 10,
+    "note": ""
+   },
+   "action": [
+    "monster:lurk"
+   ],
+   "fx": [
+    {
+     "kind": "embers",
+     "count": 260,
+     "area": 40,
+     "height": 18
+    },
+    {
+     "kind": "flood",
+     "keys": [
+      [
+       1,
+       0.35
+      ]
+     ]
+    },
+    {
+     "kind": "steam",
+     "at": [
+      -18,
+      34,
+      0.4
+     ],
+     "f": 6,
+     "dur": 40,
+     "radius": 6
+    }
+   ],
+   "spec": {
+    "camera": {
+     "subject": "monster",
+     "framing": "ws",
+     "move": "orbit_left",
+     "angle": "low",
+     "lens": 24,
+     "az": 10
+    },
+    "actions": [
+     {
+      "who": "monster",
+      "action": "lurk"
+     }
+    ],
+    "w": 1.0,
+    "monster_at": [
+     -18,
+     44,
+     2.0
+    ],
+    "props": [
+     {
+      "kind": "fire_truck",
+      "at": [
+       15,
+       -9,
+       0
+      ],
+      "rot": 90,
+      "name": "truck1"
+     },
+     {
+      "kind": "police_car",
+      "at": [
+       -12,
+       -10,
+       0
+      ],
+      "rot": 40,
+      "name": "cop1"
+     },
+     {
+      "kind": "barrier",
+      "at": [
+       4,
+       8,
+       0
+      ]
+     },
+     {
+      "kind": "barrier",
+      "at": [
+       -6,
+       8,
+       0
+      ]
+     },
+     {
+      "kind": "crane",
+      "at": [
+       -80,
+       150,
+       0
+      ],
+      "height": 90,
+      "rot": 30
+     },
+     {
+      "kind": "pylon",
+      "at": [
+       100,
+       140,
+       0
+      ],
+      "height": 55
+     },
+     {
+      "kind": "rubble",
+      "start": [
+       -18,
+       9,
+       0
+      ],
+      "end": [
+       -18,
+       32,
+       0
+      ],
+      "width": 9,
+      "height": 1.2,
+      "count": 80,
+      "seed": 3
+     },
+     {
+      "kind": "rubble",
+      "start": [
+       -26,
+       40,
+       0
+      ],
+      "end": [
+       -10,
+       46,
+       0
+      ],
+      "width": 18,
+      "height": 3,
+      "count": 70,
+      "seed": 7
+     },
+     {
+      "kind": "box",
+      "name": "platform",
+      "at": [
+       -10,
+       35,
+       0.8
+      ],
+      "size": [
+       3.2,
+       3.2,
+       1.6
+      ],
+      "color": [
+       0.32,
+       0.31,
+       0.3
+      ]
+     }
+    ],
+    "fx": [
+     {
+      "kind": "embers",
+      "count": 260,
+      "area": 40,
+      "height": 18
+     },
+     {
+      "kind": "flood",
+      "keys": [
+       [
+        1,
+        0.35
+       ]
+      ]
+     },
+     {
+      "kind": "steam",
+      "at": [
+       -18,
+       34,
+       0.4
+      ],
+      "f": 6,
+      "dur": 40,
+      "radius": 6
+     }
+    ],
+    "id": "s018",
+    "beat": 17,
+    "start": 33.667,
+    "frames": 49,
+    "set": "plaza",
+    "cast": [],
+    "start_frame": 808
+   }
+  },
+  {
+   "id": "s019",
+   "beat": 18,
+   "start": 35.708,
+   "dur": 1.92,
+   "frames": 46,
+   "set": "plaza",
+   "camera": {
+    "move": "push_in",
+    "framing": "ms",
+    "angle": "low",
+    "lens_mm": 24,
+    "subject": "leo",
+    "subject2": null,
+    "az": 0,
+    "note": ""
+   },
+   "action": [
+    "leo:hide",
+    "monster:lurk"
+   ],
+   "fx": [
+    {
+     "kind": "embers",
+     "count": 260,
+     "area": 40,
+     "height": 18
+    },
+    {
+     "kind": "flood",
+     "keys": [
+      [
+       1,
+       0.35
+      ]
+     ]
+    }
+   ],
+   "spec": {
+    "camera": {
+     "subject": "leo",
+     "framing": "ms",
+     "move": "push_in",
+     "angle": "low",
+     "lens": 24,
+     "az": 0
+    },
+    "actions": [
+     {
+      "who": "leo",
+      "action": "hide",
+      "at": [
+       -10,
+       35,
+       1.6
+      ],
+      "facing": 20
+     },
+     {
+      "who": "monster",
+      "action": "lurk"
+     }
+    ],
+    "w": 1.0,
+    "monster_at": [
+     -18,
+     44,
+     2.0
+    ],
+    "props": [
+     {
+      "kind": "fire_truck",
+      "at": [
+       15,
+       -9,
+       0
+      ],
+      "rot": 90,
+      "name": "truck1"
+     },
+     {
+      "kind": "police_car",
+      "at": [
+       -12,
+       -10,
+       0
+      ],
+      "rot": 40,
+      "name": "cop1"
+     },
+     {
+      "kind": "barrier",
+      "at": [
+       4,
+       8,
+       0
+      ]
+     },
+     {
+      "kind": "barrier",
+      "at": [
+       -6,
+       8,
+       0
+      ]
+     },
+     {
+      "kind": "crane",
+      "at": [
+       -80,
+       150,
+       0
+      ],
+      "height": 90,
+      "rot": 30
+     },
+     {
+      "kind": "pylon",
+      "at": [
+       100,
+       140,
+       0
+      ],
+      "height": 55
+     },
+     {
+      "kind": "rubble",
+      "start": [
+       -18,
+       9,
+       0
+      ],
+      "end": [
+       -18,
+       32,
+       0
+      ],
+      "width": 9,
+      "height": 1.2,
+      "count": 80,
+      "seed": 3
+     },
+     {
+      "kind": "rubble",
+      "start": [
+       -26,
+       40,
+       0
+      ],
+      "end": [
+       -10,
+       46,
+       0
+      ],
+      "width": 18,
+      "height": 3,
+      "count": 70,
+      "seed": 7
+     },
+     {
+      "kind": "box",
+      "name": "platform",
+      "at": [
+       -10,
+       35,
+       0.8
+      ],
+      "size": [
+       3.2,
+       3.2,
+       1.6
+      ],
+      "color": [
+       0.32,
+       0.31,
+       0.3
+      ]
+     }
+    ],
+    "fx": [
+     {
+      "kind": "embers",
+      "count": 260,
+      "area": 40,
+      "height": 18
+     },
+     {
+      "kind": "flood",
+      "keys": [
+       [
+        1,
+        0.35
+       ]
+      ]
+     }
+    ],
+    "id": "s019",
+    "beat": 18,
+    "start": 35.708,
+    "frames": 46,
+    "set": "plaza",
+    "cast": [
+     "leo"
+    ],
+    "start_frame": 857
+   }
+  },
+  {
+   "id": "s020",
+   "beat": 19,
+   "start": 37.625,
+   "dur": 2.5,
+   "frames": 60,
+   "set": "plaza",
+   "camera": {
+    "move": "push_in",
+    "framing": "cu",
+    "angle": "eye",
+    "lens_mm": 85,
+    "subject": "nora",
+    "subject2": null,
+    "az": 10,
+    "note": ""
+   },
+   "action": [
+    "nora:idle"
+   ],
+   "fx": [
+    {
+     "kind": "embers",
+     "count": 260,
+     "area": 40,
+     "height": 18
+    },
+    {
+     "kind": "flood",
+     "keys": [
+      [
+       1,
+       0.35
+      ]
+     ]
+    }
+   ],
+   "spec": {
+    "camera": {
+     "subject": "nora",
+     "framing": "cu",
+     "move": "push_in",
+     "angle": "eye",
+     "lens": 85,
+     "az": 10
+    },
+    "actions": [
+     {
+      "who": "nora",
+      "action": "idle",
+      "at": [
+       -18,
+       7,
+       0.8
+      ],
+      "facing": 180,
+      "expr": "determined"
+     }
+    ],
+    "w": 1.0,
+    "monster_at": [
+     -18,
+     44,
+     2.0
+    ],
+    "props": [
+     {
+      "kind": "fire_truck",
+      "at": [
+       15,
+       -9,
+       0
+      ],
+      "rot": 90,
+      "name": "truck1"
+     },
+     {
+      "kind": "police_car",
+      "at": [
+       -12,
+       -10,
+       0
+      ],
+      "rot": 40,
+      "name": "cop1"
+     },
+     {
+      "kind": "barrier",
+      "at": [
+       4,
+       8,
+       0
+      ]
+     },
+     {
+      "kind": "barrier",
+      "at": [
+       -6,
+       8,
+       0
+      ]
+     },
+     {
+      "kind": "crane",
+      "at": [
+       -80,
+       150,
+       0
+      ],
+      "height": 90,
+      "rot": 30
+     },
+     {
+      "kind": "pylon",
+      "at": [
+       100,
+       140,
+       0
+      ],
+      "height": 55
+     },
+     {
+      "kind": "rubble",
+      "start": [
+       -18,
+       9,
+       0
+      ],
+      "end": [
+       -18,
+       32,
+       0
+      ],
+      "width": 9,
+      "height": 1.2,
+      "count": 80,
+      "seed": 3
+     },
+     {
+      "kind": "rubble",
+      "start": [
+       -26,
+       40,
+       0
+      ],
+      "end": [
+       -10,
+       46,
+       0
+      ],
+      "width": 18,
+      "height": 3,
+      "count": 70,
+      "seed": 7
+     },
+     {
+      "kind": "box",
+      "name": "platform",
+      "at": [
+       -10,
+       35,
+       0.8
+      ],
+      "size": [
+       3.2,
+       3.2,
+       1.6
+      ],
+      "color": [
+       0.32,
+       0.31,
+       0.3
+      ]
+     }
+    ],
+    "fx": [
+     {
+      "kind": "embers",
+      "count": 260,
+      "area": 40,
+      "height": 18
+     },
+     {
+      "kind": "flood",
+      "keys": [
+       [
+        1,
+        0.35
+       ]
+      ]
+     }
+    ],
+    "id": "s020",
+    "beat": 19,
+    "start": 37.625,
+    "frames": 60,
+    "set": "plaza",
+    "cast": [
+     "nora"
+    ],
+    "start_frame": 903
+   }
+  },
+  {
+   "id": "s021",
+   "beat": 20,
+   "start": 40.125,
+   "dur": 1.46,
+   "frames": 35,
+   "set": "plaza",
+   "camera": {
+    "move": "track",
+    "framing": "mws",
+    "angle": "low",
+    "lens_mm": 24,
+    "subject": "nora",
+    "subject2": null,
+    "az": 160,
+    "note": ""
+   },
+   "action": [
+    "nora:run",
+    "monster:lurk"
+   ],
+   "fx": [
+    {
+     "kind": "embers",
+     "count": 260,
+     "area": 40,
+     "height": 18
+    },
+    {
+     "kind": "flood",
+     "keys": [
+      [
+       1,
+       0.35
+      ]
+     ]
+    }
+   ],
+   "spec": {
+    "camera": {
+     "subject": "nora",
+     "framing": "mws",
+     "move": "track",
+     "angle": "low",
+     "lens": 24,
+     "az": 160
+    },
+    "actions": [
+     {
+      "who": "nora",
+      "action": "run",
+      "path": [
+       [
+        -18,
+        9,
+        1.0
+       ],
+       [
+        -17,
+        30,
+        1.4
+       ]
+      ]
+     },
+     {
+      "who": "monster",
+      "action": "lurk"
+     }
+    ],
+    "w": 1.0,
+    "monster_at": [
+     -18,
+     44,
+     2.0
+    ],
+    "props": [
+     {
+      "kind": "fire_truck",
+      "at": [
+       15,
+       -9,
+       0
+      ],
+      "rot": 90,
+      "name": "truck1"
+     },
+     {
+      "kind": "police_car",
+      "at": [
+       -12,
+       -10,
+       0
+      ],
+      "rot": 40,
+      "name": "cop1"
+     },
+     {
+      "kind": "barrier",
+      "at": [
+       4,
+       8,
+       0
+      ]
+     },
+     {
+      "kind": "barrier",
+      "at": [
+       -6,
+       8,
+       0
+      ]
+     },
+     {
+      "kind": "crane",
+      "at": [
+       -80,
+       150,
+       0
+      ],
+      "height": 90,
+      "rot": 30
+     },
+     {
+      "kind": "pylon",
+      "at": [
+       100,
+       140,
+       0
+      ],
+      "height": 55
+     },
+     {
+      "kind": "rubble",
+      "start": [
+       -18,
+       9,
+       0
+      ],
+      "end": [
+       -18,
+       32,
+       0
+      ],
+      "width": 9,
+      "height": 1.2,
+      "count": 80,
+      "seed": 3
+     },
+     {
+      "kind": "rubble",
+      "start": [
+       -26,
+       40,
+       0
+      ],
+      "end": [
+       -10,
+       46,
+       0
+      ],
+      "width": 18,
+      "height": 3,
+      "count": 70,
+      "seed": 7
+     },
+     {
+      "kind": "box",
+      "name": "platform",
+      "at": [
+       -10,
+       35,
+       0.8
+      ],
+      "size": [
+       3.2,
+       3.2,
+       1.6
+      ],
+      "color": [
+       0.32,
+       0.31,
+       0.3
+      ]
+     }
+    ],
+    "fx": [
+     {
+      "kind": "embers",
+      "count": 260,
+      "area": 40,
+      "height": 18
+     },
+     {
+      "kind": "flood",
+      "keys": [
+       [
+        1,
+        0.35
+       ]
+      ]
+     }
+    ],
+    "id": "s021",
+    "beat": 20,
+    "start": 40.125,
+    "frames": 35,
+    "set": "plaza",
+    "cast": [
+     "nora"
+    ],
+    "start_frame": 963
+   }
+  },
+  {
+   "id": "s022",
+   "beat": 21,
+   "start": 41.583,
+   "dur": 2.21,
+   "frames": 53,
+   "set": "plaza",
+   "camera": {
+    "move": "tilt_up",
+    "framing": "ws",
+    "angle": "worm",
+    "lens_mm": 24,
+    "subject": "monster",
+    "subject2": null,
+    "az": 0,
+    "note": ""
+   },
+   "action": [
+    "nora:run",
+    "monster:lurk"
+   ],
+   "fx": [
+    {
+     "kind": "embers",
+     "count": 260,
+     "area": 40,
+     "height": 18
+    },
+    {
+     "kind": "flood",
+     "keys": [
+      [
+       1,
+       0.35
+      ]
+     ]
+    }
+   ],
+   "spec": {
+    "camera": {
+     "subject": "monster",
+     "framing": "ws",
+     "move": "tilt_up",
+     "angle": "worm",
+     "lens": 24,
+     "az": 0,
+     "pos": [
+      -6,
+      12,
+      1.2
+     ]
+    },
+    "actions": [
+     {
+      "who": "nora",
+      "action": "run",
+      "path": [
+       [
+        -17,
+        22,
+        1.2
+       ],
+       [
+        -15,
+        32,
+        1.5
+       ]
+      ]
+     },
+     {
+      "who": "monster",
+      "action": "lurk"
+     }
+    ],
+    "w": 1.0,
+    "monster_at": [
+     -18,
+     44,
+     2.0
+    ],
+    "props": [
+     {
+      "kind": "fire_truck",
+      "at": [
+       15,
+       -9,
+       0
+      ],
+      "rot": 90,
+      "name": "truck1"
+     },
+     {
+      "kind": "police_car",
+      "at": [
+       -12,
+       -10,
+       0
+      ],
+      "rot": 40,
+      "name": "cop1"
+     },
+     {
+      "kind": "barrier",
+      "at": [
+       4,
+       8,
+       0
+      ]
+     },
+     {
+      "kind": "barrier",
+      "at": [
+       -6,
+       8,
+       0
+      ]
+     },
+     {
+      "kind": "crane",
+      "at": [
+       -80,
+       150,
+       0
+      ],
+      "height": 90,
+      "rot": 30
+     },
+     {
+      "kind": "pylon",
+      "at": [
+       100,
+       140,
+       0
+      ],
+      "height": 55
+     },
+     {
+      "kind": "rubble",
+      "start": [
+       -18,
+       9,
+       0
+      ],
+      "end": [
+       -18,
+       32,
+       0
+      ],
+      "width": 9,
+      "height": 1.2,
+      "count": 80,
+      "seed": 3
+     },
+     {
+      "kind": "rubble",
+      "start": [
+       -26,
+       40,
+       0
+      ],
+      "end": [
+       -10,
+       46,
+       0
+      ],
+      "width": 18,
+      "height": 3,
+      "count": 70,
+      "seed": 7
+     },
+     {
+      "kind": "box",
+      "name": "platform",
+      "at": [
+       -10,
+       35,
+       0.8
+      ],
+      "size": [
+       3.2,
+       3.2,
+       1.6
+      ],
+      "color": [
+       0.32,
+       0.31,
+       0.3
+      ]
+     }
+    ],
+    "fx": [
+     {
+      "kind": "embers",
+      "count": 260,
+      "area": 40,
+      "height": 18
+     },
+     {
+      "kind": "flood",
+      "keys": [
+       [
+        1,
+        0.35
+       ]
+      ]
+     }
+    ],
+    "id": "s022",
+    "beat": 21,
+    "start": 41.583,
+    "frames": 53,
+    "set": "plaza",
+    "cast": [
+     "nora"
+    ],
+    "start_frame": 998
+   }
+  },
+  {
+   "id": "s023",
+   "beat": 22,
+   "start": 43.792,
+   "dur": 1.46,
+   "frames": 35,
+   "set": "plaza",
+   "camera": {
+    "move": "push_in",
+    "framing": "ms",
+    "angle": "low",
+    "lens_mm": 35,
+    "subject": "nora",
+    "subject2": null,
+    "az": 0,
+    "note": ""
+   },
+   "action": [
+    "nora:grab",
+    "leo:idle",
+    "monster:reach"
+   ],
+   "fx": [
+    {
+     "kind": "embers",
+     "count": 260,
+     "area": 40,
+     "height": 18
+    },
+    {
+     "kind": "flood",
+     "keys": [
+      [
+       1,
+       0.35
+      ]
+     ]
+    }
+   ],
+   "spec": {
+    "camera": {
+     "subject": "nora",
+     "framing": "ms",
+     "move": "push_in",
+     "angle": "low",
+     "lens": 35,
+     "az": 0,
+     "pos": [
+      -1,
+      27,
+      2.5
+     ],
+     "pos2": [
+      -3,
+      29,
+      2.2
+     ]
+    },
+    "actions": [
+     {
+      "who": "nora",
+      "action": "grab",
+      "at": [
+       -11.5,
+       33,
+       1.6
+      ],
+      "facing": 30
+     },
+     {
+      "who": "leo",
+      "action": "idle",
+      "at": [
+       -10,
+       35,
+       1.6
+      ],
+      "facing": 210,
+      "expr": "fear"
+     },
+     {
+      "who": "monster",
+      "action": "reach",
+      "side": "R"
+     }
+    ],
+    "w": 1.0,
+    "monster_at": [
+     -18,
+     44,
+     2.0
+    ],
+    "props": [
+     {
+      "kind": "fire_truck",
+      "at": [
+       15,
+       -9,
+       0
+      ],
+      "rot": 90,
+      "name": "truck1"
+     },
+     {
+      "kind": "police_car",
+      "at": [
+       -12,
+       -10,
+       0
+      ],
+      "rot": 40,
+      "name": "cop1"
+     },
+     {
+      "kind": "barrier",
+      "at": [
+       4,
+       8,
+       0
+      ]
+     },
+     {
+      "kind": "barrier",
+      "at": [
+       -6,
+       8,
+       0
+      ]
+     },
+     {
+      "kind": "crane",
+      "at": [
+       -80,
+       150,
+       0
+      ],
+      "height": 90,
+      "rot": 30
+     },
+     {
+      "kind": "pylon",
+      "at": [
+       100,
+       140,
+       0
+      ],
+      "height": 55
+     },
+     {
+      "kind": "rubble",
+      "start": [
+       -18,
+       9,
+       0
+      ],
+      "end": [
+       -18,
+       32,
+       0
+      ],
+      "width": 9,
+      "height": 1.2,
+      "count": 80,
+      "seed": 3
+     },
+     {
+      "kind": "rubble",
+      "start": [
+       -26,
+       40,
+       0
+      ],
+      "end": [
+       -10,
+       46,
+       0
+      ],
+      "width": 18,
+      "height": 3,
+      "count": 70,
+      "seed": 7
+     },
+     {
+      "kind": "box",
+      "name": "platform",
+      "at": [
+       -10,
+       35,
+       0.8
+      ],
+      "size": [
+       3.2,
+       3.2,
+       1.6
+      ],
+      "color": [
+       0.32,
+       0.31,
+       0.3
+      ]
+     }
+    ],
+    "fx": [
+     {
+      "kind": "embers",
+      "count": 260,
+      "area": 40,
+      "height": 18
+     },
+     {
+      "kind": "flood",
+      "keys": [
+       [
+        1,
+        0.35
+       ]
+      ]
+     }
+    ],
+    "id": "s023",
+    "beat": 22,
+    "start": 43.792,
+    "frames": 35,
+    "set": "plaza",
+    "cast": [
+     "leo",
+     "nora"
+    ],
+    "talk": {
+     "who": "nora",
+     "f0": 2,
+     "f1": 30
+    },
+    "start_frame": 1051
+   }
+  },
+  {
+   "id": "s024",
+   "beat": 23,
+   "start": 45.25,
+   "dur": 2.0,
+   "frames": 48,
+   "set": "plaza",
+   "camera": {
+    "move": "push_in",
+    "framing": "ws",
+    "angle": "low",
+    "lens_mm": 24,
+    "subject": "nora",
+    "subject2": null,
+    "az": 90,
+    "note": ""
+   },
+   "action": [
+    "nora:fall",
+    "leo:fall",
+    "monster:reach"
+   ],
+   "fx": [
+    {
+     "kind": "embers",
+     "count": 260,
+     "area": 40,
+     "height": 18
+    },
+    {
+     "kind": "flood",
+     "keys": [
+      [
+       1,
+       0.35
+      ]
+     ]
+    },
+    {
+     "kind": "spray",
+     "at": [
+      -8,
+      35,
+      0.3
+     ],
+     "count": 300,
+     "height": 3
+    }
+   ],
+   "spec": {
+    "camera": {
+     "subject": "nora",
+     "framing": "ws",
+     "move": "push_in",
+     "angle": "low",
+     "lens": 24,
+     "az": 90
+    },
+    "actions": [
+     {
+      "who": "nora",
+      "action": "fall",
+      "at": [
+       -8,
+       34,
+       0.0
+      ],
+      "facing": 90
+     },
+     {
+      "who": "leo",
+      "action": "fall",
+      "at": [
+       -8,
+       36,
+       0.0
+      ],
+      "facing": 90
+     },
+     {
+      "who": "monster",
+      "action": "reach",
+      "side": "R"
+     }
+    ],
+    "w": 1.0,
+    "monster_at": [
+     -18,
+     44,
+     2.0
+    ],
+    "props": [
+     {
+      "kind": "fire_truck",
+      "at": [
+       15,
+       -9,
+       0
+      ],
+      "rot": 90,
+      "name": "truck1"
+     },
+     {
+      "kind": "police_car",
+      "at": [
+       -12,
+       -10,
+       0
+      ],
+      "rot": 40,
+      "name": "cop1"
+     },
+     {
+      "kind": "barrier",
+      "at": [
+       4,
+       8,
+       0
+      ]
+     },
+     {
+      "kind": "barrier",
+      "at": [
+       -6,
+       8,
+       0
+      ]
+     },
+     {
+      "kind": "crane",
+      "at": [
+       -80,
+       150,
+       0
+      ],
+      "height": 90,
+      "rot": 30
+     },
+     {
+      "kind": "pylon",
+      "at": [
+       100,
+       140,
+       0
+      ],
+      "height": 55
+     },
+     {
+      "kind": "rubble",
+      "start": [
+       -18,
+       9,
+       0
+      ],
+      "end": [
+       -18,
+       32,
+       0
+      ],
+      "width": 9,
+      "height": 1.2,
+      "count": 80,
+      "seed": 3
+     },
+     {
+      "kind": "rubble",
+      "start": [
+       -26,
+       40,
+       0
+      ],
+      "end": [
+       -10,
+       46,
+       0
+      ],
+      "width": 18,
+      "height": 3,
+      "count": 70,
+      "seed": 7
+     },
+     {
+      "kind": "box",
+      "name": "platform",
+      "at": [
+       -10,
+       35,
+       0.8
+      ],
+      "size": [
+       3.2,
+       3.2,
+       1.6
+      ],
+      "color": [
+       0.32,
+       0.31,
+       0.3
+      ]
+     }
+    ],
+    "fx": [
+     {
+      "kind": "embers",
+      "count": 260,
+      "area": 40,
+      "height": 18
+     },
+     {
+      "kind": "flood",
+      "keys": [
+       [
+        1,
+        0.35
+       ]
+      ]
+     },
+     {
+      "kind": "spray",
+      "at": [
+       -8,
+       35,
+       0.3
+      ],
+      "count": 300,
+      "height": 3
+     }
+    ],
+    "id": "s024",
+    "beat": 23,
+    "start": 45.25,
+    "frames": 48,
+    "set": "plaza",
+    "cast": [
+     "leo",
+     "nora"
+    ],
+    "start_frame": 1086
+   }
+  },
+  {
+   "id": "s025",
+   "beat": 24,
+   "start": 47.25,
+   "dur": 2.29,
+   "frames": 55,
+   "set": "plaza",
+   "camera": {
+    "move": "push_in",
+    "framing": "mcu",
+    "angle": "low",
+    "lens_mm": 50,
+    "subject": "monster",
+    "subject2": null,
+    "az": 40,
+    "note": ""
+   },
+   "action": [
+    "monster:freeze"
+   ],
+   "fx": [
+    {
+     "kind": "embers",
+     "count": 260,
+     "area": 40,
+     "height": 18
+    },
+    {
+     "kind": "flood",
+     "keys": [
+      [
+       1,
+       0.35
+      ]
+     ]
+    },
+    {
+     "kind": "steam",
+     "at": [
+      -10,
+      36,
+      0.4
+     ],
+     "f": 4,
+     "dur": 40,
+     "radius": 7
+    }
+   ],
+   "spec": {
+    "camera": {
+     "subject": "monster",
+     "framing": "mcu",
+     "move": "push_in",
+     "angle": "low",
+     "lens": 50,
+     "az": 40
+    },
+    "actions": [
+     {
+      "who": "monster",
+      "action": "freeze"
+     }
+    ],
+    "w": 1.0,
+    "monster_at": [
+     -18,
+     44,
+     2.0
+    ],
+    "props": [
+     {
+      "kind": "fire_truck",
+      "at": [
+       15,
+       -9,
+       0
+      ],
+      "rot": 90,
+      "name": "truck1"
+     },
+     {
+      "kind": "police_car",
+      "at": [
+       -12,
+       -10,
+       0
+      ],
+      "rot": 40,
+      "name": "cop1"
+     },
+     {
+      "kind": "barrier",
+      "at": [
+       4,
+       8,
+       0
+      ]
+     },
+     {
+      "kind": "barrier",
+      "at": [
+       -6,
+       8,
+       0
+      ]
+     },
+     {
+      "kind": "crane",
+      "at": [
+       -80,
+       150,
+       0
+      ],
+      "height": 90,
+      "rot": 30
+     },
+     {
+      "kind": "pylon",
+      "at": [
+       100,
+       140,
+       0
+      ],
+      "height": 55
+     },
+     {
+      "kind": "rubble",
+      "start": [
+       -18,
+       9,
+       0
+      ],
+      "end": [
+       -18,
+       32,
+       0
+      ],
+      "width": 9,
+      "height": 1.2,
+      "count": 80,
+      "seed": 3
+     },
+     {
+      "kind": "rubble",
+      "start": [
+       -26,
+       40,
+       0
+      ],
+      "end": [
+       -10,
+       46,
+       0
+      ],
+      "width": 18,
+      "height": 3,
+      "count": 70,
+      "seed": 7
+     },
+     {
+      "kind": "box",
+      "name": "platform",
+      "at": [
+       -10,
+       35,
+       0.8
+      ],
+      "size": [
+       3.2,
+       3.2,
+       1.6
+      ],
+      "color": [
+       0.32,
+       0.31,
+       0.3
+      ]
+     }
+    ],
+    "fx": [
+     {
+      "kind": "embers",
+      "count": 260,
+      "area": 40,
+      "height": 18
+     },
+     {
+      "kind": "flood",
+      "keys": [
+       [
+        1,
+        0.35
+       ]
+      ]
+     },
+     {
+      "kind": "steam",
+      "at": [
+       -10,
+       36,
+       0.4
+      ],
+      "f": 4,
+      "dur": 40,
+      "radius": 7
+     }
+    ],
+    "id": "s025",
+    "beat": 24,
+    "start": 47.25,
+    "frames": 55,
+    "set": "plaza",
+    "cast": [],
+    "start_frame": 1134
+   }
+  },
+  {
+   "id": "s026",
+   "beat": 25,
+   "start": 49.542,
+   "dur": 2.62,
+   "frames": 63,
+   "set": "plaza",
+   "camera": {
+    "move": "push_in",
+    "framing": "ms",
+    "angle": "low",
+    "lens_mm": 35,
+    "subject": "chief",
+    "subject2": null,
+    "az": 20,
+    "note": ""
+   },
+   "action": [
+    "chief:point"
+   ],
+   "fx": [
+    {
+     "kind": "embers",
+     "count": 260,
+     "area": 40,
+     "height": 18
+    },
+    {
+     "kind": "flood",
+     "keys": [
+      [
+       1,
+       0.35
+      ]
+     ]
+    },
+    {
+     "kind": "spray",
+     "at": [
+      15,
+      -7,
+      3.2
+     ],
+     "count": 600,
+     "height": 14
+    }
+   ],
+   "spec": {
+    "camera": {
+     "subject": "chief",
+     "framing": "ms",
+     "move": "push_in",
+     "angle": "low",
+     "lens": 35,
+     "az": 20
+    },
+    "actions": [
+     {
+      "who": "chief",
+      "action": "point",
+      "at": [
+       12,
+       -5,
+       0
+      ],
+      "facing": 200,
+      "expr": "angry"
+     }
+    ],
+    "w": 1.0,
+    "monster_at": [
+     -18,
+     44,
+     2.0
+    ],
+    "props": [
+     {
+      "kind": "fire_truck",
+      "at": [
+       15,
+       -9,
+       0
+      ],
+      "rot": 90,
+      "name": "truck1"
+     },
+     {
+      "kind": "police_car",
+      "at": [
+       -12,
+       -10,
+       0
+      ],
+      "rot": 40,
+      "name": "cop1"
+     },
+     {
+      "kind": "barrier",
+      "at": [
+       4,
+       8,
+       0
+      ]
+     },
+     {
+      "kind": "barrier",
+      "at": [
+       -6,
+       8,
+       0
+      ]
+     },
+     {
+      "kind": "crane",
+      "at": [
+       -80,
+       150,
+       0
+      ],
+      "height": 90,
+      "rot": 30
+     },
+     {
+      "kind": "pylon",
+      "at": [
+       100,
+       140,
+       0
+      ],
+      "height": 55
+     },
+     {
+      "kind": "rubble",
+      "start": [
+       -18,
+       9,
+       0
+      ],
+      "end": [
+       -18,
+       32,
+       0
+      ],
+      "width": 9,
+      "height": 1.2,
+      "count": 80,
+      "seed": 3
+     },
+     {
+      "kind": "rubble",
+      "start": [
+       -26,
+       40,
+       0
+      ],
+      "end": [
+       -10,
+       46,
+       0
+      ],
+      "width": 18,
+      "height": 3,
+      "count": 70,
+      "seed": 7
+     },
+     {
+      "kind": "box",
+      "name": "platform",
+      "at": [
+       -10,
+       35,
+       0.8
+      ],
+      "size": [
+       3.2,
+       3.2,
+       1.6
+      ],
+      "color": [
+       0.32,
+       0.31,
+       0.3
+      ]
+     }
+    ],
+    "fx": [
+     {
+      "kind": "embers",
+      "count": 260,
+      "area": 40,
+      "height": 18
+     },
+     {
+      "kind": "flood",
+      "keys": [
+       [
+        1,
+        0.35
+       ]
+      ]
+     },
+     {
+      "kind": "spray",
+      "at": [
+       15,
+       -7,
+       3.2
+      ],
+      "count": 600,
+      "height": 14
+     }
+    ],
+    "id": "s026",
+    "beat": 25,
+    "start": 49.542,
+    "frames": 63,
+    "set": "plaza",
+    "cast": [
+     "chief"
+    ],
+    "talk": {
+     "who": "chief",
+     "f0": 2,
+     "f1": 59
+    },
+    "start_frame": 1189
+   }
+  },
+  {
+   "id": "s027",
+   "beat": 26,
+   "start": 52.167,
+   "dur": 1.46,
+   "frames": 35,
+   "set": "plaza",
+   "camera": {
+    "move": "pull_out",
+    "framing": "ws",
+    "angle": "low",
+    "lens_mm": 24,
+    "subject": "monster",
+    "subject2": null,
+    "az": 20,
+    "note": ""
+   },
+   "action": [
+    "monster:collapse"
+   ],
+   "fx": [
+    {
+     "kind": "embers",
+     "count": 260,
+     "area": 40,
+     "height": 18
+    },
+    {
+     "kind": "flood",
+     "keys": [
+      [
+       1,
+       0.35
+      ]
+     ]
+    },
+    {
+     "kind": "steam",
+     "at": [
+      -18,
+      40,
+      3
+     ],
+     "f": 6,
+     "dur": 50,
+     "radius": 14
+    },
+    {
+     "kind": "steam",
+     "at": [
+      -12,
+      46,
+      3
+     ],
+     "f": 16,
+     "dur": 50,
+     "radius": 12
+    }
+   ],
+   "spec": {
+    "camera": {
+     "subject": "monster",
+     "framing": "ws",
+     "move": "pull_out",
+     "angle": "low",
+     "lens": 24,
+     "az": 20
+    },
+    "actions": [
+     {
+      "who": "monster",
+      "action": "collapse"
+     }
+    ],
+    "w": 1.0,
+    "monster_at": [
+     -18,
+     44,
+     2.0
+    ],
+    "props": [
+     {
+      "kind": "fire_truck",
+      "at": [
+       15,
+       -9,
+       0
+      ],
+      "rot": 90,
+      "name": "truck1"
+     },
+     {
+      "kind": "police_car",
+      "at": [
+       -12,
+       -10,
+       0
+      ],
+      "rot": 40,
+      "name": "cop1"
+     },
+     {
+      "kind": "barrier",
+      "at": [
+       4,
+       8,
+       0
+      ]
+     },
+     {
+      "kind": "barrier",
+      "at": [
+       -6,
+       8,
+       0
+      ]
+     },
+     {
+      "kind": "crane",
+      "at": [
+       -80,
+       150,
+       0
+      ],
+      "height": 90,
+      "rot": 30
+     },
+     {
+      "kind": "pylon",
+      "at": [
+       100,
+       140,
+       0
+      ],
+      "height": 55
+     },
+     {
+      "kind": "rubble",
+      "start": [
+       -18,
+       9,
+       0
+      ],
+      "end": [
+       -18,
+       32,
+       0
+      ],
+      "width": 9,
+      "height": 1.2,
+      "count": 80,
+      "seed": 3
+     },
+     {
+      "kind": "rubble",
+      "start": [
+       -26,
+       40,
+       0
+      ],
+      "end": [
+       -10,
+       46,
+       0
+      ],
+      "width": 18,
+      "height": 3,
+      "count": 70,
+      "seed": 7
+     },
+     {
+      "kind": "box",
+      "name": "platform",
+      "at": [
+       -10,
+       35,
+       0.8
+      ],
+      "size": [
+       3.2,
+       3.2,
+       1.6
+      ],
+      "color": [
+       0.32,
+       0.31,
+       0.3
+      ]
+     }
+    ],
+    "fx": [
+     {
+      "kind": "embers",
+      "count": 260,
+      "area": 40,
+      "height": 18
+     },
+     {
+      "kind": "flood",
+      "keys": [
+       [
+        1,
+        0.35
+       ]
+      ]
+     },
+     {
+      "kind": "steam",
+      "at": [
+       -18,
+       40,
+       3
+      ],
+      "f": 6,
+      "dur": 50,
+      "radius": 14
+     },
+     {
+      "kind": "steam",
+      "at": [
+       -12,
+       46,
+       3
+      ],
+      "f": 16,
+      "dur": 50,
+      "radius": 12
+     }
+    ],
+    "impacts": [
+     {
+      "f": 40,
+      "at": [
+       -18,
+       40,
+       2
+      ],
+      "power": 1.0,
+      "debris": false
+     }
+    ],
+    "id": "s027",
+    "beat": 26,
+    "start": 52.167,
+    "frames": 35,
+    "set": "plaza",
+    "cast": [],
+    "start_frame": 1252
+   }
+  },
+  {
+   "id": "s028",
+   "beat": 27,
+   "start": 53.625,
+   "dur": 3.42,
+   "frames": 82,
+   "set": "plaza",
+   "camera": {
+    "move": "drone_orbit",
+    "framing": "ews",
+    "angle": "high",
+    "lens_mm": 24,
+    "subject": [
+     -18,
+     44,
+     4
+    ],
+    "subject2": null,
+    "az": 0,
+    "note": ""
+   },
+   "action": [
+    "monster:freeze"
+   ],
+   "fx": [
+    {
+     "kind": "flood",
+     "keys": [
+      [
+       1,
+       0.35
+      ]
+     ]
+    },
+    {
+     "kind": "fogbank",
+     "at": [
+      -18,
+      44,
+      3
+     ],
+     "size": [
+      60,
+      50,
+      8
+     ],
+     "density": 0.02
+    }
+   ],
+   "spec": {
+    "camera": {
+     "subject": [
+      -18,
+      44,
+      4
+     ],
+     "framing": "ews",
+     "move": "drone_orbit",
+     "angle": "high",
+     "lens": 24,
+     "az": 0,
+     "pos": [
+      30,
+      0,
+      34
+     ],
+     "pos2": [
+      18,
+      -10,
+      30
+     ]
+    },
+    "actions": [
+     {
+      "who": "monster",
+      "action": "freeze"
+     }
+    ],
+    "w": 1.0,
+    "monster_at": [
+     -18,
+     44,
+     -14
+    ],
+    "monster_glow": 0.0,
+    "props": [
+     {
+      "kind": "fire_truck",
+      "at": [
+       15,
+       -9,
+       0
+      ],
+      "rot": 90,
+      "name": "truck1"
+     },
+     {
+      "kind": "police_car",
+      "at": [
+       -12,
+       -10,
+       0
+      ],
+      "rot": 40,
+      "name": "cop1"
+     },
+     {
+      "kind": "barrier",
+      "at": [
+       4,
+       8,
+       0
+      ]
+     },
+     {
+      "kind": "barrier",
+      "at": [
+       -6,
+       8,
+       0
+      ]
+     },
+     {
+      "kind": "crane",
+      "at": [
+       -80,
+       150,
+       0
+      ],
+      "height": 90,
+      "rot": 30
+     },
+     {
+      "kind": "pylon",
+      "at": [
+       100,
+       140,
+       0
+      ],
+      "height": 55
+     },
+     {
+      "kind": "rubble",
+      "start": [
+       -18,
+       9,
+       0
+      ],
+      "end": [
+       -18,
+       32,
+       0
+      ],
+      "width": 9,
+      "height": 1.2,
+      "count": 80,
+      "seed": 3
+     },
+     {
+      "kind": "rubble",
+      "start": [
+       -26,
+       40,
+       0
+      ],
+      "end": [
+       -10,
+       46,
+       0
+      ],
+      "width": 18,
+      "height": 3,
+      "count": 70,
+      "seed": 7
+     },
+     {
+      "kind": "box",
+      "name": "platform",
+      "at": [
+       -10,
+       35,
+       0.8
+      ],
+      "size": [
+       3.2,
+       3.2,
+       1.6
+      ],
+      "color": [
+       0.32,
+       0.31,
+       0.3
+      ]
+     }
+    ],
+    "fx": [
+     {
+      "kind": "flood",
+      "keys": [
+       [
+        1,
+        0.35
+       ]
+      ]
+     },
+     {
+      "kind": "fogbank",
+      "at": [
+       -18,
+       44,
+       3
+      ],
+      "size": [
+       60,
+       50,
+       8
+      ],
+      "density": 0.02
+     }
+    ],
+    "id": "s028",
+    "beat": 27,
+    "start": 53.625,
+    "frames": 82,
+    "set": "plaza",
+    "cast": [],
+    "start_frame": 1287
+   }
+  },
+  {
+   "id": "s029",
+   "beat": 28,
+   "start": 57.042,
+   "dur": 1.46,
+   "frames": 35,
+   "set": "plaza",
+   "camera": {
+    "move": "push_in",
+    "framing": "mcu",
+    "angle": "eye",
+    "lens_mm": 50,
+    "subject": "leo",
+    "subject2": null,
+    "az": 10,
+    "note": ""
+   },
+   "action": [
+    "leo:idle",
+    "nora:kneel"
+   ],
+   "fx": [
+    {
+     "kind": "flood",
+     "keys": [
+      [
+       1,
+       0.05
+      ]
+     ]
+    }
+   ],
+   "spec": {
+    "camera": {
+     "subject": "leo",
+     "framing": "mcu",
+     "move": "push_in",
+     "angle": "eye",
+     "lens": 50,
+     "az": 10
+    },
+    "actions": [
+     {
+      "who": "leo",
+      "action": "idle",
+      "at": [
+       1.2,
+       -4,
+       0
+      ],
+      "facing": 150,
+      "expr": "sad"
+     },
+     {
+      "who": "nora",
+      "action": "kneel",
+      "at": [
+       0,
+       -5,
+       0
+      ],
+      "facing": 330
+     }
+    ],
+    "w": 1.0,
+    "monster": false,
+    "fx": [
+     {
+      "kind": "flood",
+      "keys": [
+       [
+        1,
+        0.05
+       ]
+      ]
+     }
+    ],
+    "id": "s029",
+    "beat": 28,
+    "start": 57.042,
+    "frames": 35,
+    "set": "plaza",
+    "cast": [
+     "leo",
+     "nora"
+    ],
+    "props": [
+     {
+      "kind": "fire_truck",
+      "at": [
+       15,
+       -9,
+       0
+      ],
+      "rot": 90,
+      "name": "truck1"
+     },
+     {
+      "kind": "police_car",
+      "at": [
+       -12,
+       -10,
+       0
+      ],
+      "rot": 40,
+      "name": "cop1"
+     },
+     {
+      "kind": "barrier",
+      "at": [
+       4,
+       8,
+       0
+      ]
+     },
+     {
+      "kind": "barrier",
+      "at": [
+       -6,
+       8,
+       0
+      ]
+     },
+     {
+      "kind": "crane",
+      "at": [
+       -80,
+       150,
+       0
+      ],
+      "height": 90,
+      "rot": 30
+     },
+     {
+      "kind": "pylon",
+      "at": [
+       100,
+       140,
+       0
+      ],
+      "height": 55
+     }
+    ],
+    "talk": {
+     "who": "leo",
+     "f0": 2,
+     "f1": 18
+    },
+    "start_frame": 1369
+   }
+  },
+  {
+   "id": "s030",
+   "beat": 29,
+   "start": 58.5,
+   "dur": 3.5,
+   "frames": 84,
+   "set": "plaza",
+   "camera": {
+    "move": "push_in",
+    "framing": "cu",
+    "angle": "eye",
+    "lens_mm": 85,
+    "subject": "nora",
+    "subject2": null,
+    "az": 20,
+    "note": ""
+   },
+   "action": [
+    "nora:kneel",
+    "leo:idle"
+   ],
+   "fx": [
+    {
+     "kind": "flood",
+     "keys": [
+      [
+       1,
+       0.05
+      ]
+     ]
+    }
+   ],
+   "spec": {
+    "camera": {
+     "subject": "nora",
+     "framing": "cu",
+     "move": "push_in",
+     "angle": "eye",
+     "lens": 85,
+     "az": 20
+    },
+    "actions": [
+     {
+      "who": "nora",
+      "action": "kneel",
+      "at": [
+       0,
+       -5,
+       0
+      ],
+      "facing": 330,
+      "expr": "happy"
+     },
+     {
+      "who": "leo",
+      "action": "idle",
+      "at": [
+       1.2,
+       -4,
+       0
+      ],
+      "facing": 150,
+      "expr": "happy"
+     }
+    ],
+    "w": 1.0,
+    "monster": false,
+    "fx": [
+     {
+      "kind": "flood",
+      "keys": [
+       [
+        1,
+        0.05
+       ]
+      ]
+     }
+    ],
+    "id": "s030",
+    "beat": 29,
+    "start": 58.5,
+    "frames": 84,
+    "set": "plaza",
+    "cast": [
+     "leo",
+     "nora"
+    ],
+    "props": [
+     {
+      "kind": "fire_truck",
+      "at": [
+       15,
+       -9,
+       0
+      ],
+      "rot": 90,
+      "name": "truck1"
+     },
+     {
+      "kind": "police_car",
+      "at": [
+       -12,
+       -10,
+       0
+      ],
+      "rot": 40,
+      "name": "cop1"
+     },
+     {
+      "kind": "barrier",
+      "at": [
+       4,
+       8,
+       0
+      ]
+     },
+     {
+      "kind": "barrier",
+      "at": [
+       -6,
+       8,
+       0
+      ]
+     },
+     {
+      "kind": "crane",
+      "at": [
+       -80,
+       150,
+       0
+      ],
+      "height": 90,
+      "rot": 30
+     },
+     {
+      "kind": "pylon",
+      "at": [
+       100,
+       140,
+       0
+      ],
+      "height": 55
+     }
+    ],
+    "talk": {
+     "who": "nora",
+     "f0": 2,
+     "f1": 28
+    },
+    "start_frame": 1404
+   }
+  }
+ ]
+}

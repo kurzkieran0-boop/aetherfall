@@ -1,0 +1,3070 @@
+{
+ "slug": "the-dry-side",
+ "title": "The Dry Side",
+ "rule_id": "water",
+ "rule": "It can't cross water.",
+ "logline": "A giant made of fire can't cross the canal \u2014 and Nora's little brother is stuck on its side. When it starts building a bridge out of the city itself, Nora floods the plaza and goes back for him.",
+ "genre": "monster adventure",
+ "set": "plaza",
+ "seed": 5,
+ "look": "ember",
+ "key": "C",
+ "bpm": 100,
+ "fx": [
+  {
+   "kind": "embers",
+   "count": 260,
+   "area": 40,
+   "height": 18
+  }
+ ],
+ "thumb_text": "IT CAN'T CROSS WATER",
+ "hook_caption": "It can't cross water. So it started building a bridge\u2026 \ud83d\udd25\ud83c\udf0a",
+ "description": "A giant made of fire. One rule: it can't cross water. Nora made it over the canal \u2014 her little brother didn't. Then the giant starts building a bridge out of the city itself.",
+ "hashtags": [
+  "#shorts",
+  "#animation",
+  "#monster",
+  "#3danimation",
+  "#blender",
+  "#story",
+  "#kaiju",
+  "#siblings",
+  "#thedryside",
+  "#fyp"
+ ],
+ "characters": {
+  "nora": {
+   "name": "Nora",
+   "voice": "girl_uk",
+   "accessory": "hair",
+   "mark": "hero",
+   "facing": 180,
+   "palette": {
+    "shirt": [
+     0.95,
+     0.8,
+     0.1
+    ],
+    "pants": [
+     0.1,
+     0.2,
+     0.35
+    ],
+    "hair": [
+     0.35,
+     0.12,
+     0.04
+    ]
+   },
+   "bio": "13. Never leaves anything behind \u2014 not her bike, not her homework, never her brother. Want: get Leo back. Flaw: always goes back, even when everyone says don't."
+  },
+  "leo": {
+   "name": "Leo",
+   "voice": "kid",
+   "accessory": "cap",
+   "mark": "hero",
+   "facing": 0,
+   "scale": 0.8,
+   "palette": {
+    "shirt": [
+     0.2,
+     0.5,
+     0.95
+    ],
+    "pants": [
+     0.1,
+     0.1,
+     0.15
+    ],
+    "hat": [
+     0.9,
+     0.2,
+     0.1
+    ]
+   },
+   "bio": "7. Nora's little brother. Stayed exactly where she told him to."
+  },
+  "chief": {
+   "name": "Chief Okafor",
+   "voice": "man",
+   "accessory": "helmet",
+   "mark": "hero",
+   "facing": 180,
+   "palette": {
+    "shirt": [
+     0.15,
+     0.13,
+     0.1
+    ],
+    "pants": [
+     0.12,
+     0.1,
+     0.08
+    ],
+    "hat": [
+     0.95,
+     0.75,
+     0.05
+    ],
+    "stripe": [
+     0.95,
+     0.9,
+     0.3
+    ]
+   },
+   "bio": "Fire chief. Says no to Nora twice. Says yes to her plan once."
+  }
+ },
+ "monster": {
+  "name": "Cinder",
+  "kind": "warden",
+  "height": 60,
+  "glow": [
+   1.0,
+   0.38,
+   0.06
+  ],
+  "seed": 6,
+  "eyes": 2,
+  "glow_strength": 16,
+  "roar_pitch": 0.8,
+  "arm_len": 1.1,
+  "bio": "A 60 m walking furnace \u2014 a tall, thin statue of cooling lava with a molten core and arms that reach rooftops. Water hisses it to stone, so it won't set one foot in the canal.",
+  "signature": "slow, tall strides that leave smoking footprints; a deep bellows roar; steam when wet"
+ },
+ "dressing": {
+  "plaza": [
+   {
+    "kind": "fire_truck",
+    "at": [
+     15,
+     -9,
+     0
+    ],
+    "rot": 90,
+    "name": "truck1"
+   },
+   {
+    "kind": "police_car",
+    "at": [
+     -12,
+     -10,
+     0
+    ],
+    "rot": 40,
+    "name": "cop1"
+   },
+   {
+    "kind": "barrier",
+    "at": [
+     4,
+     8,
+     0
+    ]
+   },
+   {
+    "kind": "barrier",
+    "at": [
+     -6,
+     8,
+     0
+    ]
+   },
+   {
+    "kind": "crane",
+    "at": [
+     -80,
+     150,
+     0
+    ],
+    "height": 90,
+    "rot": 30
+   },
+   {
+    "kind": "pylon",
+    "at": [
+     100,
+     140,
+     0
+    ],
+    "height": 55
+   }
+  ]
+ },
+ "set_fx": {},
+ "premises": [
+  {
+   "premise": "A fire giant can't cross water; a girl must go back across the canal for her brother.",
+   "scores": {
+    "hook": 9,
+    "clarity": 10,
+    "clever_use": 9,
+    "reversal": 9,
+    "originality": 7,
+    "total": 44
+   }
+  },
+  {
+   "premise": "It can't go indoors; a family has to cross the city without stepping outside.",
+   "scores": {
+    "hook": 7,
+    "clarity": 9,
+    "clever_use": 7,
+    "reversal": 6,
+    "originality": 8,
+    "total": 37
+   }
+  },
+  {
+   "premise": "It can't climb; a rooftop is the only safe place \u2014 until the building starts to lean.",
+   "scores": {
+    "hook": 8,
+    "clarity": 9,
+    "clever_use": 6,
+    "reversal": 8,
+    "originality": 6,
+    "total": 37
+   }
+  },
+  {
+   "premise": "It can't cross a line of salt; the last truck of road salt is stuck in traffic.",
+   "scores": {
+    "hook": 7,
+    "clarity": 8,
+    "clever_use": 8,
+    "reversal": 7,
+    "originality": 7,
+    "total": 37
+   }
+  },
+  {
+   "premise": "It can't touch metal; a scrapyard kid builds the city a fence.",
+   "scores": {
+    "hook": 7,
+    "clarity": 9,
+    "clever_use": 7,
+    "reversal": 7,
+    "originality": 7,
+    "total": 37
+   }
+  },
+  {
+   "premise": "It can't go uphill; the whole town races up the only hill while it rains.",
+   "scores": {
+    "hook": 7,
+    "clarity": 9,
+    "clever_use": 5,
+    "reversal": 6,
+    "originality": 6,
+    "total": 33
+   }
+  },
+  {
+   "premise": "It can't enter a circle of light; a lighthouse keeper's last night on the job.",
+   "scores": {
+    "hook": 7,
+    "clarity": 8,
+    "clever_use": 7,
+    "reversal": 6,
+    "originality": 6,
+    "total": 34
+   }
+  },
+  {
+   "premise": "It can't cross its own footprints; a boy tricks it into walking in a spiral.",
+   "scores": {
+    "hook": 8,
+    "clarity": 7,
+    "clever_use": 9,
+    "reversal": 7,
+    "originality": 9,
+    "total": 40
+   }
+  },
+  {
+   "premise": "It can't cross the city limits; a bus driver must drive everyone past the sign.",
+   "scores": {
+    "hook": 7,
+    "clarity": 9,
+    "clever_use": 6,
+    "reversal": 7,
+    "originality": 6,
+    "total": 35
+   }
+  },
+  {
+   "premise": "It can't stand in the rain; the clouds are moving away.",
+   "scores": {
+    "hook": 7,
+    "clarity": 9,
+    "clever_use": 5,
+    "reversal": 7,
+    "originality": 6,
+    "total": 34
+   }
+  }
+ ],
+ "chosen": 0,
+ "why": "The canal is a visible, physical line the audience can track in every wide shot; the rule creates instant geography (safe side / dry side). The giant beating its own rule by building a bridge is a reversal people won't see coming, and the hero's flaw (always goes back) becomes the climax.",
+ "outline": [
+  [
+   "Hook",
+   "0-4s",
+   "Wide on a city running to the canal; the giant stops dead at the water's edge."
+  ],
+  [
+   "Rule",
+   "4-10s",
+   "Its foot touches the water \u2014 steam, recoil. It can't cross water."
+  ],
+  [
+   "Hero + stakes",
+   "10-20s",
+   "Nora made it over the bridge. Leo didn't. He's alone on the dry side."
+  ],
+  [
+   "Flaw",
+   "20-27s",
+   "Chief: nobody crosses back. Narrator: Nora never leaves anything behind."
+  ],
+  [
+   "Reversal",
+   "27-38s",
+   "It tears buildings down and fills the canal \u2014 building a bridge."
+  ],
+  [
+   "Clever use",
+   "38-48s",
+   "Nora: open every hydrant, flood the plaza. It's trapped on its own rubble."
+  ],
+  [
+   "Twist",
+   "48-54s",
+   "But Leo is on the rubble too \u2014 right next to it."
+  ],
+  [
+   "Climax",
+   "54-64s",
+   "Nora goes back across the giant's own bridge; grabs Leo; they jump into the water."
+  ],
+  [
+   "Win + ending",
+   "64-80s",
+   "The hoses open up; the fire goes out. 'You came back.' 'I always come back.'"
+  ]
+ ],
+ "draft": "NARRATOR: When the fire monster attacked, everyone in the city ran towards the canal for safety.\nNARRATOR: That's because the monster is made of fire and cannot cross water.\nNARRATOR: Nora crossed the bridge to the safe side but her younger brother Leo was left behind.\nNORA: Leo, don't move, I am coming back to get you!\nCHIEF: Nobody is allowed to cross back over, it's too dangerous.\nNARRATOR: The monster started throwing pieces of buildings into the canal to make a bridge.\nNARRATOR: Nora had an idea to use the fire hydrants to flood the plaza with water.\nNORA: Open the hydrants and flood everything!\nNARRATOR: The monster was trapped, but Leo was trapped with it.\nNARRATOR: Nora ran back across the bridge, grabbed Leo and they jumped into the water.\nNARRATOR: The firefighters sprayed the monster and it went out.\nLEO: You came back for me.\nNORA: Of course I did.",
+ "critique": [
+  "Hook buries the rule; open on the image (everyone running) and the reason in the second line \u2014 curiosity gap.",
+  "'Cannot cross water' reads like a manual; show the foot hitting the water first, then say it in five words.",
+  "Leo being left behind needs its own beat and a cut to him alone and tiny under the giant \u2014 that's the stakes shot.",
+  "Nora's flaw has no setup. Add 'Nora never left anything behind' BEFORE she needs to go back, so the climax pays it off.",
+  "The bridge reversal is the best idea in the story \u2014 slow it down: 'It can't cross water\u2026 but it can fill it.'",
+  "Flood plan needs a rule-echo line: 'If it can't cross water \u2014 give it nothing but water.'",
+  "Leo trapped on the island is a second twist; land it with a braam, not narration alone.",
+  "'Of course I did' is flat. 'I always come back' turns the flaw into the theme in four words.",
+  "Missing silence/air: let the jump into the water play with just a splash and steam before the next line."
+ ],
+ "beat_map": [
+  "Reveals: canal stand-off (2s) \u2192 steam recoil (6s) \u2192 Leo stranded (12s) \u2192 bridge of buildings (28s) \u2192 flood trap (42s) \u2192 Leo on the island (50s) \u2192 the jump (60s) \u2192 fire goes out (68s)."
+ ],
+ "beats": [
+  {
+   "say": [
+    "narrator",
+    "Everyone in the city ran for the canal."
+   ],
+   "shots": [
+    {
+     "camera": {
+      "subject": "mark:canal",
+      "framing": "ews",
+      "move": "drone_orbit",
+      "angle": "high",
+      "lens": 24,
+      "az": 0,
+      "pos": [
+       38,
+       -42,
+       42
+      ],
+      "pos2": [
+       22,
+       -48,
+       36
+      ]
+     },
+     "actions": [
+      {
+       "who": "monster",
+       "action": "walk",
+       "path": [
+        [
+         0,
+         80,
+         0
+        ],
+        [
+         0,
+         70,
+         0
+        ]
+       ],
+       "cycle": 32
+      }
+     ],
+     "w": 1.0,
+     "monster_at": [
+      0,
+      80,
+      0
+     ]
+    }
+   ],
+   "pad": 0.25,
+   "tension": 0.35,
+   "kind": null,
+   "sfx": [],
+   "hold": 0.0,
+   "label": null
+  },
+  {
+   "say": [
+    "narrator",
+    "Because it's the one thing it can't cross."
+   ],
+   "shots": [
+    {
+     "camera": {
+      "subject": "monster",
+      "framing": "ws",
+      "move": "tilt_up",
+      "angle": "worm",
+      "lens": 24,
+      "az": 0
+     },
+     "actions": [
+      {
+       "who": "monster",
+       "action": "walk",
+       "path": [
+        [
+         0,
+         42,
+         0
+        ],
+        [
+         0,
+         33,
+         0
+        ]
+       ],
+       "cycle": 32
+      }
+     ],
+     "w": 1.0,
+     "monster_at": [
+      0,
+      42,
+      0
+     ]
+    }
+   ],
+   "pad": 0.25,
+   "tension": 0.55,
+   "kind": "hit",
+   "sfx": [],
+   "hold": 0.0,
+   "label": "rule"
+  },
+  {
+   "say": [
+    "narrator",
+    "It's made of fire. Water puts it out."
+   ],
+   "shots": [
+    {
+     "camera": {
+      "subject": [
+       0,
+       28,
+       1.0
+      ],
+      "framing": "ms",
+      "move": "push_in",
+      "angle": "low",
+      "lens": 35,
+      "az": 180
+     },
+     "actions": [
+      {
+       "who": "monster",
+       "action": "stomp",
+       "side": "R",
+       "t0": 0.1,
+       "t1": 0.6
+      }
+     ],
+     "w": 1.0,
+     "monster_at": [
+      0,
+      36,
+      0
+     ],
+     "fx": [
+      {
+       "kind": "embers",
+       "count": 260,
+       "area": 40,
+       "height": 18
+      },
+      {
+       "kind": "steam",
+       "at": [
+        -3,
+        28,
+        0
+       ],
+       "f": 18,
+       "dur": 40,
+       "radius": 5
+      }
+     ]
+    },
+    {
+     "camera": {
+      "subject": "monster",
+      "framing": "mcu",
+      "move": "push_in",
+      "angle": "low",
+      "lens": 50,
+      "az": 0
+     },
+     "actions": [
+      {
+       "who": "monster",
+       "action": "roar"
+      }
+     ],
+     "w": 1.0,
+     "monster_at": [
+      0,
+      36,
+      0
+     ]
+    }
+   ],
+   "pad": 0.25,
+   "tension": 0.6,
+   "kind": null,
+   "sfx": [
+    {
+     "kind": "steam",
+     "at": 0.35
+    },
+    {
+     "kind": "roar",
+     "at": 0.55
+    }
+   ],
+   "hold": 0.0,
+   "label": null
+  },
+  {
+   "say": [
+    "narrator",
+    "Nora made it over the bridge."
+   ],
+   "shots": [
+    {
+     "camera": {
+      "subject": "nora",
+      "framing": "mws",
+      "move": "track",
+      "angle": "eye",
+      "lens": 35,
+      "az": 0
+     },
+     "actions": [
+      {
+       "who": "nora",
+       "action": "run",
+       "path": [
+        [
+         0,
+         24,
+         0.6
+        ],
+        [
+         0,
+         4,
+         0
+        ]
+       ]
+      }
+     ],
+     "w": 1.0,
+     "monster_at": [
+      0,
+      70,
+      0
+     ]
+    }
+   ],
+   "pad": 0.25,
+   "tension": 0.5,
+   "kind": null,
+   "sfx": [],
+   "hold": 0.0,
+   "label": "hero"
+  },
+  {
+   "say": [
+    "narrator",
+    "Her little brother didn't."
+   ],
+   "shots": [
+    {
+     "camera": {
+      "subject": "leo",
+      "framing": "ws",
+      "move": "pull_out",
+      "angle": "low",
+      "lens": 24,
+      "az": 10
+     },
+     "actions": [
+      {
+       "who": "leo",
+       "action": "idle",
+       "at": [
+        8,
+        36,
+        0
+       ],
+       "facing": 10,
+       "expr": "fear"
+      },
+      {
+       "who": "monster",
+       "action": "lurk"
+      }
+     ],
+     "w": 1.0,
+     "monster_at": [
+      -6,
+      62,
+      0
+     ]
+    }
+   ],
+   "pad": 0.25,
+   "tension": 0.75,
+   "kind": "braam",
+   "sfx": [],
+   "hold": 0.0,
+   "label": null
+  },
+  {
+   "say": [
+    "leo",
+    "Nora? Nora!"
+   ],
+   "shots": [
+    {
+     "camera": {
+      "subject": "leo",
+      "framing": "cu",
+      "move": "push_in",
+      "angle": "eye",
+      "lens": 85,
+      "az": 0
+     },
+     "actions": [
+      {
+       "who": "leo",
+       "action": "talk",
+       "at": [
+        8,
+        36,
+        0
+       ],
+       "facing": 10,
+       "expr": "fear"
+      }
+     ],
+     "w": 1.0,
+     "monster_at": [
+      -6,
+      62,
+      0
+     ]
+    }
+   ],
+   "pad": 0.25,
+   "tension": 0.7,
+   "kind": null,
+   "sfx": [],
+   "hold": 0.0,
+   "label": null
+  },
+  {
+   "say": [
+    "nora",
+    "Leo! Stay there! I'm coming back!"
+   ],
+   "shots": [
+    {
+     "camera": {
+      "subject": "nora",
+      "framing": "mcu",
+      "move": "push_in",
+      "angle": "low",
+      "lens": 50,
+      "az": 10
+     },
+     "actions": [
+      {
+       "who": "nora",
+       "action": "point",
+       "at": [
+        0,
+        -4,
+        0
+       ],
+       "facing": 170,
+       "expr": "determined"
+      }
+     ],
+     "w": 1.0,
+     "monster_at": [
+      -6,
+      62,
+      0
+     ]
+    }
+   ],
+   "pad": 0.25,
+   "tension": 0.6,
+   "kind": null,
+   "sfx": [],
+   "hold": 0.0,
+   "label": null
+  },
+  {
+   "say": [
+    "chief",
+    "Nobody's crossing back, kid!"
+   ],
+   "shots": [
+    {
+     "camera": {
+      "subject": "chief",
+      "framing": "ms",
+      "move": "ots",
+      "angle": "eye",
+      "lens": 35,
+      "az": 200,
+      "subject2": "nora"
+     },
+     "actions": [
+      {
+       "who": "chief",
+       "action": "grab",
+       "at": [
+        1.5,
+        -6,
+        0
+       ],
+       "facing": 150
+      },
+      {
+       "who": "nora",
+       "action": "idle",
+       "at": [
+        0,
+        -4,
+        0
+       ],
+       "facing": 330,
+       "expr": "angry"
+      }
+     ],
+     "w": 1.0,
+     "monster_at": [
+      -6,
+      62,
+      0
+     ]
+    }
+   ],
+   "pad": 0.25,
+   "tension": 0.55,
+   "kind": null,
+   "sfx": [],
+   "hold": 0.0,
+   "label": null
+  },
+  {
+   "say": [
+    "narrator",
+    "But Nora never left anything behind."
+   ],
+   "shots": [
+    {
+     "camera": {
+      "subject": "nora",
+      "framing": "cu",
+      "move": "push_in",
+      "angle": "eye",
+      "lens": 85,
+      "az": 0
+     },
+     "actions": [
+      {
+       "who": "nora",
+       "action": "idle",
+       "at": [
+        0,
+        -4,
+        0
+       ],
+       "facing": 180,
+       "expr": "determined"
+      }
+     ],
+     "w": 1.0,
+     "monster_at": [
+      -6,
+      62,
+      0
+     ]
+    }
+   ],
+   "pad": 0.25,
+   "tension": 0.5,
+   "kind": null,
+   "sfx": [],
+   "hold": 0.0,
+   "label": null
+  },
+  {
+   "say": [
+    "narrator",
+    "Then it figured something out."
+   ],
+   "shots": [
+    {
+     "camera": {
+      "subject": "monster",
+      "framing": "ws",
+      "move": "push_in",
+      "angle": "low",
+      "lens": 24,
+      "az": 20
+     },
+     "actions": [
+      {
+       "who": "monster",
+       "action": "swipe",
+       "side": "L",
+       "t0": 0.1,
+       "t1": 0.7
+      }
+     ],
+     "w": 1.0,
+     "monster_at": [
+      -22,
+      52,
+      0
+     ],
+     "monster_facing": 30,
+     "impacts": [
+      {
+       "f": 26,
+       "at": [
+        -40,
+        55,
+        20
+       ],
+       "power": 1.3,
+       "count": 50
+      }
+     ]
+    }
+   ],
+   "pad": 0.25,
+   "tension": 0.7,
+   "kind": "riser",
+   "sfx": [
+    {
+     "kind": "crash",
+     "at": 0.6
+    }
+   ],
+   "hold": 0.0,
+   "label": null
+  },
+  {
+   "say": [
+    "narrator",
+    "It can't cross water\u2026"
+   ],
+   "shots": [
+    {
+     "camera": {
+      "subject": "monster",
+      "framing": "mws",
+      "move": "orbit_right",
+      "angle": "low",
+      "lens": 24,
+      "az": 40
+     },
+     "actions": [
+      {
+       "who": "monster",
+       "action": "reach",
+       "side": "R"
+      }
+     ],
+     "w": 1.0,
+     "monster_at": [
+      -18,
+      42,
+      0
+     ],
+     "props": [
+      {
+       "kind": "rubble",
+       "start": [
+        -18,
+        9,
+        0
+       ],
+       "end": [
+        -18,
+        32,
+        0
+       ],
+       "width": 9,
+       "height": 1.2,
+       "count": 80,
+       "seed": 3
+      }
+     ],
+     "impacts": [
+      {
+       "f": 14,
+       "at": [
+        -18,
+        20,
+        0
+       ],
+       "power": 1.2,
+       "count": 30
+      }
+     ]
+    }
+   ],
+   "pad": 0.25,
+   "tension": 0.75,
+   "kind": null,
+   "sfx": [
+    {
+     "kind": "splash",
+     "at": 0.3
+    }
+   ],
+   "hold": 0.0,
+   "label": null
+  },
+  {
+   "say": [
+    "narrator",
+    "but it can fill it."
+   ],
+   "shots": [
+    {
+     "camera": {
+      "subject": [
+       -18,
+       22,
+       0
+      ],
+      "framing": "ews",
+      "move": "crane_up",
+      "angle": "high",
+      "lens": 24,
+      "az": 0,
+      "pos": [
+       22,
+       -6,
+       14
+      ],
+      "pos2": [
+       16,
+       -14,
+       32
+      ]
+     },
+     "actions": [
+      {
+       "who": "monster",
+       "action": "lurk"
+      }
+     ],
+     "w": 1.0,
+     "monster_at": [
+      -18,
+      42,
+      0
+     ],
+     "props": [
+      {
+       "kind": "rubble",
+       "start": [
+        -18,
+        9,
+        0
+       ],
+       "end": [
+        -18,
+        32,
+        0
+       ],
+       "width": 9,
+       "height": 1.2,
+       "count": 80,
+       "seed": 3
+      }
+     ]
+    }
+   ],
+   "pad": 0.25,
+   "tension": 0.85,
+   "kind": "braam",
+   "sfx": [],
+   "hold": 0.0,
+   "label": null
+  },
+  {
+   "say": [
+    "narrator",
+    "Building by building, it made a bridge."
+   ],
+   "shots": [
+    {
+     "camera": {
+      "subject": "monster",
+      "framing": "ws",
+      "move": "push_in",
+      "angle": "worm",
+      "lens": 24,
+      "az": 10
+     },
+     "actions": [
+      {
+       "who": "monster",
+       "action": "walk",
+       "path": [
+        [
+         -18,
+         44,
+         0
+        ],
+        [
+         -18,
+         36,
+         0
+        ]
+       ],
+       "cycle": 32
+      }
+     ],
+     "w": 1.0,
+     "monster_at": [
+      -18,
+      44,
+      0
+     ],
+     "props": [
+      {
+       "kind": "rubble",
+       "start": [
+        -18,
+        9,
+        0
+       ],
+       "end": [
+        -18,
+        32,
+        0
+       ],
+       "width": 9,
+       "height": 1.2,
+       "count": 80,
+       "seed": 3
+      }
+     ]
+    }
+   ],
+   "pad": 0.25,
+   "tension": 0.8,
+   "kind": null,
+   "sfx": [],
+   "hold": 0.0,
+   "label": null
+  },
+  {
+   "say": [
+    "narrator",
+    "Nora looked at the fire truck. Then the hydrants."
+   ],
+   "shots": [
+    {
+     "camera": {
+      "subject": "nora",
+      "framing": "mcu",
+      "move": "orbit_left",
+      "angle": "eye",
+      "lens": 50,
+      "az": 30
+     },
+     "actions": [
+      {
+       "who": "nora",
+       "action": "turn",
+       "at": [
+        0,
+        -4,
+        0
+       ],
+       "facing": 150,
+       "to": 60,
+       "expr": "determined"
+      }
+     ],
+     "w": 1.0,
+     "monster_at": [
+      -18,
+      36,
+      0
+     ],
+     "props": [
+      {
+       "kind": "rubble",
+       "start": [
+        -18,
+        9,
+        0
+       ],
+       "end": [
+        -18,
+        32,
+        0
+       ],
+       "width": 9,
+       "height": 1.2,
+       "count": 80,
+       "seed": 3
+      }
+     ]
+    },
+    {
+     "camera": {
+      "subject": [
+       15,
+       -9,
+       2.5
+      ],
+      "framing": "ms",
+      "move": "push_in",
+      "angle": "low",
+      "lens": 35,
+      "az": 120
+     },
+     "actions": [],
+     "w": 0.8,
+     "monster_at": [
+      -18,
+      36,
+      0
+     ],
+     "props": [
+      {
+       "kind": "rubble",
+       "start": [
+        -18,
+        9,
+        0
+       ],
+       "end": [
+        -18,
+        32,
+        0
+       ],
+       "width": 9,
+       "height": 1.2,
+       "count": 80,
+       "seed": 3
+      }
+     ]
+    }
+   ],
+   "pad": 0.25,
+   "tension": 0.6,
+   "kind": "riser",
+   "sfx": [],
+   "hold": 0.0,
+   "label": null
+  },
+  {
+   "say": [
+    "nora",
+    "Open every hydrant! Flood the plaza!"
+   ],
+   "shots": [
+    {
+     "camera": {
+      "subject": "nora",
+      "framing": "ms",
+      "move": "push_in",
+      "angle": "low",
+      "lens": 35,
+      "az": 20
+     },
+     "actions": [
+      {
+       "who": "nora",
+       "action": "point",
+       "at": [
+        0,
+        -4,
+        0
+       ],
+       "facing": 200,
+       "expr": "determined"
+      },
+      {
+       "who": "chief",
+       "action": "idle",
+       "at": [
+        3,
+        -6,
+        0
+       ],
+       "facing": 150
+      }
+     ],
+     "w": 1.0,
+     "monster_at": [
+      -18,
+      36,
+      0
+     ],
+     "props": [
+      {
+       "kind": "rubble",
+       "start": [
+        -18,
+        9,
+        0
+       ],
+       "end": [
+        -18,
+        32,
+        0
+       ],
+       "width": 9,
+       "height": 1.2,
+       "count": 80,
+       "seed": 3
+      }
+     ]
+    }
+   ],
+   "pad": 0.25,
+   "tension": 0.7,
+   "kind": null,
+   "sfx": [],
+   "hold": 0.0,
+   "label": null
+  },
+  {
+   "say": [
+    "narrator",
+    "If it can't cross water\u2026"
+   ],
+   "shots": [
+    {
+     "camera": {
+      "subject": [
+       -6,
+       -2,
+       4.0
+      ],
+      "framing": "ms",
+      "move": "push_in",
+      "angle": "low",
+      "lens": 24,
+      "az": 0,
+      "pos": [
+       -2,
+       -16,
+       1.2
+      ],
+      "pos2": [
+       -3,
+       -12,
+       1.4
+      ]
+     },
+     "actions": [],
+     "w": 1.0,
+     "monster_at": [
+      -18,
+      36,
+      0
+     ],
+     "props": [
+      {
+       "kind": "rubble",
+       "start": [
+        -18,
+        9,
+        0
+       ],
+       "end": [
+        -18,
+        32,
+        0
+       ],
+       "width": 9,
+       "height": 1.2,
+       "count": 80,
+       "seed": 3
+      }
+     ],
+     "fx": [
+      {
+       "kind": "embers",
+       "count": 260,
+       "area": 40,
+       "height": 18
+      },
+      {
+       "kind": "spray",
+       "at": [
+        -6,
+        -2,
+        0.2
+       ],
+       "count": 500,
+       "height": 9
+      },
+      {
+       "kind": "spray",
+       "at": [
+        6,
+        -2,
+        0.2
+       ],
+       "count": 500,
+       "height": 9
+      }
+     ]
+    }
+   ],
+   "pad": 0.25,
+   "tension": 0.7,
+   "kind": null,
+   "sfx": [
+    {
+     "kind": "splash",
+     "at": 0.0
+    },
+    {
+     "kind": "steam",
+     "at": 0.2
+    }
+   ],
+   "hold": 0.0,
+   "label": null
+  },
+  {
+   "say": [
+    "narrator",
+    "give it nothing but water."
+   ],
+   "shots": [
+    {
+     "camera": {
+      "subject": "monster",
+      "framing": "ews",
+      "move": "drone_orbit",
+      "angle": "high",
+      "lens": 24,
+      "az": 0,
+      "pos": [
+       34,
+       -2,
+       36
+      ],
+      "pos2": [
+       22,
+       -14,
+       30
+      ]
+     },
+     "actions": [
+      {
+       "who": "monster",
+       "action": "roar"
+      }
+     ],
+     "w": 1.0,
+     "monster_at": [
+      -18,
+      44,
+      2.0
+     ],
+     "props": [
+      {
+       "kind": "rubble",
+       "start": [
+        -18,
+        9,
+        0
+       ],
+       "end": [
+        -18,
+        32,
+        0
+       ],
+       "width": 9,
+       "height": 1.2,
+       "count": 80,
+       "seed": 3
+      },
+      {
+       "kind": "rubble",
+       "start": [
+        -26,
+        40,
+        0
+       ],
+       "end": [
+        -10,
+        46,
+        0
+       ],
+       "width": 18,
+       "height": 3,
+       "count": 70,
+       "seed": 7
+      },
+      {
+       "kind": "box",
+       "name": "platform",
+       "at": [
+        -10,
+        35,
+        0.8
+       ],
+       "size": [
+        3.2,
+        3.2,
+        1.6
+       ],
+       "color": [
+        0.32,
+        0.31,
+        0.3
+       ]
+      }
+     ],
+     "fx": [
+      {
+       "kind": "embers",
+       "count": 260,
+       "area": 40,
+       "height": 18
+      },
+      {
+       "kind": "flood",
+       "keys": [
+        [
+         1,
+         -0.4
+        ],
+        [
+         40,
+         0.35
+        ]
+       ]
+      }
+     ]
+    }
+   ],
+   "pad": 0.25,
+   "tension": 0.85,
+   "kind": "hit",
+   "sfx": [
+    {
+     "kind": "roar",
+     "at": 0.3
+    }
+   ],
+   "hold": 0.0,
+   "label": null
+  },
+  {
+   "say": [
+    "narrator",
+    "It was trapped. On its own island."
+   ],
+   "shots": [
+    {
+     "camera": {
+      "subject": "monster",
+      "framing": "ws",
+      "move": "orbit_left",
+      "angle": "low",
+      "lens": 24,
+      "az": 10
+     },
+     "actions": [
+      {
+       "who": "monster",
+       "action": "lurk"
+      }
+     ],
+     "w": 1.0,
+     "monster_at": [
+      -18,
+      44,
+      2.0
+     ],
+     "props": [
+      {
+       "kind": "rubble",
+       "start": [
+        -18,
+        9,
+        0
+       ],
+       "end": [
+        -18,
+        32,
+        0
+       ],
+       "width": 9,
+       "height": 1.2,
+       "count": 80,
+       "seed": 3
+      },
+      {
+       "kind": "rubble",
+       "start": [
+        -26,
+        40,
+        0
+       ],
+       "end": [
+        -10,
+        46,
+        0
+       ],
+       "width": 18,
+       "height": 3,
+       "count": 70,
+       "seed": 7
+      },
+      {
+       "kind": "box",
+       "name": "platform",
+       "at": [
+        -10,
+        35,
+        0.8
+       ],
+       "size": [
+        3.2,
+        3.2,
+        1.6
+       ],
+       "color": [
+        0.32,
+        0.31,
+        0.3
+       ]
+      }
+     ],
+     "fx": [
+      {
+       "kind": "embers",
+       "count": 260,
+       "area": 40,
+       "height": 18
+      },
+      {
+       "kind": "flood",
+       "keys": [
+        [
+         1,
+         0.35
+        ]
+       ]
+      },
+      {
+       "kind": "steam",
+       "at": [
+        -18,
+        34,
+        0.4
+       ],
+       "f": 6,
+       "dur": 40,
+       "radius": 6
+      }
+     ]
+    }
+   ],
+   "pad": 0.25,
+   "tension": 0.6,
+   "kind": null,
+   "sfx": [],
+   "hold": 0.0,
+   "label": null
+  },
+  {
+   "say": [
+    "narrator",
+    "But Leo was on that island too."
+   ],
+   "shots": [
+    {
+     "camera": {
+      "subject": "leo",
+      "framing": "ms",
+      "move": "push_in",
+      "angle": "low",
+      "lens": 24,
+      "az": 0
+     },
+     "actions": [
+      {
+       "who": "leo",
+       "action": "hide",
+       "at": [
+        -10,
+        35,
+        1.6
+       ],
+       "facing": 20
+      },
+      {
+       "who": "monster",
+       "action": "lurk"
+      }
+     ],
+     "w": 1.0,
+     "monster_at": [
+      -18,
+      44,
+      2.0
+     ],
+     "props": [
+      {
+       "kind": "rubble",
+       "start": [
+        -18,
+        9,
+        0
+       ],
+       "end": [
+        -18,
+        32,
+        0
+       ],
+       "width": 9,
+       "height": 1.2,
+       "count": 80,
+       "seed": 3
+      },
+      {
+       "kind": "rubble",
+       "start": [
+        -26,
+        40,
+        0
+       ],
+       "end": [
+        -10,
+        46,
+        0
+       ],
+       "width": 18,
+       "height": 3,
+       "count": 70,
+       "seed": 7
+      },
+      {
+       "kind": "box",
+       "name": "platform",
+       "at": [
+        -10,
+        35,
+        0.8
+       ],
+       "size": [
+        3.2,
+        3.2,
+        1.6
+       ],
+       "color": [
+        0.32,
+        0.31,
+        0.3
+       ]
+      }
+     ],
+     "fx": [
+      {
+       "kind": "embers",
+       "count": 260,
+       "area": 40,
+       "height": 18
+      },
+      {
+       "kind": "flood",
+       "keys": [
+        [
+         1,
+         0.35
+        ]
+       ]
+      }
+     ]
+    }
+   ],
+   "pad": 0.25,
+   "tension": 0.9,
+   "kind": "braam",
+   "sfx": [],
+   "hold": 0.0,
+   "label": null
+  },
+  {
+   "say": [
+    "narrator",
+    "So Nora did what she always does."
+   ],
+   "shots": [
+    {
+     "camera": {
+      "subject": "nora",
+      "framing": "cu",
+      "move": "push_in",
+      "angle": "eye",
+      "lens": 85,
+      "az": 10
+     },
+     "actions": [
+      {
+       "who": "nora",
+       "action": "idle",
+       "at": [
+        -18,
+        7,
+        0.8
+       ],
+       "facing": 180,
+       "expr": "determined"
+      }
+     ],
+     "w": 1.0,
+     "monster_at": [
+      -18,
+      44,
+      2.0
+     ],
+     "props": [
+      {
+       "kind": "rubble",
+       "start": [
+        -18,
+        9,
+        0
+       ],
+       "end": [
+        -18,
+        32,
+        0
+       ],
+       "width": 9,
+       "height": 1.2,
+       "count": 80,
+       "seed": 3
+      },
+      {
+       "kind": "rubble",
+       "start": [
+        -26,
+        40,
+        0
+       ],
+       "end": [
+        -10,
+        46,
+        0
+       ],
+       "width": 18,
+       "height": 3,
+       "count": 70,
+       "seed": 7
+      },
+      {
+       "kind": "box",
+       "name": "platform",
+       "at": [
+        -10,
+        35,
+        0.8
+       ],
+       "size": [
+        3.2,
+        3.2,
+        1.6
+       ],
+       "color": [
+        0.32,
+        0.31,
+        0.3
+       ]
+      }
+     ],
+     "fx": [
+      {
+       "kind": "embers",
+       "count": 260,
+       "area": 40,
+       "height": 18
+      },
+      {
+       "kind": "flood",
+       "keys": [
+        [
+         1,
+         0.35
+        ]
+       ]
+      }
+     ]
+    }
+   ],
+   "pad": 0.25,
+   "tension": 0.8,
+   "kind": null,
+   "sfx": [],
+   "hold": 0.0,
+   "label": null
+  },
+  {
+   "say": [
+    "narrator",
+    "She went back."
+   ],
+   "shots": [
+    {
+     "camera": {
+      "subject": "nora",
+      "framing": "mws",
+      "move": "track",
+      "angle": "low",
+      "lens": 24,
+      "az": 160
+     },
+     "actions": [
+      {
+       "who": "nora",
+       "action": "run",
+       "path": [
+        [
+         -18,
+         9,
+         1.0
+        ],
+        [
+         -17,
+         30,
+         1.4
+        ]
+       ]
+      },
+      {
+       "who": "monster",
+       "action": "lurk"
+      }
+     ],
+     "w": 1.0,
+     "monster_at": [
+      -18,
+      44,
+      2.0
+     ],
+     "props": [
+      {
+       "kind": "rubble",
+       "start": [
+        -18,
+        9,
+        0
+       ],
+       "end": [
+        -18,
+        32,
+        0
+       ],
+       "width": 9,
+       "height": 1.2,
+       "count": 80,
+       "seed": 3
+      },
+      {
+       "kind": "rubble",
+       "start": [
+        -26,
+        40,
+        0
+       ],
+       "end": [
+        -10,
+        46,
+        0
+       ],
+       "width": 18,
+       "height": 3,
+       "count": 70,
+       "seed": 7
+      },
+      {
+       "kind": "box",
+       "name": "platform",
+       "at": [
+        -10,
+        35,
+        0.8
+       ],
+       "size": [
+        3.2,
+        3.2,
+        1.6
+       ],
+       "color": [
+        0.32,
+        0.31,
+        0.3
+       ]
+      }
+     ],
+     "fx": [
+      {
+       "kind": "embers",
+       "count": 260,
+       "area": 40,
+       "height": 18
+      },
+      {
+       "kind": "flood",
+       "keys": [
+        [
+         1,
+         0.35
+        ]
+       ]
+      }
+     ]
+    }
+   ],
+   "pad": 0.25,
+   "tension": 0.9,
+   "kind": "hit",
+   "sfx": [],
+   "hold": 0.0,
+   "label": null
+  },
+  {
+   "say": [
+    "narrator",
+    "Across the bridge it built for itself."
+   ],
+   "shots": [
+    {
+     "camera": {
+      "subject": "monster",
+      "framing": "ws",
+      "move": "tilt_up",
+      "angle": "worm",
+      "lens": 24,
+      "az": 0,
+      "pos": [
+       -6,
+       12,
+       1.2
+      ]
+     },
+     "actions": [
+      {
+       "who": "nora",
+       "action": "run",
+       "path": [
+        [
+         -17,
+         22,
+         1.2
+        ],
+        [
+         -15,
+         32,
+         1.5
+        ]
+       ]
+      },
+      {
+       "who": "monster",
+       "action": "lurk"
+      }
+     ],
+     "w": 1.0,
+     "monster_at": [
+      -18,
+      44,
+      2.0
+     ],
+     "props": [
+      {
+       "kind": "rubble",
+       "start": [
+        -18,
+        9,
+        0
+       ],
+       "end": [
+        -18,
+        32,
+        0
+       ],
+       "width": 9,
+       "height": 1.2,
+       "count": 80,
+       "seed": 3
+      },
+      {
+       "kind": "rubble",
+       "start": [
+        -26,
+        40,
+        0
+       ],
+       "end": [
+        -10,
+        46,
+        0
+       ],
+       "width": 18,
+       "height": 3,
+       "count": 70,
+       "seed": 7
+      },
+      {
+       "kind": "box",
+       "name": "platform",
+       "at": [
+        -10,
+        35,
+        0.8
+       ],
+       "size": [
+        3.2,
+        3.2,
+        1.6
+       ],
+       "color": [
+        0.32,
+        0.31,
+        0.3
+       ]
+      }
+     ],
+     "fx": [
+      {
+       "kind": "embers",
+       "count": 260,
+       "area": 40,
+       "height": 18
+      },
+      {
+       "kind": "flood",
+       "keys": [
+        [
+         1,
+         0.35
+        ]
+       ]
+      }
+     ]
+    }
+   ],
+   "pad": 0.25,
+   "tension": 0.9,
+   "kind": null,
+   "sfx": [],
+   "hold": 0.0,
+   "label": null
+  },
+  {
+   "say": [
+    "nora",
+    "Leo! Jump!"
+   ],
+   "shots": [
+    {
+     "camera": {
+      "subject": "nora",
+      "framing": "ms",
+      "move": "push_in",
+      "angle": "low",
+      "lens": 35,
+      "az": 0,
+      "pos": [
+       -1,
+       27,
+       2.5
+      ],
+      "pos2": [
+       -3,
+       29,
+       2.2
+      ]
+     },
+     "actions": [
+      {
+       "who": "nora",
+       "action": "grab",
+       "at": [
+        -11.5,
+        33,
+        1.6
+       ],
+       "facing": 30
+      },
+      {
+       "who": "leo",
+       "action": "idle",
+       "at": [
+        -10,
+        35,
+        1.6
+       ],
+       "facing": 210,
+       "expr": "fear"
+      },
+      {
+       "who": "monster",
+       "action": "reach",
+       "side": "R"
+      }
+     ],
+     "w": 1.0,
+     "monster_at": [
+      -18,
+      44,
+      2.0
+     ],
+     "props": [
+      {
+       "kind": "rubble",
+       "start": [
+        -18,
+        9,
+        0
+       ],
+       "end": [
+        -18,
+        32,
+        0
+       ],
+       "width": 9,
+       "height": 1.2,
+       "count": 80,
+       "seed": 3
+      },
+      {
+       "kind": "rubble",
+       "start": [
+        -26,
+        40,
+        0
+       ],
+       "end": [
+        -10,
+        46,
+        0
+       ],
+       "width": 18,
+       "height": 3,
+       "count": 70,
+       "seed": 7
+      },
+      {
+       "kind": "box",
+       "name": "platform",
+       "at": [
+        -10,
+        35,
+        0.8
+       ],
+       "size": [
+        3.2,
+        3.2,
+        1.6
+       ],
+       "color": [
+        0.32,
+        0.31,
+        0.3
+       ]
+      }
+     ],
+     "fx": [
+      {
+       "kind": "embers",
+       "count": 260,
+       "area": 40,
+       "height": 18
+      },
+      {
+       "kind": "flood",
+       "keys": [
+        [
+         1,
+         0.35
+        ]
+       ]
+      }
+     ]
+    }
+   ],
+   "pad": 0.25,
+   "tension": 1.0,
+   "kind": null,
+   "sfx": [],
+   "hold": 0.0,
+   "label": null
+  },
+  {
+   "say": null,
+   "shots": [
+    {
+     "camera": {
+      "subject": "nora",
+      "framing": "ws",
+      "move": "push_in",
+      "angle": "low",
+      "lens": 24,
+      "az": 90
+     },
+     "actions": [
+      {
+       "who": "nora",
+       "action": "fall",
+       "at": [
+        -8,
+        34,
+        0.0
+       ],
+       "facing": 90
+      },
+      {
+       "who": "leo",
+       "action": "fall",
+       "at": [
+        -8,
+        36,
+        0.0
+       ],
+       "facing": 90
+      },
+      {
+       "who": "monster",
+       "action": "reach",
+       "side": "R"
+      }
+     ],
+     "w": 1.0,
+     "monster_at": [
+      -18,
+      44,
+      2.0
+     ],
+     "props": [
+      {
+       "kind": "rubble",
+       "start": [
+        -18,
+        9,
+        0
+       ],
+       "end": [
+        -18,
+        32,
+        0
+       ],
+       "width": 9,
+       "height": 1.2,
+       "count": 80,
+       "seed": 3
+      },
+      {
+       "kind": "rubble",
+       "start": [
+        -26,
+        40,
+        0
+       ],
+       "end": [
+        -10,
+        46,
+        0
+       ],
+       "width": 18,
+       "height": 3,
+       "count": 70,
+       "seed": 7
+      },
+      {
+       "kind": "box",
+       "name": "platform",
+       "at": [
+        -10,
+        35,
+        0.8
+       ],
+       "size": [
+        3.2,
+        3.2,
+        1.6
+       ],
+       "color": [
+        0.32,
+        0.31,
+        0.3
+       ]
+      }
+     ],
+     "fx": [
+      {
+       "kind": "embers",
+       "count": 260,
+       "area": 40,
+       "height": 18
+      },
+      {
+       "kind": "flood",
+       "keys": [
+        [
+         1,
+         0.35
+        ]
+       ]
+      },
+      {
+       "kind": "spray",
+       "at": [
+        -8,
+        35,
+        0.3
+       ],
+       "count": 300,
+       "height": 3
+      }
+     ]
+    }
+   ],
+   "pad": 0.25,
+   "tension": 0.6,
+   "kind": "drop",
+   "sfx": [
+    {
+     "kind": "splash",
+     "at": 0.25
+    }
+   ],
+   "hold": 2.0,
+   "label": null
+  },
+  {
+   "say": [
+    "narrator",
+    "into the one place it could never follow."
+   ],
+   "shots": [
+    {
+     "camera": {
+      "subject": "monster",
+      "framing": "mcu",
+      "move": "push_in",
+      "angle": "low",
+      "lens": 50,
+      "az": 40
+     },
+     "actions": [
+      {
+       "who": "monster",
+       "action": "freeze"
+      }
+     ],
+     "w": 1.0,
+     "monster_at": [
+      -18,
+      44,
+      2.0
+     ],
+     "props": [
+      {
+       "kind": "rubble",
+       "start": [
+        -18,
+        9,
+        0
+       ],
+       "end": [
+        -18,
+        32,
+        0
+       ],
+       "width": 9,
+       "height": 1.2,
+       "count": 80,
+       "seed": 3
+      },
+      {
+       "kind": "rubble",
+       "start": [
+        -26,
+        40,
+        0
+       ],
+       "end": [
+        -10,
+        46,
+        0
+       ],
+       "width": 18,
+       "height": 3,
+       "count": 70,
+       "seed": 7
+      },
+      {
+       "kind": "box",
+       "name": "platform",
+       "at": [
+        -10,
+        35,
+        0.8
+       ],
+       "size": [
+        3.2,
+        3.2,
+        1.6
+       ],
+       "color": [
+        0.32,
+        0.31,
+        0.3
+       ]
+      }
+     ],
+     "fx": [
+      {
+       "kind": "embers",
+       "count": 260,
+       "area": 40,
+       "height": 18
+      },
+      {
+       "kind": "flood",
+       "keys": [
+        [
+         1,
+         0.35
+        ]
+       ]
+      },
+      {
+       "kind": "steam",
+       "at": [
+        -10,
+        36,
+        0.4
+       ],
+       "f": 4,
+       "dur": 40,
+       "radius": 7
+      }
+     ]
+    }
+   ],
+   "pad": 0.25,
+   "tension": 0.7,
+   "kind": null,
+   "sfx": [
+    {
+     "kind": "steam",
+     "at": 0.1
+    }
+   ],
+   "hold": 0.0,
+   "label": null
+  },
+  {
+   "say": [
+    "chief",
+    "Hit it! Everything we've got!"
+   ],
+   "shots": [
+    {
+     "camera": {
+      "subject": "chief",
+      "framing": "ms",
+      "move": "push_in",
+      "angle": "low",
+      "lens": 35,
+      "az": 20
+     },
+     "actions": [
+      {
+       "who": "chief",
+       "action": "point",
+       "at": [
+        12,
+        -5,
+        0
+       ],
+       "facing": 200,
+       "expr": "angry"
+      }
+     ],
+     "w": 1.0,
+     "monster_at": [
+      -18,
+      44,
+      2.0
+     ],
+     "props": [
+      {
+       "kind": "rubble",
+       "start": [
+        -18,
+        9,
+        0
+       ],
+       "end": [
+        -18,
+        32,
+        0
+       ],
+       "width": 9,
+       "height": 1.2,
+       "count": 80,
+       "seed": 3
+      },
+      {
+       "kind": "rubble",
+       "start": [
+        -26,
+        40,
+        0
+       ],
+       "end": [
+        -10,
+        46,
+        0
+       ],
+       "width": 18,
+       "height": 3,
+       "count": 70,
+       "seed": 7
+      },
+      {
+       "kind": "box",
+       "name": "platform",
+       "at": [
+        -10,
+        35,
+        0.8
+       ],
+       "size": [
+        3.2,
+        3.2,
+        1.6
+       ],
+       "color": [
+        0.32,
+        0.31,
+        0.3
+       ]
+      }
+     ],
+     "fx": [
+      {
+       "kind": "embers",
+       "count": 260,
+       "area": 40,
+       "height": 18
+      },
+      {
+       "kind": "flood",
+       "keys": [
+        [
+         1,
+         0.35
+        ]
+       ]
+      },
+      {
+       "kind": "spray",
+       "at": [
+        15,
+        -7,
+        3.2
+       ],
+       "count": 600,
+       "height": 14
+      }
+     ]
+    }
+   ],
+   "pad": 0.25,
+   "tension": 0.85,
+   "kind": null,
+   "sfx": [
+    {
+     "kind": "splash",
+     "at": 0.2
+    },
+    {
+     "kind": "siren",
+     "at": 0.0
+    }
+   ],
+   "hold": 0.0,
+   "label": null
+  },
+  {
+   "say": [
+    "narrator",
+    "And the fire went out."
+   ],
+   "shots": [
+    {
+     "camera": {
+      "subject": "monster",
+      "framing": "ws",
+      "move": "pull_out",
+      "angle": "low",
+      "lens": 24,
+      "az": 20
+     },
+     "actions": [
+      {
+       "who": "monster",
+       "action": "collapse"
+      }
+     ],
+     "w": 1.0,
+     "monster_at": [
+      -18,
+      44,
+      2.0
+     ],
+     "props": [
+      {
+       "kind": "rubble",
+       "start": [
+        -18,
+        9,
+        0
+       ],
+       "end": [
+        -18,
+        32,
+        0
+       ],
+       "width": 9,
+       "height": 1.2,
+       "count": 80,
+       "seed": 3
+      },
+      {
+       "kind": "rubble",
+       "start": [
+        -26,
+        40,
+        0
+       ],
+       "end": [
+        -10,
+        46,
+        0
+       ],
+       "width": 18,
+       "height": 3,
+       "count": 70,
+       "seed": 7
+      },
+      {
+       "kind": "box",
+       "name": "platform",
+       "at": [
+        -10,
+        35,
+        0.8
+       ],
+       "size": [
+        3.2,
+        3.2,
+        1.6
+       ],
+       "color": [
+        0.32,
+        0.31,
+        0.3
+       ]
+      }
+     ],
+     "fx": [
+      {
+       "kind": "embers",
+       "count": 260,
+       "area": 40,
+       "height": 18
+      },
+      {
+       "kind": "flood",
+       "keys": [
+        [
+         1,
+         0.35
+        ]
+       ]
+      },
+      {
+       "kind": "steam",
+       "at": [
+        -18,
+        40,
+        3
+       ],
+       "f": 6,
+       "dur": 50,
+       "radius": 14
+      },
+      {
+       "kind": "steam",
+       "at": [
+        -12,
+        46,
+        3
+       ],
+       "f": 16,
+       "dur": 50,
+       "radius": 12
+      }
+     ],
+     "impacts": [
+      {
+       "f": 40,
+       "at": [
+        -18,
+        40,
+        2
+       ],
+       "power": 1.0,
+       "debris": false
+      }
+     ]
+    }
+   ],
+   "pad": 0.25,
+   "tension": 0.5,
+   "kind": "resolve",
+   "sfx": [
+    {
+     "kind": "steam",
+     "at": 0.1
+    },
+    {
+     "kind": "rumble",
+     "at": 0.4
+    }
+   ],
+   "hold": 0.0,
+   "label": null
+  },
+  {
+   "say": [
+    "narrator",
+    "By morning, it was just a warm rock in a brand-new lake."
+   ],
+   "shots": [
+    {
+     "camera": {
+      "subject": [
+       -18,
+       44,
+       4
+      ],
+      "framing": "ews",
+      "move": "drone_orbit",
+      "angle": "high",
+      "lens": 24,
+      "az": 0,
+      "pos": [
+       30,
+       0,
+       34
+      ],
+      "pos2": [
+       18,
+       -10,
+       30
+      ]
+     },
+     "actions": [
+      {
+       "who": "monster",
+       "action": "freeze"
+      }
+     ],
+     "w": 1.0,
+     "monster_at": [
+      -18,
+      44,
+      -14
+     ],
+     "monster_glow": 0.0,
+     "props": [
+      {
+       "kind": "rubble",
+       "start": [
+        -18,
+        9,
+        0
+       ],
+       "end": [
+        -18,
+        32,
+        0
+       ],
+       "width": 9,
+       "height": 1.2,
+       "count": 80,
+       "seed": 3
+      },
+      {
+       "kind": "rubble",
+       "start": [
+        -26,
+        40,
+        0
+       ],
+       "end": [
+        -10,
+        46,
+        0
+       ],
+       "width": 18,
+       "height": 3,
+       "count": 70,
+       "seed": 7
+      },
+      {
+       "kind": "box",
+       "name": "platform",
+       "at": [
+        -10,
+        35,
+        0.8
+       ],
+       "size": [
+        3.2,
+        3.2,
+        1.6
+       ],
+       "color": [
+        0.32,
+        0.31,
+        0.3
+       ]
+      }
+     ],
+     "fx": [
+      {
+       "kind": "flood",
+       "keys": [
+        [
+         1,
+         0.35
+        ]
+       ]
+      },
+      {
+       "kind": "fogbank",
+       "at": [
+        -18,
+        44,
+        3
+       ],
+       "size": [
+        60,
+        50,
+        8
+       ],
+       "density": 0.02
+      }
+     ]
+    }
+   ],
+   "pad": 0.25,
+   "tension": 0.2,
+   "kind": null,
+   "sfx": [],
+   "hold": 0.0,
+   "label": null
+  },
+  {
+   "say": [
+    "leo",
+    "You came back."
+   ],
+   "shots": [
+    {
+     "camera": {
+      "subject": "leo",
+      "framing": "mcu",
+      "move": "push_in",
+      "angle": "eye",
+      "lens": 50,
+      "az": 10
+     },
+     "actions": [
+      {
+       "who": "leo",
+       "action": "idle",
+       "at": [
+        1.2,
+        -4,
+        0
+       ],
+       "facing": 150,
+       "expr": "sad"
+      },
+      {
+       "who": "nora",
+       "action": "kneel",
+       "at": [
+        0,
+        -5,
+        0
+       ],
+       "facing": 330
+      }
+     ],
+     "w": 1.0,
+     "monster": false,
+     "fx": [
+      {
+       "kind": "flood",
+       "keys": [
+        [
+         1,
+         0.05
+        ]
+       ]
+      }
+     ]
+    }
+   ],
+   "pad": 0.25,
+   "tension": 0.2,
+   "kind": null,
+   "sfx": [],
+   "hold": 0.0,
+   "label": null
+  },
+  {
+   "say": [
+    "nora",
+    "I always come back."
+   ],
+   "shots": [
+    {
+     "camera": {
+      "subject": "nora",
+      "framing": "cu",
+      "move": "push_in",
+      "angle": "eye",
+      "lens": 85,
+      "az": 20
+     },
+     "actions": [
+      {
+       "who": "nora",
+       "action": "kneel",
+       "at": [
+        0,
+        -5,
+        0
+       ],
+       "facing": 330,
+       "expr": "happy"
+      },
+      {
+       "who": "leo",
+       "action": "idle",
+       "at": [
+        1.2,
+        -4,
+        0
+       ],
+       "facing": 150,
+       "expr": "happy"
+      }
+     ],
+     "w": 1.0,
+     "monster": false,
+     "fx": [
+      {
+       "kind": "flood",
+       "keys": [
+        [
+         1,
+         0.05
+        ]
+       ]
+      }
+     ]
+    }
+   ],
+   "pad": 2.4,
+   "tension": 0.15,
+   "kind": null,
+   "sfx": [],
+   "hold": 0.0,
+   "label": null
+  }
+ ]
+}

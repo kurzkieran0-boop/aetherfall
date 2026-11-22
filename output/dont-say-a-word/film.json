@@ -1,0 +1,1977 @@
+{
+ "slug": "dont-say-a-word",
+ "title": "Don't Say a Word",
+ "rule_id": "voice",
+ "rule": "It hunts whoever speaks.",
+ "logline": "An eyeless giant hunts the city by voice. Theo \u2014 the kid who never stops talking \u2014 has to stay silent, then turn the one thing he's good at into a weapon.",
+ "genre": "monster thriller",
+ "set": "city_block",
+ "seed": 11,
+ "look": "storm",
+ "key": "E",
+ "bpm": 104,
+ "fx": [
+  "rain"
+ ],
+ "thumb_text": "IT HUNTS WHOEVER SPEAKS",
+ "hook_caption": "It has no eyes. It hunts whoever speaks. And Theo never stops talking. \ud83e\udd10",
+ "description": "An eyeless giant hunts by sound \u2014 but only voices. Theo Park has never stopped talking in his life. Tonight, one word could get him caught\u2026 unless he can make the city talk for him.",
+ "hashtags": [
+  "#shorts",
+  "#animation",
+  "#monster",
+  "#3danimation",
+  "#blender",
+  "#horrorstory",
+  "#story",
+  "#kaiju",
+  "#dontsayaword",
+  "#fyp"
+ ],
+ "characters": {
+  "theo": {
+   "name": "Theo",
+   "voice": "boy",
+   "accessory": "cap",
+   "mark": "hero",
+   "facing": 180,
+   "palette": {
+    "shirt": [
+     0.1,
+     0.55,
+     0.25
+    ],
+    "pants": [
+     0.15,
+     0.15,
+     0.18
+    ],
+    "hat": [
+     0.9,
+     0.85,
+     0.1
+    ]
+   },
+   "bio": "12. Talks constantly \u2014 every report card says so. Want: get his sister home. Flaw: can't stay quiet."
+  },
+  "ava": {
+   "name": "Ava",
+   "voice": "kid",
+   "accessory": "hair",
+   "mark": "hero",
+   "facing": 180,
+   "palette": {
+    "shirt": [
+     0.85,
+     0.2,
+     0.55
+    ],
+    "pants": [
+     0.1,
+     0.12,
+     0.3
+    ],
+    "hair": [
+     0.08,
+     0.05,
+     0.03
+    ]
+   },
+   "bio": "8. Theo's little sister. Brave right up until the moment she isn't."
+  },
+  "cop": {
+   "name": "Sergeant Ward",
+   "voice": "gruff",
+   "accessory": "cap",
+   "mark": "car",
+   "facing": 0,
+   "palette": {
+    "shirt": [
+     0.05,
+     0.08,
+     0.22
+    ],
+    "pants": [
+     0.04,
+     0.05,
+     0.1
+    ],
+    "hat": [
+     0.04,
+     0.05,
+     0.15
+    ],
+    "stripe": [
+     0.9,
+     0.75,
+     0.1
+    ]
+   },
+   "bio": "Has a megaphone and a plan. Only the megaphone survives contact."
+  }
+ },
+ "monster": {
+  "name": "The Listener",
+  "kind": "stalker",
+  "height": 40,
+  "glow": [
+   1.0,
+   0.12,
+   0.6
+  ],
+  "seed": 9,
+  "eyes": 0,
+  "glow_strength": 12,
+  "roar_pitch": 1.25,
+  "spikes": true,
+  "bio": "A four-legged, eyeless hunter, 40 m at the shoulder ridge, magenta fissures pulsing along its spine like a sound meter. Ignores every noise in the world except a human voice.",
+  "signature": "fast four-beat gallop, head tilts toward voices, a shrieking high-pitched roar"
+ },
+ "dressing": {
+  "city_block": [
+   {
+    "kind": "police_car",
+    "at": [
+     9,
+     -7,
+     0
+    ],
+    "rot": 35,
+    "name": "cop1"
+   },
+   {
+    "kind": "police_car",
+    "at": [
+     -11,
+     -4,
+     0
+    ],
+    "rot": 160,
+    "name": "cop2"
+   },
+   {
+    "kind": "sedan",
+    "at": [
+     -6,
+     14,
+     0
+    ],
+    "rot": 80,
+    "color": [
+     0.15,
+     0.3,
+     0.5
+    ],
+    "name": "car1"
+   },
+   {
+    "kind": "sedan",
+    "at": [
+     10,
+     24,
+     0
+    ],
+    "rot": -100,
+    "color": [
+     0.55,
+     0.5,
+     0.45
+    ],
+    "name": "car2"
+   },
+   {
+    "kind": "barrier",
+    "at": [
+     -2,
+     -12,
+     0
+    ]
+   },
+   {
+    "kind": "pylon",
+    "at": [
+     -95,
+     150,
+     0
+    ],
+    "height": 60
+   },
+   {
+    "kind": "crane",
+    "at": [
+     80,
+     120,
+     0
+    ],
+    "height": 90,
+    "rot": 160
+   }
+  ],
+  "subway": []
+ },
+ "premises": [
+  {
+   "premise": "An eyeless giant hunts by voice; the kid who never shuts up must turn talking into a weapon.",
+   "scores": {
+    "hook": 9,
+    "clarity": 10,
+    "clever_use": 9,
+    "reversal": 8,
+    "originality": 8,
+    "total": 44
+   }
+  },
+  {
+   "premise": "It hunts anything that moves; a mime troupe is the city's last defence.",
+   "scores": {
+    "hook": 7,
+    "clarity": 9,
+    "clever_use": 6,
+    "reversal": 5,
+    "originality": 7,
+    "total": 34
+   }
+  },
+  {
+   "premise": "It hunts whoever is holding a phone; a whole city has to go offline.",
+   "scores": {
+    "hook": 8,
+    "clarity": 9,
+    "clever_use": 7,
+    "reversal": 7,
+    "originality": 7,
+    "total": 38
+   }
+  },
+  {
+   "premise": "It can only hear lies; a compulsive liar must tell the truth for one night.",
+   "scores": {
+    "hook": 8,
+    "clarity": 7,
+    "clever_use": 7,
+    "reversal": 7,
+    "originality": 9,
+    "total": 38
+   }
+  },
+  {
+   "premise": "It follows music; a street drummer leads it out of town like a pied piper.",
+   "scores": {
+    "hook": 7,
+    "clarity": 9,
+    "clever_use": 8,
+    "reversal": 6,
+    "originality": 6,
+    "total": 36
+   }
+  },
+  {
+   "premise": "It sleeps while it rains; the forecast says clear skies at midnight.",
+   "scores": {
+    "hook": 7,
+    "clarity": 9,
+    "clever_use": 6,
+    "reversal": 7,
+    "originality": 7,
+    "total": 36
+   }
+  },
+  {
+   "premise": "It hunts the loudest heartbeat; a marathon runner has to calm down.",
+   "scores": {
+    "hook": 7,
+    "clarity": 8,
+    "clever_use": 6,
+    "reversal": 6,
+    "originality": 8,
+    "total": 35
+   }
+  },
+  {
+   "premise": "It obeys whoever whistles; a kid who can't whistle has five minutes to learn.",
+   "scores": {
+    "hook": 8,
+    "clarity": 8,
+    "clever_use": 7,
+    "reversal": 6,
+    "originality": 8,
+    "total": 37
+   }
+  },
+  {
+   "premise": "It only hunts adults; the kids of a school have to save the city alone.",
+   "scores": {
+    "hook": 7,
+    "clarity": 9,
+    "clever_use": 5,
+    "reversal": 6,
+    "originality": 6,
+    "total": 33
+   }
+  },
+  {
+   "premise": "It hears whispers from miles away but not shouting; a librarian has to scream.",
+   "scores": {
+    "hook": 7,
+    "clarity": 7,
+    "clever_use": 7,
+    "reversal": 6,
+    "originality": 8,
+    "total": 35
+   }
+  }
+ ],
+ "chosen": 0,
+ "why": "The rule turns every line of dialogue into a life-or-death choice, so the audience holds their breath on every word \u2014 and the hero's flaw (can't stop talking) is the exact tool that wins, via echoes.",
+ "outline": [
+  [
+   "Hook",
+   "0-4s",
+   "Extreme close-up of an eyeless head in lightning: 'It has no eyes. It doesn't need them.'"
+  ],
+  [
+   "Rule",
+   "4-12s",
+   "A cop starts a megaphone speech; the giant whips round and flattens his car mid-sentence."
+  ],
+  [
+   "Hero",
+   "12-20s",
+   "Theo, who never stops talking, hiding with his sister; he shushes her."
+  ],
+  [
+   "Rule sharpened",
+   "20-26s",
+   "A phone rings, thunder cracks \u2014 it ignores both. Only voices."
+  ],
+  [
+   "Clever use",
+   "26-38s",
+   "Theo talks through a police radio; it chases cars across the city."
+  ],
+  [
+   "Reversal",
+   "38-46s",
+   "Rain shorts the radio. Ava cries out. It turns on her."
+  ],
+  [
+   "Escalation",
+   "46-54s",
+   "Theo runs into the open shouting \u2014 finally talking to save someone."
+  ],
+  [
+   "Win",
+   "54-64s",
+   "He leads it to the subway; underground his voice echoes from every grate; it tears up the street and falls in."
+  ],
+  [
+   "Ending",
+   "64-75s",
+   "Dust and rain. 'You can talk now.' 'I think I'm good.'"
+  ]
+ ],
+ "draft": "NARRATOR: In this city there is a creature that cannot see anything at all because it has no eyes.\nNARRATOR: Instead it hunts by listening for the sound of people talking.\nCOP: Attention everyone, please remain calm and proceed to the shelters.\nNARRATOR: The creature attacked the police officer as soon as he spoke.\nNARRATOR: Theo was a boy who was famous at school for never being quiet.\nNARRATOR: He and his sister Ava hid behind a police car and tried not to make a sound.\nNARRATOR: A phone rang but the creature did not react, because it only hunts voices.\nNARRATOR: Theo had the idea to use the police radios to throw his voice.\nTHEO: Hey, over here!\nNARRATOR: It worked until the rain broke the radio.\nAVA: Theo, look out behind you!\nTHEO: No, come after me instead!\nNARRATOR: Theo ran into the subway and kept shouting, and the echoes confused the monster.\nNARRATOR: The monster dug into the street until it collapsed.\nAVA: You can talk now.\nTHEO: I think I'll stay quiet.",
+ "critique": [
+  "Opening sentence is 18 words \u2014 the hook must be two short punches: 'It has no eyes.' / 'It doesn't need them.'",
+  "'Instead it hunts by listening' is soft. The rule needs to be 5 words and then PROVEN by a kill-shot cut mid-sentence.",
+  "Show the cop getting cut off mid-word \u2014 the cut IS the rule. Don't narrate it afterwards.",
+  "Theo's flaw is told. Plant it with a specific (report cards) and make his silence physical (hand over Ava's mouth, no line).",
+  "Phone beat is good but needs thunder + siren too: 'Only voices' is the rule clarification and a mini-reveal.",
+  "Radio plan must read in one line: 'He talked. Just not from where he was standing.'",
+  "Reversal is cheap if it's random \u2014 the rain is set up from shot 1, so the rain killing the radio is earned.",
+  "'I think I'll stay quiet' is a statement; 'I think I'm good' is funnier and more natural. Narrator button lands the irony.",
+  "Need a silent beat: when the street collapses, drop the score completely."
+ ],
+ "beat_map": [
+  "Reveals: eyeless head (0s) \u2192 megaphone kill (7s) \u2192 phone ignored (20s) \u2192 radio decoy (28s) \u2192 radio dies + Ava speaks (40s) \u2192 subway echo (55s) \u2192 collapse (60s) \u2192 silence (63s)."
+ ],
+ "beats": [
+  {
+   "say": [
+    "narrator",
+    "It has no eyes."
+   ],
+   "shots": [
+    {
+     "camera": {
+      "subject": "monster",
+      "framing": "cu",
+      "move": "push_in",
+      "angle": "low",
+      "lens": 85,
+      "az": 0
+     },
+     "actions": [
+      {
+       "who": "monster",
+       "action": "lurk"
+      }
+     ],
+     "w": 1.0,
+     "monster_at": [
+      0,
+      60,
+      0
+     ],
+     "fx": [
+      "rain",
+      {
+       "kind": "lightning",
+       "frames": [
+        6,
+        30
+       ]
+      }
+     ]
+    }
+   ],
+   "pad": 0.25,
+   "tension": 0.4,
+   "kind": null,
+   "sfx": [
+    {
+     "kind": "thunder",
+     "at": 0.1
+    }
+   ],
+   "hold": 0.0,
+   "label": null
+  },
+  {
+   "say": [
+    "narrator",
+    "It doesn't need them."
+   ],
+   "shots": [
+    {
+     "camera": {
+      "subject": "monster",
+      "framing": "ws",
+      "move": "tilt_up",
+      "angle": "worm",
+      "lens": 24,
+      "az": 10
+     },
+     "actions": [
+      {
+       "who": "monster",
+       "action": "walk",
+       "path": [
+        [
+         0,
+         70,
+         0
+        ],
+        [
+         0,
+         58,
+         0
+        ]
+       ],
+       "cycle": 22
+      }
+     ],
+     "w": 1.0,
+     "monster_at": [
+      0,
+      70,
+      0
+     ],
+     "fx": [
+      "rain",
+      {
+       "kind": "lightning",
+       "frames": [
+        9
+       ]
+      }
+     ]
+    }
+   ],
+   "pad": 0.25,
+   "tension": 0.55,
+   "kind": "hit",
+   "sfx": [],
+   "hold": 0.0,
+   "label": null
+  },
+  {
+   "say": [
+    "narrator",
+    "It hunts one thing. Whoever speaks."
+   ],
+   "shots": [
+    {
+     "camera": {
+      "subject": "monster",
+      "framing": "ws",
+      "move": "crane_up",
+      "angle": "high",
+      "lens": 24,
+      "az": 0
+     },
+     "actions": [
+      {
+       "who": "monster",
+       "action": "lurk"
+      }
+     ],
+     "w": 1.0,
+     "monster_at": [
+      0,
+      50,
+      0
+     ]
+    }
+   ],
+   "pad": 0.25,
+   "tension": 0.5,
+   "kind": null,
+   "sfx": [],
+   "hold": 0.0,
+   "label": "rule"
+  },
+  {
+   "say": [
+    "cop",
+    "Everyone stay calm and proceed to\u2014"
+   ],
+   "shots": [
+    {
+     "camera": {
+      "subject": "cop",
+      "framing": "ms",
+      "move": "push_in",
+      "angle": "low",
+      "lens": 35,
+      "az": 20
+     },
+     "actions": [
+      {
+       "who": "cop",
+       "action": "point",
+       "at": [
+        -5,
+        -5,
+        0.24
+       ],
+       "facing": 150,
+       "expr": "determined"
+      }
+     ],
+     "w": 1.0,
+     "monster_at": [
+      0,
+      50,
+      0
+     ]
+    }
+   ],
+   "pad": 0.0,
+   "tension": 0.45,
+   "kind": null,
+   "sfx": [],
+   "hold": 0.0,
+   "label": null,
+   "voice_fx": "radio"
+  },
+  {
+   "say": null,
+   "shots": [
+    {
+     "camera": {
+      "subject": "monster",
+      "framing": "mws",
+      "move": "whip_pan",
+      "angle": "low",
+      "lens": 24,
+      "az": 0,
+      "subject2": "cop",
+      "whip_at": 0.15
+     },
+     "actions": [
+      {
+       "who": "monster",
+       "action": "swipe",
+       "side": "R",
+       "t0": 0.1,
+       "t1": 0.6
+      },
+      {
+       "who": "cop",
+       "action": "fall",
+       "at": [
+        -5,
+        -5,
+        0.24
+       ],
+       "facing": 150
+      }
+     ],
+     "w": 1.0,
+     "monster_at": [
+      -4,
+      22,
+      0
+     ],
+     "monster_facing": 10,
+     "impacts": [
+      {
+       "f": 18,
+       "at": [
+        -11,
+        -4,
+        0
+       ],
+       "power": 1.4,
+       "count": 45
+      }
+     ]
+    }
+   ],
+   "pad": 0.25,
+   "tension": 0.9,
+   "kind": "braam",
+   "sfx": [
+    {
+     "kind": "roar",
+     "at": 0.0
+    },
+    {
+     "kind": "crash",
+     "at": 0.4
+    }
+   ],
+   "hold": 1.6,
+   "label": null
+  },
+  {
+   "say": [
+    "narrator",
+    "Theo had never stopped talking in his life."
+   ],
+   "shots": [
+    {
+     "camera": {
+      "subject": "theo",
+      "framing": "ms",
+      "move": "orbit_right",
+      "angle": "eye",
+      "lens": 35,
+      "az": -60,
+      "part": "chest"
+     },
+     "actions": [
+      {
+       "who": "theo",
+       "action": "hide",
+       "at": [
+        11,
+        -10,
+        0.24
+       ],
+       "facing": 20
+      },
+      {
+       "who": "ava",
+       "action": "hide",
+       "at": [
+        12.6,
+        -11,
+        0.24
+       ],
+       "facing": 10
+      }
+     ],
+     "w": 1.0
+    }
+   ],
+   "pad": 0.25,
+   "tension": 0.35,
+   "kind": null,
+   "sfx": [],
+   "hold": 0.0,
+   "label": "hero"
+  },
+  {
+   "say": [
+    "narrator",
+    "It's on every report card he's ever had."
+   ],
+   "shots": [
+    {
+     "camera": {
+      "subject": "theo",
+      "framing": "cu",
+      "move": "push_in",
+      "angle": "eye",
+      "lens": 85,
+      "az": 0
+     },
+     "actions": [
+      {
+       "who": "theo",
+       "action": "hide",
+       "at": [
+        11,
+        -10,
+        0.24
+       ],
+       "facing": 20,
+       "expr": "fear"
+      }
+     ],
+     "w": 1.0
+    }
+   ],
+   "pad": 0.25,
+   "tension": 0.35,
+   "kind": null,
+   "sfx": [],
+   "hold": 0.0,
+   "label": null
+  },
+  {
+   "say": null,
+   "shots": [
+    {
+     "camera": {
+      "subject": "theo",
+      "framing": "ms",
+      "move": "push_in",
+      "angle": "eye",
+      "lens": 50,
+      "az": 25
+     },
+     "actions": [
+      {
+       "who": "theo",
+       "action": "shush",
+       "at": [
+        11,
+        -10,
+        0.24
+       ],
+       "facing": 60
+      },
+      {
+       "who": "ava",
+       "action": "hide",
+       "at": [
+        12.6,
+        -11,
+        0.24
+       ],
+       "facing": -60,
+       "expr": "fear"
+      }
+     ],
+     "w": 1.0
+    }
+   ],
+   "pad": 0.25,
+   "tension": 0.5,
+   "kind": "drop",
+   "sfx": [],
+   "hold": 1.7,
+   "label": null
+  },
+  {
+   "say": [
+    "narrator",
+    "A phone rang. Sirens. Thunder."
+   ],
+   "shots": [
+    {
+     "camera": {
+      "subject": "monster",
+      "framing": "mcu",
+      "move": "push_in",
+      "angle": "low",
+      "lens": 50,
+      "az": 0
+     },
+     "actions": [
+      {
+       "who": "monster",
+       "action": "lurk"
+      }
+     ],
+     "w": 1.0,
+     "monster_at": [
+      -4,
+      22,
+      0
+     ],
+     "monster_facing": 10,
+     "fx": [
+      "rain",
+      {
+       "kind": "lightning",
+       "frames": [
+        20
+       ]
+      }
+     ]
+    }
+   ],
+   "pad": 0.25,
+   "tension": 0.6,
+   "kind": "hit",
+   "sfx": [
+    {
+     "kind": "phone",
+     "at": 0.0
+    },
+    {
+     "kind": "siren",
+     "at": 0.35
+    },
+    {
+     "kind": "thunder",
+     "at": 0.7
+    }
+   ],
+   "hold": 0.0,
+   "label": null
+  },
+  {
+   "say": [
+    "narrator",
+    "It ignored all of it. Only voices."
+   ],
+   "shots": [
+    {
+     "camera": {
+      "subject": "monster",
+      "framing": "ws",
+      "move": "orbit_left",
+      "angle": "low",
+      "lens": 24,
+      "az": 30
+     },
+     "actions": [
+      {
+       "who": "monster",
+       "action": "lurk"
+      }
+     ],
+     "w": 1.0,
+     "monster_at": [
+      -4,
+      22,
+      0
+     ],
+     "monster_facing": 10
+    }
+   ],
+   "pad": 0.25,
+   "tension": 0.5,
+   "kind": null,
+   "sfx": [],
+   "hold": 0.0,
+   "label": null
+  },
+  {
+   "say": [
+    "narrator",
+    "So Theo had an idea. A very Theo idea."
+   ],
+   "shots": [
+    {
+     "camera": {
+      "subject": "theo",
+      "framing": "mcu",
+      "move": "push_in",
+      "angle": "low",
+      "lens": 50,
+      "az": 15
+     },
+     "actions": [
+      {
+       "who": "theo",
+       "action": "grab",
+       "at": [
+        9.5,
+        -8.6,
+        0.24
+       ],
+       "facing": 40,
+       "expr": "sly"
+      }
+     ],
+     "w": 1.0
+    }
+   ],
+   "pad": 0.25,
+   "tension": 0.5,
+   "kind": "riser",
+   "sfx": [],
+   "hold": 0.0,
+   "label": null
+  },
+  {
+   "say": [
+    "theo",
+    "Hey! Ugly! Over here!"
+   ],
+   "shots": [
+    {
+     "camera": {
+      "subject": [
+       0,
+       90,
+       2
+      ],
+      "framing": "ms",
+      "move": "push_in",
+      "angle": "eye",
+      "lens": 35,
+      "az": 180
+     },
+     "actions": [],
+     "w": 0.9,
+     "props": [
+      {
+       "kind": "police_car",
+       "at": [
+        0,
+        90,
+        0
+       ],
+       "rot": 90,
+       "name": "decoy"
+      }
+     ],
+     "monster_at": [
+      -4,
+      22,
+      0
+     ],
+     "monster_facing": 10
+    },
+    {
+     "camera": {
+      "subject": "monster",
+      "framing": "ws",
+      "move": "whip_pan",
+      "angle": "low",
+      "lens": 24,
+      "az": 0,
+      "subject2": [
+       0,
+       90,
+       3
+      ],
+      "whip_at": 0.3
+     },
+     "actions": [
+      {
+       "who": "monster",
+       "action": "walk",
+       "path": [
+        [
+         -4,
+         22,
+         0
+        ],
+        [
+         0,
+         50,
+         0
+        ]
+       ],
+       "facing": 180,
+       "cycle": 14
+      }
+     ],
+     "w": 1.0,
+     "monster_at": [
+      -4,
+      22,
+      0
+     ],
+     "props": [
+      {
+       "kind": "police_car",
+       "at": [
+        0,
+        90,
+        0
+       ],
+       "rot": 90,
+       "name": "decoy"
+      }
+     ]
+    }
+   ],
+   "pad": 0.25,
+   "tension": 0.7,
+   "kind": "hit",
+   "sfx": [],
+   "hold": 0.0,
+   "label": null,
+   "voice_fx": "radio"
+  },
+  {
+   "say": [
+    "narrator",
+    "He talked. Just not from where he was standing."
+   ],
+   "shots": [
+    {
+     "camera": {
+      "subject": "theo",
+      "framing": "mcu",
+      "move": "push_in",
+      "angle": "eye",
+      "lens": 50,
+      "az": 30
+     },
+     "actions": [
+      {
+       "who": "theo",
+       "action": "talk",
+       "at": [
+        9.5,
+        -8.6,
+        0.24
+       ],
+       "facing": 40,
+       "expr": "sly"
+      }
+     ],
+     "w": 1.0,
+     "monster_at": [
+      0,
+      80,
+      0
+     ]
+    }
+   ],
+   "pad": 0.25,
+   "tension": 0.55,
+   "kind": null,
+   "sfx": [],
+   "hold": 0.0,
+   "label": null
+  },
+  {
+   "say": [
+    "narrator",
+    "Car to car. Radio to radio."
+   ],
+   "shots": [
+    {
+     "camera": {
+      "subject": "monster",
+      "framing": "ews",
+      "move": "drone_orbit",
+      "angle": "high",
+      "lens": 24,
+      "az": 160
+     },
+     "actions": [
+      {
+       "who": "monster",
+       "action": "walk",
+       "path": [
+        [
+         0,
+         90,
+         0
+        ],
+        [
+         0,
+         130,
+         0
+        ]
+       ],
+       "facing": 180,
+       "cycle": 14
+      }
+     ],
+     "w": 1.0,
+     "monster_at": [
+      0,
+      90,
+      0
+     ],
+     "impacts": [
+      {
+       "f": 30,
+       "at": [
+        0,
+        120,
+        0
+       ],
+       "power": 0.8
+      }
+     ]
+    }
+   ],
+   "pad": 0.25,
+   "tension": 0.6,
+   "kind": null,
+   "sfx": [
+    {
+     "kind": "crash",
+     "at": 0.6,
+     "gain": 0.6
+    }
+   ],
+   "hold": 0.0,
+   "label": null
+  },
+  {
+   "say": [
+    "narrator",
+    "Then the rain shorted out the last radio."
+   ],
+   "shots": [
+    {
+     "camera": {
+      "subject": "theo",
+      "framing": "cu",
+      "move": "push_in",
+      "angle": "eye",
+      "lens": 85,
+      "az": 20
+     },
+     "actions": [
+      {
+       "who": "theo",
+       "action": "gasp",
+       "at": [
+        9.5,
+        -8.6,
+        0.24
+       ],
+       "facing": 40,
+       "expr": "shock"
+      }
+     ],
+     "w": 1.0,
+     "fx": [
+      "rain",
+      {
+       "kind": "sparks",
+       "count": 120,
+       "area": 2,
+       "height": 2
+      }
+     ],
+     "monster_at": [
+      0,
+      120,
+      0
+     ]
+    }
+   ],
+   "pad": 0.25,
+   "tension": 0.65,
+   "kind": null,
+   "sfx": [
+    {
+     "kind": "spark",
+     "at": 0.2
+    }
+   ],
+   "hold": 0.0,
+   "label": null
+  },
+  {
+   "say": [
+    "ava",
+    "Theo! Where is it?"
+   ],
+   "shots": [
+    {
+     "camera": {
+      "subject": "ava",
+      "framing": "mcu",
+      "move": "push_in",
+      "angle": "eye",
+      "lens": 85,
+      "az": 0
+     },
+     "actions": [
+      {
+       "who": "ava",
+       "action": "talk",
+       "at": [
+        12.6,
+        -11,
+        0.24
+       ],
+       "facing": 0,
+       "expr": "fear"
+      }
+     ],
+     "w": 1.0,
+     "monster_at": [
+      0,
+      120,
+      0
+     ]
+    }
+   ],
+   "pad": 0.25,
+   "tension": 0.7,
+   "kind": null,
+   "sfx": [],
+   "hold": 0.0,
+   "label": null
+  },
+  {
+   "say": null,
+   "shots": [
+    {
+     "camera": {
+      "subject": "monster",
+      "framing": "mws",
+      "move": "push_in",
+      "angle": "low",
+      "lens": 35,
+      "az": 0
+     },
+     "actions": [
+      {
+       "who": "monster",
+       "action": "roar"
+      }
+     ],
+     "w": 1.0,
+     "monster_at": [
+      0,
+      50,
+      0
+     ]
+    }
+   ],
+   "pad": 0.25,
+   "tension": 0.95,
+   "kind": "braam",
+   "sfx": [
+    {
+     "kind": "roar",
+     "at": 0.15
+    }
+   ],
+   "hold": 2.2,
+   "label": null
+  },
+  {
+   "say": [
+    "theo",
+    "No! Me! I'm the loud one!"
+   ],
+   "shots": [
+    {
+     "camera": {
+      "subject": "theo",
+      "framing": "ms",
+      "move": "push_in",
+      "angle": "low",
+      "lens": 35,
+      "az": 0
+     },
+     "actions": [
+      {
+       "who": "theo",
+       "action": "panic",
+       "at": [
+        6,
+        -4,
+        0.24
+       ],
+       "facing": 180,
+       "expr": "angry"
+      }
+     ],
+     "w": 1.0,
+     "monster_at": [
+      0,
+      50,
+      0
+     ]
+    }
+   ],
+   "pad": 0.25,
+   "tension": 0.85,
+   "kind": null,
+   "sfx": [],
+   "hold": 0.0,
+   "label": null
+  },
+  {
+   "say": [
+    "narrator",
+    "So Theo did what he does best."
+   ],
+   "shots": [
+    {
+     "camera": {
+      "subject": "theo",
+      "framing": "mws",
+      "move": "track",
+      "angle": "eye",
+      "lens": 35,
+      "az": 0
+     },
+     "actions": [
+      {
+       "who": "theo",
+       "action": "run",
+       "path": [
+        [
+         6,
+         -4,
+         0.24
+        ],
+        [
+         10,
+         -26,
+         0.24
+        ]
+       ]
+      },
+      {
+       "who": "monster",
+       "action": "walk",
+       "path": [
+        [
+         0,
+         45,
+         0
+        ],
+        [
+         4,
+         20,
+         0
+        ]
+       ],
+       "cycle": 14
+      }
+     ],
+     "w": 1.0,
+     "monster_at": [
+      0,
+      45,
+      0
+     ]
+    }
+   ],
+   "pad": 0.25,
+   "tension": 0.9,
+   "kind": null,
+   "sfx": [],
+   "hold": 0.0,
+   "label": null
+  },
+  {
+   "say": [
+    "narrator",
+    "For the first time in his life, talking was the brave thing."
+   ],
+   "shots": [
+    {
+     "camera": {
+      "subject": "theo",
+      "framing": "cu",
+      "move": "track",
+      "angle": "eye",
+      "lens": 85,
+      "az": 0
+     },
+     "actions": [
+      {
+       "who": "theo",
+       "action": "run",
+       "path": [
+        [
+         8,
+         -15,
+         0.24
+        ],
+        [
+         10,
+         -26,
+         0.24
+        ]
+       ],
+       "expr": "determined"
+      }
+     ],
+     "w": 1.0,
+     "monster_at": [
+      2,
+      32,
+      0
+     ]
+    }
+   ],
+   "pad": 0.25,
+   "tension": 0.85,
+   "kind": null,
+   "sfx": [],
+   "hold": 0.0,
+   "label": null
+  },
+  {
+   "say": [
+    "theo",
+    "Hey! Over here! Come on! Keep up!"
+   ],
+   "shots": [
+    {
+     "camera": {
+      "subject": "theo",
+      "framing": "ms",
+      "move": "ots",
+      "angle": "eye",
+      "lens": 35,
+      "az": 180,
+      "subject2": "monster"
+     },
+     "actions": [
+      {
+       "who": "theo",
+       "action": "run",
+       "path": [
+        [
+         10,
+         -26,
+         0.24
+        ],
+        [
+         12,
+         -40,
+         0.24
+        ]
+       ],
+       "facing": 180
+      },
+      {
+       "who": "monster",
+       "action": "walk",
+       "path": [
+        [
+         4,
+         20,
+         0
+        ],
+        [
+         8,
+         0,
+         0
+        ]
+       ],
+       "cycle": 14
+      }
+     ],
+     "w": 1.0,
+     "monster_at": [
+      4,
+      20,
+      0
+     ]
+    }
+   ],
+   "pad": 0.25,
+   "tension": 0.9,
+   "kind": "hit",
+   "sfx": [],
+   "hold": 0.0,
+   "label": null
+  },
+  {
+   "say": [
+    "theo",
+    "Hello! Hello! Hello!"
+   ],
+   "shots": [
+    {
+     "camera": {
+      "subject": "theo",
+      "framing": "ms",
+      "move": "push_in",
+      "angle": "low",
+      "lens": 24,
+      "az": 20
+     },
+     "actions": [
+      {
+       "who": "theo",
+       "action": "cheer",
+       "at": [
+        0,
+        0,
+        1.0
+       ],
+       "facing": 0,
+       "expr": "angry"
+      },
+      {
+       "who": "ava",
+       "action": "idle",
+       "at": [
+        3,
+        -1.5,
+        1.0
+       ],
+       "facing": -20,
+       "expr": "fear"
+      }
+     ],
+     "w": 1.0,
+     "set": "subway",
+     "monster": false,
+     "fx": [
+      {
+       "kind": "dust",
+       "count": 200,
+       "area": 16,
+       "height": 7
+      }
+     ]
+    }
+   ],
+   "pad": 0.25,
+   "tension": 0.85,
+   "kind": null,
+   "sfx": [],
+   "hold": 0.0,
+   "label": null,
+   "voice_fx": "echo"
+  },
+  {
+   "say": [
+    "narrator",
+    "Down here, a voice comes from everywhere at once."
+   ],
+   "shots": [
+    {
+     "camera": {
+      "subject": "theo",
+      "framing": "ws",
+      "move": "pull_out",
+      "angle": "eye",
+      "lens": 24,
+      "az": 30
+     },
+     "actions": [
+      {
+       "who": "theo",
+       "action": "cheer",
+       "at": [
+        0,
+        0,
+        1.0
+       ],
+       "facing": 0
+      }
+     ],
+     "w": 1.0,
+     "set": "subway",
+     "monster": false,
+     "fx": [
+      {
+       "kind": "dust",
+       "count": 200,
+       "area": 16,
+       "height": 7
+      }
+     ]
+    }
+   ],
+   "pad": 0.25,
+   "tension": 0.8,
+   "kind": null,
+   "sfx": [],
+   "hold": 0.0,
+   "label": null
+  },
+  {
+   "say": [
+    "narrator",
+    "It dug for every echo\u2026"
+   ],
+   "shots": [
+    {
+     "camera": {
+      "subject": "monster",
+      "framing": "ws",
+      "move": "orbit_right",
+      "angle": "low",
+      "lens": 24,
+      "az": 20
+     },
+     "actions": [
+      {
+       "who": "monster",
+       "action": "stomp",
+       "side": "R",
+       "t0": 0.1,
+       "t1": 0.5
+      },
+      {
+       "who": "monster",
+       "action": "swipe",
+       "side": "L",
+       "t0": 0.5,
+       "t1": 0.95
+      }
+     ],
+     "w": 1.0,
+     "monster_at": [
+      0,
+      20,
+      0
+     ],
+     "impacts": [
+      {
+       "f": 20,
+       "at": [
+        0,
+        14,
+        0
+       ],
+       "power": 1.2
+      }
+     ]
+    }
+   ],
+   "pad": 0.25,
+   "tension": 0.95,
+   "kind": "hit",
+   "sfx": [],
+   "hold": 0.0,
+   "label": null
+  },
+  {
+   "say": [
+    "narrator",
+    "\u2026until the street gave way."
+   ],
+   "shots": [
+    {
+     "camera": {
+      "subject": "monster",
+      "framing": "ws",
+      "move": "tilt_down",
+      "angle": "low",
+      "lens": 24,
+      "az": 0
+     },
+     "actions": [
+      {
+       "who": "monster",
+       "action": "collapse",
+       "t0": 0.05,
+       "t1": 0.9
+      }
+     ],
+     "w": 1.0,
+     "monster_at": [
+      0,
+      20,
+      0
+     ],
+     "props": [
+      {
+       "kind": "rubble",
+       "start": [
+        -12,
+        20,
+        0
+       ],
+       "end": [
+        12,
+        20,
+        0
+       ],
+       "width": 26,
+       "height": 2,
+       "count": 70,
+       "seed": 4
+      }
+     ],
+     "impacts": [
+      {
+       "f": 12,
+       "at": [
+        0,
+        16,
+        0
+       ],
+       "power": 1.5,
+       "count": 50,
+       "radius": 16
+      },
+      {
+       "f": 30,
+       "at": [
+        -6,
+        26,
+        0
+       ],
+       "power": 1.5,
+       "count": 40,
+       "radius": 18
+      }
+     ]
+    }
+   ],
+   "pad": 0.25,
+   "tension": 1.0,
+   "kind": "braam",
+   "sfx": [
+    {
+     "kind": "rumble",
+     "at": 0.0
+    },
+    {
+     "kind": "crash",
+     "at": 0.3
+    },
+    {
+     "kind": "roar",
+     "at": 0.1
+    }
+   ],
+   "hold": 0.0,
+   "label": null
+  },
+  {
+   "say": null,
+   "shots": [
+    {
+     "camera": {
+      "subject": "mark:street_n",
+      "framing": "ews",
+      "move": "crane_up",
+      "angle": "high",
+      "lens": 24,
+      "az": 180
+     },
+     "actions": [],
+     "w": 1.0,
+     "monster_at": [
+      0,
+      20,
+      -18
+     ],
+     "monster_glow": 0.0,
+     "props": [
+      {
+       "kind": "rubble",
+       "start": [
+        -14,
+        20,
+        0
+       ],
+       "end": [
+        14,
+        22,
+        0
+       ],
+       "width": 28,
+       "height": 3,
+       "count": 90,
+       "seed": 5
+      }
+     ],
+     "fx": [
+      "rain",
+      {
+       "kind": "fogbank",
+       "at": [
+        0,
+        20,
+        3
+       ],
+       "size": [
+        50,
+        40,
+        8
+       ],
+       "density": 0.06
+      }
+     ]
+    }
+   ],
+   "pad": 0.25,
+   "tension": 0.15,
+   "kind": "drop",
+   "sfx": [],
+   "hold": 2.0,
+   "label": null
+  },
+  {
+   "say": [
+    "ava",
+    "You can talk now."
+   ],
+   "shots": [
+    {
+     "camera": {
+      "subject": "ava",
+      "framing": "mcu",
+      "move": "push_in",
+      "angle": "eye",
+      "lens": 85,
+      "az": 10
+     },
+     "actions": [
+      {
+       "who": "ava",
+       "action": "idle",
+       "at": [
+        3,
+        -1.5,
+        1.0
+       ],
+       "facing": -30,
+       "expr": "sad"
+      },
+      {
+       "who": "theo",
+       "action": "idle",
+       "at": [
+        0,
+        0,
+        1.0
+       ],
+       "facing": 40
+      }
+     ],
+     "w": 1.0,
+     "set": "subway",
+     "monster": false,
+     "fx": [
+      {
+       "kind": "dust",
+       "count": 200,
+       "area": 16,
+       "height": 7
+      }
+     ]
+    }
+   ],
+   "pad": 0.25,
+   "tension": 0.2,
+   "kind": "resolve",
+   "sfx": [],
+   "hold": 0.0,
+   "label": null
+  },
+  {
+   "say": [
+    "theo",
+    "I think I'm good."
+   ],
+   "shots": [
+    {
+     "camera": {
+      "subject": "theo",
+      "framing": "cu",
+      "move": "push_in",
+      "angle": "eye",
+      "lens": 85,
+      "az": 15
+     },
+     "actions": [
+      {
+       "who": "theo",
+       "action": "idle",
+       "at": [
+        0,
+        0,
+        1.0
+       ],
+       "facing": 30,
+       "expr": "happy"
+      }
+     ],
+     "w": 1.0,
+     "set": "subway",
+     "monster": false,
+     "fx": [
+      {
+       "kind": "dust",
+       "count": 200,
+       "area": 16,
+       "height": 7
+      }
+     ]
+    }
+   ],
+   "pad": 0.25,
+   "tension": 0.15,
+   "kind": null,
+   "sfx": [],
+   "hold": 0.0,
+   "label": null
+  },
+  {
+   "say": [
+    "narrator",
+    "For once, Theo had nothing to say."
+   ],
+   "shots": [
+    {
+     "camera": {
+      "subject": "theo",
+      "framing": "ws",
+      "move": "pull_out",
+      "angle": "eye",
+      "lens": 35,
+      "az": 25
+     },
+     "actions": [
+      {
+       "who": "theo",
+       "action": "idle",
+       "at": [
+        0,
+        0,
+        1.0
+       ],
+       "facing": 30,
+       "expr": "happy"
+      },
+      {
+       "who": "ava",
+       "action": "idle",
+       "at": [
+        1.4,
+        -0.6,
+        1.0
+       ],
+       "facing": -40,
+       "expr": "happy"
+      }
+     ],
+     "w": 1.0,
+     "set": "subway",
+     "monster": false,
+     "fx": [
+      {
+       "kind": "dust",
+       "count": 200,
+       "area": 16,
+       "height": 7
+      }
+     ]
+    }
+   ],
+   "pad": 1.4,
+   "tension": 0.15,
+   "kind": null,
+   "sfx": [],
+   "hold": 0.0,
+   "label": null
+  }
+ ]
+}

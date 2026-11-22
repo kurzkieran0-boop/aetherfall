@@ -1,0 +1,301 @@
+{
+ "s001": {
+  "mean": 54.2,
+  "std": 51.7,
+  "clip": 0.0,
+  "crush": 0.0,
+  "color": 35.9,
+  "sharp": 187.2,
+  "flags": [],
+  "wall_s": 12.0
+ },
+ "s002": {
+  "mean": 35.7,
+  "std": 55.2,
+  "clip": 0.0,
+  "crush": 34.5,
+  "color": 30.9,
+  "sharp": 474.9,
+  "flags": [
+   "CUT 1.0s"
+  ],
+  "wall_s": 10.7
+ },
+ "s003": {
+  "mean": 48.7,
+  "std": 73.1,
+  "clip": 0.02,
+  "crush": 29.0,
+  "color": 26.0,
+  "sharp": 955.3,
+  "flags": [],
+  "wall_s": 13.9
+ },
+ "s004": {
+  "mean": 72.3,
+  "std": 60.5,
+  "clip": 0.0,
+  "crush": 9.5,
+  "color": 43.5,
+  "sharp": 130.6,
+  "flags": [],
+  "wall_s": 16.9
+ },
+ "s006": {
+  "mean": 130.7,
+  "std": 36.2,
+  "clip": 0.0,
+  "crush": 0.0,
+  "color": 62.3,
+  "sharp": 4.4,
+  "flags": [],
+  "wall_s": 21.2
+ },
+ "s007": {
+  "mean": 134.1,
+  "std": 50.2,
+  "clip": 0.0,
+  "crush": 0.0,
+  "color": 52.1,
+  "sharp": 27.6,
+  "flags": [],
+  "wall_s": 22.2
+ },
+ "s008": {
+  "mean": 90.0,
+  "std": 61.0,
+  "clip": 0.08,
+  "crush": 0.5,
+  "color": 52.5,
+  "sharp": 211.6,
+  "flags": [],
+  "wall_s": 21.7
+ },
+ "s009": {
+  "mean": 48.0,
+  "std": 53.2,
+  "clip": 0.0,
+  "crush": 0.0,
+  "color": 35.1,
+  "sharp": 538.3,
+  "flags": [],
+  "wall_s": 16.4
+ },
+ "s010": {
+  "mean": 38.6,
+  "std": 55.9,
+  "clip": 0.0,
+  "crush": 20.0,
+  "color": 33.6,
+  "sharp": 838.6,
+  "flags": [],
+  "wall_s": 17.2
+ },
+ "s011": {
+  "mean": 150.5,
+  "std": 55.6,
+  "clip": 1.07,
+  "crush": 0.0,
+  "color": 51.6,
+  "sharp": 88.3,
+  "flags": [],
+  "wall_s": 25.9
+ },
+ "s012": {
+  "mean": 3.3,
+  "std": 11.8,
+  "clip": 0.0,
+  "crush": 86.5,
+  "color": 10.0,
+  "sharp": 27.6,
+  "flags": [
+   "DARK",
+   "CRUSHED",
+   "FLAT"
+  ],
+  "wall_s": 21.6
+ },
+ "s013": {
+  "mean": 132.9,
+  "std": 60.4,
+  "clip": 0.37,
+  "crush": 0.0,
+  "color": 71.2,
+  "sharp": 88.1,
+  "flags": [],
+  "wall_s": 27.9
+ },
+ "s014": {
+  "mean": 30.2,
+  "std": 56.5,
+  "clip": 0.01,
+  "crush": 49.8,
+  "color": 25.8,
+  "sharp": 1053.8,
+  "flags": [],
+  "wall_s": 18.4
+ },
+ "s015": {
+  "mean": 180.0,
+  "std": 35.0,
+  "clip": 0.33,
+  "crush": 0.0,
+  "color": 44.1,
+  "sharp": 15.8,
+  "flags": [],
+  "wall_s": 16.9
+ },
+ "s016": {
+  "mean": 111.2,
+  "std": 56.6,
+  "clip": 0.33,
+  "crush": 0.0,
+  "color": 44.0,
+  "sharp": 48.9,
+  "flags": [],
+  "wall_s": 15.5
+ },
+ "s017": {
+  "mean": 32.5,
+  "std": 49.9,
+  "clip": 0.0,
+  "crush": 20.4,
+  "color": 29.7,
+  "sharp": 1607.0,
+  "flags": [],
+  "wall_s": 10.7
+ },
+ "s018": {
+  "mean": 80.0,
+  "std": 57.5,
+  "clip": 0.04,
+  "crush": 3.4,
+  "color": 40.5,
+  "sharp": 182.3,
+  "flags": [],
+  "wall_s": 14.0
+ },
+ "s019": {
+  "mean": 89.6,
+  "std": 58.0,
+  "clip": 0.02,
+  "crush": 0.0,
+  "color": 46.6,
+  "sharp": 285.4,
+  "flags": [],
+  "wall_s": 14.2
+ },
+ "s020": {
+  "mean": 133.3,
+  "std": 47.2,
+  "clip": 0.0,
+  "crush": 0.0,
+  "color": 51.6,
+  "sharp": 55.3,
+  "flags": [],
+  "wall_s": 16.4
+ },
+ "s021": {
+  "mean": 40.9,
+  "std": 53.6,
+  "clip": 0.0,
+  "crush": 24.4,
+  "color": 37.1,
+  "sharp": 93.0,
+  "flags": [],
+  "wall_s": 11.2
+ },
+ "s022": {
+  "mean": 66.1,
+  "std": 56.6,
+  "clip": 0.0,
+  "crush": 7.2,
+  "color": 35.6,
+  "sharp": 50.4,
+  "flags": [],
+  "wall_s": 14.3
+ },
+ "s023": {
+  "mean": 4.2,
+  "std": 11.1,
+  "clip": 0.0,
+  "crush": 82.4,
+  "color": 3.2,
+  "sharp": 3.2,
+  "flags": [
+   "DARK",
+   "CRUSHED",
+   "FLAT",
+   "MUDDY"
+  ],
+  "wall_s": 7.7
+ },
+ "s024": {
+  "mean": 41.9,
+  "std": 56.2,
+  "clip": 0.03,
+  "crush": 22.4,
+  "color": 33.8,
+  "sharp": 521.5,
+  "flags": [],
+  "wall_s": 11.2
+ },
+ "s025": {
+  "mean": 57.4,
+  "std": 41.6,
+  "clip": 0.0,
+  "crush": 0.0,
+  "color": 41.0,
+  "sharp": 628.5,
+  "flags": [],
+  "wall_s": 12.8
+ },
+ "s026": {
+  "mean": 21.1,
+  "std": 42.8,
+  "clip": 0.01,
+  "crush": 54.7,
+  "color": 22.4,
+  "sharp": 851.1,
+  "flags": [
+   "DARK"
+  ],
+  "wall_s": 12.3
+ },
+ "s027": {
+  "mean": 84.7,
+  "std": 45.9,
+  "clip": 0.12,
+  "crush": 0.0,
+  "color": 38.6,
+  "sharp": 25.5,
+  "flags": [
+   "CUT 1.1s"
+  ],
+  "wall_s": 14.7
+ },
+ "s028": {
+  "mean": 135.4,
+  "std": 51.8,
+  "clip": 0.01,
+  "crush": 0.0,
+  "color": 48.3,
+  "sharp": 7.7,
+  "flags": [
+   "CUT 1.0s"
+  ],
+  "wall_s": 16.6
+ },
+ "s029": {
+  "mean": 64.8,
+  "std": 44.2,
+  "clip": 0.51,
+  "crush": 0.1,
+  "color": 19.4,
+  "sharp": 106.4,
+  "flags": [
+   "CUT 3.6s"
+  ],
+  "wall_s": 13.7
+ }
+}

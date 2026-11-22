@@ -1,0 +1,9 @@
+cache/
+output/*/stills/
+output/*/audio/
+output/*/render.json
+assets/hdri/
+assets/textures/
+assets/voices/
+__pycache__/
+*.pyc
