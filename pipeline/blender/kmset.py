@@ -594,7 +594,7 @@ def impact(name, loc, f, power=1.0, seed=0, debris=True, fire=True, f_range=(1, 
     """Full meteor hit at `loc` on frame f."""
     loc = Vector(loc)
     # flash (lightning-style) + hot glow that decays
-    fl = K.light('POINT', (loc.x, loc.y, 4), 0, (1.0, 0.7, 0.4), size=4, name=f"{name}_flash", volume=2.0)
+    fl = K.light('POINT', (loc.x, loc.y, 4), 0, (1.0, 0.7, 0.4), size=4, name=f"{name}_flash", volume=0.4)
     fl.data.use_shadow = True
     fl.data.keyframe_insert("energy", frame=f - 1)
     for k, e in ((0, 4.0e6), (1, 2.6e6), (2, 1.6e6), (4, 4.0e5), (8, 1.2e5), (16, 5e4)):

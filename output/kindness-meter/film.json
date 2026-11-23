@@ -1801,11 +1801,11 @@
     {
      "camera": {
       "subject": "mom",
-      "framing": "mcu",
+      "framing": "ms",
       "move": "push_in",
       "angle": "eye",
-      "lens": 50,
-      "az": 20
+      "lens": 40,
+      "az": 25
      },
      "actions": [
       {
@@ -3532,11 +3532,11 @@
       "lens": 20,
       "az": 0,
       "pos": [
-       6,
-       -10,
-       1.2
+       42,
+       30,
+       1.4
       ],
-      "note": "the Spire cracks and leans over the plaza"
+      "note": "side-on: the Spire cracks and leans over the plaza"
      },
      "actions": [],
      "w": 1.0,
@@ -3714,11 +3714,11 @@
     {
      "camera": {
       "subject": "oldman",
-      "framing": "mcu",
+      "framing": "ms",
       "move": "push_in",
-      "angle": "high",
-      "lens": 40,
-      "az": 180,
+      "angle": "eye",
+      "lens": 35,
+      "az": 95,
       "note": "on his back, he reaches out; they're gone"
      },
      "actions": [
@@ -3899,7 +3899,7 @@
        ],
        "facing": 180,
        "expr": "pain",
-       "f1": 200
+       "f1": 80
       }
      ],
      "w": 0.8,
@@ -4020,9 +4020,9 @@
       "subject": "guest",
       "framing": "mws",
       "move": "push_in",
-      "angle": "low",
+      "angle": "high",
       "lens": 28,
-      "az": 330,
+      "az": 300,
       "note": "the default kid pinned under the leaning Spire"
      },
      "actions": [
@@ -4159,9 +4159,9 @@
       "subject": "guest",
       "framing": "ms",
       "move": "static_drift",
-      "angle": "low",
+      "angle": "high",
       "lens": 35,
-      "az": 330,
+      "az": 270,
       "subject2": "vance",
       "note": "\u2026and he runs"
      },
@@ -4253,9 +4253,9 @@
       "subject": "guest",
       "framing": "ms",
       "move": "static_drift",
-      "angle": "eye",
+      "angle": "high",
       "lens": 35,
-      "az": 300,
+      "az": 240,
       "note": "people run straight past him"
      },
      "actions": [

@@ -294,7 +294,7 @@ class HeroZero:
         self.inf.scale = (0.0001,) * 3
         self.inf.keyframe_insert("scale", frame=self.fa)
         # inner glow light that sells the pulse in the scene
-        self.lamp = K.light('POINT', (0, 0, 0), 40, COL["red"], size=0.3, name=f"{name}_zlamp", volume=0.5)
+        self.lamp = K.light('POINT', (0, 0, 0), 40, COL["red"], size=0.3, name=f"{name}_zlamp", volume=0.1)
         self.lamp.parent = self.pivot
         self.lamp.location = (0, -0.25, 0)
         self.lamp.data.use_shadow = False
@@ -392,7 +392,7 @@ class HeroZero:
         L.keyframe_insert("energy", frame=f_burst + 10)
         L.energy = 260
         L.keyframe_insert("energy", frame=f_settle + 10)
-        flash = K.light('POINT', (0, 0, 0), 0, COL["gold"], size=2.0, name=f"{self.name}_flash", volume=2.0)
+        flash = K.light('POINT', (0, 0, 0), 0, COL["gold"], size=2.0, name=f"{self.name}_flash", volume=0.05)
         flash.parent = self.pivot
         flash.data.use_shadow = False
         flash.data.keyframe_insert("energy", frame=f_burst - 1)

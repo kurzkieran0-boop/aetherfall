@@ -478,11 +478,11 @@ def _prop(pr, P, nfr, fa, fb):
 def _beam(v, P, nfr, fa, fb):
     """The concrete beam pinning the kid; keyed by the hero's lift (with a slip)."""
     loc = P(v["at"])
-    piv = K.empty("beam_pivot", tuple(loc + Vector((1.7, 0.4, 0.15))), collection="fx")
+    piv = K.empty("beam_pivot", tuple(loc + Vector((1.7, 0.4, 0.15))), collection="set")
     piv.rotation_euler = (0, 0, math.radians(v.get("rot", 15)))
     b = K.box("beam", (-1.6, 0, 0.32), (3.6, 0.55, 0.55), K.pbr("concrete", 0.4, tint=(0.5, 0.5, 0.52), name="beam_m"),
-              piv, bevel=0.03)
-    K.box("beam_rebar", (-1.6, 0.0, 0.62), (3.4, 0.06, 0.06), K.plastic((0.35, 0.2, 0.12), 0.7), piv)
+              piv, bevel=0.03, collection="set")
+    K.box("beam_rebar", (-1.6, 0.0, 0.62), (3.4, 0.06, 0.06), K.plastic((0.35, 0.2, 0.12), 0.7), piv, collection="set")
     for t, ang in v.get("keys", [[0.0, 0]]):
         piv.rotation_euler = (0, math.radians(ang), math.radians(v.get("rot", 15)))
         piv.keyframe_insert("rotation_euler", frame=_fr(t, nfr))

@@ -119,7 +119,7 @@ See `script.md`. Automated checks on the final:
 - `1:13.96` +5.6s — (meteor screams in over the plaza, IMPACT: flash, shockwave, debris, a neon sign tears free and falls)
 - `1:19.54` +2.7s — CROWD: Run!
 - `1:22.25` +2.6s — LUXE: Move! This dragon is legendary!
-- `1:24.83` +2.8s — (the Spire cracks and leans over the plaza)
+- `1:24.83` +2.8s — (side-on: the Spire cracks and leans over the plaza)
 - `1:27.62` +3.2s — VO: And the helpers ran.
 - `1:30.83` +3.2s — VANCE: Move, zero!
 - `1:34.04` +3.4s — GUEST: Help! Somebody!
