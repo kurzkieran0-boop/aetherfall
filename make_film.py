@@ -28,6 +28,7 @@ Nothing is ever uploaded or posted anywhere.
 import argparse
 import importlib
 import json
+import random
 import os
 import shutil
 import subprocess
@@ -655,13 +656,31 @@ def stage_deliver_v2(out, film, tl):
         log(f"[deliver] BUILD FAILED: runtime {dur:.2f}s is under the {lo}s minimum")
         sys.exit(4)
     rj = json.load(open(os.path.join(out, "render.json")))
-    # thumbnail: the flip shot just after the burst -> red shards + gold infinity growing (half-flipped)
+    # thumbnail: the red 0 half-flipped to infinity -- left half is the 0 just before the crack,
+    # right half the settled gold infinity, joined by a jagged glowing crack
     flip = next(s for s in tl["shots"] if s.get("zero", {}).get("flip"))
-    m = json.load(open(os.path.join(rj["dirs"][flip["id"]], "meta.json")))
-    fb = flip["zero"]["flip"][1]
-    want = int(fb * flip["frames"]) + 3
-    f = min(m["frames"], key=lambda x: abs(x - want))
-    im = Image.open(os.path.join(rj["dirs"][flip["id"]], f"f_{f:04d}.png")).convert("RGB").resize((1080, 1920), Image.LANCZOS)
+    fdir = rj["dirs"][flip["id"]]
+    m = json.load(open(os.path.join(fdir, "meta.json")))
+    fc, _, fs = flip["zero"]["flip"]
+    pick = lambda want: min(m["frames"], key=lambda x: abs(x - want))
+    load = lambda f: Image.open(os.path.join(fdir, f"f_{f:04d}.png")).convert("RGB").resize((1080, 1920), Image.LANCZOS)
+    a = load(pick(int(fc * flip["frames"]) - 2))
+    b = load(pick(min(flip["frames"], int(fs * flip["frames"]) + 6)))
+    rng = random.Random(7)
+    pts, y = [], 0
+    while y <= 1920:   # jagged vertical crack through the middle
+        pts.append((540 + rng.randint(-60, 60), y))
+        y += rng.randint(70, 140)
+    pts.append((540, 1920))
+    mask = Image.new("L", (1080, 1920), 0)
+    ImageDraw.Draw(mask).polygon(pts + [(1080, 1920), (1080, 0)], fill=255)
+    im = Image.composite(b, a, mask.filter(ImageFilter.GaussianBlur(3)))
+    glow = Image.new("L", (1080, 1920), 0)
+    ImageDraw.Draw(glow).line(pts, fill=255, width=16)
+    im = Image.composite(Image.new("RGB", im.size, (255, 214, 120)), im, glow.filter(ImageFilter.GaussianBlur(14)))
+    core = Image.new("L", (1080, 1920), 0)
+    ImageDraw.Draw(core).line(pts, fill=255, width=5)
+    im = Image.composite(Image.new("RGB", im.size, (255, 250, 230)), im, core.filter(ImageFilter.GaussianBlur(1.5)))
     im = im.filter(ImageFilter.UnsharpMask(2, 90, 2))
     d = ImageDraw.Draw(im)
     fnt = ImageFont.truetype(CP.font_path(), 140)
