@@ -78,8 +78,7 @@
       "inner": 2.5
      }
     ],
-    "engine": "cycles",
-    "spp": 12,
+    "samples": 8,
     "step": 2,
     "id": "s001",
     "beat": 0,
@@ -7012,8 +7011,7 @@
      "spire_lean": 10.0,
      "sirens": true
     },
-    "engine": "cycles",
-    "spp": 12,
+    "samples": 8,
     "step": 2,
     "id": "s055",
     "beat": 35,
@@ -8774,8 +8772,7 @@
      "sparks": 160
     },
     "flare": 1.6,
-    "engine": "cycles",
-    "spp": 16,
+    "samples": 8,
     "step": 1,
     "exposure": -0.2,
     "id": "s065",
@@ -8876,8 +8873,7 @@
     "zero": {
      "inf": true
     },
-    "engine": "cycles",
-    "spp": 12,
+    "samples": 8,
     "step": 2,
     "id": "s066",
     "beat": 44,
@@ -9650,8 +9646,7 @@
     "zero": {
      "inf": true
     },
-    "engine": "cycles",
-    "spp": 12,
+    "samples": 8,
     "step": 2,
     "id": "s073",
     "beat": 49,

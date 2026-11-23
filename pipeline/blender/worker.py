@@ -527,6 +527,8 @@ def main():
     shot = job["shot"]
     if v2:
         bpy.context.scene.view_settings.exposure += shot.get("exposure", 0.0)
+        if shot.get("samples") and not r.get("still") and r["w"] >= 400:
+            bpy.context.scene.eevee.taa_render_samples = int(shot["samples"])
         add_lens_fx(r, shot)
         if shot.get("engine") == "cycles" and r.get("allow_cycles", True):
             setup_cycles(r, shot)
