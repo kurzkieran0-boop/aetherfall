@@ -317,13 +317,14 @@ def critique(film, line_durs=None):
     if line_durs:
         t, last_esc = 0.0, 0.0
         for b, d in zip(film["beats"], line_durs):
-            t += d + b.get("pad", 0.25) + b.get("hold", 0)
+            t += max(d + b.get("pad", 0.25), b.get("hold", 0.0), 1.45) if b["say"] else max(b.get("hold", 1.0), 1.45)
             if b.get("kind") in ("hit", "braam") or (b.get("tension") or 0) >= 0.8:
                 if t - last_esc > 16:
                     notes.append(f"Escalation gap of {t - last_esc:.0f}s before {t:.0f}s — need a reveal every 10-15 s.")
                 last_esc = t
-        if t < 60 or t > 120:
-            notes.append(f"Runtime {t:.0f}s outside 60-120 s.")
+        lo, hi = film.get("runtime_target", (60, 120))
+        if t < lo or t > hi:
+            notes.append(f"Runtime {t:.0f}s outside {lo}-{hi} s.")
     return notes or ["PASS — hook, rule timing, line length, escalation cadence, complete ending."]
 
 
@@ -435,10 +436,13 @@ def write_docs(film, timeline, outdir, notes):
     L += ["## 2 · Characters", ""]
     for cid, c in film["characters"].items():
         L.append(f"- **{c.get('name', cid)}** ({c.get('voice')} voice) — {c.get('bio', '')}")
-    m = film["monster"]
-    L += ["", f"## 3 · The monster — {m.get('name', 'The Giant')}", "",
-          f"{m.get('bio', '')}  ", f"Build: procedural `{m['kind']}`, {m['height']} m tall, glow RGB {m['glow']}, "
-          f"{m.get('eyes', 2)} eyes. Signature: {m.get('signature', 'heavy stomp + roar')}.", ""]
+    m = film.get("monster")
+    if m:
+        L += ["", f"## 3 · The monster — {m.get('name', 'The Giant')}", "",
+              f"{m.get('bio', '')}  ", f"Build: procedural `{m['kind']}`, {m['height']} m tall, glow RGB {m['glow']}, "
+              f"{m.get('eyes', 2)} eyes. Signature: {m.get('signature', 'heavy stomp + roar')}.", ""]
+    else:
+        L += ["", "## 3 · Setting", "", f"{film.get('setting_note', 'Brickton — a sunny pastel brick town.')}", ""]
     if film.get("outline"):
         L += ["## 4 · Outline", ""] + [f"{i + 1}. **{o[0]}** ({o[1]}) — {o[2]}" for i, o in enumerate(film["outline"])] + [""]
     if film.get("draft"):

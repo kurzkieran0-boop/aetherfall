@@ -17,6 +17,7 @@ GRADES = {
     "night_blue": dict(lift=(0.0, 0.012, 0.035), gain=(1.06, 1.0, 0.94), contrast=1.12, sat=1.08, gamma=0.97),
     "storm": dict(lift=(0.0, 0.015, 0.03), gain=(0.98, 1.0, 1.05), contrast=1.15, sat=0.92, gamma=0.98),
     "ember": dict(lift=(0.01, 0.01, 0.035), gain=(1.1, 1.0, 0.88), contrast=1.14, sat=1.12, gamma=0.96),
+    "sunny": dict(lift=(0.0, 0.008, 0.03), gain=(1.05, 1.0, 0.94), contrast=1.14, sat=1.25, gamma=1.0),
     "toxic": dict(lift=(0.0, 0.02, 0.03), gain=(0.98, 1.06, 0.96), contrast=1.12, sat=1.05, gamma=0.97),
 }
 
@@ -67,7 +68,7 @@ def frame_source(shot_dir, meta, local_f):
     return os.path.join(shot_dir, f"f_{best:04d}.png")
 
 
-def compose(shotlist, shot_dirs, audio_wav, captions, out_mp4, look="night_blue", flashes=(), log=print,
+def compose(shotlist, shot_dirs, audio_wav, captions, out_mp4, look="night_blue", flashes=(), log=print,  # noqa
             preview=False, max_seconds=None):
     luts = build_luts(look)
     vig = vignette()

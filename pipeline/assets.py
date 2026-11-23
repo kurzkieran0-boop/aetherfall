@@ -23,6 +23,8 @@ HDRIS = {
     "sky_night": "kloppenheim_02_puresky",
     "moonless": "moonless_golf",
     "metro": "metro_vijzelgracht",
+    "day_sky": "kloofendal_48d_partly_cloudy_puresky",
+    "day_clear": "kloofendal_43d_clear_puresky",
 }
 
 # PBR textures (ambientCG, CC0). key -> asset id
@@ -38,6 +40,9 @@ TEXTURES = {
     "ground": "Ground037",
     "wood": "WoodFloor051",
     "rock": "Rock030",
+    "grass": "Grass004",
+    "roof": "RoofingTiles006",
+    "cobble": "PavingStones092",
 }
 
 UA = {"User-Agent": "lantern-film-pipeline/1.0"}

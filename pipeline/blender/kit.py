@@ -119,7 +119,7 @@ def box(name, loc, size, mat=None, parent=None, bevel=0.0, rot=(0, 0, 0),
 
 
 def cyl(name, loc, radius, depth, mat=None, parent=None, rot=(0, 0, 0),
-        collection="set", verts=12):
+        collection="set", verts=12):  # noqa
     return obj(name, _cyl_mesh(verts), loc, (radius * 2, radius * 2, depth), rot,
                mat, parent, collection)
 
@@ -1928,3 +1928,261 @@ def spray(loc, frame_range, count=400, name="spray", height=8):
     ps.instance_object = drop
     em.show_instancer_for_render = False
     return em
+
+
+# =========================================================== BRIGHT TOWN (daytime)
+
+PASTEL = [(0.95, 0.55, 0.5), (0.98, 0.82, 0.45), (0.55, 0.8, 0.7), (0.6, 0.72, 0.95), (0.95, 0.7, 0.85),
+          (0.98, 0.95, 0.85), (0.75, 0.9, 0.55), (0.95, 0.65, 0.35), (0.7, 0.6, 0.9)]
+ROOFS = [(0.65, 0.18, 0.12), (0.25, 0.3, 0.45), (0.35, 0.5, 0.3), (0.5, 0.25, 0.2)]
+
+
+def _prism_mesh():
+    k = ("prism",)
+    if k in _MESH_CACHE:
+        return _MESH_CACHE[k]
+    me = bpy.data.meshes.new("prism")
+    v = [(-0.5, -0.5, 0), (0.5, -0.5, 0), (0.5, 0.5, 0), (-0.5, 0.5, 0), (-0.5, 0, 1), (0.5, 0, 1)]
+    f = [(0, 1, 2, 3), (0, 4, 5, 1), (3, 2, 5, 4), (0, 3, 4), (1, 5, 2)]
+    me.from_pydata(v, [], f)
+    me.update()
+    _MESH_CACHE[k] = me
+    return me
+
+
+def sun_world(hdri="day_sky", strength=1.0, sun_energy=4.5, sun_rot=(48, 0, 35), haze=0.0):
+    world(hdri, strength, (1.0, 1.0, 1.0), fog=haze, fog_color=(0.75, 0.85, 1.0), aniso=0.3)
+    s = light('SUN', (0, 0, 60), sun_energy, (1.0, 0.95, 0.85), name="sun",
+              rot=tuple(math.radians(a) for a in sun_rot))
+    s.data.angle = math.radians(2.5)
+    return s
+
+
+def house(name, x, y, w, d, h, rot_z=0.0, seed=0, shop=None):
+    """Pastel town house facing -Y in local space (front door on -Y side)."""
+    rng = random.Random(seed)
+    root = empty(name, (x, y, 0), collection="set")
+    root.rotation_euler = (0, 0, rot_z)
+    wall = plastic(rng.choice(PASTEL), 0.55, coat=0.1)
+    trim = plastic((0.97, 0.97, 0.95), 0.4)
+    roofm = pbr("roof", 0.5, tint=rng.choice(ROOFS + [(1, 1, 1)]), fallback=(0.6, 0.2, 0.1))
+    glass = plastic((0.15, 0.25, 0.35), 0.05, coat=0.5)
+    box(f"{name}_w", (0, 0, h / 2), (w, d, h), wall, root, bevel=0.0)
+    box(f"{name}_base", (0, 0, 0.3), (w + 0.2, d + 0.2, 0.6), trim, root)
+    r = obj(f"{name}_roof", _prism_mesh(), (0, 0, h), (w + 0.6, d + 0.8, min(w, d) * 0.45), (0, 0, math.pi / 2),
+            roofm, root)
+    floors = max(1, int(h / 3.2))
+    nwin = max(1, int(w / 2.6))
+    for fl in range(floors):
+        z = 1.8 + fl * 3.2
+        for i in range(nwin):
+            wx = -w / 2 + (i + 0.5) * w / nwin
+            if fl == 0 and i == nwin // 2:
+                box(f"{name}_door", (wx, -d / 2 - 0.05, 1.2), (1.2, 0.12, 2.4), plastic(rng.choice(ROOFS), 0.4), root)
+                continue
+            box(f"{name}_wf{fl}{i}", (wx, -d / 2 - 0.04, z), (1.3, 0.1, 1.5), trim, root)
+            box(f"{name}_wg{fl}{i}", (wx, -d / 2 - 0.09, z), (1.0, 0.06, 1.2), glass, root)
+            if fl > 0 and rng.random() < 0.5:  # flower box
+                box(f"{name}_fb{fl}{i}", (wx, -d / 2 - 0.3, z - 0.85), (1.3, 0.4, 0.3), plastic((0.5, 0.3, 0.15)), root)
+                box(f"{name}_fl{fl}{i}", (wx, -d / 2 - 0.3, z - 0.62), (1.2, 0.35, 0.2),
+                    plastic(rng.choice(((0.95, 0.2, 0.3), (1, 0.8, 0.1), (0.9, 0.4, 0.9)))), root)
+    if shop:
+        cols = shop.get("stripes", ((0.95, 0.3, 0.45), (1, 1, 1)))
+        for i in range(8):
+            box(f"{name}_aw{i}", (-w / 2 + (i + 0.5) * w / 8, -d / 2 - 1.0, 3.3), (w / 8, 2.0, 0.12),
+                plastic(cols[i % 2], 0.5), root, rot=(math.radians(-18), 0, 0))
+        box(f"{name}_sign", (0, -d / 2 - 0.2, h - 0.9), (w * 0.6, 0.2, 1.1), plastic(shop.get("sign", (0.4, 0.2, 0.15))), root)
+        if shop.get("cake_sign"):
+            for k, (r_, c) in enumerate(((1.0, (0.98, 0.75, 0.85)), (0.75, (1, 1, 0.95)), (0.5, (0.98, 0.75, 0.85)))):
+                cyl(f"{name}_cs{k}", (0, 0, h + 1.2 + k * 0.8), r_ * 1.4, 0.8, plastic(c, 0.4), root, verts=20)
+    return root
+
+
+def clock_tower(loc, height=26, name="clocktower", hands_keys=None):
+    stone = pbr("bricks", 0.35, tint=(1.0, 0.85, 0.75), fallback=(0.7, 0.5, 0.4))
+    root = empty(name, loc, collection="set")
+    box(f"{name}_body", (0, 0, height / 2), (6, 6, height), stone, root)
+    box(f"{name}_cap", (0, 0, height + 0.4), (7, 7, 0.8), plastic((0.95, 0.93, 0.88)), root)
+    obj(f"{name}_roof", _prism_mesh(), (0, 0, height + 0.8), (7.2, 7.2, 6), (0, 0, 0), plastic((0.3, 0.45, 0.4), 0.5), root)
+    face = cyl(f"{name}_face", (0, -3.05, height - 4), 2.2, 0.15, plastic((0.98, 0.97, 0.92), 0.3), root,
+               rot=(math.pi / 2, 0, 0), verts=32)
+    box(f"{name}_ring", (0, -3.0, height - 4), (4.8, 0.1, 4.8), plastic((0.2, 0.2, 0.25)), root)
+    hub = empty(f"{name}_hub", (0, -3.2, height - 4), root, "set")
+    hrs = empty(f"{name}_hrs", (0, 0, 0), hub, "set")
+    mins = empty(f"{name}_min", (0, 0, 0), hub, "set")
+    box(f"{name}_hh", (0, -0.05, 0.6), (0.22, 0.06, 1.2), plastic((0.05, 0.05, 0.06)), hrs)
+    box(f"{name}_mh", (0, -0.1, 0.9), (0.14, 0.06, 1.8), plastic((0.05, 0.05, 0.06)), mins)
+    for k in range(12):
+        a = k / 12 * math.tau
+        box(f"{name}_tick{k}", (math.sin(a) * 1.9, -3.22, height - 4 + math.cos(a) * 1.9), (0.15, 0.05, 0.35),
+            plastic((0.1, 0.1, 0.12)), root, rot=(0, -a, 0))
+    # hands: minutes-to-noon keys [(frame, minutes_before_noon)]
+    for f, m in (hands_keys or [(1, 10)]):
+        mins.rotation_euler = (0, math.radians(-(60 - m) / 60 * 360) if m else 0, 0)
+        hrs.rotation_euler = (0, math.radians(-(11 + (60 - m) / 60) / 12 * 360) if m else 0, 0)
+        mins.keyframe_insert("rotation_euler", frame=f)
+        hrs.keyframe_insert("rotation_euler", frame=f)
+    return root
+
+
+def fountain(loc, name="fountain"):
+    stone = plastic((0.85, 0.83, 0.78), 0.6)
+    water = bpy.data.materials.new("fwater")
+    nt, out = _nodes(water)
+    b = nt.nodes.new("ShaderNodeBsdfPrincipled")
+    b.inputs["Base Color"].default_value = (0.25, 0.55, 0.7, 1)
+    b.inputs["Roughness"].default_value = 0.05
+    nt.links.new(b.outputs[0], out.inputs[0])
+    cyl(f"{name}_rim", (loc[0], loc[1], 0.45), 5, 0.9, stone, verts=32)
+    cyl(f"{name}_water", (loc[0], loc[1], 0.85), 4.6, 0.1, water, verts=32)
+    cyl(f"{name}_col", (loc[0], loc[1], 2.0), 0.6, 2.6, stone, verts=16)
+    cyl(f"{name}_bowl", (loc[0], loc[1], 3.3), 1.8, 0.4, stone, verts=24)
+
+
+def stall(loc, rot_z=0.0, color=(0.95, 0.35, 0.3), name="stall"):
+    root = empty(name, loc, collection="set")
+    root.rotation_euler = (0, 0, rot_z)
+    wood = pbr("wood", 0.8, tint=(0.9, 0.75, 0.6))
+    box(f"{name}_t", (0, 0, 0.9), (3.2, 1.6, 0.15), wood, root)
+    box(f"{name}_b", (0, 0, 0.45), (3.0, 1.4, 0.9), wood, root)
+    for x in (-1.5, 1.5):
+        box(f"{name}_p{x}", (x, 0.7, 1.4), (0.12, 0.12, 2.8), wood, root)
+    for i in range(6):
+        box(f"{name}_r{i}", (-1.5 + (i + 0.5) * 0.5, 0, 2.85), (0.5, 2.2, 0.1),
+            plastic(color if i % 2 == 0 else (1, 1, 1), 0.5), root, rot=(math.radians(-12), 0, 0))
+    rng = random.Random(name)
+    for i in range(7):
+        box(f"{name}_g{i}", (-1.3 + i * 0.42, rng.uniform(-0.4, 0.4), 1.1), (0.3, 0.3, 0.3),
+            plastic(rng.choice(((0.9, 0.2, 0.1), (1, 0.7, 0.1), (0.3, 0.7, 0.2))), 0.5), root, bevel=0.05)
+    return root
+
+
+def bunting(a, b, sag=1.5, name="bunting"):
+    A_, B_ = Vector(a), Vector(b)
+    n = int((B_ - A_).length / 1.2)
+    cols = ((0.95, 0.2, 0.3), (1, 0.8, 0.1), (0.2, 0.6, 0.95), (0.3, 0.8, 0.4), (0.95, 0.5, 0.9))
+    for i in range(n + 1):
+        t = i / max(1, n)
+        p = A_.lerp(B_, t) - Vector((0, 0, sag * 4 * t * (1 - t)))
+        o = obj(f"{name}{i}", _prism_mesh(), (p.x, p.y, p.z), (0.6, 0.05, 0.7), (math.pi, 0, math.atan2(B_.y - A_.y, B_.x - A_.x)),
+                plastic(cols[i % len(cols)], 0.5))
+
+
+def bench(loc, rot_z=0.0, name="bench"):
+    root = empty(name, loc, collection="set")
+    root.rotation_euler = (0, 0, rot_z)
+    wood = plastic((0.55, 0.35, 0.2), 0.6)
+    box(f"{name}_s", (0, 0, 0.5), (2.2, 0.6, 0.12), wood, root)
+    box(f"{name}_bk", (0, 0.3, 0.9), (2.2, 0.1, 0.6), wood, root)
+    for x in (-0.9, 0.9):
+        box(f"{name}_l{x}", (x, 0, 0.25), (0.12, 0.6, 0.5), plastic((0.15, 0.15, 0.17)), root)
+
+
+def set_town(seed=21, frame_range=(1, 120), clock=None, sprinklers=False, **kw):
+    """Brickton: sunny pastel town. Main Street runs along +Y (x in [-6,6]) from the bakery (y=-70)
+    to the Town Square (centre (0,70), clock tower at (0,92)). Alley west at y=-20; back lane x=-40;
+    park x in [-38,-12], y in [15,48]."""
+    sun_world()
+    cob = pbr("cobble", 0.35, tint=(0.95, 0.9, 0.85), fallback=(0.55, 0.5, 0.48))
+    road = pbr("asphalt", 0.25, tint=(0.42, 0.42, 0.46))
+    walk = pbr("paving", 0.4, tint=(1.0, 0.95, 0.9))
+    grass = pbr("grass", 0.25, tint=(0.75, 1.0, 0.6), fallback=(0.25, 0.5, 0.15))
+    box("ground", (0, 0, -0.5), (600, 600, 1.0), grass)
+    box("main_road", (0, -10, 0.02), (12, 160, 0.04), road)
+    for x in (-8, 8):
+        box("main_walk", (x, -10, 0.12), (4, 160, 0.24), walk)
+    box("cross_road", (-30, -20, 0.02), (50, 8, 0.04), road)
+    box("back_lane", (-40, 15, 0.02), (8, 80, 0.04), road)
+    box("square", (0, 72, 0.06), (44, 44, 0.12), cob)
+    for k in range(-12, 13):
+        box("dash", (0, -10 + k * 6, 0.05), (0.25, 2.5, 0.02), plastic((1, 1, 1), 0.6))
+    # houses along Main Street
+    rng = random.Random(seed)
+    y = -78
+    i = 0
+    while y < 46:
+        w = rng.uniform(7, 10)
+        for side in (-1, 1):
+            if side == -1 and -26 < y < -14:
+                continue  # alley gap
+            h = rng.uniform(6.5, 13)
+            shop = None
+            if side == -1 and i == 1:
+                shop = {"stripes": ((0.95, 0.4, 0.6), (1, 1, 1)), "sign": (0.55, 0.3, 0.2), "cake_sign": True}
+            elif rng.random() < 0.3:
+                shop = {"stripes": (rng.choice(((0.2, 0.6, 0.9), (0.3, 0.75, 0.4), (0.95, 0.6, 0.1))), (1, 1, 1))}
+            house(f"h{i}_{side}", side * 16, y + w / 2, w - 0.6, 10, h, rot_z=(-math.pi / 2 if side == -1 else math.pi / 2),
+                  seed=seed * 100 + i * 2 + side, shop=shop)
+        y += w
+        i += 1
+    # back-lane houses + park trees
+    for k in range(8):
+        house(f"bl{k}", -52, -20 + k * 10, 9, 10, rng.uniform(6, 10), rot_z=-math.pi / 2, seed=seed + 500 + k)
+    for k in range(18):
+        tree((rng.uniform(-36, -14), rng.uniform(17, 46), 0), rng.uniform(5, 8), seed + k, f"pt{k}")
+    for k in range(4):
+        bench((-25 + k * 4, 30 + (k % 2) * 6, 0), rng.uniform(0, 3), f"pb{k}")
+    # square: tower, fountain, stalls, bunting, houses around
+    clock_tower((0, 92, 0), 26, hands_keys=clock)
+    fountain((0, 66))
+    for k, (x, yy, r) in enumerate(((-14, 60, 0.3), (14, 60, -0.3), (-14, 80, 0.2), (14, 82, -0.2))):
+        stall((x, yy, 0), r, ((0.95, 0.35, 0.3), (0.3, 0.6, 0.95), (1, 0.75, 0.1), (0.4, 0.8, 0.4))[k], f"stall{k}")
+    for k in range(6):
+        a = k / 6 * math.tau
+        box(f"pole{k}", (math.cos(a) * 19, 72 + math.sin(a) * 19, 3.5), (0.2, 0.2, 7), plastic((0.95, 0.95, 0.95)))
+    for k in range(6):
+        a, b2 = k / 6 * math.tau, (k + 1) / 6 * math.tau
+        bunting((math.cos(a) * 19, 72 + math.sin(a) * 19, 7), (math.cos(b2) * 19, 72 + math.sin(b2) * 19, 7), name=f"bt{k}")
+        bunting((math.cos(a) * 19, 72 + math.sin(a) * 19, 7), (0, 92, 18), sag=2.5, name=f"bc{k}")
+    for k in range(10):
+        a = k / 10 * math.pi + math.pi
+        if 0.4 < (k / 10) < 0.6:
+            continue
+        house(f"sq{k}", math.cos(a) * 34, 72 - math.sin(a) * 34, 10, 9, rng.uniform(8, 14),
+              rot_z=a + math.pi / 2, seed=seed + 900 + k)
+    # distant hills
+    for k in range(14):
+        a = rng.uniform(0, math.tau)
+        sphere(f"hill{k}", (math.cos(a) * 260, math.sin(a) * 260, -20), rng.uniform(50, 90),
+               plastic((0.35, 0.6, 0.3), 0.8, coat=0))
+    for k in range(6):
+        streetlamp((rng.choice((-9.5, 9.5)), -60 + k * 20, 0.24), energy=0, name=f"slamp{k}")
+    marks = {"bakery": (-9, -66, 0.24), "hero": (-8, -60, 0.24), "roadblock": (0, -40, 0), "alley": (-14, -20, 0),
+             "grandma": (-24, -20, 0), "lane": (-40, 0, 0), "park": (-25, 30, 0), "square": (0, 56, 0.12),
+             "fountain": (0, 66, 0.12), "tower": (0, 92, 0), "street_n": (0, 30, 0), "crowd": (0, 74, 0.12)}
+    return marks
+
+
+SETS["town"] = set_town
+
+
+def cake(parent, loc=(0, -0.62, 0.02), scale=1.0, name="cake"):
+    tiers = [(0.42, 0.22, (0.98, 0.75, 0.85)), (0.33, 0.2, (1.0, 0.98, 0.92)), (0.24, 0.18, (0.98, 0.75, 0.85))]
+    z = 0
+    root = empty(name, loc, parent, "chars")
+    root.scale = (scale,) * 3
+    box(f"{name}_plate", (0, 0, -0.02), (0.9, 0.9, 0.04), plastic((0.95, 0.95, 0.97), 0.2), root)
+    for k, (r, h, c) in enumerate(tiers):
+        cyl(f"{name}_t{k}", (0, 0, z + h / 2), r, h, plastic(c, 0.35), root, verts=20, collection="chars")
+        cyl(f"{name}_i{k}", (0, 0, z + h - 0.01), r + 0.02, 0.04, plastic((0.95, 0.35, 0.5), 0.3), root, verts=20,
+            collection="chars")
+        z += h
+    for k in range(5):
+        a = k / 5 * math.tau
+        box(f"{name}_c{k}", (math.cos(a) * 0.14, math.sin(a) * 0.14, z + 0.07), (0.03, 0.03, 0.14),
+            plastic((0.3, 0.6, 1.0)), root, collection="chars")
+        box(f"{name}_fl{k}", (math.cos(a) * 0.14, math.sin(a) * 0.14, z + 0.17), (0.03, 0.03, 0.05),
+            emissive((1, 0.7, 0.2), 20), root, collection="chars")
+    box(f"{name}_cherry", (0, 0, z + 0.05), (0.08, 0.08, 0.08), plastic((0.85, 0.05, 0.1), 0.2), root, collection="chars")
+    return root
+
+
+def hold_front(rig, f0, f1, bob=True):
+    """Override arms into a two-handed 'carrying something' pose (cake, box)."""
+    for side in ("L", "R"):
+        sh = rig.sh[side]
+        sh.animation_data_clear()
+        for f in range(f0, f1 + 1, 4):
+            j = math.sin(f * 0.6) * (3 if bob else 0)
+            sh.rotation_euler = (math.radians(-78 + j), math.radians(8 if side == "L" else -8), 0)
+            sh.keyframe_insert("rotation_euler", frame=f)

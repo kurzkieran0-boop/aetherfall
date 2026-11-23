@@ -1,0 +1,11507 @@
+{
+ "shots": [
+  {
+   "camera": {
+    "subject": "mark:tower",
+    "framing": "ews",
+    "move": "crane_down",
+    "angle": "high",
+    "lens": 24,
+    "az": 0,
+    "pos": [
+     22,
+     40,
+     34
+    ],
+    "pos2": [
+     14,
+     30,
+     22
+    ]
+   },
+   "actions": [],
+   "w": 1.0,
+   "set": "town",
+   "fx": [],
+   "set_args": {
+    "clock": [
+     [
+      1,
+      11
+     ]
+    ]
+   },
+   "id": "s001",
+   "beat": 0,
+   "start": 0.0,
+   "frames": 67,
+   "cast": [],
+   "props": [
+    {
+     "kind": "police_car",
+     "at": [
+      5,
+      -33,
+      0
+     ],
+     "rot": 0,
+     "name": "plumcar"
+    },
+    {
+     "kind": "barrier",
+     "at": [
+      -2,
+      -34,
+      0
+     ]
+    },
+    {
+     "kind": "barrier",
+     "at": [
+      3,
+      -34,
+      0
+     ]
+    },
+    {
+     "kind": "sedan",
+     "at": [
+      8.5,
+      -50,
+      0
+     ],
+     "rot": 90,
+     "color": [
+      0.3,
+      0.6,
+      0.9
+     ],
+     "name": "parked1"
+    },
+    {
+     "kind": "sedan",
+     "at": [
+      8.5,
+      10,
+      0
+     ],
+     "rot": 90,
+     "color": [
+      0.95,
+      0.8,
+      0.2
+     ],
+     "name": "parked2"
+    },
+    {
+     "kind": "sedan",
+     "at": [
+      -8.5,
+      26,
+      0
+     ],
+     "rot": -90,
+     "color": [
+      0.9,
+      0.3,
+      0.3
+     ],
+     "name": "parked3"
+    }
+   ],
+   "start_frame": 0
+  },
+  {
+   "camera": {
+    "subject": "benny",
+    "framing": "mcu",
+    "move": "push_in",
+    "angle": "worm",
+    "lens": 24,
+    "az": 35
+   },
+   "actions": [
+    {
+     "who": "benny",
+     "action": "idle",
+     "at": [
+      -7,
+      -64,
+      0.24
+     ],
+     "facing": 200,
+     "expr": "determined"
+    }
+   ],
+   "w": 1.0,
+   "set": "town",
+   "fx": [],
+   "carry": {
+    "benny": "cake"
+   },
+   "id": "s002",
+   "beat": 1,
+   "start": 2.792,
+   "frames": 52,
+   "cast": [
+    "benny"
+   ],
+   "props": [
+    {
+     "kind": "police_car",
+     "at": [
+      5,
+      -33,
+      0
+     ],
+     "rot": 0,
+     "name": "plumcar"
+    },
+    {
+     "kind": "barrier",
+     "at": [
+      -2,
+      -34,
+      0
+     ]
+    },
+    {
+     "kind": "barrier",
+     "at": [
+      3,
+      -34,
+      0
+     ]
+    },
+    {
+     "kind": "sedan",
+     "at": [
+      8.5,
+      -50,
+      0
+     ],
+     "rot": 90,
+     "color": [
+      0.3,
+      0.6,
+      0.9
+     ],
+     "name": "parked1"
+    },
+    {
+     "kind": "sedan",
+     "at": [
+      8.5,
+      10,
+      0
+     ],
+     "rot": 90,
+     "color": [
+      0.95,
+      0.8,
+      0.2
+     ],
+     "name": "parked2"
+    },
+    {
+     "kind": "sedan",
+     "at": [
+      -8.5,
+      26,
+      0
+     ],
+     "rot": -90,
+     "color": [
+      0.9,
+      0.3,
+      0.3
+     ],
+     "name": "parked3"
+    }
+   ],
+   "start_frame": 67
+  },
+  {
+   "camera": {
+    "subject": "mark:tower",
+    "framing": "ws",
+    "move": "tilt_up",
+    "angle": "worm",
+    "lens": 24,
+    "az": 0,
+    "pos": [
+     -4,
+     -58,
+     0.6
+    ],
+    "pos2": [
+     -4,
+     -57,
+     0.8
+    ]
+   },
+   "actions": [
+    {
+     "who": "benny",
+     "action": "idle",
+     "at": [
+      -7,
+      -64,
+      0.24
+     ],
+     "facing": 180,
+     "expr": "determined"
+    }
+   ],
+   "w": 1.0,
+   "set": "town",
+   "fx": [],
+   "carry": {
+    "benny": "cake"
+   },
+   "id": "s003",
+   "beat": 2,
+   "start": 4.958,
+   "frames": 61,
+   "cast": [
+    "benny"
+   ],
+   "props": [
+    {
+     "kind": "police_car",
+     "at": [
+      5,
+      -33,
+      0
+     ],
+     "rot": 0,
+     "name": "plumcar"
+    },
+    {
+     "kind": "barrier",
+     "at": [
+      -2,
+      -34,
+      0
+     ]
+    },
+    {
+     "kind": "barrier",
+     "at": [
+      3,
+      -34,
+      0
+     ]
+    },
+    {
+     "kind": "sedan",
+     "at": [
+      8.5,
+      -50,
+      0
+     ],
+     "rot": 90,
+     "color": [
+      0.3,
+      0.6,
+      0.9
+     ],
+     "name": "parked1"
+    },
+    {
+     "kind": "sedan",
+     "at": [
+      8.5,
+      10,
+      0
+     ],
+     "rot": 90,
+     "color": [
+      0.95,
+      0.8,
+      0.2
+     ],
+     "name": "parked2"
+    },
+    {
+     "kind": "sedan",
+     "at": [
+      -8.5,
+      26,
+      0
+     ],
+     "rot": -90,
+     "color": [
+      0.9,
+      0.3,
+      0.3
+     ],
+     "name": "parked3"
+    }
+   ],
+   "start_frame": 119
+  },
+  {
+   "camera": {
+    "subject": "benny",
+    "framing": "ms",
+    "move": "orbit_right",
+    "angle": "eye",
+    "lens": 35,
+    "az": 25
+   },
+   "actions": [
+    {
+     "who": "benny",
+     "action": "talk",
+     "at": [
+      -7,
+      -64,
+      0.24
+     ],
+     "facing": 200,
+     "expr": "sly"
+    }
+   ],
+   "w": 1.0,
+   "set": "town",
+   "fx": [],
+   "carry": {
+    "benny": "cake"
+   },
+   "id": "s004",
+   "beat": 3,
+   "start": 7.5,
+   "frames": 48,
+   "cast": [
+    "benny"
+   ],
+   "props": [
+    {
+     "kind": "police_car",
+     "at": [
+      5,
+      -33,
+      0
+     ],
+     "rot": 0,
+     "name": "plumcar"
+    },
+    {
+     "kind": "barrier",
+     "at": [
+      -2,
+      -34,
+      0
+     ]
+    },
+    {
+     "kind": "barrier",
+     "at": [
+      3,
+      -34,
+      0
+     ]
+    },
+    {
+     "kind": "sedan",
+     "at": [
+      8.5,
+      -50,
+      0
+     ],
+     "rot": 90,
+     "color": [
+      0.3,
+      0.6,
+      0.9
+     ],
+     "name": "parked1"
+    },
+    {
+     "kind": "sedan",
+     "at": [
+      8.5,
+      10,
+      0
+     ],
+     "rot": 90,
+     "color": [
+      0.95,
+      0.8,
+      0.2
+     ],
+     "name": "parked2"
+    },
+    {
+     "kind": "sedan",
+     "at": [
+      -8.5,
+      26,
+      0
+     ],
+     "rot": -90,
+     "color": [
+      0.9,
+      0.3,
+      0.3
+     ],
+     "name": "parked3"
+    }
+   ],
+   "talk": {
+    "who": "benny",
+    "f0": 2,
+    "f1": 44
+   },
+   "start_frame": 180
+  },
+  {
+   "camera": {
+    "subject": "benny",
+    "framing": "ws",
+    "move": "pull_out",
+    "angle": "high",
+    "lens": 24,
+    "az": 30
+   },
+   "actions": [
+    {
+     "who": "benny",
+     "action": "idle",
+     "at": [
+      -7,
+      -64,
+      0.24
+     ],
+     "facing": 180,
+     "expr": "happy"
+    }
+   ],
+   "w": 1.0,
+   "set": "town",
+   "fx": [],
+   "carry": {
+    "benny": "cake"
+   },
+   "id": "s005",
+   "beat": 4,
+   "start": 9.5,
+   "frames": 55,
+   "cast": [
+    "benny"
+   ],
+   "props": [
+    {
+     "kind": "police_car",
+     "at": [
+      5,
+      -33,
+      0
+     ],
+     "rot": 0,
+     "name": "plumcar"
+    },
+    {
+     "kind": "barrier",
+     "at": [
+      -2,
+      -34,
+      0
+     ]
+    },
+    {
+     "kind": "barrier",
+     "at": [
+      3,
+      -34,
+      0
+     ]
+    },
+    {
+     "kind": "sedan",
+     "at": [
+      8.5,
+      -50,
+      0
+     ],
+     "rot": 90,
+     "color": [
+      0.3,
+      0.6,
+      0.9
+     ],
+     "name": "parked1"
+    },
+    {
+     "kind": "sedan",
+     "at": [
+      8.5,
+      10,
+      0
+     ],
+     "rot": 90,
+     "color": [
+      0.95,
+      0.8,
+      0.2
+     ],
+     "name": "parked2"
+    },
+    {
+     "kind": "sedan",
+     "at": [
+      -8.5,
+      26,
+      0
+     ],
+     "rot": -90,
+     "color": [
+      0.9,
+      0.3,
+      0.3
+     ],
+     "name": "parked3"
+    }
+   ],
+   "start_frame": 228
+  },
+  {
+   "camera": {
+    "subject": "dough",
+    "framing": "mcu",
+    "move": "push_in",
+    "angle": "eye",
+    "lens": 50,
+    "az": -20
+   },
+   "actions": [
+    {
+     "who": "dough",
+     "action": "talk",
+     "at": [
+      -10.2,
+      -64,
+      0.24
+     ],
+     "facing": 100,
+     "expr": "sly"
+    },
+    {
+     "who": "benny",
+     "action": "idle",
+     "at": [
+      -7,
+      -64,
+      0.24
+     ],
+     "facing": 260
+    }
+   ],
+   "w": 1.0,
+   "set": "town",
+   "fx": [],
+   "carry": {
+    "benny": "cake"
+   },
+   "id": "s006",
+   "beat": 5,
+   "start": 11.792,
+   "frames": 73,
+   "cast": [
+    "benny",
+    "dough"
+   ],
+   "props": [
+    {
+     "kind": "police_car",
+     "at": [
+      5,
+      -33,
+      0
+     ],
+     "rot": 0,
+     "name": "plumcar"
+    },
+    {
+     "kind": "barrier",
+     "at": [
+      -2,
+      -34,
+      0
+     ]
+    },
+    {
+     "kind": "barrier",
+     "at": [
+      3,
+      -34,
+      0
+     ]
+    },
+    {
+     "kind": "sedan",
+     "at": [
+      8.5,
+      -50,
+      0
+     ],
+     "rot": 90,
+     "color": [
+      0.3,
+      0.6,
+      0.9
+     ],
+     "name": "parked1"
+    },
+    {
+     "kind": "sedan",
+     "at": [
+      8.5,
+      10,
+      0
+     ],
+     "rot": 90,
+     "color": [
+      0.95,
+      0.8,
+      0.2
+     ],
+     "name": "parked2"
+    },
+    {
+     "kind": "sedan",
+     "at": [
+      -8.5,
+      26,
+      0
+     ],
+     "rot": -90,
+     "color": [
+      0.9,
+      0.3,
+      0.3
+     ],
+     "name": "parked3"
+    }
+   ],
+   "talk": {
+    "who": "dough",
+    "f0": 2,
+    "f1": 69
+   },
+   "start_frame": 283
+  },
+  {
+   "camera": {
+    "subject": "dough",
+    "framing": "cu",
+    "move": "push_in",
+    "angle": "eye",
+    "lens": 50,
+    "az": -10
+   },
+   "actions": [
+    {
+     "who": "dough",
+     "action": "talk",
+     "at": [
+      -10.2,
+      -64,
+      0.24
+     ],
+     "facing": 100,
+     "expr": "sly"
+    }
+   ],
+   "w": 1.0,
+   "set": "town",
+   "fx": [],
+   "id": "s007",
+   "beat": 6,
+   "start": 14.833,
+   "frames": 35,
+   "cast": [
+    "dough"
+   ],
+   "props": [
+    {
+     "kind": "police_car",
+     "at": [
+      5,
+      -33,
+      0
+     ],
+     "rot": 0,
+     "name": "plumcar"
+    },
+    {
+     "kind": "barrier",
+     "at": [
+      -2,
+      -34,
+      0
+     ]
+    },
+    {
+     "kind": "barrier",
+     "at": [
+      3,
+      -34,
+      0
+     ]
+    },
+    {
+     "kind": "sedan",
+     "at": [
+      8.5,
+      -50,
+      0
+     ],
+     "rot": 90,
+     "color": [
+      0.3,
+      0.6,
+      0.9
+     ],
+     "name": "parked1"
+    },
+    {
+     "kind": "sedan",
+     "at": [
+      8.5,
+      10,
+      0
+     ],
+     "rot": 90,
+     "color": [
+      0.95,
+      0.8,
+      0.2
+     ],
+     "name": "parked2"
+    },
+    {
+     "kind": "sedan",
+     "at": [
+      -8.5,
+      26,
+      0
+     ],
+     "rot": -90,
+     "color": [
+      0.9,
+      0.3,
+      0.3
+     ],
+     "name": "parked3"
+    }
+   ],
+   "talk": {
+    "who": "dough",
+    "f0": 2,
+    "f1": 25
+   },
+   "start_frame": 356
+  },
+  {
+   "camera": {
+    "subject": "benny",
+    "framing": "ms",
+    "move": "push_in",
+    "angle": "low",
+    "lens": 24,
+    "az": 160
+   },
+   "actions": [
+    {
+     "who": "benny",
+     "action": "point",
+     "at": [
+      -7,
+      -64,
+      0.24
+     ],
+     "facing": 180,
+     "expr": "shock"
+    }
+   ],
+   "w": 1.0,
+   "set": "town",
+   "fx": [],
+   "carry": {
+    "benny": "cake"
+   },
+   "set_args": {
+    "clock": [
+     [
+      1,
+      11
+     ]
+    ]
+   },
+   "id": "s008",
+   "beat": 7,
+   "start": 16.292,
+   "frames": 47,
+   "cast": [
+    "benny"
+   ],
+   "props": [
+    {
+     "kind": "police_car",
+     "at": [
+      5,
+      -33,
+      0
+     ],
+     "rot": 0,
+     "name": "plumcar"
+    },
+    {
+     "kind": "barrier",
+     "at": [
+      -2,
+      -34,
+      0
+     ]
+    },
+    {
+     "kind": "barrier",
+     "at": [
+      3,
+      -34,
+      0
+     ]
+    },
+    {
+     "kind": "sedan",
+     "at": [
+      8.5,
+      -50,
+      0
+     ],
+     "rot": 90,
+     "color": [
+      0.3,
+      0.6,
+      0.9
+     ],
+     "name": "parked1"
+    },
+    {
+     "kind": "sedan",
+     "at": [
+      8.5,
+      10,
+      0
+     ],
+     "rot": 90,
+     "color": [
+      0.95,
+      0.8,
+      0.2
+     ],
+     "name": "parked2"
+    },
+    {
+     "kind": "sedan",
+     "at": [
+      -8.5,
+      26,
+      0
+     ],
+     "rot": -90,
+     "color": [
+      0.9,
+      0.3,
+      0.3
+     ],
+     "name": "parked3"
+    }
+   ],
+   "talk": {
+    "who": "benny",
+    "f0": 2,
+    "f1": 43
+   },
+   "start_frame": 391
+  },
+  {
+   "camera": {
+    "subject": "dough",
+    "framing": "cu",
+    "move": "static_drift",
+    "angle": "eye",
+    "lens": 85,
+    "az": 0
+   },
+   "actions": [
+    {
+     "who": "dough",
+     "action": "idle",
+     "at": [
+      -10.2,
+      -64,
+      0.24
+     ],
+     "facing": 100,
+     "expr": "angry"
+    }
+   ],
+   "w": 1.0,
+   "set": "town",
+   "fx": [],
+   "id": "s009",
+   "beat": 8,
+   "start": 18.25,
+   "frames": 44,
+   "cast": [
+    "dough"
+   ],
+   "props": [
+    {
+     "kind": "police_car",
+     "at": [
+      5,
+      -33,
+      0
+     ],
+     "rot": 0,
+     "name": "plumcar"
+    },
+    {
+     "kind": "barrier",
+     "at": [
+      -2,
+      -34,
+      0
+     ]
+    },
+    {
+     "kind": "barrier",
+     "at": [
+      3,
+      -34,
+      0
+     ]
+    },
+    {
+     "kind": "sedan",
+     "at": [
+      8.5,
+      -50,
+      0
+     ],
+     "rot": 90,
+     "color": [
+      0.3,
+      0.6,
+      0.9
+     ],
+     "name": "parked1"
+    },
+    {
+     "kind": "sedan",
+     "at": [
+      8.5,
+      10,
+      0
+     ],
+     "rot": 90,
+     "color": [
+      0.95,
+      0.8,
+      0.2
+     ],
+     "name": "parked2"
+    },
+    {
+     "kind": "sedan",
+     "at": [
+      -8.5,
+      26,
+      0
+     ],
+     "rot": -90,
+     "color": [
+      0.9,
+      0.3,
+      0.3
+     ],
+     "name": "parked3"
+    }
+   ],
+   "talk": {
+    "who": "dough",
+    "f0": 2,
+    "f1": 31
+   },
+   "start_frame": 438
+  },
+  {
+   "camera": {
+    "subject": "pip",
+    "framing": "mcu",
+    "move": "push_in",
+    "angle": "eye",
+    "lens": 50,
+    "az": 20
+   },
+   "actions": [
+    {
+     "who": "pip",
+     "action": "talk",
+     "at": [
+      -13.5,
+      76,
+      0.12
+     ],
+     "facing": 200,
+     "expr": "sly"
+    }
+   ],
+   "w": 1.0,
+   "set": "town",
+   "fx": [],
+   "crowd": {
+    "center": [
+     -16.5,
+     80,
+     0.12
+    ],
+    "n": 4,
+    "radius": 2.5,
+    "inner": 1.0,
+    "seed": 4,
+    "actions": [
+     [
+      "hide",
+      0,
+      1
+     ]
+    ]
+   },
+   "carry": {
+    "pip": "phone"
+   },
+   "id": "s010",
+   "beat": 9,
+   "start": 20.083,
+   "frames": 66,
+   "cast": [
+    "pip"
+   ],
+   "props": [
+    {
+     "kind": "police_car",
+     "at": [
+      5,
+      -33,
+      0
+     ],
+     "rot": 0,
+     "name": "plumcar"
+    },
+    {
+     "kind": "barrier",
+     "at": [
+      -2,
+      -34,
+      0
+     ]
+    },
+    {
+     "kind": "barrier",
+     "at": [
+      3,
+      -34,
+      0
+     ]
+    },
+    {
+     "kind": "sedan",
+     "at": [
+      8.5,
+      -50,
+      0
+     ],
+     "rot": 90,
+     "color": [
+      0.3,
+      0.6,
+      0.9
+     ],
+     "name": "parked1"
+    },
+    {
+     "kind": "sedan",
+     "at": [
+      8.5,
+      10,
+      0
+     ],
+     "rot": 90,
+     "color": [
+      0.95,
+      0.8,
+      0.2
+     ],
+     "name": "parked2"
+    },
+    {
+     "kind": "sedan",
+     "at": [
+      -8.5,
+      26,
+      0
+     ],
+     "rot": -90,
+     "color": [
+      0.9,
+      0.3,
+      0.3
+     ],
+     "name": "parked3"
+    }
+   ],
+   "talk": {
+    "who": "pip",
+    "f0": 2,
+    "f1": 61
+   },
+   "start_frame": 482
+  },
+  {
+   "camera": {
+    "subject": "benny",
+    "framing": "mws",
+    "move": "track",
+    "angle": "eye",
+    "lens": 35,
+    "az": 0
+   },
+   "actions": [
+    {
+     "who": "benny",
+     "action": "walk",
+     "path": [
+      [
+       -6,
+       -60,
+       0.24
+      ],
+      [
+       -6,
+       -50,
+       0.24
+      ]
+     ],
+     "expr": "sly"
+    }
+   ],
+   "w": 1.0,
+   "set": "town",
+   "fx": [],
+   "carry": {
+    "benny": "cake"
+   },
+   "id": "s011",
+   "beat": 10,
+   "start": 22.833,
+   "frames": 73,
+   "cast": [
+    "benny"
+   ],
+   "props": [
+    {
+     "kind": "police_car",
+     "at": [
+      5,
+      -33,
+      0
+     ],
+     "rot": 0,
+     "name": "plumcar"
+    },
+    {
+     "kind": "barrier",
+     "at": [
+      -2,
+      -34,
+      0
+     ]
+    },
+    {
+     "kind": "barrier",
+     "at": [
+      3,
+      -34,
+      0
+     ]
+    },
+    {
+     "kind": "sedan",
+     "at": [
+      8.5,
+      -50,
+      0
+     ],
+     "rot": 90,
+     "color": [
+      0.3,
+      0.6,
+      0.9
+     ],
+     "name": "parked1"
+    },
+    {
+     "kind": "sedan",
+     "at": [
+      8.5,
+      10,
+      0
+     ],
+     "rot": 90,
+     "color": [
+      0.95,
+      0.8,
+      0.2
+     ],
+     "name": "parked2"
+    },
+    {
+     "kind": "sedan",
+     "at": [
+      -8.5,
+      26,
+      0
+     ],
+     "rot": -90,
+     "color": [
+      0.9,
+      0.3,
+      0.3
+     ],
+     "name": "parked3"
+    }
+   ],
+   "talk": {
+    "who": "benny",
+    "f0": 2,
+    "f1": 69
+   },
+   "start_frame": 548
+  },
+  {
+   "camera": {
+    "subject": "pip",
+    "framing": "cu",
+    "move": "static_drift",
+    "angle": "eye",
+    "lens": 50,
+    "az": -15
+   },
+   "actions": [
+    {
+     "who": "pip",
+     "action": "talk",
+     "at": [
+      -13.5,
+      76,
+      0.12
+     ],
+     "facing": 200,
+     "expr": "neutral"
+    }
+   ],
+   "w": 1.0,
+   "set": "town",
+   "fx": [],
+   "crowd": {
+    "center": [
+     -16.5,
+     80,
+     0.12
+    ],
+    "n": 4,
+    "radius": 2.5,
+    "inner": 1.0,
+    "seed": 4,
+    "actions": [
+     [
+      "hide",
+      0,
+      1
+     ]
+    ]
+   },
+   "carry": {
+    "pip": "phone"
+   },
+   "id": "s012",
+   "beat": 11,
+   "start": 25.875,
+   "frames": 42,
+   "cast": [
+    "pip"
+   ],
+   "props": [
+    {
+     "kind": "police_car",
+     "at": [
+      5,
+      -33,
+      0
+     ],
+     "rot": 0,
+     "name": "plumcar"
+    },
+    {
+     "kind": "barrier",
+     "at": [
+      -2,
+      -34,
+      0
+     ]
+    },
+    {
+     "kind": "barrier",
+     "at": [
+      3,
+      -34,
+      0
+     ]
+    },
+    {
+     "kind": "sedan",
+     "at": [
+      8.5,
+      -50,
+      0
+     ],
+     "rot": 90,
+     "color": [
+      0.3,
+      0.6,
+      0.9
+     ],
+     "name": "parked1"
+    },
+    {
+     "kind": "sedan",
+     "at": [
+      8.5,
+      10,
+      0
+     ],
+     "rot": 90,
+     "color": [
+      0.95,
+      0.8,
+      0.2
+     ],
+     "name": "parked2"
+    },
+    {
+     "kind": "sedan",
+     "at": [
+      -8.5,
+      26,
+      0
+     ],
+     "rot": -90,
+     "color": [
+      0.9,
+      0.3,
+      0.3
+     ],
+     "name": "parked3"
+    }
+   ],
+   "talk": {
+    "who": "pip",
+    "f0": 2,
+    "f1": 37
+   },
+   "start_frame": 621
+  },
+  {
+   "camera": {
+    "subject": [
+     0,
+     92,
+     18
+    ],
+    "framing": "ms",
+    "move": "tilt_up",
+    "angle": "low",
+    "lens": 35,
+    "az": 0,
+    "pos": [
+     0,
+     60,
+     2
+    ]
+   },
+   "actions": [],
+   "w": 1.0,
+   "set": "town",
+   "fx": [],
+   "set_args": {
+    "clock": [
+     [
+      1,
+      11
+     ]
+    ]
+   },
+   "id": "s013",
+   "beat": 12,
+   "start": 27.625,
+   "frames": 44,
+   "cast": [],
+   "props": [
+    {
+     "kind": "police_car",
+     "at": [
+      5,
+      -33,
+      0
+     ],
+     "rot": 0,
+     "name": "plumcar"
+    },
+    {
+     "kind": "barrier",
+     "at": [
+      -2,
+      -34,
+      0
+     ]
+    },
+    {
+     "kind": "barrier",
+     "at": [
+      3,
+      -34,
+      0
+     ]
+    },
+    {
+     "kind": "sedan",
+     "at": [
+      8.5,
+      -50,
+      0
+     ],
+     "rot": 90,
+     "color": [
+      0.3,
+      0.6,
+      0.9
+     ],
+     "name": "parked1"
+    },
+    {
+     "kind": "sedan",
+     "at": [
+      8.5,
+      10,
+      0
+     ],
+     "rot": 90,
+     "color": [
+      0.95,
+      0.8,
+      0.2
+     ],
+     "name": "parked2"
+    },
+    {
+     "kind": "sedan",
+     "at": [
+      -8.5,
+      26,
+      0
+     ],
+     "rot": -90,
+     "color": [
+      0.9,
+      0.3,
+      0.3
+     ],
+     "name": "parked3"
+    }
+   ],
+   "start_frame": 663
+  },
+  {
+   "camera": {
+    "subject": "plum",
+    "framing": "ms",
+    "move": "whip_pan",
+    "angle": "low",
+    "lens": 24,
+    "az": 0,
+    "subject2": "benny",
+    "whip_at": 0.15
+   },
+   "actions": [
+    {
+     "who": "plum",
+     "action": "point",
+     "at": [
+      1.5,
+      -38,
+      0.05
+     ],
+     "facing": 0,
+     "expr": "angry"
+    },
+    {
+     "who": "benny",
+     "action": "freeze",
+     "at": [
+      -1,
+      -44,
+      0.05
+     ],
+     "facing": 180,
+     "expr": "shock"
+    }
+   ],
+   "w": 1.0,
+   "set": "town",
+   "fx": [],
+   "carry": {
+    "benny": "cake"
+   },
+   "id": "s014",
+   "beat": 13,
+   "start": 29.458,
+   "frames": 45,
+   "cast": [
+    "benny",
+    "plum"
+   ],
+   "props": [
+    {
+     "kind": "police_car",
+     "at": [
+      5,
+      -33,
+      0
+     ],
+     "rot": 0,
+     "name": "plumcar"
+    },
+    {
+     "kind": "barrier",
+     "at": [
+      -2,
+      -34,
+      0
+     ]
+    },
+    {
+     "kind": "barrier",
+     "at": [
+      3,
+      -34,
+      0
+     ]
+    },
+    {
+     "kind": "sedan",
+     "at": [
+      8.5,
+      -50,
+      0
+     ],
+     "rot": 90,
+     "color": [
+      0.3,
+      0.6,
+      0.9
+     ],
+     "name": "parked1"
+    },
+    {
+     "kind": "sedan",
+     "at": [
+      8.5,
+      10,
+      0
+     ],
+     "rot": 90,
+     "color": [
+      0.95,
+      0.8,
+      0.2
+     ],
+     "name": "parked2"
+    },
+    {
+     "kind": "sedan",
+     "at": [
+      -8.5,
+      26,
+      0
+     ],
+     "rot": -90,
+     "color": [
+      0.9,
+      0.3,
+      0.3
+     ],
+     "name": "parked3"
+    }
+   ],
+   "talk": {
+    "who": "plum",
+    "f0": 2,
+    "f1": 32
+   },
+   "start_frame": 707
+  },
+  {
+   "camera": {
+    "subject": "benny",
+    "framing": "mcu",
+    "move": "handheld",
+    "angle": "eye",
+    "lens": 50,
+    "az": -15,
+    "shake": 0.3
+   },
+   "actions": [
+    {
+     "who": "benny",
+     "action": "talk",
+     "at": [
+      -1,
+      -44,
+      0.05
+     ],
+     "facing": 180,
+     "expr": "fear"
+    }
+   ],
+   "w": 1.0,
+   "set": "town",
+   "fx": [],
+   "carry": {
+    "benny": "cake"
+   },
+   "id": "s015",
+   "beat": 14,
+   "start": 31.333,
+   "frames": 71,
+   "cast": [
+    "benny"
+   ],
+   "props": [
+    {
+     "kind": "police_car",
+     "at": [
+      5,
+      -33,
+      0
+     ],
+     "rot": 0,
+     "name": "plumcar"
+    },
+    {
+     "kind": "barrier",
+     "at": [
+      -2,
+      -34,
+      0
+     ]
+    },
+    {
+     "kind": "barrier",
+     "at": [
+      3,
+      -34,
+      0
+     ]
+    },
+    {
+     "kind": "sedan",
+     "at": [
+      8.5,
+      -50,
+      0
+     ],
+     "rot": 90,
+     "color": [
+      0.3,
+      0.6,
+      0.9
+     ],
+     "name": "parked1"
+    },
+    {
+     "kind": "sedan",
+     "at": [
+      8.5,
+      10,
+      0
+     ],
+     "rot": 90,
+     "color": [
+      0.95,
+      0.8,
+      0.2
+     ],
+     "name": "parked2"
+    },
+    {
+     "kind": "sedan",
+     "at": [
+      -8.5,
+      26,
+      0
+     ],
+     "rot": -90,
+     "color": [
+      0.9,
+      0.3,
+      0.3
+     ],
+     "name": "parked3"
+    }
+   ],
+   "talk": {
+    "who": "benny",
+    "f0": 2,
+    "f1": 71
+   },
+   "start_frame": 752
+  },
+  {
+   "camera": {
+    "subject": "plum",
+    "framing": "mcu",
+    "move": "push_in",
+    "angle": "worm",
+    "lens": 24,
+    "az": 10
+   },
+   "actions": [
+    {
+     "who": "plum",
+     "action": "idle",
+     "at": [
+      1.5,
+      -38,
+      0.05
+     ],
+     "facing": 0,
+     "expr": "determined"
+    }
+   ],
+   "w": 1.0,
+   "set": "town",
+   "fx": [],
+   "id": "s016",
+   "beat": 15,
+   "start": 34.292,
+   "frames": 35,
+   "cast": [
+    "plum"
+   ],
+   "props": [
+    {
+     "kind": "police_car",
+     "at": [
+      5,
+      -33,
+      0
+     ],
+     "rot": 0,
+     "name": "plumcar"
+    },
+    {
+     "kind": "barrier",
+     "at": [
+      -2,
+      -34,
+      0
+     ]
+    },
+    {
+     "kind": "barrier",
+     "at": [
+      3,
+      -34,
+      0
+     ]
+    },
+    {
+     "kind": "sedan",
+     "at": [
+      8.5,
+      -50,
+      0
+     ],
+     "rot": 90,
+     "color": [
+      0.3,
+      0.6,
+      0.9
+     ],
+     "name": "parked1"
+    },
+    {
+     "kind": "sedan",
+     "at": [
+      8.5,
+      10,
+      0
+     ],
+     "rot": 90,
+     "color": [
+      0.95,
+      0.8,
+      0.2
+     ],
+     "name": "parked2"
+    },
+    {
+     "kind": "sedan",
+     "at": [
+      -8.5,
+      26,
+      0
+     ],
+     "rot": -90,
+     "color": [
+      0.9,
+      0.3,
+      0.3
+     ],
+     "name": "parked3"
+    }
+   ],
+   "talk": {
+    "who": "plum",
+    "f0": 2,
+    "f1": 19
+   },
+   "start_frame": 823
+  },
+  {
+   "camera": {
+    "subject": "benny",
+    "framing": "cu",
+    "move": "static_drift",
+    "angle": "eye",
+    "lens": 50,
+    "az": 10
+   },
+   "actions": [
+    {
+     "who": "benny",
+     "action": "gasp",
+     "at": [
+      -1,
+      -44,
+      0.05
+     ],
+     "facing": 180,
+     "expr": "shock"
+    }
+   ],
+   "w": 1.0,
+   "set": "town",
+   "fx": [],
+   "carry": {
+    "benny": "cake"
+   },
+   "id": "s017",
+   "beat": 16,
+   "start": 35.75,
+   "frames": 35,
+   "cast": [
+    "benny"
+   ],
+   "props": [
+    {
+     "kind": "police_car",
+     "at": [
+      5,
+      -33,
+      0
+     ],
+     "rot": 0,
+     "name": "plumcar"
+    },
+    {
+     "kind": "barrier",
+     "at": [
+      -2,
+      -34,
+      0
+     ]
+    },
+    {
+     "kind": "barrier",
+     "at": [
+      3,
+      -34,
+      0
+     ]
+    },
+    {
+     "kind": "sedan",
+     "at": [
+      8.5,
+      -50,
+      0
+     ],
+     "rot": 90,
+     "color": [
+      0.3,
+      0.6,
+      0.9
+     ],
+     "name": "parked1"
+    },
+    {
+     "kind": "sedan",
+     "at": [
+      8.5,
+      10,
+      0
+     ],
+     "rot": 90,
+     "color": [
+      0.95,
+      0.8,
+      0.2
+     ],
+     "name": "parked2"
+    },
+    {
+     "kind": "sedan",
+     "at": [
+      -8.5,
+      26,
+      0
+     ],
+     "rot": -90,
+     "color": [
+      0.9,
+      0.3,
+      0.3
+     ],
+     "name": "parked3"
+    }
+   ],
+   "talk": {
+    "who": "benny",
+    "f0": 2,
+    "f1": 9
+   },
+   "start_frame": 858
+  },
+  {
+   "camera": {
+    "subject": "plum",
+    "framing": "cu",
+    "move": "push_in",
+    "angle": "eye",
+    "lens": 85,
+    "az": -10
+   },
+   "actions": [
+    {
+     "who": "plum",
+     "action": "idle",
+     "at": [
+      1.5,
+      -38,
+      0.05
+     ],
+     "facing": 0,
+     "expr": "sly"
+    }
+   ],
+   "w": 1.0,
+   "set": "town",
+   "fx": [],
+   "id": "s018",
+   "beat": 17,
+   "start": 37.208,
+   "frames": 35,
+   "cast": [
+    "plum"
+   ],
+   "props": [
+    {
+     "kind": "police_car",
+     "at": [
+      5,
+      -33,
+      0
+     ],
+     "rot": 0,
+     "name": "plumcar"
+    },
+    {
+     "kind": "barrier",
+     "at": [
+      -2,
+      -34,
+      0
+     ]
+    },
+    {
+     "kind": "barrier",
+     "at": [
+      3,
+      -34,
+      0
+     ]
+    },
+    {
+     "kind": "sedan",
+     "at": [
+      8.5,
+      -50,
+      0
+     ],
+     "rot": 90,
+     "color": [
+      0.3,
+      0.6,
+      0.9
+     ],
+     "name": "parked1"
+    },
+    {
+     "kind": "sedan",
+     "at": [
+      8.5,
+      10,
+      0
+     ],
+     "rot": 90,
+     "color": [
+      0.95,
+      0.8,
+      0.2
+     ],
+     "name": "parked2"
+    },
+    {
+     "kind": "sedan",
+     "at": [
+      -8.5,
+      26,
+      0
+     ],
+     "rot": -90,
+     "color": [
+      0.9,
+      0.3,
+      0.3
+     ],
+     "name": "parked3"
+    }
+   ],
+   "talk": {
+    "who": "plum",
+    "f0": 2,
+    "f1": 12
+   },
+   "start_frame": 893
+  },
+  {
+   "camera": {
+    "subject": "benny",
+    "framing": "ms",
+    "move": "orbit_left",
+    "angle": "eye",
+    "lens": 35,
+    "az": 30
+   },
+   "actions": [
+    {
+     "who": "benny",
+     "action": "panic",
+     "at": [
+      -1,
+      -44,
+      0.05
+     ],
+     "facing": 180,
+     "expr": "angry"
+    }
+   ],
+   "w": 1.0,
+   "set": "town",
+   "fx": [],
+   "carry": {
+    "benny": "cake"
+   },
+   "id": "s019",
+   "beat": 18,
+   "start": 38.667,
+   "frames": 35,
+   "cast": [
+    "benny"
+   ],
+   "props": [
+    {
+     "kind": "police_car",
+     "at": [
+      5,
+      -33,
+      0
+     ],
+     "rot": 0,
+     "name": "plumcar"
+    },
+    {
+     "kind": "barrier",
+     "at": [
+      -2,
+      -34,
+      0
+     ]
+    },
+    {
+     "kind": "barrier",
+     "at": [
+      3,
+      -34,
+      0
+     ]
+    },
+    {
+     "kind": "sedan",
+     "at": [
+      8.5,
+      -50,
+      0
+     ],
+     "rot": 90,
+     "color": [
+      0.3,
+      0.6,
+      0.9
+     ],
+     "name": "parked1"
+    },
+    {
+     "kind": "sedan",
+     "at": [
+      8.5,
+      10,
+      0
+     ],
+     "rot": 90,
+     "color": [
+      0.95,
+      0.8,
+      0.2
+     ],
+     "name": "parked2"
+    },
+    {
+     "kind": "sedan",
+     "at": [
+      -8.5,
+      26,
+      0
+     ],
+     "rot": -90,
+     "color": [
+      0.9,
+      0.3,
+      0.3
+     ],
+     "name": "parked3"
+    }
+   ],
+   "talk": {
+    "who": "benny",
+    "f0": 2,
+    "f1": 17
+   },
+   "start_frame": 928
+  },
+  {
+   "camera": {
+    "subject": "plum",
+    "framing": "ms",
+    "move": "ots",
+    "angle": "eye",
+    "lens": 35,
+    "az": 180,
+    "subject2": "benny"
+   },
+   "actions": [
+    {
+     "who": "plum",
+     "action": "point",
+     "at": [
+      1.5,
+      -38,
+      0.05
+     ],
+     "facing": 10,
+     "expr": "sly"
+    },
+    {
+     "who": "benny",
+     "action": "idle",
+     "at": [
+      -1,
+      -44,
+      0.05
+     ],
+     "facing": 180,
+     "expr": "sad"
+    }
+   ],
+   "w": 1.0,
+   "set": "town",
+   "fx": [],
+   "carry": {
+    "benny": "cake"
+   },
+   "id": "s020",
+   "beat": 19,
+   "start": 40.125,
+   "frames": 49,
+   "cast": [
+    "benny",
+    "plum"
+   ],
+   "props": [
+    {
+     "kind": "police_car",
+     "at": [
+      5,
+      -33,
+      0
+     ],
+     "rot": 0,
+     "name": "plumcar"
+    },
+    {
+     "kind": "barrier",
+     "at": [
+      -2,
+      -34,
+      0
+     ]
+    },
+    {
+     "kind": "barrier",
+     "at": [
+      3,
+      -34,
+      0
+     ]
+    },
+    {
+     "kind": "sedan",
+     "at": [
+      8.5,
+      -50,
+      0
+     ],
+     "rot": 90,
+     "color": [
+      0.3,
+      0.6,
+      0.9
+     ],
+     "name": "parked1"
+    },
+    {
+     "kind": "sedan",
+     "at": [
+      8.5,
+      10,
+      0
+     ],
+     "rot": 90,
+     "color": [
+      0.95,
+      0.8,
+      0.2
+     ],
+     "name": "parked2"
+    },
+    {
+     "kind": "sedan",
+     "at": [
+      -8.5,
+      26,
+      0
+     ],
+     "rot": -90,
+     "color": [
+      0.9,
+      0.3,
+      0.3
+     ],
+     "name": "parked3"
+    }
+   ],
+   "talk": {
+    "who": "plum",
+    "f0": 2,
+    "f1": 36
+   },
+   "start_frame": 963
+  },
+  {
+   "camera": {
+    "subject": "benny",
+    "framing": "mcu",
+    "move": "push_in",
+    "angle": "low",
+    "lens": 50,
+    "az": 20
+   },
+   "actions": [
+    {
+     "who": "benny",
+     "action": "talk",
+     "at": [
+      -1,
+      -44,
+      0.05
+     ],
+     "facing": 180,
+     "expr": "sly"
+    }
+   ],
+   "w": 1.0,
+   "set": "town",
+   "fx": [],
+   "carry": {
+    "benny": "cake"
+   },
+   "id": "s021",
+   "beat": 20,
+   "start": 42.167,
+   "frames": 35,
+   "cast": [
+    "benny"
+   ],
+   "props": [
+    {
+     "kind": "police_car",
+     "at": [
+      5,
+      -33,
+      0
+     ],
+     "rot": 0,
+     "name": "plumcar"
+    },
+    {
+     "kind": "barrier",
+     "at": [
+      -2,
+      -34,
+      0
+     ]
+    },
+    {
+     "kind": "barrier",
+     "at": [
+      3,
+      -34,
+      0
+     ]
+    },
+    {
+     "kind": "sedan",
+     "at": [
+      8.5,
+      -50,
+      0
+     ],
+     "rot": 90,
+     "color": [
+      0.3,
+      0.6,
+      0.9
+     ],
+     "name": "parked1"
+    },
+    {
+     "kind": "sedan",
+     "at": [
+      8.5,
+      10,
+      0
+     ],
+     "rot": 90,
+     "color": [
+      0.95,
+      0.8,
+      0.2
+     ],
+     "name": "parked2"
+    },
+    {
+     "kind": "sedan",
+     "at": [
+      -8.5,
+      26,
+      0
+     ],
+     "rot": -90,
+     "color": [
+      0.9,
+      0.3,
+      0.3
+     ],
+     "name": "parked3"
+    }
+   ],
+   "talk": {
+    "who": "benny",
+    "f0": 2,
+    "f1": 31
+   },
+   "start_frame": 1012
+  },
+  {
+   "camera": {
+    "subject": "plum",
+    "framing": "mcu",
+    "move": "push_in",
+    "angle": "worm",
+    "lens": 24,
+    "az": -15
+   },
+   "actions": [
+    {
+     "who": "plum",
+     "action": "idle",
+     "at": [
+      1.5,
+      -38,
+      0.05
+     ],
+     "facing": 0,
+     "expr": "angry"
+    }
+   ],
+   "w": 1.0,
+   "set": "town",
+   "fx": [],
+   "id": "s022",
+   "beat": 21,
+   "start": 43.625,
+   "frames": 35,
+   "cast": [
+    "plum"
+   ],
+   "props": [
+    {
+     "kind": "police_car",
+     "at": [
+      5,
+      -33,
+      0
+     ],
+     "rot": 0,
+     "name": "plumcar"
+    },
+    {
+     "kind": "barrier",
+     "at": [
+      -2,
+      -34,
+      0
+     ]
+    },
+    {
+     "kind": "barrier",
+     "at": [
+      3,
+      -34,
+      0
+     ]
+    },
+    {
+     "kind": "sedan",
+     "at": [
+      8.5,
+      -50,
+      0
+     ],
+     "rot": 90,
+     "color": [
+      0.3,
+      0.6,
+      0.9
+     ],
+     "name": "parked1"
+    },
+    {
+     "kind": "sedan",
+     "at": [
+      8.5,
+      10,
+      0
+     ],
+     "rot": 90,
+     "color": [
+      0.95,
+      0.8,
+      0.2
+     ],
+     "name": "parked2"
+    },
+    {
+     "kind": "sedan",
+     "at": [
+      -8.5,
+      26,
+      0
+     ],
+     "rot": -90,
+     "color": [
+      0.9,
+      0.3,
+      0.3
+     ],
+     "name": "parked3"
+    }
+   ],
+   "talk": {
+    "who": "plum",
+    "f0": 2,
+    "f1": 15
+   },
+   "start_frame": 1047
+  },
+  {
+   "camera": {
+    "subject": "benny",
+    "framing": "ws",
+    "move": "crane_up",
+    "angle": "high",
+    "lens": 24,
+    "az": 0,
+    "pos": [
+     -6,
+     -12,
+     3
+    ],
+    "pos2": [
+     -7,
+     -14,
+     12
+    ]
+   },
+   "actions": [
+    {
+     "who": "benny",
+     "action": "walk",
+     "path": [
+      [
+       -8,
+       -20,
+       0.05
+      ],
+      [
+       -18,
+       -20,
+       0.05
+      ]
+     ]
+    }
+   ],
+   "w": 1.0,
+   "set": "town",
+   "fx": [],
+   "carry": {
+    "benny": "cake"
+   },
+   "id": "s023",
+   "beat": 22,
+   "start": 45.083,
+   "frames": 68,
+   "cast": [
+    "benny"
+   ],
+   "props": [
+    {
+     "kind": "police_car",
+     "at": [
+      5,
+      -33,
+      0
+     ],
+     "rot": 0,
+     "name": "plumcar"
+    },
+    {
+     "kind": "barrier",
+     "at": [
+      -2,
+      -34,
+      0
+     ]
+    },
+    {
+     "kind": "barrier",
+     "at": [
+      3,
+      -34,
+      0
+     ]
+    },
+    {
+     "kind": "sedan",
+     "at": [
+      8.5,
+      -50,
+      0
+     ],
+     "rot": 90,
+     "color": [
+      0.3,
+      0.6,
+      0.9
+     ],
+     "name": "parked1"
+    },
+    {
+     "kind": "sedan",
+     "at": [
+      8.5,
+      10,
+      0
+     ],
+     "rot": 90,
+     "color": [
+      0.95,
+      0.8,
+      0.2
+     ],
+     "name": "parked2"
+    },
+    {
+     "kind": "sedan",
+     "at": [
+      -8.5,
+      26,
+      0
+     ],
+     "rot": -90,
+     "color": [
+      0.9,
+      0.3,
+      0.3
+     ],
+     "name": "parked3"
+    }
+   ],
+   "start_frame": 1082
+  },
+  {
+   "camera": {
+    "subject": "grandma",
+    "framing": "mcu",
+    "move": "push_in",
+    "angle": "low",
+    "lens": 50,
+    "az": 20
+   },
+   "actions": [
+    {
+     "who": "grandma",
+     "action": "talk",
+     "at": [
+      -25,
+      -21,
+      0.05
+     ],
+     "facing": 270,
+     "expr": "happy"
+    }
+   ],
+   "w": 1.0,
+   "set": "town",
+   "fx": [],
+   "carry": {
+    "benny": "cake"
+   },
+   "props": [
+    {
+     "kind": "police_car",
+     "at": [
+      5,
+      -33,
+      0
+     ],
+     "rot": 0,
+     "name": "plumcar"
+    },
+    {
+     "kind": "barrier",
+     "at": [
+      -2,
+      -34,
+      0
+     ]
+    },
+    {
+     "kind": "barrier",
+     "at": [
+      3,
+      -34,
+      0
+     ]
+    },
+    {
+     "kind": "sedan",
+     "at": [
+      8.5,
+      -50,
+      0
+     ],
+     "rot": 90,
+     "color": [
+      0.3,
+      0.6,
+      0.9
+     ],
+     "name": "parked1"
+    },
+    {
+     "kind": "sedan",
+     "at": [
+      8.5,
+      10,
+      0
+     ],
+     "rot": 90,
+     "color": [
+      0.95,
+      0.8,
+      0.2
+     ],
+     "name": "parked2"
+    },
+    {
+     "kind": "sedan",
+     "at": [
+      -8.5,
+      26,
+      0
+     ],
+     "rot": -90,
+     "color": [
+      0.9,
+      0.3,
+      0.3
+     ],
+     "name": "parked3"
+    },
+    {
+     "kind": "crate",
+     "at": [
+      -26.5,
+      -22,
+      0
+     ],
+     "size": 0.6
+    },
+    {
+     "kind": "crate",
+     "at": [
+      -27,
+      -20.5,
+      0
+     ],
+     "size": 0.6
+    }
+   ],
+   "id": "s024",
+   "beat": 23,
+   "start": 47.917,
+   "frames": 56,
+   "cast": [
+    "grandma"
+   ],
+   "talk": {
+    "who": "grandma",
+    "f0": 2,
+    "f1": 51
+   },
+   "start_frame": 1150
+  },
+  {
+   "camera": {
+    "subject": "benny",
+    "framing": "ms",
+    "move": "push_in",
+    "angle": "eye",
+    "lens": 35,
+    "az": -30
+   },
+   "actions": [
+    {
+     "who": "benny",
+     "action": "talk",
+     "at": [
+      -20,
+      -20,
+      0.05
+     ],
+     "facing": 90,
+     "expr": "fear"
+    }
+   ],
+   "w": 1.0,
+   "set": "town",
+   "fx": [],
+   "carry": {
+    "benny": "cake"
+   },
+   "id": "s025",
+   "beat": 24,
+   "start": 50.25,
+   "frames": 44,
+   "cast": [
+    "benny"
+   ],
+   "props": [
+    {
+     "kind": "police_car",
+     "at": [
+      5,
+      -33,
+      0
+     ],
+     "rot": 0,
+     "name": "plumcar"
+    },
+    {
+     "kind": "barrier",
+     "at": [
+      -2,
+      -34,
+      0
+     ]
+    },
+    {
+     "kind": "barrier",
+     "at": [
+      3,
+      -34,
+      0
+     ]
+    },
+    {
+     "kind": "sedan",
+     "at": [
+      8.5,
+      -50,
+      0
+     ],
+     "rot": 90,
+     "color": [
+      0.3,
+      0.6,
+      0.9
+     ],
+     "name": "parked1"
+    },
+    {
+     "kind": "sedan",
+     "at": [
+      8.5,
+      10,
+      0
+     ],
+     "rot": 90,
+     "color": [
+      0.95,
+      0.8,
+      0.2
+     ],
+     "name": "parked2"
+    },
+    {
+     "kind": "sedan",
+     "at": [
+      -8.5,
+      26,
+      0
+     ],
+     "rot": -90,
+     "color": [
+      0.9,
+      0.3,
+      0.3
+     ],
+     "name": "parked3"
+    }
+   ],
+   "talk": {
+    "who": "benny",
+    "f0": 2,
+    "f1": 39
+   },
+   "start_frame": 1206
+  },
+  {
+   "camera": {
+    "subject": "grandma",
+    "framing": "cu",
+    "move": "static_drift",
+    "angle": "eye",
+    "lens": 50,
+    "az": -10
+   },
+   "actions": [
+    {
+     "who": "grandma",
+     "action": "idle",
+     "at": [
+      -25,
+      -21,
+      0.05
+     ],
+     "facing": 270,
+     "expr": "happy"
+    }
+   ],
+   "w": 1.0,
+   "set": "town",
+   "fx": [],
+   "id": "s026",
+   "beat": 25,
+   "start": 52.083,
+   "frames": 40,
+   "cast": [
+    "grandma"
+   ],
+   "props": [
+    {
+     "kind": "police_car",
+     "at": [
+      5,
+      -33,
+      0
+     ],
+     "rot": 0,
+     "name": "plumcar"
+    },
+    {
+     "kind": "barrier",
+     "at": [
+      -2,
+      -34,
+      0
+     ]
+    },
+    {
+     "kind": "barrier",
+     "at": [
+      3,
+      -34,
+      0
+     ]
+    },
+    {
+     "kind": "sedan",
+     "at": [
+      8.5,
+      -50,
+      0
+     ],
+     "rot": 90,
+     "color": [
+      0.3,
+      0.6,
+      0.9
+     ],
+     "name": "parked1"
+    },
+    {
+     "kind": "sedan",
+     "at": [
+      8.5,
+      10,
+      0
+     ],
+     "rot": 90,
+     "color": [
+      0.95,
+      0.8,
+      0.2
+     ],
+     "name": "parked2"
+    },
+    {
+     "kind": "sedan",
+     "at": [
+      -8.5,
+      26,
+      0
+     ],
+     "rot": -90,
+     "color": [
+      0.9,
+      0.3,
+      0.3
+     ],
+     "name": "parked3"
+    }
+   ],
+   "talk": {
+    "who": "grandma",
+    "f0": 2,
+    "f1": 27
+   },
+   "start_frame": 1250
+  },
+  {
+   "camera": {
+    "subject": "benny",
+    "framing": "cu",
+    "move": "push_in",
+    "angle": "eye",
+    "lens": 50,
+    "az": -20
+   },
+   "actions": [
+    {
+     "who": "benny",
+     "action": "talk",
+     "at": [
+      -20,
+      -20,
+      0.05
+     ],
+     "facing": 90,
+     "expr": "shock"
+    }
+   ],
+   "w": 1.0,
+   "set": "town",
+   "fx": [],
+   "carry": {
+    "benny": "cake"
+   },
+   "id": "s027",
+   "beat": 26,
+   "start": 53.75,
+   "frames": 35,
+   "cast": [
+    "benny"
+   ],
+   "props": [
+    {
+     "kind": "police_car",
+     "at": [
+      5,
+      -33,
+      0
+     ],
+     "rot": 0,
+     "name": "plumcar"
+    },
+    {
+     "kind": "barrier",
+     "at": [
+      -2,
+      -34,
+      0
+     ]
+    },
+    {
+     "kind": "barrier",
+     "at": [
+      3,
+      -34,
+      0
+     ]
+    },
+    {
+     "kind": "sedan",
+     "at": [
+      8.5,
+      -50,
+      0
+     ],
+     "rot": 90,
+     "color": [
+      0.3,
+      0.6,
+      0.9
+     ],
+     "name": "parked1"
+    },
+    {
+     "kind": "sedan",
+     "at": [
+      8.5,
+      10,
+      0
+     ],
+     "rot": 90,
+     "color": [
+      0.95,
+      0.8,
+      0.2
+     ],
+     "name": "parked2"
+    },
+    {
+     "kind": "sedan",
+     "at": [
+      -8.5,
+      26,
+      0
+     ],
+     "rot": -90,
+     "color": [
+      0.9,
+      0.3,
+      0.3
+     ],
+     "name": "parked3"
+    }
+   ],
+   "talk": {
+    "who": "benny",
+    "f0": 2,
+    "f1": 30
+   },
+   "start_frame": 1290
+  },
+  {
+   "camera": {
+    "subject": "grandma",
+    "framing": "mcu",
+    "move": "static_drift",
+    "angle": "eye",
+    "lens": 50,
+    "az": 25
+   },
+   "actions": [
+    {
+     "who": "grandma",
+     "action": "idle",
+     "at": [
+      -25,
+      -21,
+      0.05
+     ],
+     "facing": 270,
+     "expr": "sly"
+    }
+   ],
+   "w": 1.0,
+   "set": "town",
+   "fx": [],
+   "id": "s028",
+   "beat": 27,
+   "start": 55.208,
+   "frames": 38,
+   "cast": [
+    "grandma"
+   ],
+   "props": [
+    {
+     "kind": "police_car",
+     "at": [
+      5,
+      -33,
+      0
+     ],
+     "rot": 0,
+     "name": "plumcar"
+    },
+    {
+     "kind": "barrier",
+     "at": [
+      -2,
+      -34,
+      0
+     ]
+    },
+    {
+     "kind": "barrier",
+     "at": [
+      3,
+      -34,
+      0
+     ]
+    },
+    {
+     "kind": "sedan",
+     "at": [
+      8.5,
+      -50,
+      0
+     ],
+     "rot": 90,
+     "color": [
+      0.3,
+      0.6,
+      0.9
+     ],
+     "name": "parked1"
+    },
+    {
+     "kind": "sedan",
+     "at": [
+      8.5,
+      10,
+      0
+     ],
+     "rot": 90,
+     "color": [
+      0.95,
+      0.8,
+      0.2
+     ],
+     "name": "parked2"
+    },
+    {
+     "kind": "sedan",
+     "at": [
+      -8.5,
+      26,
+      0
+     ],
+     "rot": -90,
+     "color": [
+      0.9,
+      0.3,
+      0.3
+     ],
+     "name": "parked3"
+    }
+   ],
+   "talk": {
+    "who": "grandma",
+    "f0": 2,
+    "f1": 25
+   },
+   "start_frame": 1325
+  },
+  {
+   "camera": {
+    "subject": "benny",
+    "framing": "ms",
+    "move": "tilt_up",
+    "angle": "worm",
+    "lens": 24,
+    "az": 0
+   },
+   "actions": [
+    {
+     "who": "benny",
+     "action": "walk",
+     "path": [
+      [
+       -20,
+       -20,
+       0.05
+      ],
+      [
+       -24,
+       -16,
+       0.05
+      ]
+     ],
+     "expr": "sad"
+    }
+   ],
+   "w": 1.0,
+   "set": "town",
+   "fx": [],
+   "carry": {
+    "benny": "cake_bags"
+   },
+   "id": "s029",
+   "beat": 28,
+   "start": 56.792,
+   "frames": 35,
+   "cast": [
+    "benny"
+   ],
+   "props": [
+    {
+     "kind": "police_car",
+     "at": [
+      5,
+      -33,
+      0
+     ],
+     "rot": 0,
+     "name": "plumcar"
+    },
+    {
+     "kind": "barrier",
+     "at": [
+      -2,
+      -34,
+      0
+     ]
+    },
+    {
+     "kind": "barrier",
+     "at": [
+      3,
+      -34,
+      0
+     ]
+    },
+    {
+     "kind": "sedan",
+     "at": [
+      8.5,
+      -50,
+      0
+     ],
+     "rot": 90,
+     "color": [
+      0.3,
+      0.6,
+      0.9
+     ],
+     "name": "parked1"
+    },
+    {
+     "kind": "sedan",
+     "at": [
+      8.5,
+      10,
+      0
+     ],
+     "rot": 90,
+     "color": [
+      0.95,
+      0.8,
+      0.2
+     ],
+     "name": "parked2"
+    },
+    {
+     "kind": "sedan",
+     "at": [
+      -8.5,
+      26,
+      0
+     ],
+     "rot": -90,
+     "color": [
+      0.9,
+      0.3,
+      0.3
+     ],
+     "name": "parked3"
+    }
+   ],
+   "start_frame": 1363
+  },
+  {
+   "camera": {
+    "subject": "benny",
+    "framing": "ws",
+    "move": "pull_out",
+    "angle": "high",
+    "lens": 24,
+    "az": 40
+   },
+   "actions": [
+    {
+     "who": "benny",
+     "action": "walk",
+     "path": [
+      [
+       -26,
+       -14,
+       0.05
+      ],
+      [
+       -34,
+       -8,
+       0.05
+      ]
+     ],
+     "expr": "sad"
+    },
+    {
+     "who": "grandma",
+     "action": "cheer",
+     "at": [
+      -25,
+      -21,
+      0.05
+     ],
+     "facing": 300
+    }
+   ],
+   "w": 1.0,
+   "set": "town",
+   "fx": [],
+   "carry": {
+    "benny": "cake_bags"
+   },
+   "id": "s030",
+   "beat": 29,
+   "start": 58.25,
+   "frames": 35,
+   "cast": [
+    "benny",
+    "grandma"
+   ],
+   "props": [
+    {
+     "kind": "police_car",
+     "at": [
+      5,
+      -33,
+      0
+     ],
+     "rot": 0,
+     "name": "plumcar"
+    },
+    {
+     "kind": "barrier",
+     "at": [
+      -2,
+      -34,
+      0
+     ]
+    },
+    {
+     "kind": "barrier",
+     "at": [
+      3,
+      -34,
+      0
+     ]
+    },
+    {
+     "kind": "sedan",
+     "at": [
+      8.5,
+      -50,
+      0
+     ],
+     "rot": 90,
+     "color": [
+      0.3,
+      0.6,
+      0.9
+     ],
+     "name": "parked1"
+    },
+    {
+     "kind": "sedan",
+     "at": [
+      8.5,
+      10,
+      0
+     ],
+     "rot": 90,
+     "color": [
+      0.95,
+      0.8,
+      0.2
+     ],
+     "name": "parked2"
+    },
+    {
+     "kind": "sedan",
+     "at": [
+      -8.5,
+      26,
+      0
+     ],
+     "rot": -90,
+     "color": [
+      0.9,
+      0.3,
+      0.3
+     ],
+     "name": "parked3"
+    }
+   ],
+   "start_frame": 1398
+  },
+  {
+   "camera": {
+    "subject": "pip",
+    "framing": "mcu",
+    "move": "push_in",
+    "angle": "eye",
+    "lens": 50,
+    "az": 30
+   },
+   "actions": [
+    {
+     "who": "pip",
+     "action": "talk",
+     "at": [
+      -13.5,
+      76,
+      0.12
+     ],
+     "facing": 200,
+     "expr": "sly"
+    }
+   ],
+   "w": 1.0,
+   "set": "town",
+   "fx": [],
+   "crowd": {
+    "center": [
+     -16.5,
+     80,
+     0.12
+    ],
+    "n": 4,
+    "radius": 2.5,
+    "inner": 1.0,
+    "seed": 4,
+    "actions": [
+     [
+      "hide",
+      0,
+      1
+     ]
+    ]
+   },
+   "carry": {
+    "pip": "phone"
+   },
+   "id": "s031",
+   "beat": 30,
+   "start": 59.708,
+   "frames": 35,
+   "cast": [
+    "pip"
+   ],
+   "props": [
+    {
+     "kind": "police_car",
+     "at": [
+      5,
+      -33,
+      0
+     ],
+     "rot": 0,
+     "name": "plumcar"
+    },
+    {
+     "kind": "barrier",
+     "at": [
+      -2,
+      -34,
+      0
+     ]
+    },
+    {
+     "kind": "barrier",
+     "at": [
+      3,
+      -34,
+      0
+     ]
+    },
+    {
+     "kind": "sedan",
+     "at": [
+      8.5,
+      -50,
+      0
+     ],
+     "rot": 90,
+     "color": [
+      0.3,
+      0.6,
+      0.9
+     ],
+     "name": "parked1"
+    },
+    {
+     "kind": "sedan",
+     "at": [
+      8.5,
+      10,
+      0
+     ],
+     "rot": 90,
+     "color": [
+      0.95,
+      0.8,
+      0.2
+     ],
+     "name": "parked2"
+    },
+    {
+     "kind": "sedan",
+     "at": [
+      -8.5,
+      26,
+      0
+     ],
+     "rot": -90,
+     "color": [
+      0.9,
+      0.3,
+      0.3
+     ],
+     "name": "parked3"
+    }
+   ],
+   "talk": {
+    "who": "pip",
+    "f0": 2,
+    "f1": 26
+   },
+   "start_frame": 1433
+  },
+  {
+   "camera": {
+    "subject": "benny",
+    "framing": "cu",
+    "move": "handheld",
+    "angle": "eye",
+    "lens": 50,
+    "az": 0,
+    "shake": 0.3
+   },
+   "actions": [
+    {
+     "who": "benny",
+     "action": "run",
+     "path": [
+      [
+       -38,
+       -12,
+       0.05
+      ],
+      [
+       -40,
+       -6,
+       0.05
+      ]
+     ],
+     "expr": "angry"
+    }
+   ],
+   "w": 1.0,
+   "set": "town",
+   "fx": [],
+   "carry": {
+    "benny": "cake"
+   },
+   "id": "s032",
+   "beat": 31,
+   "start": 61.167,
+   "frames": 35,
+   "cast": [
+    "benny"
+   ],
+   "props": [
+    {
+     "kind": "police_car",
+     "at": [
+      5,
+      -33,
+      0
+     ],
+     "rot": 0,
+     "name": "plumcar"
+    },
+    {
+     "kind": "barrier",
+     "at": [
+      -2,
+      -34,
+      0
+     ]
+    },
+    {
+     "kind": "barrier",
+     "at": [
+      3,
+      -34,
+      0
+     ]
+    },
+    {
+     "kind": "sedan",
+     "at": [
+      8.5,
+      -50,
+      0
+     ],
+     "rot": 90,
+     "color": [
+      0.3,
+      0.6,
+      0.9
+     ],
+     "name": "parked1"
+    },
+    {
+     "kind": "sedan",
+     "at": [
+      8.5,
+      10,
+      0
+     ],
+     "rot": 90,
+     "color": [
+      0.95,
+      0.8,
+      0.2
+     ],
+     "name": "parked2"
+    },
+    {
+     "kind": "sedan",
+     "at": [
+      -8.5,
+      26,
+      0
+     ],
+     "rot": -90,
+     "color": [
+      0.9,
+      0.3,
+      0.3
+     ],
+     "name": "parked3"
+    }
+   ],
+   "talk": {
+    "who": "benny",
+    "f0": 2,
+    "f1": 14
+   },
+   "start_frame": 1468
+  },
+  {
+   "camera": {
+    "subject": "mark:lane",
+    "framing": "ws",
+    "move": "drone_orbit",
+    "angle": "high",
+    "lens": 24,
+    "az": 0,
+    "pos": [
+     -26,
+     -14,
+     18
+    ],
+    "pos2": [
+     -30,
+     -18,
+     16
+    ]
+   },
+   "actions": [
+    {
+     "who": "benny",
+     "action": "freeze",
+     "at": [
+      -40,
+      -10,
+      0.05
+     ],
+     "facing": 180,
+     "expr": "shock"
+    },
+    {
+     "who": "fig",
+     "action": "idle",
+     "at": [
+      -34,
+      6,
+      0.05
+     ],
+     "facing": 90
+    }
+   ],
+   "w": 1.0,
+   "set": "town",
+   "fx": [],
+   "carry": {
+    "benny": "cake"
+   },
+   "props": [
+    {
+     "kind": "police_car",
+     "at": [
+      5,
+      -33,
+      0
+     ],
+     "rot": 0,
+     "name": "plumcar"
+    },
+    {
+     "kind": "barrier",
+     "at": [
+      -2,
+      -34,
+      0
+     ]
+    },
+    {
+     "kind": "barrier",
+     "at": [
+      3,
+      -34,
+      0
+     ]
+    },
+    {
+     "kind": "sedan",
+     "at": [
+      8.5,
+      -50,
+      0
+     ],
+     "rot": 90,
+     "color": [
+      0.3,
+      0.6,
+      0.9
+     ],
+     "name": "parked1"
+    },
+    {
+     "kind": "sedan",
+     "at": [
+      8.5,
+      10,
+      0
+     ],
+     "rot": 90,
+     "color": [
+      0.95,
+      0.8,
+      0.2
+     ],
+     "name": "parked2"
+    },
+    {
+     "kind": "sedan",
+     "at": [
+      -8.5,
+      26,
+      0
+     ],
+     "rot": -90,
+     "color": [
+      0.9,
+      0.3,
+      0.3
+     ],
+     "name": "parked3"
+    },
+    {
+     "kind": "sedan",
+     "at": [
+      -44,
+      4,
+      0
+     ],
+     "rot": 0,
+     "color": [
+      0.45,
+      0.55,
+      0.2
+     ],
+     "name": "figcar",
+     "move": {
+      "to": [
+       -37,
+       4,
+       0
+      ],
+      "f0": 1,
+      "f1": 40
+     }
+    }
+   ],
+   "id": "s033",
+   "beat": 32,
+   "start": 62.625,
+   "frames": 44,
+   "cast": [
+    "benny",
+    "fig"
+   ],
+   "start_frame": 1503
+  },
+  {
+   "camera": {
+    "subject": "fig",
+    "framing": "mcu",
+    "move": "push_in",
+    "angle": "eye",
+    "lens": 50,
+    "az": -20
+   },
+   "actions": [
+    {
+     "who": "fig",
+     "action": "talk",
+     "at": [
+      -34,
+      6,
+      0.05
+     ],
+     "facing": 90,
+     "expr": "determined"
+    }
+   ],
+   "w": 1.0,
+   "set": "town",
+   "fx": [],
+   "props": [
+    {
+     "kind": "police_car",
+     "at": [
+      5,
+      -33,
+      0
+     ],
+     "rot": 0,
+     "name": "plumcar"
+    },
+    {
+     "kind": "barrier",
+     "at": [
+      -2,
+      -34,
+      0
+     ]
+    },
+    {
+     "kind": "barrier",
+     "at": [
+      3,
+      -34,
+      0
+     ]
+    },
+    {
+     "kind": "sedan",
+     "at": [
+      8.5,
+      -50,
+      0
+     ],
+     "rot": 90,
+     "color": [
+      0.3,
+      0.6,
+      0.9
+     ],
+     "name": "parked1"
+    },
+    {
+     "kind": "sedan",
+     "at": [
+      8.5,
+      10,
+      0
+     ],
+     "rot": 90,
+     "color": [
+      0.95,
+      0.8,
+      0.2
+     ],
+     "name": "parked2"
+    },
+    {
+     "kind": "sedan",
+     "at": [
+      -8.5,
+      26,
+      0
+     ],
+     "rot": -90,
+     "color": [
+      0.9,
+      0.3,
+      0.3
+     ],
+     "name": "parked3"
+    },
+    {
+     "kind": "sedan",
+     "at": [
+      -37,
+      4,
+      0
+     ],
+     "rot": 0,
+     "color": [
+      0.45,
+      0.55,
+      0.2
+     ],
+     "name": "figcar",
+     "move": {
+      "to": [
+       -43,
+       4,
+       0
+      ],
+      "f0": 1,
+      "f1": 40
+     }
+    }
+   ],
+   "id": "s034",
+   "beat": 33,
+   "start": 64.458,
+   "frames": 37,
+   "cast": [
+    "fig"
+   ],
+   "talk": {
+    "who": "fig",
+    "f0": 2,
+    "f1": 32
+   },
+   "start_frame": 1547
+  },
+  {
+   "camera": {
+    "subject": "benny",
+    "framing": "ms",
+    "move": "push_in",
+    "angle": "low",
+    "lens": 35,
+    "az": -20
+   },
+   "actions": [
+    {
+     "who": "benny",
+     "action": "point",
+     "at": [
+      -40,
+      -10,
+      0.05
+     ],
+     "facing": 180,
+     "expr": "angry"
+    }
+   ],
+   "w": 1.0,
+   "set": "town",
+   "fx": [],
+   "carry": {
+    "benny": "cake"
+   },
+   "props": [
+    {
+     "kind": "police_car",
+     "at": [
+      5,
+      -33,
+      0
+     ],
+     "rot": 0,
+     "name": "plumcar"
+    },
+    {
+     "kind": "barrier",
+     "at": [
+      -2,
+      -34,
+      0
+     ]
+    },
+    {
+     "kind": "barrier",
+     "at": [
+      3,
+      -34,
+      0
+     ]
+    },
+    {
+     "kind": "sedan",
+     "at": [
+      8.5,
+      -50,
+      0
+     ],
+     "rot": 90,
+     "color": [
+      0.3,
+      0.6,
+      0.9
+     ],
+     "name": "parked1"
+    },
+    {
+     "kind": "sedan",
+     "at": [
+      8.5,
+      10,
+      0
+     ],
+     "rot": 90,
+     "color": [
+      0.95,
+      0.8,
+      0.2
+     ],
+     "name": "parked2"
+    },
+    {
+     "kind": "sedan",
+     "at": [
+      -8.5,
+      26,
+      0
+     ],
+     "rot": -90,
+     "color": [
+      0.9,
+      0.3,
+      0.3
+     ],
+     "name": "parked3"
+    },
+    {
+     "kind": "sedan",
+     "at": [
+      -43,
+      4,
+      0
+     ],
+     "rot": 0,
+     "color": [
+      0.45,
+      0.55,
+      0.2
+     ],
+     "name": "figcar"
+    }
+   ],
+   "id": "s035",
+   "beat": 34,
+   "start": 66.0,
+   "frames": 70,
+   "cast": [
+    "benny"
+   ],
+   "talk": {
+    "who": "benny",
+    "f0": 2,
+    "f1": 57
+   },
+   "start_frame": 1584
+  },
+  {
+   "camera": {
+    "subject": "fig",
+    "framing": "cu",
+    "move": "static_drift",
+    "angle": "eye",
+    "lens": 50,
+    "az": 10
+   },
+   "actions": [
+    {
+     "who": "fig",
+     "action": "idle",
+     "at": [
+      -34,
+      6,
+      0.05
+     ],
+     "facing": 90,
+     "expr": "sly"
+    }
+   ],
+   "w": 1.0,
+   "set": "town",
+   "fx": [],
+   "id": "s036",
+   "beat": 35,
+   "start": 68.917,
+   "frames": 35,
+   "cast": [
+    "fig"
+   ],
+   "props": [
+    {
+     "kind": "police_car",
+     "at": [
+      5,
+      -33,
+      0
+     ],
+     "rot": 0,
+     "name": "plumcar"
+    },
+    {
+     "kind": "barrier",
+     "at": [
+      -2,
+      -34,
+      0
+     ]
+    },
+    {
+     "kind": "barrier",
+     "at": [
+      3,
+      -34,
+      0
+     ]
+    },
+    {
+     "kind": "sedan",
+     "at": [
+      8.5,
+      -50,
+      0
+     ],
+     "rot": 90,
+     "color": [
+      0.3,
+      0.6,
+      0.9
+     ],
+     "name": "parked1"
+    },
+    {
+     "kind": "sedan",
+     "at": [
+      8.5,
+      10,
+      0
+     ],
+     "rot": 90,
+     "color": [
+      0.95,
+      0.8,
+      0.2
+     ],
+     "name": "parked2"
+    },
+    {
+     "kind": "sedan",
+     "at": [
+      -8.5,
+      26,
+      0
+     ],
+     "rot": -90,
+     "color": [
+      0.9,
+      0.3,
+      0.3
+     ],
+     "name": "parked3"
+    }
+   ],
+   "talk": {
+    "who": "fig",
+    "f0": 2,
+    "f1": 24
+   },
+   "start_frame": 1654
+  },
+  {
+   "camera": {
+    "subject": "benny",
+    "framing": "ms",
+    "move": "orbit_right",
+    "angle": "low",
+    "lens": 35,
+    "az": 30
+   },
+   "actions": [
+    {
+     "who": "benny",
+     "action": "point",
+     "at": [
+      -40,
+      -10,
+      0.05
+     ],
+     "facing": 150,
+     "expr": "angry"
+    }
+   ],
+   "w": 1.0,
+   "set": "town",
+   "fx": [],
+   "carry": {
+    "benny": "cake"
+   },
+   "id": "s037",
+   "beat": 36,
+   "start": 70.375,
+   "frames": 61,
+   "cast": [
+    "benny"
+   ],
+   "props": [
+    {
+     "kind": "police_car",
+     "at": [
+      5,
+      -33,
+      0
+     ],
+     "rot": 0,
+     "name": "plumcar"
+    },
+    {
+     "kind": "barrier",
+     "at": [
+      -2,
+      -34,
+      0
+     ]
+    },
+    {
+     "kind": "barrier",
+     "at": [
+      3,
+      -34,
+      0
+     ]
+    },
+    {
+     "kind": "sedan",
+     "at": [
+      8.5,
+      -50,
+      0
+     ],
+     "rot": 90,
+     "color": [
+      0.3,
+      0.6,
+      0.9
+     ],
+     "name": "parked1"
+    },
+    {
+     "kind": "sedan",
+     "at": [
+      8.5,
+      10,
+      0
+     ],
+     "rot": 90,
+     "color": [
+      0.95,
+      0.8,
+      0.2
+     ],
+     "name": "parked2"
+    },
+    {
+     "kind": "sedan",
+     "at": [
+      -8.5,
+      26,
+      0
+     ],
+     "rot": -90,
+     "color": [
+      0.9,
+      0.3,
+      0.3
+     ],
+     "name": "parked3"
+    }
+   ],
+   "talk": {
+    "who": "benny",
+    "f0": 2,
+    "f1": 56
+   },
+   "start_frame": 1689
+  },
+  {
+   "camera": {
+    "subject": "benny",
+    "framing": "cu",
+    "move": "dolly_zoom",
+    "angle": "eye",
+    "lens": 85,
+    "az": 0
+   },
+   "actions": [
+    {
+     "who": "benny",
+     "action": "idle",
+     "at": [
+      -40,
+      -10,
+      0.05
+     ],
+     "facing": 180,
+     "expr": "determined"
+    }
+   ],
+   "w": 1.0,
+   "set": "town",
+   "fx": [],
+   "carry": {
+    "benny": "cake"
+   },
+   "id": "s038",
+   "beat": 37,
+   "start": 72.917,
+   "frames": 35,
+   "cast": [
+    "benny"
+   ],
+   "props": [
+    {
+     "kind": "police_car",
+     "at": [
+      5,
+      -33,
+      0
+     ],
+     "rot": 0,
+     "name": "plumcar"
+    },
+    {
+     "kind": "barrier",
+     "at": [
+      -2,
+      -34,
+      0
+     ]
+    },
+    {
+     "kind": "barrier",
+     "at": [
+      3,
+      -34,
+      0
+     ]
+    },
+    {
+     "kind": "sedan",
+     "at": [
+      8.5,
+      -50,
+      0
+     ],
+     "rot": 90,
+     "color": [
+      0.3,
+      0.6,
+      0.9
+     ],
+     "name": "parked1"
+    },
+    {
+     "kind": "sedan",
+     "at": [
+      8.5,
+      10,
+      0
+     ],
+     "rot": 90,
+     "color": [
+      0.95,
+      0.8,
+      0.2
+     ],
+     "name": "parked2"
+    },
+    {
+     "kind": "sedan",
+     "at": [
+      -8.5,
+      26,
+      0
+     ],
+     "rot": -90,
+     "color": [
+      0.9,
+      0.3,
+      0.3
+     ],
+     "name": "parked3"
+    }
+   ],
+   "start_frame": 1750
+  },
+  {
+   "camera": {
+    "subject": "benny",
+    "framing": "cu",
+    "move": "push_in",
+    "angle": "worm",
+    "lens": 35,
+    "az": 20
+   },
+   "actions": [
+    {
+     "who": "benny",
+     "action": "idle",
+     "at": [
+      -40,
+      -10,
+      0.05
+     ],
+     "facing": 200,
+     "expr": "determined"
+    }
+   ],
+   "w": 1.0,
+   "set": "town",
+   "fx": [],
+   "carry": {
+    "benny": "cake"
+   },
+   "id": "s039",
+   "beat": 38,
+   "start": 74.375,
+   "frames": 51,
+   "cast": [
+    "benny"
+   ],
+   "props": [
+    {
+     "kind": "police_car",
+     "at": [
+      5,
+      -33,
+      0
+     ],
+     "rot": 0,
+     "name": "plumcar"
+    },
+    {
+     "kind": "barrier",
+     "at": [
+      -2,
+      -34,
+      0
+     ]
+    },
+    {
+     "kind": "barrier",
+     "at": [
+      3,
+      -34,
+      0
+     ]
+    },
+    {
+     "kind": "sedan",
+     "at": [
+      8.5,
+      -50,
+      0
+     ],
+     "rot": 90,
+     "color": [
+      0.3,
+      0.6,
+      0.9
+     ],
+     "name": "parked1"
+    },
+    {
+     "kind": "sedan",
+     "at": [
+      8.5,
+      10,
+      0
+     ],
+     "rot": 90,
+     "color": [
+      0.95,
+      0.8,
+      0.2
+     ],
+     "name": "parked2"
+    },
+    {
+     "kind": "sedan",
+     "at": [
+      -8.5,
+      26,
+      0
+     ],
+     "rot": -90,
+     "color": [
+      0.9,
+      0.3,
+      0.3
+     ],
+     "name": "parked3"
+    }
+   ],
+   "talk": {
+    "who": "benny",
+    "f0": 2,
+    "f1": 38
+   },
+   "start_frame": 1785
+  },
+  {
+   "camera": {
+    "subject": "pip",
+    "framing": "mcu",
+    "move": "push_in",
+    "angle": "eye",
+    "lens": 50,
+    "az": -20
+   },
+   "actions": [
+    {
+     "who": "pip",
+     "action": "talk",
+     "at": [
+      -13.5,
+      76,
+      0.12
+     ],
+     "facing": 200,
+     "expr": "shock"
+    }
+   ],
+   "w": 1.0,
+   "set": "town",
+   "fx": [],
+   "crowd": {
+    "center": [
+     -16.5,
+     80,
+     0.12
+    ],
+    "n": 4,
+    "radius": 2.5,
+    "inner": 1.0,
+    "seed": 4,
+    "actions": [
+     [
+      "hide",
+      0,
+      1
+     ]
+    ]
+   },
+   "carry": {
+    "pip": "phone"
+   },
+   "id": "s040",
+   "beat": 39,
+   "start": 76.5,
+   "frames": 47,
+   "cast": [
+    "pip"
+   ],
+   "props": [
+    {
+     "kind": "police_car",
+     "at": [
+      5,
+      -33,
+      0
+     ],
+     "rot": 0,
+     "name": "plumcar"
+    },
+    {
+     "kind": "barrier",
+     "at": [
+      -2,
+      -34,
+      0
+     ]
+    },
+    {
+     "kind": "barrier",
+     "at": [
+      3,
+      -34,
+      0
+     ]
+    },
+    {
+     "kind": "sedan",
+     "at": [
+      8.5,
+      -50,
+      0
+     ],
+     "rot": 90,
+     "color": [
+      0.3,
+      0.6,
+      0.9
+     ],
+     "name": "parked1"
+    },
+    {
+     "kind": "sedan",
+     "at": [
+      8.5,
+      10,
+      0
+     ],
+     "rot": 90,
+     "color": [
+      0.95,
+      0.8,
+      0.2
+     ],
+     "name": "parked2"
+    },
+    {
+     "kind": "sedan",
+     "at": [
+      -8.5,
+      26,
+      0
+     ],
+     "rot": -90,
+     "color": [
+      0.9,
+      0.3,
+      0.3
+     ],
+     "name": "parked3"
+    }
+   ],
+   "talk": {
+    "who": "pip",
+    "f0": 2,
+    "f1": 47
+   },
+   "start_frame": 1836
+  },
+  {
+   "camera": {
+    "subject": "mark:park",
+    "framing": "ws",
+    "move": "push_in",
+    "angle": "low",
+    "lens": 24,
+    "az": 0,
+    "pos": [
+     -22,
+     12,
+     1.0
+    ],
+    "pos2": [
+     -23,
+     15,
+     1.2
+    ]
+   },
+   "actions": [
+    {
+     "who": "benny",
+     "action": "run",
+     "path": [
+      [
+       -36,
+       18,
+       0.05
+      ],
+      [
+       -28,
+       26,
+       0.05
+      ]
+     ]
+    }
+   ],
+   "w": 1.0,
+   "set": "town",
+   "fx": [
+    {
+     "kind": "spray",
+     "at": [
+      -30,
+      26,
+      0.1
+     ],
+     "count": 400,
+     "height": 4
+    },
+    {
+     "kind": "spray",
+     "at": [
+      -22,
+      32,
+      0.1
+     ],
+     "count": 400,
+     "height": 4
+    },
+    {
+     "kind": "spray",
+     "at": [
+      -26,
+      40,
+      0.1
+     ],
+     "count": 400,
+     "height": 4
+    }
+   ],
+   "carry": {
+    "benny": "cake"
+   },
+   "id": "s041",
+   "beat": 40,
+   "start": 78.458,
+   "frames": 38,
+   "cast": [
+    "benny"
+   ],
+   "props": [
+    {
+     "kind": "police_car",
+     "at": [
+      5,
+      -33,
+      0
+     ],
+     "rot": 0,
+     "name": "plumcar"
+    },
+    {
+     "kind": "barrier",
+     "at": [
+      -2,
+      -34,
+      0
+     ]
+    },
+    {
+     "kind": "barrier",
+     "at": [
+      3,
+      -34,
+      0
+     ]
+    },
+    {
+     "kind": "sedan",
+     "at": [
+      8.5,
+      -50,
+      0
+     ],
+     "rot": 90,
+     "color": [
+      0.3,
+      0.6,
+      0.9
+     ],
+     "name": "parked1"
+    },
+    {
+     "kind": "sedan",
+     "at": [
+      8.5,
+      10,
+      0
+     ],
+     "rot": 90,
+     "color": [
+      0.95,
+      0.8,
+      0.2
+     ],
+     "name": "parked2"
+    },
+    {
+     "kind": "sedan",
+     "at": [
+      -8.5,
+      26,
+      0
+     ],
+     "rot": -90,
+     "color": [
+      0.9,
+      0.3,
+      0.3
+     ],
+     "name": "parked3"
+    }
+   ],
+   "start_frame": 1883
+  },
+  {
+   "camera": {
+    "subject": "pip",
+    "framing": "cu",
+    "move": "static_drift",
+    "angle": "eye",
+    "lens": 50,
+    "az": 0
+   },
+   "actions": [
+    {
+     "who": "pip",
+     "action": "idle",
+     "at": [
+      -13.5,
+      76,
+      0.12
+     ],
+     "facing": 200,
+     "expr": "sly"
+    }
+   ],
+   "w": 1.0,
+   "set": "town",
+   "fx": [],
+   "crowd": {
+    "center": [
+     -16.5,
+     80,
+     0.12
+    ],
+    "n": 4,
+    "radius": 2.5,
+    "inner": 1.0,
+    "seed": 4,
+    "actions": [
+     [
+      "hide",
+      0,
+      1
+     ]
+    ]
+   },
+   "carry": {
+    "pip": "phone"
+   },
+   "id": "s042",
+   "beat": 41,
+   "start": 80.042,
+   "frames": 35,
+   "cast": [
+    "pip"
+   ],
+   "props": [
+    {
+     "kind": "police_car",
+     "at": [
+      5,
+      -33,
+      0
+     ],
+     "rot": 0,
+     "name": "plumcar"
+    },
+    {
+     "kind": "barrier",
+     "at": [
+      -2,
+      -34,
+      0
+     ]
+    },
+    {
+     "kind": "barrier",
+     "at": [
+      3,
+      -34,
+      0
+     ]
+    },
+    {
+     "kind": "sedan",
+     "at": [
+      8.5,
+      -50,
+      0
+     ],
+     "rot": 90,
+     "color": [
+      0.3,
+      0.6,
+      0.9
+     ],
+     "name": "parked1"
+    },
+    {
+     "kind": "sedan",
+     "at": [
+      8.5,
+      10,
+      0
+     ],
+     "rot": 90,
+     "color": [
+      0.95,
+      0.8,
+      0.2
+     ],
+     "name": "parked2"
+    },
+    {
+     "kind": "sedan",
+     "at": [
+      -8.5,
+      26,
+      0
+     ],
+     "rot": -90,
+     "color": [
+      0.9,
+      0.3,
+      0.3
+     ],
+     "name": "parked3"
+    }
+   ],
+   "talk": {
+    "who": "pip",
+    "f0": 2,
+    "f1": 11
+   },
+   "start_frame": 1921
+  },
+  {
+   "camera": {
+    "subject": "benny",
+    "framing": "ms",
+    "move": "track",
+    "angle": "eye",
+    "lens": 24,
+    "az": 0
+   },
+   "actions": [
+    {
+     "who": "benny",
+     "action": "panic_run",
+     "path": [
+      [
+       -28,
+       26,
+       0.05
+      ],
+      [
+       -20,
+       36,
+       0.05
+      ]
+     ]
+    }
+   ],
+   "w": 1.0,
+   "set": "town",
+   "fx": [
+    {
+     "kind": "spray",
+     "at": [
+      -22,
+      32,
+      0.1
+     ],
+     "count": 400,
+     "height": 4
+    },
+    {
+     "kind": "spray",
+     "at": [
+      -26,
+      40,
+      0.1
+     ],
+     "count": 400,
+     "height": 4
+    }
+   ],
+   "carry": {
+    "benny": "cake"
+   },
+   "id": "s043",
+   "beat": 42,
+   "start": 81.5,
+   "frames": 39,
+   "cast": [
+    "benny"
+   ],
+   "props": [
+    {
+     "kind": "police_car",
+     "at": [
+      5,
+      -33,
+      0
+     ],
+     "rot": 0,
+     "name": "plumcar"
+    },
+    {
+     "kind": "barrier",
+     "at": [
+      -2,
+      -34,
+      0
+     ]
+    },
+    {
+     "kind": "barrier",
+     "at": [
+      3,
+      -34,
+      0
+     ]
+    },
+    {
+     "kind": "sedan",
+     "at": [
+      8.5,
+      -50,
+      0
+     ],
+     "rot": 90,
+     "color": [
+      0.3,
+      0.6,
+      0.9
+     ],
+     "name": "parked1"
+    },
+    {
+     "kind": "sedan",
+     "at": [
+      8.5,
+      10,
+      0
+     ],
+     "rot": 90,
+     "color": [
+      0.95,
+      0.8,
+      0.2
+     ],
+     "name": "parked2"
+    },
+    {
+     "kind": "sedan",
+     "at": [
+      -8.5,
+      26,
+      0
+     ],
+     "rot": -90,
+     "color": [
+      0.9,
+      0.3,
+      0.3
+     ],
+     "name": "parked3"
+    }
+   ],
+   "talk": {
+    "who": "benny",
+    "f0": 2,
+    "f1": 39
+   },
+   "start_frame": 1956
+  },
+  {
+   "camera": {
+    "subject": "benny",
+    "framing": "ws",
+    "move": "orbit_right",
+    "angle": "low",
+    "lens": 24,
+    "az": 40
+   },
+   "actions": [
+    {
+     "who": "benny",
+     "action": "panic_run",
+     "path": [
+      [
+       -20,
+       36,
+       0.05
+      ],
+      [
+       -14,
+       46,
+       0.05
+      ]
+     ]
+    }
+   ],
+   "w": 1.0,
+   "set": "town",
+   "fx": [
+    {
+     "kind": "spray",
+     "at": [
+      -22,
+      32,
+      0.1
+     ],
+     "count": 400,
+     "height": 4
+    },
+    {
+     "kind": "spray",
+     "at": [
+      -26,
+      40,
+      0.1
+     ],
+     "count": 400,
+     "height": 4
+    }
+   ],
+   "carry": {
+    "benny": "cake"
+   },
+   "id": "s044",
+   "beat": 42,
+   "start": 83.125,
+   "frames": 39,
+   "cast": [
+    "benny"
+   ],
+   "props": [
+    {
+     "kind": "police_car",
+     "at": [
+      5,
+      -33,
+      0
+     ],
+     "rot": 0,
+     "name": "plumcar"
+    },
+    {
+     "kind": "barrier",
+     "at": [
+      -2,
+      -34,
+      0
+     ]
+    },
+    {
+     "kind": "barrier",
+     "at": [
+      3,
+      -34,
+      0
+     ]
+    },
+    {
+     "kind": "sedan",
+     "at": [
+      8.5,
+      -50,
+      0
+     ],
+     "rot": 90,
+     "color": [
+      0.3,
+      0.6,
+      0.9
+     ],
+     "name": "parked1"
+    },
+    {
+     "kind": "sedan",
+     "at": [
+      8.5,
+      10,
+      0
+     ],
+     "rot": 90,
+     "color": [
+      0.95,
+      0.8,
+      0.2
+     ],
+     "name": "parked2"
+    },
+    {
+     "kind": "sedan",
+     "at": [
+      -8.5,
+      26,
+      0
+     ],
+     "rot": -90,
+     "color": [
+      0.9,
+      0.3,
+      0.3
+     ],
+     "name": "parked3"
+    }
+   ],
+   "talk": {
+    "who": "benny",
+    "f0": 1,
+    "f1": 34
+   },
+   "start_frame": 1995
+  },
+  {
+   "camera": {
+    "subject": "benny",
+    "framing": "ms",
+    "move": "push_in",
+    "angle": "low",
+    "lens": 35,
+    "az": 40
+   },
+   "actions": [
+    {
+     "who": "benny",
+     "action": "idle",
+     "at": [
+      -14,
+      46,
+      0.05
+     ],
+     "facing": 230,
+     "expr": "sad"
+    }
+   ],
+   "w": 1.0,
+   "set": "town",
+   "fx": [],
+   "carry": {
+    "benny": "cake"
+   },
+   "id": "s045",
+   "beat": 43,
+   "start": 84.75,
+   "frames": 60,
+   "cast": [
+    "benny"
+   ],
+   "props": [
+    {
+     "kind": "police_car",
+     "at": [
+      5,
+      -33,
+      0
+     ],
+     "rot": 0,
+     "name": "plumcar"
+    },
+    {
+     "kind": "barrier",
+     "at": [
+      -2,
+      -34,
+      0
+     ]
+    },
+    {
+     "kind": "barrier",
+     "at": [
+      3,
+      -34,
+      0
+     ]
+    },
+    {
+     "kind": "sedan",
+     "at": [
+      8.5,
+      -50,
+      0
+     ],
+     "rot": 90,
+     "color": [
+      0.3,
+      0.6,
+      0.9
+     ],
+     "name": "parked1"
+    },
+    {
+     "kind": "sedan",
+     "at": [
+      8.5,
+      10,
+      0
+     ],
+     "rot": 90,
+     "color": [
+      0.95,
+      0.8,
+      0.2
+     ],
+     "name": "parked2"
+    },
+    {
+     "kind": "sedan",
+     "at": [
+      -8.5,
+      26,
+      0
+     ],
+     "rot": -90,
+     "color": [
+      0.9,
+      0.3,
+      0.3
+     ],
+     "name": "parked3"
+    }
+   ],
+   "start_frame": 2034
+  },
+  {
+   "camera": {
+    "subject": "benny",
+    "framing": "ws",
+    "move": "push_in",
+    "angle": "high",
+    "lens": 24,
+    "az": 0,
+    "pos": [
+     10,
+     18,
+     9
+    ],
+    "pos2": [
+     8,
+     20,
+     7
+    ]
+   },
+   "actions": [
+    {
+     "who": "benny",
+     "action": "freeze",
+     "at": [
+      -2,
+      22,
+      0.05
+     ],
+     "facing": 180,
+     "expr": "shock"
+    }
+   ],
+   "w": 1.0,
+   "set": "town",
+   "fx": [],
+   "carry": {
+    "benny": "cake"
+   },
+   "crowd": {
+    "center": [
+     0,
+     26,
+     0.05
+    ],
+    "n": 9,
+    "radius": 6,
+    "inner": 1.5,
+    "seed": 12,
+    "accessory": "helmet",
+    "palette": {
+     "shirt": [
+      0.85,
+      0.1,
+      0.12
+     ],
+     "pants": [
+      0.95,
+      0.95,
+      0.95
+     ],
+     "hat": [
+      0.95,
+      0.95,
+      0.98
+     ],
+     "stripe": [
+      0.95,
+      0.8,
+      0.1
+     ]
+    },
+    "actions": [
+     [
+      "walk",
+      0,
+      1
+     ]
+    ],
+    "facing": 270
+   },
+   "id": "s046",
+   "beat": 44,
+   "start": 87.25,
+   "frames": 66,
+   "cast": [
+    "benny"
+   ],
+   "props": [
+    {
+     "kind": "police_car",
+     "at": [
+      5,
+      -33,
+      0
+     ],
+     "rot": 0,
+     "name": "plumcar"
+    },
+    {
+     "kind": "barrier",
+     "at": [
+      -2,
+      -34,
+      0
+     ]
+    },
+    {
+     "kind": "barrier",
+     "at": [
+      3,
+      -34,
+      0
+     ]
+    },
+    {
+     "kind": "sedan",
+     "at": [
+      8.5,
+      -50,
+      0
+     ],
+     "rot": 90,
+     "color": [
+      0.3,
+      0.6,
+      0.9
+     ],
+     "name": "parked1"
+    },
+    {
+     "kind": "sedan",
+     "at": [
+      8.5,
+      10,
+      0
+     ],
+     "rot": 90,
+     "color": [
+      0.95,
+      0.8,
+      0.2
+     ],
+     "name": "parked2"
+    },
+    {
+     "kind": "sedan",
+     "at": [
+      -8.5,
+      26,
+      0
+     ],
+     "rot": -90,
+     "color": [
+      0.9,
+      0.3,
+      0.3
+     ],
+     "name": "parked3"
+    }
+   ],
+   "start_frame": 2094
+  },
+  {
+   "camera": {
+    "subject": "benny",
+    "framing": "ms",
+    "move": "track",
+    "angle": "eye",
+    "lens": 24,
+    "az": 20
+   },
+   "actions": [
+    {
+     "who": "benny",
+     "action": "sneak",
+     "path": [
+      [
+       -2,
+       22,
+       0.05
+      ],
+      [
+       2,
+       30,
+       0.05
+      ]
+     ],
+     "expr": "fear"
+    }
+   ],
+   "w": 1.0,
+   "set": "town",
+   "fx": [],
+   "carry": {
+    "benny": "cake"
+   },
+   "crowd": {
+    "center": [
+     0,
+     26,
+     0.05
+    ],
+    "n": 9,
+    "radius": 6,
+    "inner": 1.5,
+    "seed": 12,
+    "accessory": "helmet",
+    "palette": {
+     "shirt": [
+      0.85,
+      0.1,
+      0.12
+     ],
+     "pants": [
+      0.95,
+      0.95,
+      0.95
+     ],
+     "hat": [
+      0.95,
+      0.95,
+      0.98
+     ],
+     "stripe": [
+      0.95,
+      0.8,
+      0.1
+     ]
+    },
+    "actions": [
+     [
+      "walk",
+      0,
+      1
+     ]
+    ],
+    "facing": 270
+   },
+   "id": "s047",
+   "beat": 45,
+   "start": 90.0,
+   "frames": 53,
+   "cast": [
+    "benny"
+   ],
+   "props": [
+    {
+     "kind": "police_car",
+     "at": [
+      5,
+      -33,
+      0
+     ],
+     "rot": 0,
+     "name": "plumcar"
+    },
+    {
+     "kind": "barrier",
+     "at": [
+      -2,
+      -34,
+      0
+     ]
+    },
+    {
+     "kind": "barrier",
+     "at": [
+      3,
+      -34,
+      0
+     ]
+    },
+    {
+     "kind": "sedan",
+     "at": [
+      8.5,
+      -50,
+      0
+     ],
+     "rot": 90,
+     "color": [
+      0.3,
+      0.6,
+      0.9
+     ],
+     "name": "parked1"
+    },
+    {
+     "kind": "sedan",
+     "at": [
+      8.5,
+      10,
+      0
+     ],
+     "rot": 90,
+     "color": [
+      0.95,
+      0.8,
+      0.2
+     ],
+     "name": "parked2"
+    },
+    {
+     "kind": "sedan",
+     "at": [
+      -8.5,
+      26,
+      0
+     ],
+     "rot": -90,
+     "color": [
+      0.9,
+      0.3,
+      0.3
+     ],
+     "name": "parked3"
+    }
+   ],
+   "talk": {
+    "who": "benny",
+    "f0": 2,
+    "f1": 49
+   },
+   "start_frame": 2160
+  },
+  {
+   "camera": {
+    "subject": "lead",
+    "framing": "mcu",
+    "move": "push_in",
+    "angle": "low",
+    "lens": 50,
+    "az": 10
+   },
+   "actions": [
+    {
+     "who": "lead",
+     "action": "talk",
+     "at": [
+      4,
+      28,
+      0.05
+     ],
+     "facing": 270,
+     "expr": "happy"
+    }
+   ],
+   "w": 1.0,
+   "set": "town",
+   "fx": [],
+   "crowd": {
+    "center": [
+     0,
+     26,
+     0.05
+    ],
+    "n": 9,
+    "radius": 6,
+    "inner": 1.5,
+    "seed": 12,
+    "accessory": "helmet",
+    "palette": {
+     "shirt": [
+      0.85,
+      0.1,
+      0.12
+     ],
+     "pants": [
+      0.95,
+      0.95,
+      0.95
+     ],
+     "hat": [
+      0.95,
+      0.95,
+      0.98
+     ],
+     "stripe": [
+      0.95,
+      0.8,
+      0.1
+     ]
+    },
+    "actions": [
+     [
+      "walk",
+      0,
+      1
+     ]
+    ],
+    "facing": 270
+   },
+   "id": "s048",
+   "beat": 46,
+   "start": 92.208,
+   "frames": 56,
+   "cast": [
+    "lead"
+   ],
+   "props": [
+    {
+     "kind": "police_car",
+     "at": [
+      5,
+      -33,
+      0
+     ],
+     "rot": 0,
+     "name": "plumcar"
+    },
+    {
+     "kind": "barrier",
+     "at": [
+      -2,
+      -34,
+      0
+     ]
+    },
+    {
+     "kind": "barrier",
+     "at": [
+      3,
+      -34,
+      0
+     ]
+    },
+    {
+     "kind": "sedan",
+     "at": [
+      8.5,
+      -50,
+      0
+     ],
+     "rot": 90,
+     "color": [
+      0.3,
+      0.6,
+      0.9
+     ],
+     "name": "parked1"
+    },
+    {
+     "kind": "sedan",
+     "at": [
+      8.5,
+      10,
+      0
+     ],
+     "rot": 90,
+     "color": [
+      0.95,
+      0.8,
+      0.2
+     ],
+     "name": "parked2"
+    },
+    {
+     "kind": "sedan",
+     "at": [
+      -8.5,
+      26,
+      0
+     ],
+     "rot": -90,
+     "color": [
+      0.9,
+      0.3,
+      0.3
+     ],
+     "name": "parked3"
+    }
+   ],
+   "talk": {
+    "who": "lead",
+    "f0": 2,
+    "f1": 51
+   },
+   "start_frame": 2213
+  },
+  {
+   "camera": {
+    "subject": "benny",
+    "framing": "cu",
+    "move": "handheld",
+    "angle": "eye",
+    "lens": 50,
+    "az": -15,
+    "shake": 0.3
+   },
+   "actions": [
+    {
+     "who": "benny",
+     "action": "talk",
+     "at": [
+      2,
+      30,
+      0.05
+     ],
+     "facing": 90,
+     "expr": "angry"
+    }
+   ],
+   "w": 1.0,
+   "set": "town",
+   "fx": [],
+   "carry": {
+    "benny": "cake"
+   },
+   "crowd": {
+    "center": [
+     0,
+     26,
+     0.05
+    ],
+    "n": 9,
+    "radius": 6,
+    "inner": 1.5,
+    "seed": 12,
+    "accessory": "helmet",
+    "palette": {
+     "shirt": [
+      0.85,
+      0.1,
+      0.12
+     ],
+     "pants": [
+      0.95,
+      0.95,
+      0.95
+     ],
+     "hat": [
+      0.95,
+      0.95,
+      0.98
+     ],
+     "stripe": [
+      0.95,
+      0.8,
+      0.1
+     ]
+    },
+    "actions": [
+     [
+      "walk",
+      0,
+      1
+     ]
+    ],
+    "facing": 270
+   },
+   "id": "s049",
+   "beat": 47,
+   "start": 94.542,
+   "frames": 35,
+   "cast": [
+    "benny"
+   ],
+   "props": [
+    {
+     "kind": "police_car",
+     "at": [
+      5,
+      -33,
+      0
+     ],
+     "rot": 0,
+     "name": "plumcar"
+    },
+    {
+     "kind": "barrier",
+     "at": [
+      -2,
+      -34,
+      0
+     ]
+    },
+    {
+     "kind": "barrier",
+     "at": [
+      3,
+      -34,
+      0
+     ]
+    },
+    {
+     "kind": "sedan",
+     "at": [
+      8.5,
+      -50,
+      0
+     ],
+     "rot": 90,
+     "color": [
+      0.3,
+      0.6,
+      0.9
+     ],
+     "name": "parked1"
+    },
+    {
+     "kind": "sedan",
+     "at": [
+      8.5,
+      10,
+      0
+     ],
+     "rot": 90,
+     "color": [
+      0.95,
+      0.8,
+      0.2
+     ],
+     "name": "parked2"
+    },
+    {
+     "kind": "sedan",
+     "at": [
+      -8.5,
+      26,
+      0
+     ],
+     "rot": -90,
+     "color": [
+      0.9,
+      0.3,
+      0.3
+     ],
+     "name": "parked3"
+    }
+   ],
+   "talk": {
+    "who": "benny",
+    "f0": 2,
+    "f1": 20
+   },
+   "start_frame": 2269
+  },
+  {
+   "camera": {
+    "subject": "lead",
+    "framing": "cu",
+    "move": "static_drift",
+    "angle": "eye",
+    "lens": 50,
+    "az": 0
+   },
+   "actions": [
+    {
+     "who": "lead",
+     "action": "idle",
+     "at": [
+      4,
+      28,
+      0.05
+     ],
+     "facing": 270,
+     "expr": "sly"
+    }
+   ],
+   "w": 1.0,
+   "set": "town",
+   "fx": [],
+   "crowd": {
+    "center": [
+     0,
+     26,
+     0.05
+    ],
+    "n": 9,
+    "radius": 6,
+    "inner": 1.5,
+    "seed": 12,
+    "accessory": "helmet",
+    "palette": {
+     "shirt": [
+      0.85,
+      0.1,
+      0.12
+     ],
+     "pants": [
+      0.95,
+      0.95,
+      0.95
+     ],
+     "hat": [
+      0.95,
+      0.95,
+      0.98
+     ],
+     "stripe": [
+      0.95,
+      0.8,
+      0.1
+     ]
+    },
+    "actions": [
+     [
+      "walk",
+      0,
+      1
+     ]
+    ],
+    "facing": 270
+   },
+   "id": "s050",
+   "beat": 48,
+   "start": 96.0,
+   "frames": 35,
+   "cast": [
+    "lead"
+   ],
+   "props": [
+    {
+     "kind": "police_car",
+     "at": [
+      5,
+      -33,
+      0
+     ],
+     "rot": 0,
+     "name": "plumcar"
+    },
+    {
+     "kind": "barrier",
+     "at": [
+      -2,
+      -34,
+      0
+     ]
+    },
+    {
+     "kind": "barrier",
+     "at": [
+      3,
+      -34,
+      0
+     ]
+    },
+    {
+     "kind": "sedan",
+     "at": [
+      8.5,
+      -50,
+      0
+     ],
+     "rot": 90,
+     "color": [
+      0.3,
+      0.6,
+      0.9
+     ],
+     "name": "parked1"
+    },
+    {
+     "kind": "sedan",
+     "at": [
+      8.5,
+      10,
+      0
+     ],
+     "rot": 90,
+     "color": [
+      0.95,
+      0.8,
+      0.2
+     ],
+     "name": "parked2"
+    },
+    {
+     "kind": "sedan",
+     "at": [
+      -8.5,
+      26,
+      0
+     ],
+     "rot": -90,
+     "color": [
+      0.9,
+      0.3,
+      0.3
+     ],
+     "name": "parked3"
+    }
+   ],
+   "talk": {
+    "who": "lead",
+    "f0": 2,
+    "f1": 18
+   },
+   "start_frame": 2304
+  },
+  {
+   "camera": {
+    "subject": "pip",
+    "framing": "mcu",
+    "move": "push_in",
+    "angle": "eye",
+    "lens": 50,
+    "az": 10
+   },
+   "actions": [
+    {
+     "who": "pip",
+     "action": "talk",
+     "at": [
+      -13.5,
+      76,
+      0.12
+     ],
+     "facing": 200,
+     "expr": "fear"
+    }
+   ],
+   "w": 1.0,
+   "set": "town",
+   "fx": [],
+   "crowd": {
+    "center": [
+     -16.5,
+     80,
+     0.12
+    ],
+    "n": 4,
+    "radius": 2.5,
+    "inner": 1.0,
+    "seed": 4,
+    "actions": [
+     [
+      "hide",
+      0,
+      1
+     ]
+    ]
+   },
+   "carry": {
+    "pip": "phone"
+   },
+   "id": "s051",
+   "beat": 49,
+   "start": 97.458,
+   "frames": 48,
+   "cast": [
+    "pip"
+   ],
+   "props": [
+    {
+     "kind": "police_car",
+     "at": [
+      5,
+      -33,
+      0
+     ],
+     "rot": 0,
+     "name": "plumcar"
+    },
+    {
+     "kind": "barrier",
+     "at": [
+      -2,
+      -34,
+      0
+     ]
+    },
+    {
+     "kind": "barrier",
+     "at": [
+      3,
+      -34,
+      0
+     ]
+    },
+    {
+     "kind": "sedan",
+     "at": [
+      8.5,
+      -50,
+      0
+     ],
+     "rot": 90,
+     "color": [
+      0.3,
+      0.6,
+      0.9
+     ],
+     "name": "parked1"
+    },
+    {
+     "kind": "sedan",
+     "at": [
+      8.5,
+      10,
+      0
+     ],
+     "rot": 90,
+     "color": [
+      0.95,
+      0.8,
+      0.2
+     ],
+     "name": "parked2"
+    },
+    {
+     "kind": "sedan",
+     "at": [
+      -8.5,
+      26,
+      0
+     ],
+     "rot": -90,
+     "color": [
+      0.9,
+      0.3,
+      0.3
+     ],
+     "name": "parked3"
+    }
+   ],
+   "talk": {
+    "who": "pip",
+    "f0": 2,
+    "f1": 43
+   },
+   "start_frame": 2339
+  },
+  {
+   "camera": {
+    "subject": "benny",
+    "framing": "mws",
+    "move": "track",
+    "angle": "low",
+    "lens": 24,
+    "az": 0
+   },
+   "actions": [
+    {
+     "who": "benny",
+     "action": "run",
+     "path": [
+      [
+       0,
+       34,
+       0.05
+      ],
+      [
+       0,
+       48,
+       0.12
+      ]
+     ],
+     "expr": "determined"
+    }
+   ],
+   "w": 1.0,
+   "set": "town",
+   "fx": [],
+   "carry": {
+    "benny": "cake"
+   },
+   "set_args": {
+    "clock": [
+     [
+      1,
+      1
+     ]
+    ]
+   },
+   "id": "s052",
+   "beat": 50,
+   "start": 99.458,
+   "frames": 35,
+   "cast": [
+    "benny"
+   ],
+   "props": [
+    {
+     "kind": "police_car",
+     "at": [
+      5,
+      -33,
+      0
+     ],
+     "rot": 0,
+     "name": "plumcar"
+    },
+    {
+     "kind": "barrier",
+     "at": [
+      -2,
+      -34,
+      0
+     ]
+    },
+    {
+     "kind": "barrier",
+     "at": [
+      3,
+      -34,
+      0
+     ]
+    },
+    {
+     "kind": "sedan",
+     "at": [
+      8.5,
+      -50,
+      0
+     ],
+     "rot": 90,
+     "color": [
+      0.3,
+      0.6,
+      0.9
+     ],
+     "name": "parked1"
+    },
+    {
+     "kind": "sedan",
+     "at": [
+      8.5,
+      10,
+      0
+     ],
+     "rot": 90,
+     "color": [
+      0.95,
+      0.8,
+      0.2
+     ],
+     "name": "parked2"
+    },
+    {
+     "kind": "sedan",
+     "at": [
+      -8.5,
+      26,
+      0
+     ],
+     "rot": -90,
+     "color": [
+      0.9,
+      0.3,
+      0.3
+     ],
+     "name": "parked3"
+    }
+   ],
+   "talk": {
+    "who": "benny",
+    "f0": 2,
+    "f1": 15
+   },
+   "start_frame": 2387
+  },
+  {
+   "camera": {
+    "subject": "benny",
+    "framing": "ws",
+    "move": "pull_out",
+    "angle": "low",
+    "lens": 24,
+    "az": 0
+   },
+   "actions": [
+    {
+     "who": "benny",
+     "action": "run",
+     "path": [
+      [
+       0,
+       46,
+       0.12
+      ],
+      [
+       0,
+       57,
+       0.12
+      ]
+     ],
+     "facing": 180,
+     "expr": "determined"
+    }
+   ],
+   "w": 1.0,
+   "set": "town",
+   "fx": [],
+   "carry": {
+    "benny": "cake"
+   },
+   "set_args": {
+    "clock": [
+     [
+      1,
+      0
+     ]
+    ]
+   },
+   "crowd": {
+    "center": [
+     0,
+     48.5,
+     0.12
+    ],
+    "n": 10,
+    "radius": 6,
+    "inner": 3.8,
+    "seed": 9,
+    "face": [
+     0,
+     57,
+     0
+    ],
+    "actions": [
+     [
+      "hide",
+      0,
+      1
+     ]
+    ]
+   },
+   "id": "s053",
+   "beat": 51,
+   "start": 100.917,
+   "frames": 55,
+   "cast": [
+    "benny"
+   ],
+   "props": [
+    {
+     "kind": "police_car",
+     "at": [
+      5,
+      -33,
+      0
+     ],
+     "rot": 0,
+     "name": "plumcar"
+    },
+    {
+     "kind": "barrier",
+     "at": [
+      -2,
+      -34,
+      0
+     ]
+    },
+    {
+     "kind": "barrier",
+     "at": [
+      3,
+      -34,
+      0
+     ]
+    },
+    {
+     "kind": "sedan",
+     "at": [
+      8.5,
+      -50,
+      0
+     ],
+     "rot": 90,
+     "color": [
+      0.3,
+      0.6,
+      0.9
+     ],
+     "name": "parked1"
+    },
+    {
+     "kind": "sedan",
+     "at": [
+      8.5,
+      10,
+      0
+     ],
+     "rot": 90,
+     "color": [
+      0.95,
+      0.8,
+      0.2
+     ],
+     "name": "parked2"
+    },
+    {
+     "kind": "sedan",
+     "at": [
+      -8.5,
+      26,
+      0
+     ],
+     "rot": -90,
+     "color": [
+      0.9,
+      0.3,
+      0.3
+     ],
+     "name": "parked3"
+    }
+   ],
+   "start_frame": 2422
+  },
+  {
+   "camera": {
+    "subject": "benny",
+    "framing": "ews",
+    "move": "pull_out",
+    "angle": "high",
+    "lens": 24,
+    "az": 0,
+    "pos": [
+     12,
+     74,
+     14
+    ],
+    "pos2": [
+     16,
+     80,
+     22
+    ]
+   },
+   "actions": [
+    {
+     "who": "benny",
+     "action": "idle",
+     "at": [
+      0,
+      57,
+      0.12
+     ],
+     "facing": 180,
+     "expr": "shock"
+    }
+   ],
+   "w": 1.0,
+   "set": "town",
+   "fx": [],
+   "carry": {
+    "benny": "cake"
+   },
+   "set_args": {
+    "clock": [
+     [
+      1,
+      0
+     ]
+    ]
+   },
+   "crowd": {
+    "center": [
+     0,
+     48.5,
+     0.12
+    ],
+    "n": 10,
+    "radius": 6,
+    "inner": 3.8,
+    "seed": 9,
+    "face": [
+     0,
+     57,
+     0
+    ],
+    "actions": [
+     [
+      "hide",
+      0,
+      1
+     ]
+    ]
+   },
+   "id": "s054",
+   "beat": 52,
+   "start": 103.208,
+   "frames": 48,
+   "cast": [
+    "benny"
+   ],
+   "props": [
+    {
+     "kind": "police_car",
+     "at": [
+      5,
+      -33,
+      0
+     ],
+     "rot": 0,
+     "name": "plumcar"
+    },
+    {
+     "kind": "barrier",
+     "at": [
+      -2,
+      -34,
+      0
+     ]
+    },
+    {
+     "kind": "barrier",
+     "at": [
+      3,
+      -34,
+      0
+     ]
+    },
+    {
+     "kind": "sedan",
+     "at": [
+      8.5,
+      -50,
+      0
+     ],
+     "rot": 90,
+     "color": [
+      0.3,
+      0.6,
+      0.9
+     ],
+     "name": "parked1"
+    },
+    {
+     "kind": "sedan",
+     "at": [
+      8.5,
+      10,
+      0
+     ],
+     "rot": 90,
+     "color": [
+      0.95,
+      0.8,
+      0.2
+     ],
+     "name": "parked2"
+    },
+    {
+     "kind": "sedan",
+     "at": [
+      -8.5,
+      26,
+      0
+     ],
+     "rot": -90,
+     "color": [
+      0.9,
+      0.3,
+      0.3
+     ],
+     "name": "parked3"
+    }
+   ],
+   "start_frame": 2477
+  },
+  {
+   "camera": {
+    "subject": "benny",
+    "framing": "mcu",
+    "move": "push_in",
+    "angle": "eye",
+    "lens": 50,
+    "az": 0
+   },
+   "actions": [
+    {
+     "who": "benny",
+     "action": "idle",
+     "at": [
+      0,
+      57,
+      0.12
+     ],
+     "facing": 180,
+     "expr": "sad"
+    }
+   ],
+   "w": 1.0,
+   "set": "town",
+   "fx": [],
+   "carry": {
+    "benny": "cake"
+   },
+   "set_args": {
+    "clock": [
+     [
+      1,
+      0
+     ]
+    ]
+   },
+   "crowd": {
+    "center": [
+     0,
+     48.5,
+     0.12
+    ],
+    "n": 10,
+    "radius": 6,
+    "inner": 3.8,
+    "seed": 9,
+    "face": [
+     0,
+     57,
+     0
+    ],
+    "actions": [
+     [
+      "hide",
+      0,
+      1
+     ]
+    ]
+   },
+   "id": "s055",
+   "beat": 53,
+   "start": 105.208,
+   "frames": 63,
+   "cast": [
+    "benny"
+   ],
+   "props": [
+    {
+     "kind": "police_car",
+     "at": [
+      5,
+      -33,
+      0
+     ],
+     "rot": 0,
+     "name": "plumcar"
+    },
+    {
+     "kind": "barrier",
+     "at": [
+      -2,
+      -34,
+      0
+     ]
+    },
+    {
+     "kind": "barrier",
+     "at": [
+      3,
+      -34,
+      0
+     ]
+    },
+    {
+     "kind": "sedan",
+     "at": [
+      8.5,
+      -50,
+      0
+     ],
+     "rot": 90,
+     "color": [
+      0.3,
+      0.6,
+      0.9
+     ],
+     "name": "parked1"
+    },
+    {
+     "kind": "sedan",
+     "at": [
+      8.5,
+      10,
+      0
+     ],
+     "rot": 90,
+     "color": [
+      0.95,
+      0.8,
+      0.2
+     ],
+     "name": "parked2"
+    },
+    {
+     "kind": "sedan",
+     "at": [
+      -8.5,
+      26,
+      0
+     ],
+     "rot": -90,
+     "color": [
+      0.9,
+      0.3,
+      0.3
+     ],
+     "name": "parked3"
+    }
+   ],
+   "talk": {
+    "who": "benny",
+    "f0": 2,
+    "f1": 58
+   },
+   "start_frame": 2525
+  },
+  {
+   "camera": {
+    "subject": "benny",
+    "framing": "ms",
+    "move": "handheld",
+    "angle": "low",
+    "lens": 24,
+    "az": 30,
+    "shake": 0.4
+   },
+   "actions": [
+    {
+     "who": "benny",
+     "action": "panic",
+     "at": [
+      0,
+      57,
+      0.12
+     ],
+     "facing": 180,
+     "expr": "fear"
+    }
+   ],
+   "w": 1.0,
+   "set": "town",
+   "fx": [],
+   "carry": {
+    "benny": "cake"
+   },
+   "set_args": {
+    "clock": [
+     [
+      1,
+      0
+     ]
+    ]
+   },
+   "crowd": {
+    "center": [
+     0,
+     48.5,
+     0.12
+    ],
+    "n": 10,
+    "radius": 6,
+    "inner": 3.8,
+    "seed": 9,
+    "face": [
+     0,
+     57,
+     0
+    ],
+    "actions": [
+     [
+      "hide",
+      0,
+      1
+     ]
+    ]
+   },
+   "id": "s056",
+   "beat": 54,
+   "start": 107.833,
+   "frames": 88,
+   "cast": [
+    "benny"
+   ],
+   "props": [
+    {
+     "kind": "police_car",
+     "at": [
+      5,
+      -33,
+      0
+     ],
+     "rot": 0,
+     "name": "plumcar"
+    },
+    {
+     "kind": "barrier",
+     "at": [
+      -2,
+      -34,
+      0
+     ]
+    },
+    {
+     "kind": "barrier",
+     "at": [
+      3,
+      -34,
+      0
+     ]
+    },
+    {
+     "kind": "sedan",
+     "at": [
+      8.5,
+      -50,
+      0
+     ],
+     "rot": 90,
+     "color": [
+      0.3,
+      0.6,
+      0.9
+     ],
+     "name": "parked1"
+    },
+    {
+     "kind": "sedan",
+     "at": [
+      8.5,
+      10,
+      0
+     ],
+     "rot": 90,
+     "color": [
+      0.95,
+      0.8,
+      0.2
+     ],
+     "name": "parked2"
+    },
+    {
+     "kind": "sedan",
+     "at": [
+      -8.5,
+      26,
+      0
+     ],
+     "rot": -90,
+     "color": [
+      0.9,
+      0.3,
+      0.3
+     ],
+     "name": "parked3"
+    }
+   ],
+   "talk": {
+    "who": "benny",
+    "f0": 2,
+    "f1": 75
+   },
+   "start_frame": 2588
+  },
+  {
+   "camera": {
+    "subject": "benny",
+    "framing": "ms",
+    "move": "orbit_left",
+    "angle": "eye",
+    "lens": 35,
+    "az": -25
+   },
+   "actions": [
+    {
+     "who": "benny",
+     "action": "talk",
+     "at": [
+      0,
+      57,
+      0.12
+     ],
+     "facing": 180,
+     "expr": "fear"
+    }
+   ],
+   "w": 1.0,
+   "set": "town",
+   "fx": [],
+   "carry": {
+    "benny": "cake"
+   },
+   "set_args": {
+    "clock": [
+     [
+      1,
+      0
+     ]
+    ]
+   },
+   "crowd": {
+    "center": [
+     0,
+     48.5,
+     0.12
+    ],
+    "n": 10,
+    "radius": 6,
+    "inner": 3.8,
+    "seed": 9,
+    "face": [
+     0,
+     57,
+     0
+    ],
+    "actions": [
+     [
+      "hide",
+      0,
+      1
+     ]
+    ]
+   },
+   "id": "s057",
+   "beat": 55,
+   "start": 111.5,
+   "frames": 64,
+   "cast": [
+    "benny"
+   ],
+   "props": [
+    {
+     "kind": "police_car",
+     "at": [
+      5,
+      -33,
+      0
+     ],
+     "rot": 0,
+     "name": "plumcar"
+    },
+    {
+     "kind": "barrier",
+     "at": [
+      -2,
+      -34,
+      0
+     ]
+    },
+    {
+     "kind": "barrier",
+     "at": [
+      3,
+      -34,
+      0
+     ]
+    },
+    {
+     "kind": "sedan",
+     "at": [
+      8.5,
+      -50,
+      0
+     ],
+     "rot": 90,
+     "color": [
+      0.3,
+      0.6,
+      0.9
+     ],
+     "name": "parked1"
+    },
+    {
+     "kind": "sedan",
+     "at": [
+      8.5,
+      10,
+      0
+     ],
+     "rot": 90,
+     "color": [
+      0.95,
+      0.8,
+      0.2
+     ],
+     "name": "parked2"
+    },
+    {
+     "kind": "sedan",
+     "at": [
+      -8.5,
+      26,
+      0
+     ],
+     "rot": -90,
+     "color": [
+      0.9,
+      0.3,
+      0.3
+     ],
+     "name": "parked3"
+    }
+   ],
+   "talk": {
+    "who": "benny",
+    "f0": 2,
+    "f1": 59
+   },
+   "start_frame": 2676
+  },
+  {
+   "camera": {
+    "subject": "benny",
+    "framing": "mcu",
+    "move": "push_in",
+    "angle": "eye",
+    "lens": 35,
+    "az": 0
+   },
+   "actions": [
+    {
+     "who": "benny",
+     "action": "idle",
+     "at": [
+      0,
+      57,
+      0.12
+     ],
+     "facing": 180,
+     "expr": "fear"
+    },
+    {
+     "who": "pip",
+     "action": "hide",
+     "at": [
+      -2.6,
+      51.5,
+      0.12
+     ],
+     "facing": 180
+    }
+   ],
+   "w": 1.0,
+   "set": "town",
+   "fx": [],
+   "carry": {
+    "benny": "cake"
+   },
+   "set_args": {
+    "clock": [
+     [
+      1,
+      0
+     ]
+    ]
+   },
+   "crowd": {
+    "center": [
+     0,
+     48.5,
+     0.12
+    ],
+    "n": 10,
+    "radius": 6,
+    "inner": 3.8,
+    "seed": 9,
+    "face": [
+     0,
+     57,
+     0
+    ],
+    "actions": [
+     [
+      "hide",
+      0,
+      1
+     ]
+    ]
+   },
+   "id": "s058",
+   "beat": 56,
+   "start": 114.167,
+   "frames": 43,
+   "cast": [
+    "benny",
+    "pip"
+   ],
+   "props": [
+    {
+     "kind": "police_car",
+     "at": [
+      5,
+      -33,
+      0
+     ],
+     "rot": 0,
+     "name": "plumcar"
+    },
+    {
+     "kind": "barrier",
+     "at": [
+      -2,
+      -34,
+      0
+     ]
+    },
+    {
+     "kind": "barrier",
+     "at": [
+      3,
+      -34,
+      0
+     ]
+    },
+    {
+     "kind": "sedan",
+     "at": [
+      8.5,
+      -50,
+      0
+     ],
+     "rot": 90,
+     "color": [
+      0.3,
+      0.6,
+      0.9
+     ],
+     "name": "parked1"
+    },
+    {
+     "kind": "sedan",
+     "at": [
+      8.5,
+      10,
+      0
+     ],
+     "rot": 90,
+     "color": [
+      0.95,
+      0.8,
+      0.2
+     ],
+     "name": "parked2"
+    },
+    {
+     "kind": "sedan",
+     "at": [
+      -8.5,
+      26,
+      0
+     ],
+     "rot": -90,
+     "color": [
+      0.9,
+      0.3,
+      0.3
+     ],
+     "name": "parked3"
+    }
+   ],
+   "talk": {
+    "who": "pip",
+    "f0": 2,
+    "f1": 39
+   },
+   "start_frame": 2740
+  },
+  {
+   "camera": {
+    "subject": "benny",
+    "framing": "ms",
+    "move": "ots",
+    "angle": "eye",
+    "lens": 24,
+    "az": 180,
+    "subject2": [
+     0,
+     50,
+     1.6
+    ]
+   },
+   "actions": [
+    {
+     "who": "benny",
+     "action": "turn",
+     "at": [
+      0,
+      57,
+      0.12
+     ],
+     "facing": 180,
+     "to": 360,
+     "expr": "shock"
+    },
+    {
+     "who": "mayor",
+     "action": "cheer",
+     "at": [
+      0,
+      50.5,
+      0.12
+     ],
+     "facing": 180
+    },
+    {
+     "who": "pip",
+     "action": "cheer",
+     "at": [
+      -2.6,
+      51.5,
+      0.12
+     ],
+     "facing": 180
+    },
+    {
+     "who": "dough",
+     "action": "cheer",
+     "at": [
+      2.8,
+      51.2,
+      0.12
+     ],
+     "facing": 180
+    },
+    {
+     "who": "plum",
+     "action": "cheer",
+     "at": [
+      5.2,
+      52,
+      0.12
+     ],
+     "facing": 180
+    },
+    {
+     "who": "grandma",
+     "action": "cheer",
+     "at": [
+      -5.2,
+      52.2,
+      0.12
+     ],
+     "facing": 180
+    },
+    {
+     "who": "fig",
+     "action": "cheer",
+     "at": [
+      7.6,
+      50.8,
+      0.12
+     ],
+     "facing": 180
+    }
+   ],
+   "w": 1.0,
+   "set": "town",
+   "fx": [],
+   "carry": {
+    "benny": "cake"
+   },
+   "crowd": {
+    "center": [
+     0,
+     48.5,
+     0.12
+    ],
+    "n": 10,
+    "radius": 6,
+    "inner": 3.8,
+    "seed": 9,
+    "face": [
+     0,
+     57,
+     0
+    ],
+    "actions": [
+     [
+      "hide",
+      0,
+      0.15
+     ],
+     [
+      "cheer",
+      0.16999999999999998,
+      1
+     ]
+    ]
+   },
+   "id": "s059",
+   "beat": 57,
+   "start": 115.958,
+   "frames": 35,
+   "cast": [
+    "benny",
+    "dough",
+    "fig",
+    "grandma",
+    "mayor",
+    "pip",
+    "plum"
+   ],
+   "props": [
+    {
+     "kind": "police_car",
+     "at": [
+      5,
+      -33,
+      0
+     ],
+     "rot": 0,
+     "name": "plumcar"
+    },
+    {
+     "kind": "barrier",
+     "at": [
+      -2,
+      -34,
+      0
+     ]
+    },
+    {
+     "kind": "barrier",
+     "at": [
+      3,
+      -34,
+      0
+     ]
+    },
+    {
+     "kind": "sedan",
+     "at": [
+      8.5,
+      -50,
+      0
+     ],
+     "rot": 90,
+     "color": [
+      0.3,
+      0.6,
+      0.9
+     ],
+     "name": "parked1"
+    },
+    {
+     "kind": "sedan",
+     "at": [
+      8.5,
+      10,
+      0
+     ],
+     "rot": 90,
+     "color": [
+      0.95,
+      0.8,
+      0.2
+     ],
+     "name": "parked2"
+    },
+    {
+     "kind": "sedan",
+     "at": [
+      -8.5,
+      26,
+      0
+     ],
+     "rot": -90,
+     "color": [
+      0.9,
+      0.3,
+      0.3
+     ],
+     "name": "parked3"
+    }
+   ],
+   "start_frame": 2783
+  },
+  {
+   "camera": {
+    "subject": "mayor",
+    "framing": "mcu",
+    "move": "push_in",
+    "angle": "low",
+    "lens": 35,
+    "az": 0
+   },
+   "actions": [
+    {
+     "who": "mayor",
+     "action": "cheer",
+     "at": [
+      0,
+      50.5,
+      0.12
+     ],
+     "facing": 180
+    },
+    {
+     "who": "pip",
+     "action": "cheer",
+     "at": [
+      -2.6,
+      51.5,
+      0.12
+     ],
+     "facing": 180
+    },
+    {
+     "who": "dough",
+     "action": "cheer",
+     "at": [
+      2.8,
+      51.2,
+      0.12
+     ],
+     "facing": 180
+    },
+    {
+     "who": "plum",
+     "action": "cheer",
+     "at": [
+      5.2,
+      52,
+      0.12
+     ],
+     "facing": 180
+    },
+    {
+     "who": "grandma",
+     "action": "cheer",
+     "at": [
+      -5.2,
+      52.2,
+      0.12
+     ],
+     "facing": 180
+    },
+    {
+     "who": "fig",
+     "action": "cheer",
+     "at": [
+      7.6,
+      50.8,
+      0.12
+     ],
+     "facing": 180
+    }
+   ],
+   "w": 1.0,
+   "set": "town",
+   "fx": [],
+   "crowd": {
+    "center": [
+     0,
+     48.5,
+     0.12
+    ],
+    "n": 10,
+    "radius": 6,
+    "inner": 3.8,
+    "seed": 9,
+    "face": [
+     0,
+     57,
+     0
+    ],
+    "actions": [
+     [
+      "cheer",
+      0,
+      1
+     ]
+    ]
+   },
+   "id": "s060",
+   "beat": 58,
+   "start": 117.417,
+   "frames": 40,
+   "cast": [
+    "dough",
+    "fig",
+    "grandma",
+    "mayor",
+    "pip",
+    "plum"
+   ],
+   "props": [
+    {
+     "kind": "police_car",
+     "at": [
+      5,
+      -33,
+      0
+     ],
+     "rot": 0,
+     "name": "plumcar"
+    },
+    {
+     "kind": "barrier",
+     "at": [
+      -2,
+      -34,
+      0
+     ]
+    },
+    {
+     "kind": "barrier",
+     "at": [
+      3,
+      -34,
+      0
+     ]
+    },
+    {
+     "kind": "sedan",
+     "at": [
+      8.5,
+      -50,
+      0
+     ],
+     "rot": 90,
+     "color": [
+      0.3,
+      0.6,
+      0.9
+     ],
+     "name": "parked1"
+    },
+    {
+     "kind": "sedan",
+     "at": [
+      8.5,
+      10,
+      0
+     ],
+     "rot": 90,
+     "color": [
+      0.95,
+      0.8,
+      0.2
+     ],
+     "name": "parked2"
+    },
+    {
+     "kind": "sedan",
+     "at": [
+      -8.5,
+      26,
+      0
+     ],
+     "rot": -90,
+     "color": [
+      0.9,
+      0.3,
+      0.3
+     ],
+     "name": "parked3"
+    }
+   ],
+   "talk": {
+    "who": "mayor",
+    "f0": 2,
+    "f1": 36
+   },
+   "start_frame": 2818
+  },
+  {
+   "camera": {
+    "subject": "benny",
+    "framing": "cu",
+    "move": "push_in",
+    "angle": "eye",
+    "lens": 50,
+    "az": 0
+   },
+   "actions": [
+    {
+     "who": "benny",
+     "action": "idle",
+     "at": [
+      0,
+      57,
+      0.12
+     ],
+     "facing": 0,
+     "expr": "shock"
+    }
+   ],
+   "w": 1.0,
+   "set": "town",
+   "fx": [],
+   "carry": {
+    "benny": "cake"
+   },
+   "id": "s061",
+   "beat": 59,
+   "start": 119.083,
+   "frames": 35,
+   "cast": [
+    "benny"
+   ],
+   "props": [
+    {
+     "kind": "police_car",
+     "at": [
+      5,
+      -33,
+      0
+     ],
+     "rot": 0,
+     "name": "plumcar"
+    },
+    {
+     "kind": "barrier",
+     "at": [
+      -2,
+      -34,
+      0
+     ]
+    },
+    {
+     "kind": "barrier",
+     "at": [
+      3,
+      -34,
+      0
+     ]
+    },
+    {
+     "kind": "sedan",
+     "at": [
+      8.5,
+      -50,
+      0
+     ],
+     "rot": 90,
+     "color": [
+      0.3,
+      0.6,
+      0.9
+     ],
+     "name": "parked1"
+    },
+    {
+     "kind": "sedan",
+     "at": [
+      8.5,
+      10,
+      0
+     ],
+     "rot": 90,
+     "color": [
+      0.95,
+      0.8,
+      0.2
+     ],
+     "name": "parked2"
+    },
+    {
+     "kind": "sedan",
+     "at": [
+      -8.5,
+      26,
+      0
+     ],
+     "rot": -90,
+     "color": [
+      0.9,
+      0.3,
+      0.3
+     ],
+     "name": "parked3"
+    }
+   ],
+   "talk": {
+    "who": "benny",
+    "f0": 2,
+    "f1": 18
+   },
+   "start_frame": 2858
+  },
+  {
+   "camera": {
+    "subject": "pip",
+    "framing": "mcu",
+    "move": "push_in",
+    "angle": "eye",
+    "lens": 50,
+    "az": 10
+   },
+   "actions": [
+    {
+     "who": "pip",
+     "action": "idle",
+     "at": [
+      -2.6,
+      51.5,
+      0.12
+     ],
+     "facing": 170,
+     "expr": "happy"
+    }
+   ],
+   "w": 1.0,
+   "set": "town",
+   "fx": [],
+   "crowd": {
+    "center": [
+     0,
+     48.5,
+     0.12
+    ],
+    "n": 10,
+    "radius": 6,
+    "inner": 3.8,
+    "seed": 9,
+    "face": [
+     0,
+     57,
+     0
+    ],
+    "actions": [
+     [
+      "cheer",
+      0,
+      1
+     ]
+    ]
+   },
+   "id": "s062",
+   "beat": 60,
+   "start": 120.542,
+   "frames": 35,
+   "cast": [
+    "pip"
+   ],
+   "props": [
+    {
+     "kind": "police_car",
+     "at": [
+      5,
+      -33,
+      0
+     ],
+     "rot": 0,
+     "name": "plumcar"
+    },
+    {
+     "kind": "barrier",
+     "at": [
+      -2,
+      -34,
+      0
+     ]
+    },
+    {
+     "kind": "barrier",
+     "at": [
+      3,
+      -34,
+      0
+     ]
+    },
+    {
+     "kind": "sedan",
+     "at": [
+      8.5,
+      -50,
+      0
+     ],
+     "rot": 90,
+     "color": [
+      0.3,
+      0.6,
+      0.9
+     ],
+     "name": "parked1"
+    },
+    {
+     "kind": "sedan",
+     "at": [
+      8.5,
+      10,
+      0
+     ],
+     "rot": 90,
+     "color": [
+      0.95,
+      0.8,
+      0.2
+     ],
+     "name": "parked2"
+    },
+    {
+     "kind": "sedan",
+     "at": [
+      -8.5,
+      26,
+      0
+     ],
+     "rot": -90,
+     "color": [
+      0.9,
+      0.3,
+      0.3
+     ],
+     "name": "parked3"
+    }
+   ],
+   "talk": {
+    "who": "pip",
+    "f0": 2,
+    "f1": 25
+   },
+   "start_frame": 2893
+  },
+  {
+   "camera": {
+    "subject": "grandma",
+    "framing": "mcu",
+    "move": "push_in",
+    "angle": "low",
+    "lens": 50,
+    "az": -25
+   },
+   "actions": [
+    {
+     "who": "grandma",
+     "action": "idle",
+     "at": [
+      -5.2,
+      52.2,
+      0.12
+     ],
+     "facing": 160,
+     "expr": "sly"
+    }
+   ],
+   "w": 1.0,
+   "set": "town",
+   "fx": [],
+   "crowd": {
+    "center": [
+     0,
+     48.5,
+     0.12
+    ],
+    "n": 10,
+    "radius": 6,
+    "inner": 3.8,
+    "seed": 9,
+    "face": [
+     0,
+     57,
+     0
+    ],
+    "actions": [
+     [
+      "cheer",
+      0,
+      1
+     ]
+    ]
+   },
+   "id": "s063",
+   "beat": 61,
+   "start": 122.0,
+   "frames": 40,
+   "cast": [
+    "grandma"
+   ],
+   "props": [
+    {
+     "kind": "police_car",
+     "at": [
+      5,
+      -33,
+      0
+     ],
+     "rot": 0,
+     "name": "plumcar"
+    },
+    {
+     "kind": "barrier",
+     "at": [
+      -2,
+      -34,
+      0
+     ]
+    },
+    {
+     "kind": "barrier",
+     "at": [
+      3,
+      -34,
+      0
+     ]
+    },
+    {
+     "kind": "sedan",
+     "at": [
+      8.5,
+      -50,
+      0
+     ],
+     "rot": 90,
+     "color": [
+      0.3,
+      0.6,
+      0.9
+     ],
+     "name": "parked1"
+    },
+    {
+     "kind": "sedan",
+     "at": [
+      8.5,
+      10,
+      0
+     ],
+     "rot": 90,
+     "color": [
+      0.95,
+      0.8,
+      0.2
+     ],
+     "name": "parked2"
+    },
+    {
+     "kind": "sedan",
+     "at": [
+      -8.5,
+      26,
+      0
+     ],
+     "rot": -90,
+     "color": [
+      0.9,
+      0.3,
+      0.3
+     ],
+     "name": "parked3"
+    }
+   ],
+   "start_frame": 2928
+  },
+  {
+   "camera": {
+    "subject": "fig",
+    "framing": "mcu",
+    "move": "push_in",
+    "angle": "low",
+    "lens": 50,
+    "az": 30
+   },
+   "actions": [
+    {
+     "who": "fig",
+     "action": "idle",
+     "at": [
+      7.6,
+      50.8,
+      0.12
+     ],
+     "facing": 210,
+     "expr": "sly"
+    }
+   ],
+   "w": 1.0,
+   "set": "town",
+   "fx": [],
+   "crowd": {
+    "center": [
+     0,
+     48.5,
+     0.12
+    ],
+    "n": 10,
+    "radius": 6,
+    "inner": 3.8,
+    "seed": 9,
+    "face": [
+     0,
+     57,
+     0
+    ],
+    "actions": [
+     [
+      "cheer",
+      0,
+      1
+     ]
+    ]
+   },
+   "id": "s064",
+   "beat": 61,
+   "start": 123.667,
+   "frames": 40,
+   "cast": [
+    "fig"
+   ],
+   "props": [
+    {
+     "kind": "police_car",
+     "at": [
+      5,
+      -33,
+      0
+     ],
+     "rot": 0,
+     "name": "plumcar"
+    },
+    {
+     "kind": "barrier",
+     "at": [
+      -2,
+      -34,
+      0
+     ]
+    },
+    {
+     "kind": "barrier",
+     "at": [
+      3,
+      -34,
+      0
+     ]
+    },
+    {
+     "kind": "sedan",
+     "at": [
+      8.5,
+      -50,
+      0
+     ],
+     "rot": 90,
+     "color": [
+      0.3,
+      0.6,
+      0.9
+     ],
+     "name": "parked1"
+    },
+    {
+     "kind": "sedan",
+     "at": [
+      8.5,
+      10,
+      0
+     ],
+     "rot": 90,
+     "color": [
+      0.95,
+      0.8,
+      0.2
+     ],
+     "name": "parked2"
+    },
+    {
+     "kind": "sedan",
+     "at": [
+      -8.5,
+      26,
+      0
+     ],
+     "rot": -90,
+     "color": [
+      0.9,
+      0.3,
+      0.3
+     ],
+     "name": "parked3"
+    }
+   ],
+   "start_frame": 2968
+  },
+  {
+   "camera": {
+    "subject": "benny",
+    "framing": "ws",
+    "move": "drone_orbit",
+    "angle": "high",
+    "lens": 24,
+    "az": 180
+   },
+   "actions": [
+    {
+     "who": "benny",
+     "action": "idle",
+     "at": [
+      0,
+      57,
+      0.12
+     ],
+     "facing": 0,
+     "expr": "shock"
+    },
+    {
+     "who": "mayor",
+     "action": "cheer",
+     "at": [
+      0,
+      50.5,
+      0.12
+     ],
+     "facing": 180
+    },
+    {
+     "who": "pip",
+     "action": "cheer",
+     "at": [
+      -2.6,
+      51.5,
+      0.12
+     ],
+     "facing": 180
+    },
+    {
+     "who": "dough",
+     "action": "cheer",
+     "at": [
+      2.8,
+      51.2,
+      0.12
+     ],
+     "facing": 180
+    },
+    {
+     "who": "plum",
+     "action": "cheer",
+     "at": [
+      5.2,
+      52,
+      0.12
+     ],
+     "facing": 180
+    },
+    {
+     "who": "grandma",
+     "action": "cheer",
+     "at": [
+      -5.2,
+      52.2,
+      0.12
+     ],
+     "facing": 180
+    },
+    {
+     "who": "fig",
+     "action": "cheer",
+     "at": [
+      7.6,
+      50.8,
+      0.12
+     ],
+     "facing": 180
+    }
+   ],
+   "w": 1.0,
+   "set": "town",
+   "fx": [],
+   "carry": {
+    "benny": "cake"
+   },
+   "crowd": {
+    "center": [
+     0,
+     48.5,
+     0.12
+    ],
+    "n": 10,
+    "radius": 6,
+    "inner": 3.8,
+    "seed": 9,
+    "face": [
+     0,
+     57,
+     0
+    ],
+    "actions": [
+     [
+      "cheer",
+      0,
+      1
+     ]
+    ]
+   },
+   "id": "s065",
+   "beat": 62,
+   "start": 125.333,
+   "frames": 68,
+   "cast": [
+    "benny",
+    "dough",
+    "fig",
+    "grandma",
+    "mayor",
+    "pip",
+    "plum"
+   ],
+   "props": [
+    {
+     "kind": "police_car",
+     "at": [
+      5,
+      -33,
+      0
+     ],
+     "rot": 0,
+     "name": "plumcar"
+    },
+    {
+     "kind": "barrier",
+     "at": [
+      -2,
+      -34,
+      0
+     ]
+    },
+    {
+     "kind": "barrier",
+     "at": [
+      3,
+      -34,
+      0
+     ]
+    },
+    {
+     "kind": "sedan",
+     "at": [
+      8.5,
+      -50,
+      0
+     ],
+     "rot": 90,
+     "color": [
+      0.3,
+      0.6,
+      0.9
+     ],
+     "name": "parked1"
+    },
+    {
+     "kind": "sedan",
+     "at": [
+      8.5,
+      10,
+      0
+     ],
+     "rot": 90,
+     "color": [
+      0.95,
+      0.8,
+      0.2
+     ],
+     "name": "parked2"
+    },
+    {
+     "kind": "sedan",
+     "at": [
+      -8.5,
+      26,
+      0
+     ],
+     "rot": -90,
+     "color": [
+      0.9,
+      0.3,
+      0.3
+     ],
+     "name": "parked3"
+    }
+   ],
+   "start_frame": 3008
+  },
+  {
+   "camera": {
+    "subject": "grandma",
+    "framing": "mcu",
+    "move": "push_in",
+    "angle": "low",
+    "lens": 50,
+    "az": -15
+   },
+   "actions": [
+    {
+     "who": "grandma",
+     "action": "talk",
+     "at": [
+      -5.2,
+      52.2,
+      0.12
+     ],
+     "facing": 160,
+     "expr": "happy"
+    }
+   ],
+   "w": 1.0,
+   "set": "town",
+   "fx": [],
+   "crowd": {
+    "center": [
+     0,
+     48.5,
+     0.12
+    ],
+    "n": 10,
+    "radius": 6,
+    "inner": 3.8,
+    "seed": 9,
+    "face": [
+     0,
+     57,
+     0
+    ],
+    "actions": [
+     [
+      "cheer",
+      0,
+      1
+     ]
+    ]
+   },
+   "id": "s066",
+   "beat": 63,
+   "start": 128.167,
+   "frames": 45,
+   "cast": [
+    "grandma"
+   ],
+   "props": [
+    {
+     "kind": "police_car",
+     "at": [
+      5,
+      -33,
+      0
+     ],
+     "rot": 0,
+     "name": "plumcar"
+    },
+    {
+     "kind": "barrier",
+     "at": [
+      -2,
+      -34,
+      0
+     ]
+    },
+    {
+     "kind": "barrier",
+     "at": [
+      3,
+      -34,
+      0
+     ]
+    },
+    {
+     "kind": "sedan",
+     "at": [
+      8.5,
+      -50,
+      0
+     ],
+     "rot": 90,
+     "color": [
+      0.3,
+      0.6,
+      0.9
+     ],
+     "name": "parked1"
+    },
+    {
+     "kind": "sedan",
+     "at": [
+      8.5,
+      10,
+      0
+     ],
+     "rot": 90,
+     "color": [
+      0.95,
+      0.8,
+      0.2
+     ],
+     "name": "parked2"
+    },
+    {
+     "kind": "sedan",
+     "at": [
+      -8.5,
+      26,
+      0
+     ],
+     "rot": -90,
+     "color": [
+      0.9,
+      0.3,
+      0.3
+     ],
+     "name": "parked3"
+    }
+   ],
+   "talk": {
+    "who": "grandma",
+    "f0": 2,
+    "f1": 40
+   },
+   "start_frame": 3076
+  },
+  {
+   "camera": {
+    "subject": "plum",
+    "framing": "cu",
+    "move": "static_drift",
+    "angle": "eye",
+    "lens": 50,
+    "az": 15
+   },
+   "actions": [
+    {
+     "who": "plum",
+     "action": "idle",
+     "at": [
+      5.2,
+      52,
+      0.12
+     ],
+     "facing": 200,
+     "expr": "sly"
+    }
+   ],
+   "w": 1.0,
+   "set": "town",
+   "fx": [],
+   "crowd": {
+    "center": [
+     0,
+     48.5,
+     0.12
+    ],
+    "n": 10,
+    "radius": 6,
+    "inner": 3.8,
+    "seed": 9,
+    "face": [
+     0,
+     57,
+     0
+    ],
+    "actions": [
+     [
+      "cheer",
+      0,
+      1
+     ]
+    ]
+   },
+   "id": "s067",
+   "beat": 64,
+   "start": 130.042,
+   "frames": 35,
+   "cast": [
+    "plum"
+   ],
+   "props": [
+    {
+     "kind": "police_car",
+     "at": [
+      5,
+      -33,
+      0
+     ],
+     "rot": 0,
+     "name": "plumcar"
+    },
+    {
+     "kind": "barrier",
+     "at": [
+      -2,
+      -34,
+      0
+     ]
+    },
+    {
+     "kind": "barrier",
+     "at": [
+      3,
+      -34,
+      0
+     ]
+    },
+    {
+     "kind": "sedan",
+     "at": [
+      8.5,
+      -50,
+      0
+     ],
+     "rot": 90,
+     "color": [
+      0.3,
+      0.6,
+      0.9
+     ],
+     "name": "parked1"
+    },
+    {
+     "kind": "sedan",
+     "at": [
+      8.5,
+      10,
+      0
+     ],
+     "rot": 90,
+     "color": [
+      0.95,
+      0.8,
+      0.2
+     ],
+     "name": "parked2"
+    },
+    {
+     "kind": "sedan",
+     "at": [
+      -8.5,
+      26,
+      0
+     ],
+     "rot": -90,
+     "color": [
+      0.9,
+      0.3,
+      0.3
+     ],
+     "name": "parked3"
+    }
+   ],
+   "talk": {
+    "who": "plum",
+    "f0": 2,
+    "f1": 16
+   },
+   "start_frame": 3121
+  },
+  {
+   "camera": {
+    "subject": "benny",
+    "framing": "mcu",
+    "move": "push_in",
+    "angle": "eye",
+    "lens": 50,
+    "az": -20
+   },
+   "actions": [
+    {
+     "who": "benny",
+     "action": "idle",
+     "at": [
+      0,
+      57,
+      0.12
+     ],
+     "facing": 0,
+     "expr": "sad"
+    }
+   ],
+   "w": 1.0,
+   "set": "town",
+   "fx": [],
+   "carry": {
+    "benny": "cake"
+   },
+   "id": "s068",
+   "beat": 65,
+   "start": 131.5,
+   "frames": 35,
+   "cast": [
+    "benny"
+   ],
+   "props": [
+    {
+     "kind": "police_car",
+     "at": [
+      5,
+      -33,
+      0
+     ],
+     "rot": 0,
+     "name": "plumcar"
+    },
+    {
+     "kind": "barrier",
+     "at": [
+      -2,
+      -34,
+      0
+     ]
+    },
+    {
+     "kind": "barrier",
+     "at": [
+      3,
+      -34,
+      0
+     ]
+    },
+    {
+     "kind": "sedan",
+     "at": [
+      8.5,
+      -50,
+      0
+     ],
+     "rot": 90,
+     "color": [
+      0.3,
+      0.6,
+      0.9
+     ],
+     "name": "parked1"
+    },
+    {
+     "kind": "sedan",
+     "at": [
+      8.5,
+      10,
+      0
+     ],
+     "rot": 90,
+     "color": [
+      0.95,
+      0.8,
+      0.2
+     ],
+     "name": "parked2"
+    },
+    {
+     "kind": "sedan",
+     "at": [
+      -8.5,
+      26,
+      0
+     ],
+     "rot": -90,
+     "color": [
+      0.9,
+      0.3,
+      0.3
+     ],
+     "name": "parked3"
+    }
+   ],
+   "talk": {
+    "who": "benny",
+    "f0": 2,
+    "f1": 15
+   },
+   "start_frame": 3156
+  },
+  {
+   "camera": {
+    "subject": "dough",
+    "framing": "mcu",
+    "move": "push_in",
+    "angle": "eye",
+    "lens": 50,
+    "az": 10
+   },
+   "actions": [
+    {
+     "who": "dough",
+     "action": "talk",
+     "at": [
+      2.8,
+      51.2,
+      0.12
+     ],
+     "facing": 190,
+     "expr": "happy"
+    }
+   ],
+   "w": 1.0,
+   "set": "town",
+   "fx": [],
+   "crowd": {
+    "center": [
+     0,
+     48.5,
+     0.12
+    ],
+    "n": 10,
+    "radius": 6,
+    "inner": 3.8,
+    "seed": 9,
+    "face": [
+     0,
+     57,
+     0
+    ],
+    "actions": [
+     [
+      "cheer",
+      0,
+      1
+     ]
+    ]
+   },
+   "id": "s069",
+   "beat": 66,
+   "start": 132.958,
+   "frames": 38,
+   "cast": [
+    "dough"
+   ],
+   "props": [
+    {
+     "kind": "police_car",
+     "at": [
+      5,
+      -33,
+      0
+     ],
+     "rot": 0,
+     "name": "plumcar"
+    },
+    {
+     "kind": "barrier",
+     "at": [
+      -2,
+      -34,
+      0
+     ]
+    },
+    {
+     "kind": "barrier",
+     "at": [
+      3,
+      -34,
+      0
+     ]
+    },
+    {
+     "kind": "sedan",
+     "at": [
+      8.5,
+      -50,
+      0
+     ],
+     "rot": 90,
+     "color": [
+      0.3,
+      0.6,
+      0.9
+     ],
+     "name": "parked1"
+    },
+    {
+     "kind": "sedan",
+     "at": [
+      8.5,
+      10,
+      0
+     ],
+     "rot": 90,
+     "color": [
+      0.95,
+      0.8,
+      0.2
+     ],
+     "name": "parked2"
+    },
+    {
+     "kind": "sedan",
+     "at": [
+      -8.5,
+      26,
+      0
+     ],
+     "rot": -90,
+     "color": [
+      0.9,
+      0.3,
+      0.3
+     ],
+     "name": "parked3"
+    }
+   ],
+   "talk": {
+    "who": "dough",
+    "f0": 2,
+    "f1": 33
+   },
+   "start_frame": 3191
+  },
+  {
+   "camera": {
+    "subject": "benny",
+    "framing": "ms",
+    "move": "orbit_right",
+    "angle": "low",
+    "lens": 24,
+    "az": 0
+   },
+   "actions": [
+    {
+     "who": "benny",
+     "action": "panic",
+     "at": [
+      0,
+      57,
+      0.12
+     ],
+     "facing": 0,
+     "expr": "shock"
+    }
+   ],
+   "w": 1.0,
+   "set": "town",
+   "fx": [],
+   "carry": {
+    "benny": "cake"
+   },
+   "id": "s070",
+   "beat": 67,
+   "start": 134.542,
+   "frames": 62,
+   "cast": [
+    "benny"
+   ],
+   "props": [
+    {
+     "kind": "police_car",
+     "at": [
+      5,
+      -33,
+      0
+     ],
+     "rot": 0,
+     "name": "plumcar"
+    },
+    {
+     "kind": "barrier",
+     "at": [
+      -2,
+      -34,
+      0
+     ]
+    },
+    {
+     "kind": "barrier",
+     "at": [
+      3,
+      -34,
+      0
+     ]
+    },
+    {
+     "kind": "sedan",
+     "at": [
+      8.5,
+      -50,
+      0
+     ],
+     "rot": 90,
+     "color": [
+      0.3,
+      0.6,
+      0.9
+     ],
+     "name": "parked1"
+    },
+    {
+     "kind": "sedan",
+     "at": [
+      8.5,
+      10,
+      0
+     ],
+     "rot": 90,
+     "color": [
+      0.95,
+      0.8,
+      0.2
+     ],
+     "name": "parked2"
+    },
+    {
+     "kind": "sedan",
+     "at": [
+      -8.5,
+      26,
+      0
+     ],
+     "rot": -90,
+     "color": [
+      0.9,
+      0.3,
+      0.3
+     ],
+     "name": "parked3"
+    }
+   ],
+   "talk": {
+    "who": "benny",
+    "f0": 2,
+    "f1": 57
+   },
+   "start_frame": 3229
+  },
+  {
+   "camera": {
+    "subject": "pip",
+    "framing": "cu",
+    "move": "static_drift",
+    "angle": "eye",
+    "lens": 50,
+    "az": 10
+   },
+   "actions": [
+    {
+     "who": "pip",
+     "action": "idle",
+     "at": [
+      -2.6,
+      51.5,
+      0.12
+     ],
+     "facing": 170,
+     "expr": "sly"
+    }
+   ],
+   "w": 1.0,
+   "set": "town",
+   "fx": [],
+   "crowd": {
+    "center": [
+     0,
+     48.5,
+     0.12
+    ],
+    "n": 10,
+    "radius": 6,
+    "inner": 3.8,
+    "seed": 9,
+    "face": [
+     0,
+     57,
+     0
+    ],
+    "actions": [
+     [
+      "cheer",
+      0,
+      1
+     ]
+    ]
+   },
+   "id": "s071",
+   "beat": 68,
+   "start": 137.125,
+   "frames": 36,
+   "cast": [
+    "pip"
+   ],
+   "props": [
+    {
+     "kind": "police_car",
+     "at": [
+      5,
+      -33,
+      0
+     ],
+     "rot": 0,
+     "name": "plumcar"
+    },
+    {
+     "kind": "barrier",
+     "at": [
+      -2,
+      -34,
+      0
+     ]
+    },
+    {
+     "kind": "barrier",
+     "at": [
+      3,
+      -34,
+      0
+     ]
+    },
+    {
+     "kind": "sedan",
+     "at": [
+      8.5,
+      -50,
+      0
+     ],
+     "rot": 90,
+     "color": [
+      0.3,
+      0.6,
+      0.9
+     ],
+     "name": "parked1"
+    },
+    {
+     "kind": "sedan",
+     "at": [
+      8.5,
+      10,
+      0
+     ],
+     "rot": 90,
+     "color": [
+      0.95,
+      0.8,
+      0.2
+     ],
+     "name": "parked2"
+    },
+    {
+     "kind": "sedan",
+     "at": [
+      -8.5,
+      26,
+      0
+     ],
+     "rot": -90,
+     "color": [
+      0.9,
+      0.3,
+      0.3
+     ],
+     "name": "parked3"
+    }
+   ],
+   "talk": {
+    "who": "pip",
+    "f0": 2,
+    "f1": 19
+   },
+   "start_frame": 3291
+  },
+  {
+   "camera": {
+    "subject": "benny",
+    "framing": "cu",
+    "move": "push_in",
+    "angle": "eye",
+    "lens": 50,
+    "az": -10
+   },
+   "actions": [
+    {
+     "who": "benny",
+     "action": "idle",
+     "at": [
+      0,
+      57,
+      0.12
+     ],
+     "facing": 0,
+     "expr": "happy"
+    }
+   ],
+   "w": 1.0,
+   "set": "town",
+   "fx": [],
+   "carry": {
+    "benny": "cake"
+   },
+   "id": "s072",
+   "beat": 69,
+   "start": 138.625,
+   "frames": 35,
+   "cast": [
+    "benny"
+   ],
+   "props": [
+    {
+     "kind": "police_car",
+     "at": [
+      5,
+      -33,
+      0
+     ],
+     "rot": 0,
+     "name": "plumcar"
+    },
+    {
+     "kind": "barrier",
+     "at": [
+      -2,
+      -34,
+      0
+     ]
+    },
+    {
+     "kind": "barrier",
+     "at": [
+      3,
+      -34,
+      0
+     ]
+    },
+    {
+     "kind": "sedan",
+     "at": [
+      8.5,
+      -50,
+      0
+     ],
+     "rot": 90,
+     "color": [
+      0.3,
+      0.6,
+      0.9
+     ],
+     "name": "parked1"
+    },
+    {
+     "kind": "sedan",
+     "at": [
+      8.5,
+      10,
+      0
+     ],
+     "rot": 90,
+     "color": [
+      0.95,
+      0.8,
+      0.2
+     ],
+     "name": "parked2"
+    },
+    {
+     "kind": "sedan",
+     "at": [
+      -8.5,
+      26,
+      0
+     ],
+     "rot": -90,
+     "color": [
+      0.9,
+      0.3,
+      0.3
+     ],
+     "name": "parked3"
+    }
+   ],
+   "talk": {
+    "who": "benny",
+    "f0": 2,
+    "f1": 15
+   },
+   "start_frame": 3327
+  },
+  {
+   "camera": {
+    "subject": "benny",
+    "framing": "ms",
+    "move": "push_in",
+    "angle": "low",
+    "lens": 35,
+    "az": 0,
+    "pos": [
+     6.5,
+     56.5,
+     1.0
+    ],
+    "pos2": [
+     5.5,
+     56,
+     1.0
+    ]
+   },
+   "actions": [
+    {
+     "who": "benny",
+     "action": "walk",
+     "path": [
+      [
+       0,
+       57,
+       0.12
+      ],
+      [
+       0,
+       55,
+       0.12
+      ]
+     ],
+     "facing": 0,
+     "expr": "happy"
+    }
+   ],
+   "w": 1.0,
+   "set": "town",
+   "fx": [],
+   "carry": {
+    "benny": "cake"
+   },
+   "crowd": {
+    "center": [
+     0,
+     48.5,
+     0.12
+    ],
+    "n": 10,
+    "radius": 6,
+    "inner": 3.8,
+    "seed": 9,
+    "face": [
+     0,
+     57,
+     0
+    ],
+    "actions": [
+     [
+      "cheer",
+      0,
+      1
+     ]
+    ]
+   },
+   "id": "s073",
+   "beat": 70,
+   "start": 140.083,
+   "frames": 45,
+   "cast": [
+    "benny"
+   ],
+   "props": [
+    {
+     "kind": "police_car",
+     "at": [
+      5,
+      -33,
+      0
+     ],
+     "rot": 0,
+     "name": "plumcar"
+    },
+    {
+     "kind": "barrier",
+     "at": [
+      -2,
+      -34,
+      0
+     ]
+    },
+    {
+     "kind": "barrier",
+     "at": [
+      3,
+      -34,
+      0
+     ]
+    },
+    {
+     "kind": "sedan",
+     "at": [
+      8.5,
+      -50,
+      0
+     ],
+     "rot": 90,
+     "color": [
+      0.3,
+      0.6,
+      0.9
+     ],
+     "name": "parked1"
+    },
+    {
+     "kind": "sedan",
+     "at": [
+      8.5,
+      10,
+      0
+     ],
+     "rot": 90,
+     "color": [
+      0.95,
+      0.8,
+      0.2
+     ],
+     "name": "parked2"
+    },
+    {
+     "kind": "sedan",
+     "at": [
+      -8.5,
+      26,
+      0
+     ],
+     "rot": -90,
+     "color": [
+      0.9,
+      0.3,
+      0.3
+     ],
+     "name": "parked3"
+    }
+   ],
+   "start_frame": 3362
+  },
+  {
+   "camera": {
+    "subject": "benny",
+    "framing": "ms",
+    "move": "push_in",
+    "angle": "low",
+    "lens": 35,
+    "az": 0,
+    "pos": [
+     5,
+     53,
+     1.1
+    ],
+    "pos2": [
+     4.5,
+     53.5,
+     1.0
+    ]
+   },
+   "actions": [
+    {
+     "who": "benny",
+     "action": "fall",
+     "at": [
+      0,
+      55,
+      0.12
+     ],
+     "facing": 0
+    }
+   ],
+   "w": 1.0,
+   "set": "town",
+   "fx": [],
+   "carry": {
+    "benny": "cake"
+   },
+   "splat": {
+    "who": "benny",
+    "f": 14
+   },
+   "crowd": {
+    "center": [
+     0,
+     48.5,
+     0.12
+    ],
+    "n": 10,
+    "radius": 6,
+    "inner": 3.8,
+    "seed": 9,
+    "face": [
+     0,
+     57,
+     0
+    ],
+    "actions": [
+     [
+      "cheer",
+      0,
+      0.3
+     ],
+     [
+      "gasp",
+      0.3,
+      1
+     ]
+    ]
+   },
+   "id": "s074",
+   "beat": 71,
+   "start": 141.958,
+   "frames": 36,
+   "cast": [
+    "benny"
+   ],
+   "props": [
+    {
+     "kind": "police_car",
+     "at": [
+      5,
+      -33,
+      0
+     ],
+     "rot": 0,
+     "name": "plumcar"
+    },
+    {
+     "kind": "barrier",
+     "at": [
+      -2,
+      -34,
+      0
+     ]
+    },
+    {
+     "kind": "barrier",
+     "at": [
+      3,
+      -34,
+      0
+     ]
+    },
+    {
+     "kind": "sedan",
+     "at": [
+      8.5,
+      -50,
+      0
+     ],
+     "rot": 90,
+     "color": [
+      0.3,
+      0.6,
+      0.9
+     ],
+     "name": "parked1"
+    },
+    {
+     "kind": "sedan",
+     "at": [
+      8.5,
+      10,
+      0
+     ],
+     "rot": 90,
+     "color": [
+      0.95,
+      0.8,
+      0.2
+     ],
+     "name": "parked2"
+    },
+    {
+     "kind": "sedan",
+     "at": [
+      -8.5,
+      26,
+      0
+     ],
+     "rot": -90,
+     "color": [
+      0.9,
+      0.3,
+      0.3
+     ],
+     "name": "parked3"
+    }
+   ],
+   "start_frame": 3407
+  },
+  {
+   "camera": {
+    "subject": "benny",
+    "framing": "cu",
+    "move": "push_in",
+    "angle": "eye",
+    "lens": 35,
+    "az": 0,
+    "pos": [
+     2.2,
+     52.6,
+     0.9
+    ],
+    "pos2": [
+     1.8,
+     52.9,
+     0.8
+    ]
+   },
+   "actions": [
+    {
+     "who": "benny",
+     "action": "fall",
+     "at": [
+      0,
+      55,
+      0.12
+     ],
+     "facing": 0,
+     "f0": 1,
+     "f1": 2
+    }
+   ],
+   "w": 1.0,
+   "set": "town",
+   "fx": [],
+   "carry": {
+    "benny": "cake"
+   },
+   "splat": {
+    "who": "benny",
+    "f": 1
+   },
+   "id": "s075",
+   "beat": 72,
+   "start": 143.458,
+   "frames": 44,
+   "cast": [
+    "benny"
+   ],
+   "props": [
+    {
+     "kind": "police_car",
+     "at": [
+      5,
+      -33,
+      0
+     ],
+     "rot": 0,
+     "name": "plumcar"
+    },
+    {
+     "kind": "barrier",
+     "at": [
+      -2,
+      -34,
+      0
+     ]
+    },
+    {
+     "kind": "barrier",
+     "at": [
+      3,
+      -34,
+      0
+     ]
+    },
+    {
+     "kind": "sedan",
+     "at": [
+      8.5,
+      -50,
+      0
+     ],
+     "rot": 90,
+     "color": [
+      0.3,
+      0.6,
+      0.9
+     ],
+     "name": "parked1"
+    },
+    {
+     "kind": "sedan",
+     "at": [
+      8.5,
+      10,
+      0
+     ],
+     "rot": 90,
+     "color": [
+      0.95,
+      0.8,
+      0.2
+     ],
+     "name": "parked2"
+    },
+    {
+     "kind": "sedan",
+     "at": [
+      -8.5,
+      26,
+      0
+     ],
+     "rot": -90,
+     "color": [
+      0.9,
+      0.3,
+      0.3
+     ],
+     "name": "parked3"
+    }
+   ],
+   "start_frame": 3443
+  },
+  {
+   "camera": {
+    "subject": "benny",
+    "framing": "ws",
+    "move": "crane_up",
+    "angle": "low",
+    "lens": 24,
+    "az": 0,
+    "pos": [
+     9,
+     58,
+     1.5
+    ],
+    "pos2": [
+     11,
+     60,
+     8
+    ]
+   },
+   "actions": [
+    {
+     "who": "benny",
+     "action": "cheer",
+     "at": [
+      0,
+      55,
+      0.12
+     ],
+     "facing": 0
+    },
+    {
+     "who": "mayor",
+     "action": "cheer",
+     "at": [
+      0,
+      50.5,
+      0.12
+     ],
+     "facing": 180
+    },
+    {
+     "who": "pip",
+     "action": "cheer",
+     "at": [
+      -2.6,
+      51.5,
+      0.12
+     ],
+     "facing": 180
+    },
+    {
+     "who": "dough",
+     "action": "cheer",
+     "at": [
+      2.8,
+      51.2,
+      0.12
+     ],
+     "facing": 180
+    },
+    {
+     "who": "plum",
+     "action": "cheer",
+     "at": [
+      5.2,
+      52,
+      0.12
+     ],
+     "facing": 180
+    },
+    {
+     "who": "grandma",
+     "action": "cheer",
+     "at": [
+      -5.2,
+      52.2,
+      0.12
+     ],
+     "facing": 180
+    },
+    {
+     "who": "fig",
+     "action": "cheer",
+     "at": [
+      7.6,
+      50.8,
+      0.12
+     ],
+     "facing": 180
+    }
+   ],
+   "w": 1.0,
+   "set": "town",
+   "fx": [],
+   "carry": {
+    "benny": "cake"
+   },
+   "splat": {
+    "who": "benny",
+    "f": 1
+   },
+   "crowd": {
+    "center": [
+     0,
+     48.5,
+     0.12
+    ],
+    "n": 12,
+    "radius": 6,
+    "inner": 3.8,
+    "seed": 9,
+    "face": [
+     0,
+     57,
+     0
+    ],
+    "actions": [
+     [
+      "cheer",
+      0,
+      1
+     ]
+    ]
+   },
+   "id": "s076",
+   "beat": 73,
+   "start": 145.292,
+   "frames": 35,
+   "cast": [
+    "benny",
+    "dough",
+    "fig",
+    "grandma",
+    "mayor",
+    "pip",
+    "plum"
+   ],
+   "props": [
+    {
+     "kind": "police_car",
+     "at": [
+      5,
+      -33,
+      0
+     ],
+     "rot": 0,
+     "name": "plumcar"
+    },
+    {
+     "kind": "barrier",
+     "at": [
+      -2,
+      -34,
+      0
+     ]
+    },
+    {
+     "kind": "barrier",
+     "at": [
+      3,
+      -34,
+      0
+     ]
+    },
+    {
+     "kind": "sedan",
+     "at": [
+      8.5,
+      -50,
+      0
+     ],
+     "rot": 90,
+     "color": [
+      0.3,
+      0.6,
+      0.9
+     ],
+     "name": "parked1"
+    },
+    {
+     "kind": "sedan",
+     "at": [
+      8.5,
+      10,
+      0
+     ],
+     "rot": 90,
+     "color": [
+      0.95,
+      0.8,
+      0.2
+     ],
+     "name": "parked2"
+    },
+    {
+     "kind": "sedan",
+     "at": [
+      -8.5,
+      26,
+      0
+     ],
+     "rot": -90,
+     "color": [
+      0.9,
+      0.3,
+      0.3
+     ],
+     "name": "parked3"
+    }
+   ],
+   "talk": {
+    "who": "benny",
+    "f0": 2,
+    "f1": 18
+   },
+   "start_frame": 3487
+  },
+  {
+   "camera": {
+    "subject": "mark:tower",
+    "framing": "ews",
+    "move": "crane_up",
+    "angle": "high",
+    "lens": 24,
+    "az": 0,
+    "pos": [
+     8,
+     38,
+     6
+    ],
+    "pos2": [
+     16,
+     28,
+     34
+    ]
+   },
+   "actions": [
+    {
+     "who": "benny",
+     "action": "cheer",
+     "at": [
+      0,
+      55,
+      0.12
+     ],
+     "facing": 0
+    },
+    {
+     "who": "mayor",
+     "action": "cheer",
+     "at": [
+      0,
+      50.5,
+      0.12
+     ],
+     "facing": 180
+    },
+    {
+     "who": "pip",
+     "action": "cheer",
+     "at": [
+      -2.6,
+      51.5,
+      0.12
+     ],
+     "facing": 180
+    },
+    {
+     "who": "dough",
+     "action": "cheer",
+     "at": [
+      2.8,
+      51.2,
+      0.12
+     ],
+     "facing": 180
+    },
+    {
+     "who": "plum",
+     "action": "cheer",
+     "at": [
+      5.2,
+      52,
+      0.12
+     ],
+     "facing": 180
+    },
+    {
+     "who": "grandma",
+     "action": "cheer",
+     "at": [
+      -5.2,
+      52.2,
+      0.12
+     ],
+     "facing": 180
+    },
+    {
+     "who": "fig",
+     "action": "cheer",
+     "at": [
+      7.6,
+      50.8,
+      0.12
+     ],
+     "facing": 180
+    }
+   ],
+   "w": 1.0,
+   "set": "town",
+   "fx": [],
+   "carry": {
+    "benny": "cake"
+   },
+   "set_args": {
+    "clock": [
+     [
+      1,
+      0
+     ]
+    ]
+   },
+   "splat": {
+    "who": "benny",
+    "f": 1
+   },
+   "crowd": {
+    "center": [
+     0,
+     48.5,
+     0.12
+    ],
+    "n": 12,
+    "radius": 6,
+    "inner": 3.8,
+    "seed": 9,
+    "face": [
+     0,
+     57,
+     0
+    ],
+    "actions": [
+     [
+      "cheer",
+      0,
+      1
+     ]
+    ]
+   },
+   "id": "s077",
+   "beat": 74,
+   "start": 146.75,
+   "frames": 77,
+   "cast": [
+    "benny",
+    "dough",
+    "fig",
+    "grandma",
+    "mayor",
+    "pip",
+    "plum"
+   ],
+   "props": [
+    {
+     "kind": "police_car",
+     "at": [
+      5,
+      -33,
+      0
+     ],
+     "rot": 0,
+     "name": "plumcar"
+    },
+    {
+     "kind": "barrier",
+     "at": [
+      -2,
+      -34,
+      0
+     ]
+    },
+    {
+     "kind": "barrier",
+     "at": [
+      3,
+      -34,
+      0
+     ]
+    },
+    {
+     "kind": "sedan",
+     "at": [
+      8.5,
+      -50,
+      0
+     ],
+     "rot": 90,
+     "color": [
+      0.3,
+      0.6,
+      0.9
+     ],
+     "name": "parked1"
+    },
+    {
+     "kind": "sedan",
+     "at": [
+      8.5,
+      10,
+      0
+     ],
+     "rot": 90,
+     "color": [
+      0.95,
+      0.8,
+      0.2
+     ],
+     "name": "parked2"
+    },
+    {
+     "kind": "sedan",
+     "at": [
+      -8.5,
+      26,
+      0
+     ],
+     "rot": -90,
+     "color": [
+      0.9,
+      0.3,
+      0.3
+     ],
+     "name": "parked3"
+    }
+   ],
+   "start_frame": 3522
+  }
+ ],
+ "lines": [
+  {
+   "beat": 0,
+   "speaker": "narrator",
+   "text": "In Brickton, the mayor's birthday cake has one rule.",
+   "start": 0.08,
+   "dur": 2.541
+  },
+  {
+   "beat": 1,
+   "speaker": "narrator",
+   "text": "It never. Touches. The ground.",
+   "start": 2.872,
+   "dur": 1.561
+  },
+  {
+   "beat": 2,
+   "speaker": "narrator",
+   "text": "Three hundred years. Not one crumb on the floor.",
+   "start": 5.038,
+   "dur": 2.285
+  },
+  {
+   "beat": 3,
+   "speaker": "benny",
+   "text": "Which is fine. Because I'm a professional.",
+   "start": 7.58,
+   "dur": 1.76
+  },
+  {
+   "beat": 4,
+   "speaker": "narrator",
+   "text": "Benny was twelve. He was not a professional.",
+   "start": 9.58,
+   "dur": 2.043
+  },
+  {
+   "beat": 5,
+   "speaker": "dough",
+   "text": "Town square. Noon sharp. And Benny?",
+   "start": 11.872,
+   "dur": 2.801
+  },
+  {
+   "beat": 6,
+   "speaker": "dough",
+   "text": "Take the long way.",
+   "start": 14.913,
+   "dur": 0.984
+  },
+  {
+   "beat": 7,
+   "speaker": "benny",
+   "text": "The long way? It's literally right there!",
+   "start": 16.372,
+   "dur": 1.718
+  },
+  {
+   "beat": 8,
+   "speaker": "dough",
+   "text": "Long. Way.",
+   "start": 18.33,
+   "dur": 1.23
+  },
+  {
+   "beat": 9,
+   "speaker": "pip",
+   "text": "Benny, it's Pip. Do you have the cake?",
+   "start": 20.163,
+   "dur": 2.487
+  },
+  {
+   "beat": 10,
+   "speaker": "benny",
+   "text": "Do I have the cake. Pip. I am the cake. Spiritually.",
+   "start": 22.913,
+   "dur": 2.811
+  },
+  {
+   "beat": 11,
+   "speaker": "pip",
+   "text": "That doesn't mean anything.",
+   "start": 25.955,
+   "dur": 1.501
+  },
+  {
+   "beat": 12,
+   "speaker": "narrator",
+   "text": "Eleven minutes to noon.",
+   "start": 27.705,
+   "dur": 1.242
+  },
+  {
+   "beat": 13,
+   "speaker": "plum",
+   "text": "Stop right there, son!",
+   "start": 29.538,
+   "dur": 1.274
+  },
+  {
+   "beat": 14,
+   "speaker": "benny",
+   "text": "Officer, I can explain. It's a cake. It's a legal cake\u2014",
+   "start": 31.413,
+   "dur": 2.9
+  },
+  {
+   "beat": 15,
+   "speaker": "plum",
+   "text": "Road's closed.",
+   "start": 34.372,
+   "dur": 0.714
+  },
+  {
+   "beat": 16,
+   "speaker": "benny",
+   "text": "Why?",
+   "start": 35.83,
+   "dur": 0.328
+  },
+  {
+   "beat": 17,
+   "speaker": "plum",
+   "text": "Reasons.",
+   "start": 37.288,
+   "dur": 0.453
+  },
+  {
+   "beat": 18,
+   "speaker": "benny",
+   "text": "What reasons?!",
+   "start": 38.747,
+   "dur": 0.641
+  },
+  {
+   "beat": 19,
+   "speaker": "plum",
+   "text": "Big ones. Go around.",
+   "start": 40.205,
+   "dur": 1.446
+  },
+  {
+   "beat": 20,
+   "speaker": "benny",
+   "text": "Is it a big reason or a\u2014",
+   "start": 42.247,
+   "dur": 1.234
+  },
+  {
+   "beat": 21,
+   "speaker": "plum",
+   "text": "Bigger than you.",
+   "start": 43.705,
+   "dur": 0.577
+  },
+  {
+   "beat": 22,
+   "speaker": "narrator",
+   "text": "Around meant the alley. The alley meant Grandma Rose.",
+   "start": 45.163,
+   "dur": 2.585
+  },
+  {
+   "beat": 23,
+   "speaker": "grandma",
+   "text": "Benny, sweetie! Help me with my groceries?",
+   "start": 47.997,
+   "dur": 2.08
+  },
+  {
+   "beat": 24,
+   "speaker": "benny",
+   "text": "Grandma, I'm holding a seven-layer cake!",
+   "start": 50.33,
+   "dur": 1.577
+  },
+  {
+   "beat": 25,
+   "speaker": "grandma",
+   "text": "Just thirty bags, dear.",
+   "start": 52.163,
+   "dur": 1.047
+  },
+  {
+   "beat": 26,
+   "speaker": "benny",
+   "text": "Grandma, you live alone!",
+   "start": 53.83,
+   "dur": 1.202
+  },
+  {
+   "beat": 27,
+   "speaker": "grandma",
+   "text": "I'm a big eater, dear.",
+   "start": 55.288,
+   "dur": 0.997
+  },
+  {
+   "beat": 28,
+   "speaker": "narrator",
+   "text": "It was not thirty bags.",
+   "start": 56.872,
+   "dur": 1.22
+  },
+  {
+   "beat": 29,
+   "speaker": "narrator",
+   "text": "It was forty.",
+   "start": 58.33,
+   "dur": 0.657
+  },
+  {
+   "beat": 30,
+   "speaker": "pip",
+   "text": "Eight minutes, Benny!",
+   "start": 59.788,
+   "dur": 1.026
+  },
+  {
+   "beat": 31,
+   "speaker": "benny",
+   "text": "I know, Pip!",
+   "start": 61.247,
+   "dur": 0.522
+  },
+  {
+   "beat": 32,
+   "speaker": "narrator",
+   "text": "Then Mr. Fig tried to park.",
+   "start": 62.705,
+   "dur": 1.564
+  },
+  {
+   "beat": 33,
+   "speaker": "fig",
+   "text": "Almost\u2026 almost\u2026 nope.",
+   "start": 64.538,
+   "dur": 1.291
+  },
+  {
+   "beat": 34,
+   "speaker": "benny",
+   "text": "Mr. Fig! You've been parking since Tuesday!",
+   "start": 66.08,
+   "dur": 2.301
+  },
+  {
+   "beat": 35,
+   "speaker": "fig",
+   "text": "Parking is an art, son.",
+   "start": 68.997,
+   "dur": 0.94
+  },
+  {
+   "beat": 36,
+   "speaker": "benny",
+   "text": "It's a car, Mr. Fig! Not a painting!",
+   "start": 70.455,
+   "dur": 2.288
+  },
+  {
+   "beat": 37,
+   "speaker": "narrator",
+   "text": "Benny had one move left.",
+   "start": 72.997,
+   "dur": 1.222
+  },
+  {
+   "beat": 38,
+   "speaker": "benny",
+   "text": "Shortcut. Through. The park.",
+   "start": 74.455,
+   "dur": 1.542
+  },
+  {
+   "beat": 39,
+   "speaker": "pip",
+   "text": "Benny, the sprinklers go off at\u2014",
+   "start": 76.58,
+   "dur": 1.952
+  },
+  {
+   "beat": 41,
+   "speaker": "pip",
+   "text": "\u2026now.",
+   "start": 80.122,
+   "dur": 0.41
+  },
+  {
+   "beat": 42,
+   "speaker": "benny",
+   "text": "Nope, nope, nope, nope, nope, nope!",
+   "start": 81.58,
+   "dur": 2.987
+  },
+  {
+   "beat": 43,
+   "speaker": "narrator",
+   "text": "The cake stayed dry. Benny did not.",
+   "start": 84.83,
+   "dur": 1.884
+  },
+  {
+   "beat": 44,
+   "speaker": "narrator",
+   "text": "And then, of course, the marching band.",
+   "start": 87.33,
+   "dur": 2.161
+  },
+  {
+   "beat": 45,
+   "speaker": "benny",
+   "text": "Cake coming through! Excuse me! Cake!",
+   "start": 90.08,
+   "dur": 1.974
+  },
+  {
+   "beat": 46,
+   "speaker": "lead",
+   "text": "Sorry, kid! We're practicing!",
+   "start": 92.288,
+   "dur": 2.083
+  },
+  {
+   "beat": 47,
+   "speaker": "benny",
+   "text": "Practicing for what?!",
+   "start": 94.622,
+   "dur": 0.756
+  },
+  {
+   "beat": 48,
+   "speaker": "lead",
+   "text": "\u2026Nothing!",
+   "start": 96.08,
+   "dur": 0.698
+  },
+  {
+   "beat": 49,
+   "speaker": "pip",
+   "text": "Two minutes! Where are you?",
+   "start": 97.538,
+   "dur": 1.744
+  },
+  {
+   "beat": 50,
+   "speaker": "benny",
+   "text": "Coming in hot!",
+   "start": 99.538,
+   "dur": 0.57
+  },
+  {
+   "beat": 51,
+   "speaker": "narrator",
+   "text": "Benny burst into the town square, and\u2026",
+   "start": 100.997,
+   "dur": 2.021
+  },
+  {
+   "beat": 53,
+   "speaker": "benny",
+   "text": "Hello? Mayor? Anybody? I have\u2026 a cake?",
+   "start": 105.288,
+   "dur": 2.355
+  },
+  {
+   "beat": 54,
+   "speaker": "benny",
+   "text": "Wrong day? Is it Tuesday? Mr. Fig, is it Tuesday?!",
+   "start": 107.913,
+   "dur": 3.058
+  },
+  {
+   "beat": 55,
+   "speaker": "benny",
+   "text": "Pip, nobody's here. Is there a second town square?!",
+   "start": 111.58,
+   "dur": 2.402
+  },
+  {
+   "beat": 56,
+   "speaker": "pip",
+   "text": "Benny. Turn around.",
+   "start": 114.247,
+   "dur": 1.557
+  },
+  {
+   "beat": 57,
+   "speaker": "crowd",
+   "text": "Surprise!",
+   "start": 116.038,
+   "dur": 0.817
+  },
+  {
+   "beat": 58,
+   "speaker": "mayor",
+   "text": "Happy birthday, Benny!",
+   "start": 117.497,
+   "dur": 1.424
+  },
+  {
+   "beat": 59,
+   "speaker": "benny",
+   "text": "\u2026It's my birthday?",
+   "start": 119.163,
+   "dur": 0.694
+  },
+  {
+   "beat": 60,
+   "speaker": "pip",
+   "text": "It's your birthday.",
+   "start": 120.622,
+   "dur": 0.97
+  },
+  {
+   "beat": 61,
+   "speaker": "narrator",
+   "text": "The road closure. The groceries. The world's slowest parking.",
+   "start": 122.08,
+   "dur": 3.068
+  },
+  {
+   "beat": 62,
+   "speaker": "narrator",
+   "text": "The whole town had been stalling him for an hour.",
+   "start": 125.413,
+   "dur": 2.221
+  },
+  {
+   "beat": 63,
+   "speaker": "grandma",
+   "text": "Forty bags, dear. Forty!",
+   "start": 128.247,
+   "dur": 1.615
+  },
+  {
+   "beat": 64,
+   "speaker": "plum",
+   "text": "Big reasons.",
+   "start": 130.122,
+   "dur": 0.598
+  },
+  {
+   "beat": 65,
+   "speaker": "benny",
+   "text": "So the cake\u2026",
+   "start": 131.58,
+   "dur": 0.555
+  },
+  {
+   "beat": 66,
+   "speaker": "dough",
+   "text": "Was always for you, sweetie.",
+   "start": 133.038,
+   "dur": 1.324
+  },
+  {
+   "beat": 67,
+   "speaker": "benny",
+   "text": "I carried my own birthday cake across the entire town?!",
+   "start": 134.622,
+   "dur": 2.319
+  },
+  {
+   "beat": 68,
+   "speaker": "pip",
+   "text": "Professionally.",
+   "start": 137.205,
+   "dur": 0.747
+  },
+  {
+   "beat": 69,
+   "speaker": "benny",
+   "text": "\u2026Professionally.",
+   "start": 138.705,
+   "dur": 0.548
+  },
+  {
+   "beat": 70,
+   "speaker": "narrator",
+   "text": "And the cake never touched the ground.",
+   "start": 140.163,
+   "dur": 1.607
+  },
+  {
+   "beat": 72,
+   "speaker": "narrator",
+   "text": "It touched Benny's face.",
+   "start": 143.538,
+   "dur": 1.24
+  },
+  {
+   "beat": 73,
+   "speaker": "benny",
+   "text": "Still counts!",
+   "start": 145.372,
+   "dur": 0.701
+  },
+  {
+   "beat": 74,
+   "speaker": "narrator",
+   "text": "Happy birthday, Benny.",
+   "start": 146.83,
+   "dur": 1.205
+  }
+ ],
+ "cues": [
+  {
+   "t": 0.0,
+   "tension": 0.3,
+   "kind": null,
+   "beat": 0,
+   "sfx": [
+    {
+     "kind": "bell",
+     "at": 0.1,
+     "gain": 0.6
+    }
+   ],
+   "len": 2.791166666666667
+  },
+  {
+   "t": 2.792,
+   "tension": 0.45,
+   "kind": "hit",
+   "beat": 1,
+   "sfx": [],
+   "len": 2.1607083333333335
+  },
+  {
+   "t": 4.958,
+   "tension": 0.4,
+   "kind": null,
+   "beat": 2,
+   "sfx": [],
+   "len": 2.534895833333333
+  },
+  {
+   "t": 7.5,
+   "tension": 0.4,
+   "kind": null,
+   "beat": 3,
+   "sfx": [],
+   "len": 2.0096458333333334
+  },
+  {
+   "t": 9.5,
+   "tension": 0.35,
+   "kind": null,
+   "beat": 4,
+   "sfx": [],
+   "len": 2.2928333333333333
+  },
+  {
+   "t": 11.792,
+   "tension": 0.4,
+   "kind": null,
+   "beat": 5,
+   "sfx": [],
+   "len": 3.050875
+  },
+  {
+   "t": 14.833,
+   "tension": 0.45,
+   "kind": "riser",
+   "beat": 6,
+   "sfx": [],
+   "len": 1.45
+  },
+  {
+   "t": 16.292,
+   "tension": 0.45,
+   "kind": null,
+   "beat": 7,
+   "sfx": [],
+   "len": 1.9677083333333334
+  },
+  {
+   "t": 18.25,
+   "tension": 0.5,
+   "kind": "hit",
+   "beat": 8,
+   "sfx": [
+    {
+     "kind": "bonk",
+     "at": 0.6
+    }
+   ],
+   "len": 1.8295
+  },
+  {
+   "t": 20.083,
+   "tension": 0.4,
+   "kind": null,
+   "beat": 9,
+   "sfx": [],
+   "len": 2.736854166666667
+  },
+  {
+   "t": 22.833,
+   "tension": 0.45,
+   "kind": null,
+   "beat": 10,
+   "sfx": [],
+   "len": 3.0607083333333334
+  },
+  {
+   "t": 25.875,
+   "tension": 0.45,
+   "kind": null,
+   "beat": 11,
+   "sfx": [],
+   "len": 1.7514375
+  },
+  {
+   "t": 27.625,
+   "tension": 0.5,
+   "kind": "hit",
+   "beat": 12,
+   "sfx": [
+    {
+     "kind": "bell",
+     "at": 0.0,
+     "gain": 0.4
+    }
+   ],
+   "len": 1.8416041666666665
+  },
+  {
+   "t": 29.458,
+   "tension": 0.6,
+   "kind": "hit",
+   "beat": 13,
+   "sfx": [
+    {
+     "kind": "siren",
+     "at": 0.0,
+     "gain": 0.5
+    }
+   ],
+   "len": 1.8737083333333335
+  },
+  {
+   "t": 31.333,
+   "tension": 0.55,
+   "kind": null,
+   "beat": 14,
+   "sfx": [],
+   "len": 2.95025
+  },
+  {
+   "t": 34.292,
+   "tension": 0.5,
+   "kind": null,
+   "beat": 15,
+   "sfx": [],
+   "len": 1.45
+  },
+  {
+   "t": 35.75,
+   "tension": 0.5,
+   "kind": null,
+   "beat": 16,
+   "sfx": [],
+   "len": 1.45
+  },
+  {
+   "t": 37.208,
+   "tension": 0.5,
+   "kind": null,
+   "beat": 17,
+   "sfx": [],
+   "len": 1.45
+  },
+  {
+   "t": 38.667,
+   "tension": 0.55,
+   "kind": null,
+   "beat": 18,
+   "sfx": [],
+   "len": 1.45
+  },
+  {
+   "t": 40.125,
+   "tension": 0.5,
+   "kind": "hit",
+   "beat": 19,
+   "sfx": [],
+   "len": 2.0461666666666667
+  },
+  {
+   "t": 42.167,
+   "tension": 0.5,
+   "kind": null,
+   "beat": 20,
+   "sfx": [],
+   "len": 1.45
+  },
+  {
+   "t": 43.625,
+   "tension": 0.55,
+   "kind": "hit",
+   "beat": 21,
+   "sfx": [
+    {
+     "kind": "bonk",
+     "at": 0.5
+    }
+   ],
+   "len": 1.45
+  },
+  {
+   "t": 45.083,
+   "tension": 0.45,
+   "kind": null,
+   "beat": 22,
+   "sfx": [],
+   "len": 2.8349583333333332
+  },
+  {
+   "t": 47.917,
+   "tension": 0.4,
+   "kind": null,
+   "beat": 23,
+   "sfx": [],
+   "len": 2.3299583333333334
+  },
+  {
+   "t": 50.25,
+   "tension": 0.45,
+   "kind": null,
+   "beat": 24,
+   "sfx": [],
+   "len": 1.8270625
+  },
+  {
+   "t": 52.083,
+   "tension": 0.45,
+   "kind": "hit",
+   "beat": 25,
+   "sfx": [
+    {
+     "kind": "bonk",
+     "at": 0.7
+    }
+   ],
+   "len": 1.64675
+  },
+  {
+   "t": 53.75,
+   "tension": 0.45,
+   "kind": null,
+   "beat": 26,
+   "sfx": [],
+   "len": 1.4521458333333332
+  },
+  {
+   "t": 55.208,
+   "tension": 0.45,
+   "kind": "hit",
+   "beat": 27,
+   "sfx": [],
+   "len": 1.5968749999999998
+  },
+  {
+   "t": 56.792,
+   "tension": 0.5,
+   "kind": null,
+   "beat": 28,
+   "sfx": [],
+   "len": 1.4701458333333333
+  },
+  {
+   "t": 58.25,
+   "tension": 0.5,
+   "kind": "hit",
+   "beat": 29,
+   "sfx": [
+    {
+     "kind": "bonk",
+     "at": 0.2
+    }
+   ],
+   "len": 1.45
+  },
+  {
+   "t": 59.708,
+   "tension": 0.55,
+   "kind": null,
+   "beat": 30,
+   "sfx": [],
+   "len": 1.45
+  },
+  {
+   "t": 61.167,
+   "tension": 0.6,
+   "kind": null,
+   "beat": 31,
+   "sfx": [],
+   "len": 1.45
+  },
+  {
+   "t": 62.625,
+   "tension": 0.5,
+   "kind": null,
+   "beat": 32,
+   "sfx": [
+    {
+     "kind": "horn",
+     "at": 0.3
+    }
+   ],
+   "len": 1.8144791666666666
+  },
+  {
+   "t": 64.458,
+   "tension": 0.5,
+   "kind": null,
+   "beat": 33,
+   "sfx": [],
+   "len": 1.5412708333333334
+  },
+  {
+   "t": 66.0,
+   "tension": 0.6,
+   "kind": "hit",
+   "beat": 34,
+   "sfx": [
+    {
+     "kind": "horn",
+     "at": 0.8
+    }
+   ],
+   "len": 2.900666666666667
+  },
+  {
+   "t": 68.917,
+   "tension": 0.5,
+   "kind": null,
+   "beat": 35,
+   "sfx": [],
+   "len": 1.45
+  },
+  {
+   "t": 70.375,
+   "tension": 0.55,
+   "kind": null,
+   "beat": 36,
+   "sfx": [],
+   "len": 2.5380208333333334
+  },
+  {
+   "t": 72.917,
+   "tension": 0.6,
+   "kind": "riser",
+   "beat": 37,
+   "sfx": [],
+   "len": 1.4715625
+  },
+  {
+   "t": 74.375,
+   "tension": 0.7,
+   "kind": "hit",
+   "beat": 38,
+   "sfx": [],
+   "len": 2.1419791666666668
+  },
+  {
+   "t": 76.5,
+   "tension": 0.6,
+   "kind": null,
+   "beat": 39,
+   "sfx": [],
+   "len": 1.9521875
+  },
+  {
+   "t": 78.458,
+   "tension": 0.75,
+   "kind": "hit",
+   "beat": 40,
+   "sfx": [
+    {
+     "kind": "sprinkler",
+     "at": 0.0
+    }
+   ],
+   "len": 1.6
+  },
+  {
+   "t": 80.042,
+   "tension": 0.6,
+   "kind": null,
+   "beat": 41,
+   "sfx": [],
+   "len": 1.45
+  },
+  {
+   "t": 81.5,
+   "tension": 0.85,
+   "kind": null,
+   "beat": 42,
+   "sfx": [
+    {
+     "kind": "sprinkler",
+     "at": 0.0
+    }
+   ],
+   "len": 3.2367083333333335
+  },
+  {
+   "t": 84.75,
+   "tension": 0.5,
+   "kind": "hit",
+   "beat": 43,
+   "sfx": [],
+   "len": 2.4835833333333333
+  },
+  {
+   "t": 87.25,
+   "tension": 0.6,
+   "kind": "hit",
+   "beat": 44,
+   "sfx": [
+    {
+     "kind": "band",
+     "at": 0.0
+    }
+   ],
+   "len": 2.7606875
+  },
+  {
+   "t": 90.0,
+   "tension": 0.7,
+   "kind": null,
+   "beat": 45,
+   "sfx": [
+    {
+     "kind": "band",
+     "at": 0.0
+    }
+   ],
+   "len": 2.2242083333333333
+  },
+  {
+   "t": 92.208,
+   "tension": 0.6,
+   "kind": null,
+   "beat": 46,
+   "sfx": [],
+   "len": 2.3333958333333333
+  },
+  {
+   "t": 94.542,
+   "tension": 0.6,
+   "kind": null,
+   "beat": 47,
+   "sfx": [],
+   "len": 1.45
+  },
+  {
+   "t": 96.0,
+   "tension": 0.55,
+   "kind": "hit",
+   "beat": 48,
+   "sfx": [
+    {
+     "kind": "bonk",
+     "at": 0.5
+    }
+   ],
+   "len": 1.45
+  },
+  {
+   "t": 97.458,
+   "tension": 0.7,
+   "kind": null,
+   "beat": 49,
+   "sfx": [],
+   "len": 1.993625
+  },
+  {
+   "t": 99.458,
+   "tension": 0.9,
+   "kind": "hit",
+   "beat": 50,
+   "sfx": [],
+   "len": 1.45
+  },
+  {
+   "t": 100.917,
+   "tension": 0.6,
+   "kind": "riser",
+   "beat": 51,
+   "sfx": [],
+   "len": 2.2713958333333335
+  },
+  {
+   "t": 103.208,
+   "tension": 0.1,
+   "kind": "drop",
+   "beat": 52,
+   "sfx": [
+    {
+     "kind": "bells",
+     "at": 0.0
+    }
+   ],
+   "len": 2.0
+  },
+  {
+   "t": 105.208,
+   "tension": 0.2,
+   "kind": null,
+   "beat": 53,
+   "sfx": [],
+   "len": 2.6051458333333333
+  },
+  {
+   "t": 107.833,
+   "tension": 0.3,
+   "kind": "hit",
+   "beat": 54,
+   "sfx": [],
+   "len": 3.657979166666667
+  },
+  {
+   "t": 111.5,
+   "tension": 0.3,
+   "kind": null,
+   "beat": 55,
+   "sfx": [],
+   "len": 2.6521458333333334
+  },
+  {
+   "t": 114.167,
+   "tension": 0.4,
+   "kind": "riser",
+   "beat": 56,
+   "sfx": [],
+   "len": 1.8073125
+  },
+  {
+   "t": 115.958,
+   "tension": 0.95,
+   "kind": "hit",
+   "beat": 57,
+   "sfx": [
+    {
+     "kind": "cheer",
+     "at": 0.15
+    }
+   ],
+   "len": 1.45
+  },
+  {
+   "t": 117.417,
+   "tension": 0.8,
+   "kind": null,
+   "beat": 58,
+   "sfx": [],
+   "len": 1.6744166666666667
+  },
+  {
+   "t": 119.083,
+   "tension": 0.5,
+   "kind": null,
+   "beat": 59,
+   "sfx": [],
+   "len": 1.45
+  },
+  {
+   "t": 120.542,
+   "tension": 0.5,
+   "kind": null,
+   "beat": 60,
+   "sfx": [],
+   "len": 1.45
+  },
+  {
+   "t": 122.0,
+   "tension": 0.55,
+   "kind": null,
+   "beat": 61,
+   "sfx": [],
+   "len": 3.318125
+  },
+  {
+   "t": 125.333,
+   "tension": 0.6,
+   "kind": "hit",
+   "beat": 62,
+   "sfx": [],
+   "len": 2.821
+  },
+  {
+   "t": 128.167,
+   "tension": 0.5,
+   "kind": null,
+   "beat": 63,
+   "sfx": [],
+   "len": 1.8647708333333333
+  },
+  {
+   "t": 130.042,
+   "tension": 0.5,
+   "kind": null,
+   "beat": 64,
+   "sfx": [],
+   "len": 1.45
+  },
+  {
+   "t": 131.5,
+   "tension": 0.45,
+   "kind": null,
+   "beat": 65,
+   "sfx": [],
+   "len": 1.45
+  },
+  {
+   "t": 132.958,
+   "tension": 0.45,
+   "kind": "resolve",
+   "beat": 66,
+   "sfx": [],
+   "len": 1.57425
+  },
+  {
+   "t": 134.542,
+   "tension": 0.6,
+   "kind": null,
+   "beat": 67,
+   "sfx": [],
+   "len": 2.5689583333333332
+  },
+  {
+   "t": 137.125,
+   "tension": 0.4,
+   "kind": "hit",
+   "beat": 68,
+   "sfx": [],
+   "len": 1.49675
+  },
+  {
+   "t": 138.625,
+   "tension": 0.4,
+   "kind": null,
+   "beat": 69,
+   "sfx": [],
+   "len": 1.45
+  },
+  {
+   "t": 140.083,
+   "tension": 0.5,
+   "kind": null,
+   "beat": 70,
+   "sfx": [],
+   "len": 1.8565416666666668
+  },
+  {
+   "t": 141.958,
+   "tension": 0.2,
+   "kind": "drop",
+   "beat": 71,
+   "sfx": [
+    {
+     "kind": "splat",
+     "at": 0.38
+    },
+    {
+     "kind": "bonk",
+     "at": 0.32
+    }
+   ],
+   "len": 1.5
+  },
+  {
+   "t": 143.458,
+   "tension": 0.3,
+   "kind": "hit",
+   "beat": 72,
+   "sfx": [],
+   "len": 1.8400833333333333
+  },
+  {
+   "t": 145.292,
+   "tension": 0.6,
+   "kind": "resolve",
+   "beat": 73,
+   "sfx": [
+    {
+     "kind": "cheer",
+     "at": 0.3
+    }
+   ],
+   "len": 1.45
+  },
+  {
+   "t": 146.75,
+   "tension": 0.3,
+   "kind": null,
+   "beat": 74,
+   "sfx": [
+    {
+     "kind": "bells",
+     "at": 0.3
+    }
+   ],
+   "len": 3.2045624999999998
+  }
+ ],
+ "total_frames": 3599,
+ "duration": 149.96
+}

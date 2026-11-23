@@ -123,13 +123,13 @@ def stage_voice(out):
             durs.append(0.0)
             continue
         spk, text = b["say"]
-        voice = "narrator" if spk == "narrator" else film["characters"].get(spk, {}).get("voice", "man")
+        voice = "narrator" if spk == "narrator" else ("crowd" if spk == "crowd" else film["characters"].get(spk, {}).get("voice", "man"))
         p = os.path.join(vdir, f"{i:03d}_{spk}.wav")
         stamp = p + ".txt"
         if os.path.exists(p) and os.path.exists(stamp) and open(stamp).read() == f"{voice}|{text}":
             durs.append(AU.wav_dur(p))
             continue
-        d = AU.tts(text, voice, p)
+        d = AU.tts(text, voice, p, film.get("voice_speed", 1.0))
         open(stamp, "w").write(f"{voice}|{text}")
         durs.append(d)
     tl = S.build_timeline(film, durs)
@@ -261,7 +261,9 @@ def stage_audio(out):
            "phone": lambda k: _phone(AU, k), "splash": lambda k: _splash(AU, k), "steam": lambda k: _steam(AU, k),
            "crash": lambda k: AU.stomp(k, 1.2)[:int(2.0 * AU.SR)] + AU.boom(2.0, 60, k) * 0.5, "spark": lambda k: _spark(AU, k),
            "rumble": lambda k: AU.city_rumble(3.0, k, 0.6), "click": lambda k: _click(AU, k),
-           "power_down": lambda k: _powerdown(AU, k)}
+           "power_down": lambda k: _powerdown(AU, k), "bell": lambda k: AU.bell(k), "splat": lambda k: AU.splat(k),
+           "cheer": lambda k: AU.cheer(3.0, k), "horn": lambda k: AU.horn(0.5, k), "bonk": lambda k: AU.bonk(k),
+           "sprinkler": lambda k: AU.sprinkler(3.0, k), "bells": lambda k: _bells(AU, k), "band": lambda k: _band(AU, k)}
     for c in tl["cues"]:
         for e in c.get("sfx", []):
             kind = e["kind"] if isinstance(e, dict) else e
@@ -280,7 +282,9 @@ def stage_audio(out):
         fxs = {x if isinstance(x, str) else x.get("kind") for x in s.get("fx", [])}
         if "rain" in fxs:
             amb[i0:i0 + seg_n] += AU.rain_amb(s["frames"] / FPS + 0.01, int(s["start"] * 10), 0.3)[:len(amb[i0:i0 + seg_n])]
-    amb += AU.city_rumble(dur, 5, 0.12)[:n]
+    amb += AU.city_rumble(dur, 5, 0.12 if film.get("look") != "sunny" else 0.03)[:n]
+    if film.get("look") == "sunny":
+        amb += AU.birds(dur, 3, 0.1)[:n]
     if any(p.get("kind") == "police_car" for ps in film.get("dressing", {}).values() for p in ps):
         sir = AU.siren(dur, 1, "wail") * 0.18
         amb += AU.lowpass(sir, 1800)[:n]
@@ -291,7 +295,10 @@ def stage_audio(out):
         ten = c["tension"] if c["tension"] is not None else last
         last = ten
         cues.append({"t": c["t"], "tension": ten, "kind": c["kind"], "len": c["len"]})
-    music = AU.score(dur, cues, key=film.get("key", "D"), seed=len(film["title"]), bpm=film.get("bpm", 100))[:n]
+    if film.get("score_style") == "playful":
+        music = AU.score_playful(dur, cues, key=film.get("key", "F"), seed=len(film["title"]), bpm=film.get("bpm", 128))[:n]
+    else:
+        music = AU.score(dur, cues, key=film.get("key", "D"), seed=len(film["title"]), bpm=film.get("bpm", 100))[:n]
     music = AU.duck(music, voice, 0.5)
     amb = AU.duck(amb, voice, 0.3)
     mix = voice * 1.0 + music * 0.42 + sfx * 0.75 + amb * 0.5
@@ -301,6 +308,37 @@ def stage_audio(out):
     AU.write_wav(os.path.join(ad, "mix_raw.wav"), mix)
     js = AU.loudnorm(os.path.join(ad, "mix_raw.wav"), os.path.join(ad, "mix.wav"), I=-14)
     log(f"[audio] mixed {dur:.1f}s; loudnorm in {js['input_i']} LUFS -> -14 LUFS (TP -1 dB)")
+
+
+def _band(AU, k):
+    """Marching snare + bass drum + a tuba-ish oom-pah for ~3 s."""
+    import numpy as np
+    d = 3.2
+    out = np.zeros(int(d * AU.SR), np.float32)
+    beat = 60 / 120
+    for j in range(int(d / beat * 2)):
+        i = int(j * beat / 2 * AU.SR)
+        if j % 2 == 0:
+            b = AU.boom(0.35, 70, k + j)[: len(out) - i] * 0.5
+            out[i:i + len(b)] += b
+        sn = AU.highpass(AU.noise(int(0.09 * AU.SR), k + j), 1800) * np.exp(-np.arange(int(0.09 * AU.SR)) / 700) * 0.35
+        out[i:i + len(sn)] += sn[: len(out) - i]
+        if j % 4 in (0, 2):
+            tt = AU.t_axis(0.22)
+            tu = AU.saw(87.3 if j % 8 < 4 else 130.8, tt) * np.exp(-tt * 6) * 0.25
+            tu = AU.lowpass(tu.astype(np.float32), 600)
+            out[i:i + len(tu)] += tu[: len(out) - i]
+    return out
+
+
+def _bells(AU, k):
+    import numpy as np
+    out = np.zeros(int(4.5 * AU.SR), np.float32)
+    for j in range(4):
+        b = AU.bell(k + j, 392.0 if j % 2 == 0 else 330.0, 2.5)
+        i = int(j * 0.8 * AU.SR)
+        out[i:i + len(b)] += b[: len(out) - i]
+    return out
 
 
 def _phone(AU, k):
@@ -391,7 +429,8 @@ def stage_deliver(out):
     pr = ffprobe(os.path.join(out, "film.mp4"))
     dur = float(pr["format"]["duration"])
     v = [s for s in pr["streams"] if s.get("width")][0]
-    ok = 60 <= dur <= 120 and v["width"] == 1080 and v["height"] == 1920 and v["r_frame_rate"] == "24/1"
+    lo, hi = film.get("runtime_target", (60, 120))
+    ok = lo <= dur <= hi and v["width"] == 1080 and v["height"] == 1920 and v["r_frame_rate"] == "24/1"
     log(f"[deliver] ffprobe: {dur:.2f}s {v['width']}x{v['height']} @ {v['r_frame_rate']} {v['codec_name']} -> {'OK' if ok else 'CHECK'}")
     # thumbnail: chosen shot (film['thumb']) or the punchiest monster still
     sd = os.path.join(out, "stills")

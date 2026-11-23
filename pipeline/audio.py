@@ -25,7 +25,11 @@ VOICES = {
     "gruff": ("en_GB-northern_english_male-medium", -1.5, 1.0),
     "woman": ("en_US-lessac-medium", 0.0, 1.0),
     "man": ("en_US-norman-medium", -0.5, 1.0),
+    "grandma": ("en_GB-southern_english_female-low", 1.0, 1.0),
+    "mayor": ("en_US-john-medium", -1.0, 1.0),
+    "baker": ("en_US-hfc_female-medium", 0.0, 1.0),
 }
+CROWD = ["girl", "boy", "cop", "woman", "man", "kid", "gruff", "grandma"]
 
 
 def _hf(path):
@@ -52,10 +56,14 @@ def ensure_voice(model):
 _LOADED = {}
 
 
-def tts(text, voice, out_wav):
-    """Synthesize one line -> 48 kHz mono wav. Returns duration (s)."""
+def tts(text, voice, out_wav, speed=1.0):
+    """Synthesize one line -> 48 kHz mono wav. Returns duration (s).
+    speed < 1 = faster delivery (scales Piper's length_scale). voice 'crowd' = 8 voices at once."""
+    if voice == "crowd":
+        return crowd_tts(text, out_wav, speed)
     from piper import PiperVoice, SynthesisConfig
     model, semis, ls = VOICES.get(voice, VOICES["narrator"])
+    ls = ls * speed
     if model not in _LOADED:
         _LOADED[model] = PiperVoice.load(ensure_voice(model))
     pv = _LOADED[model]
@@ -77,6 +85,26 @@ def tts(text, voice, out_wav):
     filt.append("silenceremove=start_periods=1:start_threshold=-45dB,areverse,silenceremove=start_periods=1:start_threshold=-45dB,areverse")
     subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", tmp, "-af", ",".join(filt), "-ac", "1", out_wav], check=True)
     os.remove(tmp)
+    return wav_dur(out_wav)
+
+
+def crowd_tts(text, out_wav, speed=1.0):
+    parts = []
+    for i, v in enumerate(CROWD):
+        p = out_wav + f".c{i}.wav"
+        tts(text, v, p, speed * (0.9 + 0.05 * (i % 3)))
+        parts.append(read_wav(p))
+        os.remove(p)
+    n = max(len(x) for x in parts) + int(0.12 * SR)
+    mix = np.zeros(n, np.float32)
+    rng = np.random.default_rng(1)
+    for x in parts:
+        o = int(rng.uniform(0, 0.1) * SR)
+        mix[o:o + len(x)] += x * rng.uniform(0.5, 0.8)
+    mix = mix / (np.abs(mix).max() + 1e-6) * 0.9
+    with wave.open(out_wav, "wb") as w:
+        w.setnchannels(1); w.setsampwidth(2); w.setframerate(SR)
+        w.writeframes((mix * 32767).astype(np.int16).tobytes())
     return wav_dur(out_wav)
 
 
@@ -448,3 +476,140 @@ def loudnorm(inp, out, I=-14, TP=-1.0, LRA=9):
           f"measured_LRA={js['input_lra']}:measured_thresh={js['input_thresh']}:offset={js['target_offset']}:linear=true")
     subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", inp, "-af", af, "-ar", str(SR), out], check=True)
     return js
+
+
+# ------------------------------------------------------------- comedy SFX + score
+
+def bell(seed=0, f0=392.0, d=3.5):
+    t = t_axis(d)
+    x = np.zeros_like(t)
+    for ratio, amp, dec in ((0.5, 0.5, 2.0), (1.0, 1.0, 1.6), (1.19, 0.5, 1.0), (1.5, 0.35, 0.8), (2.0, 0.4, 0.6), (2.74, 0.2, 0.4)):
+        x += np.sin(2 * np.pi * f0 * ratio * t) * amp * np.exp(-t / dec)
+    return (x * 0.25 * np.minimum(1, t / 0.003)).astype(np.float32)
+
+
+def splat(seed=0):
+    n = noise(int(0.7 * SR), seed)
+    body = lowpass(n, 700) * env(len(n), 0.002, 0.18) * 2.5
+    wet = highpass(lowpass(n, 4000), 900) * env(len(n), 0.01, 0.3) * 0.6
+    return (body + wet).astype(np.float32)
+
+
+def cheer(d=3.0, seed=0):
+    n = noise(int(d * SR), seed)
+    x = highpass(lowpass(n, 3500), 300)
+    t = t_axis(d)
+    amp = np.minimum(1, t / 0.3) * np.exp(-np.maximum(0, t - 1.2) / 1.2)
+    wob = 1 + 0.3 * np.sin(2 * np.pi * 5.5 * t)
+    return (x * amp * wob * 0.5).astype(np.float32)
+
+
+def horn(d=0.5, seed=0):
+    t = t_axis(d)
+    x = (saw(415, t) + saw(523, t)) * 0.2
+    return (lowpass(x.astype(np.float32), 2500) * np.minimum(1, t / 0.01) * np.minimum(1, (d - t) / 0.03)).astype(np.float32)
+
+
+def bonk(seed=0):
+    t = t_axis(0.5)
+    f = 300 * np.exp(-t * 6) + 80
+    return (np.sin(2 * np.pi * np.cumsum(f) / SR) * np.exp(-t * 9) * 0.8).astype(np.float32)
+
+
+def sprinkler(d=3.0, seed=0):
+    n = noise(int(d * SR), seed)
+    t = t_axis(d)
+    chk = (np.sin(2 * np.pi * 7 * t) > 0.6).astype(np.float32) * 0.6 + 0.4
+    return (highpass(n, 2500) * chk * 0.35).astype(np.float32)
+
+
+def pluck(f, d=0.35):
+    t = t_axis(d)
+    x = (2 * np.abs(2 * ((f * t) % 1) - 1) - 1)  # triangle
+    return (x * np.exp(-t * 9) * np.minimum(1, t / 0.002)).astype(np.float32)
+
+
+def score_playful(duration, beats, key="F", seed=0, bpm=128):
+    """Bouncy comedy score: plucked major-key ostinato + walking bass + claps; busier with
+    'tension'; 'hit' = brass stab chord; 'drop' = full stop; 'resolve' = big major finish."""
+    n = int(duration * SR)
+    t = np.arange(n) / SR
+    root = 41 + NOTE.get(key, 5)  # F2
+    bt = sorted(beats, key=lambda b: b["t"])
+    xs = [0] + [b["t"] for b in bt] + [duration]
+    ys = [bt[0]["tension"] if bt else 0.4] + [b["tension"] for b in bt] + [bt[-1]["tension"] if bt else 0.4]
+    ten = np.interp(t, xs, ys).astype(np.float32)
+    gate = np.ones(n, np.float32)
+    for b in bt:
+        if b.get("kind") == "drop":
+            i0 = int(b["t"] * SR); i1 = int(min(duration, b["t"] + b.get("len", 1.2)) * SR)
+            gate[i0:i1] = 0
+            back = np.linspace(0, 1, min(2400, n - i1)); gate[i1:i1 + len(back)] *= back
+    mix = np.zeros(n, np.float32)
+    beat = 60 / bpm
+    prog = [(0, 4, 7), (9, 12, 16), (5, 9, 12), (7, 11, 14)]  # I vi IV V
+    bass_walk = [0, 4, 7, 9]
+    k = 0
+    tt = 0.0
+    while tt < duration:
+        i = int(tt * SR)
+        lv = float(ten[min(i, n - 1)])
+        bar = int(tt / (beat * 4))
+        ch = prog[bar % 4]
+        step = k % 8
+        # bass on every beat (walking)
+        if step % 2 == 0:
+            bn = root + ch[0] + bass_walk[(step // 2) % 4] * (1 if lv > 0.5 else 0)
+            x = pluck(midi(bn), 0.4) * 0.55
+            mix[i:i + len(x)] += x[: n - i]
+        # plucked arpeggio on 8ths; 16ths when tense
+        notes = [ch[0], ch[1], ch[2], ch[1] + 12 if lv > 0.6 else ch[1]]
+        for sub in ((0,) if lv < 0.65 else (0, 0.5)):
+            j = int((tt + sub * beat / 2) * SR)
+            x = pluck(midi(root + 24 + notes[(k + int(sub * 2)) % 4]), 0.25) * (0.22 + 0.18 * lv)
+            mix[j:j + len(x)] += x[: max(0, n - j)]
+        # claps on 2 and 4 when lively
+        if lv > 0.45 and step in (2, 6):
+            c = highpass(noise(int(0.12 * SR), k), 1500) * np.exp(-np.arange(int(0.12 * SR)) / 900) * 0.25
+            mix[i:i + len(c)] += c[: n - i]
+        if lv > 0.7 and step in (0, 4):
+            kk = boom(0.3, 60, k)[: n - i] * 0.3
+            mix[i:i + len(kk)] += kk
+        tt += beat / 2
+        k += 1
+    mix *= gate
+    for b in bt:
+        i = int(b["t"] * SR)
+        if b.get("kind") in ("hit", "braam"):
+            d = 0.6
+            tt_ = t_axis(d)
+            stab = sum(saw(midi(root + 12 + iv), tt_) for iv in (0, 4, 7, 12)) * 0.12
+            stab = lowpass(stab.astype(np.float32), 2200) * np.exp(-tt_ * 5)
+            mix[i:i + len(stab)] += stab[: n - i]
+        elif b.get("kind") == "riser":
+            r = riser(b.get("len", 2.0), int(b["t"])) * 0.35
+            mix[i:i + len(r)] += r[: n - i]
+        elif b.get("kind") == "resolve":
+            d = min(duration - b["t"], 6.0)
+            tt_ = t_axis(d)
+            s_ = sum(np.sin(2 * np.pi * midi(root + 12 + iv) * tt_) for iv in (0, 4, 7, 12, 16, 19)) * 0.07
+            s_ *= np.minimum(1, tt_ / 0.4) * np.minimum(1, (d - tt_) / 1.5)
+            mix[i:i + len(s_)] += s_[: n - i]
+    return np.tanh(mix * 1.3).astype(np.float32) * 0.8
+
+
+def birds(d, seed=0, level=0.12):
+    n = int(d * SR)
+    x = np.zeros(n, np.float32)
+    rng = np.random.default_rng(seed)
+    for _ in range(int(d * 1.6)):
+        i = int(rng.uniform(0, d - 0.5) * SR)
+        f0 = rng.uniform(2500, 4500)
+        for c in range(rng.integers(2, 5)):
+            m = int(0.07 * SR)
+            tt = np.arange(m) / SR
+            f = f0 * (1 + rng.uniform(-0.3, 0.3) * tt / 0.07)
+            ch = np.sin(2 * np.pi * np.cumsum(f) / SR) * np.sin(np.pi * tt / 0.07)
+            j = i + c * int(0.1 * SR)
+            x[j:j + m] += ch[: max(0, n - j)] * rng.uniform(0.3, 1)
+    return x * level

@@ -20,7 +20,7 @@ import random
 import bpy
 from mathutils import Vector
 
-FRAME_H = {"ecu": 0.45, "cu": 0.95, "mcu": 1.45, "ms": 2.5, "mws": 4.0, "ws": 7.0, "ews": 30.0}
+FRAME_H = {"ecu": 0.6, "cu": 1.2, "mcu": 1.7, "ms": 2.5, "mws": 4.0, "ws": 7.0, "ews": 30.0}
 MON_FRAME_H = {"ecu": 0.12, "cu": 0.32, "mcu": 0.5, "ms": 0.75, "mws": 1.0, "ws": 1.4, "ews": 3.2}
 ELEV = {"worm": -14, "low": -8, "eye": 4, "high": 32, "top": 68}
 

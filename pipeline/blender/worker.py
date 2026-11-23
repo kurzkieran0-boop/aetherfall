@@ -26,6 +26,7 @@ LOOKS = {
     "night_blue": dict(key=(1.0, 0.82, 0.62), rim=(0.45, 0.65, 1.0), fill=(0.3, 0.4, 0.8), exposure=0.4),
     "storm": dict(key=(0.9, 0.9, 1.0), rim=(0.5, 0.7, 1.0), fill=(0.25, 0.3, 0.5), exposure=0.3),
     "ember": dict(key=(1.0, 0.7, 0.45), rim=(1.0, 0.45, 0.2), fill=(0.25, 0.3, 0.55), exposure=0.35),
+    "sunny": dict(key=(1.0, 0.93, 0.82), rim=(1.0, 0.85, 0.6), fill=(0.55, 0.7, 1.0), exposure=-0.55, bloom=3.0),
     "toxic": dict(key=(0.9, 1.0, 0.85), rim=(0.3, 1.0, 0.6), fill=(0.2, 0.35, 0.5), exposure=0.35),
 }
 
@@ -85,7 +86,7 @@ def setup_render(r, look):
     g = ng.nodes.new("CompositorNodeGlare")
     g.inputs["Type"].default_value = 'Bloom'
     g.inputs["Quality"].default_value = 'Medium' if r["w"] > 600 else 'Low'
-    g.inputs["Threshold"].default_value = 1.2
+    g.inputs["Threshold"].default_value = LOOKS.get(look, {}).get("bloom", 1.2)
     g.inputs["Strength"].default_value = 0.55
     g.inputs["Size"].default_value = 0.65
     out = ng.nodes.new("NodeGroupOutput")
@@ -158,11 +159,12 @@ def build(job):
         kind = pr["kind"]
         loc = resolve(pr.get("at", (0, 0, 0)))
         rz = math.radians(pr.get("rot", 0))
+        res = None
         if kind == "police_car":
-            K.police_car(loc, rz, (f0 - handles, f1 + handles), seed=pr.get("seed", int(loc[0] * 7 + loc[1])),
+            res = K.police_car(loc, rz, (f0 - handles, f1 + handles), seed=pr.get("seed", int(loc[0] * 7 + loc[1])),
                          lights=pr.get("lights", True), name=pr.get("name", f"cop{len(bpy.data.objects)}"))
         elif kind == "sedan":
-            K.sedan(loc, rz, tuple(pr.get("color", (0.5, 0.1, 0.1))), name=pr.get("name", "car"))
+            res = K.sedan(loc, rz, tuple(pr.get("color", (0.5, 0.1, 0.1))), name=pr.get("name", "car"))
         elif kind == "barrier":
             K.barrier(loc, rz)
         elif kind == "floodlight":
@@ -176,6 +178,10 @@ def build(job):
             K.pylon(loc, pr.get("height", 45), rot_z=rz)
         elif kind == "streetlamp":
             K.streetlamp(loc, rz, name=pr.get("name", "lamp"), energy=pr.get("energy", 1500))
+        elif kind == "stall":
+            res = K.stall(loc, rz, tuple(pr.get("color", (0.95, 0.35, 0.3))), name=pr.get("name", "stallx"))
+        elif kind == "bench":
+            K.bench(loc, rz)
         elif kind == "fire_truck":
             K.fire_truck(loc, rz, (f0 - handles, f1 + handles), name=pr.get("name", "firetruck"))
         elif kind == "rubble":
@@ -193,6 +199,17 @@ def build(job):
             K.light(pr.get("type", 'POINT'), loc, pr.get("energy", 1000), tuple(pr.get("color", (1, 1, 1))),
                     pr.get("size", 0.5), spot=pr.get("spot", 45), target=resolve(pr["aim"]) if "aim" in pr else None,
                     name=pr.get("name", "plight"), volume=pr.get("volume", 1.0))
+
+        mv = pr.get("move")
+        if mv and res is not None:
+            res.location = loc
+            res.keyframe_insert("location", frame=mv.get("f0", f0))
+            res.location = resolve(mv["to"])
+            res.keyframe_insert("location", frame=mv.get("f1", f1))
+            if "rot_to" in mv:
+                res.keyframe_insert("rotation_euler", frame=mv.get("f0", f0))
+                res.rotation_euler = (0, 0, math.radians(mv["rot_to"]))
+                res.keyframe_insert("rotation_euler", frame=mv.get("f1", f1))
 
     # characters
     chars = {}
@@ -228,6 +245,71 @@ def build(job):
                 kw["look_at"] = (mp[0], mp[1], (film.get("monster") or {}).get("height", 50) * 0.85)
             K.act(chars[who], a["action"], fa, fb, **kw)
 
+    cw = shot.get("crowd")
+    if cw:
+        import random as _r
+        rng = _r.Random(cw.get("seed", 7))
+        c0 = Vector(resolve(cw["center"]))
+        face_t = resolve(cw["face"]) if cw.get("face") else None
+        for i in range(cw.get("n", 8)):
+            a = rng.uniform(0, math.tau)
+            rr = rng.uniform(cw.get("inner", 2.0), cw.get("radius", 7))
+            p = c0 + Vector((math.cos(a) * rr * 1.3, math.sin(a) * rr * 0.6, 0))
+            pal = cw.get("palette") or {"shirt": rng.choice(K.PASTEL + [(0.9, 0.2, 0.2), (0.2, 0.4, 0.9)]),
+                   "pants": rng.choice(((0.15, 0.2, 0.4), (0.3, 0.25, 0.2), (0.2, 0.2, 0.22))),
+                   "hair": rng.choice(((0.1, 0.06, 0.03), (0.6, 0.4, 0.1), (0.3, 0.15, 0.05), (0.8, 0.8, 0.8))),
+                   "hat": rng.choice(K.PASTEL)}
+            rg = K.Rig(f"x{i}", pal, cw.get("accessory") or rng.choice(("hair", "cap", "ponytail", "glasses", "none")), rng.uniform(0.85, 1.05),
+                       rng.choice(((0.95, 0.78, 0.3), (0.85, 0.62, 0.4), (0.6, 0.42, 0.28), (0.98, 0.85, 0.7))))
+            fc = None
+            if face_t is not None:
+                d = Vector(face_t) - p
+                fc = math.degrees(math.atan2(d.y, d.x)) + 90
+            elif cw.get("facing") is not None:
+                fc = cw["facing"]
+            for act, t0, t1 in cw.get("actions", [["cheer", 0, 1]]):
+                fa = max(1, int(t0 * nfr) + rng.randint(0, 3)); fb = max(fa + 2, int(t1 * nfr))
+                K.act(rg, act, fa, fb, at=tuple(p), facing=fc if fc is not None else rng.uniform(0, 360),
+                      expr=rng.choice(("happy", "shock", "happy")) if act == "cheer" else None)
+    for cid, item in shot.get("carry", {}).items():
+        if cid in chars and item in ("cake", "cake_bags"):
+            ck = K.cake(chars[cid].torso, scale=chars[cid].s * 0.95, name=f"cake_{cid}")
+            K.hold_front(chars[cid], f0 - handles, f1 + handles)
+            if item == "cake_bags":
+                bagm = K.plastic((0.75, 0.6, 0.4), 0.8, coat=0)
+                for k in range(5):
+                    K.box(f"bag{k}", ((k % 2 - 0.5) * 0.25, 0.05 * k, 0.75 + k * 0.42), (0.5, 0.35, 0.45), bagm, ck,
+                          rot=(0, 0, 0.3 * (k - 2)), collection="chars")
+                    K.box(f"bagtop{k}", ((k % 2 - 0.5) * 0.25, 0.05 * k, 1.0 + k * 0.42), (0.35, 0.25, 0.12),
+                          K.plastic(((0.3, 0.7, 0.2), (0.95, 0.5, 0.1), (0.9, 0.1, 0.1))[k % 3], 0.6), ck, collection="chars")
+    sp = shot.get("splat")
+    if sp and sp["who"] in chars:
+        rg = chars[sp["who"]]
+        cols = ((0.98, 0.75, 0.85), (1.0, 0.98, 0.92), (0.95, 0.35, 0.5))
+        import random as _r
+        rr = _r.Random(3)
+        for k in range(14):
+            o = K.box(f"icing{k}", (rr.uniform(-0.3, 0.3), -0.31, rr.uniform(0.05, 0.55)), (rr.uniform(0.1, 0.25), 0.06, rr.uniform(0.08, 0.2)),
+                      K.plastic(cols[k % 3], 0.3), rg.head, bevel=0.02, collection="chars")
+            o.scale = (0.001,) * 3; o.keyframe_insert("scale", frame=sp["f"] - 1)
+            o.scale = (rr.uniform(0.1, 0.25), 0.06, rr.uniform(0.08, 0.2)); o.keyframe_insert("scale", frame=sp["f"])
+        ck = bpy.data.objects.get(f"cake_{sp['who']}")
+        if ck:
+            ck.keyframe_insert("scale", frame=sp["f"] - 1)
+            ck.scale = (0.001,) * 3
+            ck.keyframe_insert("scale", frame=sp["f"])
+        bpy.context.scene.frame_set(sp["f"])
+        hp = rg.head.matrix_world.translation
+        for k in range(30):
+            o = K.box(f"crumb{k}", tuple(hp), (0.08, 0.08, 0.08), K.plastic(cols[k % 3], 0.3), collection="fx")
+            v = Vector((rr.uniform(-1, 1), rr.uniform(-1.5, -0.2), rr.uniform(0.5, 2.0))) * 3
+            o.scale = (0.001,) * 3; o.keyframe_insert("scale", frame=sp["f"] - 1)
+            o.scale = (1, 1, 1)
+            for j in range(0, 24, 2):
+                t = j / 24
+                p = hp + v * t + Vector((0, 0, -4.9 * t * t))
+                p.z = max(0.15, p.z)
+                o.location = p; o.keyframe_insert("location", frame=sp["f"] + j)
     tk = shot.get("talk")
     if tk and tk["who"] in chars:
         chars[tk["who"]].talk(tk["f0"], tk["f1"])
@@ -322,7 +404,7 @@ def build(job):
                     K.flicker_light(o, opt.get("f0", 1), opt.get("f1", nfr), seed=hash(o.name) & 0xff)
     # hand-held light sources carried by characters (torch / phone)
     for cid, cdef in film.get("characters", {}).items():
-        if cid in chars and shot.get("carry", {}).get(cid):
+        if cid in chars and shot.get("carry", {}).get(cid) in ("torch", "phone"):
             item = shot["carry"][cid]
             col = (1, 0.95, 0.8) if item == "torch" else (0.6, 0.8, 1.0)
             Lt = K.light('SPOT', (0, 0, 0), 900 if item == "torch" else 120, col, 0.05, spot=35 if item == "torch" else 90,
@@ -333,7 +415,7 @@ def build(job):
             K.box(f"{item}_{cid}_obj", (0, -0.1, -0.85), (0.12, 0.3, 0.12), K.emissive(col, 30), chars[cid].sh["R"])
 
     # selective shadows: only hero lights cast shadow maps (dominant CPU cost)
-    keep = ("key", "rim", "flood", "eyeL", "torch", "moon", "doorlight") + tuple(r.get("shadow_keep", ()))
+    keep = ("key", "rim", "flood", "eyeL", "torch", "moon", "doorlight", "sun") + tuple(r.get("shadow_keep", ()))
     if not r.get("all_shadows"):
         for o in bpy.data.objects:
             if o.type == 'LIGHT' and not any(k in o.name for k in keep):

@@ -1,0 +1,5467 @@
+{
+ "slug": "dont-drop-the-cake",
+ "title": "Don't Drop the Cake",
+ "rule_id": "cake",
+ "rule": "The mayor's cake must never touch the ground.",
+ "logline": "Benny, twelve and extremely confident, has to carry the mayor's seven-layer birthday cake across Brickton by noon \u2014 but the whole town seems determined to slow him down. They are. It's his birthday.",
+ "genre": "comedy",
+ "set": "town",
+ "seed": 21,
+ "look": "sunny",
+ "key": "F",
+ "bpm": 132,
+ "score_style": "playful",
+ "voice_speed": 0.86,
+ "runtime_target": [
+  145,
+  155
+ ],
+ "fx": [],
+ "thumb_text": "DON'T DROP THE CAKE",
+ "hook_caption": "The whole town tried to stop him delivering this cake. There was a reason. \ud83c\udf82",
+ "description": "Benny has one job: get the mayor's cake to the town square by noon without it touching the ground. A road closure, forty grocery bags, the slowest parking in history and a park full of sprinklers later\u2026 watch it twice. Every obstacle is a clue.",
+ "hashtags": [
+  "#shorts",
+  "#animation",
+  "#comedy",
+  "#3danimation",
+  "#blender",
+  "#story",
+  "#birthday",
+  "#plottwist",
+  "#funny",
+  "#fyp"
+ ],
+ "thumb": null,
+ "characters": {
+  "benny": {
+   "name": "Benny",
+   "voice": "boy",
+   "accessory": "cap",
+   "palette": {
+    "shirt": [
+     0.95,
+     0.32,
+     0.12
+    ],
+    "pants": [
+     0.15,
+     0.2,
+     0.45
+    ],
+    "hat": [
+     0.1,
+     0.45,
+     0.9
+    ]
+   },
+   "bio": "12. Talks fast, thinks faster (he thinks). Calls himself a professional. Want: deliver the cake by noon. Flaw: so sure of himself he never notices the obvious."
+  },
+  "pip": {
+   "name": "Pip",
+   "voice": "girl",
+   "accessory": "ponytail",
+   "palette": {
+    "shirt": [
+     0.3,
+     0.75,
+     0.55
+    ],
+    "pants": [
+     0.2,
+     0.2,
+     0.3
+    ],
+    "hair": [
+     0.55,
+     0.3,
+     0.08
+    ]
+   },
+   "bio": "12. Benny's best friend, on the walkie-talkie. Deadpan. Secretly running the whole operation."
+  },
+  "dough": {
+   "name": "Mrs. Dough",
+   "voice": "baker",
+   "accessory": "hair",
+   "scale": 1.05,
+   "palette": {
+    "shirt": [
+     0.98,
+     0.95,
+     0.92
+    ],
+    "pants": [
+     0.95,
+     0.5,
+     0.65
+    ],
+    "hair": [
+     0.35,
+     0.18,
+     0.08
+    ]
+   },
+   "bio": "The baker. Says 'take the long way' like it's a threat."
+  },
+  "plum": {
+   "name": "Officer Plum",
+   "voice": "cop",
+   "accessory": "cap",
+   "scale": 1.1,
+   "palette": {
+    "shirt": [
+     0.12,
+     0.2,
+     0.45
+    ],
+    "pants": [
+     0.08,
+     0.1,
+     0.2
+    ],
+    "hat": [
+     0.1,
+     0.12,
+     0.3
+    ],
+    "stripe": [
+     0.95,
+     0.8,
+     0.1
+    ]
+   },
+   "bio": "Closes roads 'for reasons'. The reasons are big."
+  },
+  "grandma": {
+   "name": "Grandma Rose",
+   "voice": "grandma",
+   "accessory": "glasses",
+   "scale": 0.92,
+   "palette": {
+    "shirt": [
+     0.7,
+     0.55,
+     0.9
+    ],
+    "pants": [
+     0.3,
+     0.25,
+     0.4
+    ],
+    "hair": [
+     0.9,
+     0.9,
+     0.92
+    ]
+   },
+   "skin": [
+    0.98,
+    0.85,
+    0.7
+   ],
+   "bio": "Has thirty bags of groceries. Has forty."
+  },
+  "fig": {
+   "name": "Mr. Fig",
+   "voice": "gruff",
+   "accessory": "glasses",
+   "palette": {
+    "shirt": [
+     0.45,
+     0.55,
+     0.2
+    ],
+    "pants": [
+     0.3,
+     0.22,
+     0.15
+    ],
+    "hair": [
+     0.2,
+     0.12,
+     0.05
+    ]
+   },
+   "bio": "Has been parking since Tuesday."
+  },
+  "lead": {
+   "name": "Bandleader Brass",
+   "voice": "man",
+   "accessory": "helmet",
+   "palette": {
+    "shirt": [
+     0.85,
+     0.1,
+     0.12
+    ],
+    "pants": [
+     0.95,
+     0.95,
+     0.95
+    ],
+    "hat": [
+     0.95,
+     0.95,
+     0.98
+    ],
+    "stripe": [
+     0.95,
+     0.8,
+     0.1
+    ]
+   },
+   "bio": "Leads the Brickton Marching Band. Is practicing. For nothing."
+  },
+  "mayor": {
+   "name": "Mayor Bloom",
+   "voice": "mayor",
+   "accessory": "helmet",
+   "scale": 1.1,
+   "palette": {
+    "shirt": [
+     0.15,
+     0.15,
+     0.2
+    ],
+    "pants": [
+     0.12,
+     0.12,
+     0.15
+    ],
+    "hat": [
+     0.1,
+     0.1,
+     0.1
+    ],
+    "stripe": [
+     0.9,
+     0.1,
+     0.2
+    ]
+   },
+   "bio": "Wears a sash and a hard hat (he was opening a library). It was never his birthday."
+  }
+ },
+ "monster": null,
+ "setting_note": "Brickton, a sunny pastel brick town: Main Street (bakery at the south end), the alley, the back lane, the park with its sprinklers, and the Town Square with the clock tower, fountain, market stalls and bunting.",
+ "dressing": {
+  "town": [
+   {
+    "kind": "police_car",
+    "at": [
+     5,
+     -33,
+     0
+    ],
+    "rot": 0,
+    "name": "plumcar"
+   },
+   {
+    "kind": "barrier",
+    "at": [
+     -2,
+     -34,
+     0
+    ]
+   },
+   {
+    "kind": "barrier",
+    "at": [
+     3,
+     -34,
+     0
+    ]
+   },
+   {
+    "kind": "sedan",
+    "at": [
+     8.5,
+     -50,
+     0
+    ],
+    "rot": 90,
+    "color": [
+     0.3,
+     0.6,
+     0.9
+    ],
+    "name": "parked1"
+   },
+   {
+    "kind": "sedan",
+    "at": [
+     8.5,
+     10,
+     0
+    ],
+    "rot": 90,
+    "color": [
+     0.95,
+     0.8,
+     0.2
+    ],
+    "name": "parked2"
+   },
+   {
+    "kind": "sedan",
+    "at": [
+     -8.5,
+     26,
+     0
+    ],
+    "rot": -90,
+    "color": [
+     0.9,
+     0.3,
+     0.3
+    ],
+    "name": "parked3"
+   }
+  ]
+ },
+ "premises": [
+  {
+   "premise": "A kid must carry the mayor's cake across town by noon; the town keeps stalling him \u2014 for his own surprise party.",
+   "scores": {
+    "hook": 9,
+    "clarity": 10,
+    "clever_use": 8,
+    "reversal": 10,
+    "originality": 8,
+    "total": 45
+   }
+  },
+  {
+   "premise": "A town's mayor is accidentally replaced by a goat and nobody notices for a week.",
+   "scores": {
+    "hook": 8,
+    "clarity": 9,
+    "clever_use": 6,
+    "reversal": 6,
+    "originality": 8,
+    "total": 37
+   }
+  },
+  {
+   "premise": "A boy's sneeze is so strong it moves houses; the town wants him for the annual parade.",
+   "scores": {
+    "hook": 8,
+    "clarity": 8,
+    "clever_use": 7,
+    "reversal": 6,
+    "originality": 8,
+    "total": 37
+   }
+  },
+  {
+   "premise": "Every statue in the square swaps places at night; a girl tries to prove it.",
+   "scores": {
+    "hook": 8,
+    "clarity": 8,
+    "clever_use": 7,
+    "reversal": 7,
+    "originality": 7,
+    "total": 37
+   }
+  },
+  {
+   "premise": "A pizza delivery that has to be on time \u2014 to a house that keeps moving down the street.",
+   "scores": {
+    "hook": 8,
+    "clarity": 8,
+    "clever_use": 7,
+    "reversal": 6,
+    "originality": 7,
+    "total": 36
+   }
+  },
+  {
+   "premise": "The town clock is five minutes fast and a kid has five minutes to fix it before the wedding.",
+   "scores": {
+    "hook": 7,
+    "clarity": 8,
+    "clever_use": 6,
+    "reversal": 6,
+    "originality": 6,
+    "total": 33
+   }
+  },
+  {
+   "premise": "Two rival bakers bake a cake so big it blocks Main Street.",
+   "scores": {
+    "hook": 7,
+    "clarity": 9,
+    "clever_use": 5,
+    "reversal": 5,
+    "originality": 6,
+    "total": 32
+   }
+  },
+  {
+   "premise": "A kid lies that he can juggle; the whole town shows up to the talent show.",
+   "scores": {
+    "hook": 8,
+    "clarity": 9,
+    "clever_use": 6,
+    "reversal": 7,
+    "originality": 6,
+    "total": 36
+   }
+  },
+  {
+   "premise": "A lost balloon ties the whole town together, literally.",
+   "scores": {
+    "hook": 6,
+    "clarity": 7,
+    "clever_use": 6,
+    "reversal": 5,
+    "originality": 7,
+    "total": 31
+   }
+  },
+  {
+   "premise": "A grandma enters a go-kart race against the mayor.",
+   "scores": {
+    "hook": 7,
+    "clarity": 9,
+    "clever_use": 6,
+    "reversal": 6,
+    "originality": 6,
+    "total": 34
+   }
+  }
+ ],
+ "chosen": 0,
+ "why": "Clear ticking clock (noon) + one simple rule (the cake never touches the ground) + escalating comic obstacles, and a twist that recontextualises every obstacle \u2014 so the ending pays off AND the film rewards a second watch.",
+ "outline": [
+  [
+   "Hook",
+   "0-6s",
+   "Deep trailer narrator, ridiculous stakes: the cake must never touch the ground."
+  ],
+  [
+   "Hero",
+   "6-20s",
+   "Benny, 12, 'a professional'. Mrs. Dough: noon sharp \u2014 and take the long way."
+  ],
+  [
+   "Ally",
+   "20-32s",
+   "Pip on the walkie, deadpan. Clock tower: eleven minutes to noon."
+  ],
+  [
+   "Obstacle 1",
+   "32-48s",
+   "Officer Plum closes the road 'for reasons'. Big ones."
+  ],
+  [
+   "Obstacle 2",
+   "48-66s",
+   "Grandma Rose and her thirty (forty) bags of groceries \u2014 stacked on the cake."
+  ],
+  [
+   "Obstacle 3",
+   "66-80s",
+   "Mr. Fig has been parking since Tuesday."
+  ],
+  [
+   "Obstacle 4",
+   "80-98s",
+   "Shortcut through the park. The sprinklers go off. Nope nope nope."
+  ],
+  [
+   "All is lost",
+   "98-110s",
+   "Benny bursts into the square at noon. It's empty."
+  ],
+  [
+   "Twist",
+   "110-128s",
+   "'Turn around.' SURPRISE! It's his birthday \u2014 every obstacle was the town stalling him."
+  ],
+  [
+   "Button",
+   "128-150s",
+   "He carried his own birthday cake across town. The cake never touched the ground. It touched his face."
+  ]
+ ],
+ "draft": "NARRATOR: In the town of Brickton there is a tradition that the mayor's birthday cake must never touch the ground.\nBENNY: That's no problem for me, I'm basically a professional cake delivery person.\nNARRATOR: Benny was only twelve years old and was definitely not a professional.\nMRS. DOUGH: Please take this cake to the town square by twelve o'clock, and make sure you take the long way.\nBENNY: Why would I take the long way when the square is right there?\nPIP: Benny, do you have the cake?\nBENNY: Yes, I have the cake, Pip.\nNARRATOR: On the way, a police officer stopped him and told him the road was closed.\nNARRATOR: Then his grandmother asked him to help carry her groceries.\nNARRATOR: Then Mr. Fig blocked the lane while parking his car very slowly.\nNARRATOR: Benny decided to take a shortcut through the park, but the sprinklers turned on.\nNARRATOR: When he finally arrived at the square, there was nobody there.\nPIP: Turn around.\nEVERYONE: Surprise!\nNARRATOR: It was actually Benny's birthday, and the whole town had been delaying him to set up a party.\nNARRATOR: Then Benny tripped and fell into the cake.",
+ "critique": [
+  "The hook is a sentence about a tradition. Comedy hook = absurd stakes delivered DEAD serious: give the trailer narrator one line, then cut to the kid.",
+  "Benny needs a running bit, not a description: 'I'm a professional' becomes the callback that lands the ending ('Professionally.').",
+  "'Take the long way' is the first clue \u2014 make it suspicious ('Long. Way.') so a rewatch catches it.",
+  "Every obstacle is narrated, not played. Each needs its own two-hander with a punchline: Plum's 'reasons', Grandma's thirty-then-forty bags, Fig 'parking since Tuesday'.",
+  "No ticking clock is visible. Cut to the clock tower between obstacles \u2014 eleven, eight, three, zero minutes.",
+  "Pip is just a voice. Show her \u2014 hiding behind a market stall IN THE SQUARE, with people crouched behind her. Viewers won't notice the first time.",
+  "The empty square is the all-is-lost beat: let it breathe with a full music drop and the bells.",
+  "The twist is explained in one flat line. Instead: rapid callback cuts \u2014 Plum, Grandma, Fig \u2014 each with a guilty wink and their own line back.",
+  "Ending pratfall needs a set-up/payoff: narrator 'the cake never touched the ground' \u2192 beat \u2192 '\u2026it touched Benny's face.'",
+  "Pace: 2:30 of comedy needs fast lines (\u2264 10 words), overlaps, and a cut every ~2 s. Voices sped up ~14%."
+ ],
+ "beat_map": [
+  "Laugh/reveal every 8\u201312 s: professional (8s) \u2192 'Long. Way.' (18s) \u2192 'spiritually' (28s) \u2192 'big reasons' (40s) \u2192 forty bags (58s) \u2192 parking since Tuesday (74s) \u2192 sprinklers (88s) \u2192 empty square (102s) \u2192 SURPRISE (112s) \u2192 callbacks (120-132s) \u2192 splat (142s)."
+ ],
+ "beats": [
+  {
+   "say": [
+    "narrator",
+    "In Brickton, the mayor's birthday cake has one rule."
+   ],
+   "shots": [
+    {
+     "camera": {
+      "subject": "mark:tower",
+      "framing": "ews",
+      "move": "crane_down",
+      "angle": "high",
+      "lens": 24,
+      "az": 0,
+      "pos": [
+       22,
+       40,
+       34
+      ],
+      "pos2": [
+       14,
+       30,
+       22
+      ]
+     },
+     "actions": [],
+     "w": 1.0,
+     "set": "town",
+     "fx": [],
+     "set_args": {
+      "clock": [
+       [
+        1,
+        11
+       ]
+      ]
+     }
+    }
+   ],
+   "pad": 0.25,
+   "tension": 0.3,
+   "kind": null,
+   "sfx": [
+    {
+     "kind": "bell",
+     "at": 0.1,
+     "gain": 0.6
+    }
+   ],
+   "hold": 0.0,
+   "label": null
+  },
+  {
+   "say": [
+    "narrator",
+    "It never. Touches. The ground."
+   ],
+   "shots": [
+    {
+     "camera": {
+      "subject": "benny",
+      "framing": "mcu",
+      "move": "push_in",
+      "angle": "worm",
+      "lens": 24,
+      "az": 35
+     },
+     "actions": [
+      {
+       "who": "benny",
+       "action": "idle",
+       "at": [
+        -7,
+        -64,
+        0.24
+       ],
+       "facing": 200,
+       "expr": "determined"
+      }
+     ],
+     "w": 1.0,
+     "set": "town",
+     "fx": [],
+     "carry": {
+      "benny": "cake"
+     }
+    }
+   ],
+   "pad": 0.6,
+   "tension": 0.45,
+   "kind": "hit",
+   "sfx": [],
+   "hold": 0.0,
+   "label": null
+  },
+  {
+   "say": [
+    "narrator",
+    "Three hundred years. Not one crumb on the floor."
+   ],
+   "shots": [
+    {
+     "camera": {
+      "subject": "mark:tower",
+      "framing": "ws",
+      "move": "tilt_up",
+      "angle": "worm",
+      "lens": 24,
+      "az": 0,
+      "pos": [
+       -4,
+       -58,
+       0.6
+      ],
+      "pos2": [
+       -4,
+       -57,
+       0.8
+      ]
+     },
+     "actions": [
+      {
+       "who": "benny",
+       "action": "idle",
+       "at": [
+        -7,
+        -64,
+        0.24
+       ],
+       "facing": 180,
+       "expr": "determined"
+      }
+     ],
+     "w": 1.0,
+     "set": "town",
+     "fx": [],
+     "carry": {
+      "benny": "cake"
+     }
+    }
+   ],
+   "pad": 0.25,
+   "tension": 0.4,
+   "kind": null,
+   "sfx": [],
+   "hold": 0.0,
+   "label": null
+  },
+  {
+   "say": [
+    "benny",
+    "Which is fine. Because I'm a professional."
+   ],
+   "shots": [
+    {
+     "camera": {
+      "subject": "benny",
+      "framing": "ms",
+      "move": "orbit_right",
+      "angle": "eye",
+      "lens": 35,
+      "az": 25
+     },
+     "actions": [
+      {
+       "who": "benny",
+       "action": "talk",
+       "at": [
+        -7,
+        -64,
+        0.24
+       ],
+       "facing": 200,
+       "expr": "sly"
+      }
+     ],
+     "w": 1.0,
+     "set": "town",
+     "fx": [],
+     "carry": {
+      "benny": "cake"
+     }
+    }
+   ],
+   "pad": 0.25,
+   "tension": 0.4,
+   "kind": null,
+   "sfx": [],
+   "hold": 0.0,
+   "label": null
+  },
+  {
+   "say": [
+    "narrator",
+    "Benny was twelve. He was not a professional."
+   ],
+   "shots": [
+    {
+     "camera": {
+      "subject": "benny",
+      "framing": "ws",
+      "move": "pull_out",
+      "angle": "high",
+      "lens": 24,
+      "az": 30
+     },
+     "actions": [
+      {
+       "who": "benny",
+       "action": "idle",
+       "at": [
+        -7,
+        -64,
+        0.24
+       ],
+       "facing": 180,
+       "expr": "happy"
+      }
+     ],
+     "w": 1.0,
+     "set": "town",
+     "fx": [],
+     "carry": {
+      "benny": "cake"
+     }
+    }
+   ],
+   "pad": 0.25,
+   "tension": 0.35,
+   "kind": null,
+   "sfx": [],
+   "hold": 0.0,
+   "label": null
+  },
+  {
+   "say": [
+    "dough",
+    "Town square. Noon sharp. And Benny?"
+   ],
+   "shots": [
+    {
+     "camera": {
+      "subject": "dough",
+      "framing": "mcu",
+      "move": "push_in",
+      "angle": "eye",
+      "lens": 50,
+      "az": -20
+     },
+     "actions": [
+      {
+       "who": "dough",
+       "action": "talk",
+       "at": [
+        -10.2,
+        -64,
+        0.24
+       ],
+       "facing": 100,
+       "expr": "sly"
+      },
+      {
+       "who": "benny",
+       "action": "idle",
+       "at": [
+        -7,
+        -64,
+        0.24
+       ],
+       "facing": 260
+      }
+     ],
+     "w": 1.0,
+     "set": "town",
+     "fx": [],
+     "carry": {
+      "benny": "cake"
+     }
+    }
+   ],
+   "pad": 0.25,
+   "tension": 0.4,
+   "kind": null,
+   "sfx": [],
+   "hold": 0.0,
+   "label": null
+  },
+  {
+   "say": [
+    "dough",
+    "Take the long way."
+   ],
+   "shots": [
+    {
+     "camera": {
+      "subject": "dough",
+      "framing": "cu",
+      "move": "push_in",
+      "angle": "eye",
+      "lens": 50,
+      "az": -10
+     },
+     "actions": [
+      {
+       "who": "dough",
+       "action": "talk",
+       "at": [
+        -10.2,
+        -64,
+        0.24
+       ],
+       "facing": 100,
+       "expr": "sly"
+      }
+     ],
+     "w": 1.0,
+     "set": "town",
+     "fx": []
+    }
+   ],
+   "pad": 0.25,
+   "tension": 0.45,
+   "kind": "riser",
+   "sfx": [],
+   "hold": 0.0,
+   "label": null
+  },
+  {
+   "say": [
+    "benny",
+    "The long way? It's literally right there!"
+   ],
+   "shots": [
+    {
+     "camera": {
+      "subject": "benny",
+      "framing": "ms",
+      "move": "push_in",
+      "angle": "low",
+      "lens": 24,
+      "az": 160
+     },
+     "actions": [
+      {
+       "who": "benny",
+       "action": "point",
+       "at": [
+        -7,
+        -64,
+        0.24
+       ],
+       "facing": 180,
+       "expr": "shock"
+      }
+     ],
+     "w": 1.0,
+     "set": "town",
+     "fx": [],
+     "carry": {
+      "benny": "cake"
+     },
+     "set_args": {
+      "clock": [
+       [
+        1,
+        11
+       ]
+      ]
+     }
+    }
+   ],
+   "pad": 0.25,
+   "tension": 0.45,
+   "kind": null,
+   "sfx": [],
+   "hold": 0.0,
+   "label": null
+  },
+  {
+   "say": [
+    "dough",
+    "Long. Way."
+   ],
+   "shots": [
+    {
+     "camera": {
+      "subject": "dough",
+      "framing": "cu",
+      "move": "static_drift",
+      "angle": "eye",
+      "lens": 85,
+      "az": 0
+     },
+     "actions": [
+      {
+       "who": "dough",
+       "action": "idle",
+       "at": [
+        -10.2,
+        -64,
+        0.24
+       ],
+       "facing": 100,
+       "expr": "angry"
+      }
+     ],
+     "w": 1.0,
+     "set": "town",
+     "fx": []
+    }
+   ],
+   "pad": 0.6,
+   "tension": 0.5,
+   "kind": "hit",
+   "sfx": [
+    {
+     "kind": "bonk",
+     "at": 0.6
+    }
+   ],
+   "hold": 0.0,
+   "label": null
+  },
+  {
+   "say": [
+    "pip",
+    "Benny, it's Pip. Do you have the cake?"
+   ],
+   "shots": [
+    {
+     "camera": {
+      "subject": "pip",
+      "framing": "mcu",
+      "move": "push_in",
+      "angle": "eye",
+      "lens": 50,
+      "az": 20
+     },
+     "actions": [
+      {
+       "who": "pip",
+       "action": "talk",
+       "at": [
+        -13.5,
+        76,
+        0.12
+       ],
+       "facing": 200,
+       "expr": "sly"
+      }
+     ],
+     "w": 1.0,
+     "set": "town",
+     "fx": [],
+     "crowd": {
+      "center": [
+       -16.5,
+       80,
+       0.12
+      ],
+      "n": 4,
+      "radius": 2.5,
+      "inner": 1.0,
+      "seed": 4,
+      "actions": [
+       [
+        "hide",
+        0,
+        1
+       ]
+      ]
+     },
+     "carry": {
+      "pip": "phone"
+     }
+    }
+   ],
+   "pad": 0.25,
+   "tension": 0.4,
+   "kind": null,
+   "sfx": [],
+   "hold": 0.0,
+   "label": null,
+   "voice_fx": "radio"
+  },
+  {
+   "say": [
+    "benny",
+    "Do I have the cake. Pip. I am the cake. Spiritually."
+   ],
+   "shots": [
+    {
+     "camera": {
+      "subject": "benny",
+      "framing": "mws",
+      "move": "track",
+      "angle": "eye",
+      "lens": 35,
+      "az": 0
+     },
+     "actions": [
+      {
+       "who": "benny",
+       "action": "walk",
+       "path": [
+        [
+         -6,
+         -60,
+         0.24
+        ],
+        [
+         -6,
+         -50,
+         0.24
+        ]
+       ],
+       "expr": "sly"
+      }
+     ],
+     "w": 1.0,
+     "set": "town",
+     "fx": [],
+     "carry": {
+      "benny": "cake"
+     }
+    }
+   ],
+   "pad": 0.25,
+   "tension": 0.45,
+   "kind": null,
+   "sfx": [],
+   "hold": 0.0,
+   "label": null
+  },
+  {
+   "say": [
+    "pip",
+    "That doesn't mean anything."
+   ],
+   "shots": [
+    {
+     "camera": {
+      "subject": "pip",
+      "framing": "cu",
+      "move": "static_drift",
+      "angle": "eye",
+      "lens": 50,
+      "az": -15
+     },
+     "actions": [
+      {
+       "who": "pip",
+       "action": "talk",
+       "at": [
+        -13.5,
+        76,
+        0.12
+       ],
+       "facing": 200,
+       "expr": "neutral"
+      }
+     ],
+     "w": 1.0,
+     "set": "town",
+     "fx": [],
+     "crowd": {
+      "center": [
+       -16.5,
+       80,
+       0.12
+      ],
+      "n": 4,
+      "radius": 2.5,
+      "inner": 1.0,
+      "seed": 4,
+      "actions": [
+       [
+        "hide",
+        0,
+        1
+       ]
+      ]
+     },
+     "carry": {
+      "pip": "phone"
+     }
+    }
+   ],
+   "pad": 0.25,
+   "tension": 0.45,
+   "kind": null,
+   "sfx": [],
+   "hold": 0.0,
+   "label": null,
+   "voice_fx": "radio"
+  },
+  {
+   "say": [
+    "narrator",
+    "Eleven minutes to noon."
+   ],
+   "shots": [
+    {
+     "camera": {
+      "subject": [
+       0,
+       92,
+       18
+      ],
+      "framing": "ms",
+      "move": "tilt_up",
+      "angle": "low",
+      "lens": 35,
+      "az": 0,
+      "pos": [
+       0,
+       60,
+       2
+      ]
+     },
+     "actions": [],
+     "w": 1.0,
+     "set": "town",
+     "fx": [],
+     "set_args": {
+      "clock": [
+       [
+        1,
+        11
+       ]
+      ]
+     }
+    }
+   ],
+   "pad": 0.6,
+   "tension": 0.5,
+   "kind": "hit",
+   "sfx": [
+    {
+     "kind": "bell",
+     "at": 0.0,
+     "gain": 0.4
+    }
+   ],
+   "hold": 0.0,
+   "label": null
+  },
+  {
+   "say": [
+    "plum",
+    "Stop right there, son!"
+   ],
+   "shots": [
+    {
+     "camera": {
+      "subject": "plum",
+      "framing": "ms",
+      "move": "whip_pan",
+      "angle": "low",
+      "lens": 24,
+      "az": 0,
+      "subject2": "benny",
+      "whip_at": 0.15
+     },
+     "actions": [
+      {
+       "who": "plum",
+       "action": "point",
+       "at": [
+        1.5,
+        -38,
+        0.05
+       ],
+       "facing": 0,
+       "expr": "angry"
+      },
+      {
+       "who": "benny",
+       "action": "freeze",
+       "at": [
+        -1,
+        -44,
+        0.05
+       ],
+       "facing": 180,
+       "expr": "shock"
+      }
+     ],
+     "w": 1.0,
+     "set": "town",
+     "fx": [],
+     "carry": {
+      "benny": "cake"
+     }
+    }
+   ],
+   "pad": 0.6,
+   "tension": 0.6,
+   "kind": "hit",
+   "sfx": [
+    {
+     "kind": "siren",
+     "at": 0.0,
+     "gain": 0.5
+    }
+   ],
+   "hold": 0.0,
+   "label": null
+  },
+  {
+   "say": [
+    "benny",
+    "Officer, I can explain. It's a cake. It's a legal cake\u2014"
+   ],
+   "shots": [
+    {
+     "camera": {
+      "subject": "benny",
+      "framing": "mcu",
+      "move": "handheld",
+      "angle": "eye",
+      "lens": 50,
+      "az": -15,
+      "shake": 0.3
+     },
+     "actions": [
+      {
+       "who": "benny",
+       "action": "talk",
+       "at": [
+        -1,
+        -44,
+        0.05
+       ],
+       "facing": 180,
+       "expr": "fear"
+      }
+     ],
+     "w": 1.0,
+     "set": "town",
+     "fx": [],
+     "carry": {
+      "benny": "cake"
+     }
+    }
+   ],
+   "pad": 0.05,
+   "tension": 0.55,
+   "kind": null,
+   "sfx": [],
+   "hold": 0.0,
+   "label": null
+  },
+  {
+   "say": [
+    "plum",
+    "Road's closed."
+   ],
+   "shots": [
+    {
+     "camera": {
+      "subject": "plum",
+      "framing": "mcu",
+      "move": "push_in",
+      "angle": "worm",
+      "lens": 24,
+      "az": 10
+     },
+     "actions": [
+      {
+       "who": "plum",
+       "action": "idle",
+       "at": [
+        1.5,
+        -38,
+        0.05
+       ],
+       "facing": 0,
+       "expr": "determined"
+      }
+     ],
+     "w": 1.0,
+     "set": "town",
+     "fx": []
+    }
+   ],
+   "pad": 0.25,
+   "tension": 0.5,
+   "kind": null,
+   "sfx": [],
+   "hold": 0.0,
+   "label": null
+  },
+  {
+   "say": [
+    "benny",
+    "Why?"
+   ],
+   "shots": [
+    {
+     "camera": {
+      "subject": "benny",
+      "framing": "cu",
+      "move": "static_drift",
+      "angle": "eye",
+      "lens": 50,
+      "az": 10
+     },
+     "actions": [
+      {
+       "who": "benny",
+       "action": "gasp",
+       "at": [
+        -1,
+        -44,
+        0.05
+       ],
+       "facing": 180,
+       "expr": "shock"
+      }
+     ],
+     "w": 1.0,
+     "set": "town",
+     "fx": [],
+     "carry": {
+      "benny": "cake"
+     }
+    }
+   ],
+   "pad": 0.15,
+   "tension": 0.5,
+   "kind": null,
+   "sfx": [],
+   "hold": 0.0,
+   "label": null
+  },
+  {
+   "say": [
+    "plum",
+    "Reasons."
+   ],
+   "shots": [
+    {
+     "camera": {
+      "subject": "plum",
+      "framing": "cu",
+      "move": "push_in",
+      "angle": "eye",
+      "lens": 85,
+      "az": -10
+     },
+     "actions": [
+      {
+       "who": "plum",
+       "action": "idle",
+       "at": [
+        1.5,
+        -38,
+        0.05
+       ],
+       "facing": 0,
+       "expr": "sly"
+      }
+     ],
+     "w": 1.0,
+     "set": "town",
+     "fx": []
+    }
+   ],
+   "pad": 0.2,
+   "tension": 0.5,
+   "kind": null,
+   "sfx": [],
+   "hold": 0.0,
+   "label": null
+  },
+  {
+   "say": [
+    "benny",
+    "What reasons?!"
+   ],
+   "shots": [
+    {
+     "camera": {
+      "subject": "benny",
+      "framing": "ms",
+      "move": "orbit_left",
+      "angle": "eye",
+      "lens": 35,
+      "az": 30
+     },
+     "actions": [
+      {
+       "who": "benny",
+       "action": "panic",
+       "at": [
+        -1,
+        -44,
+        0.05
+       ],
+       "facing": 180,
+       "expr": "angry"
+      }
+     ],
+     "w": 1.0,
+     "set": "town",
+     "fx": [],
+     "carry": {
+      "benny": "cake"
+     }
+    }
+   ],
+   "pad": 0.25,
+   "tension": 0.55,
+   "kind": null,
+   "sfx": [],
+   "hold": 0.0,
+   "label": null
+  },
+  {
+   "say": [
+    "plum",
+    "Big ones. Go around."
+   ],
+   "shots": [
+    {
+     "camera": {
+      "subject": "plum",
+      "framing": "ms",
+      "move": "ots",
+      "angle": "eye",
+      "lens": 35,
+      "az": 180,
+      "subject2": "benny"
+     },
+     "actions": [
+      {
+       "who": "plum",
+       "action": "point",
+       "at": [
+        1.5,
+        -38,
+        0.05
+       ],
+       "facing": 10,
+       "expr": "sly"
+      },
+      {
+       "who": "benny",
+       "action": "idle",
+       "at": [
+        -1,
+        -44,
+        0.05
+       ],
+       "facing": 180,
+       "expr": "sad"
+      }
+     ],
+     "w": 1.0,
+     "set": "town",
+     "fx": [],
+     "carry": {
+      "benny": "cake"
+     }
+    }
+   ],
+   "pad": 0.6,
+   "tension": 0.5,
+   "kind": "hit",
+   "sfx": [],
+   "hold": 0.0,
+   "label": null
+  },
+  {
+   "say": [
+    "benny",
+    "Is it a big reason or a\u2014"
+   ],
+   "shots": [
+    {
+     "camera": {
+      "subject": "benny",
+      "framing": "mcu",
+      "move": "push_in",
+      "angle": "low",
+      "lens": 50,
+      "az": 20
+     },
+     "actions": [
+      {
+       "who": "benny",
+       "action": "talk",
+       "at": [
+        -1,
+        -44,
+        0.05
+       ],
+       "facing": 180,
+       "expr": "sly"
+      }
+     ],
+     "w": 1.0,
+     "set": "town",
+     "fx": [],
+     "carry": {
+      "benny": "cake"
+     }
+    }
+   ],
+   "pad": 0.0,
+   "tension": 0.5,
+   "kind": null,
+   "sfx": [],
+   "hold": 0.0,
+   "label": null
+  },
+  {
+   "say": [
+    "plum",
+    "Bigger than you."
+   ],
+   "shots": [
+    {
+     "camera": {
+      "subject": "plum",
+      "framing": "mcu",
+      "move": "push_in",
+      "angle": "worm",
+      "lens": 24,
+      "az": -15
+     },
+     "actions": [
+      {
+       "who": "plum",
+       "action": "idle",
+       "at": [
+        1.5,
+        -38,
+        0.05
+       ],
+       "facing": 0,
+       "expr": "angry"
+      }
+     ],
+     "w": 1.0,
+     "set": "town",
+     "fx": []
+    }
+   ],
+   "pad": 0.6,
+   "tension": 0.55,
+   "kind": "hit",
+   "sfx": [
+    {
+     "kind": "bonk",
+     "at": 0.5
+    }
+   ],
+   "hold": 0.0,
+   "label": null
+  },
+  {
+   "say": [
+    "narrator",
+    "Around meant the alley. The alley meant Grandma Rose."
+   ],
+   "shots": [
+    {
+     "camera": {
+      "subject": "benny",
+      "framing": "ws",
+      "move": "crane_up",
+      "angle": "high",
+      "lens": 24,
+      "az": 0,
+      "pos": [
+       -6,
+       -12,
+       3
+      ],
+      "pos2": [
+       -7,
+       -14,
+       12
+      ]
+     },
+     "actions": [
+      {
+       "who": "benny",
+       "action": "walk",
+       "path": [
+        [
+         -8,
+         -20,
+         0.05
+        ],
+        [
+         -18,
+         -20,
+         0.05
+        ]
+       ]
+      }
+     ],
+     "w": 1.0,
+     "set": "town",
+     "fx": [],
+     "carry": {
+      "benny": "cake"
+     }
+    }
+   ],
+   "pad": 0.25,
+   "tension": 0.45,
+   "kind": null,
+   "sfx": [],
+   "hold": 0.0,
+   "label": null
+  },
+  {
+   "say": [
+    "grandma",
+    "Benny, sweetie! Help me with my groceries?"
+   ],
+   "shots": [
+    {
+     "camera": {
+      "subject": "grandma",
+      "framing": "mcu",
+      "move": "push_in",
+      "angle": "low",
+      "lens": 50,
+      "az": 20
+     },
+     "actions": [
+      {
+       "who": "grandma",
+       "action": "talk",
+       "at": [
+        -25,
+        -21,
+        0.05
+       ],
+       "facing": 270,
+       "expr": "happy"
+      }
+     ],
+     "w": 1.0,
+     "set": "town",
+     "fx": [],
+     "carry": {
+      "benny": "cake"
+     },
+     "props": [
+      {
+       "kind": "crate",
+       "at": [
+        -26.5,
+        -22,
+        0
+       ],
+       "size": 0.6
+      },
+      {
+       "kind": "crate",
+       "at": [
+        -27,
+        -20.5,
+        0
+       ],
+       "size": 0.6
+      }
+     ]
+    }
+   ],
+   "pad": 0.25,
+   "tension": 0.4,
+   "kind": null,
+   "sfx": [],
+   "hold": 0.0,
+   "label": null
+  },
+  {
+   "say": [
+    "benny",
+    "Grandma, I'm holding a seven-layer cake!"
+   ],
+   "shots": [
+    {
+     "camera": {
+      "subject": "benny",
+      "framing": "ms",
+      "move": "push_in",
+      "angle": "eye",
+      "lens": 35,
+      "az": -30
+     },
+     "actions": [
+      {
+       "who": "benny",
+       "action": "talk",
+       "at": [
+        -20,
+        -20,
+        0.05
+       ],
+       "facing": 90,
+       "expr": "fear"
+      }
+     ],
+     "w": 1.0,
+     "set": "town",
+     "fx": [],
+     "carry": {
+      "benny": "cake"
+     }
+    }
+   ],
+   "pad": 0.25,
+   "tension": 0.45,
+   "kind": null,
+   "sfx": [],
+   "hold": 0.0,
+   "label": null
+  },
+  {
+   "say": [
+    "grandma",
+    "Just thirty bags, dear."
+   ],
+   "shots": [
+    {
+     "camera": {
+      "subject": "grandma",
+      "framing": "cu",
+      "move": "static_drift",
+      "angle": "eye",
+      "lens": 50,
+      "az": -10
+     },
+     "actions": [
+      {
+       "who": "grandma",
+       "action": "idle",
+       "at": [
+        -25,
+        -21,
+        0.05
+       ],
+       "facing": 270,
+       "expr": "happy"
+      }
+     ],
+     "w": 1.0,
+     "set": "town",
+     "fx": []
+    }
+   ],
+   "pad": 0.6,
+   "tension": 0.45,
+   "kind": "hit",
+   "sfx": [
+    {
+     "kind": "bonk",
+     "at": 0.7
+    }
+   ],
+   "hold": 0.0,
+   "label": null
+  },
+  {
+   "say": [
+    "benny",
+    "Grandma, you live alone!"
+   ],
+   "shots": [
+    {
+     "camera": {
+      "subject": "benny",
+      "framing": "cu",
+      "move": "push_in",
+      "angle": "eye",
+      "lens": 50,
+      "az": -20
+     },
+     "actions": [
+      {
+       "who": "benny",
+       "action": "talk",
+       "at": [
+        -20,
+        -20,
+        0.05
+       ],
+       "facing": 90,
+       "expr": "shock"
+      }
+     ],
+     "w": 1.0,
+     "set": "town",
+     "fx": [],
+     "carry": {
+      "benny": "cake"
+     }
+    }
+   ],
+   "pad": 0.25,
+   "tension": 0.45,
+   "kind": null,
+   "sfx": [],
+   "hold": 0.0,
+   "label": null
+  },
+  {
+   "say": [
+    "grandma",
+    "I'm a big eater, dear."
+   ],
+   "shots": [
+    {
+     "camera": {
+      "subject": "grandma",
+      "framing": "mcu",
+      "move": "static_drift",
+      "angle": "eye",
+      "lens": 50,
+      "az": 25
+     },
+     "actions": [
+      {
+       "who": "grandma",
+       "action": "idle",
+       "at": [
+        -25,
+        -21,
+        0.05
+       ],
+       "facing": 270,
+       "expr": "sly"
+      }
+     ],
+     "w": 1.0,
+     "set": "town",
+     "fx": []
+    }
+   ],
+   "pad": 0.6,
+   "tension": 0.45,
+   "kind": "hit",
+   "sfx": [],
+   "hold": 0.0,
+   "label": null
+  },
+  {
+   "say": [
+    "narrator",
+    "It was not thirty bags."
+   ],
+   "shots": [
+    {
+     "camera": {
+      "subject": "benny",
+      "framing": "ms",
+      "move": "tilt_up",
+      "angle": "worm",
+      "lens": 24,
+      "az": 0
+     },
+     "actions": [
+      {
+       "who": "benny",
+       "action": "walk",
+       "path": [
+        [
+         -20,
+         -20,
+         0.05
+        ],
+        [
+         -24,
+         -16,
+         0.05
+        ]
+       ],
+       "expr": "sad"
+      }
+     ],
+     "w": 1.0,
+     "set": "town",
+     "fx": [],
+     "carry": {
+      "benny": "cake_bags"
+     }
+    }
+   ],
+   "pad": 0.25,
+   "tension": 0.5,
+   "kind": null,
+   "sfx": [],
+   "hold": 0.0,
+   "label": null
+  },
+  {
+   "say": [
+    "narrator",
+    "It was forty."
+   ],
+   "shots": [
+    {
+     "camera": {
+      "subject": "benny",
+      "framing": "ws",
+      "move": "pull_out",
+      "angle": "high",
+      "lens": 24,
+      "az": 40
+     },
+     "actions": [
+      {
+       "who": "benny",
+       "action": "walk",
+       "path": [
+        [
+         -26,
+         -14,
+         0.05
+        ],
+        [
+         -34,
+         -8,
+         0.05
+        ]
+       ],
+       "expr": "sad"
+      },
+      {
+       "who": "grandma",
+       "action": "cheer",
+       "at": [
+        -25,
+        -21,
+        0.05
+       ],
+       "facing": 300
+      }
+     ],
+     "w": 1.0,
+     "set": "town",
+     "fx": [],
+     "carry": {
+      "benny": "cake_bags"
+     }
+    }
+   ],
+   "pad": 0.6,
+   "tension": 0.5,
+   "kind": "hit",
+   "sfx": [
+    {
+     "kind": "bonk",
+     "at": 0.2
+    }
+   ],
+   "hold": 0.0,
+   "label": null
+  },
+  {
+   "say": [
+    "pip",
+    "Eight minutes, Benny!"
+   ],
+   "shots": [
+    {
+     "camera": {
+      "subject": "pip",
+      "framing": "mcu",
+      "move": "push_in",
+      "angle": "eye",
+      "lens": 50,
+      "az": 30
+     },
+     "actions": [
+      {
+       "who": "pip",
+       "action": "talk",
+       "at": [
+        -13.5,
+        76,
+        0.12
+       ],
+       "facing": 200,
+       "expr": "sly"
+      }
+     ],
+     "w": 1.0,
+     "set": "town",
+     "fx": [],
+     "crowd": {
+      "center": [
+       -16.5,
+       80,
+       0.12
+      ],
+      "n": 4,
+      "radius": 2.5,
+      "inner": 1.0,
+      "seed": 4,
+      "actions": [
+       [
+        "hide",
+        0,
+        1
+       ]
+      ]
+     },
+     "carry": {
+      "pip": "phone"
+     }
+    }
+   ],
+   "pad": 0.25,
+   "tension": 0.55,
+   "kind": null,
+   "sfx": [],
+   "hold": 0.0,
+   "label": null,
+   "voice_fx": "radio"
+  },
+  {
+   "say": [
+    "benny",
+    "I know, Pip!"
+   ],
+   "shots": [
+    {
+     "camera": {
+      "subject": "benny",
+      "framing": "cu",
+      "move": "handheld",
+      "angle": "eye",
+      "lens": 50,
+      "az": 0,
+      "shake": 0.3
+     },
+     "actions": [
+      {
+       "who": "benny",
+       "action": "run",
+       "path": [
+        [
+         -38,
+         -12,
+         0.05
+        ],
+        [
+         -40,
+         -6,
+         0.05
+        ]
+       ],
+       "expr": "angry"
+      }
+     ],
+     "w": 1.0,
+     "set": "town",
+     "fx": [],
+     "carry": {
+      "benny": "cake"
+     }
+    }
+   ],
+   "pad": 0.25,
+   "tension": 0.6,
+   "kind": null,
+   "sfx": [],
+   "hold": 0.0,
+   "label": null,
+   "voice_fx": null
+  },
+  {
+   "say": [
+    "narrator",
+    "Then Mr. Fig tried to park."
+   ],
+   "shots": [
+    {
+     "camera": {
+      "subject": "mark:lane",
+      "framing": "ws",
+      "move": "drone_orbit",
+      "angle": "high",
+      "lens": 24,
+      "az": 0,
+      "pos": [
+       -26,
+       -14,
+       18
+      ],
+      "pos2": [
+       -30,
+       -18,
+       16
+      ]
+     },
+     "actions": [
+      {
+       "who": "benny",
+       "action": "freeze",
+       "at": [
+        -40,
+        -10,
+        0.05
+       ],
+       "facing": 180,
+       "expr": "shock"
+      },
+      {
+       "who": "fig",
+       "action": "idle",
+       "at": [
+        -34,
+        6,
+        0.05
+       ],
+       "facing": 90
+      }
+     ],
+     "w": 1.0,
+     "set": "town",
+     "fx": [],
+     "carry": {
+      "benny": "cake"
+     },
+     "props": [
+      {
+       "kind": "sedan",
+       "at": [
+        -44,
+        4,
+        0
+       ],
+       "rot": 0,
+       "color": [
+        0.45,
+        0.55,
+        0.2
+       ],
+       "name": "figcar",
+       "move": {
+        "to": [
+         -37,
+         4,
+         0
+        ],
+        "f0": 1,
+        "f1": 40
+       }
+      }
+     ]
+    }
+   ],
+   "pad": 0.25,
+   "tension": 0.5,
+   "kind": null,
+   "sfx": [
+    {
+     "kind": "horn",
+     "at": 0.3
+    }
+   ],
+   "hold": 0.0,
+   "label": null
+  },
+  {
+   "say": [
+    "fig",
+    "Almost\u2026 almost\u2026 nope."
+   ],
+   "shots": [
+    {
+     "camera": {
+      "subject": "fig",
+      "framing": "mcu",
+      "move": "push_in",
+      "angle": "eye",
+      "lens": 50,
+      "az": -20
+     },
+     "actions": [
+      {
+       "who": "fig",
+       "action": "talk",
+       "at": [
+        -34,
+        6,
+        0.05
+       ],
+       "facing": 90,
+       "expr": "determined"
+      }
+     ],
+     "w": 1.0,
+     "set": "town",
+     "fx": [],
+     "props": [
+      {
+       "kind": "sedan",
+       "at": [
+        -37,
+        4,
+        0
+       ],
+       "rot": 0,
+       "color": [
+        0.45,
+        0.55,
+        0.2
+       ],
+       "name": "figcar",
+       "move": {
+        "to": [
+         -43,
+         4,
+         0
+        ],
+        "f0": 1,
+        "f1": 40
+       }
+      }
+     ]
+    }
+   ],
+   "pad": 0.25,
+   "tension": 0.5,
+   "kind": null,
+   "sfx": [],
+   "hold": 0.0,
+   "label": null
+  },
+  {
+   "say": [
+    "benny",
+    "Mr. Fig! You've been parking since Tuesday!"
+   ],
+   "shots": [
+    {
+     "camera": {
+      "subject": "benny",
+      "framing": "ms",
+      "move": "push_in",
+      "angle": "low",
+      "lens": 35,
+      "az": -20
+     },
+     "actions": [
+      {
+       "who": "benny",
+       "action": "point",
+       "at": [
+        -40,
+        -10,
+        0.05
+       ],
+       "facing": 180,
+       "expr": "angry"
+      }
+     ],
+     "w": 1.0,
+     "set": "town",
+     "fx": [],
+     "carry": {
+      "benny": "cake"
+     },
+     "props": [
+      {
+       "kind": "sedan",
+       "at": [
+        -43,
+        4,
+        0
+       ],
+       "rot": 0,
+       "color": [
+        0.45,
+        0.55,
+        0.2
+       ],
+       "name": "figcar"
+      }
+     ]
+    }
+   ],
+   "pad": 0.6,
+   "tension": 0.6,
+   "kind": "hit",
+   "sfx": [
+    {
+     "kind": "horn",
+     "at": 0.8
+    }
+   ],
+   "hold": 0.0,
+   "label": null
+  },
+  {
+   "say": [
+    "fig",
+    "Parking is an art, son."
+   ],
+   "shots": [
+    {
+     "camera": {
+      "subject": "fig",
+      "framing": "cu",
+      "move": "static_drift",
+      "angle": "eye",
+      "lens": 50,
+      "az": 10
+     },
+     "actions": [
+      {
+       "who": "fig",
+       "action": "idle",
+       "at": [
+        -34,
+        6,
+        0.05
+       ],
+       "facing": 90,
+       "expr": "sly"
+      }
+     ],
+     "w": 1.0,
+     "set": "town",
+     "fx": []
+    }
+   ],
+   "pad": 0.25,
+   "tension": 0.5,
+   "kind": null,
+   "sfx": [],
+   "hold": 0.0,
+   "label": null
+  },
+  {
+   "say": [
+    "benny",
+    "It's a car, Mr. Fig! Not a painting!"
+   ],
+   "shots": [
+    {
+     "camera": {
+      "subject": "benny",
+      "framing": "ms",
+      "move": "orbit_right",
+      "angle": "low",
+      "lens": 35,
+      "az": 30
+     },
+     "actions": [
+      {
+       "who": "benny",
+       "action": "point",
+       "at": [
+        -40,
+        -10,
+        0.05
+       ],
+       "facing": 150,
+       "expr": "angry"
+      }
+     ],
+     "w": 1.0,
+     "set": "town",
+     "fx": [],
+     "carry": {
+      "benny": "cake"
+     }
+    }
+   ],
+   "pad": 0.25,
+   "tension": 0.55,
+   "kind": null,
+   "sfx": [],
+   "hold": 0.0,
+   "label": null
+  },
+  {
+   "say": [
+    "narrator",
+    "Benny had one move left."
+   ],
+   "shots": [
+    {
+     "camera": {
+      "subject": "benny",
+      "framing": "cu",
+      "move": "dolly_zoom",
+      "angle": "eye",
+      "lens": 85,
+      "az": 0
+     },
+     "actions": [
+      {
+       "who": "benny",
+       "action": "idle",
+       "at": [
+        -40,
+        -10,
+        0.05
+       ],
+       "facing": 180,
+       "expr": "determined"
+      }
+     ],
+     "w": 1.0,
+     "set": "town",
+     "fx": [],
+     "carry": {
+      "benny": "cake"
+     }
+    }
+   ],
+   "pad": 0.25,
+   "tension": 0.6,
+   "kind": "riser",
+   "sfx": [],
+   "hold": 0.0,
+   "label": null
+  },
+  {
+   "say": [
+    "benny",
+    "Shortcut. Through. The park."
+   ],
+   "shots": [
+    {
+     "camera": {
+      "subject": "benny",
+      "framing": "cu",
+      "move": "push_in",
+      "angle": "worm",
+      "lens": 35,
+      "az": 20
+     },
+     "actions": [
+      {
+       "who": "benny",
+       "action": "idle",
+       "at": [
+        -40,
+        -10,
+        0.05
+       ],
+       "facing": 200,
+       "expr": "determined"
+      }
+     ],
+     "w": 1.0,
+     "set": "town",
+     "fx": [],
+     "carry": {
+      "benny": "cake"
+     }
+    }
+   ],
+   "pad": 0.6,
+   "tension": 0.7,
+   "kind": "hit",
+   "sfx": [],
+   "hold": 0.0,
+   "label": null
+  },
+  {
+   "say": [
+    "pip",
+    "Benny, the sprinklers go off at\u2014"
+   ],
+   "shots": [
+    {
+     "camera": {
+      "subject": "pip",
+      "framing": "mcu",
+      "move": "push_in",
+      "angle": "eye",
+      "lens": 50,
+      "az": -20
+     },
+     "actions": [
+      {
+       "who": "pip",
+       "action": "talk",
+       "at": [
+        -13.5,
+        76,
+        0.12
+       ],
+       "facing": 200,
+       "expr": "shock"
+      }
+     ],
+     "w": 1.0,
+     "set": "town",
+     "fx": [],
+     "crowd": {
+      "center": [
+       -16.5,
+       80,
+       0.12
+      ],
+      "n": 4,
+      "radius": 2.5,
+      "inner": 1.0,
+      "seed": 4,
+      "actions": [
+       [
+        "hide",
+        0,
+        1
+       ]
+      ]
+     },
+     "carry": {
+      "pip": "phone"
+     }
+    }
+   ],
+   "pad": 0.0,
+   "tension": 0.6,
+   "kind": null,
+   "sfx": [],
+   "hold": 0.0,
+   "label": null,
+   "voice_fx": "radio"
+  },
+  {
+   "say": null,
+   "shots": [
+    {
+     "camera": {
+      "subject": "mark:park",
+      "framing": "ws",
+      "move": "push_in",
+      "angle": "low",
+      "lens": 24,
+      "az": 0,
+      "pos": [
+       -22,
+       12,
+       1.0
+      ],
+      "pos2": [
+       -23,
+       15,
+       1.2
+      ]
+     },
+     "actions": [
+      {
+       "who": "benny",
+       "action": "run",
+       "path": [
+        [
+         -36,
+         18,
+         0.05
+        ],
+        [
+         -28,
+         26,
+         0.05
+        ]
+       ]
+      }
+     ],
+     "w": 1.0,
+     "set": "town",
+     "fx": [
+      {
+       "kind": "spray",
+       "at": [
+        -30,
+        26,
+        0.1
+       ],
+       "count": 400,
+       "height": 4
+      },
+      {
+       "kind": "spray",
+       "at": [
+        -22,
+        32,
+        0.1
+       ],
+       "count": 400,
+       "height": 4
+      },
+      {
+       "kind": "spray",
+       "at": [
+        -26,
+        40,
+        0.1
+       ],
+       "count": 400,
+       "height": 4
+      }
+     ],
+     "carry": {
+      "benny": "cake"
+     }
+    }
+   ],
+   "pad": 0.6,
+   "tension": 0.75,
+   "kind": "hit",
+   "sfx": [
+    {
+     "kind": "sprinkler",
+     "at": 0.0
+    }
+   ],
+   "hold": 1.6,
+   "label": null
+  },
+  {
+   "say": [
+    "pip",
+    "\u2026now."
+   ],
+   "shots": [
+    {
+     "camera": {
+      "subject": "pip",
+      "framing": "cu",
+      "move": "static_drift",
+      "angle": "eye",
+      "lens": 50,
+      "az": 0
+     },
+     "actions": [
+      {
+       "who": "pip",
+       "action": "idle",
+       "at": [
+        -13.5,
+        76,
+        0.12
+       ],
+       "facing": 200,
+       "expr": "sly"
+      }
+     ],
+     "w": 1.0,
+     "set": "town",
+     "fx": [],
+     "crowd": {
+      "center": [
+       -16.5,
+       80,
+       0.12
+      ],
+      "n": 4,
+      "radius": 2.5,
+      "inner": 1.0,
+      "seed": 4,
+      "actions": [
+       [
+        "hide",
+        0,
+        1
+       ]
+      ]
+     },
+     "carry": {
+      "pip": "phone"
+     }
+    }
+   ],
+   "pad": 0.25,
+   "tension": 0.6,
+   "kind": null,
+   "sfx": [],
+   "hold": 0.0,
+   "label": null,
+   "voice_fx": "radio"
+  },
+  {
+   "say": [
+    "benny",
+    "Nope, nope, nope, nope, nope, nope!"
+   ],
+   "shots": [
+    {
+     "camera": {
+      "subject": "benny",
+      "framing": "ms",
+      "move": "track",
+      "angle": "eye",
+      "lens": 24,
+      "az": 0
+     },
+     "actions": [
+      {
+       "who": "benny",
+       "action": "panic_run",
+       "path": [
+        [
+         -28,
+         26,
+         0.05
+        ],
+        [
+         -20,
+         36,
+         0.05
+        ]
+       ]
+      }
+     ],
+     "w": 1.0,
+     "set": "town",
+     "fx": [
+      {
+       "kind": "spray",
+       "at": [
+        -22,
+        32,
+        0.1
+       ],
+       "count": 400,
+       "height": 4
+      },
+      {
+       "kind": "spray",
+       "at": [
+        -26,
+        40,
+        0.1
+       ],
+       "count": 400,
+       "height": 4
+      }
+     ],
+     "carry": {
+      "benny": "cake"
+     }
+    },
+    {
+     "camera": {
+      "subject": "benny",
+      "framing": "ws",
+      "move": "orbit_right",
+      "angle": "low",
+      "lens": 24,
+      "az": 40
+     },
+     "actions": [
+      {
+       "who": "benny",
+       "action": "panic_run",
+       "path": [
+        [
+         -20,
+         36,
+         0.05
+        ],
+        [
+         -14,
+         46,
+         0.05
+        ]
+       ]
+      }
+     ],
+     "w": 1.0,
+     "set": "town",
+     "fx": [
+      {
+       "kind": "spray",
+       "at": [
+        -22,
+        32,
+        0.1
+       ],
+       "count": 400,
+       "height": 4
+      },
+      {
+       "kind": "spray",
+       "at": [
+        -26,
+        40,
+        0.1
+       ],
+       "count": 400,
+       "height": 4
+      }
+     ],
+     "carry": {
+      "benny": "cake"
+     }
+    }
+   ],
+   "pad": 0.25,
+   "tension": 0.85,
+   "kind": null,
+   "sfx": [
+    {
+     "kind": "sprinkler",
+     "at": 0.0
+    }
+   ],
+   "hold": 0.0,
+   "label": null
+  },
+  {
+   "say": [
+    "narrator",
+    "The cake stayed dry. Benny did not."
+   ],
+   "shots": [
+    {
+     "camera": {
+      "subject": "benny",
+      "framing": "ms",
+      "move": "push_in",
+      "angle": "low",
+      "lens": 35,
+      "az": 40
+     },
+     "actions": [
+      {
+       "who": "benny",
+       "action": "idle",
+       "at": [
+        -14,
+        46,
+        0.05
+       ],
+       "facing": 230,
+       "expr": "sad"
+      }
+     ],
+     "w": 1.0,
+     "set": "town",
+     "fx": [],
+     "carry": {
+      "benny": "cake"
+     }
+    }
+   ],
+   "pad": 0.6,
+   "tension": 0.5,
+   "kind": "hit",
+   "sfx": [],
+   "hold": 0.0,
+   "label": null
+  },
+  {
+   "say": [
+    "narrator",
+    "And then, of course, the marching band."
+   ],
+   "shots": [
+    {
+     "camera": {
+      "subject": "benny",
+      "framing": "ws",
+      "move": "push_in",
+      "angle": "high",
+      "lens": 24,
+      "az": 0,
+      "pos": [
+       10,
+       18,
+       9
+      ],
+      "pos2": [
+       8,
+       20,
+       7
+      ]
+     },
+     "actions": [
+      {
+       "who": "benny",
+       "action": "freeze",
+       "at": [
+        -2,
+        22,
+        0.05
+       ],
+       "facing": 180,
+       "expr": "shock"
+      }
+     ],
+     "w": 1.0,
+     "set": "town",
+     "fx": [],
+     "carry": {
+      "benny": "cake"
+     },
+     "crowd": {
+      "center": [
+       0,
+       26,
+       0.05
+      ],
+      "n": 9,
+      "radius": 6,
+      "inner": 1.5,
+      "seed": 12,
+      "accessory": "helmet",
+      "palette": {
+       "shirt": [
+        0.85,
+        0.1,
+        0.12
+       ],
+       "pants": [
+        0.95,
+        0.95,
+        0.95
+       ],
+       "hat": [
+        0.95,
+        0.95,
+        0.98
+       ],
+       "stripe": [
+        0.95,
+        0.8,
+        0.1
+       ]
+      },
+      "actions": [
+       [
+        "walk",
+        0,
+        1
+       ]
+      ],
+      "facing": 270
+     }
+    }
+   ],
+   "pad": 0.6,
+   "tension": 0.6,
+   "kind": "hit",
+   "sfx": [
+    {
+     "kind": "band",
+     "at": 0.0
+    }
+   ],
+   "hold": 0.0,
+   "label": null
+  },
+  {
+   "say": [
+    "benny",
+    "Cake coming through! Excuse me! Cake!"
+   ],
+   "shots": [
+    {
+     "camera": {
+      "subject": "benny",
+      "framing": "ms",
+      "move": "track",
+      "angle": "eye",
+      "lens": 24,
+      "az": 20
+     },
+     "actions": [
+      {
+       "who": "benny",
+       "action": "sneak",
+       "path": [
+        [
+         -2,
+         22,
+         0.05
+        ],
+        [
+         2,
+         30,
+         0.05
+        ]
+       ],
+       "expr": "fear"
+      }
+     ],
+     "w": 1.0,
+     "set": "town",
+     "fx": [],
+     "carry": {
+      "benny": "cake"
+     },
+     "crowd": {
+      "center": [
+       0,
+       26,
+       0.05
+      ],
+      "n": 9,
+      "radius": 6,
+      "inner": 1.5,
+      "seed": 12,
+      "accessory": "helmet",
+      "palette": {
+       "shirt": [
+        0.85,
+        0.1,
+        0.12
+       ],
+       "pants": [
+        0.95,
+        0.95,
+        0.95
+       ],
+       "hat": [
+        0.95,
+        0.95,
+        0.98
+       ],
+       "stripe": [
+        0.95,
+        0.8,
+        0.1
+       ]
+      },
+      "actions": [
+       [
+        "walk",
+        0,
+        1
+       ]
+      ],
+      "facing": 270
+     }
+    }
+   ],
+   "pad": 0.25,
+   "tension": 0.7,
+   "kind": null,
+   "sfx": [
+    {
+     "kind": "band",
+     "at": 0.0
+    }
+   ],
+   "hold": 0.0,
+   "label": null
+  },
+  {
+   "say": [
+    "lead",
+    "Sorry, kid! We're practicing!"
+   ],
+   "shots": [
+    {
+     "camera": {
+      "subject": "lead",
+      "framing": "mcu",
+      "move": "push_in",
+      "angle": "low",
+      "lens": 50,
+      "az": 10
+     },
+     "actions": [
+      {
+       "who": "lead",
+       "action": "talk",
+       "at": [
+        4,
+        28,
+        0.05
+       ],
+       "facing": 270,
+       "expr": "happy"
+      }
+     ],
+     "w": 1.0,
+     "set": "town",
+     "fx": [],
+     "crowd": {
+      "center": [
+       0,
+       26,
+       0.05
+      ],
+      "n": 9,
+      "radius": 6,
+      "inner": 1.5,
+      "seed": 12,
+      "accessory": "helmet",
+      "palette": {
+       "shirt": [
+        0.85,
+        0.1,
+        0.12
+       ],
+       "pants": [
+        0.95,
+        0.95,
+        0.95
+       ],
+       "hat": [
+        0.95,
+        0.95,
+        0.98
+       ],
+       "stripe": [
+        0.95,
+        0.8,
+        0.1
+       ]
+      },
+      "actions": [
+       [
+        "walk",
+        0,
+        1
+       ]
+      ],
+      "facing": 270
+     }
+    }
+   ],
+   "pad": 0.25,
+   "tension": 0.6,
+   "kind": null,
+   "sfx": [],
+   "hold": 0.0,
+   "label": null
+  },
+  {
+   "say": [
+    "benny",
+    "Practicing for what?!"
+   ],
+   "shots": [
+    {
+     "camera": {
+      "subject": "benny",
+      "framing": "cu",
+      "move": "handheld",
+      "angle": "eye",
+      "lens": 50,
+      "az": -15,
+      "shake": 0.3
+     },
+     "actions": [
+      {
+       "who": "benny",
+       "action": "talk",
+       "at": [
+        2,
+        30,
+        0.05
+       ],
+       "facing": 90,
+       "expr": "angry"
+      }
+     ],
+     "w": 1.0,
+     "set": "town",
+     "fx": [],
+     "carry": {
+      "benny": "cake"
+     },
+     "crowd": {
+      "center": [
+       0,
+       26,
+       0.05
+      ],
+      "n": 9,
+      "radius": 6,
+      "inner": 1.5,
+      "seed": 12,
+      "accessory": "helmet",
+      "palette": {
+       "shirt": [
+        0.85,
+        0.1,
+        0.12
+       ],
+       "pants": [
+        0.95,
+        0.95,
+        0.95
+       ],
+       "hat": [
+        0.95,
+        0.95,
+        0.98
+       ],
+       "stripe": [
+        0.95,
+        0.8,
+        0.1
+       ]
+      },
+      "actions": [
+       [
+        "walk",
+        0,
+        1
+       ]
+      ],
+      "facing": 270
+     }
+    }
+   ],
+   "pad": 0.25,
+   "tension": 0.6,
+   "kind": null,
+   "sfx": [],
+   "hold": 0.0,
+   "label": null
+  },
+  {
+   "say": [
+    "lead",
+    "\u2026Nothing!"
+   ],
+   "shots": [
+    {
+     "camera": {
+      "subject": "lead",
+      "framing": "cu",
+      "move": "static_drift",
+      "angle": "eye",
+      "lens": 50,
+      "az": 0
+     },
+     "actions": [
+      {
+       "who": "lead",
+       "action": "idle",
+       "at": [
+        4,
+        28,
+        0.05
+       ],
+       "facing": 270,
+       "expr": "sly"
+      }
+     ],
+     "w": 1.0,
+     "set": "town",
+     "fx": [],
+     "crowd": {
+      "center": [
+       0,
+       26,
+       0.05
+      ],
+      "n": 9,
+      "radius": 6,
+      "inner": 1.5,
+      "seed": 12,
+      "accessory": "helmet",
+      "palette": {
+       "shirt": [
+        0.85,
+        0.1,
+        0.12
+       ],
+       "pants": [
+        0.95,
+        0.95,
+        0.95
+       ],
+       "hat": [
+        0.95,
+        0.95,
+        0.98
+       ],
+       "stripe": [
+        0.95,
+        0.8,
+        0.1
+       ]
+      },
+      "actions": [
+       [
+        "walk",
+        0,
+        1
+       ]
+      ],
+      "facing": 270
+     }
+    }
+   ],
+   "pad": 0.6,
+   "tension": 0.55,
+   "kind": "hit",
+   "sfx": [
+    {
+     "kind": "bonk",
+     "at": 0.5
+    }
+   ],
+   "hold": 0.0,
+   "label": null
+  },
+  {
+   "say": [
+    "pip",
+    "Two minutes! Where are you?"
+   ],
+   "shots": [
+    {
+     "camera": {
+      "subject": "pip",
+      "framing": "mcu",
+      "move": "push_in",
+      "angle": "eye",
+      "lens": 50,
+      "az": 10
+     },
+     "actions": [
+      {
+       "who": "pip",
+       "action": "talk",
+       "at": [
+        -13.5,
+        76,
+        0.12
+       ],
+       "facing": 200,
+       "expr": "fear"
+      }
+     ],
+     "w": 1.0,
+     "set": "town",
+     "fx": [],
+     "crowd": {
+      "center": [
+       -16.5,
+       80,
+       0.12
+      ],
+      "n": 4,
+      "radius": 2.5,
+      "inner": 1.0,
+      "seed": 4,
+      "actions": [
+       [
+        "hide",
+        0,
+        1
+       ]
+      ]
+     },
+     "carry": {
+      "pip": "phone"
+     }
+    }
+   ],
+   "pad": 0.25,
+   "tension": 0.7,
+   "kind": null,
+   "sfx": [],
+   "hold": 0.0,
+   "label": null,
+   "voice_fx": "radio"
+  },
+  {
+   "say": [
+    "benny",
+    "Coming in hot!"
+   ],
+   "shots": [
+    {
+     "camera": {
+      "subject": "benny",
+      "framing": "mws",
+      "move": "track",
+      "angle": "low",
+      "lens": 24,
+      "az": 0
+     },
+     "actions": [
+      {
+       "who": "benny",
+       "action": "run",
+       "path": [
+        [
+         0,
+         34,
+         0.05
+        ],
+        [
+         0,
+         48,
+         0.12
+        ]
+       ],
+       "expr": "determined"
+      }
+     ],
+     "w": 1.0,
+     "set": "town",
+     "fx": [],
+     "carry": {
+      "benny": "cake"
+     },
+     "set_args": {
+      "clock": [
+       [
+        1,
+        1
+       ]
+      ]
+     }
+    }
+   ],
+   "pad": 0.6,
+   "tension": 0.9,
+   "kind": "hit",
+   "sfx": [],
+   "hold": 0.0,
+   "label": null
+  },
+  {
+   "say": [
+    "narrator",
+    "Benny burst into the town square, and\u2026"
+   ],
+   "shots": [
+    {
+     "camera": {
+      "subject": "benny",
+      "framing": "ws",
+      "move": "pull_out",
+      "angle": "low",
+      "lens": 24,
+      "az": 0
+     },
+     "actions": [
+      {
+       "who": "benny",
+       "action": "run",
+       "path": [
+        [
+         0,
+         46,
+         0.12
+        ],
+        [
+         0,
+         57,
+         0.12
+        ]
+       ],
+       "facing": 180,
+       "expr": "determined"
+      }
+     ],
+     "w": 1.0,
+     "set": "town",
+     "fx": [],
+     "carry": {
+      "benny": "cake"
+     },
+     "set_args": {
+      "clock": [
+       [
+        1,
+        0
+       ]
+      ]
+     },
+     "crowd": {
+      "center": [
+       0,
+       48.5,
+       0.12
+      ],
+      "n": 10,
+      "radius": 6,
+      "inner": 3.8,
+      "seed": 9,
+      "face": [
+       0,
+       57,
+       0
+      ],
+      "actions": [
+       [
+        "hide",
+        0,
+        1
+       ]
+      ]
+     }
+    }
+   ],
+   "pad": 0.25,
+   "tension": 0.6,
+   "kind": "riser",
+   "sfx": [],
+   "hold": 0.0,
+   "label": null
+  },
+  {
+   "say": null,
+   "shots": [
+    {
+     "camera": {
+      "subject": "benny",
+      "framing": "ews",
+      "move": "pull_out",
+      "angle": "high",
+      "lens": 24,
+      "az": 0,
+      "pos": [
+       12,
+       74,
+       14
+      ],
+      "pos2": [
+       16,
+       80,
+       22
+      ]
+     },
+     "actions": [
+      {
+       "who": "benny",
+       "action": "idle",
+       "at": [
+        0,
+        57,
+        0.12
+       ],
+       "facing": 180,
+       "expr": "shock"
+      }
+     ],
+     "w": 1.0,
+     "set": "town",
+     "fx": [],
+     "carry": {
+      "benny": "cake"
+     },
+     "set_args": {
+      "clock": [
+       [
+        1,
+        0
+       ]
+      ]
+     },
+     "crowd": {
+      "center": [
+       0,
+       48.5,
+       0.12
+      ],
+      "n": 10,
+      "radius": 6,
+      "inner": 3.8,
+      "seed": 9,
+      "face": [
+       0,
+       57,
+       0
+      ],
+      "actions": [
+       [
+        "hide",
+        0,
+        1
+       ]
+      ]
+     }
+    }
+   ],
+   "pad": 0.25,
+   "tension": 0.1,
+   "kind": "drop",
+   "sfx": [
+    {
+     "kind": "bells",
+     "at": 0.0
+    }
+   ],
+   "hold": 2.0,
+   "label": null
+  },
+  {
+   "say": [
+    "benny",
+    "Hello? Mayor? Anybody? I have\u2026 a cake?"
+   ],
+   "shots": [
+    {
+     "camera": {
+      "subject": "benny",
+      "framing": "mcu",
+      "move": "push_in",
+      "angle": "eye",
+      "lens": 50,
+      "az": 0
+     },
+     "actions": [
+      {
+       "who": "benny",
+       "action": "idle",
+       "at": [
+        0,
+        57,
+        0.12
+       ],
+       "facing": 180,
+       "expr": "sad"
+      }
+     ],
+     "w": 1.0,
+     "set": "town",
+     "fx": [],
+     "carry": {
+      "benny": "cake"
+     },
+     "set_args": {
+      "clock": [
+       [
+        1,
+        0
+       ]
+      ]
+     },
+     "crowd": {
+      "center": [
+       0,
+       48.5,
+       0.12
+      ],
+      "n": 10,
+      "radius": 6,
+      "inner": 3.8,
+      "seed": 9,
+      "face": [
+       0,
+       57,
+       0
+      ],
+      "actions": [
+       [
+        "hide",
+        0,
+        1
+       ]
+      ]
+     }
+    }
+   ],
+   "pad": 0.25,
+   "tension": 0.2,
+   "kind": null,
+   "sfx": [],
+   "hold": 0.0,
+   "label": null
+  },
+  {
+   "say": [
+    "benny",
+    "Wrong day? Is it Tuesday? Mr. Fig, is it Tuesday?!"
+   ],
+   "shots": [
+    {
+     "camera": {
+      "subject": "benny",
+      "framing": "ms",
+      "move": "handheld",
+      "angle": "low",
+      "lens": 24,
+      "az": 30,
+      "shake": 0.4
+     },
+     "actions": [
+      {
+       "who": "benny",
+       "action": "panic",
+       "at": [
+        0,
+        57,
+        0.12
+       ],
+       "facing": 180,
+       "expr": "fear"
+      }
+     ],
+     "w": 1.0,
+     "set": "town",
+     "fx": [],
+     "carry": {
+      "benny": "cake"
+     },
+     "set_args": {
+      "clock": [
+       [
+        1,
+        0
+       ]
+      ]
+     },
+     "crowd": {
+      "center": [
+       0,
+       48.5,
+       0.12
+      ],
+      "n": 10,
+      "radius": 6,
+      "inner": 3.8,
+      "seed": 9,
+      "face": [
+       0,
+       57,
+       0
+      ],
+      "actions": [
+       [
+        "hide",
+        0,
+        1
+       ]
+      ]
+     }
+    }
+   ],
+   "pad": 0.6,
+   "tension": 0.3,
+   "kind": "hit",
+   "sfx": [],
+   "hold": 0.0,
+   "label": null
+  },
+  {
+   "say": [
+    "benny",
+    "Pip, nobody's here. Is there a second town square?!"
+   ],
+   "shots": [
+    {
+     "camera": {
+      "subject": "benny",
+      "framing": "ms",
+      "move": "orbit_left",
+      "angle": "eye",
+      "lens": 35,
+      "az": -25
+     },
+     "actions": [
+      {
+       "who": "benny",
+       "action": "talk",
+       "at": [
+        0,
+        57,
+        0.12
+       ],
+       "facing": 180,
+       "expr": "fear"
+      }
+     ],
+     "w": 1.0,
+     "set": "town",
+     "fx": [],
+     "carry": {
+      "benny": "cake"
+     },
+     "set_args": {
+      "clock": [
+       [
+        1,
+        0
+       ]
+      ]
+     },
+     "crowd": {
+      "center": [
+       0,
+       48.5,
+       0.12
+      ],
+      "n": 10,
+      "radius": 6,
+      "inner": 3.8,
+      "seed": 9,
+      "face": [
+       0,
+       57,
+       0
+      ],
+      "actions": [
+       [
+        "hide",
+        0,
+        1
+       ]
+      ]
+     }
+    }
+   ],
+   "pad": 0.25,
+   "tension": 0.3,
+   "kind": null,
+   "sfx": [],
+   "hold": 0.0,
+   "label": null
+  },
+  {
+   "say": [
+    "pip",
+    "Benny. Turn around."
+   ],
+   "shots": [
+    {
+     "camera": {
+      "subject": "benny",
+      "framing": "mcu",
+      "move": "push_in",
+      "angle": "eye",
+      "lens": 35,
+      "az": 0
+     },
+     "actions": [
+      {
+       "who": "benny",
+       "action": "idle",
+       "at": [
+        0,
+        57,
+        0.12
+       ],
+       "facing": 180,
+       "expr": "fear"
+      },
+      {
+       "who": "pip",
+       "action": "hide",
+       "at": [
+        -2.6,
+        51.5,
+        0.12
+       ],
+       "facing": 180
+      }
+     ],
+     "w": 1.0,
+     "set": "town",
+     "fx": [],
+     "carry": {
+      "benny": "cake"
+     },
+     "set_args": {
+      "clock": [
+       [
+        1,
+        0
+       ]
+      ]
+     },
+     "crowd": {
+      "center": [
+       0,
+       48.5,
+       0.12
+      ],
+      "n": 10,
+      "radius": 6,
+      "inner": 3.8,
+      "seed": 9,
+      "face": [
+       0,
+       57,
+       0
+      ],
+      "actions": [
+       [
+        "hide",
+        0,
+        1
+       ]
+      ]
+     }
+    }
+   ],
+   "pad": 0.25,
+   "tension": 0.4,
+   "kind": "riser",
+   "sfx": [],
+   "hold": 0.0,
+   "label": null
+  },
+  {
+   "say": [
+    "crowd",
+    "Surprise!"
+   ],
+   "shots": [
+    {
+     "camera": {
+      "subject": "benny",
+      "framing": "ms",
+      "move": "ots",
+      "angle": "eye",
+      "lens": 24,
+      "az": 180,
+      "subject2": [
+       0,
+       50,
+       1.6
+      ]
+     },
+     "actions": [
+      {
+       "who": "benny",
+       "action": "turn",
+       "at": [
+        0,
+        57,
+        0.12
+       ],
+       "facing": 180,
+       "to": 360,
+       "expr": "shock"
+      },
+      {
+       "who": "mayor",
+       "action": "cheer",
+       "at": [
+        0,
+        50.5,
+        0.12
+       ],
+       "facing": 180
+      },
+      {
+       "who": "pip",
+       "action": "cheer",
+       "at": [
+        -2.6,
+        51.5,
+        0.12
+       ],
+       "facing": 180
+      },
+      {
+       "who": "dough",
+       "action": "cheer",
+       "at": [
+        2.8,
+        51.2,
+        0.12
+       ],
+       "facing": 180
+      },
+      {
+       "who": "plum",
+       "action": "cheer",
+       "at": [
+        5.2,
+        52,
+        0.12
+       ],
+       "facing": 180
+      },
+      {
+       "who": "grandma",
+       "action": "cheer",
+       "at": [
+        -5.2,
+        52.2,
+        0.12
+       ],
+       "facing": 180
+      },
+      {
+       "who": "fig",
+       "action": "cheer",
+       "at": [
+        7.6,
+        50.8,
+        0.12
+       ],
+       "facing": 180
+      }
+     ],
+     "w": 1.0,
+     "set": "town",
+     "fx": [],
+     "carry": {
+      "benny": "cake"
+     },
+     "crowd": {
+      "center": [
+       0,
+       48.5,
+       0.12
+      ],
+      "n": 10,
+      "radius": 6,
+      "inner": 3.8,
+      "seed": 9,
+      "face": [
+       0,
+       57,
+       0
+      ],
+      "actions": [
+       [
+        "hide",
+        0,
+        0.15
+       ],
+       [
+        "cheer",
+        0.16999999999999998,
+        1
+       ]
+      ]
+     }
+    }
+   ],
+   "pad": 0.6,
+   "tension": 0.95,
+   "kind": "hit",
+   "sfx": [
+    {
+     "kind": "cheer",
+     "at": 0.15
+    }
+   ],
+   "hold": 0.0,
+   "label": null
+  },
+  {
+   "say": [
+    "mayor",
+    "Happy birthday, Benny!"
+   ],
+   "shots": [
+    {
+     "camera": {
+      "subject": "mayor",
+      "framing": "mcu",
+      "move": "push_in",
+      "angle": "low",
+      "lens": 35,
+      "az": 0
+     },
+     "actions": [
+      {
+       "who": "mayor",
+       "action": "cheer",
+       "at": [
+        0,
+        50.5,
+        0.12
+       ],
+       "facing": 180
+      },
+      {
+       "who": "pip",
+       "action": "cheer",
+       "at": [
+        -2.6,
+        51.5,
+        0.12
+       ],
+       "facing": 180
+      },
+      {
+       "who": "dough",
+       "action": "cheer",
+       "at": [
+        2.8,
+        51.2,
+        0.12
+       ],
+       "facing": 180
+      },
+      {
+       "who": "plum",
+       "action": "cheer",
+       "at": [
+        5.2,
+        52,
+        0.12
+       ],
+       "facing": 180
+      },
+      {
+       "who": "grandma",
+       "action": "cheer",
+       "at": [
+        -5.2,
+        52.2,
+        0.12
+       ],
+       "facing": 180
+      },
+      {
+       "who": "fig",
+       "action": "cheer",
+       "at": [
+        7.6,
+        50.8,
+        0.12
+       ],
+       "facing": 180
+      }
+     ],
+     "w": 1.0,
+     "set": "town",
+     "fx": [],
+     "crowd": {
+      "center": [
+       0,
+       48.5,
+       0.12
+      ],
+      "n": 10,
+      "radius": 6,
+      "inner": 3.8,
+      "seed": 9,
+      "face": [
+       0,
+       57,
+       0
+      ],
+      "actions": [
+       [
+        "cheer",
+        0,
+        1
+       ]
+      ]
+     }
+    }
+   ],
+   "pad": 0.25,
+   "tension": 0.8,
+   "kind": null,
+   "sfx": [],
+   "hold": 0.0,
+   "label": null
+  },
+  {
+   "say": [
+    "benny",
+    "\u2026It's my birthday?"
+   ],
+   "shots": [
+    {
+     "camera": {
+      "subject": "benny",
+      "framing": "cu",
+      "move": "push_in",
+      "angle": "eye",
+      "lens": 50,
+      "az": 0
+     },
+     "actions": [
+      {
+       "who": "benny",
+       "action": "idle",
+       "at": [
+        0,
+        57,
+        0.12
+       ],
+       "facing": 0,
+       "expr": "shock"
+      }
+     ],
+     "w": 1.0,
+     "set": "town",
+     "fx": [],
+     "carry": {
+      "benny": "cake"
+     }
+    }
+   ],
+   "pad": 0.4,
+   "tension": 0.5,
+   "kind": null,
+   "sfx": [],
+   "hold": 0.0,
+   "label": null
+  },
+  {
+   "say": [
+    "pip",
+    "It's your birthday."
+   ],
+   "shots": [
+    {
+     "camera": {
+      "subject": "pip",
+      "framing": "mcu",
+      "move": "push_in",
+      "angle": "eye",
+      "lens": 50,
+      "az": 10
+     },
+     "actions": [
+      {
+       "who": "pip",
+       "action": "idle",
+       "at": [
+        -2.6,
+        51.5,
+        0.12
+       ],
+       "facing": 170,
+       "expr": "happy"
+      }
+     ],
+     "w": 1.0,
+     "set": "town",
+     "fx": [],
+     "crowd": {
+      "center": [
+       0,
+       48.5,
+       0.12
+      ],
+      "n": 10,
+      "radius": 6,
+      "inner": 3.8,
+      "seed": 9,
+      "face": [
+       0,
+       57,
+       0
+      ],
+      "actions": [
+       [
+        "cheer",
+        0,
+        1
+       ]
+      ]
+     }
+    }
+   ],
+   "pad": 0.25,
+   "tension": 0.5,
+   "kind": null,
+   "sfx": [],
+   "hold": 0.0,
+   "label": null
+  },
+  {
+   "say": [
+    "narrator",
+    "The road closure. The groceries. The world's slowest parking."
+   ],
+   "shots": [
+    {
+     "camera": {
+      "subject": "plum",
+      "framing": "mcu",
+      "move": "push_in",
+      "angle": "low",
+      "lens": 50,
+      "az": 25
+     },
+     "actions": [
+      {
+       "who": "plum",
+       "action": "idle",
+       "at": [
+        5.2,
+        52,
+        0.12
+       ],
+       "facing": 200,
+       "expr": "sly"
+      }
+     ],
+     "w": 1.0,
+     "set": "town",
+     "fx": [],
+     "crowd": {
+      "center": [
+       0,
+       48.5,
+       0.12
+      ],
+      "n": 10,
+      "radius": 6,
+      "inner": 3.8,
+      "seed": 9,
+      "face": [
+       0,
+       57,
+       0
+      ],
+      "actions": [
+       [
+        "cheer",
+        0,
+        1
+       ]
+      ]
+     }
+    },
+    {
+     "camera": {
+      "subject": "grandma",
+      "framing": "mcu",
+      "move": "push_in",
+      "angle": "low",
+      "lens": 50,
+      "az": -25
+     },
+     "actions": [
+      {
+       "who": "grandma",
+       "action": "idle",
+       "at": [
+        -5.2,
+        52.2,
+        0.12
+       ],
+       "facing": 160,
+       "expr": "sly"
+      }
+     ],
+     "w": 1.0,
+     "set": "town",
+     "fx": [],
+     "crowd": {
+      "center": [
+       0,
+       48.5,
+       0.12
+      ],
+      "n": 10,
+      "radius": 6,
+      "inner": 3.8,
+      "seed": 9,
+      "face": [
+       0,
+       57,
+       0
+      ],
+      "actions": [
+       [
+        "cheer",
+        0,
+        1
+       ]
+      ]
+     }
+    },
+    {
+     "camera": {
+      "subject": "fig",
+      "framing": "mcu",
+      "move": "push_in",
+      "angle": "low",
+      "lens": 50,
+      "az": 30
+     },
+     "actions": [
+      {
+       "who": "fig",
+       "action": "idle",
+       "at": [
+        7.6,
+        50.8,
+        0.12
+       ],
+       "facing": 210,
+       "expr": "sly"
+      }
+     ],
+     "w": 1.0,
+     "set": "town",
+     "fx": [],
+     "crowd": {
+      "center": [
+       0,
+       48.5,
+       0.12
+      ],
+      "n": 10,
+      "radius": 6,
+      "inner": 3.8,
+      "seed": 9,
+      "face": [
+       0,
+       57,
+       0
+      ],
+      "actions": [
+       [
+        "cheer",
+        0,
+        1
+       ]
+      ]
+     }
+    }
+   ],
+   "pad": 0.25,
+   "tension": 0.55,
+   "kind": null,
+   "sfx": [],
+   "hold": 0.0,
+   "label": null
+  },
+  {
+   "say": [
+    "narrator",
+    "The whole town had been stalling him for an hour."
+   ],
+   "shots": [
+    {
+     "camera": {
+      "subject": "benny",
+      "framing": "ws",
+      "move": "drone_orbit",
+      "angle": "high",
+      "lens": 24,
+      "az": 180
+     },
+     "actions": [
+      {
+       "who": "benny",
+       "action": "idle",
+       "at": [
+        0,
+        57,
+        0.12
+       ],
+       "facing": 0,
+       "expr": "shock"
+      },
+      {
+       "who": "mayor",
+       "action": "cheer",
+       "at": [
+        0,
+        50.5,
+        0.12
+       ],
+       "facing": 180
+      },
+      {
+       "who": "pip",
+       "action": "cheer",
+       "at": [
+        -2.6,
+        51.5,
+        0.12
+       ],
+       "facing": 180
+      },
+      {
+       "who": "dough",
+       "action": "cheer",
+       "at": [
+        2.8,
+        51.2,
+        0.12
+       ],
+       "facing": 180
+      },
+      {
+       "who": "plum",
+       "action": "cheer",
+       "at": [
+        5.2,
+        52,
+        0.12
+       ],
+       "facing": 180
+      },
+      {
+       "who": "grandma",
+       "action": "cheer",
+       "at": [
+        -5.2,
+        52.2,
+        0.12
+       ],
+       "facing": 180
+      },
+      {
+       "who": "fig",
+       "action": "cheer",
+       "at": [
+        7.6,
+        50.8,
+        0.12
+       ],
+       "facing": 180
+      }
+     ],
+     "w": 1.0,
+     "set": "town",
+     "fx": [],
+     "carry": {
+      "benny": "cake"
+     },
+     "crowd": {
+      "center": [
+       0,
+       48.5,
+       0.12
+      ],
+      "n": 10,
+      "radius": 6,
+      "inner": 3.8,
+      "seed": 9,
+      "face": [
+       0,
+       57,
+       0
+      ],
+      "actions": [
+       [
+        "cheer",
+        0,
+        1
+       ]
+      ]
+     }
+    }
+   ],
+   "pad": 0.6,
+   "tension": 0.6,
+   "kind": "hit",
+   "sfx": [],
+   "hold": 0.0,
+   "label": null
+  },
+  {
+   "say": [
+    "grandma",
+    "Forty bags, dear. Forty!"
+   ],
+   "shots": [
+    {
+     "camera": {
+      "subject": "grandma",
+      "framing": "mcu",
+      "move": "push_in",
+      "angle": "low",
+      "lens": 50,
+      "az": -15
+     },
+     "actions": [
+      {
+       "who": "grandma",
+       "action": "talk",
+       "at": [
+        -5.2,
+        52.2,
+        0.12
+       ],
+       "facing": 160,
+       "expr": "happy"
+      }
+     ],
+     "w": 1.0,
+     "set": "town",
+     "fx": [],
+     "crowd": {
+      "center": [
+       0,
+       48.5,
+       0.12
+      ],
+      "n": 10,
+      "radius": 6,
+      "inner": 3.8,
+      "seed": 9,
+      "face": [
+       0,
+       57,
+       0
+      ],
+      "actions": [
+       [
+        "cheer",
+        0,
+        1
+       ]
+      ]
+     }
+    }
+   ],
+   "pad": 0.25,
+   "tension": 0.5,
+   "kind": null,
+   "sfx": [],
+   "hold": 0.0,
+   "label": null
+  },
+  {
+   "say": [
+    "plum",
+    "Big reasons."
+   ],
+   "shots": [
+    {
+     "camera": {
+      "subject": "plum",
+      "framing": "cu",
+      "move": "static_drift",
+      "angle": "eye",
+      "lens": 50,
+      "az": 15
+     },
+     "actions": [
+      {
+       "who": "plum",
+       "action": "idle",
+       "at": [
+        5.2,
+        52,
+        0.12
+       ],
+       "facing": 200,
+       "expr": "sly"
+      }
+     ],
+     "w": 1.0,
+     "set": "town",
+     "fx": [],
+     "crowd": {
+      "center": [
+       0,
+       48.5,
+       0.12
+      ],
+      "n": 10,
+      "radius": 6,
+      "inner": 3.8,
+      "seed": 9,
+      "face": [
+       0,
+       57,
+       0
+      ],
+      "actions": [
+       [
+        "cheer",
+        0,
+        1
+       ]
+      ]
+     }
+    }
+   ],
+   "pad": 0.25,
+   "tension": 0.5,
+   "kind": null,
+   "sfx": [],
+   "hold": 0.0,
+   "label": null
+  },
+  {
+   "say": [
+    "benny",
+    "So the cake\u2026"
+   ],
+   "shots": [
+    {
+     "camera": {
+      "subject": "benny",
+      "framing": "mcu",
+      "move": "push_in",
+      "angle": "eye",
+      "lens": 50,
+      "az": -20
+     },
+     "actions": [
+      {
+       "who": "benny",
+       "action": "idle",
+       "at": [
+        0,
+        57,
+        0.12
+       ],
+       "facing": 0,
+       "expr": "sad"
+      }
+     ],
+     "w": 1.0,
+     "set": "town",
+     "fx": [],
+     "carry": {
+      "benny": "cake"
+     }
+    }
+   ],
+   "pad": 0.25,
+   "tension": 0.45,
+   "kind": null,
+   "sfx": [],
+   "hold": 0.0,
+   "label": null
+  },
+  {
+   "say": [
+    "dough",
+    "Was always for you, sweetie."
+   ],
+   "shots": [
+    {
+     "camera": {
+      "subject": "dough",
+      "framing": "mcu",
+      "move": "push_in",
+      "angle": "eye",
+      "lens": 50,
+      "az": 10
+     },
+     "actions": [
+      {
+       "who": "dough",
+       "action": "talk",
+       "at": [
+        2.8,
+        51.2,
+        0.12
+       ],
+       "facing": 190,
+       "expr": "happy"
+      }
+     ],
+     "w": 1.0,
+     "set": "town",
+     "fx": [],
+     "crowd": {
+      "center": [
+       0,
+       48.5,
+       0.12
+      ],
+      "n": 10,
+      "radius": 6,
+      "inner": 3.8,
+      "seed": 9,
+      "face": [
+       0,
+       57,
+       0
+      ],
+      "actions": [
+       [
+        "cheer",
+        0,
+        1
+       ]
+      ]
+     }
+    }
+   ],
+   "pad": 0.25,
+   "tension": 0.45,
+   "kind": "resolve",
+   "sfx": [],
+   "hold": 0.0,
+   "label": null
+  },
+  {
+   "say": [
+    "benny",
+    "I carried my own birthday cake across the entire town?!"
+   ],
+   "shots": [
+    {
+     "camera": {
+      "subject": "benny",
+      "framing": "ms",
+      "move": "orbit_right",
+      "angle": "low",
+      "lens": 24,
+      "az": 0
+     },
+     "actions": [
+      {
+       "who": "benny",
+       "action": "panic",
+       "at": [
+        0,
+        57,
+        0.12
+       ],
+       "facing": 0,
+       "expr": "shock"
+      }
+     ],
+     "w": 1.0,
+     "set": "town",
+     "fx": [],
+     "carry": {
+      "benny": "cake"
+     }
+    }
+   ],
+   "pad": 0.25,
+   "tension": 0.6,
+   "kind": null,
+   "sfx": [],
+   "hold": 0.0,
+   "label": null
+  },
+  {
+   "say": [
+    "pip",
+    "Professionally."
+   ],
+   "shots": [
+    {
+     "camera": {
+      "subject": "pip",
+      "framing": "cu",
+      "move": "static_drift",
+      "angle": "eye",
+      "lens": 50,
+      "az": 10
+     },
+     "actions": [
+      {
+       "who": "pip",
+       "action": "idle",
+       "at": [
+        -2.6,
+        51.5,
+        0.12
+       ],
+       "facing": 170,
+       "expr": "sly"
+      }
+     ],
+     "w": 1.0,
+     "set": "town",
+     "fx": [],
+     "crowd": {
+      "center": [
+       0,
+       48.5,
+       0.12
+      ],
+      "n": 10,
+      "radius": 6,
+      "inner": 3.8,
+      "seed": 9,
+      "face": [
+       0,
+       57,
+       0
+      ],
+      "actions": [
+       [
+        "cheer",
+        0,
+        1
+       ]
+      ]
+     }
+    }
+   ],
+   "pad": 0.75,
+   "tension": 0.4,
+   "kind": "hit",
+   "sfx": [],
+   "hold": 0.0,
+   "label": null
+  },
+  {
+   "say": [
+    "benny",
+    "\u2026Professionally."
+   ],
+   "shots": [
+    {
+     "camera": {
+      "subject": "benny",
+      "framing": "cu",
+      "move": "push_in",
+      "angle": "eye",
+      "lens": 50,
+      "az": -10
+     },
+     "actions": [
+      {
+       "who": "benny",
+       "action": "idle",
+       "at": [
+        0,
+        57,
+        0.12
+       ],
+       "facing": 0,
+       "expr": "happy"
+      }
+     ],
+     "w": 1.0,
+     "set": "town",
+     "fx": [],
+     "carry": {
+      "benny": "cake"
+     }
+    }
+   ],
+   "pad": 0.35,
+   "tension": 0.4,
+   "kind": null,
+   "sfx": [],
+   "hold": 0.0,
+   "label": null
+  },
+  {
+   "say": [
+    "narrator",
+    "And the cake never touched the ground."
+   ],
+   "shots": [
+    {
+     "camera": {
+      "subject": "benny",
+      "framing": "ms",
+      "move": "push_in",
+      "angle": "low",
+      "lens": 35,
+      "az": 0,
+      "pos": [
+       6.5,
+       56.5,
+       1.0
+      ],
+      "pos2": [
+       5.5,
+       56,
+       1.0
+      ]
+     },
+     "actions": [
+      {
+       "who": "benny",
+       "action": "walk",
+       "path": [
+        [
+         0,
+         57,
+         0.12
+        ],
+        [
+         0,
+         55,
+         0.12
+        ]
+       ],
+       "facing": 0,
+       "expr": "happy"
+      }
+     ],
+     "w": 1.0,
+     "set": "town",
+     "fx": [],
+     "carry": {
+      "benny": "cake"
+     },
+     "crowd": {
+      "center": [
+       0,
+       48.5,
+       0.12
+      ],
+      "n": 10,
+      "radius": 6,
+      "inner": 3.8,
+      "seed": 9,
+      "face": [
+       0,
+       57,
+       0
+      ],
+      "actions": [
+       [
+        "cheer",
+        0,
+        1
+       ]
+      ]
+     }
+    }
+   ],
+   "pad": 0.25,
+   "tension": 0.5,
+   "kind": null,
+   "sfx": [],
+   "hold": 0.0,
+   "label": null
+  },
+  {
+   "say": null,
+   "shots": [
+    {
+     "camera": {
+      "subject": "benny",
+      "framing": "ms",
+      "move": "push_in",
+      "angle": "low",
+      "lens": 35,
+      "az": 0,
+      "pos": [
+       5,
+       53,
+       1.1
+      ],
+      "pos2": [
+       4.5,
+       53.5,
+       1.0
+      ]
+     },
+     "actions": [
+      {
+       "who": "benny",
+       "action": "fall",
+       "at": [
+        0,
+        55,
+        0.12
+       ],
+       "facing": 0
+      }
+     ],
+     "w": 1.0,
+     "set": "town",
+     "fx": [],
+     "carry": {
+      "benny": "cake"
+     },
+     "splat": {
+      "who": "benny",
+      "f": 14
+     },
+     "crowd": {
+      "center": [
+       0,
+       48.5,
+       0.12
+      ],
+      "n": 10,
+      "radius": 6,
+      "inner": 3.8,
+      "seed": 9,
+      "face": [
+       0,
+       57,
+       0
+      ],
+      "actions": [
+       [
+        "cheer",
+        0,
+        0.3
+       ],
+       [
+        "gasp",
+        0.3,
+        1
+       ]
+      ]
+     }
+    }
+   ],
+   "pad": 0.25,
+   "tension": 0.2,
+   "kind": "drop",
+   "sfx": [
+    {
+     "kind": "splat",
+     "at": 0.38
+    },
+    {
+     "kind": "bonk",
+     "at": 0.32
+    }
+   ],
+   "hold": 1.5,
+   "label": null
+  },
+  {
+   "say": [
+    "narrator",
+    "It touched Benny's face."
+   ],
+   "shots": [
+    {
+     "camera": {
+      "subject": "benny",
+      "framing": "cu",
+      "move": "push_in",
+      "angle": "eye",
+      "lens": 35,
+      "az": 0,
+      "pos": [
+       2.2,
+       52.6,
+       0.9
+      ],
+      "pos2": [
+       1.8,
+       52.9,
+       0.8
+      ]
+     },
+     "actions": [
+      {
+       "who": "benny",
+       "action": "fall",
+       "at": [
+        0,
+        55,
+        0.12
+       ],
+       "facing": 0,
+       "t0": 0.0,
+       "t1": 0.05
+      }
+     ],
+     "w": 1.0,
+     "set": "town",
+     "fx": [],
+     "carry": {
+      "benny": "cake"
+     },
+     "splat": {
+      "who": "benny",
+      "f": 1
+     }
+    }
+   ],
+   "pad": 0.6,
+   "tension": 0.3,
+   "kind": "hit",
+   "sfx": [],
+   "hold": 0.0,
+   "label": null
+  },
+  {
+   "say": [
+    "benny",
+    "Still counts!"
+   ],
+   "shots": [
+    {
+     "camera": {
+      "subject": "benny",
+      "framing": "ws",
+      "move": "crane_up",
+      "angle": "low",
+      "lens": 24,
+      "az": 0,
+      "pos": [
+       9,
+       58,
+       1.5
+      ],
+      "pos2": [
+       11,
+       60,
+       8
+      ]
+     },
+     "actions": [
+      {
+       "who": "benny",
+       "action": "cheer",
+       "at": [
+        0,
+        55,
+        0.12
+       ],
+       "facing": 0
+      },
+      {
+       "who": "mayor",
+       "action": "cheer",
+       "at": [
+        0,
+        50.5,
+        0.12
+       ],
+       "facing": 180
+      },
+      {
+       "who": "pip",
+       "action": "cheer",
+       "at": [
+        -2.6,
+        51.5,
+        0.12
+       ],
+       "facing": 180
+      },
+      {
+       "who": "dough",
+       "action": "cheer",
+       "at": [
+        2.8,
+        51.2,
+        0.12
+       ],
+       "facing": 180
+      },
+      {
+       "who": "plum",
+       "action": "cheer",
+       "at": [
+        5.2,
+        52,
+        0.12
+       ],
+       "facing": 180
+      },
+      {
+       "who": "grandma",
+       "action": "cheer",
+       "at": [
+        -5.2,
+        52.2,
+        0.12
+       ],
+       "facing": 180
+      },
+      {
+       "who": "fig",
+       "action": "cheer",
+       "at": [
+        7.6,
+        50.8,
+        0.12
+       ],
+       "facing": 180
+      }
+     ],
+     "w": 1.0,
+     "set": "town",
+     "fx": [],
+     "carry": {
+      "benny": "cake"
+     },
+     "splat": {
+      "who": "benny",
+      "f": 1
+     },
+     "crowd": {
+      "center": [
+       0,
+       48.5,
+       0.12
+      ],
+      "n": 12,
+      "radius": 6,
+      "inner": 3.8,
+      "seed": 9,
+      "face": [
+       0,
+       57,
+       0
+      ],
+      "actions": [
+       [
+        "cheer",
+        0,
+        1
+       ]
+      ]
+     }
+    }
+   ],
+   "pad": 0.25,
+   "tension": 0.6,
+   "kind": "resolve",
+   "sfx": [
+    {
+     "kind": "cheer",
+     "at": 0.3
+    }
+   ],
+   "hold": 0.0,
+   "label": null
+  },
+  {
+   "say": [
+    "narrator",
+    "Happy birthday, Benny."
+   ],
+   "shots": [
+    {
+     "camera": {
+      "subject": "mark:tower",
+      "framing": "ews",
+      "move": "crane_up",
+      "angle": "high",
+      "lens": 24,
+      "az": 0,
+      "pos": [
+       8,
+       38,
+       6
+      ],
+      "pos2": [
+       16,
+       28,
+       34
+      ]
+     },
+     "actions": [
+      {
+       "who": "benny",
+       "action": "cheer",
+       "at": [
+        0,
+        55,
+        0.12
+       ],
+       "facing": 0
+      },
+      {
+       "who": "mayor",
+       "action": "cheer",
+       "at": [
+        0,
+        50.5,
+        0.12
+       ],
+       "facing": 180
+      },
+      {
+       "who": "pip",
+       "action": "cheer",
+       "at": [
+        -2.6,
+        51.5,
+        0.12
+       ],
+       "facing": 180
+      },
+      {
+       "who": "dough",
+       "action": "cheer",
+       "at": [
+        2.8,
+        51.2,
+        0.12
+       ],
+       "facing": 180
+      },
+      {
+       "who": "plum",
+       "action": "cheer",
+       "at": [
+        5.2,
+        52,
+        0.12
+       ],
+       "facing": 180
+      },
+      {
+       "who": "grandma",
+       "action": "cheer",
+       "at": [
+        -5.2,
+        52.2,
+        0.12
+       ],
+       "facing": 180
+      },
+      {
+       "who": "fig",
+       "action": "cheer",
+       "at": [
+        7.6,
+        50.8,
+        0.12
+       ],
+       "facing": 180
+      }
+     ],
+     "w": 1.0,
+     "set": "town",
+     "fx": [],
+     "carry": {
+      "benny": "cake"
+     },
+     "set_args": {
+      "clock": [
+       [
+        1,
+        0
+       ]
+      ]
+     },
+     "splat": {
+      "who": "benny",
+      "f": 1
+     },
+     "crowd": {
+      "center": [
+       0,
+       48.5,
+       0.12
+      ],
+      "n": 12,
+      "radius": 6,
+      "inner": 3.8,
+      "seed": 9,
+      "face": [
+       0,
+       57,
+       0
+      ],
+      "actions": [
+       [
+        "cheer",
+        0,
+        1
+       ]
+      ]
+     }
+    }
+   ],
+   "pad": 2.0,
+   "tension": 0.3,
+   "kind": null,
+   "sfx": [
+    {
+     "kind": "bells",
+     "at": 0.3
+    }
+   ],
+   "hold": 0.0,
+   "label": null
+  }
+ ]
+}
