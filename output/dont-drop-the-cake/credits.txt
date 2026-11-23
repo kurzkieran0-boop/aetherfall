@@ -1,0 +1,34 @@
+CREDITS — all third-party assets are CC0 (public domain).
+
+HDRIs — Poly Haven (https://polyhaven.com), CC0:
+  - modern_buildings_night  (https://polyhaven.com/a/modern_buildings_night)
+  - cobblestone_street_night  (https://polyhaven.com/a/cobblestone_street_night)
+  - dresden_station_night  (https://polyhaven.com/a/dresden_station_night)
+  - kloppenheim_02_puresky  (https://polyhaven.com/a/kloppenheim_02_puresky)
+  - moonless_golf  (https://polyhaven.com/a/moonless_golf)
+  - metro_vijzelgracht  (https://polyhaven.com/a/metro_vijzelgracht)
+  - kloofendal_48d_partly_cloudy_puresky  (https://polyhaven.com/a/kloofendal_48d_partly_cloudy_puresky)
+  - kloofendal_43d_clear_puresky  (https://polyhaven.com/a/kloofendal_43d_clear_puresky)
+
+PBR textures — ambientCG (https://ambientcg.com), CC0:
+  - Asphalt031  (https://ambientcg.com/view?id=Asphalt031)
+  - Road012A  (https://ambientcg.com/view?id=Road012A)
+  - Concrete049  (https://ambientcg.com/view?id=Concrete049)
+  - PavingStones130  (https://ambientcg.com/view?id=PavingStones130)
+  - Metal032  (https://ambientcg.com/view?id=Metal032)
+  - MetalPlates006  (https://ambientcg.com/view?id=MetalPlates006)
+  - Bricks059  (https://ambientcg.com/view?id=Bricks059)
+  - Tiles074  (https://ambientcg.com/view?id=Tiles074)
+  - Ground037  (https://ambientcg.com/view?id=Ground037)
+  - WoodFloor051  (https://ambientcg.com/view?id=WoodFloor051)
+  - Rock030  (https://ambientcg.com/view?id=Rock030)
+  - Grass004  (https://ambientcg.com/view?id=Grass004)
+  - RoofingTiles006  (https://ambientcg.com/view?id=RoofingTiles006)
+  - PavingStones092  (https://ambientcg.com/view?id=PavingStones092)
+
+Voices — Piper TTS (https://github.com/rhasspy/piper), voice models from
+  rhasspy/piper-voices on Hugging Face; see each voice's MODEL_CARD for its dataset licence.
+Captions — faster-whisper (MIT) word timestamps.
+Music, ambience and sound effects — generated procedurally in Python (pipeline/audio.py); no samples.
+Characters, monsters, vehicles and sets — generated procedurally in Blender (pipeline/blender/kit.py).
+Fonts — Inter (SIL Open Font License).

@@ -2,5 +2,10 @@
  "setup": 0.5,
  "story": 0.0,
  "voice": 0.0,
- "stills": 650.1
+ "stills": 650.1,
+ "final": 9969.1,
+ "audio": 28.3,
+ "captions": 55.3,
+ "compose": 318.4,
+ "deliver": 3.1
 }
