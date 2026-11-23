@@ -282,6 +282,13 @@ def stage_final(out, jobs=None, redo=None):
 
 # ---------------------------------------------------------------------------- audio
 
+
+def _mix(dst, i0, src):
+    """Add src into dst at sample i0, clipped to dst's length."""
+    k = max(0, min(len(src), len(dst) - i0))
+    if k:
+        dst[i0:i0 + k] += src[:k]
+
 def stage_audio_v2(out, film, tl):
     """Rig-v2 mix: Kokoro voices on top; colour-script score; frame-synced SFX (impacts from
     the shots' VFX, footsteps from the gait planner's foot landings, rubble foley on dig/lift);
@@ -353,14 +360,14 @@ def stage_audio_v2(out, film, tl):
         red = s.get("set_args", {}).get("sky") == "red"
         if kinds & {"mill", "whisper", "stare", "watchers", "laugh", "cheer"} and not red:
             mm = AU.murmur(s["frames"] / FPS + 0.01, int(st), 0.14)
-            amb[i0:i0 + len(mm)] += mm[: max(0, n - i0)][:seg_n]
+            _mix(amb, i0, mm[:max(0, min(seg_n, n - i0))])
         if red:
             if kinds & {"flee", "run_past"}:
                 sc = AU.screams(s["frames"] / FPS + 0.01, int(st * 3), 0.12)
-                amb[i0:i0 + len(sc)] += sc[: max(0, n - i0)][:seg_n]
+                _mix(amb, i0, sc[:max(0, min(seg_n, n - i0))])
             if s.get("set_args", {}).get("damage", 0) > 0:
                 fc = AU.fire_crackle(s["frames"] / FPS + 0.01, int(st * 5), 0.1)
-                amb[i0:i0 + len(fc)] += fc[: max(0, n - i0)][:seg_n]
+                _mix(amb, i0, fc[:max(0, min(seg_n, n - i0))])
     # scripted beat SFX
     for c in tl["cues"]:
         for e in c.get("sfx", []):

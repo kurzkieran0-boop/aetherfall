@@ -332,7 +332,7 @@ class HeroZero:
         for o in (self.zero, self.inf):
             K._constant_all(o)
 
-    def flip(self, f_crack, f_burst, f_settle, sparks=140):
+    def flip(self, f_crack, f_burst, f_settle, sparks=140, glow=1.0):
         """Hero transition. f_crack: cracks open & gold light leaks; f_burst: shards blow out,
         flash; f_settle: infinity fully formed (it spins 180 deg while growing)."""
         rng = self.rng
@@ -386,7 +386,7 @@ class HeroZero:
         L.keyframe_insert("color", frame=f_crack + 3)
         L.energy = 300
         L.keyframe_insert("energy", frame=f_burst - 1)
-        L.energy = 1500
+        L.energy = 1500 * glow
         L.keyframe_insert("energy", frame=f_burst + 1)
         L.energy = 500
         L.keyframe_insert("energy", frame=f_burst + 10)
@@ -396,7 +396,7 @@ class HeroZero:
         flash.parent = self.pivot
         flash.data.use_shadow = False
         flash.data.keyframe_insert("energy", frame=f_burst - 1)
-        flash.data.energy = 4000
+        flash.data.energy = 4000 * glow
         flash.data.keyframe_insert("energy", frame=f_burst + 1)
         flash.data.energy = 0
         flash.data.keyframe_insert("energy", frame=f_burst + 9)
@@ -417,8 +417,11 @@ class HeroZero:
         gem = self.gold.node_tree.nodes["Emission"].inputs[1]
         gem.default_value = 6
         gem.keyframe_insert("default_value", frame=f_burst)
-        gem.default_value = 30
+        gem.default_value = 30 * glow if glow >= 1.0 else max(7.0, 30 * glow)
         gem.keyframe_insert("default_value", frame=f_burst + 3)
+        if glow < 1.0:   # opt-in: shorter bloom so the infinity reads instead of a white frame
+            gem.default_value = 7
+            gem.keyframe_insert("default_value", frame=f_burst + 12)
         gem.default_value = 7
         gem.keyframe_insert("default_value", frame=f_settle + 6)
         # gentle breathing glow after
@@ -435,10 +438,11 @@ class HeroZero:
         self.zero.keyframe_insert("scale", frame=f)
 
 
-def spark_burst(parent, frame, count, color, name="spk", speed=3.0, seed=0, life=30, gravity=3.0, size=0.035):
+def spark_burst(parent, frame, count, color, name="spk", speed=3.0, seed=0, life=30, gravity=3.0, size=0.035,
+                strength=40):
     """Keyed ballistic emissive sparks (deterministic, motion-blurred streaks)."""
     rng = random.Random(seed + frame)
-    mat = K.emissive(color, 40, name=f"{name}_mat")
+    mat = K.emissive(color, strength, name=f"{name}_mat")
     pw = parent.matrix_world.translation.copy() if parent is not None else Vector((0, 0, 0))
     for i in range(count):
         o = K.box(f"{name}{i}", (0, 0, 0), (size, size, size * 3), mat, None, collection="fx")
@@ -446,9 +450,10 @@ def spark_burst(parent, frame, count, color, name="spk", speed=3.0, seed=0, life
             o.parent = parent
         v = Vector((rng.gauss(0, 1), rng.gauss(0, 1) - 0.4, rng.gauss(0, 1) + 0.6)).normalized() * speed * rng.uniform(0.4, 1.3)
         lf = int(life * rng.uniform(0.6, 1.3))
+        full = o.scale.copy()   # K.box stores the spark's dimensions in its object scale
         o.scale = (0.0001,) * 3
         o.keyframe_insert("scale", frame=frame - 1)
-        o.scale = (1, 1, 1)
+        o.scale = full
         o.keyframe_insert("scale", frame=frame)
         for k in range(0, lf + 1, 2):
             t = k / 24

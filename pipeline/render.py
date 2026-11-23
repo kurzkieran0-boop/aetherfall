@@ -88,6 +88,12 @@ def profile(kind, gpu=None, film=None):
 
 
 def _kit_hash():
+    # A pin freezes the kit hash so a backwards-compatible kit change (new opt-in shot
+    # parameters only) does not invalidate hours of cached shots. Delete the pin file
+    # after any change that alters existing shots.
+    pin = os.path.join(ROOT, "cache", "kit_pin.txt")
+    if os.path.exists(pin):
+        return open(pin).read().strip()
     h = hashlib.sha1()
     for f in ("kit.py", "camera.py", "worker.py", "charrig.py", "meter.py", "kmset.py", "worker2.py"):
         h.update(open(os.path.join(ROOT, "pipeline", "blender", f), "rb").read())

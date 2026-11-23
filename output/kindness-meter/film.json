@@ -5266,17 +5266,17 @@
     {
      "camera": {
       "subject": [
-       3.4,
-       24.0,
-       3.04
+       3.15,
+       23.56,
+       2.88
       ],
       "framing": "cu",
       "move": "push_in",
       "angle": "eye",
       "lens": 85,
       "az": 20,
-      "fstop": 2.0,
-      "amount": 0.5,
+      "fstop": 4.0,
+      "amount": 0.3,
       "note": "SLOW MOTION: crack \u2192 glow burst \u2192 shards \u2192 gold \u221e"
      },
      "actions": [
@@ -5311,9 +5311,10 @@
        0.46,
        0.86
       ],
-      "sparks": 160
+      "sparks": 160,
+      "glow": 0.5
      },
-     "flare": 1.6,
+     "flare": 1.0,
      "samples": 8,
      "step": 1,
      "exposure": -0.2

@@ -251,7 +251,8 @@ def build(job):
                 if zero_spec.get("glitch") is not None:
                     hz.glitch_inf(_fr(zero_spec["glitch"], nfr), zero_spec.get("glitch_frames", 2))
                 if fl:
-                    hz.flip(_fr(fl[0], nfr), _fr(fl[1], nfr), _fr(fl[2], nfr), sparks=zero_spec.get("sparks", 140))
+                    hz.flip(_fr(fl[0], nfr), _fr(fl[1], nfr), _fr(fl[2], nfr), sparks=zero_spec.get("sparks", 140),
+                            glow=zero_spec.get("glow", 1.0))
             meters.append(hz)
         else:
             base = ms["value"]
