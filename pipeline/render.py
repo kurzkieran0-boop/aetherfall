@@ -75,8 +75,8 @@ def profile(kind, gpu=None, film=None):
         if gpu:
             return dict(w=1080, h=1920, step=1, samples=24, vol_tile='4', vol_samples=64, budget_s=6.0, gpu=gpu,
                         allow_cycles=True, cycles_spp=48)
-        return dict(w=432, h=768, step=1, samples=6, vol_tile='8', vol_samples=32, budget_s=11.0, fx_scale=0.8,
-                    allow_cycles=True, cycles_spp=14)
+        return dict(w=432, h=768, step=1, samples=4, vol_tile='8', vol_samples=32, budget_s=9.0, fx_scale=0.8,
+                    allow_cycles=True, cycles_spp=12)
     if kind == "still":
         return dict(w=540, h=960, step=1, samples=8, still=True, vol_tile='8', vol_samples=32, budget_s=999)
     if kind == "preview":

@@ -506,7 +506,8 @@
       }
      ],
      "engine": "cycles",
-     "spp": 14
+     "spp": 12,
+     "step": 2
     },
     {
      "camera": {
@@ -557,9 +558,7 @@
        "seed": 11,
        "inner": 2.5
       }
-     ],
-     "engine": "cycles",
-     "spp": 14
+     ]
     }
    ],
    "pad": 0.15,
@@ -4409,7 +4408,8 @@
       "sirens": true
      },
      "engine": "cycles",
-     "spp": 12
+     "spp": 12,
+     "step": 2
     }
    ],
    "pad": 0.3,
@@ -4573,9 +4573,7 @@
        "area": 6,
        "height": 3
       }
-     ],
-     "engine": "cycles",
-     "spp": 12
+     ]
     }
    ],
    "pad": 0.15,
@@ -4961,9 +4959,7 @@
        ],
        "dist": 230
       }
-     ],
-     "engine": "cycles",
-     "spp": 12
+     ]
     }
    ],
    "pad": 0.3,
@@ -5256,9 +5252,7 @@
        ],
        "area": 14
       }
-     ],
-     "engine": "cycles",
-     "spp": 14
+     ]
     }
    ],
    "pad": 0.25,
@@ -5392,7 +5386,8 @@
       "inf": true
      },
      "engine": "cycles",
-     "spp": 12
+     "spp": 12,
+     "step": 2
     }
    ],
    "pad": 0.25,
@@ -6006,7 +6001,8 @@
       "inf": true
      },
      "engine": "cycles",
-     "spp": 14
+     "spp": 12,
+     "step": 2
     }
    ],
    "pad": 1.1,

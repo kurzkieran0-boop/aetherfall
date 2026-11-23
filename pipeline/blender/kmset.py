@@ -85,7 +85,7 @@ def shop(name, x, y, w, d, h, face_rot, color, sign, seed=0, door=False):
         K.box(f"{name}_doorwin", (-0.06, -0.6, 1.6), (0.04, 0.7, 0.7), glass_lit, hinge)
         K.box(f"{name}_knob", (-0.1, -1.05, 1.1), (0.08, 0.08, 0.08), K.plastic((0.9, 0.75, 0.3), 0.2), hinge)
         # warm interior light spilling out when open
-        L = K.light('AREA', (0, 0, 0), 300, (1.0, 0.75, 0.45), size=1.5, name=f"{name}_doorlight", volume=1.5)
+        L = K.light('AREA', (0, 0, 0), 900, (1.0, 0.75, 0.45), size=1.5, name=f"{name}_doorlight", volume=1.5)
         L.parent = root
         L.location = (-0.4, w * 0.22, 2.0)
         L.rotation_euler = (0, math.radians(90), 0)
@@ -764,7 +764,8 @@ def set_meter_city(seed=7, frame_range=(1, 120), sky="night", damage=0.0, spire_
         L = K.light('POINT', (-9.0, yy, 1.7), 220, (1.0, 0.68, 0.35), size=0.15, name=f"br_lanternL{k}", volume=1.0)
     K.light('SPOT', (-8.0, -30.0, 14.0), 3500, (0.55, 0.7, 1.0), size=1.2, spot=55, name="moon_bridge",
             target=(-8.0, -30.0, 0.5), volume=0.6)
-    K.light('POINT', (-20.65, -3.58, 2.25), 160, (1.0, 0.72, 0.45), size=0.2, name="doorlight_bulb", volume=0.4)
+    K.light('POINT', (-20.65, -3.58, 2.25), 450, (1.0, 0.72, 0.45), size=0.2, name="doorlight_bulb", volume=0.4)
+    K.light('AREA', (-15.5, -3.6, 4.2), 1400, (1.0, 0.78, 0.55), size=3.0, name="shopfront_wash", target=(-19.0, -3.6, 1.2), volume=0.2)
     K.box("bench_back", (12, -24.75, 0.95), (2.2, 0.1, 0.6), K.plastic((0.3, 0.18, 0.1), 0.5))
     for i, (x, y) in enumerate(((-12, -14), (12, -14), (-12, 18), (12, 18))):
         K.tree((x, y, 0), 6.5, seed=i)

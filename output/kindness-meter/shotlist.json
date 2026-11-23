@@ -79,7 +79,8 @@
      }
     ],
     "engine": "cycles",
-    "spp": 14,
+    "spp": 12,
+    "step": 2,
     "id": "s001",
     "beat": 0,
     "start": 0.0,
@@ -163,8 +164,6 @@
       "inner": 2.5
      }
     ],
-    "engine": "cycles",
-    "spp": 14,
     "id": "s002",
     "beat": 0,
     "start": 2.583,
@@ -7015,6 +7014,7 @@
     },
     "engine": "cycles",
     "spp": 12,
+    "step": 2,
     "id": "s055",
     "beat": 35,
     "start": 104.375,
@@ -7327,8 +7327,6 @@
       "height": 3
      }
     ],
-    "engine": "cycles",
-    "spp": 12,
     "id": "s057",
     "beat": 37,
     "start": 108.042,
@@ -8176,8 +8174,6 @@
       "dist": 230
      }
     ],
-    "engine": "cycles",
-    "spp": 12,
     "id": "s061",
     "beat": 40,
     "start": 117.208,
@@ -8689,8 +8685,6 @@
       "area": 14
      }
     ],
-    "engine": "cycles",
-    "spp": 14,
     "id": "s064",
     "beat": 43,
     "start": 127.417,
@@ -8884,6 +8878,7 @@
     },
     "engine": "cycles",
     "spp": 12,
+    "step": 2,
     "id": "s066",
     "beat": 44,
     "start": 133.958,
@@ -9656,7 +9651,8 @@
      "inf": true
     },
     "engine": "cycles",
-    "spp": 14,
+    "spp": 12,
+    "step": 2,
     "id": "s073",
     "beat": 49,
     "start": 149.292,

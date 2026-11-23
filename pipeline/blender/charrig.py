@@ -1222,9 +1222,9 @@ class Animator:
         p["face"] = dict(EXPR.get(expr or ({"panic_sprint": "scream", "sprint": "determined", "back_away": "fear",
                                               "drag": "strain", "sad_walk": "lonely"}.get(name, "neutral")), {}))
         if name == "panic_sprint":
-            j = math.sin(f * 0.9 + hash(self.c.name) % 7)
-            p["uaL"] = (150 + 20 * j, 30, 0)
-            p["uaR"] = (140 - 20 * j, 30, 0)
+            j = math.sin(TAU * self.phase[f] * 0.5 + hash(self.c.name) % 7)   # flail locked to the stride
+            p["uaL"] = (140 + 18 * j, 30, 0)
+            p["uaR"] = (134 - 18 * j, 30, 0)
             p["faL"] = p["faR"] = 40
             p["neck"] = (-14, 0, 20 * math.sin(f / 9.0))
         if name == "back_away":
