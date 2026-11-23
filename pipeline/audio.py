@@ -56,9 +56,70 @@ def ensure_voice(model):
 _LOADED = {}
 
 
+_KOKORO = None
+
+
+def kokoro_tts(text, voice, out_wav, speed=1.0, semis=0.0):
+    """Kokoro-82M (Apache-2.0) neural TTS via kokoro-onnx. voice e.g. am_michael, af_heart.
+    speed > 1 = faster. Optional pitch shift in semitones."""
+    global _KOKORO
+    import soundfile as sf
+    from kokoro_onnx import Kokoro
+    if _KOKORO is None:
+        d = os.path.join(ROOT, "assets", "kokoro")
+        _KOKORO = Kokoro(os.path.join(d, "kokoro-v1.0.onnx"), os.path.join(d, "voices-v1.0.bin"))
+    lang = "en-gb" if voice.startswith("b") else "en-us"
+    samples, sr = _KOKORO.create(text, voice=voice, speed=speed, lang=lang)
+    tmp = out_wav + ".raw.wav"
+    sf.write(tmp, samples, sr)
+    filt = []
+    if abs(semis) > 0.01:
+        rate = 2 ** (semis / 12)
+        filt.append(f"asetrate={int(sr * rate)},aresample={SR},atempo={1 / rate:.5f}")
+    else:
+        filt.append(f"aresample={SR}")
+    filt.append("highpass=f=70,acompressor=threshold=-22dB:ratio=3:attack=5:release=80")
+    filt.append("silenceremove=start_periods=1:start_threshold=-45dB,areverse,silenceremove=start_periods=1:start_threshold=-45dB,areverse")
+    subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", tmp, "-af", ",".join(filt), "-ac", "1", out_wav], check=True)
+    os.remove(tmp)
+    return wav_dur(out_wav)
+
+
+def visemes(wav_path, fps=24, lead=1):
+    """Per-frame mouth shapes from the line audio: [(open, wide, round)] at `fps`.
+    open = loudness envelope; wide/round from spectral centroid (ee/ss vs oo/oh)."""
+    x = read_wav(wav_path)
+    hop = SR // fps
+    n = len(x) // hop + 1
+    rms, cen = np.zeros(n), np.zeros(n)
+    win = np.hanning(hop * 2)
+    freqs = np.fft.rfftfreq(hop * 2, 1 / SR)
+    for i in range(n):
+        seg = x[i * hop:i * hop + hop * 2]
+        if len(seg) < hop * 2:
+            seg = np.pad(seg, (0, hop * 2 - len(seg)))
+        rms[i] = np.sqrt(np.mean(seg ** 2))
+        sp = np.abs(np.fft.rfft(seg * win))
+        cen[i] = (sp * freqs).sum() / (sp.sum() + 1e-9)
+    ref = np.percentile(rms[rms > 0], 92) if (rms > 0).any() else 1.0
+    o = np.clip((rms / (ref + 1e-9)) ** 0.8, 0, 1)
+    o = np.convolve(o, [0.25, 0.5, 0.25], mode="same")         # smooth jaw, no chatter
+    o[o < 0.12] = 0
+    wide = np.clip((cen - 1800) / 2200, 0, 1)
+    rnd = np.clip((1500 - cen) / 900, 0, 1)
+    out = [(0.0, 0.0, 0.0)] * lead + [(round(float(a) * 0.9, 3), round(float(b), 3), round(float(c), 3)) for a, b, c in zip(o, wide, rnd)]
+    return out
+
+
 def tts(text, voice, out_wav, speed=1.0):
     """Synthesize one line -> 48 kHz mono wav. Returns duration (s).
-    speed < 1 = faster delivery (scales Piper's length_scale). voice 'crowd' = 8 voices at once."""
+    speed < 1 = faster delivery (scales Piper's length_scale). voice 'crowd' = 8 voices at once.
+    voice 'kokoro:<name>[:speed[:semitones]]' uses Kokoro."""
+    if voice.startswith("kokoro:"):
+        parts = voice.split(":")
+        sp = float(parts[2]) if len(parts) > 2 else 1.0
+        se = float(parts[3]) if len(parts) > 3 else 0.0
+        return kokoro_tts(text, parts[1], out_wav, sp / max(0.5, speed), se)
     if voice == "crowd":
         return crowd_tts(text, out_wav, speed)
     from piper import PiperVoice, SynthesisConfig
@@ -612,4 +673,314 @@ def birds(d, seed=0, level=0.12):
             ch = np.sin(2 * np.pi * np.cumsum(f) / SR) * np.sin(np.pi * tt / 0.07)
             j = i + c * int(0.1 * SR)
             x[j:j + m] += ch[: max(0, n - j)] * rng.uniform(0.3, 1)
+    return x * level
+
+
+# ============================================================ THE KINDNESS METER: score + SFX
+def soft_keys(f, d=1.6, bright=0.4):
+    """Felt-piano-ish note: decaying sine partials with a soft hammer."""
+    t = t_axis(d)
+    x = np.zeros_like(t)
+    for k, (r, a, dec) in enumerate(((1, 1.0, 1.1), (2, 0.35 * bright + 0.1, 0.6), (3, 0.12 * bright, 0.35), (4.01, 0.06, 0.25))):
+        x += np.sin(2 * np.pi * f * r * t) * a * np.exp(-t / dec)
+    ham = lowpass(noise(len(t), int(f)), 1800) * np.exp(-t / 0.01) * 0.05
+    return ((x * 0.22 + ham) * np.minimum(1, t / 0.004)).astype(np.float32)
+
+
+def choir(freqs, d, seed=0):
+    """Warm 'ooh' pad: detuned sines with slow vibrato, formant-ish lowpass."""
+    t = t_axis(d)
+    x = np.zeros_like(t)
+    rng = np.random.default_rng(seed)
+    for f in freqs:
+        for det in (-0.004, 0.0, 0.005):
+            vib = 1 + 0.004 * np.sin(2 * np.pi * rng.uniform(4.5, 5.5) * t + rng.uniform(0, 6))
+            ph = 2 * np.pi * np.cumsum(f * (1 + det) * vib) / SR
+            x += np.sin(ph) * 0.5 + 0.18 * np.sin(2 * ph) + 0.08 * np.sin(3 * ph)
+    return lowpass((x / max(1, len(freqs) * 3)).astype(np.float32), 2400)
+
+
+def score_kindness(duration, beats, seed=0, bpm=92, silences=(), swell_t=None, cut_t=None):
+    """Colour-script score: lonely felt-keys pulse in D minor -> tension risers -> disaster
+    percussion (taiko + braams + string ostinato) -> SILENCE before the twist -> warm D-major
+    choir/strings swell on the infinity flip -> gentle resolve. beats: cue list (t, tension, kind, len)."""
+    n = int(duration * SR)
+    t = np.arange(n) / SR
+    bt = sorted(beats, key=lambda b: b["t"])
+    xs = [0] + [b["t"] for b in bt] + [duration]
+    ys = [bt[0]["tension"]] + [b["tension"] for b in bt] + [bt[-1]["tension"]]
+    ten = np.interp(t, xs, ys).astype(np.float32)
+    ten = np.convolve(ten, np.ones(SR // 2) / (SR // 2), mode="same").astype(np.float32)
+    root = 50  # D3
+    swell_t = swell_t if swell_t is not None else duration
+    major = t >= swell_t
+    beat = 60 / bpm
+    bar = beat * 4
+    mix = np.zeros(n, np.float32)
+    # 1) lonely pulse: felt keys arpeggio, i-VI-III-VII, gets sparser as tension rises
+    prog = [(0, 3, 7), (-4, 0, 3), (3, 7, 10), (-2, 2, 5)]
+    progM = [(0, 4, 7), (5, 9, 12), (-3, 0, 4), (7, 11, 14)]
+    k = 0
+    tt = 0.0
+    while tt < duration:
+        i = int(tt * SR)
+        lv = ten[min(i, n - 1)]
+        mj = major[min(i, n - 1)]
+        ch = (progM if mj else prog)[int(tt / bar) % 4]
+        if lv < 0.62 or mj:
+            note = root + 12 + ch[[0, 1, 2, 1][k % 4]] + (12 if k % 8 == 6 else 0)
+            x = soft_keys(midi(note), 1.8, 0.5) * (0.55 if mj else 0.45) * (1.0 - 0.5 * max(0, lv - 0.4))
+            mix[i:i + len(x)] += x[: n - i]
+        k += 1
+        tt += beat / 2
+    # 2) pads (strings) follow chords, fuller with tension; choir after the flip
+    pad = np.zeros(n, np.float32)
+    for bi in range(int(duration / bar) + 1):
+        a, b_ = int(bi * bar * SR), int(min(duration, (bi + 1) * bar) * SR)
+        if a >= n:
+            break
+        seg = t[a:b_]
+        ch = (progM if major[a] else prog)[bi % 4]
+        s = np.zeros(len(seg), np.float32)
+        for iv in ch:
+            for det in (-0.1, 0.0, 0.12):
+                s += saw(midi(root + iv) * (1 + det / 100), seg) * 0.05
+        e = np.minimum(1, (seg - seg[0]) / 1.0) * np.minimum(1, (seg[-1] - seg + 1e-3) / 0.6)
+        pad[a:b_] = s * e
+    mix += lowpass(pad, 900) * (0.2 + 0.55 * ten)
+    # 3) disaster: string ostinato (16ths), taiko on beats, sub drone
+    ost = np.zeros(n, np.float32)
+    seq = [0, 0, 12, 0, 7, 0, 12, 3]
+    tt, k = 0.0, 0
+    while tt < duration:
+        i = int(tt * SR)
+        lv = ten[min(i, n - 1)]
+        if lv > 0.6 and not major[min(i, n - 1)]:
+            m = min(int(beat / 4 * SR), n - i)
+            tone = saw(midi(root - 12 + seq[k % 8]), np.arange(m) / SR) * np.exp(-np.arange(m) / (SR * 0.07))
+            ost[i:i + m] += tone * 0.3 * (lv - 0.5)
+        k += 1
+        tt += beat / 4
+    mix += lowpass(ost, 1600)
+    tt = 0.0
+    while tt < duration:
+        i = int(tt * SR)
+        lv = ten[min(i, n - 1)]
+        if lv > 0.7 and not major[min(i, n - 1)]:
+            hit = boom(0.7, 62, int(tt * 13))[: n - i] * 0.5 * lv
+            mix[i:i + len(hit)] += hit
+            if lv > 0.88:
+                h2 = boom(0.4, 90, int(tt * 17))[: n - i - int(beat / 2 * SR)] * 0.25
+                j = i + int(beat / 2 * SR)
+                mix[j:j + len(h2)] += h2
+        tt += beat
+    drone = np.sin(2 * np.pi * midi(root - 12) * t) * (0.12 + 0.3 * np.clip(ten - 0.5, 0, 1)) * (~major)
+    mix += drone.astype(np.float32)
+    # 4) risers into hits, braams
+    for b in bt:
+        i = int(b["t"] * SR)
+        if b.get("kind") in ("hit", "braam"):
+            r = riser(1.8, int(b["t"] * 7)) * 0.45
+            j = max(0, i - len(r))
+            seg = r[len(r) - (i - j):]
+            mix[j:j + len(seg)] += seg[: n - j]
+            h = braam(3.2, midi(root - 24), int(b["t"])) if b["kind"] == "braam" else boom(2.2, 48, int(b["t"]))
+            mix[i:i + len(h)] += h[: n - i] * 0.8
+    # 5) the swell: choir + strings + bell on the flip, D major
+    if swell_t < duration:
+        i = int(swell_t * SR)
+        d = duration - swell_t
+        tt_ = t_axis(d)
+        sw = choir([midi(root + x) for x in (0, 4, 7, 12, 16)], d, seed) * 0.9
+        sw *= np.minimum(1, tt_ / 2.2) * np.minimum(1, (d - tt_ + 1e-3) / 0.05)
+        mix[i:i + len(sw)] += sw[: n - i]
+        for j, (fq, dt) in enumerate(((midi(root + 24), 0.0), (midi(root + 28), 0.6), (midi(root + 31), 1.2), (midi(root + 36), 1.8))):
+            bl = bell(seed + j, fq, 4.0) * 0.6
+            p = i + int(dt * SR)
+            mix[p:p + len(bl)] += bl[: max(0, n - p)]
+    # 6) silences (hard drop before the twist), hard cut at the end
+    gate = np.ones(n, np.float32)
+    for a, b in silences:
+        i0, i1 = int(a * SR), int(b * SR)
+        f = min(int(0.35 * SR), max(1, i1 - i0))
+        gate[i0:i0 + f] = np.minimum(gate[i0:i0 + f], np.linspace(1, 0, f))
+        gate[i0 + f:i1] = 0
+    if cut_t is not None:
+        gate[int(cut_t * SR):] = 0
+    return (np.tanh(mix * gate * 1.1) * 0.8).astype(np.float32)
+
+
+def sfx_kindness(kind, seed=0):
+    """Synthesised one-shots for THE KINDNESS METER."""
+    if kind == "door_slam":
+        x = boom(0.9, 70, seed) * 0.7
+        k = highpass(noise(int(0.12 * SR), seed), 900) * np.exp(-np.arange(int(0.12 * SR)) / 500)
+        x[:len(k)] += k * 0.9
+        rat = highpass(noise(int(0.4 * SR), seed + 1), 3000) * env(int(0.4 * SR), 0.005, 0.15) * 0.15
+        x[int(0.05 * SR):int(0.05 * SR) + len(rat)] += rat
+        return x
+    if kind == "ding":
+        t = t_axis(1.0)
+        x = (np.sin(2 * np.pi * 1760 * t) * np.exp(-t / 0.35) + 0.6 * np.sin(2 * np.pi * 2637 * t) * np.exp(-t / 0.25)
+             + 0.3 * np.sin(2 * np.pi * 3520 * t) * np.exp(-t / 0.15))
+        sh = highpass(noise(len(t), seed), 6000) * np.exp(-t / 0.08) * 0.2
+        return ((x * 0.3 + sh) * np.minimum(1, t / 0.002)).astype(np.float32)
+    if kind == "laugh":
+        d = 2.2
+        x = np.zeros(int(d * SR), np.float32)
+        rng = np.random.default_rng(seed)
+        for v in range(6):
+            f0 = rng.uniform(180, 420)
+            st = rng.uniform(0, 0.5)
+            for h in range(rng.integers(3, 6)):
+                tt = t_axis(0.12)
+                ha = (np.sin(2 * np.pi * f0 * tt) + 0.5 * np.sin(4 * np.pi * f0 * tt)) * np.sin(np.pi * tt / 0.12) ** 2
+                ha += lowpass(noise(len(tt), int(f0) + h), 2500) * 0.3 * np.sin(np.pi * tt / 0.12)
+                i = int((st + h * rng.uniform(0.16, 0.22)) * SR)
+                x[i:i + len(ha)] += ha[: len(x) - i] * 0.12
+        return x
+    if kind == "thunk":
+        t = t_axis(0.35)
+        x = np.sin(2 * np.pi * 180 * t * (1 + np.exp(-t * 40))) * np.exp(-t / 0.06)
+        x += lowpass(noise(len(t), seed), 1200) * np.exp(-t / 0.03) * 0.6
+        return (x * 0.7).astype(np.float32)
+    if kind in ("glitch_tiny", "glitch"):
+        d = 0.12 if kind == "glitch_tiny" else 0.9
+        t = t_axis(d)
+        rng = np.random.default_rng(seed)
+        f = np.repeat(rng.uniform(300, 2400, int(d * 60) + 1), SR // 60)[: len(t)]
+        x = np.sign(np.sin(2 * np.pi * np.cumsum(f) / SR)) * 0.25
+        x = np.round(x * 4) / 4
+        x *= (rng.random(len(t) // 400 + 1).repeat(400)[: len(t)] > 0.3)
+        return (x * env(len(t), 0.002, d * 0.6) * (0.6 if kind == "glitch" else 0.9)).astype(np.float32)
+    if kind == "server_alarm":
+        t = t_axis(2.4)
+        on = ((t % 0.6) < 0.45).astype(np.float32)
+        f = np.where((t % 1.2) < 0.6, 880, 660)
+        return (np.sign(np.sin(2 * np.pi * np.cumsum(f) / SR)) * 0.12 * on * np.minimum(1, (2.4 - t) / 0.3)).astype(np.float32)
+    if kind == "meteor_fall":
+        d = 2.6
+        t = t_axis(d)
+        f = 2400 * np.exp(-t * 0.9) + 200
+        wh = np.sin(2 * np.pi * np.cumsum(f) / SR) * 0.15 * (t / d) ** 1.5
+        roar = lowpass(noise(len(t), seed), 600) * (t / d) ** 2 * 1.2
+        hiss = highpass(noise(len(t), seed + 3), 3000) * (t / d) ** 2 * 0.3
+        return (wh + roar + hiss).astype(np.float32)
+    if kind == "impact":
+        x = boom(4.0, 38, seed) * 1.4
+        cr = highpass(noise(int(0.3 * SR), seed + 1), 1500) * np.exp(-np.arange(int(0.3 * SR)) / 2500)
+        x[:len(cr)] += cr
+        deb = np.zeros_like(x)
+        rng = np.random.default_rng(seed)
+        for k in range(40):
+            i = int(rng.uniform(0.15, 2.5) * SR)
+            m = int(0.06 * SR)
+            c = bandpass_noise(m, rng.uniform(400, 2400), seed + k) * np.exp(-np.arange(m) / 600) * rng.uniform(0.1, 0.35)
+            deb[i:i + m] += c[: len(deb) - i]
+        return x + deb
+    if kind == "crash":
+        return (boom(2.0, 60, seed) * 0.6 + bandpass_noise(int(2.0 * SR), 1200, seed) * env(int(2.0 * SR), 0.002, 0.5) * 0.5)
+    if kind == "creak":
+        d = 2.4
+        t = t_axis(d)
+        f = 55 + 25 * np.sin(2 * np.pi * 0.7 * t) + 8 * np.sin(2 * np.pi * 13 * t)
+        x = saw(f, t) * 0.25
+        x = lowpass(x.astype(np.float32), 700) * env(len(t), 0.4, 1.0, 1.0)
+        return x + lowpass(noise(len(t), seed), 120) * 0.4 * env(len(t), 0.4, 1.0)
+    if kind == "rumble":
+        return city_rumble(3.0, seed, 0.9)
+    if kind == "thud":
+        t = t_axis(0.6)
+        x = np.sin(2 * np.pi * 70 * t * (1 + 2 * np.exp(-t * 30))) * np.exp(-t / 0.12)
+        x += lowpass(noise(len(t), seed), 500) * np.exp(-t / 0.05) * 0.8
+        return (x * 0.9).astype(np.float32)
+    if kind == "collapse":
+        d = 4.5
+        x = city_rumble(d, seed, 1.6)[: int(d * SR)]
+        rng = np.random.default_rng(seed)
+        for k in range(14):
+            i = int(rng.uniform(0, d - 1.5) * SR)
+            c = boom(1.2, rng.uniform(45, 90), seed + k) * rng.uniform(0.3, 0.7)
+            x[i:i + len(c)] += c[: len(x) - i]
+        return x
+    if kind == "crack":
+        x = np.zeros(int(1.2 * SR), np.float32)
+        rng = np.random.default_rng(seed)
+        for k in range(12):
+            i = int(rng.uniform(0, 1.0) * SR)
+            m = int(0.015 * SR)
+            x[i:i + m] += highpass(noise(m, seed + k), 4000) * rng.uniform(0.3, 0.8)
+        t = t_axis(1.2)
+        x += np.sin(2 * np.pi * 1200 * t * (1 + 0.3 * t)) * np.exp(-t / 0.5) * 0.06
+        return x
+    if kind == "flip_burst":
+        d = 3.5
+        t = t_axis(d)
+        wh = bandpass_noise(len(t), 3000, seed) * env(len(t), 0.02, 0.8) * 0.5
+        sh = np.zeros(len(t), np.float32)
+        for k, f in enumerate((1174.7, 1480, 1760, 2349.3, 2960)):
+            p = int(k * 0.06 * SR)
+            b = bell(seed + k, f, 2.8)
+            sh[p:p + len(b)] += b[: len(sh) - p] * 0.5
+        return wh + sh
+    if kind == "whoosh":
+        return whoosh(0.6, seed)
+    if kind == "cheer":
+        return cheer(2.5, seed)
+    if kind == "siren":
+        return siren(4.0, seed, "wail") * 0.6
+    return np.zeros(int(0.1 * SR), np.float32)
+
+
+def bandpass_noise(n, fc, seed=0):
+    return highpass(lowpass(noise(n, seed), fc * 1.4), fc * 0.7)
+
+
+def step_sound(seed=0, run=False, wet=True):
+    m = int(0.18 * SR)
+    t = np.arange(m) / SR
+    thump = lowpass(noise(m, seed), 380) * np.exp(-t / 0.025) * (1.6 if run else 1.0)
+    scuff = bandpass_noise(m, 1800, seed + 1) * np.exp(-t / 0.04) * 0.25
+    splash = highpass(noise(m, seed + 2), 2500) * np.exp(-t / 0.05) * (0.35 if wet else 0.05)
+    return (thump + scuff + splash).astype(np.float32)
+
+
+def murmur(d, seed=0, level=0.12, voices=14):
+    """Crowd babble bed: many syllabic band-passed noise voices."""
+    n = int(d * SR)
+    x = np.zeros(n, np.float32)
+    rng = np.random.default_rng(seed)
+    t = np.arange(n) / SR
+    for v in range(voices):
+        fc = rng.uniform(350, 1100)
+        sy = rng.uniform(3.5, 6.0)
+        am = np.clip(np.sin(2 * np.pi * sy * t + rng.uniform(0, 6)) * 0.5 + 0.5, 0, 1) ** 2
+        gate = (np.sin(2 * np.pi * rng.uniform(0.15, 0.4) * t + rng.uniform(0, 6)) > -0.2).astype(np.float32)
+        x += bandpass_noise(n, fc, seed + v) * am * gate
+    return lowpass(x, 2200) * level / np.sqrt(voices) * 3
+
+
+def screams(d, seed=0, level=0.15):
+    n = int(d * SR)
+    x = np.zeros(n, np.float32)
+    rng = np.random.default_rng(seed)
+    for k in range(int(d * 1.6)):
+        i = int(rng.uniform(0, max(0.01, d - 1.0)) * SR)
+        L = int(rng.uniform(0.4, 1.0) * SR)
+        tt = np.arange(L) / SR
+        f = rng.uniform(600, 1100) * (1 + 0.15 * np.sin(2 * np.pi * 5 * tt)) * (1 - 0.2 * tt)
+        s = np.sin(2 * np.pi * np.cumsum(f) / SR) * 0.4 + bandpass_noise(L, 1500, seed + k) * 0.6
+        s *= np.sin(np.pi * tt / tt[-1]) ** 0.5
+        x[i:i + L] += s[: n - i] * rng.uniform(0.3, 1.0)
+    return lowpass(x, 3500) * level
+
+
+def fire_crackle(d, seed=0, level=0.12):
+    n = int(d * SR)
+    rng = np.random.default_rng(seed)
+    x = lowpass(noise(n, seed), 500) * 0.4
+    for k in range(int(d * 25)):
+        i = int(rng.uniform(0, d) * SR)
+        m = int(0.01 * SR)
+        x[i:i + m] += highpass(noise(m, seed + k), 2000)[: n - i] * rng.uniform(0.2, 1.0)
     return x * level

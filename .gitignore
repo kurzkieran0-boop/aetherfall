@@ -9,3 +9,4 @@ __pycache__/
 *.pyc
 output/*/film.mp4
 output/*/captions.json
+assets/kokoro/

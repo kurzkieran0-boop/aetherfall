@@ -55,10 +55,13 @@ class Subjects:
             return Vector((0, 0, 1.6)), 0.0, 2.1
         hp = c.head.matrix_world.translation + Vector((0, 0, 0.3 * c.s))
         yaw = math.degrees(c.root.matrix_world.to_euler().z)
+        room = getattr(self, "meter_room", False) and hasattr(c, "meter_anchor")
         if part == "base":
             return c.root.matrix_world.translation.copy(), yaw, 2.1 * c.s
         if part == "chest":
-            return c.torso.matrix_world.translation + Vector((0, 0, 0.45 * c.s)), yaw, 2.1 * c.s
+            return c.torso.matrix_world.translation + Vector((0, 0, (0.95 if room else 0.45) * c.s)), yaw, 2.1 * c.s
+        if room:   # aim between face and number so the meter stays in frame on a phone
+            return hp + Vector((0, 0, 0.42 * c.s)), yaw, 2.1 * c.s
         return hp, yaw, 2.1 * c.s
 
     def is_monster(self, name):
@@ -123,6 +126,8 @@ def build_camera(spec, subj, f0, f1, impacts=(), fps=24, step=2):
         te = ease(t)
         P, yaw, H = subj.point(s1, spec.get("part", "chest" if framing in ("ms", "mws", "ws") and not is_mon else "head"))
         fh = (MON_FRAME_H[framing] * H) if is_mon else FRAME_H[framing] * (H / 2.1)
+        if getattr(subj, "meter_room", False) and isinstance(s1, str) and s1 in subj.chars and framing in ("cu", "mcu", "ms", "mws"):
+            fh *= {"cu": 1.55, "mcu": 1.35, "ms": 1.22, "mws": 1.12}[framing]
         dist = fh * lens / 36.0
         az = yaw + az_rel
         elev = ELEV.get(angle, 4)
@@ -229,7 +234,8 @@ def build_camera(spec, subj, f0, f1, impacts=(), fps=24, step=2):
         keys.append((f, tuple(cam_pos), tuple(target)))
         if move == "rack_focus" and s2 is not None:
             P2, _, _ = subj.point(s2)
-            fd = ((P2.lerp(P, ease(min(1, max(0, (t - 0.35) / 0.3))))) - cam_pos).length
+            ka = ease(min(1, max(0, (t - 0.35) / 0.3)))
+            fd = ((P.lerp(P2, ka) if spec.get("rack_reverse") else P2.lerp(P, ka)) - cam_pos).length
             cd.dof.focus_object = None
             cd.dof.focus_distance = fd
             cd.dof.keyframe_insert("focus_distance", frame=f)
@@ -250,7 +256,7 @@ def _blocked(scn, origin, target, subject_colls):
         hit, loc, nrm, idx, ob, mtx = scn.ray_cast(dg, o, v.normalized(), distance=dist - 0.3)
         if hit and ob is not None:
             names = {c.name for c in ob.users_collection}
-            if not (names & subject_colls) and "fx" not in names and "lights" not in names:
+            if not (names & subject_colls) and "fx" not in names and "lights" not in names and "meters" not in names:
                 if v is d or (loc - target).length > 1.0:
                     return True
     return False

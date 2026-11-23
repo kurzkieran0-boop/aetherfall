@@ -8,7 +8,9 @@ Stages (each is cached / resumable — re-running skips anything already done):
   story    brainstorm 10 premises -> score -> outline -> draft -> critique -> rewrite
            -> story.md, script.md, shotlist.json
   voice    neural TTS per line (Piper) -> real line lengths -> timeline
-  stills   preview pass: one 540x960 still per shot -> contact_sheet.png + qa.json
+  stills   one 540x960 still per shot -> contact_sheet.png + qa.json
+  preview  (rig-v2 films) fast low-res animated pass of EVERY shot -> preview.mp4 at 540x960 with the
+           voice track, overlays and the runtime gate, for a pacing review before finals
   final    animated shots, parallel Blender processes, hash-cached per shot
   audio    procedural score + SFX from render events + ambience + voices -> loudnorm
   captions faster-whisper word timestamps -> word-by-word captions
@@ -35,7 +37,7 @@ import time
 ROOT = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, os.path.join(ROOT, "pipeline"))
 
-STAGES = ["setup", "story", "voice", "stills", "final", "audio", "captions", "compose", "deliver"]
+STAGES = ["setup", "story", "voice", "stills", "preview", "final", "audio", "captions", "compose", "deliver"]
 FPS = 24
 
 
@@ -133,6 +135,8 @@ def stage_voice(out):
         open(stamp, "w").write(f"{voice}|{text}")
         durs.append(d)
     tl = S.build_timeline(film, durs)
+    if film.get("rig") == "v2":
+        _add_lips(film, tl, vdir)
     notes = S.critique(film, durs)
     S.write_docs(film, tl, out, notes)
     json.dump(tl, open(os.path.join(out, "timeline.json"), "w"), indent=1)
@@ -140,6 +144,32 @@ def stage_voice(out):
     for n in notes:
         log(f"   critique: {n}")
     return tl
+
+
+def _add_lips(film, tl, vdir):
+    """Per-shot lip-sync tracks (shot-local frames) from each line's audio."""
+    import audio as AU
+    cache = {}
+    for s in tl["shots"]:
+        s.pop("lips", None)
+        st, en = s["start"], s["start"] + s["frames"] / FPS
+        for ln in tl["lines"]:
+            who = ln["speaker"]
+            if who not in s.get("cast", []):
+                continue
+            if ln["start"] + ln["dur"] < st or ln["start"] > en:
+                continue
+            p = os.path.join(vdir, f"{ln['beat']:03d}_{who}.wav")
+            if p not in cache:
+                cache[p] = AU.visemes(p)
+            vis = cache[p]
+            arr = s.setdefault("lips", {}).setdefault(who, [])
+            for k, (o, w, r) in enumerate(vis):
+                t = ln["start"] + k / FPS
+                f = int(round((t - st) * FPS)) + 1
+                if 1 <= f <= s["frames"]:
+                    arr.append([f, o, w, r])
+        s.pop("talk", None)
 
 
 # --------------------------------------------------------------------------- render
@@ -190,11 +220,51 @@ def stage_stills(out, jobs=None):
         f"flagged {len(bad)}: {bad}")
 
 
+def stage_preview(out, jobs=None):
+    """Fast animated pass of every shot at 288x512 (on fours) -> preview.mp4 at 540x960 with the
+    dialogue track and overlays. Used to check pacing / runtime before the expensive finals."""
+    import numpy as np
+    import audio as AU
+    import render as R
+    import compose as C
+    film, tl = _film_and_tl(out)
+    t = time.time()
+    dirs = R.render_shots(film, tl["shots"], "preview", jobs=jobs or 3, log=log)
+    missing = [s["id"] for s in tl["shots"] if s["id"] not in dirs]
+    if missing:
+        log(f"[preview] FAILED shots: {missing}")
+        sys.exit(2)
+    n = int((tl["duration"] + 1.5) * AU.SR)
+    voice = np.zeros(n, np.float32)
+    vdir = os.path.join(out, "audio", "lines")
+    for ln in tl["lines"]:
+        AU.place(voice, AU.read_wav(os.path.join(vdir, f"{ln['beat']:03d}_{ln['speaker']}.wav")), ln["start"])
+    ad = os.path.join(out, "audio")
+    os.makedirs(ad, exist_ok=True)
+    AU.write_wav(os.path.join(ad, "preview_voice.wav"), voice)
+    C.compose(tl, dirs, os.path.join(ad, "preview_voice.wav"), [], os.path.join(out, "preview.mp4"),
+              look=film["look"], log=log, preview=True, film=film, size=(540, 960))
+    pr = ffprobe(os.path.join(out, "preview.mp4"))
+    dur = float(pr["format"]["duration"])
+    aq = {}
+    for sid, d in dirs.items():
+        m = json.load(open(os.path.join(d, "meta.json")))
+        if m.get("animcheck"):
+            aq[sid] = m["animcheck"]
+    json.dump({"duration": dur, "animcheck": aq, "wall_s": round(time.time() - t, 1)},
+              open(os.path.join(out, "preview_report.json"), "w"), indent=1)
+    worst = sorted(((v.get("slide_cm_max", 0), k) for k, v in aq.items()), reverse=True)[:5]
+    log(f"[preview] preview.mp4 {dur:.2f}s ({time.time() - t:.0f}s); worst foot slide per shot: {worst}")
+    if dur < film.get("runtime_target", (0, 0))[0]:
+        log(f"[preview] RUNTIME GATE FAILED: {dur:.2f}s < {film['runtime_target'][0]}s")
+        sys.exit(3)
+
+
 def stage_final(out, jobs=None, redo=None):
     import render as R
     film, tl = _film_and_tl(out)
     if redo:
-        rset = R.profile("final")
+        rset = R.profile("final", film=film)
         for s in tl["shots"]:
             if s["id"] in redo:
                 d = os.path.join(R.CACHE, "final_" + R.shot_key(R.film_context(film), s, rset))
@@ -212,10 +282,151 @@ def stage_final(out, jobs=None, redo=None):
 
 # ---------------------------------------------------------------------------- audio
 
+def stage_audio_v2(out, film, tl):
+    """Rig-v2 mix: Kokoro voices on top; colour-script score; frame-synced SFX (impacts from
+    the shots' VFX, footsteps from the gait planner's foot landings, rubble foley on dig/lift);
+    ambience beds per shot (night hum, crowd murmur, sirens, fire, screams); loudnorm -14 LUFS."""
+    import numpy as np
+    import audio as AU
+    rj = json.load(open(os.path.join(out, "render.json")))
+    tail = 0.9
+    dur = tl["duration"] + tail
+    n = int(dur * AU.SR)
+    voice, sfx, amb, foley = (np.zeros(n, np.float32) for _ in range(4))
+    vdir = os.path.join(out, "audio", "lines")
+    for ln in tl["lines"]:
+        w = AU.read_wav(os.path.join(vdir, f"{ln['beat']:03d}_{ln['speaker']}.wav"))
+        b = film["beats"][ln["beat"]]
+        g = 1.0
+        fx = b.get("voice_fx")
+        if fx == "muffled":
+            w = AU.lowpass(w, 700) * 1.9
+        elif fx == "whisper":
+            w = AU.highpass(w, 300) * 0.8
+        elif fx == "echo":
+            w = AU.echo(w)
+        if ln["speaker"] == "vo":
+            g = 1.05
+        AU.place(voice, w, ln["start"], g)
+
+    def norm(x):
+        m = float(np.abs(x).max()) or 1.0
+        return x / m
+
+    shots = {s["id"]: s for s in tl["shots"]}
+    # frame-synced events from the renders
+    for sid, d in rj["dirs"].items():
+        s = shots[sid]
+        m = json.load(open(os.path.join(d, "meta.json")))
+        st = s["start"]
+        for f, who, spd in m.get("steps", []):
+            if not (1 <= f <= s["frames"]):
+                continue
+            run = spd > 2.2
+            g = (0.32 if who in ("hero", "guest") else 0.2) * (1.3 if run else 1.0)
+            AU.place(foley, AU.step_sound(int(f * 7 + len(who)), run, True), st + (f - 1) / FPS - 0.01, g)
+        for v in s.get("vfx", []):
+            tt = v.get("t", 0.5)
+            fr = tt * s["frames"] if isinstance(tt, float) and tt <= 1.5 else tt
+            at = st + fr / FPS
+            if v["kind"] == "impact":
+                AU.place(sfx, norm(AU.sfx_kindness("impact", int(at * 10))), at - 0.02, 1.0)
+            elif v["kind"] == "meteor" and 0 < at - st:
+                AU.place(sfx, norm(AU.sfx_kindness("meteor_fall", int(at))), at - 2.4, 0.55)
+            elif v["kind"] == "sign":
+                AU.place(sfx, norm(AU.sfx_kindness("crash", int(at))), at + 0.55, 0.45)
+                AU.place(sfx, norm(AU.sfx_kindness("glitch_tiny", int(at))), at, 0.25)
+        acts = {a["action"] for a in s["actions"]}
+        if acts & {"dig", "lift", "fix", "pickup"}:
+            seg = s["frames"] / FPS
+            k = 0.0
+            while k < seg:
+                AU.place(foley, norm(AU.bandpass_noise(int(0.25 * AU.SR), 900, int(k * 10)) * AU.env(int(0.25 * AU.SR), 0.02, 0.15)),
+                         st + k, 0.22)
+                k += 0.38
+        if s["camera"].get("move") == "whip_pan":
+            AU.place(sfx, norm(AU.whoosh(0.6, 3)), st + s["frames"] / FPS * s["camera"].get("whip_at", 0.45) - 0.15, 0.55)
+        # ambience per shot
+        seg_n = int(s["frames"] / FPS * AU.SR)
+        i0 = int(st * AU.SR)
+        kinds = {c.get("kind") for c in s.get("crowd", [])}
+        red = s.get("set_args", {}).get("sky") == "red"
+        if kinds & {"mill", "whisper", "stare", "watchers", "laugh", "cheer"} and not red:
+            mm = AU.murmur(s["frames"] / FPS + 0.01, int(st), 0.14)
+            amb[i0:i0 + len(mm)] += mm[: max(0, n - i0)][:seg_n]
+        if red:
+            if kinds & {"flee", "run_past"}:
+                sc = AU.screams(s["frames"] / FPS + 0.01, int(st * 3), 0.12)
+                amb[i0:i0 + len(sc)] += sc[: max(0, n - i0)][:seg_n]
+            if s.get("set_args", {}).get("damage", 0) > 0:
+                fc = AU.fire_crackle(s["frames"] / FPS + 0.01, int(st * 5), 0.1)
+                amb[i0:i0 + len(fc)] += fc[: max(0, n - i0)][:seg_n]
+    # scripted beat SFX
+    for c in tl["cues"]:
+        for e in c.get("sfx", []):
+            kind = e["kind"] if isinstance(e, dict) else e
+            off = (e.get("at", 0.0) if isinstance(e, dict) else 0.0) * c["len"]
+            g = e.get("gain", 1.0) if isinstance(e, dict) else 1.0
+            gains = {"door_slam": 0.8, "ding": 0.55, "laugh": 0.5, "thunk": 0.5, "glitch_tiny": 0.35, "glitch": 0.45,
+                     "server_alarm": 0.45, "meteor_fall": 0.6, "impact": 1.0, "crash": 0.6, "creak": 0.7,
+                     "rumble": 0.6, "thud": 0.7, "collapse": 0.9, "crack": 0.5, "flip_burst": 0.75, "whoosh": 0.5,
+                     "cheer": 0.45, "siren": 0.5}
+            AU.place(sfx, norm(AU.sfx_kindness(kind, int(c["t"] * 10) + 7)), c["t"] + off, g * gains.get(kind, 0.6))
+    # city + disaster beds
+    red_t = next((sh["start"] for sh in tl["shots"] if sh.get("set_args", {}).get("sky") == "red"), dur)
+    hum = AU.city_rumble(dur, 5, 0.1)[:n]
+    amb += hum
+    sir = AU.lowpass(AU.siren(dur, 1, "wail") * 0.22, 2000)[:n]
+    w = np.zeros(n, np.float32)
+    w[int(red_t * AU.SR):] = 1.0
+    end_red = next((sh["start"] for sh in tl["shots"] if sh.get("act") == "gold"), dur)
+    w[int(end_red * AU.SR):] *= np.linspace(1, 0.25, n - int(end_red * AU.SR))
+    amb += sir * w
+    # score
+    cues = []
+    last = 0.3
+    for c in tl["cues"]:
+        ten = c["tension"] if c["tension"] is not None else last
+        last = ten
+        cues.append({"t": c["t"], "tension": ten, "kind": c["kind"], "len": c["len"]})
+    silences = []
+    swell = None
+    for i, b in enumerate(film["beats"]):
+        c = next((x for x in tl["cues"] if x["beat"] == i), None)
+        if not c:
+            continue
+        if b.get("music_out"):
+            silences.append((c["t"] + c["len"] * 0.55, c["t"] + c["len"] + 0.01))
+        if b.get("kind") == "silence":
+            silences.append((c["t"], c["t"] + c["len"]))
+        if b.get("kind") == "swell" and swell is None:
+            swell = c["t"] + c["len"] * 0.08
+    music = AU.score_kindness(dur, cues, seed=11, bpm=film.get("bpm", 92), silences=silences, swell_t=swell,
+                              cut_t=tl["duration"])[:n]
+    music = AU.duck(music, voice, 0.55)
+    amb = AU.duck(amb, voice, 0.35)
+    # silence before the twist also thins ambience
+    for a, b in silences:
+        i0, i1 = int(a * AU.SR), int(b * AU.SR)
+        amb[i0:i1] *= 0.25
+        foley[i0:i1] *= 0.6
+    mix = voice * 1.0 + music * 0.5 + sfx * 0.7 + amb * 0.55 + foley * 0.7
+    mix[int(tl["duration"] * AU.SR):] = 0           # hard cut to black = hard cut to silence
+    mix = np.tanh(mix * 0.9)
+    ad = os.path.join(out, "audio")
+    AU.write_wav(os.path.join(ad, "voice.wav"), voice)
+    AU.write_wav(os.path.join(ad, "mix_raw.wav"), mix)
+    js = AU.loudnorm(os.path.join(ad, "mix_raw.wav"), os.path.join(ad, "mix.wav"), I=-14)
+    log(f"[audio] mixed {dur:.1f}s; loudnorm in {js['input_i']} LUFS -> -14 LUFS (TP -1 dB); swell at {swell}, "
+        f"silences {[(round(a, 1), round(b, 1)) for a, b in silences]}")
+
+
 def stage_audio(out):
     import numpy as np
     import audio as AU
     film, tl = _film_and_tl(out)
+    if film.get("rig") == "v2":
+        return stage_audio_v2(out, film, tl)
     rj = json.load(open(os.path.join(out, "render.json")))
     dur = tl["duration"] + 0.5
     n = int(dur * AU.SR)
@@ -407,9 +618,11 @@ def stage_compose(out):
     rj = json.load(open(os.path.join(out, "render.json")))
     caps = json.load(open(os.path.join(out, "captions.json")))
     flashes = [c["t"] for c in tl["cues"] if c["kind"] in ("hit", "braam") and c["t"] > 1.0]
+    if film.get("rig") == "v2":
+        flashes = []          # v2: flashes come from the actual impact frames
     t = time.time()
     C.compose(tl, rj["dirs"], os.path.join(out, "audio", "mix.wav"), caps, os.path.join(out, "film.mp4"),
-              look=film["look"], flashes=flashes, log=log)
+              look=film["look"], flashes=flashes, log=log, film=film)
     log(f"[compose] film.mp4 written ({time.time() - t:.0f}s)")
 
 
@@ -421,11 +634,81 @@ def ffprobe(p):
     return json.loads(r.stdout)
 
 
+def stage_deliver_v2(out, film, tl):
+    from PIL import Image, ImageDraw, ImageFont, ImageFilter
+    import captions as CP
+    from compose import contact_sheet
+    pr = ffprobe(os.path.join(out, "film.mp4"))
+    dur = float(pr["format"]["duration"])
+    v = [x for x in pr["streams"] if x.get("width")][0]
+    lo, hi = film.get("runtime_target", (135, 160))
+    ok = dur >= lo and v["width"] == 1080 and v["height"] == 1920 and v["r_frame_rate"] == "24/1"
+    log(f"[deliver] ffprobe: {dur:.2f}s {v['width']}x{v['height']} @ {v['r_frame_rate']} {v['codec_name']} -> {'OK' if ok else 'FAIL'}")
+    if dur < lo:
+        log(f"[deliver] BUILD FAILED: runtime {dur:.2f}s is under the {lo}s minimum")
+        sys.exit(4)
+    rj = json.load(open(os.path.join(out, "render.json")))
+    # thumbnail: the flip shot just after the burst -> red shards + gold infinity growing (half-flipped)
+    flip = next(s for s in tl["shots"] if s.get("zero", {}).get("flip"))
+    m = json.load(open(os.path.join(rj["dirs"][flip["id"]], "meta.json")))
+    fb = flip["zero"]["flip"][1]
+    want = int(fb * flip["frames"]) + 3
+    f = min(m["frames"], key=lambda x: abs(x - want))
+    im = Image.open(os.path.join(rj["dirs"][flip["id"]], f"f_{f:04d}.png")).convert("RGB").resize((1080, 1920), Image.LANCZOS)
+    im = im.filter(ImageFilter.UnsharpMask(2, 90, 2))
+    d = ImageDraw.Draw(im)
+    fnt = ImageFont.truetype(CP.font_path(), 140)
+    for k, (ln, col) in enumerate((("STUCK AT", (255, 255, 255)), ("ZERO", (255, 60, 40)))):
+        bb = fnt.getbbox(ln, stroke_width=14)
+        x = (1080 - (bb[2] - bb[0])) // 2
+        d.text((x, 1380 + k * 170), ln, font=fnt, fill=col, stroke_width=14, stroke_fill=(0, 0, 0))
+    im.save(os.path.join(out, "thumbnail.jpg"), quality=92)
+    pt = film["platform_tags"]
+    meta = {
+        "title_options": film["title_options"],
+        "description": film["description"],
+        "tiktok": {"caption": f"{film['hook_caption']} {' '.join(pt['tiktok'])}", "hashtags": pt["tiktok"]},
+        "instagram_reels": {"caption": f"{film['hook_caption']}\n\n{film['description']}\n\n{' '.join(pt['reels'])}",
+                            "hashtags": pt["reels"]},
+        "youtube_shorts": {"title": f"{film['title_options'][0]} #shorts"[:100],
+                           "description": film["description"] + "\n\n" + " ".join(pt["shorts"]), "tags": [h.lstrip("#") for h in pt["shorts"]]},
+        "pinned_comment": film["pinned_comment"],
+        "runtime_s": round(dur, 2), "resolution": "1080x1920", "fps": 24,
+        "credits": "All assets CC0 / procedural / open-licence voices — see credits.txt",
+        "posted": False,
+    }
+    json.dump(meta, open(os.path.join(out, "metadata.json"), "w"), indent=1)
+    with open(os.path.join(out, "metadata.txt"), "w") as fh:
+        fh.write("TITLE OPTIONS:\n" + "\n".join(f"  {i + 1}. {t}" for i, t in enumerate(film["title_options"])) + "\n\n")
+        fh.write(f"DESCRIPTION:\n{film['description']}\n\n")
+        fh.write(f"TIKTOK CAPTION:\n{meta['tiktok']['caption']}\n\n")
+        fh.write(f"INSTAGRAM REELS CAPTION:\n{meta['instagram_reels']['caption']}\n\n")
+        fh.write(f"YOUTUBE SHORTS:\n{meta['youtube_shorts']['title']}\n{meta['youtube_shorts']['description']}\n\n")
+        fh.write(f"PINNED COMMENT:\n{film['pinned_comment']}\n")
+    cr = open(os.path.join(ROOT, "assets", "credits.txt")).read()
+    cr += ("\nVoices (this film) — Kokoro-82M (Apache-2.0, hexgrad/Kokoro-82M) via kokoro-onnx (MIT); crowd lines — Piper.\n")
+    open(os.path.join(out, "credits.txt"), "w").write(cr)
+    stills, labels = [], []
+    for s in tl["shots"]:
+        dd = rj["dirs"][s["id"]]
+        mm = json.load(open(os.path.join(dd, "meta.json")))
+        fr = mm["frames"][int(len(mm["frames"]) * 0.6)]
+        stills.append(os.path.join(dd, f"f_{fr:04d}.png"))
+        c = s["camera"]
+        tm = rj["timings"].get(s["id"], {})
+        eng = "CYC " if mm.get("engine") == "CYCLES" else ""
+        labels.append(f"{s['id']} {s['frames'] / FPS:.1f}s {c.get('move')}\n{eng}{tm.get('wall_s', '?')}s {c.get('lens')}mm {c.get('framing')}")
+    contact_sheet(stills, labels, os.path.join(out, "contact_sheet_final.png"))
+    log(f"[deliver] {out}/film.mp4 + thumbnail.jpg + metadata.json  (NOT posted anywhere)")
+
+
 def stage_deliver(out):
     from PIL import Image, ImageDraw, ImageFont, ImageFilter
     import captions as CP
     from compose import image_stats
     film, tl = _film_and_tl(out)
+    if film.get("rig") == "v2":
+        return stage_deliver_v2(out, film, tl)
     pr = ffprobe(os.path.join(out, "film.mp4"))
     dur = float(pr["format"]["duration"])
     v = [s for s in pr["streams"] if s.get("width")][0]
@@ -536,6 +819,9 @@ def main():
                 stage_voice(out)
             elif st == "stills":
                 stage_stills(out, a.jobs)
+            elif st == "preview":
+                if json.load(open(os.path.join(out, "film.json"))).get("rig") == "v2":
+                    stage_preview(out, a.jobs)
             elif st == "final":
                 stage_final(out, a.jobs, set(a.redo_shots.split(",")) if a.redo_shots else None)
             elif st == "audio":

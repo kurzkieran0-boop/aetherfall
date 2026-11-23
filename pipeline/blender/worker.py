@@ -28,6 +28,7 @@ LOOKS = {
     "ember": dict(key=(1.0, 0.7, 0.45), rim=(1.0, 0.45, 0.2), fill=(0.25, 0.3, 0.55), exposure=0.35),
     "sunny": dict(key=(1.0, 0.93, 0.82), rim=(1.0, 0.85, 0.6), fill=(0.55, 0.7, 1.0), exposure=-0.55, bloom=3.0),
     "toxic": dict(key=(0.9, 1.0, 0.85), rim=(0.3, 1.0, 0.6), fill=(0.2, 0.35, 0.5), exposure=0.35),
+    "kindness": dict(key=(1.0, 0.8, 0.6), rim=(0.45, 0.62, 1.0), fill=(0.25, 0.32, 0.65), exposure=-0.2, bloom=1.6),
 }
 
 
@@ -435,6 +436,10 @@ def screen_boxes(chars, monster, cam, frames):
         objs = []
         for c in chars.values():
             objs += [("face", o) for o in c.parts if o.name.endswith("_skull")]
+        for o in bpy.data.objects:
+            if o.type in ('FONT', 'CURVE', 'MESH') and o.users_collection and o.users_collection[0].name == "meters" \
+                    and o.matrix_world.to_scale().length > 0.05:
+                objs.append(("number", o))
         if monster:
             objs += [("monster", o) for o in monster.parts]
             objs += [("monster_head", o) for o in monster.parts
@@ -460,20 +465,85 @@ def screen_boxes(chars, monster, cam, frames):
     return out
 
 
+def setup_cycles(r, shot):
+    scn = bpy.context.scene
+    scn.render.engine = 'CYCLES'
+    c = scn.cycles
+    c.device = 'GPU' if r.get("gpu") else 'CPU'
+    c.samples = int(shot.get("spp", r.get("cycles_spp", 16)))
+    c.use_adaptive_sampling = True
+    c.adaptive_threshold = 0.05
+    c.use_denoising = True
+    c.denoiser = 'OPENIMAGEDENOISE'
+    c.max_bounces = 4
+    c.diffuse_bounces = 2
+    c.glossy_bounces = 2
+    c.transmission_bounces = 2
+    c.volume_bounces = 0
+    c.transparent_max_bounces = 4
+    c.volume_step_rate = 4.0
+    c.caustics_reflective = False
+    c.caustics_refractive = False
+    c.blur_glossy = 1.0
+    scn.render.use_motion_blur = r.get("motion_blur", True)
+
+
+def add_lens_fx(r, shot):
+    """Lens flare ghosts + star streaks on the brightest highlights (meteors, flashes, the flip)."""
+    if not shot.get("flare"):
+        return
+    scn = bpy.context.scene
+    ng = scn.compositing_node_group
+    out = next(n for n in ng.nodes if n.bl_idname == "NodeGroupOutput")
+    src = out.inputs[0].links[0].from_node
+    cur = src.outputs["Image"]
+    for typ, thr, st in (("Ghosts", 6.0, 0.25), ("Streaks", 5.0, 0.35)):
+        g = ng.nodes.new("CompositorNodeGlare")
+        g.inputs["Type"].default_value = typ
+        g.inputs["Quality"].default_value = 'Low'
+        g.inputs["Threshold"].default_value = thr
+        g.inputs["Strength"].default_value = st * shot.get("flare", 1.0)
+        ng.links.new(cur, g.inputs["Image"])
+        cur = g.outputs["Image"]
+    ng.links.new(cur, out.inputs[0])
+
+
 def main():
     job = json.load(open(args()))
     r = job["render"]
     out_dir = r["out_dir"]
     os.makedirs(out_dir, exist_ok=True)
     t_build = time.time()
-    chars, monster, cam = build(job)
+    v2 = job["film"].get("rig") == "v2"
+    crowd = []
+    if v2:
+        import worker2
+        chars, monster, cam, crowd = worker2.build(job)
+    else:
+        chars, monster, cam = build(job)
     if job['shot'].get('monster', True) is False:
         monster = None
     setup_render(r, job["film"].get("look", "night_blue"))
+    shot = job["shot"]
+    if v2:
+        bpy.context.scene.view_settings.exposure += shot.get("exposure", 0.0)
+        add_lens_fx(r, shot)
+        if shot.get("engine") == "cycles" and r.get("allow_cycles", True):
+            setup_cycles(r, shot)
     t_build = time.time() - t_build
     scn = bpy.context.scene
     nfr = job["shot"]["frames"]
     step = r.get("step", 1)
+    if v2 and not r.get("still") and r.get("shot_step", True):
+        step = max(step, shot.get("step", step)) if r.get("step", 1) > 1 else shot.get("step", step)
+    # rigid bodies: step the sim once from the start so the cache is valid for any frame order
+    if scn.rigidbody_world is not None:
+        for f in range(scn.rigidbody_world.point_cache.frame_start, nfr + 2):
+            scn.frame_set(f)
+    animq = None
+    if v2 and not r.get("still"):
+        import charrig as CR
+        animq = CR.check(list(chars.values()), 1, nfr)
     if r.get("still"):
         frames = [int(r.get("still_frame", max(1, int(nfr * 0.6))))]
     else:
@@ -528,6 +598,22 @@ def main():
             "impacts": [[int(f), list(l)] for f, l in (monster.impacts if monster else [])],
             "roar": getattr(monster, "roar_frame", None) if monster else None}
     meta["safe_boxes"] = screen_boxes(chars, monster, cam, frames[::max(1, len(frames) // 12)] if not r.get("still") else frames)
+    if v2:
+        meta["animcheck"] = animq
+        meta["engine"] = scn.render.engine
+        steps = []
+        for c in chars.values():
+            sv = getattr(c, "solved", None)
+            if not sv:
+                continue
+            for side in ("L", "R"):
+                ft = sv["feet"][side]
+                for f in range(2, nfr + 1):
+                    if f in ft and f - 1 in ft and ft[f - 1]["swing"] and not ft[f]["swing"]:
+                        P0, P1 = sv["P"].get(f - 3, sv["P"][f]), sv["P"][f]
+                        steps.append([f, c.name, round((P1 - P0).length * 8, 2)])
+        meta["steps"] = sorted(steps)
+        meta["crowd_n"] = len(crowd)
     with open(os.path.join(out_dir, "meta.json"), "w") as fh:
         json.dump(meta, fh)
     print(f"[worker] {job['shot']['id']} build {t_build:.1f}s render {sum(times):.1f}s "

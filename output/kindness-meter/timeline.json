@@ -1,0 +1,8766 @@
+{
+ "shots": [
+  {
+   "camera": {
+    "subject": [
+     0,
+     -4,
+     2.86
+    ],
+    "framing": "cu",
+    "move": "push_in",
+    "angle": "low",
+    "lens": 85,
+    "az": 4,
+    "fstop": 1.4,
+    "amount": 1.4,
+    "note": "ECU red 0 \u2192 his eyes beneath it"
+   },
+   "actions": [
+    {
+     "who": "hero",
+     "action": "idle",
+     "at": [
+      0,
+      -4,
+      0.05
+     ],
+     "facing": 0,
+     "expr": "lonely"
+    }
+   ],
+   "w": 1.25,
+   "set": "meter_city",
+   "act": "cold",
+   "set_args": {
+    "sky": "night",
+    "damage": 0.0
+   },
+   "crowd": [
+    {
+     "kind": "mill",
+     "center": [
+      0,
+      -9,
+      0.05
+     ],
+     "n": 18,
+     "radius": 9,
+     "seed": 11,
+     "inner": 2.5
+    }
+   ],
+   "engine": "cycles",
+   "spp": 14,
+   "id": "s001",
+   "beat": 0,
+   "start": 0.0,
+   "frames": 62,
+   "cast": [
+    "hero"
+   ],
+   "props": [],
+   "fx": [],
+   "start_frame": 0
+  },
+  {
+   "camera": {
+    "subject": "hero",
+    "framing": "cu",
+    "move": "pull_out",
+    "angle": "low",
+    "lens": 50,
+    "az": 8,
+    "fstop": 2.0,
+    "note": "reveal the face under it"
+   },
+   "actions": [
+    {
+     "who": "hero",
+     "action": "idle",
+     "at": [
+      0,
+      -4,
+      0.05
+     ],
+     "facing": 0,
+     "expr": "lonely",
+     "look_at": [
+      0,
+      -4,
+      3.4
+     ]
+    }
+   ],
+   "w": 1.0,
+   "set": "meter_city",
+   "act": "cold",
+   "set_args": {
+    "sky": "night",
+    "damage": 0.0
+   },
+   "crowd": [
+    {
+     "kind": "mill",
+     "center": [
+      0,
+      -9,
+      0.05
+     ],
+     "n": 18,
+     "radius": 9,
+     "seed": 11,
+     "inner": 2.5
+    }
+   ],
+   "engine": "cycles",
+   "spp": 14,
+   "id": "s002",
+   "beat": 0,
+   "start": 2.583,
+   "frames": 50,
+   "cast": [
+    "hero"
+   ],
+   "props": [],
+   "fx": [],
+   "start_frame": 62
+  },
+  {
+   "camera": {
+    "subject": "hero",
+    "framing": "mcu",
+    "move": "push_in",
+    "angle": "eye",
+    "lens": 50,
+    "az": -14,
+    "fstop": 2.0
+   },
+   "actions": [
+    {
+     "who": "hero",
+     "action": "idle",
+     "at": [
+      0,
+      -4,
+      0.05
+     ],
+     "facing": 0,
+     "exprs": [
+      [
+       0.0,
+       "lonely"
+      ],
+      [
+       0.45,
+       "sad"
+      ]
+     ]
+    }
+   ],
+   "w": 1.0,
+   "set": "meter_city",
+   "act": "cold",
+   "set_args": {
+    "sky": "night",
+    "damage": 0.0
+   },
+   "crowd": [
+    {
+     "kind": "mill",
+     "center": [
+      0,
+      -10,
+      0.05
+     ],
+     "n": 16,
+     "radius": 9,
+     "seed": 12,
+     "inner": 2.5
+    }
+   ],
+   "step": 2,
+   "id": "s003",
+   "beat": 1,
+   "start": 4.667,
+   "frames": 44,
+   "cast": [
+    "hero"
+   ],
+   "props": [],
+   "fx": [],
+   "start_frame": 112
+  },
+  {
+   "camera": {
+    "subject": "mark:plaza",
+    "framing": "ws",
+    "move": "crane_up",
+    "angle": "high",
+    "lens": 28,
+    "az": 200,
+    "note": "crane reveal: a sea of numbers"
+   },
+   "actions": [
+    {
+     "who": "hero",
+     "action": "idle",
+     "at": [
+      0,
+      -4,
+      0.05
+     ],
+     "facing": 0,
+     "expr": "lonely"
+    }
+   ],
+   "w": 1.0,
+   "set": "meter_city",
+   "act": "cold",
+   "set_args": {
+    "sky": "night",
+    "damage": 0.0
+   },
+   "crowd": [
+    {
+     "kind": "mill",
+     "center": [
+      0,
+      -2,
+      0.05
+     ],
+     "n": 32,
+     "radius": 11,
+     "seed": 3,
+     "inner": 2.5,
+     "vip_frac": 0.22
+    }
+   ],
+   "id": "s004",
+   "beat": 2,
+   "start": 6.5,
+   "frames": 48,
+   "cast": [
+    "hero"
+   ],
+   "props": [],
+   "fx": [],
+   "start_frame": 156
+  },
+  {
+   "camera": {
+    "subject": "luxe",
+    "framing": "ms",
+    "move": "track",
+    "angle": "low",
+    "lens": 35,
+    "az": 28,
+    "note": "low track along the red carpet"
+   },
+   "actions": [
+    {
+     "who": "luxe",
+     "action": "walk",
+     "path": [
+      [
+       11.5,
+       5,
+       0.05
+      ],
+      [
+       18.2,
+       5,
+       0.05
+      ]
+     ],
+     "expr": "smug"
+    }
+   ],
+   "w": 1.0,
+   "set": "meter_city",
+   "act": "warm",
+   "set_args": {
+    "sky": "night",
+    "damage": 0.0
+   },
+   "crowd": [
+    {
+     "kind": "stare",
+     "center": [
+      13.5,
+      0.5,
+      0.05
+     ],
+     "n": 5,
+     "radius": 2.2,
+     "seed": 4,
+     "face_to": "luxe",
+     "look_at": "luxe"
+    }
+   ],
+   "id": "s005",
+   "beat": 3,
+   "start": 8.5,
+   "frames": 57,
+   "cast": [
+    "luxe"
+   ],
+   "props": [],
+   "fx": [],
+   "start_frame": 204
+  },
+  {
+   "camera": {
+    "subject": "hero",
+    "framing": "ms",
+    "move": "push_in",
+    "angle": "eye",
+    "lens": 35,
+    "az": 95,
+    "note": "profile: he reaches for the door, shopkeeper inside"
+   },
+   "actions": [
+    {
+     "who": "hero",
+     "action": "walk",
+     "path": [
+      [
+       -15.2,
+       -3.58,
+       0.05
+      ],
+      [
+       -18.55,
+       -3.58,
+       0.05
+      ]
+     ],
+     "expr": "hopeful",
+     "f1": 26
+    },
+    {
+     "who": "hero",
+     "action": "reach",
+     "expr": "hopeful",
+     "facing": 270,
+     "f0": 26,
+     "f1": 49
+    },
+    {
+     "who": "bram",
+     "action": "idle",
+     "at": [
+      -20.65,
+      -3.58,
+      0.05
+     ],
+     "facing": 90,
+     "expr": "neutral"
+    }
+   ],
+   "w": 1.1,
+   "set": "meter_city",
+   "act": "warm",
+   "set_args": {
+    "sky": "night",
+    "damage": 0.0,
+    "door": [
+     [
+      0.0,
+      75
+     ],
+     [
+      1.0,
+      75
+     ]
+    ]
+   },
+   "id": "s006",
+   "beat": 4,
+   "start": 10.875,
+   "frames": 49,
+   "cast": [
+    "bram",
+    "hero"
+   ],
+   "props": [],
+   "fx": [],
+   "start_frame": 261
+  },
+  {
+   "camera": {
+    "subject": "hero",
+    "framing": "cu",
+    "move": "static_drift",
+    "angle": "eye",
+    "lens": 35,
+    "az": 95,
+    "note": "door SLAMS in his face"
+   },
+   "actions": [
+    {
+     "who": "hero",
+     "action": "idle",
+     "at": [
+      -18.55,
+      -3.58,
+      0.05
+     ],
+     "facing": 270,
+     "expr": "hopeful",
+     "f1": 14
+    },
+    {
+     "who": "hero",
+     "action": "flinch",
+     "expr": "hurt",
+     "f0": 14,
+     "f1": 45
+    },
+    {
+     "who": "bram",
+     "action": "idle",
+     "at": [
+      -20.65,
+      -3.58,
+      0.05
+     ],
+     "facing": 90
+    }
+   ],
+   "w": 1.0,
+   "set": "meter_city",
+   "act": "warm",
+   "set_args": {
+    "sky": "night",
+    "damage": 0.0,
+    "door": [
+     [
+      0.0,
+      75
+     ],
+     [
+      0.22,
+      70
+     ],
+     [
+      0.32,
+      -4
+     ],
+     [
+      0.37,
+      3
+     ],
+     [
+      0.42,
+      0
+     ]
+    ]
+   },
+   "vfx": [
+    {
+     "kind": "shake",
+     "t": 0.33,
+     "at": [
+      -18.55,
+      -3.58,
+      0.05
+     ],
+     "shake": 0.5
+    }
+   ],
+   "id": "s007",
+   "beat": 4,
+   "start": 12.917,
+   "frames": 45,
+   "cast": [
+    "bram",
+    "hero"
+   ],
+   "props": [],
+   "fx": [],
+   "start_frame": 310
+  },
+  {
+   "camera": {
+    "subject": "hero",
+    "framing": "mcu",
+    "move": "push_in",
+    "angle": "eye",
+    "lens": 40,
+    "az": 10,
+    "amount": 0.6,
+    "note": "he turns back to us, deadpan; OPEN glows behind"
+   },
+   "actions": [
+    {
+     "who": "hero",
+     "action": "idle",
+     "at": [
+      -18.0,
+      -3.9,
+      0.05
+     ],
+     "facing": 95,
+     "exprs": [
+      [
+       0.0,
+       "hurt"
+      ],
+      [
+       0.55,
+       "lonely"
+      ]
+     ]
+    }
+   ],
+   "w": 1.0,
+   "set": "meter_city",
+   "act": "warm",
+   "set_args": {
+    "sky": "night",
+    "damage": 0.0,
+    "door": [
+     [
+      0.0,
+      0
+     ],
+     [
+      1.0,
+      0
+     ]
+    ]
+   },
+   "props": [
+    {
+     "kind": "neon",
+     "text": "OPEN",
+     "at": [
+      -19.92,
+      -6.0,
+      2.0
+     ],
+     "rot": 90,
+     "size": 0.55,
+     "color": [
+      1.0,
+      0.25,
+      0.35
+     ]
+    }
+   ],
+   "step": 2,
+   "id": "s008",
+   "beat": 5,
+   "start": 14.792,
+   "frames": 38,
+   "cast": [
+    "hero"
+   ],
+   "fx": [],
+   "start_frame": 355
+  },
+  {
+   "camera": {
+    "subject": "kid",
+    "framing": "ms",
+    "move": "push_in",
+    "angle": "eye",
+    "lens": 35,
+    "az": 15
+   },
+   "actions": [
+    {
+     "who": "kid",
+     "action": "back_away",
+     "path": [
+      [
+       -5.5,
+       -9.5,
+       0.05
+      ],
+      [
+       -6.4,
+       -11.0,
+       0.05
+      ]
+     ],
+     "expr": "fear"
+    },
+    {
+     "who": "mom",
+     "action": "idle",
+     "at": [
+      -6.9,
+      -12.4,
+      0.05
+     ],
+     "face_to": [
+      -5.5,
+      -9.5,
+      0.05
+     ],
+     "expr": "wary"
+    },
+    {
+     "who": "hero",
+     "action": "idle",
+     "at": [
+      -4.2,
+      -7.6,
+      0.05
+     ],
+     "face_to": [
+      -5.5,
+      -9.5,
+      0.05
+     ],
+     "expr": "hurt"
+    }
+   ],
+   "w": 1.1,
+   "set": "meter_city",
+   "act": "cold",
+   "set_args": {
+    "sky": "night",
+    "damage": 0.0
+   },
+   "id": "s009",
+   "beat": 6,
+   "start": 16.375,
+   "frames": 67,
+   "cast": [
+    "hero",
+    "kid",
+    "mom"
+   ],
+   "props": [],
+   "fx": [],
+   "start_frame": 393
+  },
+  {
+   "camera": {
+    "subject": "hero",
+    "framing": "ms",
+    "move": "ots",
+    "angle": "eye",
+    "lens": 35,
+    "az": 0,
+    "subject2": [
+     -2.5,
+     -12.5,
+     1.9
+    ],
+    "note": "OTS: the whisper group"
+   },
+   "actions": [
+    {
+     "who": "hero",
+     "action": "idle",
+     "at": [
+      -1.5,
+      -8.2,
+      0.05
+     ],
+     "face_to": [
+      -2.5,
+      -12.5,
+      0.05
+     ],
+     "expr": "lonely"
+    }
+   ],
+   "w": 1.0,
+   "set": "meter_city",
+   "act": "cold",
+   "set_args": {
+    "sky": "night",
+    "damage": 0.0
+   },
+   "crowd": [
+    {
+     "kind": "whisper",
+     "center": [
+      -2.5,
+      -12.5,
+      0.05
+     ],
+     "n": 7,
+     "radius": 2.6,
+     "inner": 0.8,
+     "seed": 6,
+     "face_to": [
+      -1.5,
+      -8.2,
+      0.05
+     ],
+     "look_at": [
+      -1.5,
+      -8.2,
+      2.1
+     ]
+    }
+   ],
+   "id": "s010",
+   "beat": 7,
+   "start": 19.167,
+   "frames": 53,
+   "cast": [
+    "hero"
+   ],
+   "props": [],
+   "fx": [],
+   "start_frame": 460
+  },
+  {
+   "camera": {
+    "subject": "oldman",
+    "framing": "ms",
+    "move": "dolly_left",
+    "angle": "eye",
+    "lens": 28,
+    "az": -35,
+    "note": "old man drops his groceries; Luxe walks past"
+   },
+   "actions": [
+    {
+     "who": "oldman",
+     "action": "pickup",
+     "at": [
+      7.0,
+      -8.0,
+      0.05
+     ],
+     "facing": 200,
+     "expr": "hurt"
+    },
+    {
+     "who": "luxe",
+     "action": "walk",
+     "path": [
+      [
+       2.2,
+       -5.0,
+       0.05
+      ],
+      [
+       5.6,
+       -6.8,
+       0.05
+      ]
+     ],
+     "expr": "smug",
+     "f1": 24
+    },
+    {
+     "who": "luxe",
+     "action": "idle",
+     "facing": 120,
+     "expr": "smug",
+     "f0": 24,
+     "f1": 35
+    }
+   ],
+   "w": 1.0,
+   "set": "meter_city",
+   "act": "warm",
+   "set_args": {
+    "sky": "night",
+    "damage": 0.0
+   },
+   "props": [
+    {
+     "kind": "box",
+     "at": [
+      6.4,
+      -8.9,
+      0.3
+     ],
+     "size": [
+      0.6,
+      0.45,
+      0.45
+     ],
+     "rot": 25
+    }
+   ],
+   "id": "s011",
+   "beat": 8,
+   "start": 21.375,
+   "frames": 35,
+   "cast": [
+    "luxe",
+    "oldman"
+   ],
+   "fx": [],
+   "start_frame": 513
+  },
+  {
+   "camera": {
+    "subject": [
+     7.5,
+     -13.5,
+     1.6
+    ],
+    "framing": "mws",
+    "move": "push_in",
+    "angle": "low",
+    "lens": 28,
+    "az": 0,
+    "note": "phones go UP"
+   },
+   "actions": [],
+   "w": 1.0,
+   "set": "meter_city",
+   "act": "warm",
+   "set_args": {
+    "sky": "night",
+    "damage": 0.0
+   },
+   "crowd": [
+    {
+     "kind": "watchers",
+     "center": [
+      7.5,
+      -13.5,
+      0.05
+     ],
+     "n": 6,
+     "radius": 2.4,
+     "inner": 0.6,
+     "seed": 8,
+     "face_to": [
+      7.0,
+      -8.0,
+      0.05
+     ],
+     "look_at": [
+      6.0,
+      -8.2,
+      2.0
+     ]
+    }
+   ],
+   "id": "s012",
+   "beat": 8,
+   "start": 22.833,
+   "frames": 35,
+   "cast": [],
+   "props": [],
+   "fx": [],
+   "start_frame": 548
+  },
+  {
+   "camera": {
+    "subject": "luxe",
+    "framing": "mcu",
+    "move": "push_in",
+    "angle": "low",
+    "lens": 40,
+    "az": 25,
+    "note": "SWOOP: staged help + emote burst, +1 pops"
+   },
+   "actions": [
+    {
+     "who": "luxe",
+     "action": "pickup",
+     "at": [
+      5.8,
+      -7.8,
+      0.05
+     ],
+     "facing": 150,
+     "expr": "determined",
+     "f1": 15
+    },
+    {
+     "who": "luxe",
+     "action": "pose",
+     "kind": "thumbs",
+     "expr": "smug",
+     "facing": 170,
+     "f0": 15,
+     "f1": 35
+    },
+    {
+     "who": "oldman",
+     "action": "idle",
+     "at": [
+      7.0,
+      -8.0,
+      0.05
+     ],
+     "face_to": [
+      5.8,
+      -7.8,
+      0.05
+     ],
+     "expr": "shock"
+    }
+   ],
+   "w": 1.0,
+   "set": "meter_city",
+   "act": "warm",
+   "set_args": {
+    "sky": "night",
+    "damage": 0.0
+   },
+   "meters": {
+    "luxe": [
+     [
+      0.52,
+      9882,
+      "tick"
+     ]
+    ]
+   },
+   "flare": 0.6,
+   "id": "s013",
+   "beat": 8,
+   "start": 24.292,
+   "frames": 35,
+   "cast": [
+    "luxe",
+    "oldman"
+   ],
+   "props": [],
+   "fx": [],
+   "start_frame": 583
+  },
+  {
+   "camera": {
+    "subject": "luxe",
+    "framing": "ms",
+    "move": "orbit_right",
+    "angle": "low",
+    "lens": 35,
+    "az": 10
+   },
+   "actions": [
+    {
+     "who": "luxe",
+     "action": "pose",
+     "at": [
+      5.8,
+      -7.8,
+      0.05
+     ],
+     "facing": 170,
+     "kind": "wave_crowd",
+     "expr": "happy"
+    }
+   ],
+   "w": 1.0,
+   "set": "meter_city",
+   "act": "warm",
+   "set_args": {
+    "sky": "night",
+    "damage": 0.0
+   },
+   "crowd": [
+    {
+     "kind": "cheer",
+     "center": [
+      7.5,
+      -13.5,
+      0.05
+     ],
+     "n": 6,
+     "radius": 2.4,
+     "inner": 0.6,
+     "seed": 8,
+     "face_to": "luxe"
+    }
+   ],
+   "id": "s014",
+   "beat": 9,
+   "start": 25.75,
+   "frames": 36,
+   "cast": [
+    "luxe"
+   ],
+   "props": [],
+   "fx": [],
+   "start_frame": 618,
+   "lips": {
+    "luxe": [
+     [
+      3,
+      0.0,
+      0.0,
+      0.0
+     ],
+     [
+      4,
+      0.675,
+      0.7,
+      0.0
+     ],
+     [
+      5,
+      0.879,
+      0.05,
+      0.0
+     ],
+     [
+      6,
+      0.833,
+      0.0,
+      0.578
+     ],
+     [
+      7,
+      0.802,
+      0.0,
+      0.118
+     ],
+     [
+      8,
+      0.779,
+      0.559,
+      0.0
+     ],
+     [
+      9,
+      0.716,
+      0.734,
+      0.0
+     ],
+     [
+      10,
+      0.56,
+      0.436,
+      0.0
+     ],
+     [
+      11,
+      0.382,
+      1.0,
+      0.0
+     ],
+     [
+      12,
+      0.359,
+      1.0,
+      0.0
+     ],
+     [
+      13,
+      0.461,
+      0.787,
+      0.0
+     ],
+     [
+      14,
+      0.504,
+      0.323,
+      0.0
+     ],
+     [
+      15,
+      0.448,
+      0.0,
+      0.0
+     ],
+     [
+      16,
+      0.377,
+      0.0,
+      0.788
+     ],
+     [
+      17,
+      0.316,
+      0.0,
+      0.316
+     ],
+     [
+      18,
+      0.202,
+      0.783,
+      0.0
+     ]
+    ]
+   }
+  },
+  {
+   "camera": {
+    "subject": [
+     0,
+     -4,
+     3.06
+    ],
+    "framing": "cu",
+    "move": "tilt_down",
+    "angle": "low",
+    "lens": 35,
+    "az": 0,
+    "note": "from the 0 down to his face"
+   },
+   "actions": [
+    {
+     "who": "hero",
+     "action": "look_up",
+     "at": [
+      0,
+      -4,
+      0.05
+     ],
+     "facing": 0,
+     "expr": "lonely"
+    }
+   ],
+   "w": 0.8,
+   "set": "meter_city",
+   "act": "cold",
+   "set_args": {
+    "sky": "night",
+    "damage": 0.0
+   },
+   "crowd": [
+    {
+     "kind": "mill",
+     "center": [
+      0,
+      -10,
+      0.05
+     ],
+     "n": 12,
+     "radius": 9,
+     "seed": 14,
+     "inner": 2.5
+    }
+   ],
+   "id": "s015",
+   "beat": 10,
+   "start": 27.25,
+   "frames": 32,
+   "cast": [
+    "hero"
+   ],
+   "props": [],
+   "fx": [],
+   "start_frame": 654
+  },
+  {
+   "camera": {
+    "subject": "hero",
+    "framing": "cu",
+    "move": "push_in",
+    "angle": "low",
+    "lens": 50,
+    "az": -20,
+    "note": "push in, red pulse on his face"
+   },
+   "actions": [
+    {
+     "who": "hero",
+     "action": "look_up",
+     "at": [
+      0,
+      -4,
+      0.05
+     ],
+     "facing": 0,
+     "expr": "sad"
+    }
+   ],
+   "w": 1.0,
+   "set": "meter_city",
+   "act": "cold",
+   "set_args": {
+    "sky": "night",
+    "damage": 0.0
+   },
+   "step": 2,
+   "id": "s016",
+   "beat": 10,
+   "start": 28.583,
+   "frames": 40,
+   "cast": [
+    "hero"
+   ],
+   "props": [],
+   "fx": [],
+   "start_frame": 686
+  },
+  {
+   "camera": {
+    "subject": "hero",
+    "framing": "ms",
+    "move": "track",
+    "angle": "low",
+    "lens": 28,
+    "az": 30,
+    "note": "he walks into frame, determined"
+   },
+   "actions": [
+    {
+     "who": "hero",
+     "action": "walk",
+     "path": [
+      [
+       -7,
+       -6,
+       0.05
+      ],
+      [
+       -3.9,
+       0.4,
+       0.05
+      ]
+     ],
+     "expr": "determined"
+    }
+   ],
+   "w": 1.0,
+   "set": "meter_city",
+   "act": "cold",
+   "set_args": {
+    "sky": "night",
+    "damage": 0.0
+   },
+   "crowd": [
+    {
+     "kind": "mill",
+     "center": [
+      -2,
+      -4,
+      0.05
+     ],
+     "n": 14,
+     "radius": 10,
+     "seed": 21,
+     "inner": 2.5
+    }
+   ],
+   "id": "s017",
+   "beat": 11,
+   "start": 30.25,
+   "frames": 38,
+   "cast": [
+    "hero"
+   ],
+   "props": [],
+   "fx": [],
+   "start_frame": 726
+  },
+  {
+   "camera": {
+    "subject": "hero",
+    "framing": "ms",
+    "move": "push_in",
+    "angle": "eye",
+    "lens": 35,
+    "az": 80,
+    "note": "two-shot profile: the offer"
+   },
+   "actions": [
+    {
+     "who": "hero",
+     "action": "offer",
+     "at": [
+      -4.0,
+      0.6,
+      0.05
+     ],
+     "face_to": [
+      -3.0,
+      1.6,
+      0.05
+     ],
+     "expr": "hopeful"
+    },
+    {
+     "who": "mom",
+     "action": "idle",
+     "at": [
+      -3.0,
+      1.6,
+      0.05
+     ],
+     "face_to": [
+      -4.0,
+      0.6,
+      0.05
+     ],
+     "expr": "neutral"
+    }
+   ],
+   "w": 1.0,
+   "set": "meter_city",
+   "act": "cold",
+   "set_args": {
+    "sky": "night",
+    "damage": 0.0
+   },
+   "carry": {
+    "mom": "box"
+   },
+   "id": "s018",
+   "beat": 12,
+   "start": 31.833,
+   "frames": 35,
+   "cast": [
+    "hero",
+    "mom"
+   ],
+   "props": [],
+   "fx": [],
+   "start_frame": 764,
+   "lips": {
+    "hero": [
+     [
+      3,
+      0.0,
+      0.0,
+      0.0
+     ],
+     [
+      4,
+      0.617,
+      0.0,
+      0.698
+     ],
+     [
+      5,
+      0.871,
+      0.415,
+      0.0
+     ],
+     [
+      6,
+      0.879,
+      0.806,
+      0.0
+     ],
+     [
+      7,
+      0.856,
+      0.514,
+      0.0
+     ],
+     [
+      8,
+      0.86,
+      0.324,
+      0.0
+     ],
+     [
+      9,
+      0.786,
+      0.209,
+      0.0
+     ],
+     [
+      10,
+      0.627,
+      0.643,
+      0.0
+     ],
+     [
+      11,
+      0.586,
+      0.655,
+      0.0
+     ],
+     [
+      12,
+      0.708,
+      0.423,
+      0.0
+     ],
+     [
+      13,
+      0.832,
+      0.122,
+      0.0
+     ],
+     [
+      14,
+      0.859,
+      0.014,
+      0.0
+     ],
+     [
+      15,
+      0.836,
+      0.0,
+      0.0
+     ],
+     [
+      16,
+      0.8,
+      0.243,
+      0.0
+     ],
+     [
+      17,
+      0.708,
+      0.232,
+      0.0
+     ],
+     [
+      18,
+      0.547,
+      0.154,
+      0.0
+     ],
+     [
+      19,
+      0.382,
+      0.022,
+      0.0
+     ],
+     [
+      20,
+      0.291,
+      0.0,
+      0.398
+     ],
+     [
+      21,
+      0.276,
+      0.344,
+      0.0
+     ],
+     [
+      22,
+      0.227,
+      0.822,
+      0.0
+     ],
+     [
+      23,
+      0.11,
+      1.0,
+      0.0
+     ]
+    ]
+   }
+  },
+  {
+   "camera": {
+    "subject": "mom",
+    "framing": "mcu",
+    "move": "push_in",
+    "angle": "eye",
+    "lens": 50,
+    "az": 20
+   },
+   "actions": [
+    {
+     "who": "mom",
+     "action": "idle",
+     "at": [
+      -3.0,
+      1.6,
+      0.05
+     ],
+     "face_to": [
+      -4.0,
+      0.6,
+      0.05
+     ],
+     "exprs": [
+      [
+       0.0,
+       "wary"
+      ],
+      [
+       0.4,
+       "disgust"
+      ]
+     ]
+    },
+    {
+     "who": "hero",
+     "action": "offer",
+     "at": [
+      -4.0,
+      0.6,
+      0.05
+     ],
+     "face_to": [
+      -3.0,
+      1.6,
+      0.05
+     ],
+     "expr": "hopeful",
+     "withdraw": 0.5
+    }
+   ],
+   "w": 1.0,
+   "set": "meter_city",
+   "act": "cold",
+   "set_args": {
+    "sky": "night",
+    "damage": 0.0
+   },
+   "carry": {
+    "mom": "box"
+   },
+   "step": 2,
+   "id": "s019",
+   "beat": 13,
+   "start": 33.292,
+   "frames": 38,
+   "cast": [
+    "hero",
+    "mom"
+   ],
+   "props": [],
+   "fx": [],
+   "start_frame": 799,
+   "lips": {
+    "mom": [
+     [
+      3,
+      0.0,
+      0.0,
+      0.0
+     ],
+     [
+      4,
+      0.615,
+      0.0,
+      0.0
+     ],
+     [
+      5,
+      0.87,
+      0.0,
+      0.255
+     ],
+     [
+      6,
+      0.876,
+      0.543,
+      0.0
+     ],
+     [
+      7,
+      0.816,
+      1.0,
+      0.0
+     ],
+     [
+      8,
+      0.791,
+      1.0,
+      0.0
+     ],
+     [
+      9,
+      0.832,
+      1.0,
+      0.0
+     ],
+     [
+      10,
+      0.857,
+      0.56,
+      0.0
+     ],
+     [
+      11,
+      0.858,
+      0.398,
+      0.0
+     ],
+     [
+      12,
+      0.878,
+      0.0,
+      0.0
+     ],
+     [
+      13,
+      0.867,
+      0.0,
+      0.0
+     ],
+     [
+      14,
+      0.809,
+      0.054,
+      0.0
+     ],
+     [
+      15,
+      0.758,
+      0.0,
+      0.0
+     ],
+     [
+      16,
+      0.696,
+      0.0,
+      0.334
+     ],
+     [
+      17,
+      0.563,
+      0.0,
+      0.529
+     ],
+     [
+      18,
+      0.34,
+      0.0,
+      0.47
+     ],
+     [
+      19,
+      0.122,
+      0.599,
+      0.0
+     ],
+     [
+      20,
+      0.161,
+      1.0,
+      0.0
+     ],
+     [
+      21,
+      0.472,
+      0.411,
+      0.0
+     ],
+     [
+      22,
+      0.723,
+      0.409,
+      0.0
+     ],
+     [
+      23,
+      0.805,
+      0.539,
+      0.0
+     ],
+     [
+      24,
+      0.815,
+      0.0,
+      0.538
+     ],
+     [
+      25,
+      0.746,
+      0.0,
+      0.621
+     ],
+     [
+      26,
+      0.695,
+      1.0,
+      0.0
+     ],
+     [
+      27,
+      0.78,
+      0.453,
+      0.0
+     ],
+     [
+      28,
+      0.854,
+      0.219,
+      0.0
+     ],
+     [
+      29,
+      0.812,
+      0.144,
+      0.0
+     ],
+     [
+      30,
+      0.724,
+      0.22,
+      0.0
+     ],
+     [
+      31,
+      0.634,
+      0.279,
+      0.0
+     ],
+     [
+      32,
+      0.548,
+      0.515,
+      0.0
+     ],
+     [
+      33,
+      0.417,
+      1.0,
+      0.0
+     ],
+     [
+      34,
+      0.217,
+      1.0,
+      0.0
+     ]
+    ]
+   }
+  },
+  {
+   "camera": {
+    "subject": "mom",
+    "framing": "ms",
+    "move": "static_drift",
+    "angle": "eye",
+    "lens": 28,
+    "az": 70,
+    "note": "box slips \u2014 VANCE catches it, on camera"
+   },
+   "actions": [
+    {
+     "who": "mom",
+     "action": "walk",
+     "path": [
+      [
+       -3.0,
+       1.6,
+       0.05
+      ],
+      [
+       -1.4,
+       3.6,
+       0.05
+      ]
+     ],
+     "expr": "smug",
+     "f1": 18
+    },
+    {
+     "who": "mom",
+     "action": "gasp",
+     "expr": "shock",
+     "f0": 18,
+     "f1": 53
+    },
+    {
+     "who": "vance",
+     "action": "run",
+     "path": [
+      [
+       2.8,
+       1.0,
+       0.05
+      ],
+      [
+       -0.6,
+       3.0,
+       0.05
+      ]
+     ],
+     "expr": "determined",
+     "f1": 23
+    },
+    {
+     "who": "vance",
+     "action": "pose",
+     "kind": "thumbs",
+     "facing": 220,
+     "expr": "smug",
+     "f0": 23,
+     "f1": 53
+    },
+    {
+     "who": "luxe",
+     "action": "pose",
+     "at": [
+      1.8,
+      -0.8,
+      0.05
+     ],
+     "face_to": [
+      -0.6,
+      3.0,
+      0.05
+     ],
+     "kind": "selfie",
+     "expr": "happy"
+    }
+   ],
+   "w": 1.0,
+   "set": "meter_city",
+   "act": "cold",
+   "set_args": {
+    "sky": "night",
+    "damage": 0.0
+   },
+   "carry": {
+    "luxe": "phone",
+    "vance": "box"
+   },
+   "meters": {
+    "vance": [
+     [
+      0.55,
+      8410,
+      "tick"
+     ]
+    ]
+   },
+   "id": "s020",
+   "beat": 14,
+   "start": 34.875,
+   "frames": 53,
+   "cast": [
+    "luxe",
+    "mom",
+    "vance"
+   ],
+   "props": [],
+   "fx": [],
+   "start_frame": 837
+  },
+  {
+   "camera": {
+    "subject": "vance",
+    "framing": "mcu",
+    "move": "push_in",
+    "angle": "low",
+    "lens": 40,
+    "az": 15,
+    "note": "smug, points UP at the 0"
+   },
+   "actions": [
+    {
+     "who": "vance",
+     "action": "mock",
+     "at": [
+      -0.6,
+      3.0,
+      0.05
+     ],
+     "face_to": [
+      -4.0,
+      0.6,
+      0.05
+     ],
+     "expr": "smug"
+    }
+   ],
+   "w": 1.2,
+   "set": "meter_city",
+   "act": "cold",
+   "set_args": {
+    "sky": "night",
+    "damage": 0.0
+   },
+   "carry": {
+    "vance": "box"
+   },
+   "step": 2,
+   "id": "s021",
+   "beat": 15,
+   "start": 37.083,
+   "frames": 50,
+   "cast": [
+    "vance"
+   ],
+   "props": [],
+   "fx": [],
+   "start_frame": 890,
+   "lips": {
+    "vance": [
+     [
+      3,
+      0.0,
+      0.0,
+      0.0
+     ],
+     [
+      4,
+      0.509,
+      1.0,
+      0.0
+     ],
+     [
+      5,
+      0.692,
+      1.0,
+      0.0
+     ],
+     [
+      6,
+      0.762,
+      1.0,
+      0.0
+     ],
+     [
+      7,
+      0.857,
+      1.0,
+      0.0
+     ],
+     [
+      8,
+      0.899,
+      0.0,
+      0.0
+     ],
+     [
+      9,
+      0.9,
+      0.0,
+      0.149
+     ],
+     [
+      10,
+      0.9,
+      0.0,
+      0.34
+     ],
+     [
+      11,
+      0.9,
+      0.0,
+      0.378
+     ],
+     [
+      12,
+      0.9,
+      0.0,
+      0.264
+     ],
+     [
+      13,
+      0.829,
+      0.0,
+      0.455
+     ],
+     [
+      14,
+      0.614,
+      0.0,
+      0.703
+     ],
+     [
+      15,
+      0.415,
+      0.723,
+      0.0
+     ],
+     [
+      16,
+      0.47,
+      1.0,
+      0.0
+     ],
+     [
+      17,
+      0.705,
+      0.486,
+      0.0
+     ],
+     [
+      18,
+      0.806,
+      0.08,
+      0.0
+     ],
+     [
+      19,
+      0.669,
+      0.0,
+      0.069
+     ],
+     [
+      20,
+      0.556,
+      0.0,
+      0.847
+     ],
+     [
+      21,
+      0.631,
+      0.041,
+      0.0
+     ],
+     [
+      22,
+      0.637,
+      0.0,
+      0.0
+     ],
+     [
+      23,
+      0.523,
+      1.0,
+      0.0
+     ],
+     [
+      24,
+      0.548,
+      1.0,
+      0.0
+     ],
+     [
+      25,
+      0.689,
+      0.419,
+      0.0
+     ],
+     [
+      26,
+      0.743,
+      0.0,
+      0.139
+     ],
+     [
+      27,
+      0.673,
+      0.518,
+      0.0
+     ],
+     [
+      28,
+      0.582,
+      1.0,
+      0.0
+     ],
+     [
+      29,
+      0.565,
+      1.0,
+      0.0
+     ],
+     [
+      30,
+      0.614,
+      1.0,
+      0.0
+     ],
+     [
+      31,
+      0.608,
+      0.0,
+      0.0
+     ],
+     [
+      32,
+      0.485,
+      0.0,
+      1.0
+     ],
+     [
+      33,
+      0.44,
+      0.0,
+      1.0
+     ],
+     [
+      34,
+      0.606,
+      0.006,
+      0.0
+     ],
+     [
+      35,
+      0.738,
+      0.0,
+      0.053
+     ],
+     [
+      36,
+      0.692,
+      0.0,
+      0.0
+     ],
+     [
+      37,
+      0.612,
+      0.0,
+      0.034
+     ],
+     [
+      38,
+      0.565,
+      0.066,
+      0.0
+     ],
+     [
+      39,
+      0.527,
+      0.065,
+      0.0
+     ],
+     [
+      40,
+      0.494,
+      0.0,
+      0.0
+     ],
+     [
+      41,
+      0.423,
+      0.0,
+      0.0
+     ],
+     [
+      42,
+      0.27,
+      0.0,
+      0.0
+     ],
+     [
+      43,
+      0.0,
+      0.305,
+      0.0
+     ],
+     [
+      44,
+      0.0,
+      1.0,
+      0.0
+     ],
+     [
+      45,
+      0.234,
+      0.752,
+      0.0
+     ],
+     [
+      46,
+      0.441,
+      0.095,
+      0.0
+     ],
+     [
+      47,
+      0.537,
+      0.167,
+      0.0
+     ],
+     [
+      48,
+      0.581,
+      1.0,
+      0.0
+     ],
+     [
+      49,
+      0.614,
+      1.0,
+      0.0
+     ],
+     [
+      50,
+      0.661,
+      0.987,
+      0.0
+     ]
+    ]
+   }
+  },
+  {
+   "camera": {
+    "subject": "hero",
+    "framing": "mcu",
+    "move": "push_in",
+    "angle": "eye",
+    "lens": 50,
+    "az": 10,
+    "note": "the offer hand drops"
+   },
+   "actions": [
+    {
+     "who": "hero",
+     "action": "offer",
+     "at": [
+      -4.0,
+      0.6,
+      0.05
+     ],
+     "face_to": [
+      -0.6,
+      3.0,
+      0.05
+     ],
+     "expr": "hurt",
+     "withdraw": 0.05
+    }
+   ],
+   "w": 1.0,
+   "set": "meter_city",
+   "act": "cold",
+   "set_args": {
+    "sky": "night",
+    "damage": 0.0
+   },
+   "crowd": [
+    {
+     "kind": "laugh",
+     "center": [
+      -1,
+      -3,
+      0.05
+     ],
+     "n": 6,
+     "radius": 3,
+     "seed": 9,
+     "face_to": [
+      -4.0,
+      0.6,
+      0.05
+     ]
+    }
+   ],
+   "id": "s022",
+   "beat": 15,
+   "start": 39.167,
+   "frames": 41,
+   "cast": [
+    "hero"
+   ],
+   "props": [],
+   "fx": [],
+   "start_frame": 940
+  },
+  {
+   "camera": {
+    "subject": "hero",
+    "framing": "ws",
+    "move": "pull_out",
+    "angle": "high",
+    "lens": 28,
+    "az": 160,
+    "note": "high angle, he walks away alone"
+   },
+   "actions": [
+    {
+     "who": "hero",
+     "action": "sad_walk",
+     "path": [
+      [
+       -4.0,
+       0.6,
+       0.05
+      ],
+      [
+       -6.5,
+       -6.5,
+       0.05
+      ]
+     ],
+     "expr": "lonely"
+    }
+   ],
+   "w": 1.0,
+   "set": "meter_city",
+   "act": "cold",
+   "set_args": {
+    "sky": "night",
+    "damage": 0.0
+   },
+   "crowd": [
+    {
+     "kind": "mill",
+     "center": [
+      0,
+      -2,
+      0.05
+     ],
+     "n": 22,
+     "radius": 12,
+     "seed": 17,
+     "inner": 2.5
+    }
+   ],
+   "id": "s023",
+   "beat": 16,
+   "start": 40.875,
+   "frames": 93,
+   "cast": [
+    "hero"
+   ],
+   "props": [],
+   "fx": [],
+   "start_frame": 981
+  },
+  {
+   "camera": {
+    "subject": "hero",
+    "framing": "mws",
+    "move": "push_in",
+    "angle": "eye",
+    "lens": 35,
+    "az": 200,
+    "note": "from behind: bench, canal, city lights",
+    "subject2": "guest"
+   },
+   "actions": [
+    {
+     "who": "hero",
+     "action": "sit",
+     "at": [
+      11.4,
+      -25.35,
+      0.05
+     ],
+     "facing": 0,
+     "slump": 1.0,
+     "seated": true,
+     "expr": "lonely"
+    },
+    {
+     "who": "guest",
+     "action": "walk",
+     "path": [
+      [
+       15.2,
+       -23.6,
+       0.05
+      ],
+      [
+       12.9,
+       -24.8,
+       0.05
+      ]
+     ],
+     "expr": "neutral",
+     "f1": 19
+    },
+    {
+     "who": "guest",
+     "action": "sit",
+     "at": [
+      12.65,
+      -25.35,
+      0.05
+     ],
+     "facing": 0,
+     "swing": 1.0,
+     "expr": "neutral",
+     "f0": 19,
+     "f1": 38
+    }
+   ],
+   "w": 1.0,
+   "set": "meter_city",
+   "act": "cold",
+   "set_args": {
+    "sky": "night",
+    "damage": 0.0
+   },
+   "id": "s024",
+   "beat": 17,
+   "start": 44.75,
+   "frames": 38,
+   "cast": [
+    "guest",
+    "hero"
+   ],
+   "props": [],
+   "fx": [],
+   "start_frame": 1074,
+   "lips": {
+    "guest": [
+     [
+      3,
+      0.0,
+      0.0,
+      0.0
+     ],
+     [
+      4,
+      0.608,
+      0.058,
+      0.0
+     ],
+     [
+      5,
+      0.816,
+      0.26,
+      0.0
+     ],
+     [
+      6,
+      0.805,
+      0.228,
+      0.0
+     ],
+     [
+      7,
+      0.795,
+      0.0,
+      0.285
+     ],
+     [
+      8,
+      0.8,
+      0.0,
+      0.089
+     ],
+     [
+      9,
+      0.794,
+      0.148,
+      0.0
+     ],
+     [
+      10,
+      0.721,
+      0.238,
+      0.0
+     ],
+     [
+      11,
+      0.511,
+      0.211,
+      0.0
+     ],
+     [
+      12,
+      0.349,
+      1.0,
+      0.0
+     ],
+     [
+      13,
+      0.495,
+      1.0,
+      0.0
+     ],
+     [
+      14,
+      0.755,
+      0.0,
+      0.0
+     ],
+     [
+      15,
+      0.877,
+      0.0,
+      0.509
+     ],
+     [
+      16,
+      0.9,
+      0.0,
+      0.995
+     ],
+     [
+      17,
+      0.9,
+      0.0,
+      0.507
+     ],
+     [
+      18,
+      0.897,
+      0.0,
+      0.0
+     ],
+     [
+      19,
+      0.879,
+      0.0,
+      0.656
+     ],
+     [
+      20,
+      0.824,
+      0.0,
+      0.902
+     ],
+     [
+      21,
+      0.759,
+      0.0,
+      0.558
+     ],
+     [
+      22,
+      0.732,
+      0.0,
+      0.634
+     ],
+     [
+      23,
+      0.707,
+      0.0,
+      0.549
+     ],
+     [
+      24,
+      0.629,
+      0.0,
+      0.578
+     ],
+     [
+      25,
+      0.495,
+      0.0,
+      0.634
+     ],
+     [
+      26,
+      0.377,
+      0.0,
+      0.795
+     ],
+     [
+      27,
+      0.409,
+      0.169,
+      0.0
+     ],
+     [
+      28,
+      0.524,
+      0.153,
+      0.0
+     ],
+     [
+      29,
+      0.547,
+      0.08,
+      0.0
+     ],
+     [
+      30,
+      0.521,
+      1.0,
+      0.0
+     ],
+     [
+      31,
+      0.474,
+      1.0,
+      0.0
+     ],
+     [
+      32,
+      0.474,
+      1.0,
+      0.0
+     ],
+     [
+      33,
+      0.625,
+      0.0,
+      0.762
+     ],
+     [
+      34,
+      0.725,
+      0.0,
+      0.161
+     ],
+     [
+      35,
+      0.675,
+      0.0,
+      0.0
+     ],
+     [
+      36,
+      0.619,
+      0.049,
+      0.0
+     ],
+     [
+      37,
+      0.566,
+      0.028,
+      0.0
+     ],
+     [
+      38,
+      0.456,
+      0.0,
+      0.459
+     ]
+    ]
+   }
+  },
+  {
+   "camera": {
+    "subject": "guest",
+    "framing": "mcu",
+    "move": "push_in",
+    "angle": "eye",
+    "lens": 50,
+    "az": 15
+   },
+   "actions": [
+    {
+     "who": "guest",
+     "action": "sit",
+     "at": [
+      12.65,
+      -25.35,
+      0.05
+     ],
+     "facing": 0,
+     "seated": true,
+     "swing": 1.0,
+     "expr": "happy",
+     "look_at": [
+      11.4,
+      -25.35,
+      3.1
+     ]
+    },
+    {
+     "who": "hero",
+     "action": "sit",
+     "at": [
+      11.4,
+      -25.35,
+      0.05
+     ],
+     "facing": 0,
+     "seated": true,
+     "slump": 0.6,
+     "expr": "lonely"
+    }
+   ],
+   "w": 1.0,
+   "set": "meter_city",
+   "act": "cold",
+   "set_args": {
+    "sky": "night",
+    "damage": 0.0
+   },
+   "step": 2,
+   "id": "s025",
+   "beat": 17,
+   "start": 46.333,
+   "frames": 38,
+   "cast": [
+    "guest",
+    "hero"
+   ],
+   "props": [],
+   "fx": [],
+   "start_frame": 1112,
+   "lips": {
+    "guest": [
+     [
+      1,
+      0.341,
+      0.0,
+      0.786
+     ],
+     [
+      2,
+      0.293,
+      0.888,
+      0.0
+     ],
+     [
+      3,
+      0.231,
+      0.529,
+      0.0
+     ],
+     [
+      4,
+      0.0,
+      1.0,
+      0.0
+     ]
+    ]
+   }
+  },
+  {
+   "camera": {
+    "subject": "hero",
+    "framing": "cu",
+    "move": "push_in",
+    "angle": "eye",
+    "lens": 50,
+    "az": 42
+   },
+   "actions": [
+    {
+     "who": "hero",
+     "action": "sit",
+     "at": [
+      11.4,
+      -25.35,
+      0.05
+     ],
+     "facing": 0,
+     "seated": true,
+     "slump": 0.3,
+     "expr": "hurt",
+     "look_at": [
+      12.65,
+      -25.35,
+      1.7
+     ]
+    },
+    {
+     "who": "guest",
+     "action": "sit",
+     "at": [
+      12.65,
+      -25.35,
+      0.05
+     ],
+     "facing": 0,
+     "seated": true,
+     "swing": 1.0
+    }
+   ],
+   "w": 1.0,
+   "set": "meter_city",
+   "act": "cold",
+   "set_args": {
+    "sky": "night",
+    "damage": 0.0
+   },
+   "step": 2,
+   "id": "s026",
+   "beat": 18,
+   "start": 47.917,
+   "frames": 36,
+   "cast": [
+    "guest",
+    "hero"
+   ],
+   "props": [],
+   "fx": [],
+   "start_frame": 1150,
+   "lips": {
+    "hero": [
+     [
+      3,
+      0.0,
+      0.0,
+      0.0
+     ],
+     [
+      4,
+      0.629,
+      0.417,
+      0.0
+     ],
+     [
+      5,
+      0.872,
+      0.198,
+      0.0
+     ],
+     [
+      6,
+      0.891,
+      0.0,
+      0.111
+     ],
+     [
+      7,
+      0.896,
+      0.0,
+      0.0
+     ],
+     [
+      8,
+      0.892,
+      0.0,
+      0.0
+     ],
+     [
+      9,
+      0.839,
+      0.0,
+      0.077
+     ],
+     [
+      10,
+      0.693,
+      0.0,
+      0.0
+     ],
+     [
+      11,
+      0.586,
+      0.702,
+      0.0
+     ],
+     [
+      12,
+      0.675,
+      1.0,
+      0.0
+     ],
+     [
+      13,
+      0.764,
+      1.0,
+      0.0
+     ],
+     [
+      14,
+      0.654,
+      1.0,
+      0.0
+     ],
+     [
+      15,
+      0.531,
+      1.0,
+      0.0
+     ],
+     [
+      16,
+      0.623,
+      0.996,
+      0.0
+     ],
+     [
+      17,
+      0.803,
+      0.116,
+      0.0
+     ],
+     [
+      18,
+      0.865,
+      0.06,
+      0.0
+     ],
+     [
+      19,
+      0.836,
+      0.0,
+      0.0
+     ],
+     [
+      20,
+      0.787,
+      0.0,
+      0.0
+     ],
+     [
+      21,
+      0.749,
+      0.0,
+      0.036
+     ],
+     [
+      22,
+      0.747,
+      0.0,
+      0.0
+     ],
+     [
+      23,
+      0.708,
+      0.004,
+      0.0
+     ],
+     [
+      24,
+      0.585,
+      0.219,
+      0.0
+     ],
+     [
+      25,
+      0.49,
+      0.733,
+      0.0
+     ],
+     [
+      26,
+      0.445,
+      0.173,
+      0.0
+     ],
+     [
+      27,
+      0.34,
+      0.154,
+      0.0
+     ],
+     [
+      28,
+      0.172,
+      0.388,
+      0.0
+     ]
+    ]
+   }
+  },
+  {
+   "camera": {
+    "subject": "guest",
+    "framing": "ms",
+    "move": "orbit_left",
+    "angle": "eye",
+    "lens": 40,
+    "az": 0,
+    "subject2": "hero",
+    "note": "two-shot, both numbers"
+   },
+   "actions": [
+    {
+     "who": "guest",
+     "action": "sit",
+     "at": [
+      12.65,
+      -25.35,
+      0.05
+     ],
+     "facing": 0,
+     "seated": true,
+     "swing": 1.0,
+     "expr": "happy",
+     "look_at": [
+      11.4,
+      -25.35,
+      2.0
+     ]
+    },
+    {
+     "who": "hero",
+     "action": "sit",
+     "at": [
+      11.4,
+      -25.35,
+      0.05
+     ],
+     "facing": 0,
+     "seated": true,
+     "exprs": [
+      [
+       0.0,
+       "hurt"
+      ],
+      [
+       0.55,
+       "tender"
+      ]
+     ],
+     "look_at": [
+      12.65,
+      -25.35,
+      1.6
+     ]
+    }
+   ],
+   "w": 1.0,
+   "set": "meter_city",
+   "act": "cold",
+   "set_args": {
+    "sky": "night",
+    "damage": 0.0
+   },
+   "step": 2,
+   "id": "s027",
+   "beat": 19,
+   "start": 49.417,
+   "frames": 58,
+   "cast": [
+    "guest",
+    "hero"
+   ],
+   "props": [],
+   "fx": [],
+   "start_frame": 1186,
+   "lips": {
+    "guest": [
+     [
+      3,
+      0.0,
+      0.0,
+      0.0
+     ],
+     [
+      4,
+      0.675,
+      0.0,
+      0.939
+     ],
+     [
+      5,
+      0.884,
+      0.0,
+      0.534
+     ],
+     [
+      6,
+      0.825,
+      0.0,
+      0.0
+     ],
+     [
+      7,
+      0.773,
+      0.116,
+      0.0
+     ],
+     [
+      8,
+      0.807,
+      0.088,
+      0.0
+     ],
+     [
+      9,
+      0.872,
+      0.0,
+      0.0
+     ],
+     [
+      10,
+      0.849,
+      0.0,
+      0.917
+     ],
+     [
+      11,
+      0.717,
+      1.0,
+      0.0
+     ],
+     [
+      12,
+      0.554,
+      1.0,
+      0.0
+     ],
+     [
+      13,
+      0.452,
+      1.0,
+      0.0
+     ],
+     [
+      14,
+      0.472,
+      1.0,
+      0.0
+     ],
+     [
+      15,
+      0.603,
+      1.0,
+      0.0
+     ],
+     [
+      16,
+      0.728,
+      0.083,
+      0.0
+     ],
+     [
+      17,
+      0.77,
+      0.0,
+      0.162
+     ],
+     [
+      18,
+      0.734,
+      0.0,
+      0.641
+     ],
+     [
+      19,
+      0.638,
+      0.0,
+      0.696
+     ],
+     [
+      20,
+      0.584,
+      0.0,
+      0.0
+     ],
+     [
+      21,
+      0.644,
+      0.0,
+      0.0
+     ],
+     [
+      22,
+      0.728,
+      0.053,
+      0.0
+     ],
+     [
+      23,
+      0.777,
+      0.0,
+      0.47
+     ],
+     [
+      24,
+      0.806,
+      0.0,
+      1.0
+     ],
+     [
+      25,
+      0.807,
+      0.0,
+      1.0
+     ],
+     [
+      26,
+      0.788,
+      0.0,
+      0.659
+     ],
+     [
+      27,
+      0.767,
+      0.024,
+      0.0
+     ],
+     [
+      28,
+      0.725,
+      0.0,
+      0.142
+     ],
+     [
+      29,
+      0.639,
+      0.0,
+      0.637
+     ],
+     [
+      30,
+      0.536,
+      0.0,
+      0.776
+     ],
+     [
+      31,
+      0.471,
+      0.0,
+      0.898
+     ],
+     [
+      32,
+      0.435,
+      0.0,
+      0.945
+     ],
+     [
+      33,
+      0.348,
+      0.0,
+      0.266
+     ],
+     [
+      34,
+      0.184,
+      0.696,
+      0.0
+     ]
+    ]
+   }
+  },
+  {
+   "camera": {
+    "subject": "hero",
+    "framing": "ws",
+    "move": "pull_out",
+    "angle": "eye",
+    "lens": 28,
+    "az": 185,
+    "subject2": "guest",
+    "note": "wide from behind, canal glow"
+   },
+   "actions": [
+    {
+     "who": "hero",
+     "action": "sit",
+     "at": [
+      11.4,
+      -25.35,
+      0.05
+     ],
+     "facing": 0,
+     "seated": true,
+     "expr": "tender"
+    },
+    {
+     "who": "guest",
+     "action": "sit",
+     "at": [
+      12.65,
+      -25.35,
+      0.05
+     ],
+     "facing": 0,
+     "seated": true,
+     "swing": 1.0,
+     "expr": "happy"
+    }
+   ],
+   "w": 1.0,
+   "set": "meter_city",
+   "act": "cold",
+   "set_args": {
+    "sky": "night",
+    "damage": 0.0
+   },
+   "id": "s028",
+   "beat": 20,
+   "start": 51.833,
+   "frames": 66,
+   "cast": [
+    "guest",
+    "hero"
+   ],
+   "props": [],
+   "fx": [],
+   "start_frame": 1244
+  },
+  {
+   "camera": {
+    "subject": [
+     -8,
+     -30,
+     1.0
+    ],
+    "framing": "ws",
+    "move": "crane_down",
+    "angle": "high",
+    "lens": 24,
+    "az": 60,
+    "note": "empty bridge, mist on the canal"
+   },
+   "actions": [
+    {
+     "who": "hero",
+     "action": "walk",
+     "path": [
+      [
+       -8,
+       -22.5,
+       0.05
+      ],
+      [
+       -8,
+       -26.4,
+       0.58
+      ],
+      [
+       -8.0,
+       -29.05,
+       0.58
+      ]
+     ],
+     "expr": "neutral"
+    }
+   ],
+   "w": 1.0,
+   "set": "meter_city",
+   "act": "cold",
+   "set_args": {
+    "sky": "night",
+    "damage": 0.0
+   },
+   "vfx": [
+    {
+     "kind": "dust",
+     "at": [
+      -8,
+      -30,
+      0.5
+     ],
+     "area": 14,
+     "height": 4,
+     "count": 200
+    }
+   ],
+   "id": "s029",
+   "beat": 21,
+   "start": 54.583,
+   "frames": 59,
+   "cast": [
+    "hero"
+   ],
+   "props": [],
+   "fx": [],
+   "start_frame": 1310
+  },
+  {
+   "camera": {
+    "subject": "hero",
+    "framing": "ms",
+    "move": "push_in",
+    "angle": "low",
+    "lens": 35,
+    "az": 40,
+    "note": "he fixes the broken plank"
+   },
+   "actions": [
+    {
+     "who": "hero",
+     "action": "fix",
+     "at": [
+      -8.0,
+      -29.05,
+      0.58
+     ],
+     "facing": 0,
+     "expr": "determined"
+    }
+   ],
+   "w": 1.0,
+   "set": "meter_city",
+   "act": "cold",
+   "set_args": {
+    "sky": "night",
+    "damage": 0.0,
+    "plank_fixed": [
+     0.45,
+     0.8
+    ]
+   },
+   "id": "s030",
+   "beat": 22,
+   "start": 57.042,
+   "frames": 34,
+   "cast": [
+    "hero"
+   ],
+   "props": [],
+   "fx": [],
+   "start_frame": 1369
+  },
+  {
+   "camera": {
+    "subject": [
+     -8,
+     -29.75,
+     0.6
+    ],
+    "framing": "cu",
+    "move": "static_drift",
+    "angle": "low",
+    "lens": 50,
+    "az": 330,
+    "note": "plank snaps flat"
+   },
+   "actions": [
+    {
+     "who": "hero",
+     "action": "fix",
+     "at": [
+      -8.0,
+      -29.05,
+      0.58
+     ],
+     "facing": 0,
+     "expr": "determined"
+    }
+   ],
+   "w": 1.0,
+   "set": "meter_city",
+   "act": "cold",
+   "set_args": {
+    "sky": "night",
+    "damage": 0.0,
+    "plank_fixed": [
+     0.1,
+     0.55
+    ]
+   },
+   "id": "s031",
+   "beat": 22,
+   "start": 58.458,
+   "frames": 34,
+   "cast": [
+    "hero"
+   ],
+   "props": [],
+   "fx": [],
+   "start_frame": 1403
+  },
+  {
+   "camera": {
+    "subject": "hero",
+    "framing": "ms",
+    "move": "dolly_right",
+    "angle": "eye",
+    "lens": 35,
+    "az": 80,
+    "note": "a lost glowing pet toy \u2014 he sets it on the post"
+   },
+   "actions": [
+    {
+     "who": "hero",
+     "action": "pickup",
+     "at": [
+      -7.6,
+      -32.3,
+      0.58
+     ],
+     "facing": 10,
+     "f1": 22
+    },
+    {
+     "who": "hero",
+     "action": "give",
+     "facing": 90,
+     "expr": "tender",
+     "f0": 22,
+     "f1": 50
+    }
+   ],
+   "w": 1.0,
+   "set": "meter_city",
+   "act": "cold",
+   "set_args": {
+    "sky": "night",
+    "damage": 0.0
+   },
+   "props": [
+    {
+     "kind": "toy",
+     "at": [
+      -7.6,
+      -32.85,
+      0.62
+     ],
+     "hide_at": 0.4
+    },
+    {
+     "kind": "toy",
+     "at": [
+      -6.65,
+      -31.0,
+      1.42
+     ],
+     "show_at": 0.78,
+     "rot": 80
+    }
+   ],
+   "id": "s032",
+   "beat": 23,
+   "start": 59.875,
+   "frames": 50,
+   "cast": [
+    "hero"
+   ],
+   "fx": [],
+   "start_frame": 1437
+  },
+  {
+   "camera": {
+    "subject": "hero",
+    "framing": "mws",
+    "move": "static_drift",
+    "angle": "eye",
+    "lens": 40,
+    "az": 150,
+    "note": "CLUE: the 0 glitches to \u221e for 2 frames",
+    "fstop": 4.0
+   },
+   "actions": [
+    {
+     "who": "hero",
+     "action": "walk",
+     "path": [
+      [
+       -7.45,
+       -31.0,
+       0.58
+      ],
+      [
+       -8.0,
+       -26.5,
+       0.58
+      ],
+      [
+       -8.2,
+       -23.0,
+       0.05
+      ]
+     ],
+     "expr": "calm"
+    }
+   ],
+   "w": 1.1,
+   "set": "meter_city",
+   "act": "cold",
+   "set_args": {
+    "sky": "night",
+    "damage": 0.0
+   },
+   "zero": {
+    "glitch": 0.42,
+    "glitch_frames": 2
+   },
+   "step": 1,
+   "id": "s033",
+   "beat": 23,
+   "start": 61.958,
+   "frames": 55,
+   "cast": [
+    "hero"
+   ],
+   "props": [],
+   "fx": [],
+   "start_frame": 1487
+  },
+  {
+   "camera": {
+    "subject": "hero",
+    "framing": "cu",
+    "move": "pull_out",
+    "angle": "low",
+    "lens": 50,
+    "az": 180,
+    "note": "the red 0, unchanged, as he walks away"
+   },
+   "actions": [
+    {
+     "who": "hero",
+     "action": "walk",
+     "path": [
+      [
+       -8.2,
+       -23.0,
+       0.05
+      ],
+      [
+       -8.6,
+       -19.5,
+       0.05
+      ]
+     ],
+     "expr": "calm"
+    }
+   ],
+   "w": 1.0,
+   "set": "meter_city",
+   "act": "cold",
+   "set_args": {
+    "sky": "night",
+    "damage": 0.0
+   },
+   "step": 2,
+   "id": "s034",
+   "beat": 24,
+   "start": 64.25,
+   "frames": 69,
+   "cast": [
+    "hero"
+   ],
+   "props": [],
+   "fx": [],
+   "start_frame": 1542
+  },
+  {
+   "camera": {
+    "subject": "vance",
+    "framing": "ms",
+    "move": "track",
+    "angle": "eye",
+    "lens": 35,
+    "az": 40,
+    "note": "phone up \u2192 he 'helps' \u2192 +1"
+   },
+   "actions": [
+    {
+     "who": "vance",
+     "action": "walk",
+     "path": [
+      [
+       9.0,
+       -18.0,
+       0.05
+      ],
+      [
+       15.0,
+       -18.0,
+       0.05
+      ]
+     ],
+     "expr": "smug"
+    },
+    {
+     "who": "oldman",
+     "action": "walk",
+     "path": [
+      [
+       9.2,
+       -18.9,
+       0.05
+      ],
+      [
+       15.2,
+       -18.9,
+       0.05
+      ]
+     ],
+     "expr": "neutral"
+    },
+    {
+     "who": "luxe",
+     "action": "pose",
+     "at": [
+      12.0,
+      -13.8,
+      0.05
+     ],
+     "face_to": [
+      9.0,
+      -18.0,
+      0.05
+     ],
+     "kind": "selfie",
+     "expr": "happy"
+    }
+   ],
+   "w": 1.0,
+   "set": "meter_city",
+   "act": "cold",
+   "set_args": {
+    "sky": "night",
+    "damage": 0.0
+   },
+   "carry": {
+    "luxe": "phone"
+   },
+   "meters": {
+    "vance": [
+     [
+      0.5,
+      8411,
+      "tick"
+     ]
+    ]
+   },
+   "id": "s035",
+   "beat": 25,
+   "start": 67.125,
+   "frames": 41,
+   "cast": [
+    "luxe",
+    "oldman",
+    "vance"
+   ],
+   "props": [],
+   "fx": [],
+   "start_frame": 1611
+  },
+  {
+   "camera": {
+    "subject": "oldman",
+    "framing": "ms",
+    "move": "static_drift",
+    "angle": "eye",
+    "lens": 35,
+    "az": 20,
+    "note": "phone DOWN \u2192 he lets go mid-street"
+   },
+   "actions": [
+    {
+     "who": "vance",
+     "action": "walk",
+     "path": [
+      [
+       15.0,
+       -18.0,
+       0.05
+      ],
+      [
+       18.5,
+       -15.5,
+       0.05
+      ]
+     ],
+     "expr": "neutral"
+    },
+    {
+     "who": "oldman",
+     "action": "stagger",
+     "path": [
+      [
+       15.2,
+       -18.9,
+       0.05
+      ],
+      [
+       15.8,
+       -19.1,
+       0.05
+      ]
+     ],
+     "expr": "shock",
+     "f1": 20
+    },
+    {
+     "who": "oldman",
+     "action": "tremble",
+     "facing": 270,
+     "expr": "hurt",
+     "f0": 20,
+     "f1": 41
+    },
+    {
+     "who": "luxe",
+     "action": "idle",
+     "at": [
+      12.0,
+      -13.8,
+      0.05
+     ],
+     "facing": 200,
+     "expr": "neutral"
+    }
+   ],
+   "w": 1.0,
+   "set": "meter_city",
+   "act": "cold",
+   "set_args": {
+    "sky": "night",
+    "damage": 0.0
+   },
+   "id": "s036",
+   "beat": 25,
+   "start": 68.833,
+   "frames": 41,
+   "cast": [
+    "luxe",
+    "oldman",
+    "vance"
+   ],
+   "props": [],
+   "fx": [],
+   "start_frame": 1652
+  },
+  {
+   "camera": {
+    "subject": "hero",
+    "framing": "ms",
+    "move": "whip_pan",
+    "angle": "low",
+    "lens": 24,
+    "az": 10,
+    "subject2": [
+     6,
+     -60,
+     120
+    ],
+    "whip_at": 0.35,
+    "note": "whip pan to the burning sky"
+   },
+   "actions": [
+    {
+     "who": "hero",
+     "action": "look_up",
+     "at": [
+      0,
+      -4,
+      0.05
+     ],
+     "facing": 0,
+     "expr": "shock"
+    }
+   ],
+   "w": 1.0,
+   "set": "meter_city",
+   "act": "red",
+   "set_args": {
+    "sky": "red",
+    "damage": 0.0,
+    "sirens": true
+   },
+   "crowd": [
+    {
+     "kind": "stare",
+     "center": [
+      0,
+      -2,
+      0.05
+     ],
+     "n": 16,
+     "radius": 9,
+     "seed": 31,
+     "look_at": [
+      6,
+      -60,
+      120
+     ]
+    }
+   ],
+   "vfx": [
+    {
+     "kind": "streaks",
+     "t": 0.0,
+     "n": 10
+    }
+   ],
+   "flare": 1.0,
+   "id": "s037",
+   "beat": 26,
+   "start": 70.542,
+   "frames": 41,
+   "cast": [
+    "hero"
+   ],
+   "props": [],
+   "fx": [],
+   "start_frame": 1693
+  },
+  {
+   "camera": {
+    "subject": "mark:plaza",
+    "framing": "ews",
+    "move": "drone_orbit",
+    "angle": "high",
+    "lens": 24,
+    "az": 160,
+    "note": "wide: the whole plaza looks up"
+   },
+   "actions": [],
+   "w": 1.0,
+   "set": "meter_city",
+   "act": "red",
+   "set_args": {
+    "sky": "red",
+    "damage": 0.0,
+    "sirens": true
+   },
+   "crowd": [
+    {
+     "kind": "stare",
+     "center": [
+      0,
+      -2,
+      0.05
+     ],
+     "n": 26,
+     "radius": 13,
+     "seed": 32,
+     "look_at": [
+      6,
+      -60,
+      120
+     ]
+    }
+   ],
+   "vfx": [
+    {
+     "kind": "streaks",
+     "t": 0.0,
+     "n": 12
+    },
+    {
+     "kind": "meteor",
+     "at": [
+      40,
+      60,
+      0
+     ],
+     "t": 1.3,
+     "size": 4
+    }
+   ],
+   "id": "s038",
+   "beat": 26,
+   "start": 72.25,
+   "frames": 41,
+   "cast": [],
+   "props": [],
+   "fx": [],
+   "start_frame": 1734
+  },
+  {
+   "camera": {
+    "subject": [
+     6,
+     8,
+     22
+    ],
+    "framing": "ews",
+    "move": "static_drift",
+    "angle": "low",
+    "lens": 24,
+    "az": 0,
+    "pos": [
+     3,
+     -16,
+     1.2
+    ],
+    "note": "meteor screams in over the plaza"
+   },
+   "actions": [],
+   "w": 0.9,
+   "set": "meter_city",
+   "act": "red",
+   "set_args": {
+    "sky": "red",
+    "damage": 0.0,
+    "sirens": true
+   },
+   "vfx": [
+    {
+     "kind": "meteor",
+     "at": "impact1",
+     "t": 0.95,
+     "size": 3.2,
+     "travel": 30,
+     "from": [
+      0.3,
+      0.9,
+      1.0
+     ]
+    },
+    {
+     "kind": "streaks",
+     "t": 0.0,
+     "n": 8
+    }
+   ],
+   "flare": 1.4,
+   "id": "s039",
+   "beat": 27,
+   "start": 73.958,
+   "frames": 40,
+   "cast": [],
+   "props": [],
+   "fx": [],
+   "start_frame": 1775
+  },
+  {
+   "camera": {
+    "subject": "mark:impact1",
+    "framing": "ews",
+    "move": "static_drift",
+    "angle": "eye",
+    "lens": 24,
+    "az": 200,
+    "note": "IMPACT: flash, shockwave, debris",
+    "shake": 0.4
+   },
+   "actions": [],
+   "w": 1.3,
+   "set": "meter_city",
+   "act": "red",
+   "set_args": {
+    "sky": "red",
+    "damage": 0.0,
+    "sirens": true
+   },
+   "vfx": [
+    {
+     "kind": "impact",
+     "at": "impact1",
+     "t": 0.08,
+     "power": 1.4,
+     "shake": 1.6
+    }
+   ],
+   "crowd": [
+    {
+     "kind": "flee",
+     "center": [
+      0,
+      -4,
+      0.05
+     ],
+     "n": 22,
+     "radius": 12,
+     "threat": "impact1",
+     "seed": 41,
+     "t0": 0.08,
+     "exits": [
+      [
+       40,
+       0
+      ],
+      [
+       -40,
+       0
+      ],
+      [
+       0,
+       -40
+      ]
+     ]
+    }
+   ],
+   "flare": 1.4,
+   "id": "s040",
+   "beat": 27,
+   "start": 75.625,
+   "frames": 58,
+   "cast": [],
+   "props": [],
+   "fx": [],
+   "start_frame": 1815
+  },
+  {
+   "camera": {
+    "subject": [
+     -18.8,
+     -6,
+     4.2
+    ],
+    "framing": "ms",
+    "move": "static_drift",
+    "angle": "low",
+    "lens": 28,
+    "az": 0,
+    "pos": [
+     -11.5,
+     -9.5,
+     1.6
+    ],
+    "note": "a neon sign tears free and falls"
+   },
+   "actions": [],
+   "w": 0.8,
+   "set": "meter_city",
+   "act": "red",
+   "set_args": {
+    "sky": "red",
+    "damage": 1.0,
+    "sirens": true
+   },
+   "vfx": [
+    {
+     "kind": "sign",
+     "at": [
+      -18.8,
+      -6,
+      5.8
+     ],
+     "t": 0.2,
+     "text": "TOYS",
+     "rot": 90
+    },
+    {
+     "kind": "shake",
+     "t": 0.2,
+     "at": "impact1",
+     "shake": 0.5
+    }
+   ],
+   "crowd": [
+    {
+     "kind": "run_past",
+     "center": [
+      -14,
+      -6,
+      0.05
+     ],
+     "dir": [
+      0,
+      -1,
+      0
+     ],
+     "n": 5,
+     "spacing": 1.6,
+     "seed": 44
+    }
+   ],
+   "id": "s041",
+   "beat": 27,
+   "start": 78.042,
+   "frames": 36,
+   "cast": [],
+   "props": [],
+   "fx": [],
+   "start_frame": 1873
+  },
+  {
+   "camera": {
+    "subject": [
+     1,
+     0,
+     1.5
+    ],
+    "framing": "ws",
+    "move": "handheld",
+    "angle": "eye",
+    "lens": 24,
+    "az": 0,
+    "pos": [
+     -1.5,
+     -13,
+     1.5
+    ],
+    "shake": 0.9,
+    "note": "stampede toward the lens, handheld"
+   },
+   "actions": [],
+   "w": 1.0,
+   "set": "meter_city",
+   "act": "red",
+   "set_args": {
+    "sky": "red",
+    "damage": 1.0,
+    "sirens": true
+   },
+   "crowd": [
+    {
+     "kind": "flee",
+     "center": [
+      2,
+      2,
+      0.05
+     ],
+     "n": 24,
+     "radius": 9,
+     "threat": "impact1",
+     "seed": 47,
+     "delay": [
+      0,
+      4
+     ],
+     "exits": [
+      [
+       0,
+       -40
+      ],
+      [
+       -40,
+       -4
+      ]
+     ]
+    }
+   ],
+   "id": "s042",
+   "beat": 28,
+   "start": 79.542,
+   "frames": 65,
+   "cast": [],
+   "props": [],
+   "fx": [],
+   "start_frame": 1909
+  },
+  {
+   "camera": {
+    "subject": "luxe",
+    "framing": "ms",
+    "move": "track",
+    "angle": "low",
+    "lens": 28,
+    "az": 20,
+    "shake": 0.6,
+    "note": "Luxe sprints, clutching her rare pet"
+   },
+   "actions": [
+    {
+     "who": "luxe",
+     "action": "run",
+     "path": [
+      [
+       8,
+       10,
+       0.05
+      ],
+      [
+       2.5,
+       0,
+       0.05
+      ]
+     ],
+     "carry_pet": true,
+     "expr": "scream"
+    }
+   ],
+   "w": 1.0,
+   "set": "meter_city",
+   "act": "red",
+   "set_args": {
+    "sky": "red",
+    "damage": 1.0,
+    "sirens": true
+   },
+   "carry": {
+    "luxe": "pet_dragon"
+   },
+   "meters": {
+    "luxe": [
+     [
+      0.3,
+      0.75,
+      "flicker"
+     ]
+    ]
+   },
+   "crowd": [
+    {
+     "kind": "flee",
+     "center": [
+      4,
+      4,
+      0.05
+     ],
+     "n": 10,
+     "radius": 6,
+     "threat": "impact1",
+     "seed": 49,
+     "delay": [
+      0,
+      3
+     ]
+    }
+   ],
+   "id": "s043",
+   "beat": 29,
+   "start": 82.25,
+   "frames": 62,
+   "cast": [
+    "luxe"
+   ],
+   "props": [],
+   "fx": [],
+   "start_frame": 1974,
+   "lips": {
+    "luxe": [
+     [
+      3,
+      0.0,
+      0.0,
+      0.0
+     ],
+     [
+      4,
+      0.675,
+      0.0,
+      0.684
+     ],
+     [
+      5,
+      0.9,
+      0.0,
+      0.0
+     ],
+     [
+      6,
+      0.9,
+      0.0,
+      0.0
+     ],
+     [
+      7,
+      0.897,
+      0.0,
+      0.463
+     ],
+     [
+      8,
+      0.845,
+      0.0,
+      0.845
+     ],
+     [
+      9,
+      0.698,
+      0.0,
+      0.739
+     ],
+     [
+      10,
+      0.506,
+      0.753,
+      0.0
+     ],
+     [
+      11,
+      0.342,
+      1.0,
+      0.0
+     ],
+     [
+      12,
+      0.201,
+      1.0,
+      0.0
+     ],
+     [
+      13,
+      0.0,
+      1.0,
+      0.0
+     ],
+     [
+      14,
+      0.0,
+      0.977,
+      0.0
+     ],
+     [
+      15,
+      0.0,
+      0.944,
+      0.0
+     ],
+     [
+      16,
+      0.0,
+      1.0,
+      0.0
+     ],
+     [
+      17,
+      0.0,
+      1.0,
+      0.0
+     ],
+     [
+      18,
+      0.134,
+      1.0,
+      0.0
+     ],
+     [
+      19,
+      0.48,
+      0.708,
+      0.0
+     ],
+     [
+      20,
+      0.778,
+      0.325,
+      0.0
+     ],
+     [
+      21,
+      0.793,
+      1.0,
+      0.0
+     ],
+     [
+      22,
+      0.619,
+      1.0,
+      0.0
+     ],
+     [
+      23,
+      0.478,
+      1.0,
+      0.0
+     ],
+     [
+      24,
+      0.528,
+      1.0,
+      0.0
+     ],
+     [
+      25,
+      0.701,
+      1.0,
+      0.0
+     ],
+     [
+      26,
+      0.787,
+      0.0,
+      0.0
+     ],
+     [
+      27,
+      0.774,
+      0.133,
+      0.0
+     ],
+     [
+      28,
+      0.724,
+      0.185,
+      0.0
+     ],
+     [
+      29,
+      0.648,
+      0.217,
+      0.0
+     ],
+     [
+      30,
+      0.654,
+      0.645,
+      0.0
+     ],
+     [
+      31,
+      0.727,
+      0.195,
+      0.0
+     ],
+     [
+      32,
+      0.743,
+      0.0,
+      0.266
+     ],
+     [
+      33,
+      0.717,
+      0.197,
+      0.0
+     ],
+     [
+      34,
+      0.679,
+      1.0,
+      0.0
+     ],
+     [
+      35,
+      0.611,
+      1.0,
+      0.0
+     ],
+     [
+      36,
+      0.58,
+      1.0,
+      0.0
+     ],
+     [
+      37,
+      0.628,
+      0.097,
+      0.0
+     ],
+     [
+      38,
+      0.662,
+      0.357,
+      0.0
+     ],
+     [
+      39,
+      0.627,
+      0.084,
+      0.0
+     ],
+     [
+      40,
+      0.616,
+      1.0,
+      0.0
+     ],
+     [
+      41,
+      0.682,
+      1.0,
+      0.0
+     ],
+     [
+      42,
+      0.75,
+      0.197,
+      0.0
+     ],
+     [
+      43,
+      0.738,
+      0.0,
+      0.853
+     ],
+     [
+      44,
+      0.635,
+      0.367,
+      0.0
+     ],
+     [
+      45,
+      0.498,
+      0.668,
+      0.0
+     ],
+     [
+      46,
+      0.394,
+      0.0,
+      0.267
+     ],
+     [
+      47,
+      0.336,
+      0.0,
+      0.007
+     ],
+     [
+      48,
+      0.298,
+      0.211,
+      0.0
+     ],
+     [
+      49,
+      0.251,
+      0.623,
+      0.0
+     ],
+     [
+      50,
+      0.193,
+      0.81,
+      0.0
+     ],
+     [
+      51,
+      0.114,
+      1.0,
+      0.0
+     ]
+    ]
+   }
+  },
+  {
+   "camera": {
+    "subject": [
+     0,
+     36,
+     24
+    ],
+    "framing": "ews",
+    "move": "static_drift",
+    "angle": "low",
+    "lens": 20,
+    "az": 0,
+    "pos": [
+     6,
+     -10,
+     1.2
+    ],
+    "note": "the Spire cracks and leans over the plaza"
+   },
+   "actions": [],
+   "w": 1.0,
+   "set": "meter_city",
+   "act": "red",
+   "set_args": {
+    "sky": "red",
+    "damage": 1.0,
+    "spire_lean": [
+     [
+      0.0,
+      6.0
+     ],
+     [
+      0.4,
+      6.5
+     ],
+     [
+      0.55,
+      10.5
+     ],
+     [
+      0.62,
+      9.6
+     ],
+     [
+      1.0,
+      10.0
+     ]
+    ],
+    "sirens": true
+   },
+   "vfx": [
+    {
+     "kind": "dustcloud",
+     "t": 0.5,
+     "at": [
+      0,
+      36,
+      0
+     ],
+     "radius": 10
+    },
+    {
+     "kind": "shake",
+     "t": 0.52,
+     "at": "spire",
+     "shake": 0.8
+    },
+    {
+     "kind": "sparks",
+     "t": 0.53,
+     "at": [
+      0,
+      33,
+      18
+     ],
+     "count": 50
+    }
+   ],
+   "flare": 1.0,
+   "id": "s044",
+   "beat": 30,
+   "start": 84.833,
+   "frames": 67,
+   "cast": [],
+   "props": [],
+   "fx": [],
+   "start_frame": 2036
+  },
+  {
+   "camera": {
+    "subject": "vance",
+    "framing": "ms",
+    "move": "track",
+    "angle": "low",
+    "lens": 28,
+    "az": 30,
+    "shake": 0.5,
+    "note": "VIPs run past an old man who fell"
+   },
+   "actions": [
+    {
+     "who": "vance",
+     "action": "panic_sprint",
+     "path": [
+      [
+       6,
+       14,
+       0.05
+      ],
+      [
+       0.5,
+       -2,
+       0.05
+      ]
+     ],
+     "carry_pet": true,
+     "expr": "scream"
+    },
+    {
+     "who": "luxe",
+     "action": "run",
+     "path": [
+      [
+       8,
+       15.5,
+       0.05
+      ],
+      [
+       2.4,
+       -1.0,
+       0.05
+      ]
+     ],
+     "carry_pet": true,
+     "expr": "fear"
+    },
+    {
+     "who": "oldman",
+     "action": "pinned",
+     "at": [
+      2.6,
+      7.5,
+      0.05
+     ],
+     "facing": 200,
+     "expr": "pain"
+    }
+   ],
+   "w": 1.0,
+   "set": "meter_city",
+   "act": "red",
+   "set_args": {
+    "sky": "red",
+    "damage": 1.0,
+    "sirens": true
+   },
+   "carry": {
+    "vance": "pet_fox",
+    "luxe": "pet_dragon"
+   },
+   "meters": {
+    "vance": [
+     [
+      0.2,
+      0.9,
+      "flicker"
+     ]
+    ],
+    "luxe": [
+     [
+      0.35,
+      0.95,
+      "flicker"
+     ]
+    ]
+   },
+   "id": "s045",
+   "beat": 31,
+   "start": 87.625,
+   "frames": 43,
+   "cast": [
+    "luxe",
+    "oldman",
+    "vance"
+   ],
+   "props": [],
+   "fx": [],
+   "start_frame": 2103
+  },
+  {
+   "camera": {
+    "subject": "oldman",
+    "framing": "mcu",
+    "move": "push_in",
+    "angle": "high",
+    "lens": 40,
+    "az": 180,
+    "note": "on his back, he reaches out; they're gone"
+   },
+   "actions": [
+    {
+     "who": "oldman",
+     "action": "pinned",
+     "at": [
+      2.6,
+      7.5,
+      0.05
+     ],
+     "facing": 200,
+     "expr": "hurt"
+    }
+   ],
+   "w": 0.8,
+   "set": "meter_city",
+   "act": "red",
+   "set_args": {
+    "sky": "red",
+    "damage": 1.0,
+    "sirens": true
+   },
+   "crowd": [
+    {
+     "kind": "run_past",
+     "center": [
+      2.6,
+      7.5,
+      0.05
+     ],
+     "dir": [
+      0,
+      -1,
+      0
+     ],
+     "n": 6,
+     "spacing": 2.0,
+     "seed": 52,
+     "carry": "pets"
+    }
+   ],
+   "id": "s046",
+   "beat": 31,
+   "start": 89.417,
+   "frames": 34,
+   "cast": [
+    "oldman"
+   ],
+   "props": [],
+   "fx": [],
+   "start_frame": 2146
+  },
+  {
+   "camera": {
+    "subject": "hero",
+    "framing": "ms",
+    "move": "static_drift",
+    "angle": "eye",
+    "lens": 35,
+    "az": 60,
+    "shake": 0.4,
+    "note": "SHOVE"
+   },
+   "actions": [
+    {
+     "who": "hero",
+     "action": "idle",
+     "at": [
+      1.0,
+      10.0,
+      0.05
+     ],
+     "facing": 180,
+     "expr": "fear",
+     "f1": 12
+    },
+    {
+     "who": "hero",
+     "action": "shoved",
+     "dir": [
+      1,
+      0.3,
+      0
+     ],
+     "dist": 1.0,
+     "f0": 12,
+     "f1": 23
+    },
+    {
+     "who": "hero",
+     "action": "fall",
+     "expr": "pain",
+     "f0": 23,
+     "f1": 43
+    },
+    {
+     "who": "vance",
+     "action": "run",
+     "path": [
+      [
+       -1.6,
+       14.5,
+       0.05
+      ],
+      [
+       0.2,
+       10.6,
+       0.05
+      ]
+     ],
+     "carry_pet": true,
+     "expr": "angry",
+     "f1": 12
+    },
+    {
+     "who": "vance",
+     "action": "shove",
+     "expr": "angry",
+     "f0": 12,
+     "f1": 23
+    },
+    {
+     "who": "vance",
+     "action": "run",
+     "path": [
+      [
+       0.2,
+       10.6,
+       0.05
+      ],
+      [
+       1.0,
+       4.0,
+       0.05
+      ]
+     ],
+     "carry_pet": true,
+     "expr": "angry",
+     "f0": 23,
+     "f1": 43
+    }
+   ],
+   "w": 1.0,
+   "set": "meter_city",
+   "act": "red",
+   "set_args": {
+    "sky": "red",
+    "damage": 1.0,
+    "sirens": true
+   },
+   "carry": {
+    "vance": "pet_fox"
+   },
+   "id": "s047",
+   "beat": 32,
+   "start": 90.833,
+   "frames": 43,
+   "cast": [
+    "hero",
+    "vance"
+   ],
+   "props": [],
+   "fx": [],
+   "start_frame": 2180,
+   "lips": {
+    "vance": [
+     [
+      3,
+      0.0,
+      0.0,
+      0.0
+     ],
+     [
+      4,
+      0.653,
+      0.0,
+      0.548
+     ],
+     [
+      5,
+      0.883,
+      0.0,
+      0.456
+     ],
+     [
+      6,
+      0.831,
+      0.0,
+      0.525
+     ],
+     [
+      7,
+      0.677,
+      0.0,
+      0.0
+     ],
+     [
+      8,
+      0.55,
+      1.0,
+      0.0
+     ],
+     [
+      9,
+      0.552,
+      1.0,
+      0.0
+     ],
+     [
+      10,
+      0.638,
+      1.0,
+      0.0
+     ],
+     [
+      11,
+      0.766,
+      1.0,
+      0.0
+     ],
+     [
+      12,
+      0.868,
+      0.11,
+      0.0
+     ],
+     [
+      13,
+      0.877,
+      0.0,
+      0.0
+     ],
+     [
+      14,
+      0.82,
+      0.0,
+      0.28
+     ],
+     [
+      15,
+      0.76,
+      0.0,
+      0.334
+     ],
+     [
+      16,
+      0.721,
+      0.0,
+      0.055
+     ],
+     [
+      17,
+      0.67,
+      0.0,
+      0.105
+     ],
+     [
+      18,
+      0.574,
+      0.0,
+      0.39
+     ],
+     [
+      19,
+      0.422,
+      0.0,
+      0.634
+     ],
+     [
+      20,
+      0.254,
+      0.0,
+      0.0
+     ],
+     [
+      21,
+      0.118,
+      0.562,
+      0.0
+     ]
+    ]
+   }
+  },
+  {
+   "camera": {
+    "subject": "hero",
+    "framing": "cu",
+    "move": "push_in",
+    "angle": "worm",
+    "lens": 28,
+    "az": 0,
+    "note": "face on the ground; numbers race past; he pushes up"
+   },
+   "actions": [
+    {
+     "who": "hero",
+     "action": "get_up",
+     "at": [
+      2.3,
+      9.6,
+      0.05
+     ],
+     "facing": 180,
+     "expr": "pain",
+     "f1": 200
+    }
+   ],
+   "w": 0.8,
+   "set": "meter_city",
+   "act": "red",
+   "set_args": {
+    "sky": "red",
+    "damage": 1.0,
+    "sirens": true
+   },
+   "crowd": [
+    {
+     "kind": "run_past",
+     "center": [
+      3.5,
+      9.6,
+      0.05
+     ],
+     "dir": [
+      0,
+      -1,
+      0
+     ],
+     "n": 5,
+     "spacing": 1.4,
+     "seed": 55
+    }
+   ],
+   "id": "s048",
+   "beat": 32,
+   "start": 92.625,
+   "frames": 34,
+   "cast": [
+    "hero"
+   ],
+   "props": [],
+   "fx": [],
+   "start_frame": 2223
+  },
+  {
+   "camera": {
+    "subject": "hero",
+    "framing": "mcu",
+    "move": "rack_focus",
+    "angle": "low",
+    "lens": 50,
+    "az": 160,
+    "subject2": "guest",
+    "rack_reverse": true,
+    "note": "over his shoulder: rack focus to the pinned kid"
+   },
+   "actions": [
+    {
+     "who": "hero",
+     "action": "get_up",
+     "at": [
+      2.3,
+      9.6,
+      0.05
+     ],
+     "facing": 180,
+     "f0": -26,
+     "expr": "pain",
+     "f1": 22
+    },
+    {
+     "who": "hero",
+     "action": "idle",
+     "facing": 180,
+     "expr": "shock",
+     "f0": 22,
+     "f1": 41
+    },
+    {
+     "who": "guest",
+     "action": "pinned",
+     "at": [
+      2.5,
+      33.4,
+      0.05
+     ],
+     "facing": 10,
+     "expr": "fear"
+    }
+   ],
+   "w": 1.0,
+   "set": "meter_city",
+   "act": "red",
+   "set_args": {
+    "sky": "red",
+    "damage": 1.0,
+    "spire_lean": 10.0,
+    "sirens": true
+   },
+   "vfx": [
+    {
+     "kind": "beam",
+     "at": [
+      2.5,
+      33.4,
+      0.05
+     ],
+     "rot": 15
+    }
+   ],
+   "id": "s049",
+   "beat": 33,
+   "start": 94.042,
+   "frames": 41,
+   "cast": [
+    "guest",
+    "hero"
+   ],
+   "props": [],
+   "fx": [],
+   "start_frame": 2257,
+   "lips": {
+    "guest": [
+     [
+      3,
+      0.0,
+      0.0,
+      0.0
+     ],
+     [
+      4,
+      0.483,
+      0.606,
+      0.0
+     ],
+     [
+      5,
+      0.749,
+      0.119,
+      0.0
+     ],
+     [
+      6,
+      0.816,
+      0.0,
+      0.0
+     ],
+     [
+      7,
+      0.769,
+      0.0,
+      0.09
+     ],
+     [
+      8,
+      0.561,
+      0.0,
+      0.718
+     ],
+     [
+      9,
+      0.327,
+      0.0,
+      0.001
+     ],
+     [
+      10,
+      0.338,
+      1.0,
+      0.0
+     ],
+     [
+      11,
+      0.497,
+      1.0,
+      0.0
+     ],
+     [
+      12,
+      0.628,
+      1.0,
+      0.0
+     ],
+     [
+      13,
+      0.739,
+      1.0,
+      0.0
+     ],
+     [
+      14,
+      0.832,
+      0.0,
+      0.0
+     ],
+     [
+      15,
+      0.886,
+      0.0,
+      0.342
+     ],
+     [
+      16,
+      0.9,
+      0.0,
+      0.93
+     ],
+     [
+      17,
+      0.88,
+      0.0,
+      1.0
+     ],
+     [
+      18,
+      0.844,
+      0.0,
+      0.363
+     ],
+     [
+      19,
+      0.815,
+      0.0,
+      0.216
+     ],
+     [
+      20,
+      0.75,
+      0.0,
+      0.0
+     ],
+     [
+      21,
+      0.664,
+      0.0,
+      0.063
+     ],
+     [
+      22,
+      0.655,
+      0.0,
+      0.16
+     ],
+     [
+      23,
+      0.695,
+      0.0,
+      0.0
+     ],
+     [
+      24,
+      0.701,
+      0.0,
+      0.026
+     ],
+     [
+      25,
+      0.692,
+      0.0,
+      0.186
+     ],
+     [
+      26,
+      0.677,
+      0.0,
+      0.269
+     ],
+     [
+      27,
+      0.639,
+      0.0,
+      0.569
+     ],
+     [
+      28,
+      0.57,
+      0.0,
+      0.535
+     ],
+     [
+      29,
+      0.437,
+      0.0,
+      0.436
+     ],
+     [
+      30,
+      0.235,
+      0.489,
+      0.0
+     ]
+    ]
+   }
+  },
+  {
+   "camera": {
+    "subject": "guest",
+    "framing": "mws",
+    "move": "push_in",
+    "angle": "low",
+    "lens": 28,
+    "az": 330,
+    "note": "the default kid pinned under the leaning Spire"
+   },
+   "actions": [
+    {
+     "who": "guest",
+     "action": "pinned",
+     "at": [
+      2.5,
+      33.4,
+      0.05
+     ],
+     "facing": 10,
+     "expr": "fear"
+    }
+   ],
+   "w": 1.0,
+   "set": "meter_city",
+   "act": "red",
+   "set_args": {
+    "sky": "red",
+    "damage": 1.0,
+    "spire_lean": 10.0,
+    "sirens": true
+   },
+   "vfx": [
+    {
+     "kind": "beam",
+     "at": [
+      2.5,
+      33.4,
+      0.05
+     ],
+     "rot": 15
+    },
+    {
+     "kind": "embers",
+     "at": [
+      2.5,
+      33.4,
+      0.05
+     ],
+     "area": 16,
+     "count": 200
+    }
+   ],
+   "flare": 0.8,
+   "id": "s050",
+   "beat": 33,
+   "start": 95.75,
+   "frames": 41,
+   "cast": [
+    "guest"
+   ],
+   "props": [],
+   "fx": [],
+   "start_frame": 2298
+  },
+  {
+   "camera": {
+    "subject": "vance",
+    "framing": "cu",
+    "move": "push_in",
+    "angle": "eye",
+    "lens": 50,
+    "az": 15,
+    "note": "Vance slows\u2026 looks at the kid\u2026 looks at his own number"
+   },
+   "actions": [
+    {
+     "who": "vance",
+     "action": "run",
+     "path": [
+      [
+       7.5,
+       31.5,
+       0.05
+      ],
+      [
+       5.6,
+       30.4,
+       0.05
+      ]
+     ],
+     "carry_pet": true,
+     "expr": "fear",
+     "f1": 12
+    },
+    {
+     "who": "vance",
+     "action": "pet_hug",
+     "face_to": [
+      2.5,
+      33.4,
+      0.05
+     ],
+     "exprs": [
+      [
+       0.3,
+       "hurt"
+      ],
+      [
+       0.62,
+       "wary"
+      ]
+     ],
+     "look_at": [
+      2.5,
+      33.4,
+      0.4
+     ],
+     "f0": 12,
+     "f1": 43
+    }
+   ],
+   "w": 1.0,
+   "set": "meter_city",
+   "act": "red",
+   "set_args": {
+    "sky": "red",
+    "damage": 1.0,
+    "spire_lean": 10.0,
+    "sirens": true
+   },
+   "carry": {
+    "vance": "pet_fox"
+   },
+   "id": "s051",
+   "beat": 34,
+   "start": 97.458,
+   "frames": 43,
+   "cast": [
+    "vance"
+   ],
+   "props": [],
+   "fx": [],
+   "start_frame": 2339
+  },
+  {
+   "camera": {
+    "subject": "guest",
+    "framing": "ms",
+    "move": "static_drift",
+    "angle": "low",
+    "lens": 35,
+    "az": 330,
+    "subject2": "vance",
+    "note": "\u2026and he runs"
+   },
+   "actions": [
+    {
+     "who": "guest",
+     "action": "pinned",
+     "at": [
+      2.5,
+      33.4,
+      0.05
+     ],
+     "facing": 10,
+     "expr": "hurt",
+     "look_at": [
+      5.6,
+      30.4,
+      1.8
+     ]
+    },
+    {
+     "who": "vance",
+     "action": "panic_sprint",
+     "path": [
+      [
+       5.6,
+       30.4,
+       0.05
+      ],
+      [
+       9.5,
+       19.0,
+       0.05
+      ]
+     ],
+     "carry_pet": true,
+     "expr": "fear"
+    }
+   ],
+   "w": 1.0,
+   "set": "meter_city",
+   "act": "red",
+   "set_args": {
+    "sky": "red",
+    "damage": 1.0,
+    "spire_lean": 10.0,
+    "sirens": true
+   },
+   "carry": {
+    "vance": "pet_fox"
+   },
+   "meters": {
+    "vance": [
+     [
+      0.2,
+      0.8,
+      "flicker"
+     ]
+    ]
+   },
+   "vfx": [
+    {
+     "kind": "beam",
+     "at": [
+      2.5,
+      33.4,
+      0.05
+     ],
+     "rot": 15
+    }
+   ],
+   "id": "s052",
+   "beat": 34,
+   "start": 99.25,
+   "frames": 43,
+   "cast": [
+    "guest",
+    "vance"
+   ],
+   "props": [],
+   "fx": [],
+   "start_frame": 2382
+  },
+  {
+   "camera": {
+    "subject": "guest",
+    "framing": "ms",
+    "move": "static_drift",
+    "angle": "eye",
+    "lens": 35,
+    "az": 300,
+    "note": "people run straight past him"
+   },
+   "actions": [
+    {
+     "who": "guest",
+     "action": "pinned",
+     "at": [
+      2.5,
+      33.4,
+      0.05
+     ],
+     "facing": 10,
+     "expr": "hurt"
+    }
+   ],
+   "w": 1.0,
+   "set": "meter_city",
+   "act": "red",
+   "set_args": {
+    "sky": "red",
+    "damage": 1.0,
+    "spire_lean": 10.0,
+    "sirens": true
+   },
+   "crowd": [
+    {
+     "kind": "run_past",
+     "center": [
+      4.6,
+      31.0,
+      0.05
+     ],
+     "dir": [
+      0.2,
+      -1,
+      0
+     ],
+     "n": 7,
+     "spacing": 1.3,
+     "seed": 61,
+     "spread": [
+      2,
+      14
+     ]
+    }
+   ],
+   "vfx": [
+    {
+     "kind": "beam",
+     "at": [
+      2.5,
+      33.4,
+      0.05
+     ],
+     "rot": 15
+    }
+   ],
+   "id": "s053",
+   "beat": 35,
+   "start": 101.042,
+   "frames": 40,
+   "cast": [
+    "guest"
+   ],
+   "props": [],
+   "fx": [],
+   "start_frame": 2425
+  },
+  {
+   "camera": {
+    "subject": "hero",
+    "framing": "ews",
+    "move": "static_drift",
+    "angle": "top",
+    "lens": 28,
+    "az": 0,
+    "height": 30,
+    "note": "TOP: one red 0 against a river of thousands"
+   },
+   "actions": [
+    {
+     "who": "hero",
+     "action": "walk",
+     "path": [
+      [
+       2.3,
+       12.0,
+       0.05
+      ],
+      [
+       2.4,
+       18.0,
+       0.05
+      ]
+     ],
+     "expr": "determined"
+    }
+   ],
+   "w": 1.0,
+   "set": "meter_city",
+   "act": "red",
+   "set_args": {
+    "sky": "red",
+    "damage": 1.0,
+    "spire_lean": 10.0,
+    "sirens": true
+   },
+   "crowd": [
+    {
+     "kind": "run_past",
+     "center": [
+      2.4,
+      16.0,
+      0.05
+     ],
+     "dir": [
+      0,
+      -1,
+      0
+     ],
+     "n": 18,
+     "spacing": 1.1,
+     "seed": 63,
+     "spread": [
+      -6,
+      16
+     ]
+    }
+   ],
+   "id": "s054",
+   "beat": 35,
+   "start": 102.708,
+   "frames": 40,
+   "cast": [
+    "hero"
+   ],
+   "props": [],
+   "fx": [],
+   "start_frame": 2465
+  },
+  {
+   "camera": {
+    "subject": "hero",
+    "framing": "cu",
+    "move": "dolly_zoom",
+    "angle": "eye",
+    "lens": 50,
+    "az": 0,
+    "note": "DOLLY ZOOM: the decision"
+   },
+   "actions": [
+    {
+     "who": "hero",
+     "action": "idle",
+     "at": [
+      2.4,
+      18.0,
+      0.05
+     ],
+     "facing": 180,
+     "expr": "determined"
+    }
+   ],
+   "w": 1.0,
+   "set": "meter_city",
+   "act": "red",
+   "set_args": {
+    "sky": "red",
+    "damage": 1.0,
+    "spire_lean": 10.0,
+    "sirens": true
+   },
+   "engine": "cycles",
+   "spp": 12,
+   "id": "s055",
+   "beat": 35,
+   "start": 104.375,
+   "frames": 40,
+   "cast": [
+    "hero"
+   ],
+   "props": [],
+   "fx": [],
+   "start_frame": 2505
+  },
+  {
+   "camera": {
+    "subject": "hero",
+    "framing": "ms",
+    "move": "track",
+    "angle": "low",
+    "lens": 24,
+    "az": 180,
+    "shake": 0.7,
+    "note": "he sprints INTO the danger"
+   },
+   "actions": [
+    {
+     "who": "hero",
+     "action": "sprint",
+     "path": [
+      [
+       2.4,
+       18.0,
+       0.05
+      ],
+      [
+       1.4,
+       30.6,
+       0.05
+      ]
+     ],
+     "expr": "determined"
+    }
+   ],
+   "w": 1.0,
+   "set": "meter_city",
+   "act": "red",
+   "set_args": {
+    "sky": "red",
+    "damage": 1.0,
+    "spire_lean": 10.0,
+    "sirens": true
+   },
+   "crowd": [
+    {
+     "kind": "run_past",
+     "center": [
+      2.0,
+      24.0,
+      0.05
+     ],
+     "dir": [
+      0,
+      -1,
+      0
+     ],
+     "n": 6,
+     "spacing": 1.6,
+     "seed": 66
+    }
+   ],
+   "id": "s056",
+   "beat": 36,
+   "start": 106.042,
+   "frames": 48,
+   "cast": [
+    "hero"
+   ],
+   "props": [],
+   "fx": [],
+   "start_frame": 2545,
+   "lips": {
+    "hero": [
+     [
+      3,
+      0.0,
+      0.0,
+      0.0
+     ],
+     [
+      4,
+      0.468,
+      0.929,
+      0.0
+     ],
+     [
+      5,
+      0.776,
+      0.436,
+      0.0
+     ],
+     [
+      6,
+      0.877,
+      0.377,
+      0.0
+     ],
+     [
+      7,
+      0.867,
+      0.455,
+      0.0
+     ],
+     [
+      8,
+      0.845,
+      0.544,
+      0.0
+     ],
+     [
+      9,
+      0.832,
+      0.571,
+      0.0
+     ],
+     [
+      10,
+      0.836,
+      0.356,
+      0.0
+     ],
+     [
+      11,
+      0.866,
+      0.0,
+      0.101
+     ],
+     [
+      12,
+      0.888,
+      0.0,
+      0.15
+     ],
+     [
+      13,
+      0.871,
+      0.0,
+      0.365
+     ],
+     [
+      14,
+      0.822,
+      0.0,
+      0.107
+     ],
+     [
+      15,
+      0.738,
+      0.0,
+      0.102
+     ],
+     [
+      16,
+      0.596,
+      0.147,
+      0.0
+     ],
+     [
+      17,
+      0.421,
+      0.241,
+      0.0
+     ],
+     [
+      18,
+      0.293,
+      0.0,
+      0.456
+     ],
+     [
+      19,
+      0.218,
+      0.0,
+      0.392
+     ],
+     [
+      20,
+      0.128,
+      0.713,
+      0.0
+     ]
+    ]
+   }
+  },
+  {
+   "camera": {
+    "subject": "hero",
+    "framing": "ms",
+    "move": "orbit_left",
+    "angle": "low",
+    "lens": 35,
+    "az": 30,
+    "subject2": "guest",
+    "shake": 0.3,
+    "note": "he digs"
+   },
+   "actions": [
+    {
+     "who": "hero",
+     "action": "dig",
+     "at": [
+      1.2,
+      32.2,
+      0.05
+     ],
+     "face_to": [
+      2.5,
+      33.4,
+      0.05
+     ],
+     "expr": "strain",
+     "toss": true
+    },
+    {
+     "who": "guest",
+     "action": "pinned",
+     "at": [
+      2.5,
+      33.4,
+      0.05
+     ],
+     "facing": 10,
+     "expr": "hurt",
+     "look_at": [
+      1.2,
+      32.2,
+      3.0
+     ]
+    }
+   ],
+   "w": 1.0,
+   "set": "meter_city",
+   "act": "red",
+   "set_args": {
+    "sky": "red",
+    "damage": 1.0,
+    "spire_lean": 10.0,
+    "sirens": true
+   },
+   "vfx": [
+    {
+     "kind": "beam",
+     "at": [
+      2.5,
+      33.4,
+      0.05
+     ],
+     "rot": 15
+    },
+    {
+     "kind": "dust",
+     "at": [
+      2.5,
+      33.4,
+      0.05
+     ],
+     "area": 6,
+     "height": 3
+    }
+   ],
+   "engine": "cycles",
+   "spp": 12,
+   "id": "s057",
+   "beat": 37,
+   "start": 108.042,
+   "frames": 62,
+   "cast": [
+    "guest",
+    "hero"
+   ],
+   "props": [],
+   "fx": [],
+   "start_frame": 2593,
+   "lips": {
+    "guest": [
+     [
+      3,
+      0.0,
+      0.0,
+      0.0
+     ],
+     [
+      4,
+      0.537,
+      0.942,
+      0.0
+     ],
+     [
+      5,
+      0.807,
+      0.0,
+      0.0
+     ],
+     [
+      6,
+      0.884,
+      0.0,
+      0.177
+     ],
+     [
+      7,
+      0.9,
+      0.0,
+      0.936
+     ],
+     [
+      8,
+      0.882,
+      0.0,
+      0.651
+     ],
+     [
+      9,
+      0.846,
+      0.03,
+      0.0
+     ],
+     [
+      10,
+      0.845,
+      0.0,
+      0.244
+     ],
+     [
+      11,
+      0.853,
+      0.0,
+      0.859
+     ],
+     [
+      12,
+      0.813,
+      0.0,
+      0.948
+     ],
+     [
+      13,
+      0.785,
+      0.0,
+      0.49
+     ],
+     [
+      14,
+      0.77,
+      0.0,
+      0.371
+     ],
+     [
+      15,
+      0.711,
+      0.0,
+      0.317
+     ],
+     [
+      16,
+      0.625,
+      0.0,
+      0.417
+     ],
+     [
+      17,
+      0.496,
+      0.0,
+      0.601
+     ],
+     [
+      18,
+      0.289,
+      0.0,
+      0.565
+     ],
+     [
+      19,
+      0.211,
+      0.74,
+      0.0
+     ],
+     [
+      20,
+      0.412,
+      0.347,
+      0.0
+     ],
+     [
+      21,
+      0.583,
+      0.367,
+      0.0
+     ],
+     [
+      22,
+      0.575,
+      0.712,
+      0.0
+     ],
+     [
+      23,
+      0.569,
+      1.0,
+      0.0
+     ],
+     [
+      24,
+      0.623,
+      1.0,
+      0.0
+     ],
+     [
+      25,
+      0.712,
+      1.0,
+      0.0
+     ],
+     [
+      26,
+      0.791,
+      0.0,
+      0.402
+     ],
+     [
+      27,
+      0.797,
+      0.0,
+      0.0
+     ],
+     [
+      28,
+      0.73,
+      0.0,
+      0.0
+     ],
+     [
+      29,
+      0.562,
+      0.0,
+      0.0
+     ],
+     [
+      30,
+      0.325,
+      0.0,
+      0.274
+     ],
+     [
+      31,
+      0.282,
+      0.5,
+      0.0
+     ],
+     [
+      32,
+      0.511,
+      0.052,
+      0.0
+     ],
+     [
+      33,
+      0.722,
+      0.0,
+      0.465
+     ],
+     [
+      34,
+      0.782,
+      0.0,
+      0.831
+     ],
+     [
+      35,
+      0.781,
+      0.0,
+      0.344
+     ],
+     [
+      36,
+      0.762,
+      0.0,
+      0.0
+     ],
+     [
+      37,
+      0.703,
+      0.0,
+      0.817
+     ],
+     [
+      38,
+      0.62,
+      0.0,
+      0.0
+     ],
+     [
+      39,
+      0.579,
+      0.022,
+      0.0
+     ],
+     [
+      40,
+      0.549,
+      0.0,
+      0.0
+     ],
+     [
+      41,
+      0.44,
+      0.0,
+      0.0
+     ],
+     [
+      42,
+      0.244,
+      0.563,
+      0.0
+     ]
+    ]
+   }
+  },
+  {
+   "camera": {
+    "subject": "hero",
+    "framing": "cu",
+    "move": "push_in",
+    "angle": "low",
+    "lens": 50,
+    "az": 20,
+    "note": "dirt on his face, eyes on the kid"
+   },
+   "actions": [
+    {
+     "who": "hero",
+     "action": "dig",
+     "at": [
+      1.2,
+      32.2,
+      0.05
+     ],
+     "face_to": [
+      2.5,
+      33.4,
+      0.05
+     ],
+     "expr": "determined"
+    }
+   ],
+   "w": 1.0,
+   "set": "meter_city",
+   "act": "red",
+   "set_args": {
+    "sky": "red",
+    "damage": 1.0,
+    "spire_lean": 10.0,
+    "sirens": true
+   },
+   "vfx": [
+    {
+     "kind": "beam",
+     "at": [
+      2.5,
+      33.4,
+      0.05
+     ],
+     "rot": 15
+    }
+   ],
+   "step": 2,
+   "id": "s058",
+   "beat": 38,
+   "start": 110.625,
+   "frames": 48,
+   "cast": [
+    "hero"
+   ],
+   "props": [],
+   "fx": [],
+   "start_frame": 2655,
+   "lips": {
+    "hero": [
+     [
+      3,
+      0.0,
+      0.0,
+      0.0
+     ],
+     [
+      4,
+      0.6,
+      1.0,
+      0.0
+     ],
+     [
+      5,
+      0.863,
+      0.39,
+      0.0
+     ],
+     [
+      6,
+      0.889,
+      0.093,
+      0.0
+     ],
+     [
+      7,
+      0.859,
+      1.0,
+      0.0
+     ],
+     [
+      8,
+      0.822,
+      1.0,
+      0.0
+     ],
+     [
+      9,
+      0.763,
+      0.367,
+      0.0
+     ],
+     [
+      10,
+      0.698,
+      0.0,
+      0.379
+     ],
+     [
+      11,
+      0.706,
+      0.0,
+      0.434
+     ],
+     [
+      12,
+      0.785,
+      0.0,
+      0.208
+     ],
+     [
+      13,
+      0.84,
+      0.308,
+      0.0
+     ],
+     [
+      14,
+      0.851,
+      0.228,
+      0.0
+     ],
+     [
+      15,
+      0.85,
+      0.0,
+      0.0
+     ],
+     [
+      16,
+      0.823,
+      0.0,
+      0.0
+     ],
+     [
+      17,
+      0.747,
+      0.0,
+      0.0
+     ],
+     [
+      18,
+      0.64,
+      0.02,
+      0.0
+     ],
+     [
+      19,
+      0.525,
+      0.0,
+      0.055
+     ],
+     [
+      20,
+      0.403,
+      0.0,
+      0.086
+     ],
+     [
+      21,
+      0.283,
+      0.0,
+      0.0
+     ],
+     [
+      22,
+      0.172,
+      0.17,
+      0.0
+     ],
+     [
+      23,
+      0.0,
+      0.265,
+      0.0
+     ]
+    ]
+   }
+  },
+  {
+   "camera": {
+    "subject": "hero",
+    "framing": "ms",
+    "move": "static_drift",
+    "angle": "low",
+    "lens": 28,
+    "az": 70,
+    "shake": 0.4,
+    "note": "LIFT \u2014 it slips \u2014 he falls back"
+   },
+   "actions": [
+    {
+     "who": "hero",
+     "action": "lift",
+     "at": [
+      0.55,
+      32.3,
+      0.05
+     ],
+     "face_to": [
+      2.2,
+      33.8,
+      0.05
+     ],
+     "grip": 0.25,
+     "up": 0.9,
+     "height": 0.2,
+     "f1": 39
+    },
+    {
+     "who": "hero",
+     "action": "fall",
+     "expr": "pain",
+     "f0": 39,
+     "f1": 65
+    },
+    {
+     "who": "guest",
+     "action": "pinned",
+     "at": [
+      2.5,
+      33.4,
+      0.05
+     ],
+     "facing": 10,
+     "expr": "fear"
+    }
+   ],
+   "w": 1.0,
+   "set": "meter_city",
+   "act": "red",
+   "set_args": {
+    "sky": "red",
+    "damage": 1.0,
+    "spire_lean": 10.0,
+    "sirens": true
+   },
+   "vfx": [
+    {
+     "kind": "beam",
+     "at": [
+      2.5,
+      33.4,
+      0.05
+     ],
+     "rot": 15,
+     "keys": [
+      [
+       0.0,
+       0
+      ],
+      [
+       0.3,
+       0
+      ],
+      [
+       0.55,
+       14
+      ],
+      [
+       0.62,
+       0
+      ]
+     ]
+    },
+    {
+     "kind": "dustcloud",
+     "t": 0.63,
+     "at": [
+      2.5,
+      33.4,
+      0.05
+     ],
+     "radius": 3
+    }
+   ],
+   "id": "s059",
+   "beat": 39,
+   "start": 112.625,
+   "frames": 65,
+   "cast": [
+    "guest",
+    "hero"
+   ],
+   "props": [],
+   "fx": [],
+   "start_frame": 2703
+  },
+  {
+   "camera": {
+    "subject": [
+     6,
+     -60,
+     120
+    ],
+    "framing": "ews",
+    "move": "static_drift",
+    "angle": "low",
+    "lens": 24,
+    "az": 0,
+    "pos": [
+     2.5,
+     22,
+     1.2
+    ],
+    "note": "second meteor locks on the Spire"
+   },
+   "actions": [],
+   "w": 0.7,
+   "set": "meter_city",
+   "act": "red",
+   "set_args": {
+    "sky": "red",
+    "damage": 1.0,
+    "spire_lean": 10.0,
+    "sirens": true
+   },
+   "vfx": [
+    {
+     "kind": "meteor",
+     "at": [
+      0.5,
+      36.5,
+      0
+     ],
+     "t": 3.6,
+     "size": 4.0,
+     "travel": 200,
+     "from": [
+      -0.4,
+      -0.6,
+      1.0
+     ],
+     "dist": 420
+    },
+    {
+     "kind": "streaks",
+     "t": 0.0,
+     "n": 6
+    }
+   ],
+   "flare": 1.2,
+   "id": "s060",
+   "beat": 39,
+   "start": 115.333,
+   "frames": 45,
+   "cast": [],
+   "props": [],
+   "fx": [],
+   "start_frame": 2768
+  },
+  {
+   "camera": {
+    "subject": "hero",
+    "framing": "mcu",
+    "move": "push_in",
+    "angle": "low",
+    "lens": 40,
+    "az": 35,
+    "note": "he gets up and lifts again \u2014 trembling"
+   },
+   "actions": [
+    {
+     "who": "hero",
+     "action": "get_up",
+     "at": [
+      -0.2,
+      31.6,
+      0.05
+     ],
+     "face_to": [
+      2.5,
+      33.4,
+      0.05
+     ],
+     "expr": "pain",
+     "f1": 26
+    },
+    {
+     "who": "hero",
+     "action": "lift",
+     "at": [
+      0.55,
+      32.3,
+      0.05
+     ],
+     "face_to": [
+      2.2,
+      33.8,
+      0.05
+     ],
+     "grip": 0.2,
+     "up": 0.85,
+     "height": 0.45,
+     "expr": "strain",
+     "relief": true,
+     "f0": 26,
+     "f1": 77
+    },
+    {
+     "who": "guest",
+     "action": "pinned",
+     "at": [
+      2.5,
+      33.4,
+      0.05
+     ],
+     "facing": 10,
+     "expr": "fear",
+     "f1": 61
+    },
+    {
+     "who": "guest",
+     "action": "sit_up",
+     "slide": [
+      [
+       2.5,
+       33.4,
+       0.05
+      ],
+      [
+       2.0,
+       31.8,
+       0.05
+      ]
+     ],
+     "expr": "awe",
+     "f0": 61,
+     "f1": 77
+    }
+   ],
+   "w": 1.0,
+   "set": "meter_city",
+   "act": "red",
+   "set_args": {
+    "sky": "red",
+    "damage": 1.0,
+    "spire_lean": 10.0,
+    "sirens": true
+   },
+   "vfx": [
+    {
+     "kind": "beam",
+     "at": [
+      2.5,
+      33.4,
+      0.05
+     ],
+     "rot": 15,
+     "keys": [
+      [
+       0.0,
+       0
+      ],
+      [
+       0.45,
+       0
+      ],
+      [
+       0.85,
+       22
+      ],
+      [
+       1.0,
+       25
+      ]
+     ]
+    },
+    {
+     "kind": "meteor",
+     "at": [
+      0.5,
+      36.5,
+      0
+     ],
+     "t": 1.5,
+     "size": 4.0,
+     "travel": 110,
+     "from": [
+      -0.4,
+      -0.6,
+      1.0
+     ],
+     "dist": 230
+    }
+   ],
+   "engine": "cycles",
+   "spp": 12,
+   "id": "s061",
+   "beat": 40,
+   "start": 117.208,
+   "frames": 77,
+   "cast": [
+    "guest",
+    "hero"
+   ],
+   "props": [],
+   "fx": [],
+   "start_frame": 2813,
+   "lips": {
+    "hero": [
+     [
+      3,
+      0.0,
+      0.0,
+      0.0
+     ],
+     [
+      4,
+      0.661,
+      0.0,
+      0.374
+     ],
+     [
+      5,
+      0.893,
+      0.075,
+      0.0
+     ],
+     [
+      6,
+      0.897,
+      0.01,
+      0.0
+     ],
+     [
+      7,
+      0.858,
+      0.0,
+      0.01
+     ],
+     [
+      8,
+      0.712,
+      0.0,
+      0.0
+     ],
+     [
+      9,
+      0.498,
+      0.0,
+      0.0
+     ],
+     [
+      10,
+      0.463,
+      0.0,
+      0.641
+     ],
+     [
+      11,
+      0.672,
+      0.0,
+      0.253
+     ],
+     [
+      12,
+      0.801,
+      0.319,
+      0.0
+     ],
+     [
+      13,
+      0.775,
+      0.988,
+      0.0
+     ],
+     [
+      14,
+      0.802,
+      0.425,
+      0.0
+     ],
+     [
+      15,
+      0.845,
+      0.093,
+      0.0
+     ],
+     [
+      16,
+      0.805,
+      0.0,
+      0.0
+     ],
+     [
+      17,
+      0.728,
+      0.0,
+      0.332
+     ],
+     [
+      18,
+      0.58,
+      0.0,
+      0.0
+     ],
+     [
+      19,
+      0.473,
+      0.524,
+      0.0
+     ],
+     [
+      20,
+      0.562,
+      1.0,
+      0.0
+     ],
+     [
+      21,
+      0.666,
+      1.0,
+      0.0
+     ],
+     [
+      22,
+      0.7,
+      0.855,
+      0.0
+     ],
+     [
+      23,
+      0.701,
+      0.651,
+      0.0
+     ],
+     [
+      24,
+      0.584,
+      0.332,
+      0.0
+     ],
+     [
+      25,
+      0.379,
+      0.202,
+      0.0
+     ],
+     [
+      26,
+      0.226,
+      0.183,
+      0.0
+     ],
+     [
+      27,
+      0.155,
+      0.178,
+      0.0
+     ],
+     [
+      28,
+      0.0,
+      0.654,
+      0.0
+     ]
+    ]
+   }
+  },
+  {
+   "camera": {
+    "subject": "hero",
+    "framing": "ws",
+    "move": "pull_out",
+    "angle": "low",
+    "lens": 24,
+    "az": 300,
+    "shake": 0.8,
+    "note": "they run \u2014 the meteor hits the Spire behind them"
+   },
+   "actions": [
+    {
+     "who": "hero",
+     "action": "run",
+     "path": [
+      [
+       1.6,
+       31.0,
+       0.05
+      ],
+      [
+       3.4,
+       24.6,
+       0.05
+      ]
+     ],
+     "expr": "determined",
+     "f1": 42
+    },
+    {
+     "who": "hero",
+     "action": "fall",
+     "expr": "pain",
+     "f0": 42,
+     "f1": 77
+    },
+    {
+     "who": "guest",
+     "action": "run",
+     "path": [
+      [
+       2.4,
+       31.2,
+       0.05
+      ],
+      [
+       4.4,
+       25.1,
+       0.05
+      ]
+     ],
+     "expr": "fear",
+     "f1": 42
+    },
+    {
+     "who": "guest",
+     "action": "fall",
+     "expr": "pain",
+     "f0": 43,
+     "f1": 77
+    }
+   ],
+   "w": 1.0,
+   "set": "meter_city",
+   "act": "red",
+   "set_args": {
+    "sky": "red",
+    "damage": 1.0,
+    "spire_lean": [
+     [
+      0.0,
+      10.0
+     ],
+     [
+      0.5,
+      10.0
+     ],
+     [
+      0.75,
+      24.0
+     ],
+     [
+      1.0,
+      38.0
+     ]
+    ],
+    "sirens": true
+   },
+   "vfx": [
+    {
+     "kind": "meteor",
+     "at": [
+      0.5,
+      36.5,
+      0
+     ],
+     "t": 0.5,
+     "size": 4.0,
+     "travel": 30,
+     "from": [
+      -0.4,
+      -0.6,
+      1.0
+     ],
+     "dist": 60
+    },
+    {
+     "kind": "impact",
+     "at": [
+      0.5,
+      36.5,
+      0
+     ],
+     "t": 0.5,
+     "power": 1.6,
+     "shake": 2.0,
+     "crater": false
+    }
+   ],
+   "flare": 1.6,
+   "id": "s062",
+   "beat": 41,
+   "start": 120.417,
+   "frames": 77,
+   "cast": [
+    "guest",
+    "hero"
+   ],
+   "props": [],
+   "fx": [],
+   "start_frame": 2890
+  },
+  {
+   "camera": {
+    "subject": "hero",
+    "framing": "mcu",
+    "move": "crane_down",
+    "angle": "eye",
+    "lens": 40,
+    "az": 20,
+    "note": "dust; the 0 still red"
+   },
+   "actions": [
+    {
+     "who": "hero",
+     "action": "sit_up",
+     "at": [
+      3.4,
+      24.0,
+      0.05
+     ],
+     "facing": 200,
+     "expr": "pain"
+    },
+    {
+     "who": "guest",
+     "action": "lie",
+     "at": [
+      4.6,
+      24.6,
+      0.05
+     ],
+     "facing": 160
+    }
+   ],
+   "w": 1.0,
+   "set": "meter_city",
+   "act": "red",
+   "set_args": {
+    "sky": "red",
+    "damage": 1.0,
+    "spire_lean": 38.0
+   },
+   "vfx": [
+    {
+     "kind": "ash",
+     "at": [
+      3,
+      24,
+      0
+     ],
+     "area": 14
+    },
+    {
+     "kind": "dustcloud",
+     "t": 0.0,
+     "at": [
+      2,
+      30,
+      0
+     ],
+     "radius": 9
+    }
+   ],
+   "step": 2,
+   "id": "s063",
+   "beat": 42,
+   "start": 123.625,
+   "frames": 91,
+   "cast": [
+    "guest",
+    "hero"
+   ],
+   "props": [],
+   "fx": [],
+   "start_frame": 2967
+  },
+  {
+   "camera": {
+    "subject": "hero",
+    "framing": "ms",
+    "move": "push_in",
+    "angle": "eye",
+    "lens": 40,
+    "az": 30,
+    "subject2": "guest",
+    "note": "silence: he pulls the kid close"
+   },
+   "actions": [
+    {
+     "who": "hero",
+     "action": "hug",
+     "at": [
+      3.4,
+      24.0,
+      0.05
+     ],
+     "facing": 210,
+     "low": 1.0,
+     "expr": "tender"
+    },
+    {
+     "who": "guest",
+     "action": "idle",
+     "at": [
+      3.0,
+      23.35,
+      0.05
+     ],
+     "facing": 30,
+     "expr": "awe",
+     "look_at": [
+      3.4,
+      24.0,
+      2.6
+     ]
+    }
+   ],
+   "w": 1.0,
+   "set": "meter_city",
+   "act": "red",
+   "set_args": {
+    "sky": "red",
+    "damage": 1.0,
+    "spire_lean": 38.0
+   },
+   "vfx": [
+    {
+     "kind": "ash",
+     "at": [
+      3,
+      24,
+      0
+     ],
+     "area": 14
+    }
+   ],
+   "engine": "cycles",
+   "spp": 14,
+   "id": "s064",
+   "beat": 43,
+   "start": 127.417,
+   "frames": 67,
+   "cast": [
+    "guest",
+    "hero"
+   ],
+   "props": [],
+   "fx": [],
+   "start_frame": 3058
+  },
+  {
+   "camera": {
+    "subject": [
+     3.4,
+     24.0,
+     3.04
+    ],
+    "framing": "cu",
+    "move": "push_in",
+    "angle": "eye",
+    "lens": 85,
+    "az": 20,
+    "fstop": 2.0,
+    "amount": 0.5,
+    "note": "SLOW MOTION: crack \u2192 glow burst \u2192 shards \u2192 gold \u221e"
+   },
+   "actions": [
+    {
+     "who": "hero",
+     "action": "idle",
+     "at": [
+      3.4,
+      24.0,
+      0.05
+     ],
+     "facing": 210,
+     "expr": "awe",
+     "look_at": [
+      3.4,
+      24.0,
+      3.6
+     ]
+    }
+   ],
+   "w": 1.0,
+   "set": "meter_city",
+   "act": "gold",
+   "set_args": {
+    "sky": "red",
+    "damage": 1.0,
+    "spire_lean": 38.0
+   },
+   "zero": {
+    "flip": [
+     0.14,
+     0.46,
+     0.86
+    ],
+    "sparks": 160
+   },
+   "flare": 1.6,
+   "engine": "cycles",
+   "spp": 16,
+   "step": 1,
+   "exposure": -0.2,
+   "id": "s065",
+   "beat": 44,
+   "start": 130.208,
+   "frames": 90,
+   "cast": [
+    "hero"
+   ],
+   "props": [],
+   "fx": [],
+   "start_frame": 3125
+  },
+  {
+   "camera": {
+    "subject": "hero",
+    "framing": "mcu",
+    "move": "pull_out",
+    "angle": "low",
+    "lens": 35,
+    "az": 15,
+    "note": "his face in gold light"
+   },
+   "actions": [
+    {
+     "who": "hero",
+     "action": "idle",
+     "at": [
+      3.4,
+      24.0,
+      0.05
+     ],
+     "facing": 210,
+     "exprs": [
+      [
+       0.0,
+       "awe"
+      ],
+      [
+       0.5,
+       "tender"
+      ]
+     ],
+     "look_at": [
+      3.4,
+      24.0,
+      3.6
+     ]
+    },
+    {
+     "who": "guest",
+     "action": "idle",
+     "at": [
+      3.0,
+      23.35,
+      0.05
+     ],
+     "facing": 30,
+     "expr": "happy",
+     "look_at": [
+      3.4,
+      24.0,
+      3.3
+     ]
+    }
+   ],
+   "w": 0.6,
+   "set": "meter_city",
+   "act": "gold",
+   "set_args": {
+    "sky": "red",
+    "damage": 1.0,
+    "spire_lean": 38.0
+   },
+   "zero": {
+    "inf": true
+   },
+   "engine": "cycles",
+   "spp": 12,
+   "id": "s066",
+   "beat": 44,
+   "start": 133.958,
+   "frames": 54,
+   "cast": [
+    "guest",
+    "hero"
+   ],
+   "props": [],
+   "fx": [],
+   "start_frame": 3215
+  },
+  {
+   "camera": {
+    "subject": "hero",
+    "framing": "ws",
+    "move": "pull_out",
+    "angle": "low",
+    "lens": 28,
+    "az": 200,
+    "note": "the crowd comes back \u2014 and stares"
+   },
+   "actions": [
+    {
+     "who": "hero",
+     "action": "stand",
+     "at": [
+      3.4,
+      24.0,
+      0.05
+     ],
+     "facing": 210,
+     "expr": "calm"
+    },
+    {
+     "who": "guest",
+     "action": "idle",
+     "at": [
+      3.0,
+      23.35,
+      0.05
+     ],
+     "facing": 210,
+     "expr": "happy"
+    }
+   ],
+   "w": 1.0,
+   "set": "meter_city",
+   "act": "gold",
+   "set_args": {
+    "sky": "red",
+    "damage": 1.0,
+    "spire_lean": 38.0
+   },
+   "crowd": [
+    {
+     "kind": "stare",
+     "center": [
+      2.5,
+      16.5,
+      0.05
+     ],
+     "n": 18,
+     "radius": 6,
+     "inner": 2.0,
+     "seed": 71,
+     "face_to": [
+      3.4,
+      24.0,
+      0.05
+     ],
+     "look_at": [
+      3.4,
+      24.0,
+      3.0
+     ],
+     "sy": 0.6
+    }
+   ],
+   "zero": {
+    "inf": true
+   },
+   "id": "s067",
+   "beat": 45,
+   "start": 136.208,
+   "frames": 55,
+   "cast": [
+    "guest",
+    "hero"
+   ],
+   "props": [],
+   "fx": [],
+   "start_frame": 3269
+  },
+  {
+   "camera": {
+    "subject": "luxe",
+    "framing": "mcu",
+    "move": "push_in",
+    "angle": "low",
+    "lens": 40,
+    "az": 10,
+    "subject2": "vance",
+    "note": "VIP numbers glitch red and drain"
+   },
+   "actions": [
+    {
+     "who": "luxe",
+     "action": "pet_hug",
+     "at": [
+      1.6,
+      17.4,
+      0.05
+     ],
+     "face_to": [
+      3.4,
+      24.0,
+      0.05
+     ],
+     "expr": "shock"
+    },
+    {
+     "who": "vance",
+     "action": "pet_hug",
+     "at": [
+      0.2,
+      17.0,
+      0.05
+     ],
+     "face_to": [
+      3.4,
+      24.0,
+      0.05
+     ],
+     "expr": "hurt"
+    }
+   ],
+   "w": 1.0,
+   "set": "meter_city",
+   "act": "gold",
+   "set_args": {
+    "sky": "red",
+    "damage": 1.0,
+    "spire_lean": 38.0
+   },
+   "carry": {
+    "luxe": "pet_dragon",
+    "vance": "pet_fox"
+   },
+   "meters": {
+    "luxe": [
+     [
+      0.15,
+      0.5,
+      "flicker"
+     ],
+     [
+      0.5,
+      4120,
+      "fall_red"
+     ],
+     [
+      0.6,
+      610,
+      "fall_red"
+     ],
+     [
+      0.7,
+      12,
+      "fall_red"
+     ]
+    ],
+    "vance": [
+     [
+      0.2,
+      0.55,
+      "flicker"
+     ],
+     [
+      0.55,
+      3900,
+      "fall_red"
+     ],
+     [
+      0.66,
+      77,
+      "fall_red"
+     ],
+     [
+      0.76,
+      3,
+      "fall_red"
+     ]
+    ]
+   },
+   "flare": 0.8,
+   "id": "s068",
+   "beat": 45,
+   "start": 138.5,
+   "frames": 55,
+   "cast": [
+    "luxe",
+    "vance"
+   ],
+   "props": [],
+   "fx": [],
+   "start_frame": 3324
+  },
+  {
+   "camera": {
+    "subject": "hero",
+    "framing": "mcu",
+    "move": "orbit_right",
+    "angle": "eye",
+    "lens": 50,
+    "az": 20,
+    "note": "gold light on his face"
+   },
+   "actions": [
+    {
+     "who": "hero",
+     "action": "stand",
+     "at": [
+      3.4,
+      24.0,
+      0.05
+     ],
+     "facing": 210,
+     "expr": "tender"
+    },
+    {
+     "who": "guest",
+     "action": "idle",
+     "at": [
+      3.0,
+      23.35,
+      0.05
+     ],
+     "facing": 210,
+     "expr": "happy",
+     "look_at": [
+      3.4,
+      24.0,
+      2.4
+     ]
+    }
+   ],
+   "w": 1.0,
+   "set": "meter_city",
+   "act": "gold",
+   "set_args": {
+    "sky": "red",
+    "damage": 1.0,
+    "spire_lean": 38.0
+   },
+   "zero": {
+    "inf": true
+   },
+   "step": 2,
+   "id": "s069",
+   "beat": 46,
+   "start": 140.792,
+   "frames": 55,
+   "cast": [
+    "guest",
+    "hero"
+   ],
+   "props": [],
+   "fx": [],
+   "start_frame": 3379
+  },
+  {
+   "camera": {
+    "subject": "mark:plaza",
+    "framing": "ws",
+    "move": "crane_up",
+    "angle": "low",
+    "lens": 24,
+    "az": 20,
+    "subject2": "hero",
+    "note": "crane up: the staring crowd, their numbers flickering"
+   },
+   "actions": [
+    {
+     "who": "hero",
+     "action": "stand",
+     "at": [
+      3.4,
+      24.0,
+      0.05
+     ],
+     "facing": 210,
+     "expr": "calm"
+    },
+    {
+     "who": "guest",
+     "action": "idle",
+     "at": [
+      3.0,
+      23.35,
+      0.05
+     ],
+     "facing": 210,
+     "expr": "happy"
+    }
+   ],
+   "w": 1.0,
+   "set": "meter_city",
+   "act": "gold",
+   "set_args": {
+    "sky": "red",
+    "damage": 1.0,
+    "spire_lean": 38.0
+   },
+   "crowd": [
+    {
+     "kind": "stare",
+     "center": [
+      2.5,
+      16.5,
+      0.05
+     ],
+     "n": 16,
+     "radius": 6,
+     "inner": 2.0,
+     "seed": 72,
+     "face_to": [
+      3.4,
+      24.0,
+      0.05
+     ],
+     "look_at": [
+      3.4,
+      24.0,
+      3.0
+     ],
+     "flicker": [
+      0.1,
+      0.6
+     ],
+     "sy": 0.6
+    }
+   ],
+   "zero": {
+    "inf": true
+   },
+   "light_subject": "hero",
+   "id": "s070",
+   "beat": 47,
+   "start": 143.083,
+   "frames": 62,
+   "cast": [
+    "guest",
+    "hero"
+   ],
+   "props": [],
+   "fx": [],
+   "start_frame": 3434
+  },
+  {
+   "camera": {
+    "subject": "bram",
+    "framing": "mws",
+    "move": "push_in",
+    "angle": "eye",
+    "lens": 28,
+    "az": 0,
+    "pos": [
+     -14.6,
+     -5.2,
+     1.7
+    ],
+    "auto_clear": false,
+    "note": "the shopkeeper opens the door \u2014 and holds it"
+   },
+   "actions": [
+    {
+     "who": "bram",
+     "action": "idle",
+     "at": [
+      -20.5,
+      -3.58,
+      0.05
+     ],
+     "facing": 90,
+     "expr": "hurt",
+     "f1": 14
+    },
+    {
+     "who": "bram",
+     "action": "offer",
+     "facing": 90,
+     "expr": "tender",
+     "f0": 14,
+     "f1": 48
+    },
+    {
+     "who": "hero",
+     "action": "walk",
+     "path": [
+      [
+       -12.0,
+       -3.2,
+       0.05
+      ],
+      [
+       -16.8,
+       -3.5,
+       0.05
+      ]
+     ],
+     "expr": "calm"
+    }
+   ],
+   "w": 1.1,
+   "set": "meter_city",
+   "act": "gold",
+   "set_args": {
+    "sky": "red",
+    "damage": 1.0,
+    "door": [
+     [
+      0.0,
+      0
+     ],
+     [
+      0.25,
+      0
+     ],
+     [
+      0.5,
+      88
+     ],
+     [
+      0.56,
+      82
+     ],
+     [
+      1.0,
+      84
+     ]
+    ]
+   },
+   "zero": {
+    "inf": true
+   },
+   "id": "s071",
+   "beat": 48,
+   "start": 145.667,
+   "frames": 48,
+   "cast": [
+    "bram",
+    "hero"
+   ],
+   "props": [],
+   "fx": [],
+   "start_frame": 3496
+  },
+  {
+   "camera": {
+    "subject": "guest",
+    "framing": "ms",
+    "move": "push_in",
+    "angle": "low",
+    "lens": 28,
+    "az": 180,
+    "note": "from behind: a small grey hand takes his; warm light ahead"
+   },
+   "actions": [
+    {
+     "who": "guest",
+     "action": "take_hand",
+     "at": [
+      -16.2,
+      -4.0,
+      0.05
+     ],
+     "face_to": [
+      -19.0,
+      -3.58,
+      0.05
+     ],
+     "side": 1,
+     "expr": "happy"
+    },
+    {
+     "who": "hero",
+     "action": "take_hand",
+     "at": [
+      -16.8,
+      -3.5,
+      0.05
+     ],
+     "face_to": [
+      -19.0,
+      -3.58,
+      0.05
+     ],
+     "side": -1,
+     "expr": "tender",
+     "look_down": 1
+    }
+   ],
+   "w": 0.9,
+   "set": "meter_city",
+   "act": "gold",
+   "set_args": {
+    "sky": "red",
+    "damage": 1.0,
+    "door": [
+     [
+      0.0,
+      84
+     ],
+     [
+      1.0,
+      84
+     ]
+    ]
+   },
+   "zero": {
+    "inf": true
+   },
+   "id": "s072",
+   "beat": 48,
+   "start": 147.667,
+   "frames": 39,
+   "cast": [
+    "guest",
+    "hero"
+   ],
+   "props": [],
+   "fx": [],
+   "start_frame": 3544
+  },
+  {
+   "camera": {
+    "subject": [
+     -16.8,
+     -3.5,
+     3.04
+    ],
+    "framing": "cu",
+    "move": "push_in",
+    "angle": "eye",
+    "lens": 85,
+    "az": 200,
+    "amount": 0.8,
+    "fstop": 1.8,
+    "note": "last shot: slow push-in on the gold \u221e \u2192 hard cut to black"
+   },
+   "actions": [
+    {
+     "who": "hero",
+     "action": "take_hand",
+     "at": [
+      -16.8,
+      -3.5,
+      0.05
+     ],
+     "face_to": [
+      -19.0,
+      -3.58,
+      0.05
+     ],
+     "side": -1,
+     "expr": "tender"
+    },
+    {
+     "who": "guest",
+     "action": "take_hand",
+     "at": [
+      -16.2,
+      -4.0,
+      0.05
+     ],
+     "face_to": [
+      -19.0,
+      -3.58,
+      0.05
+     ],
+     "side": 1,
+     "expr": "happy"
+    }
+   ],
+   "w": 1.0,
+   "set": "meter_city",
+   "act": "gold",
+   "set_args": {
+    "sky": "red",
+    "damage": 1.0,
+    "door": [
+     [
+      0.0,
+      84
+     ],
+     [
+      1.0,
+      84
+     ]
+    ]
+   },
+   "zero": {
+    "inf": true
+   },
+   "engine": "cycles",
+   "spp": 14,
+   "id": "s073",
+   "beat": 49,
+   "start": 149.292,
+   "frames": 134,
+   "cast": [
+    "guest",
+    "hero"
+   ],
+   "props": [],
+   "fx": [],
+   "start_frame": 3583
+  }
+ ],
+ "lines": [
+  {
+   "beat": 0,
+   "speaker": "vo",
+   "text": "A number floats over everyone's head. How many times they've helped someone.",
+   "start": 0.08,
+   "dur": 4.495
+  },
+  {
+   "beat": 1,
+   "speaker": "vo",
+   "text": "Mine was stuck at zero.",
+   "start": 4.747,
+   "dur": 1.48
+  },
+  {
+   "beat": 2,
+   "speaker": "vo",
+   "text": "Everyone else had thousands.",
+   "start": 6.58,
+   "dur": 1.594
+  },
+  {
+   "beat": 3,
+   "speaker": "vo",
+   "text": "Gold numbers got the velvet rope.",
+   "start": 8.58,
+   "dur": 2.057
+  },
+  {
+   "beat": 4,
+   "speaker": "vo",
+   "text": "A zero got this.",
+   "start": 10.955,
+   "dur": 1.215
+  },
+  {
+   "beat": 5,
+   "speaker": "bram",
+   "text": "We're closed.",
+   "start": 14.872,
+   "dur": 0.972
+  },
+  {
+   "beat": 6,
+   "speaker": "vo",
+   "text": "Kids backed away.",
+   "start": 16.455,
+   "dur": 1.1
+  },
+  {
+   "beat": 7,
+   "speaker": "crowd",
+   "text": "That's him. The zero.",
+   "start": 19.247,
+   "dur": 1.883
+  },
+  {
+   "beat": 8,
+   "speaker": "vo",
+   "text": "And the helpers? They only helped when someone was watching.",
+   "start": 21.455,
+   "dur": 3.442
+  },
+  {
+   "beat": 9,
+   "speaker": "luxe",
+   "text": "You're welcome!",
+   "start": 25.83,
+   "dur": 0.615
+  },
+  {
+   "beat": 10,
+   "speaker": "vo",
+   "text": "So why wouldn't mine move?",
+   "start": 27.33,
+   "dur": 1.563
+  },
+  {
+   "beat": 11,
+   "speaker": "vo",
+   "text": "Every day, I tried.",
+   "start": 30.33,
+   "dur": 1.257
+  },
+  {
+   "beat": 12,
+   "speaker": "hero",
+   "text": "Need a hand?",
+   "start": 31.913,
+   "dur": 0.805
+  },
+  {
+   "beat": 13,
+   "speaker": "mom",
+   "text": "From a zero? I'm good.",
+   "start": 33.372,
+   "dur": 1.274
+  },
+  {
+   "beat": 15,
+   "speaker": "vance",
+   "text": "A zero can't be trusted, buddy. It's literally over your head.",
+   "start": 37.163,
+   "dur": 2.973
+  },
+  {
+   "beat": 16,
+   "speaker": "vo",
+   "text": "So everyone figured zero meant I'd never helped anyone.",
+   "start": 40.955,
+   "dur": 3.564
+  },
+  {
+   "beat": 17,
+   "speaker": "guest",
+   "text": "I like your number. It's red.",
+   "start": 44.83,
+   "dur": 1.59
+  },
+  {
+   "beat": 18,
+   "speaker": "hero",
+   "text": "You're not scared of it?",
+   "start": 47.997,
+   "dur": 1.026
+  },
+  {
+   "beat": 19,
+   "speaker": "guest",
+   "text": "Mine's two. I'm new.",
+   "start": 49.497,
+   "dur": 1.27
+  },
+  {
+   "beat": 20,
+   "speaker": "vo",
+   "text": "Only one person ever sat with me.",
+   "start": 51.913,
+   "dur": 2.069
+  },
+  {
+   "beat": 21,
+   "speaker": "vo",
+   "text": "Late at night, when nobody was around\u2026",
+   "start": 54.663,
+   "dur": 2.377
+  },
+  {
+   "beat": 24,
+   "speaker": "vo",
+   "text": "Nobody saw. The number never moved.",
+   "start": 64.33,
+   "dur": 2.494
+  },
+  {
+   "beat": 25,
+   "speaker": "vo",
+   "text": "Theirs only moved on camera.",
+   "start": 67.205,
+   "dur": 1.671
+  },
+  {
+   "beat": 26,
+   "speaker": "vo",
+   "text": "Then the sky turned red.",
+   "start": 70.622,
+   "dur": 1.356
+  },
+  {
+   "beat": 28,
+   "speaker": "crowd",
+   "text": "Run!",
+   "start": 79.622,
+   "dur": 2.125
+  },
+  {
+   "beat": 29,
+   "speaker": "luxe",
+   "text": "Move! This dragon is legendary!",
+   "start": 82.33,
+   "dur": 1.971
+  },
+  {
+   "beat": 31,
+   "speaker": "vo",
+   "text": "And the helpers ran.",
+   "start": 87.705,
+   "dur": 1.13
+  },
+  {
+   "beat": 32,
+   "speaker": "vance",
+   "text": "Move, zero!",
+   "start": 90.913,
+   "dur": 0.715
+  },
+  {
+   "beat": 33,
+   "speaker": "guest",
+   "text": "Help! Somebody!",
+   "start": 94.122,
+   "dur": 1.108
+  },
+  {
+   "beat": 34,
+   "speaker": "vo",
+   "text": "One of them looked right at him.",
+   "start": 97.538,
+   "dur": 1.602
+  },
+  {
+   "beat": 35,
+   "speaker": "vo",
+   "text": "Thousands of helpers. They ran right past.",
+   "start": 101.122,
+   "dur": 2.666
+  },
+  {
+   "beat": 36,
+   "speaker": "hero",
+   "text": "Hang on!",
+   "start": 106.122,
+   "dur": 0.7
+  },
+  {
+   "beat": 37,
+   "speaker": "guest",
+   "text": "Your number\u2026 it's not going up.",
+   "start": 108.122,
+   "dur": 1.603
+  },
+  {
+   "beat": 38,
+   "speaker": "hero",
+   "text": "Doesn't matter.",
+   "start": 110.705,
+   "dur": 0.818
+  },
+  {
+   "beat": 40,
+   "speaker": "hero",
+   "text": "Not without you.",
+   "start": 117.288,
+   "dur": 1.024
+  },
+  {
+   "beat": 42,
+   "speaker": "vo",
+   "text": "Nobody was watching. My number still said zero.",
+   "start": 123.705,
+   "dur": 3.228
+  },
+  {
+   "beat": 45,
+   "speaker": "vo",
+   "text": "Turns out, the meter never counted help. It counted audiences.",
+   "start": 136.288,
+   "dur": 4.062
+  },
+  {
+   "beat": 46,
+   "speaker": "vo",
+   "text": "Zero didn't mean I never helped.",
+   "start": 140.872,
+   "dur": 1.991
+  },
+  {
+   "beat": 47,
+   "speaker": "vo",
+   "text": "It meant I never did it for clout.",
+   "start": 143.163,
+   "dur": 2.057
+  },
+  {
+   "beat": 49,
+   "speaker": "vo",
+   "text": "Help when nobody's watching. That's the only kind that counts.",
+   "start": 149.372,
+   "dur": 3.88
+  }
+ ],
+ "cues": [
+  {
+   "t": 0.0,
+   "tension": 0.25,
+   "kind": "open",
+   "beat": 0,
+   "sfx": [],
+   "len": 4.644895833333334
+  },
+  {
+   "t": 4.667,
+   "tension": 0.3,
+   "kind": null,
+   "beat": 1,
+   "sfx": [],
+   "len": 1.8300833333333335
+  },
+  {
+   "t": 6.5,
+   "tension": 0.32,
+   "kind": null,
+   "beat": 2,
+   "sfx": [],
+   "len": 1.9943125
+  },
+  {
+   "t": 8.5,
+   "tension": 0.32,
+   "kind": null,
+   "beat": 3,
+   "sfx": [],
+   "len": 2.3569791666666666
+  },
+  {
+   "t": 10.875,
+   "tension": 0.4,
+   "kind": "hit",
+   "beat": 4,
+   "sfx": [
+    {
+     "kind": "door_slam",
+     "at": 0.73
+    }
+   ],
+   "len": 3.9
+  },
+  {
+   "t": 14.792,
+   "tension": 0.35,
+   "kind": null,
+   "beat": 5,
+   "sfx": [],
+   "len": 1.6
+  },
+  {
+   "t": 16.375,
+   "tension": 0.4,
+   "kind": null,
+   "beat": 6,
+   "sfx": [],
+   "len": 2.8
+  },
+  {
+   "t": 19.167,
+   "tension": 0.42,
+   "kind": null,
+   "beat": 7,
+   "sfx": [],
+   "len": 2.2
+  },
+  {
+   "t": 21.375,
+   "tension": 0.5,
+   "kind": "hit",
+   "beat": 8,
+   "sfx": [
+    {
+     "kind": "ding",
+     "at": 0.86
+    }
+   ],
+   "len": 4.4
+  },
+  {
+   "t": 25.75,
+   "tension": 0.45,
+   "kind": null,
+   "beat": 9,
+   "sfx": [
+    {
+     "kind": "cheer",
+     "at": 0.1
+    }
+   ],
+   "len": 1.5
+  },
+  {
+   "t": 27.25,
+   "tension": 0.45,
+   "kind": null,
+   "beat": 10,
+   "sfx": [],
+   "len": 3.0
+  },
+  {
+   "t": 30.25,
+   "tension": 0.4,
+   "kind": null,
+   "beat": 11,
+   "sfx": [],
+   "len": 1.6
+  },
+  {
+   "t": 31.833,
+   "tension": 0.4,
+   "kind": null,
+   "beat": 12,
+   "sfx": [],
+   "len": 1.45
+  },
+  {
+   "t": 33.292,
+   "tension": 0.42,
+   "kind": null,
+   "beat": 13,
+   "sfx": [],
+   "len": 1.6
+  },
+  {
+   "t": 34.875,
+   "tension": 0.5,
+   "kind": "hit",
+   "beat": 14,
+   "sfx": [
+    {
+     "kind": "ding",
+     "at": 0.58
+    },
+    {
+     "kind": "whoosh",
+     "at": 0.3
+    }
+   ],
+   "len": 2.2
+  },
+  {
+   "t": 37.083,
+   "tension": 0.5,
+   "kind": null,
+   "beat": 15,
+   "sfx": [
+    {
+     "kind": "laugh",
+     "at": 0.6
+    }
+   ],
+   "len": 3.8
+  },
+  {
+   "t": 40.875,
+   "tension": 0.35,
+   "kind": null,
+   "beat": 16,
+   "sfx": [],
+   "len": 3.8638749999999997
+  },
+  {
+   "t": 44.75,
+   "tension": 0.32,
+   "kind": "reveal",
+   "beat": 17,
+   "sfx": [],
+   "len": 3.2
+  },
+  {
+   "t": 47.917,
+   "tension": 0.32,
+   "kind": null,
+   "beat": 18,
+   "sfx": [],
+   "len": 1.5
+  },
+  {
+   "t": 49.417,
+   "tension": 0.3,
+   "kind": "reveal",
+   "beat": 19,
+   "sfx": [],
+   "len": 2.4
+  },
+  {
+   "t": 51.833,
+   "tension": 0.3,
+   "kind": null,
+   "beat": 20,
+   "sfx": [],
+   "len": 2.7694791666666667
+  },
+  {
+   "t": 54.583,
+   "tension": 0.25,
+   "kind": null,
+   "beat": 21,
+   "sfx": [],
+   "len": 2.4774166666666666
+  },
+  {
+   "t": 57.042,
+   "tension": 0.25,
+   "kind": null,
+   "beat": 22,
+   "sfx": [
+    {
+     "kind": "thunk",
+     "at": 0.6
+    },
+    {
+     "kind": "thunk",
+     "at": 0.82
+    }
+   ],
+   "len": 2.8
+  },
+  {
+   "t": 59.875,
+   "tension": 0.28,
+   "kind": "reveal",
+   "beat": 23,
+   "sfx": [
+    {
+     "kind": "glitch_tiny",
+     "at": 0.74,
+     "gain": 0.5
+    }
+   ],
+   "len": 4.4
+  },
+  {
+   "t": 64.25,
+   "tension": 0.3,
+   "kind": null,
+   "beat": 24,
+   "sfx": [],
+   "len": 2.8935
+  },
+  {
+   "t": 67.125,
+   "tension": 0.5,
+   "kind": "hit",
+   "beat": 25,
+   "sfx": [
+    {
+     "kind": "ding",
+     "at": 0.28
+    }
+   ],
+   "len": 3.4
+  },
+  {
+   "t": 70.542,
+   "tension": 0.65,
+   "kind": "braam",
+   "beat": 26,
+   "sfx": [
+    "siren",
+    {
+     "kind": "server_alarm",
+     "at": 0.0
+    }
+   ],
+   "len": 3.4
+  },
+  {
+   "t": 73.958,
+   "tension": 0.95,
+   "kind": "hit",
+   "beat": 27,
+   "sfx": [
+    {
+     "kind": "meteor_fall",
+     "at": 0.0
+    },
+    {
+     "kind": "impact",
+     "at": 0.33
+    },
+    {
+     "kind": "crash",
+     "at": 0.78
+    }
+   ],
+   "len": 5.6
+  },
+  {
+   "t": 79.542,
+   "tension": 0.9,
+   "kind": null,
+   "beat": 28,
+   "sfx": [],
+   "len": 2.7251041666666667
+  },
+  {
+   "t": 82.25,
+   "tension": 0.85,
+   "kind": null,
+   "beat": 29,
+   "sfx": [],
+   "len": 2.6
+  },
+  {
+   "t": 84.833,
+   "tension": 0.9,
+   "kind": "braam",
+   "beat": 30,
+   "sfx": [
+    {
+     "kind": "creak",
+     "at": 0.3
+    },
+    {
+     "kind": "rumble",
+     "at": 0.45
+    }
+   ],
+   "len": 2.8
+  },
+  {
+   "t": 87.625,
+   "tension": 0.8,
+   "kind": null,
+   "beat": 31,
+   "sfx": [],
+   "len": 3.2
+  },
+  {
+   "t": 90.833,
+   "tension": 0.9,
+   "kind": "hit",
+   "beat": 32,
+   "sfx": [
+    {
+     "kind": "thud",
+     "at": 0.6
+    }
+   ],
+   "len": 3.2
+  },
+  {
+   "t": 94.042,
+   "tension": 0.9,
+   "kind": null,
+   "beat": 33,
+   "sfx": [],
+   "len": 3.4
+  },
+  {
+   "t": 97.458,
+   "tension": 0.85,
+   "kind": "hit",
+   "beat": 34,
+   "sfx": [],
+   "len": 3.6
+  },
+  {
+   "t": 101.042,
+   "tension": 0.92,
+   "kind": "braam",
+   "beat": 35,
+   "sfx": [],
+   "len": 5.0
+  },
+  {
+   "t": 106.042,
+   "tension": 0.95,
+   "kind": null,
+   "beat": 36,
+   "sfx": [],
+   "len": 2.0
+  },
+  {
+   "t": 108.042,
+   "tension": 0.9,
+   "kind": null,
+   "beat": 37,
+   "sfx": [],
+   "len": 2.6
+  },
+  {
+   "t": 110.625,
+   "tension": 0.92,
+   "kind": null,
+   "beat": 38,
+   "sfx": [],
+   "len": 2.0
+  },
+  {
+   "t": 112.625,
+   "tension": 0.95,
+   "kind": "hit",
+   "beat": 39,
+   "sfx": [
+    {
+     "kind": "crash",
+     "at": 0.36
+    },
+    {
+     "kind": "meteor_fall",
+     "at": 0.7
+    }
+   ],
+   "len": 4.6
+  },
+  {
+   "t": 117.208,
+   "tension": 1.0,
+   "kind": null,
+   "beat": 40,
+   "sfx": [],
+   "len": 3.2
+  },
+  {
+   "t": 120.417,
+   "tension": 1.0,
+   "kind": "hit",
+   "beat": 41,
+   "sfx": [
+    {
+     "kind": "impact",
+     "at": 0.5
+    },
+    {
+     "kind": "collapse",
+     "at": 0.6
+    }
+   ],
+   "len": 3.2
+  },
+  {
+   "t": 123.625,
+   "tension": 0.6,
+   "kind": null,
+   "beat": 42,
+   "sfx": [],
+   "len": 3.8
+  },
+  {
+   "t": 127.417,
+   "tension": 0.2,
+   "kind": "silence",
+   "beat": 43,
+   "sfx": [],
+   "len": 2.8
+  },
+  {
+   "t": 130.208,
+   "tension": 0.5,
+   "kind": "swell",
+   "beat": 44,
+   "sfx": [
+    {
+     "kind": "crack",
+     "at": 0.1
+    },
+    {
+     "kind": "flip_burst",
+     "at": 0.3
+    }
+   ],
+   "len": 6.0
+  },
+  {
+   "t": 136.208,
+   "tension": 0.5,
+   "kind": "resolve",
+   "beat": 45,
+   "sfx": [
+    {
+     "kind": "glitch",
+     "at": 0.62
+    }
+   ],
+   "len": 4.6
+  },
+  {
+   "t": 140.792,
+   "tension": 0.5,
+   "kind": "resolve",
+   "beat": 46,
+   "sfx": [],
+   "len": 2.3
+  },
+  {
+   "t": 143.083,
+   "tension": 0.5,
+   "kind": "resolve",
+   "beat": 47,
+   "sfx": [],
+   "len": 2.6
+  },
+  {
+   "t": 145.667,
+   "tension": 0.35,
+   "kind": "resolve",
+   "beat": 48,
+   "sfx": [],
+   "len": 3.6
+  },
+  {
+   "t": 149.292,
+   "tension": 0.3,
+   "kind": "resolve",
+   "beat": 49,
+   "sfx": [],
+   "len": 5.6
+  }
+ ],
+ "total_frames": 3717,
+ "duration": 154.88
+}

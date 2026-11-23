@@ -299,14 +299,16 @@ def critique(film, line_durs=None):
     if not lines:
         return ["no lines"]
     first = lines[0][1][1]
-    if len(first.split()) > 12:
+    if film.get("hook_card"):
+        pass   # rule delivered by the on-screen hook card in the first frame
+    elif len(first.split()) > 12:
         notes.append(f"HOOK too long ({len(first.split())} words) — must land in ~2 s.")
     rule_idx = next((i for i, (bi, (s, t)) in enumerate(lines) if any(w in t.lower() for w in ("only", "can't", "rule", "hunts", "never"))), None)
-    if rule_idx is None or rule_idx > 4:
+    if not film.get("hook_card") and (rule_idx is None or rule_idx > 4):
         notes.append("RULE stated too late — must be within the first ~8 s.")
     for bi, (s, t) in lines:
         n = len(t.split())
-        if n > 14:
+        if n > (14 if not film.get("rig") else 13):
             notes.append(f"Line {bi} has {n} words — split or cut (punchy lines ≤ 12).")
     txt = " ".join(t for _, (s, t) in lines).lower()
     for bad in ("to be continued", "part 2", "next time", "find out", "will return"):
@@ -318,7 +320,7 @@ def critique(film, line_durs=None):
         t, last_esc = 0.0, 0.0
         for b, d in zip(film["beats"], line_durs):
             t += max(d + b.get("pad", 0.25), b.get("hold", 0.0), 1.45) if b["say"] else max(b.get("hold", 1.0), 1.45)
-            if b.get("kind") in ("hit", "braam") or (b.get("tension") or 0) >= 0.8:
+            if b.get("kind") in ("hit", "braam", "reveal") or (b.get("tension") or 0) >= 0.8:
                 if t - last_esc > 16:
                     notes.append(f"Escalation gap of {t - last_esc:.0f}s before {t:.0f}s — need a reveal every 10-15 s.")
                 last_esc = t
@@ -450,8 +452,21 @@ def write_docs(film, timeline, outdir, notes):
     if film.get("critique"):
         L += ["## 6 · Critique (ruthless)", ""] + [f"- {c}" for c in film["critique"]] + [""]
     L += ["## 7 · Rewrite → final script", "", "See `script.md`. Automated checks on the final:", ""] + [f"- {n}" for n in notes] + [""]
+    if film.get("rewrites"):
+        L += ["## 6b · Rewrites", ""] + [f"- {x}" for x in film["rewrites"]] + [""]
+    if film.get("self_check"):
+        L += ["## 6c · Final self-check", ""] + [f"- **{q}** {a}" for q, a in film["self_check"].items()] + [""]
     if film.get("beat_map"):
-        L += ["## 8 · Beat map", ""] + [f"- {x}" for x in film["beat_map"]] + [""]
+        L += ["## 8 · Beat map (target)", ""] + [f"- {x}" for x in film["beat_map"]] + [""]
+    if film.get("rig") == "v2":
+        L += ["## 9 · Beat map (actual, from voiced timeline)", ""]
+        for c in timeline["cues"]:
+            b = film["beats"][c["beat"]]
+            mm, ss = divmod(c["t"], 60)
+            txt = f"{b['say'][0].upper()}: {b['say'][1]}" if b["say"] else "(" + ", ".join(
+                s_.get("camera", {}).get("note", "") for s_ in b["shots"] if s_.get("camera", {}).get("note")) + ")"
+            L.append(f"- `{int(mm)}:{ss:05.2f}` +{c['len']:.1f}s — {txt}")
+        L.append("")
     open(os.path.join(outdir, "story.md"), "w").write("\n".join(L))
     # script.md
     S = [f"# {film['title']} — script", "", f"_Rule: {film['rule']}_", ""]

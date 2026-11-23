@@ -151,7 +151,7 @@ class CaptionRenderer:
     def place_y(self, boxes, cap_h):
         """Choose caption centre y (pixels, top-down). boxes: normalised, y bottom-up."""
         cands = [0.70, 0.78, 0.62, 0.86, 0.54, 0.40, 0.30]
-        hard = [b["box"] for b in boxes if b["tag"] in ("face", "monster_head")]
+        hard = [b["box"] for b in boxes if b["tag"] in ("face", "monster_head", "number")]
         soft = [b["box"] for b in boxes if b["tag"] == "monster"]
 
         def hits(yc, bx):

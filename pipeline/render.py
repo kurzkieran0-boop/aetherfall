@@ -61,8 +61,22 @@ def detect_gpu():
     return None
 
 
-def profile(kind, gpu=None):
+def profile(kind, gpu=None, film=None):
     gpu = gpu if gpu is not None else detect_gpu()
+    if film is not None and film.get("rig") == "v2":
+        # rig-v2 films: true 24 fps by default (shots may opt into twos), Eevee raytracing,
+        # Cycles + OIDN only on shots tagged engine=cycles (hero shots)
+        if kind == "still":
+            return dict(w=540, h=960, step=1, samples=6, still=True, vol_tile='8', vol_samples=32, budget_s=999,
+                        allow_cycles=False)
+        if kind == "preview":
+            return dict(w=288, h=512, step=4, samples=2, vol_tile='16', vol_samples=12, budget_s=4.0, fx_scale=0.4,
+                        motion_blur=False, allow_cycles=False, raytrace=False, shot_step=False)
+        if gpu:
+            return dict(w=1080, h=1920, step=1, samples=24, vol_tile='4', vol_samples=64, budget_s=6.0, gpu=gpu,
+                        allow_cycles=True, cycles_spp=48)
+        return dict(w=432, h=768, step=1, samples=6, vol_tile='8', vol_samples=32, budget_s=11.0, fx_scale=0.8,
+                    allow_cycles=True, cycles_spp=14)
     if kind == "still":
         return dict(w=540, h=960, step=1, samples=8, still=True, vol_tile='8', vol_samples=32, budget_s=999)
     if kind == "preview":
@@ -75,7 +89,7 @@ def profile(kind, gpu=None):
 
 def _kit_hash():
     h = hashlib.sha1()
-    for f in ("kit.py", "camera.py", "worker.py"):
+    for f in ("kit.py", "camera.py", "worker.py", "charrig.py", "meter.py", "kmset.py", "worker2.py"):
         h.update(open(os.path.join(ROOT, "pipeline", "blender", f), "rb").read())
     return h.hexdigest()[:10]
 
@@ -86,13 +100,13 @@ def shot_key(film_ctx, shot, rset):
 
 
 def film_context(film):
-    keys = ("set", "seed", "look", "characters", "monster", "fx")
+    keys = ("set", "seed", "look", "characters", "monster", "fx", "rig")
     return {k: film.get(k) for k in keys}
 
 
 def render_shots(film, shots, kind="final", jobs=None, log=print, only=None):
     """Render every shot (or only ids in `only`). Returns {shot_id: dir}."""
-    rset = profile(kind)
+    rset = profile(kind, film=film)
     ctx = film_context(film)
     gpu = rset.get("gpu")
     if jobs is None:
@@ -137,7 +151,10 @@ def render_shots(film, shots, kind="final", jobs=None, log=print, only=None):
         shutil.rmtree(d, ignore_errors=True)
         os.replace(tmp, d)
         dg = f"  auto-lowered: {', '.join(meta['downgraded'])}" if meta.get("downgraded") else ""
-        log(f"  ✓ {s['id']:<10} {dt:6.1f}s  ({len(meta['frames'])} fr @ {meta['per_frame_s']}s){dg}")
+        aq = meta.get("animcheck") or {}
+        aqs = f"  anim: slide {aq.get('slide_cm_max', 0)}cm pops {aq.get('pops', 0)} pen {aq.get('penetrations', 0)}" if aq else ""
+        eng = " CYCLES" if meta.get("engine") == "CYCLES" else ""
+        log(f"  ✓ {s['id']:<10} {dt:6.1f}s  ({len(meta['frames'])} fr @ {meta['per_frame_s']}s){eng}{dg}{aqs}")
         return s["id"], d
 
     with ThreadPoolExecutor(max_workers=jobs) as ex:
