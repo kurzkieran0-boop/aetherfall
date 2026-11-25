@@ -199,7 +199,9 @@ class Stage:
                 d *= 1.35
             return T + rot2(f, ang + ang_bias) * d + Vector((0, 0, dz))
 
-        if cam == "ecu":
+        if sh["set"] == "door" and is_actor and sh["tgt"] != "mayor" and cam in ("ecu", "cu"):
+            pos = Vector((T.x + lerp(0.08, -0.04, u) * (1 if T.x > 0 else -1), 594.9, T.z + 0.04)); lens = 40
+        elif cam == "ecu":
             pos = around(lerp(2.05, 1.6, u) * k, 8, 0.02); lens = 40
         elif cam == "cu":
             pos = around(lerp(2.5, 2.0, u) * k, 22, 0.06); lens = 40
@@ -253,11 +255,21 @@ class Stage:
             pos = T + Vector((math.cos(a) * 48, math.sin(a) * 48, 32 - 4 * u)); lens = 28
         elif cam == "prop":
             pos = around(lerp(2.4, 1.6, u), 18, 0.7); lens = 40
+            if sh["tgt"] == "safe":
+                pos = Vector((lerp(2.2, 1.6, u), lerp(-600.0, -599.0, u), 1.9)); lens = 32
         elif cam == "sky":
             pos = T + f * 2.4 + Vector((0, 0, -1.5)); lens = 24
             look = lerp(T, T + Vector((0, 0, 9)) - f * 3, u)
         else:
             pos = around(3.0, 20, 0.2)
+        if sh["tgt"] == "safe" and cam in ("push", "whip"):
+            a, b = (Vector((3.6, -601.8, 2.3)), Vector((1.9, -599.3, 1.8))) if cam == "push" else \
+                   (Vector((2.2, -599.8, 1.9)), Vector((2.0, -599.5, 1.9)))
+            pos = a.lerp(b, u); lens = 32
+            if cam == "whip":
+                w = 1 - smooth(min(1.0, t / 0.24))
+                dv = (T - pos)
+                look = pos + rot2(dv, 85 * w) + Vector((0, 0, dv.z))
         # handheld energy
         sd = sh["seed"]
         pos = pos + Vector((0.018 * math.sin(13 * t + sd), 0.018 * math.sin(11 * t + 2 * sd), 0.014 * math.sin(17 * t + sd)))
