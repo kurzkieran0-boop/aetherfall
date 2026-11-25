@@ -73,7 +73,7 @@ def main():
     picks = [words[3], words[len(words) // 2], words[-2]]
     strip = Image.new("RGB", (3 * 360, 640))
     for i, w in enumerate(picks):
-        t = w["start"] + 0.12
+        t = (w["start"] + w["end"]) / 2
         im = grab(t, os.path.join(B, "verify", f"sync{i}.png"), 360, 640)
         ImageDraw.Draw(im).text((6, 6), f"{t:6.2f}s expect '{w['text']}'", fill=(255, 255, 0))
         strip.paste(im, (i * 360, 0))
