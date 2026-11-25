@@ -6,3 +6,4 @@ public/episodes/*/audio/.cache/
 *.log
 __pycache__/
 village-part1.mp4
+village-part2.mp4
