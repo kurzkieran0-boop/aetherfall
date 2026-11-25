@@ -200,7 +200,7 @@ class Stage:
             return T + rot2(f, ang + ang_bias) * d + Vector((0, 0, dz))
 
         if cam == "ecu":
-            pos = around(lerp(1.65, 1.3, u) * k, 8, 0.02); lens = 40
+            pos = around(lerp(2.05, 1.6, u) * k, 8, 0.02); lens = 40
         elif cam == "cu":
             pos = around(lerp(2.5, 2.0, u) * k, 22, 0.06); lens = 40
         elif cam in ("push", "pull"):
