@@ -1,0 +1,3114 @@
+{
+ "fps": 30,
+ "shots": [
+  {
+   "sentence": "s01",
+   "light": "day",
+   "set": "town",
+   "cam": "drone",
+   "tgt": "pt:0,0,0",
+   "id": "shot_001",
+   "frame0": 0,
+   "frames": 33,
+   "dur": 1.1,
+   "seed": 0,
+   "kind": "render",
+   "caption_words": [
+    "IN",
+    "OUR",
+    "TOWN",
+    "YOU"
+   ],
+   "location": "town",
+   "camera_move": "drone",
+   "characters": [],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s01",
+   "light": "day",
+   "set": "street",
+   "cam": "whip",
+   "tgt": "t5",
+   "id": "shot_002",
+   "frame0": 33,
+   "frames": 29,
+   "dur": 0.967,
+   "seed": 919,
+   "kind": "render",
+   "caption_words": [
+    "LOSE",
+    "A",
+    "WORD",
+    "EVERY",
+    "TIME"
+   ],
+   "location": "street",
+   "camera_move": "whip",
+   "characters": [
+    "t5"
+   ],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s01",
+   "light": "day",
+   "set": "street",
+   "cam": "ecu",
+   "tgt": "eli",
+   "id": "shot_003",
+   "frame0": 62,
+   "frames": 31,
+   "dur": 1.033,
+   "seed": 838,
+   "kind": "render",
+   "caption_words": [
+    "YOU",
+    "LIE"
+   ],
+   "location": "street",
+   "camera_move": "ecu",
+   "characters": [
+    "eli"
+   ],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s02",
+   "light": "day",
+   "set": "street",
+   "cam": "push",
+   "tgt": "t6",
+   "faces": {
+    "t6": "blank"
+   },
+   "id": "shot_004",
+   "frame0": 93,
+   "frames": 32,
+   "dur": 1.067,
+   "seed": 757,
+   "kind": "render",
+   "caption_words": [
+    "NOBODY",
+    "KNOWS",
+    "WHY"
+   ],
+   "location": "street",
+   "camera_move": "push",
+   "characters": [
+    "t6"
+   ],
+   "emotion": "t6:blank"
+  },
+  {
+   "sentence": "s02",
+   "light": "day",
+   "card": "rule",
+   "id": "shot_005",
+   "frame0": 125,
+   "frames": 32,
+   "dur": 1.067,
+   "seed": 676,
+   "kind": "card",
+   "caption_words": [
+    "IT'S",
+    "JUST"
+   ],
+   "location": "card",
+   "camera_move": "zoom",
+   "characters": [],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s02",
+   "light": "day",
+   "set": "street",
+   "cam": "low",
+   "tgt": "eli",
+   "id": "shot_006",
+   "frame0": 157,
+   "frames": 34,
+   "dur": 1.133,
+   "seed": 595,
+   "kind": "render",
+   "caption_words": [
+    "THE",
+    "RULE"
+   ],
+   "location": "street",
+   "camera_move": "low",
+   "characters": [
+    "eli"
+   ],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s03",
+   "light": "day",
+   "set": "street",
+   "cam": "tilt",
+   "tgt": "eli",
+   "id": "shot_007",
+   "frame0": 191,
+   "frames": 44,
+   "dur": 1.467,
+   "seed": 514,
+   "kind": "render",
+   "caption_words": [
+    "MY",
+    "NAME",
+    "IS",
+    "ELI"
+   ],
+   "location": "street",
+   "camera_move": "tilt",
+   "characters": [
+    "eli"
+   ],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s03",
+   "light": "day",
+   "set": "street",
+   "cam": "orbit",
+   "tgt": "eli",
+   "id": "shot_008",
+   "frame0": 235,
+   "frames": 41,
+   "dur": 1.367,
+   "seed": 433,
+   "kind": "render",
+   "caption_words": [
+    "I'M",
+    "ELEVEN",
+    "I",
+    "HAVE"
+   ],
+   "location": "street",
+   "camera_move": "orbit",
+   "characters": [
+    "eli"
+   ],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s03",
+   "light": "day",
+   "set": "street",
+   "cam": "cu",
+   "tgt": "eli",
+   "faces": {
+    "eli": "blank"
+   },
+   "id": "shot_009",
+   "frame0": 276,
+   "frames": 40,
+   "dur": 1.333,
+   "seed": 352,
+   "kind": "render",
+   "caption_words": [
+    "NEVER",
+    "LOST",
+    "A",
+    "WORD"
+   ],
+   "location": "street",
+   "camera_move": "cu",
+   "characters": [
+    "eli"
+   ],
+   "emotion": "eli:blank"
+  },
+  {
+   "sentence": "s03",
+   "light": "day",
+   "set": "street",
+   "cam": "ecu",
+   "tgt": "eli",
+   "faces": {
+    "eli": "tired"
+   },
+   "id": "shot_010",
+   "frame0": 316,
+   "frames": 42,
+   "dur": 1.4,
+   "seed": 271,
+   "kind": "render",
+   "caption_words": [
+    "MOSTLY"
+   ],
+   "location": "street",
+   "camera_move": "ecu",
+   "characters": [
+    "eli"
+   ],
+   "emotion": "eli:tired"
+  },
+  {
+   "sentence": "s04",
+   "light": "day",
+   "set": "bakery",
+   "cam": "wide",
+   "tgt": "bakery_sign",
+   "id": "shot_011",
+   "frame0": 358,
+   "frames": 48,
+   "dur": 1.6,
+   "seed": 190,
+   "kind": "render",
+   "caption_words": [
+    "LAST",
+    "WEEK",
+    "THE",
+    "BAKER",
+    "TOLD",
+    "A",
+    "CUSTOMER"
+   ],
+   "location": "bakery",
+   "camera_move": "wide",
+   "characters": [],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s04",
+   "light": "day",
+   "set": "bakery",
+   "cam": "ots",
+   "tgt": "baker",
+   "over": "t1",
+   "acts": {
+    "baker": "talk"
+   },
+   "id": "shot_012",
+   "frame0": 406,
+   "frames": 42,
+   "dur": 1.4,
+   "seed": 109,
+   "kind": "render",
+   "caption_words": [
+    "HIS",
+    "BREAD",
+    "WAS",
+    "FRESH"
+   ],
+   "location": "bakery",
+   "camera_move": "ots",
+   "characters": [
+    "baker"
+   ],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s04",
+   "light": "day",
+   "set": "bakery",
+   "cam": "prop",
+   "tgt": "stall_bread",
+   "id": "shot_013",
+   "frame0": 448,
+   "frames": 45,
+   "dur": 1.5,
+   "seed": 28,
+   "kind": "render",
+   "caption_words": [
+    "IT",
+    "WAS",
+    "NOT",
+    "FRESH"
+   ],
+   "location": "bakery",
+   "camera_move": "prop",
+   "characters": [],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s04",
+   "light": "day",
+   "set": "bakery",
+   "cam": "ecu",
+   "tgt": "baker",
+   "faces": {
+    "baker": "shocked"
+   },
+   "id": "shot_014",
+   "frame0": 493,
+   "frames": 45,
+   "dur": 1.5,
+   "seed": 947,
+   "kind": "render",
+   "caption_words": [
+    "HE",
+    "LOST",
+    "THE",
+    "WORD"
+   ],
+   "location": "bakery",
+   "camera_move": "ecu",
+   "characters": [
+    "baker"
+   ],
+   "emotion": "baker:shocked"
+  },
+  {
+   "sentence": "s04",
+   "light": "day",
+   "card": "fresh",
+   "id": "shot_015",
+   "frame0": 538,
+   "frames": 45,
+   "dur": 1.5,
+   "seed": 866,
+   "kind": "card",
+   "caption_words": [
+    "FRESH",
+    "NOW",
+    "HE"
+   ],
+   "location": "card",
+   "camera_move": "zoom",
+   "characters": [],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s04",
+   "light": "day",
+   "set": "bakery",
+   "cam": "cu",
+   "tgt": "baker",
+   "faces": {
+    "baker": "sad"
+   },
+   "id": "shot_016",
+   "frame0": 583,
+   "frames": 36,
+   "dur": 1.2,
+   "seed": 785,
+   "kind": "render",
+   "caption_words": [
+    "JUST",
+    "SELLS",
+    "BREAD"
+   ],
+   "location": "bakery",
+   "camera_move": "cu",
+   "characters": [
+    "baker"
+   ],
+   "emotion": "baker:sad"
+  },
+  {
+   "sentence": "s04",
+   "light": "day",
+   "set": "bakery",
+   "cam": "dutch",
+   "tgt": "stall_bread",
+   "id": "shot_017",
+   "frame0": 619,
+   "frames": 54,
+   "dur": 1.8,
+   "seed": 704,
+   "kind": "render",
+   "caption_words": [
+    "SAD",
+    "BREAD"
+   ],
+   "location": "bakery",
+   "camera_move": "dutch",
+   "characters": [],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s05",
+   "light": "day",
+   "set": "pell",
+   "cam": "wide",
+   "tgt": "pt:15,7,1.8",
+   "id": "shot_018",
+   "frame0": 673,
+   "frames": 34,
+   "dur": 1.133,
+   "seed": 623,
+   "kind": "render",
+   "caption_words": [
+    "MRS",
+    "PELL"
+   ],
+   "location": "pell",
+   "camera_move": "wide",
+   "characters": [],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s05",
+   "light": "day",
+   "set": "pell",
+   "cam": "cu",
+   "tgt": "t2",
+   "acts": {
+    "t2": "sing"
+   },
+   "id": "shot_019",
+   "frame0": 707,
+   "frames": 38,
+   "dur": 1.267,
+   "seed": 542,
+   "kind": "render",
+   "caption_words": [
+    "SAID",
+    "SHE",
+    "LOVED",
+    "HER",
+    "NEIGHBOR'S"
+   ],
+   "location": "pell",
+   "camera_move": "cu",
+   "characters": [
+    "t2"
+   ],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s05",
+   "light": "day",
+   "set": "pell",
+   "cam": "ots",
+   "tgt": "pell",
+   "over": "t2",
+   "acts": {
+    "pell": "talk"
+   },
+   "id": "shot_020",
+   "frame0": 745,
+   "frames": 35,
+   "dur": 1.167,
+   "seed": 461,
+   "kind": "render",
+   "caption_words": [
+    "SINGING",
+    "GONE"
+   ],
+   "location": "pell",
+   "camera_move": "ots",
+   "characters": [
+    "pell"
+   ],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s05",
+   "light": "day",
+   "set": "pell",
+   "cam": "ecu",
+   "tgt": "pell",
+   "faces": {
+    "pell": "shocked"
+   },
+   "id": "shot_021",
+   "frame0": 780,
+   "frames": 36,
+   "dur": 1.2,
+   "seed": 380,
+   "kind": "render",
+   "caption_words": [
+    "LOVED"
+   ],
+   "location": "pell",
+   "camera_move": "ecu",
+   "characters": [
+    "pell"
+   ],
+   "emotion": "pell:shocked"
+  },
+  {
+   "sentence": "s05",
+   "light": "day",
+   "card": "loved",
+   "id": "shot_022",
+   "frame0": 816,
+   "frames": 51,
+   "dur": 1.7,
+   "seed": 299,
+   "kind": "card",
+   "caption_words": [
+    "NOW",
+    "SHE",
+    "SAYS",
+    "SHE",
+    "TOLERATES"
+   ],
+   "location": "card",
+   "camera_move": "zoom",
+   "characters": [],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s05",
+   "light": "day",
+   "set": "pell",
+   "cam": "cu",
+   "tgt": "pell",
+   "faces": {
+    "pell": "tired"
+   },
+   "id": "shot_023",
+   "frame0": 867,
+   "frames": 30,
+   "dur": 1.0,
+   "seed": 218,
+   "kind": "render",
+   "caption_words": [
+    "THINGS"
+   ],
+   "location": "pell",
+   "camera_move": "cu",
+   "characters": [
+    "pell"
+   ],
+   "emotion": "pell:tired"
+  },
+  {
+   "sentence": "s06",
+   "light": "day",
+   "set": "town",
+   "cam": "drone",
+   "tgt": "pt:10,0,0",
+   "id": "shot_024",
+   "frame0": 897,
+   "frames": 33,
+   "dur": 1.1,
+   "seed": 137,
+   "kind": "render",
+   "caption_words": [
+    "EVERYONE",
+    "IN",
+    "TOWN",
+    "TALKS"
+   ],
+   "location": "town",
+   "camera_move": "drone",
+   "characters": [],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s06",
+   "light": "day",
+   "set": "street",
+   "cam": "track",
+   "tgt": "t5",
+   "id": "shot_025",
+   "frame0": 930,
+   "frames": 44,
+   "dur": 1.467,
+   "seed": 56,
+   "kind": "render",
+   "caption_words": [
+    "CAREFULLY",
+    "NOW"
+   ],
+   "location": "street",
+   "camera_move": "track",
+   "characters": [
+    "t5"
+   ],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s06",
+   "light": "day",
+   "set": "street",
+   "cam": "cu",
+   "tgt": "t6",
+   "faces": {
+    "t6": "blank"
+   },
+   "id": "shot_026",
+   "frame0": 974,
+   "frames": 25,
+   "dur": 0.833,
+   "seed": 975,
+   "kind": "render",
+   "caption_words": [
+    "SHORT",
+    "SENTENCES"
+   ],
+   "location": "street",
+   "camera_move": "cu",
+   "characters": [
+    "t6"
+   ],
+   "emotion": "t6:blank"
+  },
+  {
+   "sentence": "s06",
+   "light": "day",
+   "set": "street",
+   "cam": "high",
+   "tgt": "pt:-5,0,0",
+   "id": "shot_027",
+   "frame0": 999,
+   "frames": 40,
+   "dur": 1.333,
+   "seed": 894,
+   "kind": "render",
+   "caption_words": [
+    "BORING"
+   ],
+   "location": "street",
+   "camera_move": "high",
+   "characters": [],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s06",
+   "light": "day",
+   "set": "street",
+   "cam": "ecu",
+   "tgt": "t1",
+   "faces": {
+    "t1": "tired"
+   },
+   "id": "shot_028",
+   "frame0": 1039,
+   "frames": 28,
+   "dur": 0.933,
+   "seed": 813,
+   "kind": "render",
+   "caption_words": [
+    "HONEST"
+   ],
+   "location": "street",
+   "camera_move": "ecu",
+   "characters": [
+    "t1"
+   ],
+   "emotion": "t1:tired"
+  },
+  {
+   "sentence": "s07",
+   "light": "day",
+   "set": "plaza",
+   "cam": "whip",
+   "tgt": "mayor",
+   "id": "shot_029",
+   "frame0": 1067,
+   "frames": 20,
+   "dur": 0.667,
+   "seed": 732,
+   "kind": "render",
+   "caption_words": [
+    "EXCEPT",
+    "THE",
+    "MAYOR"
+   ],
+   "location": "plaza",
+   "camera_move": "whip",
+   "characters": [
+    "mayor"
+   ],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s07",
+   "light": "day",
+   "set": "plaza",
+   "cam": "low",
+   "tgt": "mayor",
+   "id": "shot_030",
+   "frame0": 1087,
+   "frames": 19,
+   "dur": 0.633,
+   "seed": 651,
+   "kind": "render",
+   "caption_words": [],
+   "location": "plaza",
+   "camera_move": "low",
+   "characters": [
+    "mayor"
+   ],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s08",
+   "light": "day",
+   "set": "plaza",
+   "cam": "push",
+   "tgt": "mayor",
+   "acts": {
+    "mayor": "talk"
+   },
+   "id": "shot_031",
+   "frame0": 1106,
+   "frames": 46,
+   "dur": 1.533,
+   "seed": 570,
+   "kind": "render",
+   "caption_words": [
+    "THE",
+    "MAYOR",
+    "LIED",
+    "ABOUT",
+    "THE",
+    "TAXES"
+   ],
+   "location": "plaza",
+   "camera_move": "push",
+   "characters": [
+    "mayor"
+   ],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s08",
+   "light": "day",
+   "card": "taxes",
+   "id": "shot_032",
+   "frame0": 1152,
+   "frames": 46,
+   "dur": 1.533,
+   "seed": 489,
+   "kind": "card",
+   "caption_words": [
+    "HE",
+    "LOST",
+    "TAXES"
+   ],
+   "location": "card",
+   "camera_move": "zoom",
+   "characters": [],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s08",
+   "light": "day",
+   "set": "plaza",
+   "cam": "cu",
+   "tgt": "mayor",
+   "faces": {
+    "mayor": "shocked"
+   },
+   "id": "shot_033",
+   "frame0": 1198,
+   "frames": 49,
+   "dur": 1.633,
+   "seed": 408,
+   "kind": "render",
+   "caption_words": [
+    "THEN",
+    "HE",
+    "LIED",
+    "ABOUT"
+   ],
+   "location": "plaza",
+   "camera_move": "cu",
+   "characters": [
+    "mayor"
+   ],
+   "emotion": "mayor:shocked"
+  },
+  {
+   "sentence": "s08",
+   "light": "day",
+   "set": "town",
+   "cam": "high",
+   "tgt": "pt:-10,0,0",
+   "id": "shot_034",
+   "frame0": 1247,
+   "frames": 41,
+   "dur": 1.367,
+   "seed": 327,
+   "kind": "render",
+   "caption_words": [
+    "THE",
+    "ROADS",
+    "HE"
+   ],
+   "location": "town",
+   "camera_move": "high",
+   "characters": [],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s08",
+   "light": "day",
+   "set": "plaza",
+   "cam": "ecu",
+   "tgt": "mayor",
+   "faces": {
+    "mayor": "sad"
+   },
+   "id": "shot_035",
+   "frame0": 1288,
+   "frames": 50,
+   "dur": 1.667,
+   "seed": 246,
+   "kind": "render",
+   "caption_words": [
+    "LOST",
+    "ROADS",
+    "THEN",
+    "THE"
+   ],
+   "location": "plaza",
+   "camera_move": "ecu",
+   "characters": [
+    "mayor"
+   ],
+   "emotion": "mayor:sad"
+  },
+  {
+   "sentence": "s08",
+   "light": "day",
+   "set": "plaza",
+   "cam": "orbit",
+   "tgt": "mayor",
+   "acts": {
+    "mayor": "talk"
+   },
+   "id": "shot_036",
+   "frame0": 1338,
+   "frames": 34,
+   "dur": 1.133,
+   "seed": 165,
+   "kind": "render",
+   "caption_words": [
+    "BUDGET",
+    "GONE"
+   ],
+   "location": "plaza",
+   "camera_move": "orbit",
+   "characters": [
+    "mayor"
+   ],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s08",
+   "light": "day",
+   "set": "plaza",
+   "cam": "dutch",
+   "tgt": "mayor",
+   "acts": {
+    "mayor": "talk"
+   },
+   "faces": {
+    "mayor": "tired"
+   },
+   "id": "shot_037",
+   "frame0": 1372,
+   "frames": 58,
+   "dur": 1.933,
+   "seed": 84,
+   "kind": "render",
+   "caption_words": [
+    "BY",
+    "MONDAY",
+    "HE",
+    "TALKED",
+    "LIKE",
+    "A"
+   ],
+   "location": "plaza",
+   "camera_move": "dutch",
+   "characters": [
+    "mayor"
+   ],
+   "emotion": "mayor:tired"
+  },
+  {
+   "sentence": "s08",
+   "light": "day",
+   "set": "plaza",
+   "cam": "whip",
+   "tgt": "t3",
+   "faces": {
+    "t3": "blank"
+   },
+   "id": "shot_038",
+   "frame0": 1430,
+   "frames": 44,
+   "dur": 1.467,
+   "seed": 3,
+   "kind": "render",
+   "caption_words": [
+    "BROKEN",
+    "RADIO"
+   ],
+   "location": "plaza",
+   "camera_move": "whip",
+   "characters": [
+    "t3"
+   ],
+   "emotion": "t3:blank"
+  },
+  {
+   "sentence": "s09",
+   "light": "day",
+   "set": "plaza",
+   "cam": "wide",
+   "tgt": "hall_sign",
+   "id": "shot_039",
+   "frame0": 1474,
+   "frames": 43,
+   "dur": 1.433,
+   "seed": 922,
+   "kind": "render",
+   "caption_words": [
+    "ON",
+    "TUESDAY",
+    "THE",
+    "TOWN",
+    "MONEY"
+   ],
+   "location": "plaza",
+   "camera_move": "wide",
+   "characters": [],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s09",
+   "light": "day",
+   "set": "safe",
+   "cam": "push",
+   "tgt": "safe",
+   "id": "shot_040",
+   "frame0": 1517,
+   "frames": 43,
+   "dur": 1.433,
+   "seed": 841,
+   "kind": "render",
+   "caption_words": [
+    "DISAPPEARED"
+   ],
+   "location": "safe",
+   "camera_move": "push",
+   "characters": [
+    "safe"
+   ],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s09",
+   "light": "day",
+   "set": "safe",
+   "cam": "prop",
+   "tgt": "safe_in",
+   "id": "shot_041",
+   "frame0": 1560,
+   "frames": 35,
+   "dur": 1.167,
+   "seed": 760,
+   "kind": "render",
+   "caption_words": [
+    "ALL",
+    "OF",
+    "IT",
+    "FORTY-ONE"
+   ],
+   "location": "safe",
+   "camera_move": "prop",
+   "characters": [],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s09",
+   "light": "day",
+   "card": "coins",
+   "id": "shot_042",
+   "frame0": 1595,
+   "frames": 34,
+   "dur": 1.133,
+   "seed": 679,
+   "kind": "card",
+   "caption_words": [
+    "THOUSAND",
+    "COINS"
+   ],
+   "location": "card",
+   "camera_move": "zoom",
+   "characters": [],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s09",
+   "light": "day",
+   "set": "safe",
+   "cam": "low",
+   "tgt": "mayor",
+   "faces": {
+    "mayor": "shocked"
+   },
+   "id": "shot_043",
+   "frame0": 1629,
+   "frames": 43,
+   "dur": 1.433,
+   "seed": 598,
+   "kind": "render",
+   "caption_words": [
+    "STRAIGHT",
+    "OUT",
+    "OF",
+    "THE",
+    "TOWN"
+   ],
+   "location": "safe",
+   "camera_move": "low",
+   "characters": [
+    "mayor"
+   ],
+   "emotion": "mayor:shocked"
+  },
+  {
+   "sentence": "s09",
+   "light": "day",
+   "set": "safe",
+   "cam": "whip",
+   "tgt": "safe",
+   "id": "shot_044",
+   "frame0": 1672,
+   "frames": 40,
+   "dur": 1.333,
+   "seed": 517,
+   "kind": "render",
+   "caption_words": [
+    "HALL",
+    "SAFE"
+   ],
+   "location": "safe",
+   "camera_move": "whip",
+   "characters": [
+    "safe"
+   ],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s10",
+   "light": "day",
+   "set": "plaza",
+   "cam": "low",
+   "tgt": "mayor",
+   "acts": {
+    "mayor": "talk"
+   },
+   "id": "shot_045",
+   "frame0": 1712,
+   "frames": 42,
+   "dur": 1.4,
+   "seed": 436,
+   "kind": "render",
+   "caption_words": [
+    "THE",
+    "MAYOR",
+    "STOOD",
+    "ON",
+    "THE",
+    "PODIUM",
+    "AND"
+   ],
+   "location": "plaza",
+   "camera_move": "low",
+   "characters": [
+    "mayor"
+   ],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s10",
+   "light": "day",
+   "set": "plaza",
+   "cam": "ots",
+   "tgt": "mayor",
+   "over": "eli",
+   "acts": {
+    "mayor": "talk"
+   },
+   "id": "shot_046",
+   "frame0": 1754,
+   "frames": 37,
+   "dur": 1.233,
+   "seed": 355,
+   "kind": "render",
+   "caption_words": [
+    "SAID",
+    "I",
+    "HAVE",
+    "NO"
+   ],
+   "location": "plaza",
+   "camera_move": "ots",
+   "characters": [
+    "mayor"
+   ],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s10",
+   "light": "day",
+   "set": "plaza",
+   "cam": "cu",
+   "tgt": "mayor",
+   "acts": {
+    "mayor": "talk"
+   },
+   "id": "shot_047",
+   "frame0": 1791,
+   "frames": 47,
+   "dur": 1.567,
+   "seed": 274,
+   "kind": "render",
+   "caption_words": [
+    "IDEA",
+    "WHERE",
+    "IT",
+    "WENT"
+   ],
+   "location": "plaza",
+   "camera_move": "cu",
+   "characters": [
+    "mayor"
+   ],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s10",
+   "light": "day",
+   "set": "plaza",
+   "cam": "ecu",
+   "tgt": "mayor",
+   "faces": {
+    "mayor": "shocked"
+   },
+   "id": "shot_048",
+   "frame0": 1838,
+   "frames": 29,
+   "dur": 0.967,
+   "seed": 193,
+   "kind": "render",
+   "caption_words": [
+    "HE",
+    "LOST",
+    "IDEA"
+   ],
+   "location": "plaza",
+   "camera_move": "ecu",
+   "characters": [
+    "mayor"
+   ],
+   "emotion": "mayor:shocked"
+  },
+  {
+   "sentence": "s10",
+   "light": "day",
+   "set": "plaza",
+   "cam": "push",
+   "tgt": "t5",
+   "faces": {
+    "t5": "shocked",
+    "t6": "shocked",
+    "t1": "shocked"
+   },
+   "id": "shot_049",
+   "frame0": 1867,
+   "frames": 47,
+   "dur": 1.567,
+   "seed": 112,
+   "kind": "render",
+   "caption_words": [
+    "THEN",
+    "WHERE"
+   ],
+   "location": "plaza",
+   "camera_move": "push",
+   "characters": [
+    "t1",
+    "t5",
+    "t6"
+   ],
+   "emotion": "t5:shocked,t6:shocked,t1:shocked"
+  },
+  {
+   "sentence": "s10",
+   "light": "day",
+   "set": "plaza",
+   "cam": "ecu",
+   "tgt": "mayor",
+   "faces": {
+    "mayor": "sad"
+   },
+   "id": "shot_050",
+   "frame0": 1914,
+   "frames": 30,
+   "dur": 1.0,
+   "seed": 31,
+   "kind": "render",
+   "caption_words": [
+    "THEN",
+    "WENT"
+   ],
+   "location": "plaza",
+   "camera_move": "ecu",
+   "characters": [
+    "mayor"
+   ],
+   "emotion": "mayor:sad"
+  },
+  {
+   "sentence": "s10",
+   "light": "day",
+   "set": "plaza",
+   "cam": "dutch",
+   "tgt": "mayor",
+   "faces": {
+    "mayor": "tired"
+   },
+   "id": "shot_051",
+   "frame0": 1944,
+   "frames": 39,
+   "dur": 1.3,
+   "seed": 950,
+   "kind": "render",
+   "caption_words": [
+    "THEN",
+    "IT"
+   ],
+   "location": "plaza",
+   "camera_move": "dutch",
+   "characters": [
+    "mayor"
+   ],
+   "emotion": "mayor:tired"
+  },
+  {
+   "sentence": "s11",
+   "light": "golden",
+   "set": "plaza",
+   "cam": "pull",
+   "tgt": "mayor",
+   "faces": {
+    "mayor": "tired"
+   },
+   "id": "shot_052",
+   "frame0": 1983,
+   "frames": 41,
+   "dur": 1.367,
+   "seed": 869,
+   "kind": "render",
+   "caption_words": [
+    "BY",
+    "WEDNESDAY",
+    "HE",
+    "HAD",
+    "ONE"
+   ],
+   "location": "plaza",
+   "camera_move": "pull",
+   "characters": [
+    "mayor"
+   ],
+   "emotion": "mayor:tired"
+  },
+  {
+   "sentence": "s11",
+   "light": "golden",
+   "set": "plaza",
+   "cam": "ecu",
+   "tgt": "mayor",
+   "faces": {
+    "mayor": "tired"
+   },
+   "id": "shot_053",
+   "frame0": 2024,
+   "frames": 45,
+   "dur": 1.5,
+   "seed": 788,
+   "kind": "render",
+   "caption_words": [
+    "WORD",
+    "LEFT"
+   ],
+   "location": "plaza",
+   "camera_move": "ecu",
+   "characters": [
+    "mayor"
+   ],
+   "emotion": "mayor:tired"
+  },
+  {
+   "sentence": "s12",
+   "light": "golden",
+   "card": "the",
+   "id": "shot_054",
+   "frame0": 2069,
+   "frames": 33,
+   "dur": 1.1,
+   "seed": 707,
+   "kind": "card",
+   "caption_words": [
+    "THE"
+   ],
+   "location": "card",
+   "camera_move": "zoom",
+   "characters": [],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s13",
+   "light": "golden",
+   "set": "plaza",
+   "cam": "cu",
+   "tgt": "eli",
+   "faces": {
+    "eli": "blank"
+   },
+   "id": "shot_055",
+   "frame0": 2102,
+   "frames": 42,
+   "dur": 1.4,
+   "seed": 626,
+   "kind": "render",
+   "caption_words": [
+    "SO",
+    "I",
+    "DID",
+    "WHAT",
+    "NOBODY",
+    "ELSE"
+   ],
+   "location": "plaza",
+   "camera_move": "cu",
+   "characters": [
+    "eli"
+   ],
+   "emotion": "eli:blank"
+  },
+  {
+   "sentence": "s13",
+   "light": "golden",
+   "set": "follow",
+   "cam": "track",
+   "tgt": "mayor",
+   "id": "shot_056",
+   "frame0": 2144,
+   "frames": 36,
+   "dur": 1.2,
+   "seed": 545,
+   "kind": "render",
+   "caption_words": [
+    "WOULD",
+    "I"
+   ],
+   "location": "follow",
+   "camera_move": "track",
+   "characters": [
+    "mayor"
+   ],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s13",
+   "light": "golden",
+   "set": "follow",
+   "cam": "low",
+   "tgt": "eli",
+   "id": "shot_057",
+   "frame0": 2180,
+   "frames": 36,
+   "dur": 1.2,
+   "seed": 464,
+   "kind": "render",
+   "caption_words": [
+    "FOLLOWED",
+    "HIM"
+   ],
+   "location": "follow",
+   "camera_move": "low",
+   "characters": [
+    "eli"
+   ],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s14",
+   "light": "golden",
+   "set": "bakery_walk",
+   "cam": "wide",
+   "tgt": "mayor",
+   "id": "shot_058",
+   "frame0": 2216,
+   "frames": 44,
+   "dur": 1.467,
+   "seed": 383,
+   "kind": "render",
+   "caption_words": [
+    "HE",
+    "WALKED",
+    "TO",
+    "THE",
+    "BAKERY",
+    "THE"
+   ],
+   "location": "bakery_walk",
+   "camera_move": "wide",
+   "characters": [
+    "mayor"
+   ],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s14",
+   "light": "golden",
+   "set": "bakery_walk",
+   "cam": "ecu",
+   "tgt": "mayor",
+   "faces": {
+    "mayor": "tired"
+   },
+   "id": "shot_059",
+   "frame0": 2260,
+   "frames": 40,
+   "dur": 1.333,
+   "seed": 302,
+   "kind": "render",
+   "caption_words": [
+    "HE",
+    "WALKED",
+    "TO"
+   ],
+   "location": "bakery_walk",
+   "camera_move": "ecu",
+   "characters": [
+    "mayor"
+   ],
+   "emotion": "mayor:tired"
+  },
+  {
+   "sentence": "s14",
+   "light": "golden",
+   "set": "gate",
+   "cam": "wide",
+   "tgt": "gate",
+   "id": "shot_060",
+   "frame0": 2300,
+   "frames": 29,
+   "dur": 0.967,
+   "seed": 221,
+   "kind": "render",
+   "caption_words": [
+    "THE",
+    "GATE",
+    "THE"
+   ],
+   "location": "gate",
+   "camera_move": "wide",
+   "characters": [
+    "gate"
+   ],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s14",
+   "light": "golden",
+   "set": "gate",
+   "cam": "ecu",
+   "tgt": "mayor",
+   "faces": {
+    "mayor": "tired"
+   },
+   "id": "shot_061",
+   "frame0": 2329,
+   "frames": 36,
+   "dur": 1.2,
+   "seed": 140,
+   "kind": "render",
+   "caption_words": [
+    "HE",
+    "WALKED",
+    "TO"
+   ],
+   "location": "gate",
+   "camera_move": "ecu",
+   "characters": [
+    "mayor"
+   ],
+   "emotion": "mayor:tired"
+  },
+  {
+   "sentence": "s14",
+   "light": "golden",
+   "set": "field",
+   "cam": "drone",
+   "tgt": "pt:-90,0,0",
+   "id": "shot_062",
+   "frame0": 2365,
+   "frames": 31,
+   "dur": 1.033,
+   "seed": 59,
+   "kind": "render",
+   "caption_words": [
+    "THE",
+    "FIELD",
+    "THE"
+   ],
+   "location": "field",
+   "camera_move": "drone",
+   "characters": [],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s14",
+   "light": "golden",
+   "set": "field",
+   "cam": "cu",
+   "tgt": "mayor",
+   "faces": {
+    "mayor": "tired"
+   },
+   "id": "shot_063",
+   "frame0": 2396,
+   "frames": 45,
+   "dur": 1.5,
+   "seed": 978,
+   "kind": "render",
+   "caption_words": [
+    "EVERYWHERE",
+    "HE"
+   ],
+   "location": "field",
+   "camera_move": "cu",
+   "characters": [
+    "mayor"
+   ],
+   "emotion": "mayor:tired"
+  },
+  {
+   "sentence": "s14",
+   "light": "golden",
+   "set": "field",
+   "cam": "high",
+   "tgt": "mayor",
+   "id": "shot_064",
+   "frame0": 2441,
+   "frames": 40,
+   "dur": 1.333,
+   "seed": 897,
+   "kind": "render",
+   "caption_words": [
+    "WENT",
+    "HE",
+    "STARED",
+    "AT"
+   ],
+   "location": "field",
+   "camera_move": "high",
+   "characters": [
+    "mayor"
+   ],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s14",
+   "light": "golden",
+   "set": "field",
+   "cam": "prop",
+   "tgt": "mayor_feet",
+   "id": "shot_065",
+   "frame0": 2481,
+   "frames": 34,
+   "dur": 1.133,
+   "seed": 816,
+   "kind": "render",
+   "caption_words": [
+    "THE",
+    "GROUND"
+   ],
+   "location": "field",
+   "camera_move": "prop",
+   "characters": [],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s15",
+   "light": "dusk",
+   "set": "field",
+   "cam": "orbit",
+   "tgt": "mayor",
+   "faces": {
+    "mayor": "tired"
+   },
+   "id": "shot_066",
+   "frame0": 2515,
+   "frames": 50,
+   "dur": 1.667,
+   "seed": 735,
+   "kind": "render",
+   "caption_words": [
+    "A",
+    "MAN",
+    "WITH",
+    "ONE",
+    "WORD",
+    "LEFT",
+    "HAS",
+    "TO"
+   ],
+   "location": "field",
+   "camera_move": "orbit",
+   "characters": [
+    "mayor"
+   ],
+   "emotion": "mayor:tired"
+  },
+  {
+   "sentence": "s15",
+   "light": "dusk",
+   "set": "field",
+   "cam": "ecu",
+   "tgt": "mayor",
+   "faces": {
+    "mayor": "sad"
+   },
+   "id": "shot_067",
+   "frame0": 2565,
+   "frames": 51,
+   "dur": 1.7,
+   "seed": 654,
+   "kind": "render",
+   "caption_words": [
+    "BE",
+    "VERY",
+    "CAREFUL"
+   ],
+   "location": "field",
+   "camera_move": "ecu",
+   "characters": [
+    "mayor"
+   ],
+   "emotion": "mayor:sad"
+  },
+  {
+   "sentence": "s15",
+   "light": "dusk",
+   "set": "gate",
+   "cam": "pull",
+   "tgt": "mayor",
+   "id": "shot_068",
+   "frame0": 2616,
+   "frames": 45,
+   "dur": 1.5,
+   "seed": 573,
+   "kind": "render",
+   "caption_words": [
+    "ONE",
+    "MORE",
+    "LIE",
+    "COSTS",
+    "HIM",
+    "EVERYTHING"
+   ],
+   "location": "gate",
+   "camera_move": "pull",
+   "characters": [
+    "mayor"
+   ],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s15",
+   "light": "dusk",
+   "set": "field",
+   "cam": "cu",
+   "tgt": "eli",
+   "id": "shot_069",
+   "frame0": 2661,
+   "frames": 51,
+   "dur": 1.7,
+   "seed": 492,
+   "kind": "render",
+   "caption_words": [
+    "SO",
+    "I",
+    "KNEW",
+    "HE",
+    "WAS",
+    "ABOUT"
+   ],
+   "location": "field",
+   "camera_move": "cu",
+   "characters": [
+    "eli"
+   ],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s15",
+   "light": "dusk",
+   "set": "field",
+   "cam": "push",
+   "tgt": "eli",
+   "faces": {
+    "eli": "neutral"
+   },
+   "id": "shot_070",
+   "frame0": 2712,
+   "frames": 46,
+   "dur": 1.533,
+   "seed": 411,
+   "kind": "render",
+   "caption_words": [
+    "TO",
+    "TELL",
+    "THE",
+    "TRUTH"
+   ],
+   "location": "field",
+   "camera_move": "push",
+   "characters": [
+    "eli"
+   ],
+   "emotion": "eli:neutral"
+  },
+  {
+   "sentence": "s16",
+   "light": "dusk",
+   "set": "corner",
+   "cam": "wide",
+   "tgt": "pt:30,3,1.5",
+   "id": "shot_071",
+   "frame0": 2758,
+   "frames": 28,
+   "dur": 0.933,
+   "seed": 330,
+   "kind": "render",
+   "caption_words": [
+    "I",
+    "STOOD",
+    "IN",
+    "FRONT",
+    "OF",
+    "HIM"
+   ],
+   "location": "corner",
+   "camera_move": "wide",
+   "characters": [],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s16",
+   "light": "dusk",
+   "set": "corner",
+   "cam": "ots",
+   "tgt": "mayor",
+   "over": "eli",
+   "id": "shot_072",
+   "frame0": 2786,
+   "frames": 28,
+   "dur": 0.933,
+   "seed": 249,
+   "kind": "render",
+   "caption_words": [
+    "AND",
+    "ASKED",
+    "MAYOR"
+   ],
+   "location": "corner",
+   "camera_move": "ots",
+   "characters": [
+    "mayor"
+   ],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s16",
+   "light": "dusk",
+   "set": "corner",
+   "cam": "cu",
+   "tgt": "eli",
+   "acts": {
+    "eli": "talk"
+   },
+   "id": "shot_073",
+   "frame0": 2814,
+   "frames": 25,
+   "dur": 0.833,
+   "seed": 168,
+   "kind": "render",
+   "caption_words": [
+    "WHERE",
+    "IS",
+    "THE"
+   ],
+   "location": "corner",
+   "camera_move": "cu",
+   "characters": [
+    "eli"
+   ],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s16",
+   "light": "dusk",
+   "card": "where",
+   "id": "shot_074",
+   "frame0": 2839,
+   "frames": 29,
+   "dur": 0.967,
+   "seed": 87,
+   "kind": "card",
+   "caption_words": [
+    "MONEY?"
+   ],
+   "location": "card",
+   "camera_move": "zoom",
+   "characters": [],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s17",
+   "light": "dusk",
+   "set": "corner",
+   "cam": "ecu",
+   "tgt": "mayor",
+   "faces": {
+    "mayor": "talk"
+   },
+   "id": "shot_075",
+   "frame0": 2868,
+   "frames": 45,
+   "dur": 1.5,
+   "seed": 6,
+   "kind": "render",
+   "caption_words": [
+    "HE",
+    "OPENED",
+    "HIS",
+    "MOUTH"
+   ],
+   "location": "corner",
+   "camera_move": "ecu",
+   "characters": [
+    "mayor"
+   ],
+   "emotion": "mayor:talk"
+  },
+  {
+   "sentence": "s17",
+   "light": "dusk",
+   "set": "corner",
+   "cam": "ots",
+   "tgt": "eli",
+   "over": "mayor",
+   "id": "shot_076",
+   "frame0": 2913,
+   "frames": 42,
+   "dur": 1.4,
+   "seed": 925,
+   "kind": "render",
+   "caption_words": [
+    "NOTHING",
+    "CAME",
+    "OUT"
+   ],
+   "location": "corner",
+   "camera_move": "ots",
+   "characters": [
+    "eli"
+   ],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s17",
+   "light": "dusk",
+   "set": "corner",
+   "cam": "ecu",
+   "tgt": "mayor",
+   "faces": {
+    "mayor": "shocked"
+   },
+   "id": "shot_077",
+   "frame0": 2955,
+   "frames": 40,
+   "dur": 1.333,
+   "seed": 844,
+   "kind": "render",
+   "caption_words": [
+    "HIS",
+    "EYES",
+    "WENT",
+    "WIDE"
+   ],
+   "location": "corner",
+   "camera_move": "ecu",
+   "characters": [
+    "mayor"
+   ],
+   "emotion": "mayor:shocked"
+  },
+  {
+   "sentence": "s17",
+   "light": "dusk",
+   "set": "corner",
+   "cam": "push",
+   "tgt": "mayor",
+   "faces": {
+    "mayor": "tired"
+   },
+   "id": "shot_078",
+   "frame0": 2995,
+   "frames": 42,
+   "dur": 1.4,
+   "seed": 763,
+   "kind": "render",
+   "caption_words": [
+    "HE",
+    "HAD",
+    "ONE",
+    "WORD"
+   ],
+   "location": "corner",
+   "camera_move": "push",
+   "characters": [
+    "mayor"
+   ],
+   "emotion": "mayor:tired"
+  },
+  {
+   "sentence": "s17",
+   "light": "dusk",
+   "set": "corner",
+   "cam": "low",
+   "tgt": "mayor",
+   "acts": {
+    "mayor": "talk"
+   },
+   "id": "shot_079",
+   "frame0": 3037,
+   "frames": 41,
+   "dur": 1.367,
+   "seed": 682,
+   "kind": "render",
+   "caption_words": [
+    "AND",
+    "HE",
+    "USED",
+    "IT"
+   ],
+   "location": "corner",
+   "camera_move": "low",
+   "characters": [
+    "mayor"
+   ],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s17",
+   "light": "dusk",
+   "set": "corner",
+   "cam": "dutch",
+   "tgt": "mayor",
+   "faces": {
+    "mayor": "shocked"
+   },
+   "id": "shot_080",
+   "frame0": 3078,
+   "frames": 43,
+   "dur": 1.433,
+   "seed": 601,
+   "kind": "render",
+   "caption_words": [
+    "THE"
+   ],
+   "location": "corner",
+   "camera_move": "dutch",
+   "characters": [
+    "mayor"
+   ],
+   "emotion": "mayor:shocked"
+  },
+  {
+   "sentence": "s18",
+   "light": "dusk",
+   "set": "corner",
+   "cam": "low",
+   "tgt": "mayor",
+   "acts": {
+    "mayor": "point_slow"
+   },
+   "id": "shot_081",
+   "frame0": 3121,
+   "frames": 37,
+   "dur": 1.233,
+   "seed": 520,
+   "kind": "render",
+   "caption_words": [
+    "THEN",
+    "HE",
+    "LIFTED",
+    "HIS",
+    "ARM"
+   ],
+   "location": "corner",
+   "camera_move": "low",
+   "characters": [
+    "mayor"
+   ],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s18",
+   "light": "dusk",
+   "set": "corner",
+   "cam": "orbit",
+   "tgt": "mayor",
+   "acts": {
+    "mayor": "point"
+   },
+   "id": "shot_082",
+   "frame0": 3158,
+   "frames": 38,
+   "dur": 1.267,
+   "seed": 439,
+   "kind": "render",
+   "caption_words": [
+    "SLOWLY",
+    "AND"
+   ],
+   "location": "corner",
+   "camera_move": "orbit",
+   "characters": [
+    "mayor"
+   ],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s18",
+   "light": "dusk",
+   "set": "corner",
+   "cam": "ots",
+   "tgt": "eli_house",
+   "over": "mayor",
+   "acts": {
+    "mayor": "point"
+   },
+   "id": "shot_083",
+   "frame0": 3196,
+   "frames": 37,
+   "dur": 1.233,
+   "seed": 358,
+   "kind": "render",
+   "caption_words": [
+    "POINTED"
+   ],
+   "location": "corner",
+   "camera_move": "ots",
+   "characters": [
+    "mayor"
+   ],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s18",
+   "light": "dusk",
+   "set": "safe",
+   "cam": "prop",
+   "tgt": "safe",
+   "id": "shot_084",
+   "frame0": 3233,
+   "frames": 37,
+   "dur": 1.233,
+   "seed": 277,
+   "kind": "render",
+   "caption_words": [
+    "NOT",
+    "AT",
+    "THE",
+    "SAFE"
+   ],
+   "location": "safe",
+   "camera_move": "prop",
+   "characters": [
+    "safe"
+   ],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s18",
+   "light": "dusk",
+   "set": "plaza",
+   "cam": "wide",
+   "tgt": "hall_sign",
+   "id": "shot_085",
+   "frame0": 3270,
+   "frames": 34,
+   "dur": 1.133,
+   "seed": 196,
+   "kind": "render",
+   "caption_words": [
+    "NOT",
+    "AT",
+    "THE"
+   ],
+   "location": "plaza",
+   "camera_move": "wide",
+   "characters": [],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s18",
+   "light": "dusk",
+   "set": "carrot",
+   "cam": "push",
+   "tgt": "eli_house",
+   "id": "shot_086",
+   "frame0": 3304,
+   "frames": 42,
+   "dur": 1.4,
+   "seed": 115,
+   "kind": "render",
+   "caption_words": [
+    "HALL",
+    "AT",
+    "THE",
+    "LITTLE"
+   ],
+   "location": "carrot",
+   "camera_move": "push",
+   "characters": [],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s18",
+   "light": "dusk",
+   "set": "carrot",
+   "cam": "whip",
+   "tgt": "carrot_sign",
+   "id": "shot_087",
+   "frame0": 3346,
+   "frames": 32,
+   "dur": 1.067,
+   "seed": 34,
+   "kind": "render",
+   "caption_words": [
+    "HOUSE",
+    "AT",
+    "THE",
+    "END",
+    "OF"
+   ],
+   "location": "carrot",
+   "camera_move": "whip",
+   "characters": [],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s18",
+   "light": "dusk",
+   "set": "carrot",
+   "cam": "push",
+   "tgt": "eli_house",
+   "id": "shot_088",
+   "frame0": 3378,
+   "frames": 41,
+   "dur": 1.367,
+   "seed": 953,
+   "kind": "render",
+   "caption_words": [
+    "CARROT",
+    "STREET"
+   ],
+   "location": "carrot",
+   "camera_move": "push",
+   "characters": [],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s19",
+   "light": "dusk",
+   "set": "corner",
+   "cam": "ecu",
+   "tgt": "eli",
+   "faces": {
+    "eli": "shocked"
+   },
+   "acts": {
+    "mayor": "point"
+   },
+   "id": "shot_089",
+   "frame0": 3419,
+   "frames": 21,
+   "dur": 0.7,
+   "seed": 872,
+   "kind": "render",
+   "caption_words": [
+    "MY",
+    "HOUSE"
+   ],
+   "location": "corner",
+   "camera_move": "ecu",
+   "characters": [
+    "eli",
+    "mayor"
+   ],
+   "emotion": "eli:shocked"
+  },
+  {
+   "sentence": "s19",
+   "light": "dusk",
+   "set": "carrot",
+   "cam": "push",
+   "tgt": "eli_house",
+   "id": "shot_090",
+   "frame0": 3440,
+   "frames": 22,
+   "dur": 0.733,
+   "seed": 791,
+   "kind": "render",
+   "caption_words": [],
+   "location": "carrot",
+   "camera_move": "push",
+   "characters": [],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s20",
+   "light": "dusk",
+   "set": "corner",
+   "cam": "cu",
+   "tgt": "eli",
+   "acts": {
+    "mayor": "point"
+   },
+   "id": "shot_091",
+   "frame0": 3462,
+   "frames": 46,
+   "dur": 1.533,
+   "seed": 710,
+   "kind": "render",
+   "caption_words": [
+    "I",
+    "ALMOST",
+    "LAUGHED"
+   ],
+   "location": "corner",
+   "camera_move": "cu",
+   "characters": [
+    "eli",
+    "mayor"
+   ],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s20",
+   "light": "dusk",
+   "set": "corner",
+   "cam": "ecu",
+   "tgt": "eli",
+   "faces": {
+    "eli": "blank"
+   },
+   "acts": {
+    "mayor": "point"
+   },
+   "id": "shot_092",
+   "frame0": 3508,
+   "frames": 50,
+   "dur": 1.667,
+   "seed": 629,
+   "kind": "render",
+   "caption_words": [
+    "THEN",
+    "I",
+    "REMEMBERED",
+    "SOMETHING"
+   ],
+   "location": "corner",
+   "camera_move": "ecu",
+   "characters": [
+    "eli",
+    "mayor"
+   ],
+   "emotion": "eli:blank"
+  },
+  {
+   "sentence": "s20",
+   "light": "dusk",
+   "card": "words",
+   "id": "shot_093",
+   "frame0": 3558,
+   "frames": 30,
+   "dur": 1.0,
+   "seed": 548,
+   "kind": "card",
+   "caption_words": [
+    "THE",
+    "RULE",
+    "ONLY",
+    "COUNTS"
+   ],
+   "location": "card",
+   "camera_move": "zoom",
+   "characters": [],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s20",
+   "light": "dusk",
+   "set": "corner",
+   "cam": "prop",
+   "tgt": "mayor_hand",
+   "acts": {
+    "mayor": "point"
+   },
+   "id": "shot_094",
+   "frame0": 3588,
+   "frames": 52,
+   "dur": 1.733,
+   "seed": 467,
+   "kind": "render",
+   "caption_words": [
+    "WORDS",
+    "HANDS",
+    "CAN"
+   ],
+   "location": "corner",
+   "camera_move": "prop",
+   "characters": [
+    "mayor"
+   ],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s20",
+   "light": "dusk",
+   "set": "corner",
+   "cam": "orbit",
+   "tgt": "mayor",
+   "acts": {
+    "mayor": "point"
+   },
+   "faces": {
+    "mayor": "blank"
+   },
+   "id": "shot_095",
+   "frame0": 3640,
+   "frames": 46,
+   "dur": 1.533,
+   "seed": 386,
+   "kind": "render",
+   "caption_words": [
+    "LIE",
+    "ALL",
+    "THEY",
+    "WANT"
+   ],
+   "location": "corner",
+   "camera_move": "orbit",
+   "characters": [
+    "mayor"
+   ],
+   "emotion": "mayor:blank"
+  },
+  {
+   "sentence": "s21",
+   "light": "dusk",
+   "set": "carrot_run",
+   "cam": "track",
+   "tgt": "eli",
+   "id": "shot_096",
+   "frame0": 3686,
+   "frames": 24,
+   "dur": 0.8,
+   "seed": 305,
+   "kind": "render",
+   "caption_words": [
+    "SO",
+    "I",
+    "RAN",
+    "HOME"
+   ],
+   "location": "carrot_run",
+   "camera_move": "track",
+   "characters": [
+    "eli"
+   ],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s21",
+   "light": "dusk",
+   "set": "carrot_run",
+   "cam": "low",
+   "tgt": "eli",
+   "id": "shot_097",
+   "frame0": 3710,
+   "frames": 38,
+   "dur": 1.267,
+   "seed": 224,
+   "kind": "render",
+   "caption_words": [
+    "ANYWAY"
+   ],
+   "location": "carrot_run",
+   "camera_move": "low",
+   "characters": [
+    "eli"
+   ],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s22",
+   "light": "interior",
+   "set": "kitchen",
+   "cam": "wide",
+   "tgt": "dad",
+   "id": "shot_098",
+   "frame0": 3748,
+   "frames": 41,
+   "dur": 1.367,
+   "seed": 143,
+   "kind": "render",
+   "caption_words": [
+    "DAD",
+    "WAS",
+    "AT",
+    "THE",
+    "KITCHEN",
+    "TABLE"
+   ],
+   "location": "kitchen",
+   "camera_move": "wide",
+   "characters": [
+    "dad"
+   ],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s22",
+   "light": "interior",
+   "set": "kitchen",
+   "cam": "ots",
+   "tgt": "dad",
+   "over": "eli",
+   "id": "shot_099",
+   "frame0": 3789,
+   "frames": 38,
+   "dur": 1.267,
+   "seed": 62,
+   "kind": "render",
+   "caption_words": [
+    "HE'D",
+    "BEEN",
+    "QUIET"
+   ],
+   "location": "kitchen",
+   "camera_move": "ots",
+   "characters": [
+    "dad"
+   ],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s22",
+   "light": "interior",
+   "set": "kitchen",
+   "cam": "cu",
+   "tgt": "dad",
+   "faces": {
+    "dad": "tired"
+   },
+   "id": "shot_100",
+   "frame0": 3827,
+   "frames": 45,
+   "dur": 1.5,
+   "seed": 981,
+   "kind": "render",
+   "caption_words": [
+    "ALL",
+    "WEEK",
+    "I",
+    "THOUGHT"
+   ],
+   "location": "kitchen",
+   "camera_move": "cu",
+   "characters": [
+    "dad"
+   ],
+   "emotion": "dad:tired"
+  },
+  {
+   "sentence": "s22",
+   "light": "interior",
+   "set": "kitchen",
+   "cam": "push",
+   "tgt": "dad",
+   "faces": {
+    "dad": "tired"
+   },
+   "id": "shot_101",
+   "frame0": 3872,
+   "frames": 39,
+   "dur": 1.3,
+   "seed": 900,
+   "kind": "render",
+   "caption_words": [
+    "HE",
+    "WAS",
+    "TIRED"
+   ],
+   "location": "kitchen",
+   "camera_move": "push",
+   "characters": [
+    "dad"
+   ],
+   "emotion": "dad:tired"
+  },
+  {
+   "sentence": "s23",
+   "light": "interior",
+   "set": "kitchen",
+   "cam": "ecu",
+   "tgt": "dad",
+   "faces": {
+    "dad": "blank"
+   },
+   "id": "shot_102",
+   "frame0": 3911,
+   "frames": 50,
+   "dur": 1.667,
+   "seed": 819,
+   "kind": "render",
+   "caption_words": [
+    "HE",
+    "WASN'T",
+    "TIRED",
+    "HE",
+    "HAD"
+   ],
+   "location": "kitchen",
+   "camera_move": "ecu",
+   "characters": [
+    "dad"
+   ],
+   "emotion": "dad:blank"
+  },
+  {
+   "sentence": "s23",
+   "light": "interior",
+   "card": "zero",
+   "id": "shot_103",
+   "frame0": 3961,
+   "frames": 49,
+   "dur": 1.633,
+   "seed": 738,
+   "kind": "card",
+   "caption_words": [
+    "SAID",
+    "EXACTLY",
+    "ZERO",
+    "WORDS"
+   ],
+   "location": "card",
+   "camera_move": "zoom",
+   "characters": [],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s23",
+   "light": "interior",
+   "set": "kitchen",
+   "cam": "dutch",
+   "tgt": "dad",
+   "faces": {
+    "dad": "blank"
+   },
+   "id": "shot_104",
+   "frame0": 4010,
+   "frames": 49,
+   "dur": 1.633,
+   "seed": 657,
+   "kind": "render",
+   "caption_words": [
+    "SINCE",
+    "SUNDAY"
+   ],
+   "location": "kitchen",
+   "camera_move": "dutch",
+   "characters": [
+    "dad"
+   ],
+   "emotion": "dad:blank"
+  },
+  {
+   "sentence": "s24",
+   "light": "interior",
+   "set": "kitchen",
+   "cam": "cu",
+   "tgt": "eli",
+   "acts": {
+    "eli": "talk"
+   },
+   "id": "shot_105",
+   "frame0": 4059,
+   "frames": 32,
+   "dur": 1.067,
+   "seed": 576,
+   "kind": "render",
+   "caption_words": [
+    "I",
+    "ASKED",
+    "DAD?"
+   ],
+   "location": "kitchen",
+   "camera_move": "cu",
+   "characters": [
+    "eli"
+   ],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s24",
+   "light": "interior",
+   "set": "kitchen",
+   "cam": "ots",
+   "tgt": "dad",
+   "over": "eli",
+   "id": "shot_106",
+   "frame0": 4091,
+   "frames": 38,
+   "dur": 1.267,
+   "seed": 495,
+   "kind": "render",
+   "caption_words": [
+    "WHERE",
+    "DID",
+    "YOU",
+    "GO",
+    "ON",
+    "TUESDAY"
+   ],
+   "location": "kitchen",
+   "camera_move": "ots",
+   "characters": [
+    "dad"
+   ],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s24",
+   "light": "interior",
+   "set": "kitchen",
+   "cam": "ecu",
+   "tgt": "eli",
+   "id": "shot_107",
+   "frame0": 4129,
+   "frames": 36,
+   "dur": 1.2,
+   "seed": 414,
+   "kind": "render",
+   "caption_words": [
+    "NIGHT?"
+   ],
+   "location": "kitchen",
+   "camera_move": "ecu",
+   "characters": [
+    "eli"
+   ],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s25",
+   "light": "interior",
+   "set": "kitchen",
+   "cam": "ecu",
+   "tgt": "dad",
+   "faces": {
+    "dad": "talk"
+   },
+   "id": "shot_108",
+   "frame0": 4165,
+   "frames": 43,
+   "dur": 1.433,
+   "seed": 333,
+   "kind": "render",
+   "caption_words": [
+    "HE",
+    "OPENED",
+    "HIS",
+    "MOUTH"
+   ],
+   "location": "kitchen",
+   "camera_move": "ecu",
+   "characters": [
+    "dad"
+   ],
+   "emotion": "dad:talk"
+  },
+  {
+   "sentence": "s25",
+   "light": "interior",
+   "set": "kitchen",
+   "cam": "ecu",
+   "tgt": "dad",
+   "faces": {
+    "dad": "blank"
+   },
+   "id": "shot_109",
+   "frame0": 4208,
+   "frames": 33,
+   "dur": 1.1,
+   "seed": 252,
+   "kind": "render",
+   "caption_words": [
+    "CLOSED",
+    "IT"
+   ],
+   "location": "kitchen",
+   "camera_move": "ecu",
+   "characters": [
+    "dad"
+   ],
+   "emotion": "dad:blank"
+  },
+  {
+   "sentence": "s25",
+   "light": "interior",
+   "set": "kitchen",
+   "cam": "ecu",
+   "tgt": "dad",
+   "faces": {
+    "dad": "talk"
+   },
+   "id": "shot_110",
+   "frame0": 4241,
+   "frames": 43,
+   "dur": 1.433,
+   "seed": 171,
+   "kind": "render",
+   "caption_words": [
+    "OPENED",
+    "IT",
+    "AGAIN"
+   ],
+   "location": "kitchen",
+   "camera_move": "ecu",
+   "characters": [
+    "dad"
+   ],
+   "emotion": "dad:talk"
+  },
+  {
+   "sentence": "s25",
+   "light": "interior",
+   "set": "kitchen",
+   "cam": "push",
+   "tgt": "dad",
+   "faces": {
+    "dad": "blank"
+   },
+   "id": "shot_111",
+   "frame0": 4284,
+   "frames": 38,
+   "dur": 1.267,
+   "seed": 90,
+   "kind": "render",
+   "caption_words": [
+    "NOTHING",
+    "NOT"
+   ],
+   "location": "kitchen",
+   "camera_move": "push",
+   "characters": [
+    "dad"
+   ],
+   "emotion": "dad:blank"
+  },
+  {
+   "sentence": "s25",
+   "light": "interior",
+   "set": "kitchen",
+   "cam": "high",
+   "tgt": "dad",
+   "faces": {
+    "dad": "blank"
+   },
+   "id": "shot_112",
+   "frame0": 4322,
+   "frames": 36,
+   "dur": 1.2,
+   "seed": 9,
+   "kind": "render",
+   "caption_words": [
+    "EVEN",
+    "THE"
+   ],
+   "location": "kitchen",
+   "camera_move": "high",
+   "characters": [
+    "dad"
+   ],
+   "emotion": "dad:blank"
+  },
+  {
+   "sentence": "s26",
+   "light": "interior",
+   "set": "kitchen",
+   "cam": "low",
+   "tgt": "bag",
+   "id": "shot_113",
+   "frame0": 4358,
+   "frames": 54,
+   "dur": 1.8,
+   "seed": 928,
+   "kind": "render",
+   "caption_words": [
+    "UNDER",
+    "THE",
+    "TABLE",
+    "SOMETHING",
+    "CLINKED"
+   ],
+   "location": "kitchen",
+   "camera_move": "low",
+   "characters": [
+    "bag"
+   ],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s26",
+   "light": "interior",
+   "set": "kitchen",
+   "cam": "prop",
+   "tgt": "bag",
+   "id": "shot_114",
+   "frame0": 4412,
+   "frames": 46,
+   "dur": 1.533,
+   "seed": 847,
+   "kind": "render",
+   "caption_words": [
+    "A",
+    "BAG"
+   ],
+   "location": "kitchen",
+   "camera_move": "prop",
+   "characters": [
+    "bag"
+   ],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s26",
+   "light": "interior",
+   "set": "kitchen",
+   "cam": "ecu",
+   "tgt": "eli",
+   "faces": {
+    "eli": "shocked"
+   },
+   "id": "shot_115",
+   "frame0": 4458,
+   "frames": 40,
+   "dur": 1.333,
+   "seed": 766,
+   "kind": "render",
+   "caption_words": [
+    "A",
+    "HEAVY",
+    "ONE"
+   ],
+   "location": "kitchen",
+   "camera_move": "ecu",
+   "characters": [
+    "eli"
+   ],
+   "emotion": "eli:shocked"
+  },
+  {
+   "sentence": "s27",
+   "light": "interior",
+   "set": "kitchen",
+   "cam": "push",
+   "tgt": "door",
+   "door": "opening",
+   "id": "shot_116",
+   "frame0": 4498,
+   "frames": 41,
+   "dur": 1.367,
+   "seed": 685,
+   "kind": "render",
+   "caption_words": [
+    "THEN",
+    "THE",
+    "FRONT",
+    "DOOR",
+    "OPENED",
+    "BEHIND"
+   ],
+   "location": "kitchen",
+   "camera_move": "push",
+   "characters": [
+    "door"
+   ],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s27",
+   "light": "interior",
+   "set": "kitchen",
+   "cam": "ecu",
+   "tgt": "eli",
+   "faces": {
+    "eli": "shocked"
+   },
+   "door": "open",
+   "id": "shot_117",
+   "frame0": 4539,
+   "frames": 34,
+   "dur": 1.133,
+   "seed": 604,
+   "kind": "render",
+   "caption_words": [
+    "ME",
+    "AND"
+   ],
+   "location": "kitchen",
+   "camera_move": "ecu",
+   "characters": [
+    "eli"
+   ],
+   "emotion": "eli:shocked"
+  },
+  {
+   "sentence": "s27",
+   "light": "interior",
+   "set": "door",
+   "cam": "wide",
+   "tgt": "door",
+   "door": "open",
+   "id": "shot_118",
+   "frame0": 4573,
+   "frames": 36,
+   "dur": 1.2,
+   "seed": 523,
+   "kind": "render",
+   "caption_words": [
+    "THE",
+    "WHOLE",
+    "TOWN",
+    "WAS",
+    "STANDING"
+   ],
+   "location": "door",
+   "camera_move": "wide",
+   "characters": [
+    "door"
+   ],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s27",
+   "light": "interior",
+   "set": "door",
+   "cam": "push",
+   "tgt": "mayor",
+   "door": "open",
+   "id": "shot_119",
+   "frame0": 4609,
+   "frames": 37,
+   "dur": 1.233,
+   "seed": 442,
+   "kind": "render",
+   "caption_words": [
+    "THERE"
+   ],
+   "location": "door",
+   "camera_move": "push",
+   "characters": [
+    "mayor"
+   ],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s28",
+   "light": "interior",
+   "set": "door",
+   "cam": "ecu",
+   "tgt": "pell",
+   "door": "open",
+   "id": "shot_120",
+   "frame0": 4646,
+   "frames": 21,
+   "dur": 0.7,
+   "seed": 361,
+   "kind": "render",
+   "caption_words": [
+    "NOT",
+    "ONE",
+    "OF",
+    "THEM"
+   ],
+   "location": "door",
+   "camera_move": "ecu",
+   "characters": [
+    "pell"
+   ],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s28",
+   "light": "interior",
+   "set": "door",
+   "cam": "ecu",
+   "tgt": "baker",
+   "door": "open",
+   "id": "shot_121",
+   "frame0": 4667,
+   "frames": 27,
+   "dur": 0.9,
+   "seed": 280,
+   "kind": "render",
+   "caption_words": [
+    "SAID",
+    "A",
+    "WORD"
+   ],
+   "location": "door",
+   "camera_move": "ecu",
+   "characters": [
+    "baker"
+   ],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s28",
+   "light": "interior",
+   "set": "door",
+   "cam": "ecu",
+   "tgt": "mayor",
+   "door": "open",
+   "id": "shot_122",
+   "frame0": 4694,
+   "frames": 24,
+   "dur": 0.8,
+   "seed": 199,
+   "kind": "render",
+   "caption_words": [],
+   "location": "door",
+   "camera_move": "ecu",
+   "characters": [
+    "mayor"
+   ],
+   "emotion": "neutral"
+  },
+  {
+   "id": "shot_123",
+   "kind": "black",
+   "frame0": 4718,
+   "frames": 36,
+   "dur": 1.2,
+   "sentence": "end",
+   "caption_words": []
+  }
+ ]
+}
