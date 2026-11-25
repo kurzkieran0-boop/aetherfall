@@ -216,8 +216,12 @@ class Stage:
             p.z = ground + 0.32
             pos = p; lens = 22; look = T + Vector((0, 0, 0.15))
         elif cam == "high":
-            pos = around(3.6 * k, 15 + 12 * u, 0)
-            pos.z = T.z + 5.5 * im + 0.5; lens = 28; look = T - Vector((0, 0, 0.8 if is_actor else 0))
+            if is_actor:
+                pos = around(3.6 * k, 15 + 12 * u, 0)
+                pos.z = T.z + 5.5 * im + 0.5; lens = 28; look = T - Vector((0, 0, 0.8))
+            else:
+                pos = around(lerp(15, 13, u), 20 + 10 * u, 0)
+                pos.z = T.z + 12; lens = 28; look = T + Vector((0, 0, 1.0))
         elif cam == "ots":
             O = self.head_pos(sh["over"])
             d2 = (T - O); d2.z = 0; d2.normalize()
