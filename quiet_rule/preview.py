@@ -14,6 +14,8 @@ os.makedirs(out, exist_ok=True)
 ims = []
 for sh in shots:
     st.mood(sh["light"] if sh["set"] not in ("kitchen", "door") else "interior")
+    st.ob["kitchen_lamp"].hide_render = sh["set"] not in ("kitchen", "door")
+    st.ob["hall_lamp"].hide_render = sh["set"] != "safe"
     actors = st.actors_for(sh)
     bias = st.choose_bias(sh, actors)
     t = sh["dur"] * 0.6

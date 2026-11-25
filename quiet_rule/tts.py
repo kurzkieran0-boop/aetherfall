@@ -13,8 +13,12 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 B = os.path.join(HERE, "build")
 TTS_DIR = os.path.join(B, "tts")
 os.makedirs(TTS_DIR, exist_ok=True)
-VOICE = os.path.join(HERE, "voices", "en_US-joe-medium.onnx")
-LENGTH_SCALE = os.environ.get("QR_LENGTH_SCALE", "1.08")
+VOICE_NAME = "en_US-hfc_female-medium"
+VOICE = os.path.join(HERE, "voices", VOICE_NAME + ".onnx")
+LENGTH_SCALE = os.environ.get("QR_LENGTH_SCALE", "1.1")
+# child-like narrator: +16% pitch with formants shifted up (shorter vocal tract), median F0 ~250 Hz
+PITCH = "1.16"
+CACHE_KEY = f"{VOICE_NAME}|{LENGTH_SCALE}|{PITCH}"
 SR = 48000
 LEAD_IN = 0.15
 
@@ -28,7 +32,7 @@ def spoken(text):
 def synth(sid, text):
     out = os.path.join(TTS_DIR, f"{sid}.wav")
     key = os.path.join(TTS_DIR, f"{sid}.txt")
-    if os.path.exists(out) and os.path.exists(key) and open(key).read() == text + LENGTH_SCALE:
+    if os.path.exists(out) and os.path.exists(key) and open(key).read() == text + CACHE_KEY:
         return out
     raw = os.path.join(TTS_DIR, f"{sid}_raw.wav")
     subprocess.run(["python3", "-m", "piper", "-m", VOICE, "--length-scale", LENGTH_SCALE,
@@ -36,11 +40,11 @@ def synth(sid, text):
                    input=spoken(text).encode(), check=True, capture_output=True)
     # slight pitch lift for a younger narrator, trim silence at both ends, resample to 48k
     subprocess.run(["ffmpeg", "-y", "-v", "error", "-i", raw, "-af",
-                    "rubberband=pitch=1.05,"
+                    f"rubberband=pitch={PITCH}:formant=shifted,"
                     "silenceremove=start_periods=1:start_threshold=-45dB,"
                     "areverse,silenceremove=start_periods=1:start_threshold=-45dB,areverse,"
                     "aresample=48000", "-ac", "1", out], check=True)
-    open(key, "w").write(text + LENGTH_SCALE)
+    open(key, "w").write(text + CACHE_KEY)
     return out
 
 

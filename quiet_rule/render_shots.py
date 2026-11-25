@@ -11,8 +11,10 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, HERE)
 from scene_lib import CAST, SETS, DOOR_CROWD, INTERIOR_SETS, PROPS
 
-RFPS = int(os.environ.get("QR_RENDER_FPS", "15"))
-RES = os.environ.get("QR_RES", "540x960")
+HATS = {"mayor", "baker", "t3"}
+
+RFPS = int(os.environ.get("QR_RENDER_FPS", "30"))
+RES = os.environ.get("QR_RES", "1080x1920")
 FR = os.path.join(HERE, "build", "frames")
 LOG = os.path.join(HERE, "build", "render_progress.log")
 FACES = os.path.join(HERE, "build", "faces")
@@ -75,6 +77,10 @@ class Stage:
                 self.imgs[(n, e)] = bpy.data.images.load(os.path.join(FACES, f"{n}_{e}.png"), check_existing=True)
         self.face_node = {n: self.ob[n + "_face"].active_material.node_tree.nodes["FACE"] for n in CAST}
         self.cur_face = {}
+        ee = self.sc.eevee
+        ee.use_fast_gi = False            # flat low-poly look does not need screen-space GI
+        ee.shadow_resolution_scale = 0.5  # crisp enough hard shadows, ~20% faster on CPU
+        self.sc.render.use_persistent_data = True
 
     # ------------------------------------------------------------------ lighting
     def mood(self, m):
@@ -193,18 +199,25 @@ class Stage:
             ground = self.ob[sh["tgt"] + "_root"].location.z if actors[sh["tgt"]][3] != "sit" else 0.0
 
         def around(d, ang, dz):
-            if sh["tgt"] == "eli_house":
+            if sh["tgt"] == "eli_house" or sh["set"] == "door":
                 ang = 2
             if sh["tgt"] == "safe_in":
                 d *= 1.35
             return T + rot2(f, ang + ang_bias) * d + Vector((0, 0, dz))
 
-        if sh["set"] == "door" and is_actor and sh["tgt"] != "mayor" and cam in ("ecu", "cu"):
-            pos = Vector((T.x + lerp(0.08, -0.04, u) * (1 if T.x > 0 else -1), 594.9, T.z + 0.04)); lens = 40
+        if sh["set"] == "door" and is_actor and cam in ("ecu", "cu"):
+            hat = sh["tgt"] in HATS
+            pos = Vector((T.x + lerp(0.08, -0.04, u) * (1 if T.x >= 0 else -1), 594.9, T.z + (0.2 if hat else 0.04)))
+            lens = 30 if hat else 40
+            look = T + Vector((0, 0, 0.3 if hat else 0.0))
         elif cam == "ecu":
-            pos = around(lerp(2.05, 1.6, u) * k, 8, 0.02); lens = 40
+            hat = is_actor and sh["tgt"] in HATS
+            pos = around(lerp(2.05, 1.6, u) * k * (1.6 if hat else 1.0), 8, 0.25 if hat else 0.06); lens = 40
+            look = T + Vector((0, 0, (0.42 if hat else 0.07) * k))
         elif cam == "cu":
-            pos = around(lerp(2.5, 2.0, u) * k, 22, 0.06); lens = 40
+            hat = is_actor and sh["tgt"] in HATS
+            pos = around(lerp(2.5, 2.0, u) * k * (1.35 if hat else 1.0), 22, 0.15); lens = 40
+            look = T + Vector((0, 0, (0.32 if hat else 0.0) * k))
         elif cam in ("push", "pull"):
             a, b = (7.5, 3.6) if cam == "push" else (3.4, 7.8)
             if not is_actor:
@@ -228,8 +241,8 @@ class Stage:
             O = self.head_pos(sh["over"])
             d2 = (T - O); d2.z = 0; d2.normalize()
             perp = Vector((-d2.y, d2.x, 0))
-            pos = O - d2 * lerp(1.05, 0.85, u) + perp * 0.55 + Vector((0, 0, 0.32))
-            lens = 38
+            pos = O - d2 * lerp(1.9, 1.6, u) + perp * 0.95 + Vector((0, 0, 0.28))
+            lens = 42
             look = T.copy()
         elif cam == "whip":
             pos = around(3.0 * k, 20, 0.15); lens = 35
@@ -302,7 +315,10 @@ class Stage:
                 self.ob[n + "_root"].location = (0, 0, -200)
                 continue
             spec = actors[n]
-            self.pose(n, spec, acts.get(n, spec[3]), t, faces.get(n, "neutral"), hash(n) % 17)
+            default = "blank" if (n in DOOR_CROWD and spec == DOOR_CROWD[n] and n not in SETS[sh["set"]]) else "neutral"
+            if sh["set"] == "door" and n in DOOR_CROWD:
+                default = "blank"
+            self.pose(n, spec, acts.get(n, spec[3]), t, faces.get(n, default), hash(n) % 17)
         hinge = self.ob["door_hinge"]
         door = sh.get("door")
         if door == "opening":
@@ -349,6 +365,9 @@ class Stage:
             return False
         os.makedirs(out, exist_ok=True)
         self.mood(sh["light"] if sh["set"] not in ("kitchen", "door") else "interior")
+        # only light the interior that is on screen (point-light shadow maps are expensive)
+        self.ob["kitchen_lamp"].hide_render = sh["set"] not in ("kitchen", "door")
+        self.ob["hall_lamp"].hide_render = sh["set"] != "safe"
         actors = self.actors_for(sh)
         bias = self.choose_bias(sh, actors)
         t0 = time.time()

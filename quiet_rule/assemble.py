@@ -6,7 +6,7 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 B = os.path.join(HERE, "build")
 CLIPS = os.path.join(B, "clips")
 FR = os.path.join(B, "frames")
-RFPS = int(os.environ.get("QR_RENDER_FPS", "15"))
+RFPS = int(os.environ.get("QR_RENDER_FPS", "30"))
 SR = 48000
 W, H, FPS = 1080, 1920, 30
 ENC = ["-c:v", "libx264", "-preset", "veryfast", "-crf", "17", "-pix_fmt", "yuv420p", "-r", "30",
@@ -34,7 +34,7 @@ def make_clip(sh):
     if sh["kind"] == "render":
         src = os.path.join(FR, sh["id"], "f_%04d.png")
         run(["ffmpeg", "-y", "-v", "error", "-framerate", str(RFPS), "-i", src, "-vf",
-             f"fps={FPS},scale={W}:{H}:flags=lanczos,unsharp=5:5:0.6", "-frames:v", str(n)] + ENC + [out])
+             (f"fps={FPS},scale={W}:{H}:flags=lanczos" + ("" if RFPS == FPS else ",unsharp=5:5:0.6")), "-frames:v", str(n)] + ENC + [out])
     elif sh["kind"] == "card":
         src = os.path.join(B, "cards", sh["card"] + ".png")
         # slow push-in with a tiny settle, 2x supersampled for smooth zoom
@@ -166,8 +166,8 @@ def main():
     final = os.path.join(HERE, "final.mp4")
     fonts = os.path.join(HERE, "assets")
     run(["ffmpeg", "-y", "-v", "error", "-i", nocap, "-i", mixp, "-vf",
-         f"ass={ass}:fontsdir={fonts}", "-frames:v", str(total_frames), "-c:v", "libx264", "-preset", "medium",
-         "-crf", "19", "-pix_fmt", "yuv420p", "-r", "30", "-c:a", "aac", "-b:a", "192k", "-ar", "48000",
+         f"ass={ass}:fontsdir={fonts}", "-frames:v", str(total_frames), "-c:v", "libx264", "-preset", "slow",
+         "-crf", "21", "-maxrate", "1900k", "-bufsize", "3800k", "-pix_fmt", "yuv420p", "-r", "30", "-c:a", "aac", "-b:a", "160k", "-ar", "48000",
          "-movflags", "+faststart", final])
     print(f"wrote {final}: {total:.2f}s, {len(shots)} shots")
 

@@ -379,7 +379,7 @@ def interior_room(name, cx, cy, floor_col, wall_col, door=False):
     poly(name + "_wall_l", [(x0, y0, 0), (x0, y0, H), (x0, y1, H), (x0, y1, 0)], [(3, 2, 1, 0)], wm)
     poly(name + "_wall_r", [(x1, y0, 0), (x1, y0, H), (x1, y1, H), (x1, y1, 0)], [(0, 1, 2, 3)], wm)
     if door:
-        dl, dr, dh = cx - 0.8, cx + 0.8, 2.4
+        dl, dr, dh = cx - 0.8, cx + 0.8, 3.0
         poly(name + "_wall_f", [(x0, y0, 0), (dl, y0, 0), (dl, y0, H), (x0, y0, H),
                                 (dr, y0, 0), (x1, y0, 0), (x1, y0, H), (dr, y0, H),
                                 (dl, y0, dh), (dr, y0, dh)],
@@ -420,11 +420,11 @@ def interiors():
     multibox("bag_tie", [(0.3, 0.3, 0.05, cx + 0.45, cy + 1.9, 0.58, "#4a3a28")])
     # door (hinged)
     hinge = empty("door_hinge", (cx - 0.8, cy - 5, 0))
-    multibox("door_panel", [(1.6, 0.1, 2.38, 0.8, 0, 1.19, "#6a4a30"), (0.12, 0.14, 0.12, 1.4, 0.08, 1.1, "#c8a85a"),
-                            (1.2, 0.12, 0.8, 0.8, 0, 1.7, "#5a3e28")], parent=hinge)
-    multibox("door_frame", [(0.15, 0.2, 2.5, cx - 0.88, cy - 5, 1.25, "#4f3a28"),
-                            (0.15, 0.2, 2.5, cx + 0.88, cy - 5, 1.25, "#4f3a28"),
-                            (1.9, 0.2, 0.15, cx, cy - 5, 2.45, "#4f3a28")])
+    multibox("door_panel", [(1.6, 0.1, 2.98, 0.8, 0, 1.49, "#6a4a30"), (0.12, 0.14, 0.12, 1.4, 0.08, 1.2, "#c8a85a"),
+                            (1.2, 0.12, 0.9, 0.8, 0, 2.1, "#5a3e28")], parent=hinge)
+    multibox("door_frame", [(0.15, 0.2, 3.1, cx - 0.88, cy - 5, 1.55, "#4f3a28"),
+                            (0.15, 0.2, 3.1, cx + 0.88, cy - 5, 1.55, "#4f3a28"),
+                            (1.9, 0.2, 0.15, cx, cy - 5, 3.05, "#4f3a28")])
     # houses outside the kitchen door (so the open door shows a street)
     house("k_out1", cx - 9, cy - 18, 90, w=7, d=7, h=3.6)
     house("k_out2", cx + 6, cy - 19, 90, w=7, d=7, h=3.8)
@@ -443,14 +443,34 @@ def interiors():
     # town hall office with the safe
     hx, hy = INT_HALL
     interior_room("hall", hx, hy, "#7c7a74", "#b8ad96")
-    s = [(1.5, 1.1, 1.7, hx, hy + 4.4, 0.85, "#5d6660"), (1.25, 0.1, 1.45, hx, hy + 3.86, 0.85, "#221e1b"),
-         (1.2, 0.12, 0.06, hx, hy + 3.79, 0.55, "#8a8078"), (1.2, 0.12, 0.06, hx, hy + 3.79, 1.1, "#8a8078"),
-         (1.6, 0.05, 0.1, hx, hy + 3.85, 1.72, "#c9b16a")]
+    G, BODY, TRIM = "#c9b16a", "#4f6458", "#2c3430"
+    fy = hy + 3.85  # front face of the safe
+    s = [(1.5, 1.1, 1.7, hx, hy + 4.4, 0.97, BODY),                      # body (on a plinth)
+         (1.66, 1.24, 0.14, hx, hy + 4.4, 1.89, TRIM),                    # top cap
+         (1.7, 1.26, 0.12, hx, hy + 4.4, 0.06, TRIM),                     # plinth
+         (1.25, 0.1, 1.45, hx, fy + 0.01, 0.97, "#1e1a18"),              # dark empty interior
+         (1.2, 0.12, 0.05, hx, fy - 0.05, 0.62, "#8a8078"), (1.2, 0.12, 0.05, hx, fy - 0.05, 1.18, "#8a8078"),
+         (0.7, 0.3, 0.08, hx + 0.1, fy - 0.12, 0.69, "#9a8a5a"),        # empty cash tray on the shelf
+         (0.62, 0.24, 0.03, hx + 0.1, fy - 0.12, 0.74, "#3a332c"),
+         (1.42, 0.03, 0.05, hx, fy - 0.02, 1.74, G), (1.42, 0.03, 0.05, hx, fy - 0.02, 0.22, G),
+         (0.05, 0.03, 1.5, hx - 0.69, fy - 0.02, 0.98, G), (0.05, 0.03, 1.5, hx + 0.69, fy - 0.02, 0.98, G),
+         (0.9, 0.04, 0.12, hx, fy - 0.03, 1.89, "#d8c98e")]               # name plate
+    s += [(0.14, 0.14, 0.14, hx + dx, hy + 4.4 + dy, 0.0, TRIM) for dx in (-0.68, 0.68) for dy in (-0.48, 0.48)]
     multibox("safe", s)
-    sh = empty("safe_door_hinge", (hx - 0.75, hy + 3.85, 0))
-    multibox("safe_door", [(1.45, 0.14, 1.6, 0.72, -0.07, 0.85, "#66706a"),
-                           (0.36, 0.06, 0.36, 0.72, -0.17, 0.95, "#c9b16a"), (1.45, 0.16, 0.1, 0.72, -0.07, 0.1, "#2f3432"),
-                           (0.1, 0.05, 0.5, 1.2, -0.17, 0.85, "#8f8f8f")], parent=sh)
+    text("safe_plate", "TOWN FUNDS", (hx, fy - 0.06, 1.89), 0, 0.085, "#2c2418", extrude=0.01)
+    for z in (0.45, 1.5):
+        cyl(f"safe_hinge{z}", 0.06, 0.22, (hx - 0.78, fy - 0.02, z - 0.11), "#8f8f8f", seg=8)
+    sh = empty("safe_door_hinge", (hx - 0.75, fy, 0.12))
+    door = [(1.45, 0.16, 1.62, 0.72, -0.08, 0.85, "#5a7064"),
+            (1.3, 0.03, 0.04, 0.72, -0.17, 1.55, G), (1.3, 0.03, 0.04, 0.72, -0.17, 0.15, G),
+            (0.04, 0.03, 1.4, 0.12, -0.17, 0.85, G), (0.04, 0.03, 1.4, 1.32, -0.17, 0.85, G),
+            (1.2, 0.08, 1.4, 0.72, 0.03, 0.85, "#3e4a44")]
+    door += [(0.62, 0.05, 0.05, 0.72, -0.24, 0.62, "#b8b8b0", a) for a in (0, 1.047, 2.094)]
+    door += [(0.12, 0.08, 0.1, 1.48, -0.06, z, "#b8b8b0") for z in (0.3, 0.65, 1.0, 1.35)]
+    multibox("safe_door", door, parent=sh)
+    cyl("safe_dial", 0.17, 0.06, (0.72, -0.16, 1.12), G, seg=16, parent=sh, rot=(math.radians(90), 0, 0))
+    cyl("safe_dial_knob", 0.06, 0.06, (0.72, -0.21, 1.12), "#2c2418", seg=10, parent=sh, rot=(math.radians(90), 0, 0))
+    cyl("safe_hub", 0.07, 0.1, (0.72, -0.2, 0.62), "#b8b8b0", seg=8, parent=sh, rot=(math.radians(90), 0, 0))
     sh.rotation_euler.z = math.radians(-115)
     multibox("hall_props", [(3.0, 1.4, 0.1, hx - 2.8, hy + 1.5, 0.9, "#6a4a30"),
                             (0.1, 1.4, 0.9, hx - 4.25, hy + 1.5, 0.45, "#5a3e28"),
