@@ -37,6 +37,7 @@ function Ensure-Winget([string]$id, [string]$probe) {
     }
     Write-Host "== installing $id (silent)" -ForegroundColor Cyan
     winget install -e --id $id --silent --accept-package-agreements --accept-source-agreements | Out-Host
+    $global:LASTEXITCODE = 0
     Refresh-Path
 }
 
@@ -82,15 +83,45 @@ if (-not (Get-Command ffmpeg -ErrorAction SilentlyContinue)) {
 if (-not (Get-Command ffmpeg -ErrorAction SilentlyContinue)) { throw "ffmpeg not found after install. Open a new PowerShell window and re-run." }
 Write-Host "ffmpeg : $((Get-Command ffmpeg).Source)"
 
+function Get-PortableBlender {
+    # winget's download can be refused by Blender's server (403); fetch the portable zip like a browser instead
+    $dest = Join-Path $Videos "_blender"
+    $exe = Get-ChildItem -Path $dest -Filter blender.exe -Recurse -ErrorAction SilentlyContinue | Select-Object -First 1
+    if ($exe) { return $exe.FullName }
+    New-Item -ItemType Directory -Force -Path $dest | Out-Null
+    $zip = Join-Path $dest "blender.zip"
+    $ua = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0 Safari/537.36"
+    $names = @("Blender5.3/blender-5.3.0-windows-x64.zip", "Blender5.2/blender-5.2.0-windows-x64.zip", "Blender5.1/blender-5.1.0-windows-x64.zip")
+    $hosts = @("https://download.blender.org/release/", "https://mirrors.ocf.berkeley.edu/blender/release/", "https://ftp.nluug.nl/pub/graphics/blender/release/")
+    $ProgressPreference = "SilentlyContinue"
+    foreach ($n in $names) { foreach ($h in $hosts) {
+        try {
+            Write-Host "   trying $h$n"
+            Invoke-WebRequest -Uri "$h$n" -OutFile $zip -UserAgent $ua -UseBasicParsing
+            Expand-Archive -Path $zip -DestinationPath $dest -Force
+            Remove-Item $zip -ErrorAction SilentlyContinue
+            $exe = Get-ChildItem -Path $dest -Filter blender.exe -Recurse | Select-Object -First 1
+            if ($exe) { return $exe.FullName }
+        } catch { Write-Host "   (not available: $($_.Exception.Message))" }
+    } }
+    return $null
+}
+
 $bl = Find-Blender
-if (-not $bl) { Ensure-Winget "BlenderFoundation.Blender" ""; $bl = Find-Blender }
-if (-not $bl) { throw "Blender not found after install. Pass -Blender C:\path\to\blender.exe" }
+if (-not $bl) { try { Ensure-Winget "BlenderFoundation.Blender" "" } catch { Write-Host "winget Blender install failed: $_" }; $bl = Find-Blender }
+if (-not $bl) { Write-Host "== downloading portable Blender" -ForegroundColor Cyan; $bl = Get-PortableBlender }
+if (-not $bl) { throw "Blender could not be installed automatically. Install it from https://www.blender.org/download/ (normal installer), then run this command again." }
 Write-Host "blender: $bl"
 
 Write-Host "== python packages" -ForegroundColor Cyan
 & $py -m pip install --quiet --disable-pip-version-check --upgrade pip | Out-Null
-& $py -m pip install --quiet --disable-pip-version-check numpy pillow piper-tts faster-whisper edge-tts
-if ($LASTEXITCODE -ne 0) { throw "pip install failed" }
+& $py -m pip install --quiet --disable-pip-version-check numpy pillow
+if ($LASTEXITCODE -ne 0) { throw "pip install of numpy/pillow failed" }
+# speech tools are only needed if a story is edited (the narration ships in the package) - never fatal
+foreach ($pkg in @("piper-tts", "faster-whisper", "edge-tts")) {
+    & $py -m pip install --quiet --disable-pip-version-check $pkg 2>$null
+    if ($LASTEXITCODE -ne 0) { Write-Host "   (optional $pkg not installed for this Python; only needed to regenerate narration)" -ForegroundColor DarkYellow }
+}
 
 # ---------------------------------------------------------------- GPU report (the renderer also sets it per run)
 Write-Host "== GPU detection in Blender" -ForegroundColor Cyan
