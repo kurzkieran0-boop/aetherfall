@@ -679,7 +679,7 @@
   {
    "sentence": "s09",
    "set": "street",
-   "cam": "mcu",
+   "cam": "push",
    "tgt": "finn",
    "acts": {
     "finn": "laugh"
@@ -699,7 +699,7 @@
     "ME"
    ],
    "location": "street",
-   "camera_move": "mcu",
+   "camera_move": "push",
    "characters": [
     "finn"
    ],
@@ -1187,8 +1187,11 @@
   {
    "sentence": "s14",
    "set": "board_walk",
-   "cam": "prop",
-   "tgt": "finn_held_whiteboard",
+   "cam": "mcu",
+   "tgt": "finn",
+   "faces": {
+    "finn": "tired"
+   },
    "light": "day",
    "id": "shot_044",
    "frame0": 1560,
@@ -1204,9 +1207,11 @@
     "ME"
    ],
    "location": "board_walk",
-   "camera_move": "prop",
-   "characters": [],
-   "emotion": "neutral"
+   "camera_move": "mcu",
+   "characters": [
+    "finn"
+   ],
+   "emotion": "finn:tired"
   },
   {
    "sentence": "s14",

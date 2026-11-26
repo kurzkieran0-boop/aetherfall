@@ -35,8 +35,8 @@ def main(slug):
         while n > 1 and D / n < min_len and n > math.ceil(D / hard_max):
             n -= 1
         while len(beats) > n:
-            idx = max(j for j, b in enumerate(beats) if "card" not in b or j == len(beats) - 1)
-            beats.pop(idx)
+            scene_beats = [j for j, b in enumerate(beats) if "card" not in b]
+            beats.pop(scene_beats[-1] if scene_beats else len(beats) - 1)   # keep insert cards; drop a scene beat
         k = 0
         while len(beats) < n:
             scene_idx = [jj for jj, b in enumerate(beats) if "card" not in b] or [0]

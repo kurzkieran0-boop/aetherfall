@@ -4,7 +4,7 @@
  "words": 582,
  "wps": 3.481,
  "length_scale": 0.595,
- "source_hash": "da1939180f86e95f",
+ "source_hash": "fde63689794c1f28",
  "whisper_match": 0.975,
  "sentences": [
   {
@@ -1087,7 +1087,7 @@
    "beats": [
     {
      "set": "street",
-     "cam": "mcu",
+     "cam": "push",
      "tgt": "finn",
      "acts": {
       "finn": "laugh"
@@ -1806,8 +1806,11 @@
     },
     {
      "set": "board_walk",
-     "cam": "prop",
-     "tgt": "finn_held_whiteboard"
+     "cam": "mcu",
+     "tgt": "finn",
+     "faces": {
+      "finn": "tired"
+     }
     },
     {
      "set": "board_walk",

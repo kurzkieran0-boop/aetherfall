@@ -16,4 +16,4 @@ SAMPLES = 8
 COUNTER = dict(label="words", who="finn")
 RED_NUMBERS = True
 RED_ALWAYS = ("stone",)
-TEST_SHOT = None                       # set after shots.py (Finn face + readable counter + town)
+TEST_SHOT = "shot_026"                 # s09 "And then there's me." - Finn mcu, counter 4812, street + houses

@@ -295,11 +295,6 @@ def apply(stage, sh, t, gt):
         else:
             oar.location = (-0.55, 0.0, 0.7)
             oar.rotation_euler = (0.35, 0, 0.5)
-    # ---- kit held whiteboard text reads mirrored from the front: un-mirror it
-    for k in ("finn_held_whiteboard_text1",):
-        if k in ob:
-            ob[k].scale.x = -1.0
-            ob[k].rotation_euler.z = math.pi
     # ---- ducks paddle in slow circles
     for i in range(5):
         d = ob.get(f"duck{i}")
@@ -351,7 +346,7 @@ def cam_override(stage, sh, t, actors, T, f, u):
         o = stage.ob[tgt]
         n = (o.matrix_world.to_3x3() @ Vector((0, 0, 1))).normalized()
         c = o.matrix_world @ Vector((0, 0.12, 0))
-        return c + n * lerp(1.25, 1.0, u) + Vector((0, 0, 0.05)), c, 35, 180
+        return c + n * lerp(1.25, 1.0, u) + Vector((0, 0, 0.05)), c, 35
     if tgt == "rope":
         return T + Vector((1.7, 1.5, 1.2)) * lerp(1.25, 1.0, u), T + Vector((0, 0, -0.1)), 32
     if tgt == "falls" and cam == "push":

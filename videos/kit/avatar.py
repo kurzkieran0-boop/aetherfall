@@ -47,8 +47,9 @@ def held_prop(name, kind, arm, label="ELI"):
     elif kind == "whiteboard":
         ob = multibox(f"{name}_held_whiteboard", [(0.7, 0.5, 0.03, 0, 0.12, 0, "#f4f4f0"), (0.74, 0.54, 0.02, 0, 0.12, -0.012, "#4a6a8a")], parent=arm)
         for zs, rx in ((1, 0.0), (-1, math.pi)):
-            tx = text(f"{name}_held_whiteboard_text{zs}", label, (0, 0.12, zs * 0.018), 0, 0.09, "#2a3a6a", parent=ob, extrude=0.002)
-            tx.rotation_euler = (rx, 0, math.pi)
+            tx = text(f"{name}_held_whiteboard_text{zs}", label, (0, 0.12, zs * 0.018), 0,
+                      min(0.16, 0.6 / max(1, len(label)) * 1.6), "#2a3a6a", parent=ob, extrude=0.002)
+            tx.rotation_euler = (rx, 0, 0)
     elif kind == "thermos":
         ob = multibox(f"{name}_held_thermos", [(0.14, 0.14, 0.4, 0, 0.0, 0, "#a3302a"), (0.15, 0.15, 0.08, 0, 0, 0.22, "#d8d8d0")], parent=arm)
     elif kind == "loaf":
@@ -60,6 +61,8 @@ def held_prop(name, kind, arm, label="ELI"):
     else:
         ob = multibox(f"{name}_held_{kind}", [(0.2, 0.2, 0.2, 0, 0, 0, "#888888")], parent=arm)
     ob.location = (0, 0.1, -0.86)
+    if kind == "whiteboard":          # writing faces outward, toward whoever the holder shows it to
+        ob.rotation_euler = (0, math.pi, 0)
     ob.hide_render = True
     for c in ob.children:
         c.hide_render = True

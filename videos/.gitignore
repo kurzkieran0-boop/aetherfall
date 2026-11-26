@@ -16,3 +16,4 @@ final_preview.mp4
 _smoke/
 build_dry_*.log
 **/sheet_*.py
+dryrun_all.log
