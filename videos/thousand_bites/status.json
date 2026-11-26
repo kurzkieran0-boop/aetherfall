@@ -20,5 +20,19 @@
   "cards": 8,
   "max_shot": 1.633,
   "render_frames": 4804
+ },
+ "preview_assembled": {
+  "ok": true,
+  "at": "2026-11-26 06:42:06",
+  "seconds": 170.0,
+  "mb": 8.8
+ },
+ "preview_verified": {
+  "ok": true,
+  "at": "2026-11-26 06:42:34",
+  "duration": 170.0,
+  "shots": 139,
+  "wps": 3.26,
+  "flaws": []
  }
 }

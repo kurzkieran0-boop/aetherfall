@@ -20,5 +20,19 @@
   "ok": true,
   "at": "2026-11-26 06:24:03",
   "objects": 652
+ },
+ "preview_assembled": {
+  "ok": true,
+  "at": "2026-11-26 06:40:09",
+  "seconds": 168.0,
+  "mb": 8.8
+ },
+ "preview_verified": {
+  "ok": true,
+  "at": "2026-11-26 06:40:38",
+  "duration": 168.0,
+  "shots": 140,
+  "wps": 3.48,
+  "flaws": []
  }
 }

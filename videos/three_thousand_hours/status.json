@@ -1,7 +1,7 @@
 {
  "dressing": {
   "ok": true,
-  "at": "2026-11-26 06:17:49",
+  "at": "2026-11-26 06:25:06",
   "objects": 650
  },
  "tts": {
@@ -20,5 +20,19 @@
   "cards": 7,
   "max_shot": 1.5,
   "render_frames": 4581
+ },
+ "preview_assembled": {
+  "ok": true,
+  "at": "2026-11-26 06:35:51",
+  "seconds": 167.5,
+  "mb": 8.5
+ },
+ "preview_verified": {
+  "ok": true,
+  "at": "2026-11-26 06:36:22",
+  "duration": 167.5,
+  "shots": 156,
+  "wps": 3.31,
+  "flaws": []
  }
 }

@@ -38,9 +38,10 @@ What run_all.ps1 does
     one caption per spoken word.
   * progress is kept in videos\progress.json and videos\<slug>\status.json.
 
-Expected time
-  * typical gaming GPU (RTX 3060 / RX 6700 class): about 2-4 hours for all six at full quality; -Preview 30-60 min.
-  * a 4-core CPU without a GPU (the build machine): about 20 hours. Use a GPU.
+Expected time (27,309 frames in total, 1080x1920, Eevee 8 samples)
+  * typical gaming GPU (RTX 3060 / RX 6700 class, ~0.3-0.5 s per frame): about 2.5-4 hours for all six.
+    -Preview (540x960, 1 sample, 15 fps doubled to 30): about 30-45 minutes for all six.
+  * this build machine (4-core CPU, no GPU, ~2.8 s per frame): about 21 hours. Use the GPU.
 
 If something fails
   * "winget is not available": install "App Installer" from the Microsoft Store and re-run.
