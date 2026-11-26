@@ -317,6 +317,14 @@ class Stage:
         if tgt in self.ob and tgt not in self.scene.PROPS:
             p = self.ob[tgt].matrix_world.translation.copy()
             return p, fdir(-90), 1.0, False
+        for suffix, off in (("_feet", (0.3, 0.15)), ("_hand", None)):
+            if tgt.endswith(suffix) and tgt[:-len(suffix)] in actors:
+                n = tgt[:-len(suffix)]
+                if suffix == "_hand":
+                    return self.hand_pos(n), fdir(self.facing(n) - 90), 0.8, False
+                r = self.ob[n + "_root"]
+                f = fdir(self.facing(n))
+                return r.location + f * off[0] + Vector((0, 0, off[1])), f, 1.0, False
         x, y, z, fd = self.scene.PROPS[tgt]
         if isinstance(x, str):          # prop that follows an object: ("obj_name", dx, dy, dz) style
             o = self.ob[x]
@@ -581,6 +589,22 @@ def main():
     if only:
         shots = [s for s in shots if s["id"] in only]
     st = Stage(slug, res)
+    if "--smoke" in a:          # one tiny frame of EVERY shot: finds crashes before a long render
+        fails = []
+        outd = bdir(slug) / "smoke"
+        outd.mkdir(exist_ok=True)
+        for sh in shots:
+            try:
+                st.lights_for(sh)
+                actors = st.actors_for(sh)
+                bias = st.choose_bias(sh, actors)
+                st.frame(sh, sh["dur"] * 0.5, actors, bias, outd / "s.png")
+            except Exception as e:
+                fails.append((sh["id"], repr(e)[:160]))
+        print(f"SMOKE {slug}: {len(shots) - len(fails)}/{len(shots)} shots ok", flush=True)
+        for f in fails[:12]:
+            print("SMOKE FAIL", slug, *f, flush=True)
+        return
     if "--still" in a:          # one test still per listed shot (frame at 60% of the shot)
         outd = Path(a[a.index("--still") + 1])
         outd.mkdir(parents=True, exist_ok=True)
