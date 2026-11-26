@@ -18,3 +18,4 @@ build_dry_*.log
 **/sheet_*.py
 dryrun_all.log
 _blender/
+render_all.log

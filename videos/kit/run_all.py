@@ -109,6 +109,7 @@ def main():
             sh(blender + [KIT / "build.py", "--", s], env)
     order = sorted(slugs, key=lambda s: json.loads((bdir(s) / "timeline.json").read_text())["duration"])
     print("== phase 3: render (shortest first):", ", ".join(order), flush=True)
+    rows = []
     for s in order:
         if dry:
             sj = json.loads((vdir(s) / "shots.json").read_text())
@@ -118,9 +119,8 @@ def main():
             placeholder_frames(s)
         else:
             sh(blender + [KIT / "render.py", "--", s], env)
-    print("== phase 4: assemble + verify", flush=True)
-    rows = []
-    for s in order:
+        # assemble + verify each video as soon as its shots are done, so finished videos appear early
+        print(f"== assemble + verify {s}", flush=True)
         sh([PY, KIT / "assemble.py", s], env)
         sh([PY, KIT / "verify.py", s], env, check=False)
         st = json.loads((vdir(s) / "status.json").read_text())
