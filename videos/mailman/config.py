@@ -1,0 +1,19 @@
+"""The Mailman Skips Our House - config."""
+SLUG = "mailman"
+TITLE = "The Mailman Skips Our House"
+NARRATOR = "Eli"
+STYLE = "A"
+VOICE = "en_US-lessac-high"     # fast at the source (length_scale), no tempo change, no pitch shift
+LENGTH_SCALE = 0.70
+WPS = (3.6, 4.2)
+WPS_TARGET = 4.08               # fast-paced (about 1.5x normal), keeps the runtime under 2:50
+MAX_SIL = 0.25                  # strip silences (squeezed to 0.18 s) - fast, continuous delivery
+SQUEEZE_TO = 0.18
+SENT_GAP = 0.15
+MIN_AUDIO = 140.0
+MIN_SHOTS = 90
+SHOT_TARGET = 1.25
+SHOT_MAX = 2.5
+SAMPLES = 8
+COUNTER = None
+TEST_SHOT = None

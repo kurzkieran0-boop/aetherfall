@@ -1,0 +1,16 @@
+**/build/*
+!**/build/timeline.json
+!**/build/voice.flac
+!**/build/tts_state.json
+!**/build/test_still/
+kit/voices/
+kit/assets/tex/
+kit/assets/digits/
+__pycache__/
+*.lock
+*.tmp
+final_preview.mp4
+**/final_preview.mp4
+**/contact_sheet_preview.png
+**/sync_check_preview.png
+_smoke/

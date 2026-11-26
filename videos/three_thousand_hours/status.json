@@ -1,0 +1,16 @@
+{
+ "dressing": {
+  "ok": true,
+  "at": "2026-11-26 01:29:26",
+  "objects": 650
+ },
+ "tts": {
+  "ok": true,
+  "at": "2026-11-26 01:32:26",
+  "seconds": 174.8,
+  "words": 552,
+  "wps": 3.16,
+  "extra_beats": 0,
+  "length_scale": 0.828
+ }
+}

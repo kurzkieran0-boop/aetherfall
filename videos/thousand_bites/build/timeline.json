@@ -1,0 +1,6068 @@
+{
+ "duration": 178.79,
+ "n_extra": 0,
+ "words": 551,
+ "wps": 3.082,
+ "length_scale": 0.734650341103531,
+ "source_hash": "658562377fd24169",
+ "whisper_match": 0.916,
+ "sentences": [
+  {
+   "id": "s01",
+   "text": "In this town, everyone is only allowed one thousand bites of food in their entire life.",
+   "start": 0.08,
+   "speech_end": 4.39,
+   "end": 4.59,
+   "light": "day",
+   "beats": [
+    {
+     "set": "town",
+     "cam": "drone",
+     "tgt": "pt:0,0,0",
+     "radius": 46
+    },
+    {
+     "set": "street",
+     "cam": "whip",
+     "tgt": "t3"
+    },
+    {
+     "set": "street",
+     "cam": "counter",
+     "tgt": "t3"
+    },
+    {
+     "card": "rule"
+    }
+   ],
+   "words": [
+    {
+     "text": "IN",
+     "red": false,
+     "norm": "in",
+     "norm_raw": "in",
+     "start": 0.08,
+     "end": 0.18
+    },
+    {
+     "text": "THIS",
+     "red": false,
+     "norm": "this",
+     "norm_raw": "this",
+     "start": 0.18,
+     "end": 0.3
+    },
+    {
+     "text": "TOWN",
+     "red": false,
+     "norm": "town",
+     "norm_raw": "town",
+     "start": 0.3,
+     "end": 0.58
+    },
+    {
+     "text": "EVERYONE",
+     "red": false,
+     "norm": "everyone",
+     "norm_raw": "everyone",
+     "start": 0.84,
+     "end": 1.12
+    },
+    {
+     "text": "IS",
+     "red": false,
+     "norm": "is",
+     "norm_raw": "is",
+     "start": 1.12,
+     "end": 1.42
+    },
+    {
+     "text": "ONLY",
+     "red": false,
+     "norm": "only",
+     "norm_raw": "only",
+     "start": 1.42,
+     "end": 1.68
+    },
+    {
+     "text": "ALLOWED",
+     "red": false,
+     "norm": "allowed",
+     "norm_raw": "allowed",
+     "start": 1.68,
+     "end": 1.98
+    },
+    {
+     "text": "ONE",
+     "red": false,
+     "norm": "one",
+     "norm_raw": "one",
+     "start": 1.98,
+     "end": 2.119
+    },
+    {
+     "text": "THOUSAND",
+     "red": false,
+     "norm": "thousand",
+     "norm_raw": "thousand",
+     "start": 2.119,
+     "end": 2.489
+    },
+    {
+     "text": "BITES",
+     "red": false,
+     "norm": "bites",
+     "norm_raw": "bites",
+     "start": 2.489,
+     "end": 2.72
+    },
+    {
+     "text": "OF",
+     "red": false,
+     "norm": "of",
+     "norm_raw": "of",
+     "start": 2.72,
+     "end": 2.98
+    },
+    {
+     "text": "FOOD",
+     "red": false,
+     "norm": "food",
+     "norm_raw": "food",
+     "start": 2.98,
+     "end": 3.16
+    },
+    {
+     "text": "IN",
+     "red": false,
+     "norm": "in",
+     "norm_raw": "in",
+     "start": 3.16,
+     "end": 3.4
+    },
+    {
+     "text": "THEIR",
+     "red": false,
+     "norm": "their",
+     "norm_raw": "their",
+     "start": 3.4,
+     "end": 3.54
+    },
+    {
+     "text": "ENTIRE",
+     "red": false,
+     "norm": "entire",
+     "norm_raw": "entire",
+     "start": 3.54,
+     "end": 3.76
+    },
+    {
+     "text": "LIFE",
+     "red": false,
+     "norm": "life",
+     "norm_raw": "life",
+     "start": 3.76,
+     "end": 4.18
+    }
+   ]
+  },
+  {
+   "id": "s02",
+   "text": "You're born with a glowing number on your chest. Every bite counts it down.",
+   "start": 4.59,
+   "speech_end": 8.39,
+   "end": 8.59,
+   "light": "day",
+   "beats": [
+    {
+     "set": "born",
+     "cam": "push",
+     "tgt": "baby"
+    },
+    {
+     "set": "born",
+     "cam": "counter",
+     "tgt": "baby"
+    },
+    {
+     "set": "eat",
+     "cam": "cu",
+     "tgt": "t2"
+    },
+    {
+     "set": "eat",
+     "cam": "counter",
+     "tgt": "t2"
+    }
+   ],
+   "words": [
+    {
+     "text": "YOU'RE",
+     "red": false,
+     "norm": "youre",
+     "norm_raw": "you're",
+     "start": 4.59,
+     "end": 4.69
+    },
+    {
+     "text": "BORN",
+     "red": false,
+     "norm": "born",
+     "norm_raw": "born",
+     "start": 4.69,
+     "end": 4.85
+    },
+    {
+     "text": "WITH",
+     "red": false,
+     "norm": "with",
+     "norm_raw": "with",
+     "start": 4.85,
+     "end": 5.17
+    },
+    {
+     "text": "A",
+     "red": false,
+     "norm": "a",
+     "norm_raw": "a",
+     "start": 5.17,
+     "end": 5.27
+    },
+    {
+     "text": "GLOWING",
+     "red": false,
+     "norm": "glowing",
+     "norm_raw": "glowing",
+     "start": 5.27,
+     "end": 5.49
+    },
+    {
+     "text": "NUMBER",
+     "red": false,
+     "norm": "number",
+     "norm_raw": "number",
+     "start": 5.49,
+     "end": 5.77
+    },
+    {
+     "text": "ON",
+     "red": false,
+     "norm": "on",
+     "norm_raw": "on",
+     "start": 5.77,
+     "end": 6.13
+    },
+    {
+     "text": "YOUR",
+     "red": false,
+     "norm": "your",
+     "norm_raw": "your",
+     "start": 6.13,
+     "end": 6.29
+    },
+    {
+     "text": "CHEST",
+     "red": false,
+     "norm": "chest",
+     "norm_raw": "chest",
+     "start": 6.29,
+     "end": 6.59
+    },
+    {
+     "text": "EVERY",
+     "red": false,
+     "norm": "every",
+     "norm_raw": "every",
+     "start": 6.91,
+     "end": 7.15
+    },
+    {
+     "text": "BITE",
+     "red": false,
+     "norm": "bite",
+     "norm_raw": "bite",
+     "start": 7.15,
+     "end": 7.37
+    },
+    {
+     "text": "COUNTS",
+     "red": false,
+     "norm": "counts",
+     "norm_raw": "counts",
+     "start": 7.37,
+     "end": 7.73
+    },
+    {
+     "text": "IT",
+     "red": false,
+     "norm": "it",
+     "norm_raw": "it",
+     "start": 7.73,
+     "end": 7.95
+    },
+    {
+     "text": "DOWN",
+     "red": false,
+     "norm": "down",
+     "norm_raw": "down",
+     "start": 7.95,
+     "end": 8.17
+    }
+   ]
+  },
+  {
+   "id": "s03",
+   "text": "When it hits zero, your teeth turn to STONE and you can never chew again.",
+   "start": 8.59,
+   "speech_end": 12.07,
+   "end": 12.27,
+   "light": "day",
+   "beats": [
+    {
+     "set": "stone",
+     "cam": "counter",
+     "tgt": "t4"
+    },
+    {
+     "set": "stone",
+     "cam": "low",
+     "tgt": "t4"
+    },
+    {
+     "set": "stone",
+     "cam": "ecu",
+     "tgt": "t4",
+     "faces": {
+      "t4": "shocked"
+     },
+     "teeth": [
+      "t4"
+     ]
+    },
+    {
+     "set": "stone",
+     "cam": "dutch",
+     "tgt": "t4",
+     "faces": {
+      "t4": "blank"
+     },
+     "teeth": [
+      "t4"
+     ]
+    }
+   ],
+   "words": [
+    {
+     "text": "WHEN",
+     "red": false,
+     "norm": "when",
+     "norm_raw": "when",
+     "start": 8.59,
+     "end": 8.71
+    },
+    {
+     "text": "IT",
+     "red": false,
+     "norm": "it",
+     "norm_raw": "it",
+     "start": 8.71,
+     "end": 8.79
+    },
+    {
+     "text": "HITS",
+     "red": false,
+     "norm": "hits",
+     "norm_raw": "hits",
+     "start": 8.79,
+     "end": 8.95
+    },
+    {
+     "text": "ZERO",
+     "red": false,
+     "norm": "zero",
+     "norm_raw": "zero",
+     "start": 8.95,
+     "end": 9.29
+    },
+    {
+     "text": "YOUR",
+     "red": false,
+     "norm": "your",
+     "norm_raw": "your",
+     "start": 9.59,
+     "end": 9.65
+    },
+    {
+     "text": "TEETH",
+     "red": false,
+     "norm": "teeth",
+     "norm_raw": "teeth",
+     "start": 9.65,
+     "end": 9.89
+    },
+    {
+     "text": "TURN",
+     "red": false,
+     "norm": "turn",
+     "norm_raw": "turn",
+     "start": 9.89,
+     "end": 10.17
+    },
+    {
+     "text": "TO",
+     "red": false,
+     "norm": "to",
+     "norm_raw": "to",
+     "start": 10.17,
+     "end": 10.39
+    },
+    {
+     "text": "STONE",
+     "red": true,
+     "norm": "stone",
+     "norm_raw": "stone",
+     "start": 10.39,
+     "end": 10.61
+    },
+    {
+     "text": "AND",
+     "red": false,
+     "norm": "and",
+     "norm_raw": "and",
+     "start": 10.61,
+     "end": 10.89
+    },
+    {
+     "text": "YOU",
+     "red": false,
+     "norm": "you",
+     "norm_raw": "you",
+     "start": 10.89,
+     "end": 11.03
+    },
+    {
+     "text": "CAN",
+     "red": false,
+     "norm": "can",
+     "norm_raw": "can",
+     "start": 11.03,
+     "end": 11.15
+    },
+    {
+     "text": "NEVER",
+     "red": false,
+     "norm": "never",
+     "norm_raw": "never",
+     "start": 11.15,
+     "end": 11.35
+    },
+    {
+     "text": "CHEW",
+     "red": false,
+     "norm": "chew",
+     "norm_raw": "chew",
+     "start": 11.35,
+     "end": 11.55
+    },
+    {
+     "text": "AGAIN",
+     "red": false,
+     "norm": "again",
+     "norm_raw": "again",
+     "start": 11.55,
+     "end": 11.87
+    }
+   ]
+  },
+  {
+   "id": "s04",
+   "text": "And if you feed someone else, it counts against YOU. So nobody ever shares food.",
+   "start": 12.27,
+   "speech_end": 16.84,
+   "end": 17.04,
+   "light": "day",
+   "beats": [
+    {
+     "set": "share",
+     "cam": "ots",
+     "tgt": "t6",
+     "over": "t5"
+    },
+    {
+     "set": "share",
+     "cam": "hands",
+     "tgt": "t5"
+    },
+    {
+     "set": "share",
+     "cam": "counter",
+     "tgt": "t5"
+    },
+    {
+     "set": "share",
+     "cam": "ecu",
+     "tgt": "t5",
+     "faces": {
+      "t5": "shocked"
+     }
+    },
+    {
+     "set": "share",
+     "cam": "high",
+     "tgt": "t6",
+     "acts": {
+      "t5": "hold:loaf",
+      "t6": "idle"
+     },
+     "faces": {
+      "t6": "grumpy"
+     }
+    }
+   ],
+   "words": [
+    {
+     "text": "AND",
+     "red": false,
+     "norm": "and",
+     "norm_raw": "and",
+     "start": 12.27,
+     "end": 12.37
+    },
+    {
+     "text": "IF",
+     "red": false,
+     "norm": "if",
+     "norm_raw": "if",
+     "start": 12.37,
+     "end": 12.47
+    },
+    {
+     "text": "YOU",
+     "red": false,
+     "norm": "you",
+     "norm_raw": "you",
+     "start": 12.47,
+     "end": 12.63
+    },
+    {
+     "text": "FEED",
+     "red": false,
+     "norm": "feed",
+     "norm_raw": "feed",
+     "start": 12.63,
+     "end": 12.85
+    },
+    {
+     "text": "SOMEONE",
+     "red": false,
+     "norm": "someone",
+     "norm_raw": "someone",
+     "start": 12.85,
+     "end": 13.13
+    },
+    {
+     "text": "ELSE",
+     "red": false,
+     "norm": "else",
+     "norm_raw": "else",
+     "start": 13.13,
+     "end": 13.49
+    },
+    {
+     "text": "IT",
+     "red": false,
+     "norm": "it",
+     "norm_raw": "it",
+     "start": 13.75,
+     "end": 13.8
+    },
+    {
+     "text": "COUNTS",
+     "red": false,
+     "norm": "counts",
+     "norm_raw": "counts",
+     "start": 13.79,
+     "end": 14.03
+    },
+    {
+     "text": "AGAINST",
+     "red": false,
+     "norm": "against",
+     "norm_raw": "against",
+     "start": 14.03,
+     "end": 14.43
+    },
+    {
+     "text": "YOU",
+     "red": true,
+     "norm": "you",
+     "norm_raw": "you",
+     "start": 14.43,
+     "end": 14.75
+    },
+    {
+     "text": "SO",
+     "red": false,
+     "norm": "so",
+     "norm_raw": "so",
+     "start": 15.03,
+     "end": 15.19
+    },
+    {
+     "text": "NOBODY",
+     "red": false,
+     "norm": "nobody",
+     "norm_raw": "nobody",
+     "start": 15.19,
+     "end": 15.47
+    },
+    {
+     "text": "EVER",
+     "red": false,
+     "norm": "ever",
+     "norm_raw": "ever",
+     "start": 15.47,
+     "end": 15.89
+    },
+    {
+     "text": "SHARES",
+     "red": false,
+     "norm": "shares",
+     "norm_raw": "shares",
+     "start": 15.89,
+     "end": 16.17
+    },
+    {
+     "text": "FOOD",
+     "red": false,
+     "norm": "food",
+     "norm_raw": "food",
+     "start": 16.17,
+     "end": 16.55
+    }
+   ]
+  },
+  {
+   "id": "s05",
+   "text": "Birthday cakes have one candle and one bite. Whoever gets it makes a speech.",
+   "start": 17.04,
+   "speech_end": 20.94,
+   "end": 21.14,
+   "light": "day",
+   "beats": [
+    {
+     "set": "yard",
+     "cam": "wide",
+     "tgt": "t7"
+    },
+    {
+     "set": "yard",
+     "cam": "prop",
+     "tgt": "cake_y"
+    },
+    {
+     "set": "yard",
+     "cam": "low",
+     "tgt": "t7",
+     "acts": {
+      "t7": "talk"
+     }
+    },
+    {
+     "set": "yard",
+     "cam": "cu",
+     "tgt": "t2",
+     "faces": {
+      "t2": "blank"
+     }
+    },
+    {
+     "set": "yard",
+     "cam": "orbit",
+     "tgt": "t7",
+     "acts": {
+      "t7": "yell"
+     }
+    }
+   ],
+   "words": [
+    {
+     "text": "BIRTHDAY",
+     "red": false,
+     "norm": "birthday",
+     "norm_raw": "birthday",
+     "start": 17.04,
+     "end": 17.26
+    },
+    {
+     "text": "CAKES",
+     "red": false,
+     "norm": "cakes",
+     "norm_raw": "cakes",
+     "start": 17.26,
+     "end": 17.48
+    },
+    {
+     "text": "HAVE",
+     "red": false,
+     "norm": "have",
+     "norm_raw": "have",
+     "start": 17.48,
+     "end": 17.72
+    },
+    {
+     "text": "ONE",
+     "red": false,
+     "norm": "one",
+     "norm_raw": "one",
+     "start": 17.72,
+     "end": 17.92
+    },
+    {
+     "text": "CANDLE",
+     "red": false,
+     "norm": "candle",
+     "norm_raw": "candle",
+     "start": 17.92,
+     "end": 18.22
+    },
+    {
+     "text": "AND",
+     "red": false,
+     "norm": "and",
+     "norm_raw": "and",
+     "start": 18.22,
+     "end": 18.5
+    },
+    {
+     "text": "ONE",
+     "red": false,
+     "norm": "one",
+     "norm_raw": "one",
+     "start": 18.5,
+     "end": 18.66
+    },
+    {
+     "text": "BITE",
+     "red": false,
+     "norm": "bite",
+     "norm_raw": "bite",
+     "start": 18.66,
+     "end": 18.92
+    },
+    {
+     "text": "WHOEVER",
+     "red": false,
+     "norm": "whoever",
+     "norm_raw": "whoever",
+     "start": 19.3,
+     "end": 19.4
+    },
+    {
+     "text": "GETS",
+     "red": false,
+     "norm": "gets",
+     "norm_raw": "gets",
+     "start": 19.4,
+     "end": 19.82
+    },
+    {
+     "text": "IT",
+     "red": false,
+     "norm": "it",
+     "norm_raw": "it",
+     "start": 19.82,
+     "end": 20.1
+    },
+    {
+     "text": "MAKES",
+     "red": false,
+     "norm": "makes",
+     "norm_raw": "makes",
+     "start": 20.1,
+     "end": 20.26
+    },
+    {
+     "text": "A",
+     "red": false,
+     "norm": "a",
+     "norm_raw": "a",
+     "start": 20.26,
+     "end": 20.44
+    },
+    {
+     "text": "SPEECH",
+     "red": false,
+     "norm": "speech",
+     "norm_raw": "speech",
+     "start": 20.44,
+     "end": 20.64
+    }
+   ]
+  },
+  {
+   "id": "s06",
+   "text": "Restaurants serve one grape per table. People stare at it for an hour.",
+   "start": 21.14,
+   "speech_end": 25.06,
+   "end": 25.26,
+   "light": "interior",
+   "beats": [
+    {
+     "set": "restaurant",
+     "cam": "wide",
+     "tgt": "rest_sign"
+    },
+    {
+     "set": "restaurant",
+     "cam": "prop",
+     "tgt": "grape"
+    },
+    {
+     "card": "grape"
+    },
+    {
+     "set": "restaurant",
+     "cam": "cu",
+     "tgt": "t1",
+     "faces": {
+      "t1": "blank"
+     },
+     "acts": {
+      "t1": "sit"
+     }
+    },
+    {
+     "set": "restaurant",
+     "cam": "push",
+     "tgt": "mayor",
+     "faces": {
+      "mayor": "tired"
+     }
+    }
+   ],
+   "words": [
+    {
+     "text": "RESTAURANTS",
+     "red": false,
+     "norm": "restaurants",
+     "norm_raw": "restaurants",
+     "start": 21.14,
+     "end": 21.62
+    },
+    {
+     "text": "SERVE",
+     "red": false,
+     "norm": "serve",
+     "norm_raw": "serve",
+     "start": 21.62,
+     "end": 21.92
+    },
+    {
+     "text": "ONE",
+     "red": false,
+     "norm": "one",
+     "norm_raw": "one",
+     "start": 21.92,
+     "end": 22.16
+    },
+    {
+     "text": "GRAPE",
+     "red": false,
+     "norm": "grape",
+     "norm_raw": "grape",
+     "start": 22.16,
+     "end": 22.44
+    },
+    {
+     "text": "PER",
+     "red": false,
+     "norm": "per",
+     "norm_raw": "per",
+     "start": 22.44,
+     "end": 22.74
+    },
+    {
+     "text": "TABLE",
+     "red": false,
+     "norm": "table",
+     "norm_raw": "table",
+     "start": 22.74,
+     "end": 23.06
+    },
+    {
+     "text": "PEOPLE",
+     "red": false,
+     "norm": "people",
+     "norm_raw": "people",
+     "start": 23.4,
+     "end": 23.56
+    },
+    {
+     "text": "STARE",
+     "red": false,
+     "norm": "stare",
+     "norm_raw": "stare",
+     "start": 23.56,
+     "end": 23.92
+    },
+    {
+     "text": "AT",
+     "red": false,
+     "norm": "at",
+     "norm_raw": "at",
+     "start": 23.92,
+     "end": 24.2
+    },
+    {
+     "text": "IT",
+     "red": false,
+     "norm": "it",
+     "norm_raw": "it",
+     "start": 24.2,
+     "end": 24.28
+    },
+    {
+     "text": "FOR",
+     "red": false,
+     "norm": "for",
+     "norm_raw": "for",
+     "start": 24.28,
+     "end": 24.48
+    },
+    {
+     "text": "AN",
+     "red": false,
+     "norm": "an",
+     "norm_raw": "an",
+     "start": 24.48,
+     "end": 24.58
+    },
+    {
+     "text": "HOUR",
+     "red": false,
+     "norm": "hour",
+     "norm_raw": "hour",
+     "start": 24.58,
+     "end": 24.86
+    }
+   ]
+  },
+  {
+   "id": "s07",
+   "text": "The baker's best seller is a single crumb on a very nice plate. Twelve dollars.",
+   "start": 25.26,
+   "speech_end": 29.74,
+   "end": 29.94,
+   "light": "day",
+   "beats": [
+    {
+     "set": "bakery",
+     "cam": "wide",
+     "tgt": "baker"
+    },
+    {
+     "set": "bakery",
+     "cam": "ots",
+     "tgt": "baker",
+     "over": "t3",
+     "acts": {
+      "baker": "talk"
+     }
+    },
+    {
+     "set": "bakery",
+     "cam": "prop",
+     "tgt": "plate"
+    },
+    {
+     "card": "crumb"
+    },
+    {
+     "set": "bakery",
+     "cam": "ecu",
+     "tgt": "t3",
+     "faces": {
+      "t3": "shocked"
+     }
+    }
+   ],
+   "words": [
+    {
+     "text": "THE",
+     "red": false,
+     "norm": "the",
+     "norm_raw": "the",
+     "start": 25.26,
+     "end": 25.36
+    },
+    {
+     "text": "BAKER'S",
+     "red": false,
+     "norm": "bakers",
+     "norm_raw": "baker's",
+     "start": 25.36,
+     "end": 25.78
+    },
+    {
+     "text": "BEST",
+     "red": false,
+     "norm": "best",
+     "norm_raw": "best",
+     "start": 25.78,
+     "end": 25.94
+    },
+    {
+     "text": "SELLER",
+     "red": false,
+     "norm": "seller",
+     "norm_raw": "seller",
+     "start": 25.94,
+     "end": 26.3
+    },
+    {
+     "text": "IS",
+     "red": false,
+     "norm": "is",
+     "norm_raw": "is",
+     "start": 26.3,
+     "end": 26.6
+    },
+    {
+     "text": "A",
+     "red": false,
+     "norm": "a",
+     "norm_raw": "a",
+     "start": 26.6,
+     "end": 26.7
+    },
+    {
+     "text": "SINGLE",
+     "red": false,
+     "norm": "single",
+     "norm_raw": "single",
+     "start": 26.7,
+     "end": 26.9
+    },
+    {
+     "text": "CRUMB",
+     "red": false,
+     "norm": "crumb",
+     "norm_raw": "crumb",
+     "start": 26.9,
+     "end": 27.34
+    },
+    {
+     "text": "ON",
+     "red": false,
+     "norm": "on",
+     "norm_raw": "on",
+     "start": 27.34,
+     "end": 27.52
+    },
+    {
+     "text": "A",
+     "red": false,
+     "norm": "a",
+     "norm_raw": "a",
+     "start": 27.52,
+     "end": 27.64
+    },
+    {
+     "text": "VERY",
+     "red": false,
+     "norm": "very",
+     "norm_raw": "very",
+     "start": 27.64,
+     "end": 27.84
+    },
+    {
+     "text": "NICE",
+     "red": false,
+     "norm": "nice",
+     "norm_raw": "nice",
+     "start": 27.84,
+     "end": 28.18
+    },
+    {
+     "text": "PLATE",
+     "red": false,
+     "norm": "plate",
+     "norm_raw": "plate",
+     "start": 28.18,
+     "end": 28.44
+    },
+    {
+     "text": "TWELVE",
+     "red": false,
+     "norm": "twelve",
+     "norm_raw": "twelve",
+     "start": 28.44,
+     "end": 29.04
+    },
+    {
+     "text": "DOLLARS",
+     "red": false,
+     "norm": "dollars",
+     "norm_raw": "dollars",
+     "start": 29.04,
+     "end": 29.74
+    }
+   ]
+  },
+  {
+   "id": "s08",
+   "text": "School lunch is a bell, a tray, and a very long sigh.",
+   "start": 29.94,
+   "speech_end": 32.84,
+   "end": 33.04,
+   "light": "day",
+   "beats": [
+    {
+     "set": "school",
+     "cam": "push",
+     "tgt": "school_sign"
+    },
+    {
+     "set": "cafeteria",
+     "cam": "prop",
+     "tgt": "bell"
+    },
+    {
+     "set": "cafeteria",
+     "cam": "high",
+     "tgt": "maya"
+    },
+    {
+     "set": "cafeteria",
+     "cam": "cu",
+     "tgt": "t8",
+     "faces": {
+      "t8": "tired"
+     }
+    }
+   ],
+   "words": [
+    {
+     "text": "SCHOOL",
+     "red": false,
+     "norm": "school",
+     "norm_raw": "school",
+     "start": 29.94,
+     "end": 30.14
+    },
+    {
+     "text": "LUNCH",
+     "red": false,
+     "norm": "lunch",
+     "norm_raw": "lunch",
+     "start": 30.14,
+     "end": 30.4
+    },
+    {
+     "text": "IS",
+     "red": false,
+     "norm": "is",
+     "norm_raw": "is",
+     "start": 30.4,
+     "end": 30.66
+    },
+    {
+     "text": "A",
+     "red": false,
+     "norm": "a",
+     "norm_raw": "a",
+     "start": 30.66,
+     "end": 30.74
+    },
+    {
+     "text": "BELL",
+     "red": false,
+     "norm": "bell",
+     "norm_raw": "bell",
+     "start": 30.74,
+     "end": 30.92
+    },
+    {
+     "text": "A",
+     "red": false,
+     "norm": "a",
+     "norm_raw": "a",
+     "start": 31.1,
+     "end": 31.15
+    },
+    {
+     "text": "TRAY",
+     "red": false,
+     "norm": "tray",
+     "norm_raw": "tray",
+     "start": 31.14,
+     "end": 31.32
+    },
+    {
+     "text": "AND",
+     "red": false,
+     "norm": "and",
+     "norm_raw": "and",
+     "start": 31.62,
+     "end": 31.72
+    },
+    {
+     "text": "A",
+     "red": false,
+     "norm": "a",
+     "norm_raw": "a",
+     "start": 31.72,
+     "end": 31.8
+    },
+    {
+     "text": "VERY",
+     "red": false,
+     "norm": "very",
+     "norm_raw": "very",
+     "start": 31.8,
+     "end": 31.98
+    },
+    {
+     "text": "LONG",
+     "red": false,
+     "norm": "long",
+     "norm_raw": "long",
+     "start": 31.98,
+     "end": 32.32
+    },
+    {
+     "text": "SIGH",
+     "red": false,
+     "norm": "sigh",
+     "norm_raw": "sigh",
+     "start": 32.32,
+     "end": 32.64
+    }
+   ]
+  },
+  {
+   "id": "s09",
+   "text": "And then there's me. Maya. Nine years old.",
+   "start": 33.04,
+   "speech_end": 35.68,
+   "end": 35.88,
+   "light": "day",
+   "beats": [
+    {
+     "set": "maya_street",
+     "cam": "whip",
+     "tgt": "maya"
+    },
+    {
+     "set": "maya_street",
+     "cam": "low",
+     "tgt": "maya",
+     "acts": {
+      "maya": "wave"
+     }
+    },
+    {
+     "set": "maya_street",
+     "cam": "mcu",
+     "tgt": "maya",
+     "faces": {
+      "maya": "laughing"
+     }
+    }
+   ],
+   "words": [
+    {
+     "text": "AND",
+     "red": false,
+     "norm": "and",
+     "norm_raw": "and",
+     "start": 33.04,
+     "end": 33.16
+    },
+    {
+     "text": "THEN",
+     "red": false,
+     "norm": "then",
+     "norm_raw": "then",
+     "start": 33.16,
+     "end": 33.3
+    },
+    {
+     "text": "THERE'S",
+     "red": false,
+     "norm": "theres",
+     "norm_raw": "there's",
+     "start": 33.3,
+     "end": 33.72
+    },
+    {
+     "text": "ME",
+     "red": false,
+     "norm": "me",
+     "norm_raw": "me",
+     "start": 33.72,
+     "end": 33.88
+    },
+    {
+     "text": "MAYA",
+     "red": false,
+     "norm": "maya",
+     "norm_raw": "maya",
+     "start": 34.18,
+     "end": 34.36
+    },
+    {
+     "text": "NINE",
+     "red": false,
+     "norm": "nine",
+     "norm_raw": "nine",
+     "start": 34.36,
+     "end": 34.98
+    },
+    {
+     "text": "YEARS",
+     "red": false,
+     "norm": "years",
+     "norm_raw": "years",
+     "start": 34.98,
+     "end": 35.22
+    },
+    {
+     "text": "OLD",
+     "red": false,
+     "norm": "old",
+     "norm_raw": "old",
+     "start": 35.22,
+     "end": 35.54
+    }
+   ]
+  },
+  {
+   "id": "s10",
+   "text": "I ate everything. Pancakes. Pickles. A whole watermelon. Once, a sandwich with another sandwich inside it, because it was delicious.",
+   "start": 35.88,
+   "speech_end": 43.4,
+   "end": 43.6,
+   "light": "interior",
+   "beats": [
+    {
+     "set": "kitchen",
+     "cam": "wide",
+     "tgt": "maya"
+    },
+    {
+     "set": "kitchen",
+     "cam": "prop",
+     "tgt": "pancakes"
+    },
+    {
+     "set": "kitchen",
+     "cam": "cu",
+     "tgt": "maya",
+     "faces": {
+      "maya": "laughing"
+     }
+    },
+    {
+     "set": "kitchen",
+     "cam": "prop",
+     "tgt": "melon"
+    },
+    {
+     "set": "kitchen",
+     "cam": "mcu",
+     "tgt": "maya"
+    },
+    {
+     "set": "kitchen",
+     "cam": "push",
+     "tgt": "sandwich"
+    },
+    {
+     "set": "kitchen",
+     "cam": "counter",
+     "tgt": "maya"
+    },
+    {
+     "set": "kitchen",
+     "cam": "ecu",
+     "tgt": "maya",
+     "faces": {
+      "maya": "laughing"
+     }
+    }
+   ],
+   "words": [
+    {
+     "text": "I",
+     "red": false,
+     "norm": "i",
+     "norm_raw": "i",
+     "start": 35.88,
+     "end": 36.0
+    },
+    {
+     "text": "ATE",
+     "red": false,
+     "norm": "ate",
+     "norm_raw": "ate",
+     "start": 36.0,
+     "end": 36.2
+    },
+    {
+     "text": "EVERYTHING",
+     "red": false,
+     "norm": "everything",
+     "norm_raw": "everything",
+     "start": 36.2,
+     "end": 36.56
+    },
+    {
+     "text": "PANCAKES",
+     "red": false,
+     "norm": "pancakes",
+     "norm_raw": "pancakes",
+     "start": 37.0,
+     "end": 37.24
+    },
+    {
+     "text": "PICKLES",
+     "red": false,
+     "norm": "pickles",
+     "norm_raw": "pickles",
+     "start": 37.8,
+     "end": 38.26
+    },
+    {
+     "text": "A",
+     "red": false,
+     "norm": "a",
+     "norm_raw": "a",
+     "start": 38.54,
+     "end": 38.62
+    },
+    {
+     "text": "WHOLE",
+     "red": false,
+     "norm": "whole",
+     "norm_raw": "whole",
+     "start": 38.62,
+     "end": 38.78
+    },
+    {
+     "text": "WATERMELON",
+     "red": false,
+     "norm": "watermelon",
+     "norm_raw": "watermelon",
+     "start": 38.78,
+     "end": 39.4
+    },
+    {
+     "text": "ONCE",
+     "red": false,
+     "norm": "once",
+     "norm_raw": "once",
+     "start": 39.82,
+     "end": 39.98
+    },
+    {
+     "text": "A",
+     "red": false,
+     "norm": "a",
+     "norm_raw": "a",
+     "start": 39.98,
+     "end": 40.3
+    },
+    {
+     "text": "SANDWICH",
+     "red": false,
+     "norm": "sandwich",
+     "norm_raw": "sandwich",
+     "start": 40.3,
+     "end": 40.7
+    },
+    {
+     "text": "WITH",
+     "red": false,
+     "norm": "with",
+     "norm_raw": "with",
+     "start": 40.7,
+     "end": 40.9
+    },
+    {
+     "text": "ANOTHER",
+     "red": false,
+     "norm": "another",
+     "norm_raw": "another",
+     "start": 40.9,
+     "end": 41.1
+    },
+    {
+     "text": "SANDWICH",
+     "red": false,
+     "norm": "sandwich",
+     "norm_raw": "sandwich",
+     "start": 41.1,
+     "end": 41.4
+    },
+    {
+     "text": "INSIDE",
+     "red": false,
+     "norm": "inside",
+     "norm_raw": "inside",
+     "start": 41.4,
+     "end": 41.94
+    },
+    {
+     "text": "IT",
+     "red": false,
+     "norm": "it",
+     "norm_raw": "it",
+     "start": 41.94,
+     "end": 42.1
+    },
+    {
+     "text": "BECAUSE",
+     "red": false,
+     "norm": "because",
+     "norm_raw": "because",
+     "start": 42.1,
+     "end": 42.38
+    },
+    {
+     "text": "IT",
+     "red": false,
+     "norm": "it",
+     "norm_raw": "it",
+     "start": 42.38,
+     "end": 42.56
+    },
+    {
+     "text": "WAS",
+     "red": false,
+     "norm": "was",
+     "norm_raw": "was",
+     "start": 42.56,
+     "end": 42.72
+    },
+    {
+     "text": "DELICIOUS",
+     "red": false,
+     "norm": "delicious",
+     "norm_raw": "delicious",
+     "start": 42.72,
+     "end": 42.98
+    }
+   ]
+  },
+  {
+   "id": "s11",
+   "text": "Then on my birthday, Mom looked at my chest and went pale. Three hundred bites left.",
+   "start": 43.6,
+   "speech_end": 48.11,
+   "end": 48.31,
+   "light": "interior",
+   "beats": [
+    {
+     "set": "kitchen_stand",
+     "cam": "prop",
+     "tgt": "kcake"
+    },
+    {
+     "set": "kitchen_stand",
+     "cam": "ots",
+     "tgt": "mom",
+     "over": "maya"
+    },
+    {
+     "set": "kitchen_stand",
+     "cam": "ecu",
+     "tgt": "mom",
+     "faces": {
+      "mom": "shocked"
+     }
+    },
+    {
+     "set": "kitchen_stand",
+     "cam": "counter",
+     "tgt": "maya"
+    },
+    {
+     "card": "left"
+    }
+   ],
+   "words": [
+    {
+     "text": "THEN",
+     "red": false,
+     "norm": "then",
+     "norm_raw": "then",
+     "start": 43.6,
+     "end": 43.74
+    },
+    {
+     "text": "ON",
+     "red": false,
+     "norm": "on",
+     "norm_raw": "on",
+     "start": 43.74,
+     "end": 43.92
+    },
+    {
+     "text": "MY",
+     "red": false,
+     "norm": "my",
+     "norm_raw": "my",
+     "start": 43.92,
+     "end": 44.08
+    },
+    {
+     "text": "BIRTHDAY",
+     "red": false,
+     "norm": "birthday",
+     "norm_raw": "birthday",
+     "start": 44.08,
+     "end": 44.34
+    },
+    {
+     "text": "MOM",
+     "red": false,
+     "norm": "mom",
+     "norm_raw": "mom",
+     "start": 44.34,
+     "end": 44.74
+    },
+    {
+     "text": "LOOKED",
+     "red": false,
+     "norm": "looked",
+     "norm_raw": "looked",
+     "start": 44.74,
+     "end": 45.0
+    },
+    {
+     "text": "AT",
+     "red": false,
+     "norm": "at",
+     "norm_raw": "at",
+     "start": 45.0,
+     "end": 45.24
+    },
+    {
+     "text": "MY",
+     "red": false,
+     "norm": "my",
+     "norm_raw": "my",
+     "start": 45.24,
+     "end": 45.36
+    },
+    {
+     "text": "CHEST",
+     "red": false,
+     "norm": "chest",
+     "norm_raw": "chest",
+     "start": 45.36,
+     "end": 45.64
+    },
+    {
+     "text": "AND",
+     "red": false,
+     "norm": "and",
+     "norm_raw": "and",
+     "start": 45.64,
+     "end": 45.96
+    },
+    {
+     "text": "WENT",
+     "red": false,
+     "norm": "went",
+     "norm_raw": "went",
+     "start": 45.96,
+     "end": 46.12
+    },
+    {
+     "text": "PALE",
+     "red": false,
+     "norm": "pale",
+     "norm_raw": "pale",
+     "start": 46.12,
+     "end": 46.38
+    },
+    {
+     "text": "THREE",
+     "red": false,
+     "norm": "three",
+     "norm_raw": "three",
+     "start": 46.38,
+     "end": 46.704
+    },
+    {
+     "text": "HUNDRED",
+     "red": false,
+     "norm": "hundred",
+     "norm_raw": "hundred",
+     "start": 46.704,
+     "end": 47.156
+    },
+    {
+     "text": "BITES",
+     "red": false,
+     "norm": "bites",
+     "norm_raw": "bites",
+     "start": 47.156,
+     "end": 47.48
+    },
+    {
+     "text": "LEFT",
+     "red": false,
+     "norm": "left",
+     "norm_raw": "left",
+     "start": 47.48,
+     "end": 47.86
+    }
+   ]
+  },
+  {
+   "id": "s12",
+   "text": "She grabbed my face and whispered, \"Chew slowly.\" Then she cried into a napkin, because crying is free.",
+   "start": 48.31,
+   "speech_end": 54.0,
+   "end": 54.2,
+   "light": "interior",
+   "beats": [
+    {
+     "set": "kitchen_stand",
+     "cam": "cu",
+     "tgt": "mom",
+     "acts": {
+      "mom": "hug"
+     },
+     "faces": {
+      "mom": "scared"
+     }
+    },
+    {
+     "set": "kitchen_stand",
+     "cam": "ecu",
+     "tgt": "mom",
+     "acts": {
+      "mom": "whisper"
+     },
+     "faces": {
+      "mom": "scared"
+     }
+    },
+    {
+     "set": "kitchen_stand",
+     "cam": "ots",
+     "tgt": "maya",
+     "over": "mom",
+     "faces": {
+      "maya": "shocked"
+     }
+    },
+    {
+     "set": "kitchen_stand",
+     "cam": "dutch",
+     "tgt": "mom",
+     "acts": {
+      "mom": "cry"
+     }
+    },
+    {
+     "set": "kitchen_stand",
+     "cam": "low",
+     "tgt": "mom",
+     "acts": {
+      "mom": "cry"
+     }
+    }
+   ],
+   "words": [
+    {
+     "text": "SHE",
+     "red": false,
+     "norm": "she",
+     "norm_raw": "she",
+     "start": 48.31,
+     "end": 48.49
+    },
+    {
+     "text": "GRABBED",
+     "red": false,
+     "norm": "grabbed",
+     "norm_raw": "grabbed",
+     "start": 48.49,
+     "end": 48.71
+    },
+    {
+     "text": "MY",
+     "red": false,
+     "norm": "my",
+     "norm_raw": "my",
+     "start": 48.71,
+     "end": 48.99
+    },
+    {
+     "text": "FACE",
+     "red": false,
+     "norm": "face",
+     "norm_raw": "face",
+     "start": 48.99,
+     "end": 49.25
+    },
+    {
+     "text": "AND",
+     "red": false,
+     "norm": "and",
+     "norm_raw": "and",
+     "start": 49.25,
+     "end": 49.55
+    },
+    {
+     "text": "WHISPERED",
+     "red": false,
+     "norm": "whispered",
+     "norm_raw": "whispered",
+     "start": 49.55,
+     "end": 49.83
+    },
+    {
+     "text": "CHEW",
+     "red": false,
+     "norm": "chew",
+     "norm_raw": "chew",
+     "start": 49.83,
+     "end": 50.29
+    },
+    {
+     "text": "SLOWLY",
+     "red": false,
+     "norm": "slowly",
+     "norm_raw": "slowly",
+     "start": 50.29,
+     "end": 50.75
+    },
+    {
+     "text": "THEN",
+     "red": false,
+     "norm": "then",
+     "norm_raw": "then",
+     "start": 51.09,
+     "end": 51.25
+    },
+    {
+     "text": "SHE",
+     "red": false,
+     "norm": "she",
+     "norm_raw": "she",
+     "start": 51.25,
+     "end": 51.49
+    },
+    {
+     "text": "CRIED",
+     "red": false,
+     "norm": "cried",
+     "norm_raw": "cried",
+     "start": 51.49,
+     "end": 51.69
+    },
+    {
+     "text": "INTO",
+     "red": false,
+     "norm": "into",
+     "norm_raw": "into",
+     "start": 51.69,
+     "end": 52.03
+    },
+    {
+     "text": "A",
+     "red": false,
+     "norm": "a",
+     "norm_raw": "a",
+     "start": 52.03,
+     "end": 52.15
+    },
+    {
+     "text": "NAPKIN",
+     "red": false,
+     "norm": "napkin",
+     "norm_raw": "napkin",
+     "start": 52.15,
+     "end": 52.51
+    },
+    {
+     "text": "BECAUSE",
+     "red": false,
+     "norm": "because",
+     "norm_raw": "because",
+     "start": 52.51,
+     "end": 52.97
+    },
+    {
+     "text": "CRYING",
+     "red": false,
+     "norm": "crying",
+     "norm_raw": "crying",
+     "start": 52.97,
+     "end": 53.25
+    },
+    {
+     "text": "IS",
+     "red": false,
+     "norm": "is",
+     "norm_raw": "is",
+     "start": 53.25,
+     "end": 53.55
+    },
+    {
+     "text": "FREE",
+     "red": false,
+     "norm": "free",
+     "norm_raw": "free",
+     "start": 53.55,
+     "end": 53.77
+    }
+   ]
+  },
+  {
+   "id": "s13",
+   "text": "So I became the smallest eater in town. One lentil at lunch. Half a pea at dinner. Kids called me Crumb Girl.",
+   "start": 54.2,
+   "speech_end": 60.75,
+   "end": 60.95,
+   "light": "day",
+   "beats": [
+    {
+     "set": "cafeteria",
+     "cam": "push",
+     "tgt": "maya"
+    },
+    {
+     "set": "cafeteria",
+     "cam": "prop",
+     "tgt": "tray"
+    },
+    {
+     "set": "kitchen",
+     "cam": "prop",
+     "tgt": "pea",
+     "show": [
+      "pea"
+     ],
+     "acts": {
+      "maya": "look_down"
+     }
+    },
+    {
+     "set": "cafeteria",
+     "cam": "cu",
+     "tgt": "t7",
+     "acts": {
+      "t7": "point",
+      "t8": "laugh"
+     },
+     "faces": {
+      "t7": "laughing"
+     }
+    },
+    {
+     "card": "crumbgirl"
+    },
+    {
+     "set": "cafeteria",
+     "cam": "ecu",
+     "tgt": "maya",
+     "faces": {
+      "maya": "tired"
+     }
+    }
+   ],
+   "words": [
+    {
+     "text": "SO",
+     "red": false,
+     "norm": "so",
+     "norm_raw": "so",
+     "start": 54.2,
+     "end": 54.38
+    },
+    {
+     "text": "I",
+     "red": false,
+     "norm": "i",
+     "norm_raw": "i",
+     "start": 54.38,
+     "end": 54.52
+    },
+    {
+     "text": "BECAME",
+     "red": false,
+     "norm": "became",
+     "norm_raw": "became",
+     "start": 54.52,
+     "end": 54.74
+    },
+    {
+     "text": "THE",
+     "red": false,
+     "norm": "the",
+     "norm_raw": "the",
+     "start": 54.74,
+     "end": 54.98
+    },
+    {
+     "text": "SMALLEST",
+     "red": false,
+     "norm": "smallest",
+     "norm_raw": "smallest",
+     "start": 54.98,
+     "end": 55.24
+    },
+    {
+     "text": "EATER",
+     "red": false,
+     "norm": "eater",
+     "norm_raw": "eater",
+     "start": 55.24,
+     "end": 55.6
+    },
+    {
+     "text": "IN",
+     "red": false,
+     "norm": "in",
+     "norm_raw": "in",
+     "start": 55.6,
+     "end": 55.9
+    },
+    {
+     "text": "TOWN",
+     "red": false,
+     "norm": "town",
+     "norm_raw": "town",
+     "start": 55.9,
+     "end": 56.14
+    },
+    {
+     "text": "ONE",
+     "red": false,
+     "norm": "one",
+     "norm_raw": "one",
+     "start": 56.56,
+     "end": 56.72
+    },
+    {
+     "text": "LENTIL",
+     "red": false,
+     "norm": "lentil",
+     "norm_raw": "lentil",
+     "start": 56.72,
+     "end": 57.12
+    },
+    {
+     "text": "AT",
+     "red": false,
+     "norm": "at",
+     "norm_raw": "at",
+     "start": 57.12,
+     "end": 57.26
+    },
+    {
+     "text": "LUNCH",
+     "red": false,
+     "norm": "lunch",
+     "norm_raw": "lunch",
+     "start": 57.26,
+     "end": 57.48
+    },
+    {
+     "text": "HALF",
+     "red": false,
+     "norm": "half",
+     "norm_raw": "half",
+     "start": 57.86,
+     "end": 58.08
+    },
+    {
+     "text": "A",
+     "red": false,
+     "norm": "a",
+     "norm_raw": "a",
+     "start": 58.08,
+     "end": 58.24
+    },
+    {
+     "text": "PEA",
+     "red": false,
+     "norm": "pea",
+     "norm_raw": "pea",
+     "start": 58.24,
+     "end": 58.6
+    },
+    {
+     "text": "AT",
+     "red": false,
+     "norm": "at",
+     "norm_raw": "at",
+     "start": 58.6,
+     "end": 58.72
+    },
+    {
+     "text": "DINNER",
+     "red": false,
+     "norm": "dinner",
+     "norm_raw": "dinner",
+     "start": 58.72,
+     "end": 58.96
+    },
+    {
+     "text": "KIDS",
+     "red": false,
+     "norm": "kids",
+     "norm_raw": "kids",
+     "start": 59.3,
+     "end": 59.44
+    },
+    {
+     "text": "CALLED",
+     "red": false,
+     "norm": "called",
+     "norm_raw": "called",
+     "start": 59.44,
+     "end": 59.74
+    },
+    {
+     "text": "ME",
+     "red": false,
+     "norm": "me",
+     "norm_raw": "me",
+     "start": 59.74,
+     "end": 59.98
+    },
+    {
+     "text": "CRUMB",
+     "red": false,
+     "norm": "crumb",
+     "norm_raw": "crumb",
+     "start": 59.98,
+     "end": 60.26
+    },
+    {
+     "text": "GIRL",
+     "red": false,
+     "norm": "girl",
+     "norm_raw": "girl",
+     "start": 60.26,
+     "end": 60.52
+    }
+   ]
+  },
+  {
+   "id": "s14",
+   "text": "The only one who understood was my Grandma Rue. Every night she'd sneak into my room with a thermos and whisper, \"Drink this.\"",
+   "start": 60.95,
+   "speech_end": 67.67,
+   "end": 67.87,
+   "light": "night",
+   "beats": [
+    {
+     "set": "bedroom",
+     "cam": "wide",
+     "tgt": "maya"
+    },
+    {
+     "set": "bedroom",
+     "cam": "low",
+     "tgt": "rue",
+     "acts": {
+      "rue": "sneak"
+     }
+    },
+    {
+     "set": "bedroom",
+     "cam": "cu",
+     "tgt": "rue"
+    },
+    {
+     "set": "bedroom",
+     "cam": "prop",
+     "tgt": "rue_held_thermos"
+    },
+    {
+     "set": "bedroom",
+     "cam": "ots",
+     "tgt": "maya",
+     "over": "rue"
+    },
+    {
+     "set": "bedroom",
+     "cam": "ecu",
+     "tgt": "rue",
+     "acts": {
+      "rue": "whisper"
+     }
+    }
+   ],
+   "words": [
+    {
+     "text": "THE",
+     "red": false,
+     "norm": "the",
+     "norm_raw": "the",
+     "start": 60.95,
+     "end": 61.05
+    },
+    {
+     "text": "ONLY",
+     "red": false,
+     "norm": "only",
+     "norm_raw": "only",
+     "start": 61.05,
+     "end": 61.25
+    },
+    {
+     "text": "ONE",
+     "red": false,
+     "norm": "one",
+     "norm_raw": "one",
+     "start": 61.25,
+     "end": 61.65
+    },
+    {
+     "text": "WHO",
+     "red": false,
+     "norm": "who",
+     "norm_raw": "who",
+     "start": 61.65,
+     "end": 61.83
+    },
+    {
+     "text": "UNDERSTOOD",
+     "red": false,
+     "norm": "understood",
+     "norm_raw": "understood",
+     "start": 61.83,
+     "end": 62.17
+    },
+    {
+     "text": "WAS",
+     "red": false,
+     "norm": "was",
+     "norm_raw": "was",
+     "start": 62.17,
+     "end": 62.53
+    },
+    {
+     "text": "MY",
+     "red": false,
+     "norm": "my",
+     "norm_raw": "my",
+     "start": 62.53,
+     "end": 62.69
+    },
+    {
+     "text": "GRANDMA",
+     "red": false,
+     "norm": "grandma",
+     "norm_raw": "grandma",
+     "start": 62.69,
+     "end": 63.348
+    },
+    {
+     "text": "RUE",
+     "red": false,
+     "norm": "rue",
+     "norm_raw": "rue",
+     "start": 63.348,
+     "end": 63.63
+    },
+    {
+     "text": "EVERY",
+     "red": false,
+     "norm": "every",
+     "norm_raw": "every",
+     "start": 63.63,
+     "end": 63.85
+    },
+    {
+     "text": "NIGHT",
+     "red": false,
+     "norm": "night",
+     "norm_raw": "night",
+     "start": 63.85,
+     "end": 64.11
+    },
+    {
+     "text": "SHE'D",
+     "red": false,
+     "norm": "shed",
+     "norm_raw": "she'd",
+     "start": 64.11,
+     "end": 64.47
+    },
+    {
+     "text": "SNEAK",
+     "red": false,
+     "norm": "sneak",
+     "norm_raw": "sneak",
+     "start": 64.47,
+     "end": 64.63
+    },
+    {
+     "text": "INTO",
+     "red": false,
+     "norm": "into",
+     "norm_raw": "into",
+     "start": 64.63,
+     "end": 64.97
+    },
+    {
+     "text": "MY",
+     "red": false,
+     "norm": "my",
+     "norm_raw": "my",
+     "start": 64.97,
+     "end": 65.21
+    },
+    {
+     "text": "ROOM",
+     "red": false,
+     "norm": "room",
+     "norm_raw": "room",
+     "start": 65.21,
+     "end": 65.45
+    },
+    {
+     "text": "WITH",
+     "red": false,
+     "norm": "with",
+     "norm_raw": "with",
+     "start": 65.45,
+     "end": 65.67
+    },
+    {
+     "text": "A",
+     "red": false,
+     "norm": "a",
+     "norm_raw": "a",
+     "start": 65.67,
+     "end": 65.79
+    },
+    {
+     "text": "THERMOS",
+     "red": false,
+     "norm": "thermos",
+     "norm_raw": "thermos",
+     "start": 65.79,
+     "end": 66.13
+    },
+    {
+     "text": "AND",
+     "red": false,
+     "norm": "and",
+     "norm_raw": "and",
+     "start": 66.13,
+     "end": 66.37
+    },
+    {
+     "text": "WHISPER",
+     "red": false,
+     "norm": "whisper",
+     "norm_raw": "whisper",
+     "start": 66.37,
+     "end": 66.55
+    },
+    {
+     "text": "DRINK",
+     "red": false,
+     "norm": "drink",
+     "norm_raw": "drink",
+     "start": 66.97,
+     "end": 67.13
+    },
+    {
+     "text": "THIS",
+     "red": false,
+     "norm": "this",
+     "norm_raw": "this",
+     "start": 67.13,
+     "end": 67.39
+    }
+   ]
+  },
+  {
+   "id": "s15",
+   "text": "It was her tomato soup. Hot. Salty. Perfect. I sipped it slowly under my blanket.",
+   "start": 67.87,
+   "speech_end": 73.26,
+   "end": 73.46,
+   "light": "night",
+   "beats": [
+    {
+     "set": "bedroom_alone",
+     "cam": "prop",
+     "tgt": "maya_held_thermos"
+    },
+    {
+     "set": "bedroom_alone",
+     "cam": "cu",
+     "tgt": "maya",
+     "faces": {
+      "maya": "laughing"
+     }
+    },
+    {
+     "set": "bedroom_alone",
+     "cam": "orbit",
+     "tgt": "maya"
+    },
+    {
+     "set": "bedroom_alone",
+     "cam": "mcu",
+     "tgt": "maya"
+    }
+   ],
+   "words": [
+    {
+     "text": "IT",
+     "red": false,
+     "norm": "it",
+     "norm_raw": "it",
+     "start": 67.87,
+     "end": 67.95
+    },
+    {
+     "text": "WAS",
+     "red": false,
+     "norm": "was",
+     "norm_raw": "was",
+     "start": 67.95,
+     "end": 68.09
+    },
+    {
+     "text": "HER",
+     "red": false,
+     "norm": "her",
+     "norm_raw": "her",
+     "start": 68.09,
+     "end": 68.25
+    },
+    {
+     "text": "TOMATO",
+     "red": false,
+     "norm": "tomato",
+     "norm_raw": "tomato",
+     "start": 68.25,
+     "end": 68.47
+    },
+    {
+     "text": "SOUP",
+     "red": false,
+     "norm": "soup",
+     "norm_raw": "soup",
+     "start": 68.47,
+     "end": 68.85
+    },
+    {
+     "text": "HOT",
+     "red": false,
+     "norm": "hot",
+     "norm_raw": "hot",
+     "start": 69.19,
+     "end": 69.41
+    },
+    {
+     "text": "SALTY",
+     "red": false,
+     "norm": "salty",
+     "norm_raw": "salty",
+     "start": 69.73,
+     "end": 69.97
+    },
+    {
+     "text": "PERFECT",
+     "red": false,
+     "norm": "perfect",
+     "norm_raw": "perfect",
+     "start": 70.47,
+     "end": 70.85
+    },
+    {
+     "text": "I",
+     "red": false,
+     "norm": "i",
+     "norm_raw": "i",
+     "start": 71.29,
+     "end": 71.39
+    },
+    {
+     "text": "SIPPED",
+     "red": false,
+     "norm": "sipped",
+     "norm_raw": "sipped",
+     "start": 71.39,
+     "end": 71.67
+    },
+    {
+     "text": "IT",
+     "red": false,
+     "norm": "it",
+     "norm_raw": "it",
+     "start": 71.67,
+     "end": 71.81
+    },
+    {
+     "text": "SLOWLY",
+     "red": false,
+     "norm": "slowly",
+     "norm_raw": "slowly",
+     "start": 71.81,
+     "end": 72.07
+    },
+    {
+     "text": "UNDER",
+     "red": false,
+     "norm": "under",
+     "norm_raw": "under",
+     "start": 72.07,
+     "end": 72.53
+    },
+    {
+     "text": "MY",
+     "red": false,
+     "norm": "my",
+     "norm_raw": "my",
+     "start": 72.53,
+     "end": 72.73
+    },
+    {
+     "text": "BLANKET",
+     "red": false,
+     "norm": "blanket",
+     "norm_raw": "blanket",
+     "start": 72.73,
+     "end": 72.95
+    }
+   ]
+  },
+  {
+   "id": "s16",
+   "text": "And my counter never moved. I thought that was strange. I didn't think about why.",
+   "start": 73.46,
+   "speech_end": 78.16,
+   "end": 78.36,
+   "light": "night",
+   "beats": [
+    {
+     "set": "bedroom_alone",
+     "cam": "counter",
+     "tgt": "maya"
+    },
+    {
+     "set": "bedroom_alone",
+     "cam": "ecu",
+     "tgt": "maya",
+     "faces": {
+      "maya": "blank"
+     },
+     "acts": {
+      "maya": "idle"
+     }
+    },
+    {
+     "set": "bedroom_alone",
+     "cam": "push",
+     "tgt": "maya",
+     "acts": {
+      "maya": "shrug"
+     }
+    },
+    {
+     "set": "bedroom_alone",
+     "cam": "high",
+     "tgt": "maya",
+     "acts": {
+      "maya": "drink:thermos"
+     }
+    }
+   ],
+   "words": [
+    {
+     "text": "AND",
+     "red": false,
+     "norm": "and",
+     "norm_raw": "and",
+     "start": 73.46,
+     "end": 73.56
+    },
+    {
+     "text": "MY",
+     "red": false,
+     "norm": "my",
+     "norm_raw": "my",
+     "start": 73.56,
+     "end": 73.72
+    },
+    {
+     "text": "COUNTER",
+     "red": false,
+     "norm": "counter",
+     "norm_raw": "counter",
+     "start": 73.72,
+     "end": 74.06
+    },
+    {
+     "text": "NEVER",
+     "red": false,
+     "norm": "never",
+     "norm_raw": "never",
+     "start": 74.06,
+     "end": 74.38
+    },
+    {
+     "text": "MOVED",
+     "red": false,
+     "norm": "moved",
+     "norm_raw": "moved",
+     "start": 74.38,
+     "end": 74.84
+    },
+    {
+     "text": "I",
+     "red": false,
+     "norm": "i",
+     "norm_raw": "i",
+     "start": 75.22,
+     "end": 75.27
+    },
+    {
+     "text": "THOUGHT",
+     "red": false,
+     "norm": "thought",
+     "norm_raw": "thought",
+     "start": 75.26,
+     "end": 75.5
+    },
+    {
+     "text": "THAT",
+     "red": false,
+     "norm": "that",
+     "norm_raw": "that",
+     "start": 75.5,
+     "end": 75.72
+    },
+    {
+     "text": "WAS",
+     "red": false,
+     "norm": "was",
+     "norm_raw": "was",
+     "start": 75.72,
+     "end": 75.92
+    },
+    {
+     "text": "STRANGE",
+     "red": false,
+     "norm": "strange",
+     "norm_raw": "strange",
+     "start": 75.92,
+     "end": 76.24
+    },
+    {
+     "text": "I",
+     "red": false,
+     "norm": "i",
+     "norm_raw": "i",
+     "start": 76.78,
+     "end": 76.86
+    },
+    {
+     "text": "DIDN'T",
+     "red": false,
+     "norm": "didnt",
+     "norm_raw": "didn't",
+     "start": 76.86,
+     "end": 77.16
+    },
+    {
+     "text": "THINK",
+     "red": false,
+     "norm": "think",
+     "norm_raw": "think",
+     "start": 77.16,
+     "end": 77.36
+    },
+    {
+     "text": "ABOUT",
+     "red": false,
+     "norm": "about",
+     "norm_raw": "about",
+     "start": 77.36,
+     "end": 77.64
+    },
+    {
+     "text": "WHY",
+     "red": false,
+     "norm": "why",
+     "norm_raw": "why",
+     "start": 77.64,
+     "end": 77.92
+    }
+   ]
+  },
+  {
+   "id": "s17",
+   "text": "Grandma Rue only had four bites left. She never ate in public. She told everyone she wasn't hungry.",
+   "start": 78.36,
+   "speech_end": 84.43,
+   "end": 84.63,
+   "light": "day",
+   "beats": [
+    {
+     "set": "rue_street",
+     "cam": "counter",
+     "tgt": "rue"
+    },
+    {
+     "set": "rue_street",
+     "cam": "mcu",
+     "tgt": "rue"
+    },
+    {
+     "set": "rue_street",
+     "cam": "ots",
+     "tgt": "rue",
+     "over": "baker"
+    },
+    {
+     "set": "rue_street",
+     "cam": "cu",
+     "tgt": "rue",
+     "acts": {
+      "rue": "talk"
+     },
+     "faces": {
+      "rue": "laughing"
+     }
+    },
+    {
+     "set": "rue_street",
+     "cam": "wide",
+     "tgt": "rue",
+     "acts": {
+      "rue": "wave"
+     }
+    }
+   ],
+   "words": [
+    {
+     "text": "GRANDMA",
+     "red": false,
+     "norm": "grandma",
+     "norm_raw": "grandma",
+     "start": 78.36,
+     "end": 78.794
+    },
+    {
+     "text": "RUE",
+     "red": false,
+     "norm": "rue",
+     "norm_raw": "rue",
+     "start": 78.794,
+     "end": 78.98
+    },
+    {
+     "text": "ONLY",
+     "red": false,
+     "norm": "only",
+     "norm_raw": "only",
+     "start": 78.98,
+     "end": 79.22
+    },
+    {
+     "text": "HAD",
+     "red": false,
+     "norm": "had",
+     "norm_raw": "had",
+     "start": 79.22,
+     "end": 79.58
+    },
+    {
+     "text": "FOUR",
+     "red": false,
+     "norm": "four",
+     "norm_raw": "four",
+     "start": 79.58,
+     "end": 79.82
+    },
+    {
+     "text": "BITES",
+     "red": false,
+     "norm": "bites",
+     "norm_raw": "bites",
+     "start": 79.82,
+     "end": 80.06
+    },
+    {
+     "text": "LEFT",
+     "red": false,
+     "norm": "left",
+     "norm_raw": "left",
+     "start": 80.06,
+     "end": 80.44
+    },
+    {
+     "text": "SHE",
+     "red": false,
+     "norm": "she",
+     "norm_raw": "she",
+     "start": 80.88,
+     "end": 81.0
+    },
+    {
+     "text": "NEVER",
+     "red": false,
+     "norm": "never",
+     "norm_raw": "never",
+     "start": 81.0,
+     "end": 81.18
+    },
+    {
+     "text": "ATE",
+     "red": false,
+     "norm": "ate",
+     "norm_raw": "ate",
+     "start": 81.18,
+     "end": 81.5
+    },
+    {
+     "text": "IN",
+     "red": false,
+     "norm": "in",
+     "norm_raw": "in",
+     "start": 81.5,
+     "end": 81.74
+    },
+    {
+     "text": "PUBLIC",
+     "red": false,
+     "norm": "public",
+     "norm_raw": "public",
+     "start": 81.74,
+     "end": 82.0
+    },
+    {
+     "text": "SHE",
+     "red": false,
+     "norm": "she",
+     "norm_raw": "she",
+     "start": 82.48,
+     "end": 82.6
+    },
+    {
+     "text": "TOLD",
+     "red": false,
+     "norm": "told",
+     "norm_raw": "told",
+     "start": 82.6,
+     "end": 82.82
+    },
+    {
+     "text": "EVERYONE",
+     "red": false,
+     "norm": "everyone",
+     "norm_raw": "everyone",
+     "start": 82.82,
+     "end": 83.18
+    },
+    {
+     "text": "SHE",
+     "red": false,
+     "norm": "she",
+     "norm_raw": "she",
+     "start": 83.18,
+     "end": 83.6
+    },
+    {
+     "text": "WASN'T",
+     "red": false,
+     "norm": "wasnt",
+     "norm_raw": "wasn't",
+     "start": 83.6,
+     "end": 83.96
+    },
+    {
+     "text": "HUNGRY",
+     "red": false,
+     "norm": "hungry",
+     "norm_raw": "hungry",
+     "start": 83.96,
+     "end": 84.24
+    }
+   ]
+  },
+  {
+   "id": "s18",
+   "text": "Then one morning, at the town parade, Grandma Rue collapsed. Right in the middle of Main Street.",
+   "start": 84.63,
+   "speech_end": 89.56,
+   "end": 89.76,
+   "light": "day",
+   "beats": [
+    {
+     "set": "parade",
+     "cam": "drone",
+     "tgt": "pt:7,0,0",
+     "radius": 24
+    },
+    {
+     "set": "parade",
+     "cam": "prop",
+     "tgt": "dog"
+    },
+    {
+     "set": "parade",
+     "cam": "track",
+     "tgt": "rue"
+    },
+    {
+     "set": "parade",
+     "cam": "cu",
+     "tgt": "rue",
+     "acts": {
+      "rue": "stagger"
+     },
+     "faces": {
+      "rue": "tired"
+     }
+    },
+    {
+     "set": "collapse",
+     "cam": "high",
+     "tgt": "rue",
+     "hide": [
+      "maya"
+     ]
+    }
+   ],
+   "words": [
+    {
+     "text": "THEN",
+     "red": false,
+     "norm": "then",
+     "norm_raw": "then",
+     "start": 84.63,
+     "end": 84.83
+    },
+    {
+     "text": "ONE",
+     "red": false,
+     "norm": "one",
+     "norm_raw": "one",
+     "start": 84.83,
+     "end": 85.05
+    },
+    {
+     "text": "MORNING",
+     "red": false,
+     "norm": "morning",
+     "norm_raw": "morning",
+     "start": 85.05,
+     "end": 85.39
+    },
+    {
+     "text": "AT",
+     "red": false,
+     "norm": "at",
+     "norm_raw": "at",
+     "start": 85.67,
+     "end": 85.72
+    },
+    {
+     "text": "THE",
+     "red": false,
+     "norm": "the",
+     "norm_raw": "the",
+     "start": 85.71,
+     "end": 85.81
+    },
+    {
+     "text": "TOWN",
+     "red": false,
+     "norm": "town",
+     "norm_raw": "town",
+     "start": 85.81,
+     "end": 85.99
+    },
+    {
+     "text": "PARADE",
+     "red": false,
+     "norm": "parade",
+     "norm_raw": "parade",
+     "start": 85.99,
+     "end": 86.31
+    },
+    {
+     "text": "GRANDMA",
+     "red": false,
+     "norm": "grandma",
+     "norm_raw": "grandma",
+     "start": 86.31,
+     "end": 86.926
+    },
+    {
+     "text": "RUE",
+     "red": false,
+     "norm": "rue",
+     "norm_raw": "rue",
+     "start": 86.926,
+     "end": 87.19
+    },
+    {
+     "text": "COLLAPSED",
+     "red": false,
+     "norm": "collapsed",
+     "norm_raw": "collapsed",
+     "start": 87.19,
+     "end": 87.51
+    },
+    {
+     "text": "RIGHT",
+     "red": false,
+     "norm": "right",
+     "norm_raw": "right",
+     "start": 87.95,
+     "end": 88.13
+    },
+    {
+     "text": "IN",
+     "red": false,
+     "norm": "in",
+     "norm_raw": "in",
+     "start": 88.13,
+     "end": 88.33
+    },
+    {
+     "text": "THE",
+     "red": false,
+     "norm": "the",
+     "norm_raw": "the",
+     "start": 88.33,
+     "end": 88.45
+    },
+    {
+     "text": "MIDDLE",
+     "red": false,
+     "norm": "middle",
+     "norm_raw": "middle",
+     "start": 88.45,
+     "end": 88.63
+    },
+    {
+     "text": "OF",
+     "red": false,
+     "norm": "of",
+     "norm_raw": "of",
+     "start": 88.63,
+     "end": 88.85
+    },
+    {
+     "text": "MAIN",
+     "red": false,
+     "norm": "main",
+     "norm_raw": "main",
+     "start": 88.85,
+     "end": 88.99
+    },
+    {
+     "text": "STREET",
+     "red": false,
+     "norm": "street",
+     "norm_raw": "street",
+     "start": 88.99,
+     "end": 89.29
+    }
+   ]
+  },
+  {
+   "id": "s19",
+   "text": "The whole town gathered around. Everyone stared. Nobody moved. Nobody wanted to waste a bite.",
+   "start": 89.76,
+   "speech_end": 95.36,
+   "end": 95.56,
+   "light": "day",
+   "beats": [
+    {
+     "set": "collapse",
+     "cam": "drone",
+     "tgt": "pt:6,0,0",
+     "radius": 16
+    },
+    {
+     "set": "collapse",
+     "cam": "ecu",
+     "tgt": "t1",
+     "faces": {
+      "t1": "blank"
+     }
+    },
+    {
+     "set": "collapse",
+     "cam": "ecu",
+     "tgt": "t2",
+     "faces": {
+      "t2": "blank"
+     }
+    },
+    {
+     "set": "collapse",
+     "cam": "low",
+     "tgt": "t3",
+     "faces": {
+      "t3": "blank"
+     }
+    },
+    {
+     "set": "collapse",
+     "cam": "cu",
+     "tgt": "mayor",
+     "faces": {
+      "mayor": "blank"
+     }
+    }
+   ],
+   "words": [
+    {
+     "text": "THE",
+     "red": false,
+     "norm": "the",
+     "norm_raw": "the",
+     "start": 89.76,
+     "end": 89.82
+    },
+    {
+     "text": "WHOLE",
+     "red": false,
+     "norm": "whole",
+     "norm_raw": "whole",
+     "start": 89.82,
+     "end": 89.98
+    },
+    {
+     "text": "TOWN",
+     "red": false,
+     "norm": "town",
+     "norm_raw": "town",
+     "start": 89.98,
+     "end": 90.24
+    },
+    {
+     "text": "GATHERED",
+     "red": false,
+     "norm": "gathered",
+     "norm_raw": "gathered",
+     "start": 90.24,
+     "end": 90.54
+    },
+    {
+     "text": "AROUND",
+     "red": false,
+     "norm": "around",
+     "norm_raw": "around",
+     "start": 90.54,
+     "end": 90.96
+    },
+    {
+     "text": "EVERYONE",
+     "red": false,
+     "norm": "everyone",
+     "norm_raw": "everyone",
+     "start": 90.96,
+     "end": 91.74
+    },
+    {
+     "text": "STARED",
+     "red": false,
+     "norm": "stared",
+     "norm_raw": "stared",
+     "start": 91.74,
+     "end": 92.06
+    },
+    {
+     "text": "NOBODY",
+     "red": false,
+     "norm": "nobody",
+     "norm_raw": "nobody",
+     "start": 92.46,
+     "end": 92.64
+    },
+    {
+     "text": "MOVED",
+     "red": false,
+     "norm": "moved",
+     "norm_raw": "moved",
+     "start": 92.64,
+     "end": 93.12
+    },
+    {
+     "text": "NOBODY",
+     "red": false,
+     "norm": "nobody",
+     "norm_raw": "nobody",
+     "start": 93.56,
+     "end": 93.8
+    },
+    {
+     "text": "WANTED",
+     "red": false,
+     "norm": "wanted",
+     "norm_raw": "wanted",
+     "start": 93.8,
+     "end": 94.22
+    },
+    {
+     "text": "TO",
+     "red": false,
+     "norm": "to",
+     "norm_raw": "to",
+     "start": 94.22,
+     "end": 94.48
+    },
+    {
+     "text": "WASTE",
+     "red": false,
+     "norm": "waste",
+     "norm_raw": "waste",
+     "start": 94.48,
+     "end": 94.7
+    },
+    {
+     "text": "A",
+     "red": false,
+     "norm": "a",
+     "norm_raw": "a",
+     "start": 94.7,
+     "end": 94.94
+    },
+    {
+     "text": "BITE",
+     "red": false,
+     "norm": "bite",
+     "norm_raw": "bite",
+     "start": 94.94,
+     "end": 95.1
+    }
+   ]
+  },
+  {
+   "id": "s20",
+   "text": "The doctor whispered, \"She needs real food. Right now.\"",
+   "start": 95.56,
+   "speech_end": 98.59,
+   "end": 98.79,
+   "light": "day",
+   "beats": [
+    {
+     "set": "collapse",
+     "cam": "cu",
+     "tgt": "doctor",
+     "acts": {
+      "doctor": "whisper"
+     }
+    },
+    {
+     "set": "collapse",
+     "cam": "ecu",
+     "tgt": "rue",
+     "faces": {
+      "rue": "tired"
+     }
+    },
+    {
+     "set": "collapse",
+     "cam": "ots",
+     "tgt": "doctor",
+     "over": "t5",
+     "acts": {
+      "doctor": "whisper"
+     }
+    }
+   ],
+   "words": [
+    {
+     "text": "THE",
+     "red": false,
+     "norm": "the",
+     "norm_raw": "the",
+     "start": 95.56,
+     "end": 95.64
+    },
+    {
+     "text": "DOCTOR",
+     "red": false,
+     "norm": "doctor",
+     "norm_raw": "doctor",
+     "start": 95.64,
+     "end": 95.86
+    },
+    {
+     "text": "WHISPERED",
+     "red": false,
+     "norm": "whispered",
+     "norm_raw": "whispered",
+     "start": 95.86,
+     "end": 96.3
+    },
+    {
+     "text": "SHE",
+     "red": false,
+     "norm": "she",
+     "norm_raw": "she",
+     "start": 96.3,
+     "end": 96.66
+    },
+    {
+     "text": "NEEDS",
+     "red": false,
+     "norm": "needs",
+     "norm_raw": "needs",
+     "start": 96.66,
+     "end": 96.92
+    },
+    {
+     "text": "REAL",
+     "red": false,
+     "norm": "real",
+     "norm_raw": "real",
+     "start": 96.92,
+     "end": 97.18
+    },
+    {
+     "text": "FOOD",
+     "red": false,
+     "norm": "food",
+     "norm_raw": "food",
+     "start": 97.18,
+     "end": 97.6
+    },
+    {
+     "text": "RIGHT",
+     "red": false,
+     "norm": "right",
+     "norm_raw": "right",
+     "start": 97.94,
+     "end": 98.1
+    },
+    {
+     "text": "NOW",
+     "red": false,
+     "norm": "now",
+     "norm_raw": "now",
+     "start": 98.1,
+     "end": 98.38
+    }
+   ]
+  },
+  {
+   "id": "s21",
+   "text": "The baker held up a crumb, then put it back. The mayor looked at his shoes.",
+   "start": 98.79,
+   "speech_end": 102.75,
+   "end": 102.95,
+   "light": "day",
+   "beats": [
+    {
+     "set": "collapse",
+     "cam": "low",
+     "tgt": "baker",
+     "acts": {
+      "baker": "hold:crumb"
+     }
+    },
+    {
+     "set": "collapse",
+     "cam": "prop",
+     "tgt": "baker_held_crumb",
+     "acts": {
+      "baker": "hold:crumb"
+     }
+    },
+    {
+     "set": "collapse",
+     "cam": "cu",
+     "tgt": "baker",
+     "faces": {
+      "baker": "tired"
+     }
+    },
+    {
+     "set": "collapse",
+     "cam": "high",
+     "tgt": "mayor",
+     "acts": {
+      "mayor": "look_down"
+     },
+     "faces": {
+      "mayor": "tired"
+     }
+    }
+   ],
+   "words": [
+    {
+     "text": "THE",
+     "red": false,
+     "norm": "the",
+     "norm_raw": "the",
+     "start": 98.79,
+     "end": 98.85
+    },
+    {
+     "text": "BAKER",
+     "red": false,
+     "norm": "baker",
+     "norm_raw": "baker",
+     "start": 98.85,
+     "end": 99.01
+    },
+    {
+     "text": "HELD",
+     "red": false,
+     "norm": "held",
+     "norm_raw": "held",
+     "start": 99.01,
+     "end": 99.33
+    },
+    {
+     "text": "UP",
+     "red": false,
+     "norm": "up",
+     "norm_raw": "up",
+     "start": 99.33,
+     "end": 99.55
+    },
+    {
+     "text": "A",
+     "red": false,
+     "norm": "a",
+     "norm_raw": "a",
+     "start": 99.55,
+     "end": 99.65
+    },
+    {
+     "text": "CRUMB",
+     "red": false,
+     "norm": "crumb",
+     "norm_raw": "crumb",
+     "start": 99.65,
+     "end": 99.93
+    },
+    {
+     "text": "THEN",
+     "red": false,
+     "norm": "then",
+     "norm_raw": "then",
+     "start": 100.19,
+     "end": 100.33
+    },
+    {
+     "text": "PUT",
+     "red": false,
+     "norm": "put",
+     "norm_raw": "put",
+     "start": 100.33,
+     "end": 100.53
+    },
+    {
+     "text": "IT",
+     "red": false,
+     "norm": "it",
+     "norm_raw": "it",
+     "start": 100.53,
+     "end": 100.67
+    },
+    {
+     "text": "BACK",
+     "red": false,
+     "norm": "back",
+     "norm_raw": "back",
+     "start": 100.67,
+     "end": 100.93
+    },
+    {
+     "text": "THE",
+     "red": false,
+     "norm": "the",
+     "norm_raw": "the",
+     "start": 101.25,
+     "end": 101.39
+    },
+    {
+     "text": "MAYOR",
+     "red": false,
+     "norm": "mayor",
+     "norm_raw": "mayor",
+     "start": 101.39,
+     "end": 101.55
+    },
+    {
+     "text": "LOOKED",
+     "red": false,
+     "norm": "looked",
+     "norm_raw": "looked",
+     "start": 101.55,
+     "end": 101.83
+    },
+    {
+     "text": "AT",
+     "red": false,
+     "norm": "at",
+     "norm_raw": "at",
+     "start": 101.83,
+     "end": 102.05
+    },
+    {
+     "text": "HIS",
+     "red": false,
+     "norm": "his",
+     "norm_raw": "his",
+     "start": 102.05,
+     "end": 102.19
+    },
+    {
+     "text": "SHOES",
+     "red": false,
+     "norm": "shoes",
+     "norm_raw": "shoes",
+     "start": 102.19,
+     "end": 102.43
+    }
+   ]
+  },
+  {
+   "id": "s22",
+   "text": "So I ran to the bakery window, grabbed a loaf, tore off a piece, and put it in Grandma's mouth.",
+   "start": 102.95,
+   "speech_end": 108.08,
+   "end": 108.28,
+   "light": "day",
+   "beats": [
+    {
+     "set": "collapse",
+     "cam": "ecu",
+     "tgt": "maya",
+     "faces": {
+      "maya": "grumpy"
+     }
+    },
+    {
+     "set": "bakery_run",
+     "cam": "chase",
+     "tgt": "maya"
+    },
+    {
+     "set": "bakery_run",
+     "cam": "low",
+     "tgt": "maya"
+    },
+    {
+     "set": "bakery_grab",
+     "cam": "push",
+     "tgt": "window"
+    },
+    {
+     "set": "bakery_grab",
+     "cam": "hands",
+     "tgt": "maya"
+    },
+    {
+     "set": "kneel",
+     "cam": "ots",
+     "tgt": "rue",
+     "over": "maya"
+    },
+    {
+     "set": "kneel",
+     "cam": "hands",
+     "tgt": "maya"
+    }
+   ],
+   "words": [
+    {
+     "text": "SO",
+     "red": false,
+     "norm": "so",
+     "norm_raw": "so",
+     "start": 102.95,
+     "end": 103.11
+    },
+    {
+     "text": "I",
+     "red": false,
+     "norm": "i",
+     "norm_raw": "i",
+     "start": 103.11,
+     "end": 103.29
+    },
+    {
+     "text": "RAN",
+     "red": false,
+     "norm": "ran",
+     "norm_raw": "ran",
+     "start": 103.29,
+     "end": 103.47
+    },
+    {
+     "text": "TO",
+     "red": false,
+     "norm": "to",
+     "norm_raw": "to",
+     "start": 103.47,
+     "end": 103.71
+    },
+    {
+     "text": "THE",
+     "red": false,
+     "norm": "the",
+     "norm_raw": "the",
+     "start": 103.71,
+     "end": 103.81
+    },
+    {
+     "text": "BAKERY",
+     "red": false,
+     "norm": "bakery",
+     "norm_raw": "bakery",
+     "start": 103.81,
+     "end": 104.01
+    },
+    {
+     "text": "WINDOW",
+     "red": false,
+     "norm": "window",
+     "norm_raw": "window",
+     "start": 104.01,
+     "end": 104.45
+    },
+    {
+     "text": "GRABBED",
+     "red": false,
+     "norm": "grabbed",
+     "norm_raw": "grabbed",
+     "start": 104.67,
+     "end": 104.85
+    },
+    {
+     "text": "A",
+     "red": false,
+     "norm": "a",
+     "norm_raw": "a",
+     "start": 104.85,
+     "end": 105.05
+    },
+    {
+     "text": "LOAF",
+     "red": false,
+     "norm": "loaf",
+     "norm_raw": "loaf",
+     "start": 105.05,
+     "end": 105.25
+    },
+    {
+     "text": "TORE",
+     "red": false,
+     "norm": "tore",
+     "norm_raw": "tore",
+     "start": 105.53,
+     "end": 105.63
+    },
+    {
+     "text": "OFF",
+     "red": false,
+     "norm": "off",
+     "norm_raw": "off",
+     "start": 105.63,
+     "end": 105.91
+    },
+    {
+     "text": "A",
+     "red": false,
+     "norm": "a",
+     "norm_raw": "a",
+     "start": 105.91,
+     "end": 106.07
+    },
+    {
+     "text": "PIECE",
+     "red": false,
+     "norm": "piece",
+     "norm_raw": "piece",
+     "start": 106.07,
+     "end": 106.27
+    },
+    {
+     "text": "AND",
+     "red": false,
+     "norm": "and",
+     "norm_raw": "and",
+     "start": 106.27,
+     "end": 106.59
+    },
+    {
+     "text": "PUT",
+     "red": false,
+     "norm": "put",
+     "norm_raw": "put",
+     "start": 106.59,
+     "end": 106.75
+    },
+    {
+     "text": "IT",
+     "red": false,
+     "norm": "it",
+     "norm_raw": "it",
+     "start": 106.75,
+     "end": 106.93
+    },
+    {
+     "text": "IN",
+     "red": false,
+     "norm": "in",
+     "norm_raw": "in",
+     "start": 106.93,
+     "end": 107.05
+    },
+    {
+     "text": "GRANDMA'S",
+     "red": false,
+     "norm": "grandmas",
+     "norm_raw": "grandma's",
+     "start": 107.05,
+     "end": 107.63
+    },
+    {
+     "text": "MOUTH",
+     "red": false,
+     "norm": "mouth",
+     "norm_raw": "mouth",
+     "start": 107.63,
+     "end": 107.77
+    }
+   ]
+  },
+  {
+   "id": "s23",
+   "text": "Three hundred. Two ninety-nine. Two fifty.",
+   "start": 108.28,
+   "speech_end": 111.0,
+   "end": 111.2,
+   "light": "day",
+   "beats": [
+    {
+     "set": "kneel",
+     "cam": "counter",
+     "tgt": "maya"
+    },
+    {
+     "set": "kneel",
+     "cam": "mcu",
+     "tgt": "maya",
+     "faces": {
+      "maya": "scared"
+     }
+    },
+    {
+     "set": "kneel",
+     "cam": "counter",
+     "tgt": "maya"
+    }
+   ],
+   "words": [
+    {
+     "text": "THREE",
+     "red": false,
+     "norm": "three",
+     "norm_raw": "three",
+     "start": 108.28,
+     "end": 108.692
+    },
+    {
+     "text": "HUNDRED",
+     "red": false,
+     "norm": "hundred",
+     "norm_raw": "hundred",
+     "start": 108.692,
+     "end": 109.269
+    },
+    {
+     "text": "TWO",
+     "red": true,
+     "norm": "two",
+     "norm_raw": "two",
+     "start": 109.269,
+     "end": 109.516
+    },
+    {
+     "text": "NINETY-NINE",
+     "red": true,
+     "norm": "ninetynine",
+     "norm_raw": "ninety-nine",
+     "start": 109.516,
+     "end": 110.341
+    },
+    {
+     "text": "TWO",
+     "red": true,
+     "norm": "two",
+     "norm_raw": "two",
+     "start": 110.341,
+     "end": 110.588
+    },
+    {
+     "text": "FIFTY",
+     "red": true,
+     "norm": "fifty",
+     "norm_raw": "fifty",
+     "start": 110.588,
+     "end": 111.0
+    }
+   ]
+  },
+  {
+   "id": "s23b",
+   "text": "Every bite I fed her took one from me.",
+   "start": 111.2,
+   "speech_end": 113.26,
+   "end": 113.46,
+   "light": "day",
+   "beats": [
+    {
+     "set": "kneel",
+     "cam": "hands",
+     "tgt": "maya"
+    },
+    {
+     "set": "kneel",
+     "cam": "mcu",
+     "tgt": "maya",
+     "faces": {
+      "maya": "scared"
+     }
+    }
+   ],
+   "words": [
+    {
+     "text": "EVERY",
+     "red": false,
+     "norm": "every",
+     "norm_raw": "every",
+     "start": 111.2,
+     "end": 111.4
+    },
+    {
+     "text": "BITE",
+     "red": false,
+     "norm": "bite",
+     "norm_raw": "bite",
+     "start": 111.4,
+     "end": 111.62
+    },
+    {
+     "text": "I",
+     "red": false,
+     "norm": "i",
+     "norm_raw": "i",
+     "start": 111.62,
+     "end": 111.9
+    },
+    {
+     "text": "FED",
+     "red": false,
+     "norm": "fed",
+     "norm_raw": "fed",
+     "start": 111.9,
+     "end": 112.06
+    },
+    {
+     "text": "HER",
+     "red": false,
+     "norm": "her",
+     "norm_raw": "her",
+     "start": 112.06,
+     "end": 112.24
+    },
+    {
+     "text": "TOOK",
+     "red": false,
+     "norm": "took",
+     "norm_raw": "took",
+     "start": 112.24,
+     "end": 112.42
+    },
+    {
+     "text": "ONE",
+     "red": false,
+     "norm": "one",
+     "norm_raw": "one",
+     "start": 112.42,
+     "end": 112.64
+    },
+    {
+     "text": "FROM",
+     "red": false,
+     "norm": "from",
+     "norm_raw": "from",
+     "start": 112.64,
+     "end": 112.88
+    },
+    {
+     "text": "ME",
+     "red": false,
+     "norm": "me",
+     "norm_raw": "me",
+     "start": 112.88,
+     "end": 113.08
+    }
+   ]
+  },
+  {
+   "id": "s24",
+   "text": "Two hundred. One fifty. One hundred. Fifty. Ten. Five. Three. Two. One. ZERO.",
+   "start": 113.46,
+   "speech_end": 119.66,
+   "end": 119.86,
+   "light": "day",
+   "beats": [
+    {
+     "set": "kneel",
+     "cam": "counter",
+     "tgt": "maya"
+    },
+    {
+     "set": "kneel",
+     "cam": "ecu",
+     "tgt": "t6",
+     "faces": {
+      "t6": "shocked"
+     }
+    },
+    {
+     "set": "kneel",
+     "cam": "mcu",
+     "tgt": "maya",
+     "faces": {
+      "maya": "scared"
+     }
+    },
+    {
+     "set": "kneel",
+     "cam": "counter",
+     "tgt": "maya"
+    },
+    {
+     "set": "kneel",
+     "cam": "ecu",
+     "tgt": "mom",
+     "faces": {
+      "mom": "shocked"
+     }
+    },
+    {
+     "set": "kneel",
+     "cam": "counter",
+     "tgt": "maya"
+    },
+    {
+     "set": "kneel",
+     "cam": "mcu",
+     "tgt": "maya",
+     "faces": {
+      "maya": "shocked"
+     }
+    },
+    {
+     "set": "kneel",
+     "cam": "counter",
+     "tgt": "maya"
+    }
+   ],
+   "words": [
+    {
+     "text": "TWO",
+     "red": true,
+     "norm": "two",
+     "norm_raw": "two",
+     "start": 113.46,
+     "end": 113.798
+    },
+    {
+     "text": "HUNDRED",
+     "red": true,
+     "norm": "hundred",
+     "norm_raw": "hundred",
+     "start": 113.798,
+     "end": 114.587
+    },
+    {
+     "text": "ONE",
+     "red": true,
+     "norm": "one",
+     "norm_raw": "one",
+     "start": 114.587,
+     "end": 114.925
+    },
+    {
+     "text": "FIFTY",
+     "red": true,
+     "norm": "fifty",
+     "norm_raw": "fifty",
+     "start": 114.925,
+     "end": 115.489
+    },
+    {
+     "text": "ONE",
+     "red": true,
+     "norm": "one",
+     "norm_raw": "one",
+     "start": 115.489,
+     "end": 115.827
+    },
+    {
+     "text": "HUNDRED",
+     "red": true,
+     "norm": "hundred",
+     "norm_raw": "hundred",
+     "start": 115.827,
+     "end": 116.616
+    },
+    {
+     "text": "FIFTY",
+     "red": true,
+     "norm": "fifty",
+     "norm_raw": "fifty",
+     "start": 116.616,
+     "end": 117.18
+    },
+    {
+     "text": "TEN",
+     "red": true,
+     "norm": "ten",
+     "norm_raw": "ten",
+     "start": 117.18,
+     "end": 117.518
+    },
+    {
+     "text": "FIVE",
+     "red": true,
+     "norm": "five",
+     "norm_raw": "five",
+     "start": 117.518,
+     "end": 117.969
+    },
+    {
+     "text": "THREE",
+     "red": true,
+     "norm": "three",
+     "norm_raw": "three",
+     "start": 117.969,
+     "end": 118.533
+    },
+    {
+     "text": "TWO",
+     "red": true,
+     "norm": "two",
+     "norm_raw": "two",
+     "start": 118.533,
+     "end": 118.871
+    },
+    {
+     "text": "ONE",
+     "red": true,
+     "norm": "one",
+     "norm_raw": "one",
+     "start": 118.871,
+     "end": 119.209
+    },
+    {
+     "text": "ZERO",
+     "red": true,
+     "norm": "zero",
+     "norm_raw": "zero",
+     "start": 119.209,
+     "end": 119.66
+    }
+   ]
+  },
+  {
+   "id": "s25",
+   "text": "My teeth went cold. Then heavy. Then solid STONE. I would never chew again.",
+   "start": 119.86,
+   "speech_end": 124.72,
+   "end": 124.92,
+   "light": "day",
+   "beats": [
+    {
+     "set": "kneel",
+     "cam": "ecu",
+     "tgt": "maya",
+     "faces": {
+      "maya": "shocked"
+     },
+     "teeth": [
+      "maya"
+     ]
+    },
+    {
+     "set": "kneel",
+     "cam": "dutch",
+     "tgt": "maya",
+     "faces": {
+      "maya": "scared"
+     },
+     "teeth": [
+      "maya"
+     ]
+    },
+    {
+     "set": "kneel",
+     "cam": "push",
+     "tgt": "maya",
+     "faces": {
+      "maya": "shocked"
+     },
+     "teeth": [
+      "maya"
+     ]
+    },
+    {
+     "set": "kneel",
+     "cam": "high",
+     "tgt": "maya",
+     "acts": {
+      "maya": "idle"
+     },
+     "faces": {
+      "maya": "tired"
+     }
+    }
+   ],
+   "words": [
+    {
+     "text": "MY",
+     "red": false,
+     "norm": "my",
+     "norm_raw": "my",
+     "start": 119.86,
+     "end": 119.98
+    },
+    {
+     "text": "TEETH",
+     "red": false,
+     "norm": "teeth",
+     "norm_raw": "teeth",
+     "start": 119.98,
+     "end": 120.22
+    },
+    {
+     "text": "WENT",
+     "red": false,
+     "norm": "went",
+     "norm_raw": "went",
+     "start": 120.22,
+     "end": 120.52
+    },
+    {
+     "text": "COLD",
+     "red": false,
+     "norm": "cold",
+     "norm_raw": "cold",
+     "start": 120.52,
+     "end": 120.92
+    },
+    {
+     "text": "THEN",
+     "red": false,
+     "norm": "then",
+     "norm_raw": "then",
+     "start": 121.24,
+     "end": 121.36
+    },
+    {
+     "text": "HEAVY",
+     "red": false,
+     "norm": "heavy",
+     "norm_raw": "heavy",
+     "start": 121.36,
+     "end": 121.7
+    },
+    {
+     "text": "THEN",
+     "red": false,
+     "norm": "then",
+     "norm_raw": "then",
+     "start": 122.06,
+     "end": 122.22
+    },
+    {
+     "text": "SOLID",
+     "red": false,
+     "norm": "solid",
+     "norm_raw": "solid",
+     "start": 122.22,
+     "end": 122.52
+    },
+    {
+     "text": "STONE",
+     "red": true,
+     "norm": "stone",
+     "norm_raw": "stone",
+     "start": 122.52,
+     "end": 122.9
+    },
+    {
+     "text": "I",
+     "red": false,
+     "norm": "i",
+     "norm_raw": "i",
+     "start": 123.34,
+     "end": 123.44
+    },
+    {
+     "text": "WOULD",
+     "red": false,
+     "norm": "would",
+     "norm_raw": "would",
+     "start": 123.44,
+     "end": 123.6
+    },
+    {
+     "text": "NEVER",
+     "red": false,
+     "norm": "never",
+     "norm_raw": "never",
+     "start": 123.6,
+     "end": 123.82
+    },
+    {
+     "text": "CHEW",
+     "red": false,
+     "norm": "chew",
+     "norm_raw": "chew",
+     "start": 123.82,
+     "end": 124.12
+    },
+    {
+     "text": "AGAIN",
+     "red": false,
+     "norm": "again",
+     "norm_raw": "again",
+     "start": 124.12,
+     "end": 124.46
+    }
+   ]
+  },
+  {
+   "id": "s26",
+   "text": "But Grandma still wouldn't swallow. The bread was too dry. She was too weak.",
+   "start": 124.92,
+   "speech_end": 129.46,
+   "end": 129.66,
+   "light": "day",
+   "beats": [
+    {
+     "set": "kneel",
+     "cam": "ecu",
+     "tgt": "rue",
+     "faces": {
+      "rue": "tired"
+     }
+    },
+    {
+     "set": "kneel",
+     "cam": "prop",
+     "tgt": "maya_held_loaf"
+    },
+    {
+     "set": "kneel",
+     "cam": "cu",
+     "tgt": "maya",
+     "faces": {
+      "maya": "scared"
+     }
+    },
+    {
+     "set": "kneel",
+     "cam": "mcu",
+     "tgt": "rue",
+     "faces": {
+      "rue": "blank"
+     }
+    }
+   ],
+   "words": [
+    {
+     "text": "BUT",
+     "red": false,
+     "norm": "but",
+     "norm_raw": "but",
+     "start": 124.92,
+     "end": 125.04
+    },
+    {
+     "text": "GRANDMA",
+     "red": false,
+     "norm": "grandma",
+     "norm_raw": "grandma",
+     "start": 125.04,
+     "end": 125.24
+    },
+    {
+     "text": "STILL",
+     "red": false,
+     "norm": "still",
+     "norm_raw": "still",
+     "start": 125.24,
+     "end": 125.84
+    },
+    {
+     "text": "WOULDN'T",
+     "red": false,
+     "norm": "wouldnt",
+     "norm_raw": "wouldn't",
+     "start": 125.84,
+     "end": 126.2
+    },
+    {
+     "text": "SWALLOW",
+     "red": false,
+     "norm": "swallow",
+     "norm_raw": "swallow",
+     "start": 126.2,
+     "end": 126.56
+    },
+    {
+     "text": "THE",
+     "red": false,
+     "norm": "the",
+     "norm_raw": "the",
+     "start": 127.0,
+     "end": 127.06
+    },
+    {
+     "text": "BREAD",
+     "red": false,
+     "norm": "bread",
+     "norm_raw": "bread",
+     "start": 127.06,
+     "end": 127.26
+    },
+    {
+     "text": "WAS",
+     "red": false,
+     "norm": "was",
+     "norm_raw": "was",
+     "start": 127.26,
+     "end": 127.52
+    },
+    {
+     "text": "TOO",
+     "red": false,
+     "norm": "too",
+     "norm_raw": "too",
+     "start": 127.52,
+     "end": 127.72
+    },
+    {
+     "text": "DRY",
+     "red": false,
+     "norm": "dry",
+     "norm_raw": "dry",
+     "start": 127.72,
+     "end": 128.04
+    },
+    {
+     "text": "SHE",
+     "red": false,
+     "norm": "she",
+     "norm_raw": "she",
+     "start": 128.42,
+     "end": 128.56
+    },
+    {
+     "text": "WAS",
+     "red": false,
+     "norm": "was",
+     "norm_raw": "was",
+     "start": 128.56,
+     "end": 128.74
+    },
+    {
+     "text": "TOO",
+     "red": false,
+     "norm": "too",
+     "norm_raw": "too",
+     "start": 128.74,
+     "end": 128.96
+    },
+    {
+     "text": "WEAK",
+     "red": false,
+     "norm": "weak",
+     "norm_raw": "weak",
+     "start": 128.96,
+     "end": 129.22
+    }
+   ]
+  },
+  {
+   "id": "s27",
+   "text": "Her eyes opened a tiny bit. She whispered one word. \"Soup.\"",
+   "start": 129.66,
+   "speech_end": 133.42,
+   "end": 133.62,
+   "light": "day",
+   "beats": [
+    {
+     "set": "kneel",
+     "cam": "ecu",
+     "tgt": "rue",
+     "faces": {
+      "rue": "tired"
+     },
+     "acts": {
+      "maya": "idle"
+     }
+    },
+    {
+     "set": "kneel",
+     "cam": "cu",
+     "tgt": "rue",
+     "faces": {
+      "rue": "talk"
+     },
+     "acts": {
+      "maya": "idle"
+     }
+    },
+    {
+     "card": "soup"
+    }
+   ],
+   "words": [
+    {
+     "text": "HER",
+     "red": false,
+     "norm": "her",
+     "norm_raw": "her",
+     "start": 129.66,
+     "end": 129.78
+    },
+    {
+     "text": "EYES",
+     "red": false,
+     "norm": "eyes",
+     "norm_raw": "eyes",
+     "start": 129.78,
+     "end": 130.0
+    },
+    {
+     "text": "OPENED",
+     "red": false,
+     "norm": "opened",
+     "norm_raw": "opened",
+     "start": 130.0,
+     "end": 130.36
+    },
+    {
+     "text": "A",
+     "red": false,
+     "norm": "a",
+     "norm_raw": "a",
+     "start": 130.36,
+     "end": 130.58
+    },
+    {
+     "text": "TINY",
+     "red": false,
+     "norm": "tiny",
+     "norm_raw": "tiny",
+     "start": 130.58,
+     "end": 130.74
+    },
+    {
+     "text": "BIT",
+     "red": false,
+     "norm": "bit",
+     "norm_raw": "bit",
+     "start": 130.74,
+     "end": 131.1
+    },
+    {
+     "text": "SHE",
+     "red": false,
+     "norm": "she",
+     "norm_raw": "she",
+     "start": 131.44,
+     "end": 131.62
+    },
+    {
+     "text": "WHISPERED",
+     "red": false,
+     "norm": "whispered",
+     "norm_raw": "whispered",
+     "start": 131.62,
+     "end": 131.88
+    },
+    {
+     "text": "ONE",
+     "red": false,
+     "norm": "one",
+     "norm_raw": "one",
+     "start": 131.88,
+     "end": 132.22
+    },
+    {
+     "text": "WORD",
+     "red": false,
+     "norm": "word",
+     "norm_raw": "word",
+     "start": 132.22,
+     "end": 132.54
+    },
+    {
+     "text": "SOUP",
+     "red": false,
+     "norm": "soup",
+     "norm_raw": "soup",
+     "start": 132.92,
+     "end": 133.1
+    }
+   ]
+  },
+  {
+   "id": "s28",
+   "text": "And suddenly I remembered. Every night. The thermos. The blanket. The counter that never moved.",
+   "start": 133.62,
+   "speech_end": 139.04,
+   "end": 139.24,
+   "light": "day",
+   "beats": [
+    {
+     "set": "kneel",
+     "cam": "ecu",
+     "tgt": "maya",
+     "faces": {
+      "maya": "shocked"
+     },
+     "acts": {
+      "maya": "idle"
+     }
+    },
+    {
+     "set": "bedroom",
+     "cam": "push",
+     "tgt": "maya",
+     "light": "night",
+     "acts": {
+      "rue": "whisper"
+     },
+     "flash": true
+    },
+    {
+     "set": "bedroom_alone",
+     "cam": "prop",
+     "tgt": "maya_held_thermos",
+     "light": "night",
+     "flash": true
+    },
+    {
+     "set": "bedroom_alone",
+     "cam": "orbit",
+     "tgt": "maya",
+     "light": "night",
+     "flash": true
+    },
+    {
+     "set": "bedroom_alone",
+     "cam": "counter",
+     "tgt": "maya",
+     "light": "night",
+     "flash": true
+    }
+   ],
+   "words": [
+    {
+     "text": "AND",
+     "red": false,
+     "norm": "and",
+     "norm_raw": "and",
+     "start": 133.62,
+     "end": 133.72
+    },
+    {
+     "text": "SUDDENLY",
+     "red": false,
+     "norm": "suddenly",
+     "norm_raw": "suddenly",
+     "start": 133.72,
+     "end": 134.0
+    },
+    {
+     "text": "I",
+     "red": false,
+     "norm": "i",
+     "norm_raw": "i",
+     "start": 134.0,
+     "end": 134.3
+    },
+    {
+     "text": "REMEMBERED",
+     "red": false,
+     "norm": "remembered",
+     "norm_raw": "remembered",
+     "start": 134.3,
+     "end": 134.58
+    },
+    {
+     "text": "EVERY",
+     "red": false,
+     "norm": "every",
+     "norm_raw": "every",
+     "start": 135.04,
+     "end": 135.28
+    },
+    {
+     "text": "NIGHT",
+     "red": false,
+     "norm": "night",
+     "norm_raw": "night",
+     "start": 135.28,
+     "end": 135.52
+    },
+    {
+     "text": "THE",
+     "red": false,
+     "norm": "the",
+     "norm_raw": "the",
+     "start": 135.88,
+     "end": 136.0
+    },
+    {
+     "text": "THERMOS",
+     "red": false,
+     "norm": "thermos",
+     "norm_raw": "thermos",
+     "start": 136.0,
+     "end": 136.38
+    },
+    {
+     "text": "THE",
+     "red": false,
+     "norm": "the",
+     "norm_raw": "the",
+     "start": 136.78,
+     "end": 136.88
+    },
+    {
+     "text": "BLANKET",
+     "red": false,
+     "norm": "blanket",
+     "norm_raw": "blanket",
+     "start": 136.88,
+     "end": 137.16
+    },
+    {
+     "text": "THE",
+     "red": false,
+     "norm": "the",
+     "norm_raw": "the",
+     "start": 137.6,
+     "end": 137.7
+    },
+    {
+     "text": "COUNTER",
+     "red": false,
+     "norm": "counter",
+     "norm_raw": "counter",
+     "start": 137.7,
+     "end": 137.9
+    },
+    {
+     "text": "THAT",
+     "red": false,
+     "norm": "that",
+     "norm_raw": "that",
+     "start": 137.9,
+     "end": 138.22
+    },
+    {
+     "text": "NEVER",
+     "red": false,
+     "norm": "never",
+     "norm_raw": "never",
+     "start": 138.22,
+     "end": 138.42
+    },
+    {
+     "text": "MOVED",
+     "red": false,
+     "norm": "moved",
+     "norm_raw": "moved",
+     "start": 138.42,
+     "end": 138.78
+    }
+   ]
+  },
+  {
+   "id": "s29",
+   "text": "The counter only counts BITES. Not sips.",
+   "start": 139.24,
+   "speech_end": 141.77,
+   "end": 141.97,
+   "light": "day",
+   "beats": [
+    {
+     "set": "kneel",
+     "cam": "cu",
+     "tgt": "maya",
+     "faces": {
+      "maya": "laughing"
+     },
+     "acts": {
+      "maya": "idle"
+     },
+     "teeth": [
+      "maya"
+     ]
+    },
+    {
+     "card": "sips"
+    }
+   ],
+   "words": [
+    {
+     "text": "THE",
+     "red": false,
+     "norm": "the",
+     "norm_raw": "the",
+     "start": 139.24,
+     "end": 139.32
+    },
+    {
+     "text": "COUNTER",
+     "red": false,
+     "norm": "counter",
+     "norm_raw": "counter",
+     "start": 139.32,
+     "end": 139.5
+    },
+    {
+     "text": "ONLY",
+     "red": false,
+     "norm": "only",
+     "norm_raw": "only",
+     "start": 139.5,
+     "end": 139.86
+    },
+    {
+     "text": "COUNTS",
+     "red": false,
+     "norm": "counts",
+     "norm_raw": "counts",
+     "start": 139.86,
+     "end": 140.2
+    },
+    {
+     "text": "BITES",
+     "red": true,
+     "norm": "bites",
+     "norm_raw": "bites",
+     "start": 140.2,
+     "end": 140.5
+    },
+    {
+     "text": "NOT",
+     "red": false,
+     "norm": "not",
+     "norm_raw": "not",
+     "start": 140.94,
+     "end": 141.16
+    },
+    {
+     "text": "SIPS",
+     "red": false,
+     "norm": "sips",
+     "norm_raw": "sips",
+     "start": 141.16,
+     "end": 141.52
+    }
+   ]
+  },
+  {
+   "id": "s30",
+   "text": "I pulled the thermos out of my backpack and held it to her lips. She drank. Slowly. And the counter stayed at zero.",
+   "start": 141.97,
+   "speech_end": 148.31,
+   "end": 148.51,
+   "light": "day",
+   "beats": [
+    {
+     "set": "kneel",
+     "cam": "track",
+     "tgt": "maya",
+     "acts": {
+      "maya": "hold:thermos"
+     }
+    },
+    {
+     "set": "kneel",
+     "cam": "hands",
+     "tgt": "maya",
+     "acts": {
+      "maya": "give:thermos"
+     }
+    },
+    {
+     "set": "kneel",
+     "cam": "ots",
+     "tgt": "rue",
+     "over": "maya",
+     "acts": {
+      "maya": "give:thermos"
+     }
+    },
+    {
+     "set": "kneel",
+     "cam": "counter",
+     "tgt": "rue",
+     "acts": {
+      "maya": "give:thermos"
+     }
+    },
+    {
+     "set": "kneel",
+     "cam": "counter",
+     "tgt": "maya",
+     "acts": {
+      "maya": "give:thermos"
+     }
+    }
+   ],
+   "words": [
+    {
+     "text": "I",
+     "red": false,
+     "norm": "i",
+     "norm_raw": "i",
+     "start": 141.97,
+     "end": 142.05
+    },
+    {
+     "text": "PULLED",
+     "red": false,
+     "norm": "pulled",
+     "norm_raw": "pulled",
+     "start": 142.05,
+     "end": 142.23
+    },
+    {
+     "text": "THE",
+     "red": false,
+     "norm": "the",
+     "norm_raw": "the",
+     "start": 142.23,
+     "end": 142.47
+    },
+    {
+     "text": "THERMOS",
+     "red": false,
+     "norm": "thermos",
+     "norm_raw": "thermos",
+     "start": 142.47,
+     "end": 142.79
+    },
+    {
+     "text": "OUT",
+     "red": false,
+     "norm": "out",
+     "norm_raw": "out",
+     "start": 142.79,
+     "end": 143.01
+    },
+    {
+     "text": "OF",
+     "red": false,
+     "norm": "of",
+     "norm_raw": "of",
+     "start": 143.01,
+     "end": 143.11
+    },
+    {
+     "text": "MY",
+     "red": false,
+     "norm": "my",
+     "norm_raw": "my",
+     "start": 143.11,
+     "end": 143.21
+    },
+    {
+     "text": "BACKPACK",
+     "red": false,
+     "norm": "backpack",
+     "norm_raw": "backpack",
+     "start": 143.21,
+     "end": 143.49
+    },
+    {
+     "text": "AND",
+     "red": false,
+     "norm": "and",
+     "norm_raw": "and",
+     "start": 143.49,
+     "end": 143.87
+    },
+    {
+     "text": "HELD",
+     "red": false,
+     "norm": "held",
+     "norm_raw": "held",
+     "start": 143.87,
+     "end": 144.05
+    },
+    {
+     "text": "IT",
+     "red": false,
+     "norm": "it",
+     "norm_raw": "it",
+     "start": 144.05,
+     "end": 144.23
+    },
+    {
+     "text": "TO",
+     "red": false,
+     "norm": "to",
+     "norm_raw": "to",
+     "start": 144.23,
+     "end": 144.37
+    },
+    {
+     "text": "HER",
+     "red": false,
+     "norm": "her",
+     "norm_raw": "her",
+     "start": 144.37,
+     "end": 144.53
+    },
+    {
+     "text": "LIPS",
+     "red": false,
+     "norm": "lips",
+     "norm_raw": "lips",
+     "start": 144.53,
+     "end": 144.73
+    },
+    {
+     "text": "SHE",
+     "red": false,
+     "norm": "she",
+     "norm_raw": "she",
+     "start": 145.19,
+     "end": 145.33
+    },
+    {
+     "text": "DRANK",
+     "red": false,
+     "norm": "drank",
+     "norm_raw": "drank",
+     "start": 145.33,
+     "end": 145.59
+    },
+    {
+     "text": "SLOWLY",
+     "red": false,
+     "norm": "slowly",
+     "norm_raw": "slowly",
+     "start": 145.99,
+     "end": 146.31
+    },
+    {
+     "text": "AND",
+     "red": false,
+     "norm": "and",
+     "norm_raw": "and",
+     "start": 146.79,
+     "end": 146.89
+    },
+    {
+     "text": "THE",
+     "red": false,
+     "norm": "the",
+     "norm_raw": "the",
+     "start": 146.89,
+     "end": 146.99
+    },
+    {
+     "text": "COUNTER",
+     "red": false,
+     "norm": "counter",
+     "norm_raw": "counter",
+     "start": 146.99,
+     "end": 147.21
+    },
+    {
+     "text": "STAYED",
+     "red": false,
+     "norm": "stayed",
+     "norm_raw": "stayed",
+     "start": 147.21,
+     "end": 147.57
+    },
+    {
+     "text": "AT",
+     "red": false,
+     "norm": "at",
+     "norm_raw": "at",
+     "start": 147.57,
+     "end": 147.77
+    },
+    {
+     "text": "ZERO",
+     "red": false,
+     "norm": "zero",
+     "norm_raw": "zero",
+     "start": 147.77,
+     "end": 148.07
+    }
+   ]
+  },
+  {
+   "id": "s31",
+   "text": "Color came back to her face. She smiled and whispered, \"I wondered when you'd figure it out.\"",
+   "start": 148.51,
+   "speech_end": 153.25,
+   "end": 153.45,
+   "light": "day",
+   "beats": [
+    {
+     "set": "kneel",
+     "cam": "ecu",
+     "tgt": "rue",
+     "faces": {
+      "rue": "neutral"
+     },
+     "acts": {
+      "maya": "give:thermos"
+     }
+    },
+    {
+     "set": "situp",
+     "cam": "cu",
+     "tgt": "rue",
+     "faces": {
+      "rue": "laughing"
+     }
+    },
+    {
+     "set": "situp",
+     "cam": "ots",
+     "tgt": "rue",
+     "over": "maya",
+     "acts": {
+      "rue": "whisper"
+     }
+    },
+    {
+     "set": "situp",
+     "cam": "ecu",
+     "tgt": "maya",
+     "faces": {
+      "maya": "laughing"
+     },
+     "teeth": [
+      "maya"
+     ]
+    }
+   ],
+   "words": [
+    {
+     "text": "COLOR",
+     "red": false,
+     "norm": "color",
+     "norm_raw": "color",
+     "start": 148.51,
+     "end": 148.75
+    },
+    {
+     "text": "CAME",
+     "red": false,
+     "norm": "came",
+     "norm_raw": "came",
+     "start": 148.75,
+     "end": 148.99
+    },
+    {
+     "text": "BACK",
+     "red": false,
+     "norm": "back",
+     "norm_raw": "back",
+     "start": 148.99,
+     "end": 149.25
+    },
+    {
+     "text": "TO",
+     "red": false,
+     "norm": "to",
+     "norm_raw": "to",
+     "start": 149.25,
+     "end": 149.47
+    },
+    {
+     "text": "HER",
+     "red": false,
+     "norm": "her",
+     "norm_raw": "her",
+     "start": 149.47,
+     "end": 149.59
+    },
+    {
+     "text": "FACE",
+     "red": false,
+     "norm": "face",
+     "norm_raw": "face",
+     "start": 149.59,
+     "end": 149.87
+    },
+    {
+     "text": "SHE",
+     "red": false,
+     "norm": "she",
+     "norm_raw": "she",
+     "start": 150.27,
+     "end": 150.39
+    },
+    {
+     "text": "SMILED",
+     "red": false,
+     "norm": "smiled",
+     "norm_raw": "smiled",
+     "start": 150.39,
+     "end": 150.69
+    },
+    {
+     "text": "AND",
+     "red": false,
+     "norm": "and",
+     "norm_raw": "and",
+     "start": 150.69,
+     "end": 150.97
+    },
+    {
+     "text": "WHISPERED",
+     "red": false,
+     "norm": "whispered",
+     "norm_raw": "whispered",
+     "start": 150.97,
+     "end": 151.23
+    },
+    {
+     "text": "I",
+     "red": false,
+     "norm": "i",
+     "norm_raw": "i",
+     "start": 151.63,
+     "end": 151.69
+    },
+    {
+     "text": "WONDERED",
+     "red": false,
+     "norm": "wondered",
+     "norm_raw": "wondered",
+     "start": 151.69,
+     "end": 151.89
+    },
+    {
+     "text": "WHEN",
+     "red": false,
+     "norm": "when",
+     "norm_raw": "when",
+     "start": 151.89,
+     "end": 152.21
+    },
+    {
+     "text": "YOU'D",
+     "red": false,
+     "norm": "youd",
+     "norm_raw": "you'd",
+     "start": 152.21,
+     "end": 152.43
+    },
+    {
+     "text": "FIGURE",
+     "red": false,
+     "norm": "figure",
+     "norm_raw": "figure",
+     "start": 152.43,
+     "end": 152.63
+    },
+    {
+     "text": "IT",
+     "red": false,
+     "norm": "it",
+     "norm_raw": "it",
+     "start": 152.63,
+     "end": 152.87
+    },
+    {
+     "text": "OUT",
+     "red": false,
+     "norm": "out",
+     "norm_raw": "out",
+     "start": 152.87,
+     "end": 153.05
+    }
+   ]
+  },
+  {
+   "id": "s32",
+   "text": "The whole town watched with open mouths. Then the baker ran for a pot. Then the mayor ran for a ladle.",
+   "start": 153.45,
+   "speech_end": 159.11,
+   "end": 159.31,
+   "light": "day",
+   "beats": [
+    {
+     "set": "situp",
+     "cam": "wide",
+     "tgt": "t2",
+     "faces": {
+      "t1": "shocked",
+      "t2": "shocked",
+      "t3": "shocked",
+      "t6": "shocked",
+      "mayor": "shocked",
+      "baker": "shocked",
+      "mom": "shocked"
+     }
+    },
+    {
+     "set": "situp",
+     "cam": "ecu",
+     "tgt": "t3",
+     "faces": {
+      "t3": "shocked"
+     }
+    },
+    {
+     "set": "situp",
+     "cam": "track",
+     "tgt": "baker",
+     "acts": {
+      "baker": "run"
+     },
+     "faces": {
+      "baker": "shocked"
+     }
+    },
+    {
+     "set": "situp",
+     "cam": "whip",
+     "tgt": "mayor",
+     "acts": {
+      "mayor": "run"
+     }
+    },
+    {
+     "set": "situp",
+     "cam": "low",
+     "tgt": "mayor",
+     "acts": {
+      "mayor": "run"
+     },
+     "faces": {
+      "mayor": "shocked"
+     }
+    }
+   ],
+   "words": [
+    {
+     "text": "THE",
+     "red": false,
+     "norm": "the",
+     "norm_raw": "the",
+     "start": 153.45,
+     "end": 153.53
+    },
+    {
+     "text": "WHOLE",
+     "red": false,
+     "norm": "whole",
+     "norm_raw": "whole",
+     "start": 153.53,
+     "end": 153.69
+    },
+    {
+     "text": "TOWN",
+     "red": false,
+     "norm": "town",
+     "norm_raw": "town",
+     "start": 153.69,
+     "end": 153.99
+    },
+    {
+     "text": "WATCHED",
+     "red": false,
+     "norm": "watched",
+     "norm_raw": "watched",
+     "start": 153.99,
+     "end": 154.29
+    },
+    {
+     "text": "WITH",
+     "red": false,
+     "norm": "with",
+     "norm_raw": "with",
+     "start": 154.29,
+     "end": 154.63
+    },
+    {
+     "text": "OPEN",
+     "red": false,
+     "norm": "open",
+     "norm_raw": "open",
+     "start": 154.63,
+     "end": 154.89
+    },
+    {
+     "text": "MOUTHS",
+     "red": false,
+     "norm": "mouths",
+     "norm_raw": "mouths",
+     "start": 154.89,
+     "end": 155.21
+    },
+    {
+     "text": "THEN",
+     "red": false,
+     "norm": "then",
+     "norm_raw": "then",
+     "start": 155.69,
+     "end": 155.83
+    },
+    {
+     "text": "THE",
+     "red": false,
+     "norm": "the",
+     "norm_raw": "the",
+     "start": 155.83,
+     "end": 156.01
+    },
+    {
+     "text": "BAKER",
+     "red": false,
+     "norm": "baker",
+     "norm_raw": "baker",
+     "start": 156.01,
+     "end": 156.19
+    },
+    {
+     "text": "RAN",
+     "red": false,
+     "norm": "ran",
+     "norm_raw": "ran",
+     "start": 156.19,
+     "end": 156.51
+    },
+    {
+     "text": "FOR",
+     "red": false,
+     "norm": "for",
+     "norm_raw": "for",
+     "start": 156.51,
+     "end": 156.79
+    },
+    {
+     "text": "A",
+     "red": false,
+     "norm": "a",
+     "norm_raw": "a",
+     "start": 156.79,
+     "end": 156.87
+    },
+    {
+     "text": "POT",
+     "red": false,
+     "norm": "pot",
+     "norm_raw": "pot",
+     "start": 156.87,
+     "end": 157.09
+    },
+    {
+     "text": "THEN",
+     "red": false,
+     "norm": "then",
+     "norm_raw": "then",
+     "start": 157.47,
+     "end": 157.63
+    },
+    {
+     "text": "THE",
+     "red": false,
+     "norm": "the",
+     "norm_raw": "the",
+     "start": 157.63,
+     "end": 157.81
+    },
+    {
+     "text": "MAYOR",
+     "red": false,
+     "norm": "mayor",
+     "norm_raw": "mayor",
+     "start": 157.81,
+     "end": 157.93
+    },
+    {
+     "text": "RAN",
+     "red": false,
+     "norm": "ran",
+     "norm_raw": "ran",
+     "start": 157.93,
+     "end": 158.27
+    },
+    {
+     "text": "FOR",
+     "red": false,
+     "norm": "for",
+     "norm_raw": "for",
+     "start": 158.27,
+     "end": 158.55
+    },
+    {
+     "text": "A",
+     "red": false,
+     "norm": "a",
+     "norm_raw": "a",
+     "start": 158.55,
+     "end": 158.65
+    },
+    {
+     "text": "LADLE",
+     "red": false,
+     "norm": "ladle",
+     "norm_raw": "ladle",
+     "start": 158.65,
+     "end": 158.97
+    }
+   ]
+  },
+  {
+   "id": "s33",
+   "text": "By sunset, there was soup on every corner. Pumpkin. Chicken. Potato. A hundred spoons clinking, and not one counter moving.",
+   "start": 159.31,
+   "speech_end": 166.59,
+   "end": 166.79,
+   "light": "golden",
+   "beats": [
+    {
+     "set": "corners",
+     "cam": "drone",
+     "tgt": "pt:14,0,0",
+     "radius": 34
+    },
+    {
+     "set": "corners",
+     "cam": "prop",
+     "tgt": "pot_a"
+    },
+    {
+     "set": "corners",
+     "cam": "push",
+     "tgt": "t1"
+    },
+    {
+     "set": "corners",
+     "cam": "cu",
+     "tgt": "t5"
+    },
+    {
+     "set": "corners",
+     "cam": "orbit",
+     "tgt": "mom"
+    },
+    {
+     "set": "corners",
+     "cam": "counter",
+     "tgt": "t6"
+    },
+    {
+     "set": "corners",
+     "cam": "wide",
+     "tgt": "maya"
+    }
+   ],
+   "words": [
+    {
+     "text": "BY",
+     "red": false,
+     "norm": "by",
+     "norm_raw": "by",
+     "start": 159.31,
+     "end": 159.41
+    },
+    {
+     "text": "SUNSET",
+     "red": false,
+     "norm": "sunset",
+     "norm_raw": "sunset",
+     "start": 159.41,
+     "end": 159.67
+    },
+    {
+     "text": "THERE",
+     "red": false,
+     "norm": "there",
+     "norm_raw": "there",
+     "start": 160.09,
+     "end": 160.19
+    },
+    {
+     "text": "WAS",
+     "red": false,
+     "norm": "was",
+     "norm_raw": "was",
+     "start": 160.19,
+     "end": 160.33
+    },
+    {
+     "text": "SOUP",
+     "red": false,
+     "norm": "soup",
+     "norm_raw": "soup",
+     "start": 160.33,
+     "end": 160.55
+    },
+    {
+     "text": "ON",
+     "red": false,
+     "norm": "on",
+     "norm_raw": "on",
+     "start": 160.55,
+     "end": 160.77
+    },
+    {
+     "text": "EVERY",
+     "red": false,
+     "norm": "every",
+     "norm_raw": "every",
+     "start": 160.77,
+     "end": 161.01
+    },
+    {
+     "text": "CORNER",
+     "red": false,
+     "norm": "corner",
+     "norm_raw": "corner",
+     "start": 161.01,
+     "end": 161.31
+    },
+    {
+     "text": "PUMPKIN",
+     "red": false,
+     "norm": "pumpkin",
+     "norm_raw": "pumpkin",
+     "start": 161.63,
+     "end": 161.85
+    },
+    {
+     "text": "CHICKEN",
+     "red": false,
+     "norm": "chicken",
+     "norm_raw": "chicken",
+     "start": 162.33,
+     "end": 162.57
+    },
+    {
+     "text": "POTATO",
+     "red": false,
+     "norm": "potato",
+     "norm_raw": "potato",
+     "start": 162.99,
+     "end": 163.35
+    },
+    {
+     "text": "A",
+     "red": false,
+     "norm": "a",
+     "norm_raw": "a",
+     "start": 163.35,
+     "end": 163.438
+    },
+    {
+     "text": "HUNDRED",
+     "red": false,
+     "norm": "hundred",
+     "norm_raw": "hundred",
+     "start": 163.438,
+     "end": 164.05
+    },
+    {
+     "text": "SPOONS",
+     "red": false,
+     "norm": "spoons",
+     "norm_raw": "spoons",
+     "start": 164.05,
+     "end": 164.53
+    },
+    {
+     "text": "CLINKING",
+     "red": false,
+     "norm": "clinking",
+     "norm_raw": "clinking",
+     "start": 164.53,
+     "end": 164.89
+    },
+    {
+     "text": "AND",
+     "red": false,
+     "norm": "and",
+     "norm_raw": "and",
+     "start": 164.89,
+     "end": 165.27
+    },
+    {
+     "text": "NOT",
+     "red": false,
+     "norm": "not",
+     "norm_raw": "not",
+     "start": 165.27,
+     "end": 165.43
+    },
+    {
+     "text": "ONE",
+     "red": false,
+     "norm": "one",
+     "norm_raw": "one",
+     "start": 165.43,
+     "end": 165.65
+    },
+    {
+     "text": "COUNTER",
+     "red": false,
+     "norm": "counter",
+     "norm_raw": "counter",
+     "start": 165.65,
+     "end": 165.97
+    },
+    {
+     "text": "MOVING",
+     "red": false,
+     "norm": "moving",
+     "norm_raw": "moving",
+     "start": 165.97,
+     "end": 166.33
+    }
+   ]
+  },
+  {
+   "id": "s34",
+   "text": "The next morning, the restaurants served soup. The bakery sold soup. Even birthday cake got blended.",
+   "start": 166.79,
+   "speech_end": 172.41,
+   "end": 172.61,
+   "light": "day",
+   "beats": [
+    {
+     "set": "restaurant",
+     "cam": "wide",
+     "tgt": "rest_sign",
+     "show": [
+      "rsoup"
+     ]
+    },
+    {
+     "set": "restaurant",
+     "cam": "prop",
+     "tgt": "rsoup",
+     "show": [
+      "rsoup"
+     ]
+    },
+    {
+     "set": "bakery",
+     "cam": "push",
+     "tgt": "bsoup",
+     "show": [
+      "bsoup"
+     ]
+    },
+    {
+     "set": "yard",
+     "cam": "prop",
+     "tgt": "blend",
+     "show": [
+      "blend"
+     ]
+    },
+    {
+     "set": "yard",
+     "cam": "cu",
+     "tgt": "t7",
+     "show": [
+      "blend"
+     ],
+     "acts": {
+      "t7": "drink"
+     },
+     "faces": {
+      "t7": "laughing"
+     }
+    }
+   ],
+   "words": [
+    {
+     "text": "THE",
+     "red": false,
+     "norm": "the",
+     "norm_raw": "the",
+     "start": 166.79,
+     "end": 166.89
+    },
+    {
+     "text": "NEXT",
+     "red": false,
+     "norm": "next",
+     "norm_raw": "next",
+     "start": 166.89,
+     "end": 167.05
+    },
+    {
+     "text": "MORNING",
+     "red": false,
+     "norm": "morning",
+     "norm_raw": "morning",
+     "start": 167.05,
+     "end": 167.47
+    },
+    {
+     "text": "THE",
+     "red": false,
+     "norm": "the",
+     "norm_raw": "the",
+     "start": 167.79,
+     "end": 167.85
+    },
+    {
+     "text": "RESTAURANTS",
+     "red": false,
+     "norm": "restaurants",
+     "norm_raw": "restaurants",
+     "start": 167.85,
+     "end": 168.11
+    },
+    {
+     "text": "SERVED",
+     "red": false,
+     "norm": "served",
+     "norm_raw": "served",
+     "start": 168.11,
+     "end": 168.71
+    },
+    {
+     "text": "SOUP",
+     "red": false,
+     "norm": "soup",
+     "norm_raw": "soup",
+     "start": 168.71,
+     "end": 169.07
+    },
+    {
+     "text": "THE",
+     "red": false,
+     "norm": "the",
+     "norm_raw": "the",
+     "start": 169.37,
+     "end": 169.47
+    },
+    {
+     "text": "BAKERY",
+     "red": false,
+     "norm": "bakery",
+     "norm_raw": "bakery",
+     "start": 169.47,
+     "end": 169.71
+    },
+    {
+     "text": "SOLD",
+     "red": false,
+     "norm": "sold",
+     "norm_raw": "sold",
+     "start": 169.71,
+     "end": 170.07
+    },
+    {
+     "text": "SOUP",
+     "red": false,
+     "norm": "soup",
+     "norm_raw": "soup",
+     "start": 170.07,
+     "end": 170.43
+    },
+    {
+     "text": "EVEN",
+     "red": false,
+     "norm": "even",
+     "norm_raw": "even",
+     "start": 170.77,
+     "end": 171.03
+    },
+    {
+     "text": "BIRTHDAY",
+     "red": false,
+     "norm": "birthday",
+     "norm_raw": "birthday",
+     "start": 171.03,
+     "end": 171.31
+    },
+    {
+     "text": "CAKE",
+     "red": false,
+     "norm": "cake",
+     "norm_raw": "cake",
+     "start": 171.31,
+     "end": 171.59
+    },
+    {
+     "text": "GOT",
+     "red": false,
+     "norm": "got",
+     "norm_raw": "got",
+     "start": 171.59,
+     "end": 171.85
+    },
+    {
+     "text": "BLENDED",
+     "red": false,
+     "norm": "blended",
+     "norm_raw": "blended",
+     "start": 171.85,
+     "end": 172.09
+    }
+   ]
+  },
+  {
+   "id": "s35",
+   "text": "And me? I can't chew anymore. But I've never been so full.",
+   "start": 172.61,
+   "speech_end": 176.28,
+   "end": 176.48,
+   "light": "golden",
+   "beats": [
+    {
+     "set": "corners",
+     "cam": "mcu",
+     "tgt": "maya"
+    },
+    {
+     "set": "corners",
+     "cam": "ecu",
+     "tgt": "maya",
+     "faces": {
+      "maya": "laughing"
+     },
+     "teeth": [
+      "maya"
+     ],
+     "acts": {
+      "maya": "idle"
+     }
+    },
+    {
+     "set": "corners",
+     "cam": "low",
+     "tgt": "rue",
+     "acts": {
+      "rue": "laugh"
+     }
+    }
+   ],
+   "words": [
+    {
+     "text": "AND",
+     "red": false,
+     "norm": "and",
+     "norm_raw": "and",
+     "start": 172.61,
+     "end": 172.73
+    },
+    {
+     "text": "ME?",
+     "red": false,
+     "norm": "me",
+     "norm_raw": "me?",
+     "start": 172.73,
+     "end": 172.91
+    },
+    {
+     "text": "I",
+     "red": false,
+     "norm": "i",
+     "norm_raw": "i",
+     "start": 173.27,
+     "end": 173.39
+    },
+    {
+     "text": "CAN'T",
+     "red": false,
+     "norm": "cant",
+     "norm_raw": "can't",
+     "start": 173.39,
+     "end": 173.73
+    },
+    {
+     "text": "CHEW",
+     "red": false,
+     "norm": "chew",
+     "norm_raw": "chew",
+     "start": 173.73,
+     "end": 173.93
+    },
+    {
+     "text": "ANYMORE",
+     "red": false,
+     "norm": "anymore",
+     "norm_raw": "anymore",
+     "start": 173.93,
+     "end": 174.35
+    },
+    {
+     "text": "BUT",
+     "red": false,
+     "norm": "but",
+     "norm_raw": "but",
+     "start": 174.73,
+     "end": 174.89
+    },
+    {
+     "text": "I'VE",
+     "red": false,
+     "norm": "ive",
+     "norm_raw": "i've",
+     "start": 174.89,
+     "end": 175.11
+    },
+    {
+     "text": "NEVER",
+     "red": false,
+     "norm": "never",
+     "norm_raw": "never",
+     "start": 175.11,
+     "end": 175.33
+    },
+    {
+     "text": "BEEN",
+     "red": false,
+     "norm": "been",
+     "norm_raw": "been",
+     "start": 175.33,
+     "end": 175.59
+    },
+    {
+     "text": "SO",
+     "red": false,
+     "norm": "so",
+     "norm_raw": "so",
+     "start": 175.59,
+     "end": 175.83
+    },
+    {
+     "text": "FULL",
+     "red": false,
+     "norm": "full",
+     "norm_raw": "full",
+     "start": 175.83,
+     "end": 176.09
+    }
+   ]
+  },
+  {
+   "id": "s36",
+   "text": "In this town, everyone drinks their dinner.",
+   "start": 176.48,
+   "speech_end": 178.59,
+   "end": 178.79,
+   "light": "golden",
+   "beats": [
+    {
+     "set": "corners",
+     "cam": "pull",
+     "tgt": "maya"
+    },
+    {
+     "card": "dinner"
+    },
+    {
+     "set": "corners",
+     "cam": "drone",
+     "tgt": "pt:0,0,0",
+     "radius": 52
+    }
+   ],
+   "words": [
+    {
+     "text": "IN",
+     "red": false,
+     "norm": "in",
+     "norm_raw": "in",
+     "start": 176.48,
+     "end": 176.58
+    },
+    {
+     "text": "THIS",
+     "red": false,
+     "norm": "this",
+     "norm_raw": "this",
+     "start": 176.58,
+     "end": 176.7
+    },
+    {
+     "text": "TOWN",
+     "red": false,
+     "norm": "town",
+     "norm_raw": "town",
+     "start": 176.7,
+     "end": 176.98
+    },
+    {
+     "text": "EVERYONE",
+     "red": false,
+     "norm": "everyone",
+     "norm_raw": "everyone",
+     "start": 177.26,
+     "end": 177.52
+    },
+    {
+     "text": "DRINKS",
+     "red": false,
+     "norm": "drinks",
+     "norm_raw": "drinks",
+     "start": 177.52,
+     "end": 177.88
+    },
+    {
+     "text": "THEIR",
+     "red": false,
+     "norm": "their",
+     "norm_raw": "their",
+     "start": 177.88,
+     "end": 178.16
+    },
+    {
+     "text": "DINNER",
+     "red": false,
+     "norm": "dinner",
+     "norm_raw": "dinner",
+     "start": 178.16,
+     "end": 178.34
+    }
+   ]
+  }
+ ]
+}

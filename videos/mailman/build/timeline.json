@@ -1,0 +1,7140 @@
+{
+ "duration": 162.4,
+ "n_extra": 0,
+ "words": 669,
+ "wps": 4.119,
+ "length_scale": 0.7,
+ "source_hash": "afde7fd302c08855",
+ "whisper_match": 0.948,
+ "sentences": [
+  {
+   "id": "s01",
+   "text": "The mailman has skipped our house for forty days. And every time he walks past, he looks SCARED.",
+   "start": 0.08,
+   "speech_end": 4.31,
+   "end": 4.46,
+   "light": "day",
+   "beats": [
+    {
+     "set": "town",
+     "cam": "drone",
+     "tgt": "pt:-40,-4,0"
+    },
+    {
+     "set": "street",
+     "cam": "chase",
+     "tgt": "dobbs",
+     "faces": {
+      "dobbs": "scared"
+     }
+    },
+    {
+     "card": "forty"
+    },
+    {
+     "set": "street",
+     "cam": "track",
+     "tgt": "dobbs",
+     "faces": {
+      "dobbs": "scared"
+     }
+    },
+    {
+     "set": "gate",
+     "cam": "ecu",
+     "tgt": "dobbs",
+     "faces": {
+      "dobbs": "scared"
+     }
+    }
+   ],
+   "words": [
+    {
+     "text": "THE",
+     "red": false,
+     "norm": "the",
+     "norm_raw": "the",
+     "start": 0.08,
+     "end": 0.16
+    },
+    {
+     "text": "MAILMAN",
+     "red": false,
+     "norm": "mailman",
+     "norm_raw": "mailman",
+     "start": 0.16,
+     "end": 0.44
+    },
+    {
+     "text": "HAS",
+     "red": false,
+     "norm": "has",
+     "norm_raw": "has",
+     "start": 0.44,
+     "end": 0.58
+    },
+    {
+     "text": "SKIPPED",
+     "red": false,
+     "norm": "skipped",
+     "norm_raw": "skipped",
+     "start": 0.58,
+     "end": 0.76
+    },
+    {
+     "text": "OUR",
+     "red": false,
+     "norm": "our",
+     "norm_raw": "our",
+     "start": 0.76,
+     "end": 1.0
+    },
+    {
+     "text": "HOUSE",
+     "red": false,
+     "norm": "house",
+     "norm_raw": "house",
+     "start": 1.0,
+     "end": 1.18
+    },
+    {
+     "text": "FOR",
+     "red": false,
+     "norm": "for",
+     "norm_raw": "for",
+     "start": 1.18,
+     "end": 1.42
+    },
+    {
+     "text": "FORTY",
+     "red": false,
+     "norm": "forty",
+     "norm_raw": "forty",
+     "start": 1.42,
+     "end": 1.64
+    },
+    {
+     "text": "DAYS",
+     "red": false,
+     "norm": "days",
+     "norm_raw": "days",
+     "start": 1.64,
+     "end": 1.84
+    },
+    {
+     "text": "AND",
+     "red": false,
+     "norm": "and",
+     "norm_raw": "and",
+     "start": 2.14,
+     "end": 2.28
+    },
+    {
+     "text": "EVERY",
+     "red": false,
+     "norm": "every",
+     "norm_raw": "every",
+     "start": 2.28,
+     "end": 2.42
+    },
+    {
+     "text": "TIME",
+     "red": false,
+     "norm": "time",
+     "norm_raw": "time",
+     "start": 2.42,
+     "end": 2.7
+    },
+    {
+     "text": "HE",
+     "red": false,
+     "norm": "he",
+     "norm_raw": "he",
+     "start": 2.7,
+     "end": 2.88
+    },
+    {
+     "text": "WALKS",
+     "red": false,
+     "norm": "walks",
+     "norm_raw": "walks",
+     "start": 2.88,
+     "end": 3.04
+    },
+    {
+     "text": "PAST",
+     "red": false,
+     "norm": "past",
+     "norm_raw": "past",
+     "start": 3.04,
+     "end": 3.32
+    },
+    {
+     "text": "HE",
+     "red": false,
+     "norm": "he",
+     "norm_raw": "he",
+     "start": 3.66,
+     "end": 3.72
+    },
+    {
+     "text": "LOOKS",
+     "red": false,
+     "norm": "looks",
+     "norm_raw": "looks",
+     "start": 3.72,
+     "end": 3.82
+    },
+    {
+     "text": "SCARED",
+     "red": true,
+     "norm": "scared",
+     "norm_raw": "scared",
+     "start": 3.82,
+     "end": 4.08
+    }
+   ]
+  },
+  {
+   "id": "s02",
+   "text": "My name is Eli. I'm eleven. Our town has exactly one mailman, Mr. Dobbs, and he has never missed a house. Not once. Not in thirty years.",
+   "start": 4.46,
+   "speech_end": 11.16,
+   "end": 11.31,
+   "light": "day",
+   "beats": [
+    {
+     "set": "street",
+     "cam": "tilt",
+     "tgt": "eli"
+    },
+    {
+     "set": "street",
+     "cam": "cu",
+     "tgt": "eli",
+     "faces": {
+      "eli": "blank"
+     }
+    },
+    {
+     "set": "town",
+     "cam": "drone",
+     "tgt": "pt:20,0,0"
+    },
+    {
+     "set": "follow_bakery",
+     "cam": "low",
+     "tgt": "dobbs"
+    },
+    {
+     "set": "follow_bakery",
+     "cam": "cu",
+     "tgt": "dobbs"
+    },
+    {
+     "card": "thirty"
+    },
+    {
+     "set": "street",
+     "cam": "ecu",
+     "tgt": "eli",
+     "faces": {
+      "eli": "tired"
+     }
+    }
+   ],
+   "words": [
+    {
+     "text": "MY",
+     "red": false,
+     "norm": "my",
+     "norm_raw": "my",
+     "start": 4.46,
+     "end": 4.56
+    },
+    {
+     "text": "NAME",
+     "red": false,
+     "norm": "name",
+     "norm_raw": "name",
+     "start": 4.56,
+     "end": 4.68
+    },
+    {
+     "text": "IS",
+     "red": false,
+     "norm": "is",
+     "norm_raw": "is",
+     "start": 4.68,
+     "end": 4.86
+    },
+    {
+     "text": "ELI",
+     "red": false,
+     "norm": "eli",
+     "norm_raw": "eli",
+     "start": 4.86,
+     "end": 5.32
+    },
+    {
+     "text": "I'M",
+     "red": false,
+     "norm": "im",
+     "norm_raw": "i'm",
+     "start": 5.32,
+     "end": 5.37
+    },
+    {
+     "text": "ELEVEN",
+     "red": false,
+     "norm": "eleven",
+     "norm_raw": "eleven",
+     "start": 5.36,
+     "end": 5.88
+    },
+    {
+     "text": "OUR",
+     "red": false,
+     "norm": "our",
+     "norm_raw": "our",
+     "start": 5.88,
+     "end": 5.98
+    },
+    {
+     "text": "TOWN",
+     "red": false,
+     "norm": "town",
+     "norm_raw": "town",
+     "start": 5.98,
+     "end": 6.16
+    },
+    {
+     "text": "HAS",
+     "red": false,
+     "norm": "has",
+     "norm_raw": "has",
+     "start": 6.16,
+     "end": 6.36
+    },
+    {
+     "text": "EXACTLY",
+     "red": false,
+     "norm": "exactly",
+     "norm_raw": "exactly",
+     "start": 6.36,
+     "end": 6.62
+    },
+    {
+     "text": "ONE",
+     "red": false,
+     "norm": "one",
+     "norm_raw": "one",
+     "start": 6.62,
+     "end": 6.94
+    },
+    {
+     "text": "MAILMAN",
+     "red": false,
+     "norm": "mailman",
+     "norm_raw": "mailman",
+     "start": 6.94,
+     "end": 7.3
+    },
+    {
+     "text": "MR",
+     "red": false,
+     "norm": "mr",
+     "norm_raw": "mr",
+     "start": 7.5,
+     "end": 7.68
+    },
+    {
+     "text": "DOBBS",
+     "red": false,
+     "norm": "dobbs",
+     "norm_raw": "dobbs",
+     "start": 7.92,
+     "end": 8.28
+    },
+    {
+     "text": "AND",
+     "red": false,
+     "norm": "and",
+     "norm_raw": "and",
+     "start": 8.42,
+     "end": 8.48
+    },
+    {
+     "text": "HE",
+     "red": false,
+     "norm": "he",
+     "norm_raw": "he",
+     "start": 8.48,
+     "end": 8.58
+    },
+    {
+     "text": "HAS",
+     "red": false,
+     "norm": "has",
+     "norm_raw": "has",
+     "start": 8.58,
+     "end": 8.66
+    },
+    {
+     "text": "NEVER",
+     "red": false,
+     "norm": "never",
+     "norm_raw": "never",
+     "start": 8.66,
+     "end": 8.86
+    },
+    {
+     "text": "MISSED",
+     "red": false,
+     "norm": "missed",
+     "norm_raw": "missed",
+     "start": 8.86,
+     "end": 9.02
+    },
+    {
+     "text": "A",
+     "red": false,
+     "norm": "a",
+     "norm_raw": "a",
+     "start": 9.02,
+     "end": 9.16
+    },
+    {
+     "text": "HOUSE",
+     "red": false,
+     "norm": "house",
+     "norm_raw": "house",
+     "start": 9.16,
+     "end": 9.32
+    },
+    {
+     "text": "NOT",
+     "red": false,
+     "norm": "not",
+     "norm_raw": "not",
+     "start": 9.66,
+     "end": 9.74
+    },
+    {
+     "text": "ONCE",
+     "red": false,
+     "norm": "once",
+     "norm_raw": "once",
+     "start": 9.74,
+     "end": 9.96
+    },
+    {
+     "text": "NOT",
+     "red": false,
+     "norm": "not",
+     "norm_raw": "not",
+     "start": 10.22,
+     "end": 10.38
+    },
+    {
+     "text": "IN",
+     "red": false,
+     "norm": "in",
+     "norm_raw": "in",
+     "start": 10.38,
+     "end": 10.5
+    },
+    {
+     "text": "THIRTY",
+     "red": false,
+     "norm": "thirty",
+     "norm_raw": "thirty",
+     "start": 10.5,
+     "end": 10.66
+    },
+    {
+     "text": "YEARS",
+     "red": false,
+     "norm": "years",
+     "norm_raw": "years",
+     "start": 10.66,
+     "end": 10.94
+    }
+   ]
+  },
+  {
+   "id": "s03",
+   "text": "Until day one. He walked up our street, stopped at our gate, looked at our mailbox, and kept walking.",
+   "start": 11.31,
+   "speech_end": 16.09,
+   "end": 16.24,
+   "light": "day",
+   "beats": [
+    {
+     "set": "street",
+     "cam": "wide",
+     "tgt": "dobbs"
+    },
+    {
+     "set": "gate",
+     "cam": "low",
+     "tgt": "dobbs"
+    },
+    {
+     "set": "gate",
+     "cam": "prop",
+     "tgt": "mailbox"
+    },
+    {
+     "set": "gate",
+     "cam": "ecu",
+     "tgt": "dobbs",
+     "faces": {
+      "dobbs": "scared"
+     },
+     "acts": {
+      "dobbs": "head_turn"
+     }
+    },
+    {
+     "set": "street",
+     "cam": "chase",
+     "tgt": "dobbs"
+    }
+   ],
+   "words": [
+    {
+     "text": "UNTIL",
+     "red": false,
+     "norm": "until",
+     "norm_raw": "until",
+     "start": 11.31,
+     "end": 11.51
+    },
+    {
+     "text": "DAY",
+     "red": false,
+     "norm": "day",
+     "norm_raw": "day",
+     "start": 11.51,
+     "end": 11.65
+    },
+    {
+     "text": "ONE",
+     "red": false,
+     "norm": "one",
+     "norm_raw": "one",
+     "start": 11.65,
+     "end": 11.89
+    },
+    {
+     "text": "HE",
+     "red": false,
+     "norm": "he",
+     "norm_raw": "he",
+     "start": 12.07,
+     "end": 12.13
+    },
+    {
+     "text": "WALKED",
+     "red": false,
+     "norm": "walked",
+     "norm_raw": "walked",
+     "start": 12.13,
+     "end": 12.27
+    },
+    {
+     "text": "UP",
+     "red": false,
+     "norm": "up",
+     "norm_raw": "up",
+     "start": 12.27,
+     "end": 12.45
+    },
+    {
+     "text": "OUR",
+     "red": false,
+     "norm": "our",
+     "norm_raw": "our",
+     "start": 12.45,
+     "end": 12.59
+    },
+    {
+     "text": "STREET",
+     "red": false,
+     "norm": "street",
+     "norm_raw": "street",
+     "start": 12.59,
+     "end": 12.85
+    },
+    {
+     "text": "STOPPED",
+     "red": false,
+     "norm": "stopped",
+     "norm_raw": "stopped",
+     "start": 13.13,
+     "end": 13.35
+    },
+    {
+     "text": "AT",
+     "red": false,
+     "norm": "at",
+     "norm_raw": "at",
+     "start": 13.35,
+     "end": 13.53
+    },
+    {
+     "text": "OUR",
+     "red": false,
+     "norm": "our",
+     "norm_raw": "our",
+     "start": 13.53,
+     "end": 13.65
+    },
+    {
+     "text": "GATE",
+     "red": false,
+     "norm": "gate",
+     "norm_raw": "gate",
+     "start": 13.65,
+     "end": 13.83
+    },
+    {
+     "text": "LOOKED",
+     "red": false,
+     "norm": "looked",
+     "norm_raw": "looked",
+     "start": 14.17,
+     "end": 14.33
+    },
+    {
+     "text": "AT",
+     "red": false,
+     "norm": "at",
+     "norm_raw": "at",
+     "start": 14.33,
+     "end": 14.49
+    },
+    {
+     "text": "OUR",
+     "red": false,
+     "norm": "our",
+     "norm_raw": "our",
+     "start": 14.49,
+     "end": 14.63
+    },
+    {
+     "text": "MAILBOX",
+     "red": false,
+     "norm": "mailbox",
+     "norm_raw": "mailbox",
+     "start": 14.63,
+     "end": 14.79
+    },
+    {
+     "text": "AND",
+     "red": false,
+     "norm": "and",
+     "norm_raw": "and",
+     "start": 15.31,
+     "end": 15.41
+    },
+    {
+     "text": "KEPT",
+     "red": false,
+     "norm": "kept",
+     "norm_raw": "kept",
+     "start": 15.41,
+     "end": 15.55
+    },
+    {
+     "text": "WALKING",
+     "red": false,
+     "norm": "walking",
+     "norm_raw": "walking",
+     "start": 15.55,
+     "end": 15.87
+    }
+   ]
+  },
+  {
+   "id": "s04",
+   "text": "I figured it was a mistake. Day two, same thing. Day three, he crossed the street to avoid us.",
+   "start": 16.24,
+   "speech_end": 20.4,
+   "end": 20.55,
+   "light": "day",
+   "beats": [
+    {
+     "set": "street",
+     "cam": "ots",
+     "tgt": "dobbs",
+     "over": "eli"
+    },
+    {
+     "set": "gate",
+     "cam": "high",
+     "tgt": "dobbs"
+    },
+    {
+     "set": "cross",
+     "cam": "wide",
+     "tgt": "dobbs",
+     "faces": {
+      "dobbs": "scared"
+     }
+    },
+    {
+     "set": "cross",
+     "cam": "whip",
+     "tgt": "dobbs",
+     "faces": {
+      "dobbs": "scared"
+     }
+    },
+    {
+     "set": "cross",
+     "cam": "cu",
+     "tgt": "eli",
+     "faces": {
+      "eli": "blank"
+     }
+    }
+   ],
+   "words": [
+    {
+     "text": "I",
+     "red": false,
+     "norm": "i",
+     "norm_raw": "i",
+     "start": 16.24,
+     "end": 16.32
+    },
+    {
+     "text": "FIGURED",
+     "red": false,
+     "norm": "figured",
+     "norm_raw": "figured",
+     "start": 16.32,
+     "end": 16.52
+    },
+    {
+     "text": "IT",
+     "red": false,
+     "norm": "it",
+     "norm_raw": "it",
+     "start": 16.52,
+     "end": 16.68
+    },
+    {
+     "text": "WAS",
+     "red": false,
+     "norm": "was",
+     "norm_raw": "was",
+     "start": 16.68,
+     "end": 16.82
+    },
+    {
+     "text": "A",
+     "red": false,
+     "norm": "a",
+     "norm_raw": "a",
+     "start": 16.82,
+     "end": 16.88
+    },
+    {
+     "text": "MISTAKE",
+     "red": false,
+     "norm": "mistake",
+     "norm_raw": "mistake",
+     "start": 16.88,
+     "end": 17.14
+    },
+    {
+     "text": "DAY",
+     "red": false,
+     "norm": "day",
+     "norm_raw": "day",
+     "start": 17.46,
+     "end": 17.52
+    },
+    {
+     "text": "TWO",
+     "red": false,
+     "norm": "two",
+     "norm_raw": "two",
+     "start": 17.52,
+     "end": 17.76
+    },
+    {
+     "text": "SAME",
+     "red": false,
+     "norm": "same",
+     "norm_raw": "same",
+     "start": 17.96,
+     "end": 18.12
+    },
+    {
+     "text": "THING",
+     "red": false,
+     "norm": "thing",
+     "norm_raw": "thing",
+     "start": 18.12,
+     "end": 18.36
+    },
+    {
+     "text": "DAY",
+     "red": false,
+     "norm": "day",
+     "norm_raw": "day",
+     "start": 18.58,
+     "end": 18.66
+    },
+    {
+     "text": "THREE",
+     "red": false,
+     "norm": "three",
+     "norm_raw": "three",
+     "start": 18.66,
+     "end": 18.88
+    },
+    {
+     "text": "HE",
+     "red": false,
+     "norm": "he",
+     "norm_raw": "he",
+     "start": 19.08,
+     "end": 19.13
+    },
+    {
+     "text": "CROSSED",
+     "red": false,
+     "norm": "crossed",
+     "norm_raw": "crossed",
+     "start": 19.12,
+     "end": 19.3
+    },
+    {
+     "text": "THE",
+     "red": false,
+     "norm": "the",
+     "norm_raw": "the",
+     "start": 19.3,
+     "end": 19.5
+    },
+    {
+     "text": "STREET",
+     "red": false,
+     "norm": "street",
+     "norm_raw": "street",
+     "start": 19.5,
+     "end": 19.68
+    },
+    {
+     "text": "TO",
+     "red": false,
+     "norm": "to",
+     "norm_raw": "to",
+     "start": 19.68,
+     "end": 19.86
+    },
+    {
+     "text": "AVOID",
+     "red": false,
+     "norm": "avoid",
+     "norm_raw": "avoid",
+     "start": 19.86,
+     "end": 20.02
+    },
+    {
+     "text": "US",
+     "red": false,
+     "norm": "us",
+     "norm_raw": "us",
+     "start": 20.02,
+     "end": 20.26
+    }
+   ]
+  },
+  {
+   "id": "s05",
+   "text": "By day ten, he was walking faster. By day twenty, he was running. By day thirty, he wore his cap pulled down over his eyes, like he didn't want our house to see his face.",
+   "start": 20.55,
+   "speech_end": 28.15,
+   "end": 28.3,
+   "light": "day",
+   "beats": [
+    {
+     "set": "street",
+     "cam": "track",
+     "tgt": "dobbs",
+     "faces": {
+      "dobbs": "scared"
+     }
+    },
+    {
+     "set": "runpast",
+     "cam": "chase",
+     "tgt": "dobbs",
+     "faces": {
+      "dobbs": "scared"
+     }
+    },
+    {
+     "set": "runpast",
+     "cam": "low",
+     "tgt": "dobbs",
+     "faces": {
+      "dobbs": "scared"
+     }
+    },
+    {
+     "card": "days"
+    },
+    {
+     "set": "capdown",
+     "cam": "cu",
+     "tgt": "dobbs",
+     "capdown": true
+    },
+    {
+     "set": "capdown",
+     "cam": "ecu",
+     "tgt": "dobbs",
+     "capdown": true
+    },
+    {
+     "set": "capdown",
+     "cam": "prop",
+     "tgt": "eli_house"
+    },
+    {
+     "set": "capdown",
+     "cam": "ots",
+     "tgt": "dobbs",
+     "over": "eli",
+     "capdown": true
+    }
+   ],
+   "words": [
+    {
+     "text": "BY",
+     "red": false,
+     "norm": "by",
+     "norm_raw": "by",
+     "start": 20.55,
+     "end": 20.63
+    },
+    {
+     "text": "DAY",
+     "red": false,
+     "norm": "day",
+     "norm_raw": "day",
+     "start": 20.63,
+     "end": 20.75
+    },
+    {
+     "text": "TEN",
+     "red": false,
+     "norm": "ten",
+     "norm_raw": "ten",
+     "start": 20.75,
+     "end": 21.21
+    },
+    {
+     "text": "HE",
+     "red": false,
+     "norm": "he",
+     "norm_raw": "he",
+     "start": 21.21,
+     "end": 21.29
+    },
+    {
+     "text": "WAS",
+     "red": false,
+     "norm": "was",
+     "norm_raw": "was",
+     "start": 21.29,
+     "end": 21.37
+    },
+    {
+     "text": "WALKING",
+     "red": false,
+     "norm": "walking",
+     "norm_raw": "walking",
+     "start": 21.37,
+     "end": 21.59
+    },
+    {
+     "text": "FASTER",
+     "red": false,
+     "norm": "faster",
+     "norm_raw": "faster",
+     "start": 21.59,
+     "end": 21.81
+    },
+    {
+     "text": "BY",
+     "red": false,
+     "norm": "by",
+     "norm_raw": "by",
+     "start": 22.27,
+     "end": 22.32
+    },
+    {
+     "text": "DAY",
+     "red": false,
+     "norm": "day",
+     "norm_raw": "day",
+     "start": 22.31,
+     "end": 22.47
+    },
+    {
+     "text": "TWENTY",
+     "red": false,
+     "norm": "twenty",
+     "norm_raw": "twenty",
+     "start": 22.47,
+     "end": 23.07
+    },
+    {
+     "text": "HE",
+     "red": false,
+     "norm": "he",
+     "norm_raw": "he",
+     "start": 23.07,
+     "end": 23.17
+    },
+    {
+     "text": "WAS",
+     "red": false,
+     "norm": "was",
+     "norm_raw": "was",
+     "start": 23.17,
+     "end": 23.25
+    },
+    {
+     "text": "RUNNING",
+     "red": false,
+     "norm": "running",
+     "norm_raw": "running",
+     "start": 23.25,
+     "end": 23.49
+    },
+    {
+     "text": "BY",
+     "red": false,
+     "norm": "by",
+     "norm_raw": "by",
+     "start": 23.83,
+     "end": 23.88
+    },
+    {
+     "text": "DAY",
+     "red": false,
+     "norm": "day",
+     "norm_raw": "day",
+     "start": 23.87,
+     "end": 23.99
+    },
+    {
+     "text": "THIRTY",
+     "red": false,
+     "norm": "thirty",
+     "norm_raw": "thirty",
+     "start": 23.99,
+     "end": 24.55
+    },
+    {
+     "text": "HE",
+     "red": false,
+     "norm": "he",
+     "norm_raw": "he",
+     "start": 24.55,
+     "end": 24.69
+    },
+    {
+     "text": "WORE",
+     "red": false,
+     "norm": "wore",
+     "norm_raw": "wore",
+     "start": 24.69,
+     "end": 24.81
+    },
+    {
+     "text": "HIS",
+     "red": false,
+     "norm": "his",
+     "norm_raw": "his",
+     "start": 24.81,
+     "end": 24.95
+    },
+    {
+     "text": "CAP",
+     "red": false,
+     "norm": "cap",
+     "norm_raw": "cap",
+     "start": 24.95,
+     "end": 25.11
+    },
+    {
+     "text": "PULLED",
+     "red": false,
+     "norm": "pulled",
+     "norm_raw": "pulled",
+     "start": 25.11,
+     "end": 25.31
+    },
+    {
+     "text": "DOWN",
+     "red": false,
+     "norm": "down",
+     "norm_raw": "down",
+     "start": 25.31,
+     "end": 25.49
+    },
+    {
+     "text": "OVER",
+     "red": false,
+     "norm": "over",
+     "norm_raw": "over",
+     "start": 25.49,
+     "end": 25.77
+    },
+    {
+     "text": "HIS",
+     "red": false,
+     "norm": "his",
+     "norm_raw": "his",
+     "start": 25.77,
+     "end": 25.91
+    },
+    {
+     "text": "EYES",
+     "red": false,
+     "norm": "eyes",
+     "norm_raw": "eyes",
+     "start": 25.91,
+     "end": 26.13
+    },
+    {
+     "text": "LIKE",
+     "red": false,
+     "norm": "like",
+     "norm_raw": "like",
+     "start": 26.39,
+     "end": 26.51
+    },
+    {
+     "text": "HE",
+     "red": false,
+     "norm": "he",
+     "norm_raw": "he",
+     "start": 26.51,
+     "end": 26.63
+    },
+    {
+     "text": "DIDN'T",
+     "red": false,
+     "norm": "didnt",
+     "norm_raw": "didn't",
+     "start": 26.63,
+     "end": 26.83
+    },
+    {
+     "text": "WANT",
+     "red": false,
+     "norm": "want",
+     "norm_raw": "want",
+     "start": 26.83,
+     "end": 26.95
+    },
+    {
+     "text": "OUR",
+     "red": false,
+     "norm": "our",
+     "norm_raw": "our",
+     "start": 26.95,
+     "end": 27.09
+    },
+    {
+     "text": "HOUSE",
+     "red": false,
+     "norm": "house",
+     "norm_raw": "house",
+     "start": 27.09,
+     "end": 27.31
+    },
+    {
+     "text": "TO",
+     "red": false,
+     "norm": "to",
+     "norm_raw": "to",
+     "start": 27.31,
+     "end": 27.49
+    },
+    {
+     "text": "SEE",
+     "red": false,
+     "norm": "see",
+     "norm_raw": "see",
+     "start": 27.49,
+     "end": 27.61
+    },
+    {
+     "text": "HIS",
+     "red": false,
+     "norm": "his",
+     "norm_raw": "his",
+     "start": 27.61,
+     "end": 27.75
+    },
+    {
+     "text": "FACE",
+     "red": false,
+     "norm": "face",
+     "norm_raw": "face",
+     "start": 27.75,
+     "end": 27.91
+    }
+   ]
+  },
+  {
+   "id": "s06",
+   "text": "Everyone else got mail. The baker got bills. Mrs. Pell got postcards from her sister. The mayor got a letter every single morning, and he always read it standing in the street, and he always went pale.",
+   "start": 28.3,
+   "speech_end": 37.06,
+   "end": 37.21,
+   "light": "day",
+   "beats": [
+    {
+     "set": "town",
+     "cam": "drone",
+     "tgt": "pt:0,4,0"
+    },
+    {
+     "set": "bakery",
+     "cam": "ots",
+     "tgt": "baker",
+     "over": "dobbs",
+     "faces": {
+      "baker": "tired"
+     }
+    },
+    {
+     "set": "bakery",
+     "cam": "ecu",
+     "tgt": "baker",
+     "faces": {
+      "baker": "tired"
+     }
+    },
+    {
+     "set": "pell",
+     "cam": "cu",
+     "tgt": "pell"
+    },
+    {
+     "set": "pell",
+     "cam": "low",
+     "tgt": "pell"
+    },
+    {
+     "set": "mayor_st",
+     "cam": "wide",
+     "tgt": "mayor"
+    },
+    {
+     "set": "mayor_st",
+     "cam": "push",
+     "tgt": "mayor"
+    },
+    {
+     "set": "mayor_st",
+     "cam": "ecu",
+     "tgt": "mayor",
+     "faces": {
+      "mayor": "shocked"
+     }
+    },
+    {
+     "set": "mayor_st",
+     "cam": "dutch",
+     "tgt": "mayor",
+     "faces": {
+      "mayor": "scared"
+     }
+    }
+   ],
+   "words": [
+    {
+     "text": "EVERYONE",
+     "red": false,
+     "norm": "everyone",
+     "norm_raw": "everyone",
+     "start": 28.3,
+     "end": 28.56
+    },
+    {
+     "text": "ELSE",
+     "red": false,
+     "norm": "else",
+     "norm_raw": "else",
+     "start": 28.56,
+     "end": 28.7
+    },
+    {
+     "text": "GOT",
+     "red": false,
+     "norm": "got",
+     "norm_raw": "got",
+     "start": 28.7,
+     "end": 28.9
+    },
+    {
+     "text": "MAIL",
+     "red": false,
+     "norm": "mail",
+     "norm_raw": "mail",
+     "start": 28.9,
+     "end": 29.16
+    },
+    {
+     "text": "THE",
+     "red": false,
+     "norm": "the",
+     "norm_raw": "the",
+     "start": 29.42,
+     "end": 29.48
+    },
+    {
+     "text": "BAKER",
+     "red": false,
+     "norm": "baker",
+     "norm_raw": "baker",
+     "start": 29.48,
+     "end": 29.6
+    },
+    {
+     "text": "GOT",
+     "red": false,
+     "norm": "got",
+     "norm_raw": "got",
+     "start": 29.6,
+     "end": 29.82
+    },
+    {
+     "text": "BILLS",
+     "red": false,
+     "norm": "bills",
+     "norm_raw": "bills",
+     "start": 29.82,
+     "end": 30.04
+    },
+    {
+     "text": "MRS",
+     "red": false,
+     "norm": "mrs",
+     "norm_raw": "mrs",
+     "start": 30.04,
+     "end": 30.451
+    },
+    {
+     "text": "PELL",
+     "red": false,
+     "norm": "pell",
+     "norm_raw": "pell",
+     "start": 30.451,
+     "end": 31.0
+    },
+    {
+     "text": "GOT",
+     "red": false,
+     "norm": "got",
+     "norm_raw": "got",
+     "start": 31.0,
+     "end": 31.16
+    },
+    {
+     "text": "POSTCARDS",
+     "red": false,
+     "norm": "postcards",
+     "norm_raw": "postcards",
+     "start": 31.16,
+     "end": 31.62
+    },
+    {
+     "text": "FROM",
+     "red": false,
+     "norm": "from",
+     "norm_raw": "from",
+     "start": 31.62,
+     "end": 31.88
+    },
+    {
+     "text": "HER",
+     "red": false,
+     "norm": "her",
+     "norm_raw": "her",
+     "start": 31.88,
+     "end": 32.02
+    },
+    {
+     "text": "SISTER",
+     "red": false,
+     "norm": "sister",
+     "norm_raw": "sister",
+     "start": 32.02,
+     "end": 32.22
+    },
+    {
+     "text": "THE",
+     "red": false,
+     "norm": "the",
+     "norm_raw": "the",
+     "start": 32.52,
+     "end": 32.58
+    },
+    {
+     "text": "MAYOR",
+     "red": false,
+     "norm": "mayor",
+     "norm_raw": "mayor",
+     "start": 32.58,
+     "end": 32.68
+    },
+    {
+     "text": "GOT",
+     "red": false,
+     "norm": "got",
+     "norm_raw": "got",
+     "start": 32.68,
+     "end": 32.88
+    },
+    {
+     "text": "A",
+     "red": false,
+     "norm": "a",
+     "norm_raw": "a",
+     "start": 32.88,
+     "end": 32.98
+    },
+    {
+     "text": "LETTER",
+     "red": false,
+     "norm": "letter",
+     "norm_raw": "letter",
+     "start": 32.98,
+     "end": 33.08
+    },
+    {
+     "text": "EVERY",
+     "red": false,
+     "norm": "every",
+     "norm_raw": "every",
+     "start": 33.08,
+     "end": 33.36
+    },
+    {
+     "text": "SINGLE",
+     "red": false,
+     "norm": "single",
+     "norm_raw": "single",
+     "start": 33.36,
+     "end": 33.6
+    },
+    {
+     "text": "MORNING",
+     "red": false,
+     "norm": "morning",
+     "norm_raw": "morning",
+     "start": 33.6,
+     "end": 33.94
+    },
+    {
+     "text": "AND",
+     "red": false,
+     "norm": "and",
+     "norm_raw": "and",
+     "start": 34.24,
+     "end": 34.3
+    },
+    {
+     "text": "HE",
+     "red": false,
+     "norm": "he",
+     "norm_raw": "he",
+     "start": 34.3,
+     "end": 34.36
+    },
+    {
+     "text": "ALWAYS",
+     "red": false,
+     "norm": "always",
+     "norm_raw": "always",
+     "start": 34.36,
+     "end": 34.56
+    },
+    {
+     "text": "READ",
+     "red": false,
+     "norm": "read",
+     "norm_raw": "read",
+     "start": 34.56,
+     "end": 34.86
+    },
+    {
+     "text": "IT",
+     "red": false,
+     "norm": "it",
+     "norm_raw": "it",
+     "start": 34.86,
+     "end": 34.98
+    },
+    {
+     "text": "STANDING",
+     "red": false,
+     "norm": "standing",
+     "norm_raw": "standing",
+     "start": 34.98,
+     "end": 35.18
+    },
+    {
+     "text": "IN",
+     "red": false,
+     "norm": "in",
+     "norm_raw": "in",
+     "start": 35.18,
+     "end": 35.44
+    },
+    {
+     "text": "THE",
+     "red": false,
+     "norm": "the",
+     "norm_raw": "the",
+     "start": 35.44,
+     "end": 35.52
+    },
+    {
+     "text": "STREET",
+     "red": false,
+     "norm": "street",
+     "norm_raw": "street",
+     "start": 35.52,
+     "end": 35.68
+    },
+    {
+     "text": "AND",
+     "red": false,
+     "norm": "and",
+     "norm_raw": "and",
+     "start": 36.0,
+     "end": 36.06
+    },
+    {
+     "text": "HE",
+     "red": false,
+     "norm": "he",
+     "norm_raw": "he",
+     "start": 36.06,
+     "end": 36.14
+    },
+    {
+     "text": "ALWAYS",
+     "red": false,
+     "norm": "always",
+     "norm_raw": "always",
+     "start": 36.14,
+     "end": 36.32
+    },
+    {
+     "text": "WENT",
+     "red": false,
+     "norm": "went",
+     "norm_raw": "went",
+     "start": 36.32,
+     "end": 36.64
+    },
+    {
+     "text": "PALE",
+     "red": false,
+     "norm": "pale",
+     "norm_raw": "pale",
+     "start": 36.64,
+     "end": 37.06
+    }
+   ]
+  },
+  {
+   "id": "s07",
+   "text": "Our mailbox got nothing. Just dust and one very confused spider.",
+   "start": 37.21,
+   "speech_end": 40.53,
+   "end": 40.68,
+   "light": "day",
+   "beats": [
+    {
+     "set": "mailbox",
+     "cam": "push",
+     "tgt": "mailbox"
+    },
+    {
+     "set": "mailbox",
+     "cam": "prop",
+     "tgt": "mailbox_in",
+     "paper": false
+    },
+    {
+     "set": "mailbox",
+     "cam": "cu",
+     "tgt": "eli",
+     "faces": {
+      "eli": "tired"
+     }
+    }
+   ],
+   "words": [
+    {
+     "text": "OUR",
+     "red": false,
+     "norm": "our",
+     "norm_raw": "our",
+     "start": 37.21,
+     "end": 37.33
+    },
+    {
+     "text": "MAILBOX",
+     "red": false,
+     "norm": "mailbox",
+     "norm_raw": "mailbox",
+     "start": 37.33,
+     "end": 37.53
+    },
+    {
+     "text": "GOT",
+     "red": false,
+     "norm": "got",
+     "norm_raw": "got",
+     "start": 37.53,
+     "end": 37.93
+    },
+    {
+     "text": "NOTHING",
+     "red": false,
+     "norm": "nothing",
+     "norm_raw": "nothing",
+     "start": 37.93,
+     "end": 38.29
+    },
+    {
+     "text": "JUST",
+     "red": false,
+     "norm": "just",
+     "norm_raw": "just",
+     "start": 38.55,
+     "end": 38.75
+    },
+    {
+     "text": "DUST",
+     "red": false,
+     "norm": "dust",
+     "norm_raw": "dust",
+     "start": 38.75,
+     "end": 38.93
+    },
+    {
+     "text": "AND",
+     "red": false,
+     "norm": "and",
+     "norm_raw": "and",
+     "start": 38.93,
+     "end": 39.11
+    },
+    {
+     "text": "ONE",
+     "red": false,
+     "norm": "one",
+     "norm_raw": "one",
+     "start": 39.11,
+     "end": 39.29
+    },
+    {
+     "text": "VERY",
+     "red": false,
+     "norm": "very",
+     "norm_raw": "very",
+     "start": 39.29,
+     "end": 39.55
+    },
+    {
+     "text": "CONFUSED",
+     "red": false,
+     "norm": "confused",
+     "norm_raw": "confused",
+     "start": 39.55,
+     "end": 39.93
+    },
+    {
+     "text": "SPIDER",
+     "red": false,
+     "norm": "spider",
+     "norm_raw": "spider",
+     "start": 39.93,
+     "end": 40.27
+    }
+   ]
+  },
+  {
+   "id": "s08",
+   "text": "So I asked Mom. She said, \"Maybe nobody writes to us.\" Dad said, \"Eat your soup.\" Which is what Dad says when he's lying.",
+   "start": 40.68,
+   "speech_end": 46.28,
+   "end": 46.43,
+   "light": "day",
+   "beats": [
+    {
+     "set": "kitchen",
+     "cam": "wide",
+     "tgt": "eli"
+    },
+    {
+     "set": "kitchen",
+     "cam": "cu",
+     "tgt": "mom",
+     "acts": {
+      "mom": "talk"
+     }
+    },
+    {
+     "set": "kitchen",
+     "cam": "ots",
+     "tgt": "mom",
+     "over": "eli"
+    },
+    {
+     "set": "kitchen",
+     "cam": "ecu",
+     "tgt": "dad",
+     "acts": {
+      "dad": "talk"
+     }
+    },
+    {
+     "set": "kitchen",
+     "cam": "high",
+     "tgt": "eli"
+    },
+    {
+     "set": "kitchen",
+     "cam": "ecu",
+     "tgt": "dad",
+     "faces": {
+      "dad": "tired"
+     }
+    },
+    {
+     "set": "kitchen",
+     "cam": "ecu",
+     "tgt": "eli",
+     "faces": {
+      "eli": "blank"
+     }
+    }
+   ],
+   "words": [
+    {
+     "text": "SO",
+     "red": false,
+     "norm": "so",
+     "norm_raw": "so",
+     "start": 40.68,
+     "end": 40.78
+    },
+    {
+     "text": "I",
+     "red": false,
+     "norm": "i",
+     "norm_raw": "i",
+     "start": 40.78,
+     "end": 40.86
+    },
+    {
+     "text": "ASKED",
+     "red": false,
+     "norm": "asked",
+     "norm_raw": "asked",
+     "start": 40.86,
+     "end": 41.06
+    },
+    {
+     "text": "MOM",
+     "red": false,
+     "norm": "mom",
+     "norm_raw": "mom",
+     "start": 41.06,
+     "end": 41.28
+    },
+    {
+     "text": "SHE",
+     "red": false,
+     "norm": "she",
+     "norm_raw": "she",
+     "start": 41.5,
+     "end": 41.6
+    },
+    {
+     "text": "SAID",
+     "red": false,
+     "norm": "said",
+     "norm_raw": "said",
+     "start": 41.6,
+     "end": 41.82
+    },
+    {
+     "text": "MAYBE",
+     "red": false,
+     "norm": "maybe",
+     "norm_raw": "maybe",
+     "start": 42.0,
+     "end": 42.1
+    },
+    {
+     "text": "NOBODY",
+     "red": false,
+     "norm": "nobody",
+     "norm_raw": "nobody",
+     "start": 42.1,
+     "end": 42.38
+    },
+    {
+     "text": "WRITES",
+     "red": false,
+     "norm": "writes",
+     "norm_raw": "writes",
+     "start": 42.38,
+     "end": 42.68
+    },
+    {
+     "text": "TO",
+     "red": false,
+     "norm": "to",
+     "norm_raw": "to",
+     "start": 42.68,
+     "end": 42.88
+    },
+    {
+     "text": "US",
+     "red": false,
+     "norm": "us",
+     "norm_raw": "us",
+     "start": 42.88,
+     "end": 43.1
+    },
+    {
+     "text": "DAD",
+     "red": false,
+     "norm": "dad",
+     "norm_raw": "dad",
+     "start": 43.3,
+     "end": 43.4
+    },
+    {
+     "text": "SAID",
+     "red": false,
+     "norm": "said",
+     "norm_raw": "said",
+     "start": 43.4,
+     "end": 43.66
+    },
+    {
+     "text": "EAT",
+     "red": false,
+     "norm": "eat",
+     "norm_raw": "eat",
+     "start": 43.88,
+     "end": 43.98
+    },
+    {
+     "text": "YOUR",
+     "red": false,
+     "norm": "your",
+     "norm_raw": "your",
+     "start": 43.98,
+     "end": 44.14
+    },
+    {
+     "text": "SOUP",
+     "red": false,
+     "norm": "soup",
+     "norm_raw": "soup",
+     "start": 44.14,
+     "end": 44.36
+    },
+    {
+     "text": "WHICH",
+     "red": false,
+     "norm": "which",
+     "norm_raw": "which",
+     "start": 44.6,
+     "end": 44.72
+    },
+    {
+     "text": "IS",
+     "red": false,
+     "norm": "is",
+     "norm_raw": "is",
+     "start": 44.72,
+     "end": 44.86
+    },
+    {
+     "text": "WHAT",
+     "red": false,
+     "norm": "what",
+     "norm_raw": "what",
+     "start": 44.86,
+     "end": 45.0
+    },
+    {
+     "text": "DAD",
+     "red": false,
+     "norm": "dad",
+     "norm_raw": "dad",
+     "start": 45.0,
+     "end": 45.16
+    },
+    {
+     "text": "SAYS",
+     "red": false,
+     "norm": "says",
+     "norm_raw": "says",
+     "start": 45.16,
+     "end": 45.42
+    },
+    {
+     "text": "WHEN",
+     "red": false,
+     "norm": "when",
+     "norm_raw": "when",
+     "start": 45.42,
+     "end": 45.72
+    },
+    {
+     "text": "HE'S",
+     "red": false,
+     "norm": "hes",
+     "norm_raw": "he's",
+     "start": 45.72,
+     "end": 45.9
+    },
+    {
+     "text": "LYING",
+     "red": false,
+     "norm": "lying",
+     "norm_raw": "lying",
+     "start": 45.9,
+     "end": 46.06
+    }
+   ]
+  },
+  {
+   "id": "s09",
+   "text": "That's when I knew something was up. So I made a plan.",
+   "start": 46.43,
+   "speech_end": 48.65,
+   "end": 48.8,
+   "light": "day",
+   "beats": [
+    {
+     "set": "kitchen",
+     "cam": "dutch",
+     "tgt": "eli",
+     "faces": {
+      "eli": "blank"
+     }
+    },
+    {
+     "set": "street",
+     "cam": "cu",
+     "tgt": "eli"
+    },
+    {
+     "set": "street",
+     "cam": "push",
+     "tgt": "eli"
+    }
+   ],
+   "words": [
+    {
+     "text": "THAT'S",
+     "red": false,
+     "norm": "thats",
+     "norm_raw": "that's",
+     "start": 46.43,
+     "end": 46.61
+    },
+    {
+     "text": "WHEN",
+     "red": false,
+     "norm": "when",
+     "norm_raw": "when",
+     "start": 46.61,
+     "end": 46.73
+    },
+    {
+     "text": "I",
+     "red": false,
+     "norm": "i",
+     "norm_raw": "i",
+     "start": 46.73,
+     "end": 46.81
+    },
+    {
+     "text": "KNEW",
+     "red": false,
+     "norm": "knew",
+     "norm_raw": "knew",
+     "start": 46.81,
+     "end": 46.95
+    },
+    {
+     "text": "SOMETHING",
+     "red": false,
+     "norm": "something",
+     "norm_raw": "something",
+     "start": 46.95,
+     "end": 47.23
+    },
+    {
+     "text": "WAS",
+     "red": false,
+     "norm": "was",
+     "norm_raw": "was",
+     "start": 47.23,
+     "end": 47.45
+    },
+    {
+     "text": "UP",
+     "red": false,
+     "norm": "up",
+     "norm_raw": "up",
+     "start": 47.45,
+     "end": 47.65
+    },
+    {
+     "text": "SO",
+     "red": false,
+     "norm": "so",
+     "norm_raw": "so",
+     "start": 47.81,
+     "end": 47.89
+    },
+    {
+     "text": "I",
+     "red": false,
+     "norm": "i",
+     "norm_raw": "i",
+     "start": 47.89,
+     "end": 47.99
+    },
+    {
+     "text": "MADE",
+     "red": false,
+     "norm": "made",
+     "norm_raw": "made",
+     "start": 47.99,
+     "end": 48.11
+    },
+    {
+     "text": "A",
+     "red": false,
+     "norm": "a",
+     "norm_raw": "a",
+     "start": 48.11,
+     "end": 48.21
+    },
+    {
+     "text": "PLAN",
+     "red": false,
+     "norm": "plan",
+     "norm_raw": "plan",
+     "start": 48.21,
+     "end": 48.39
+    }
+   ]
+  },
+  {
+   "id": "s10",
+   "text": "Plan one: ask him directly. I waited at the corner at six a.m. He saw me from a block away, turned around, and ran. A grown man. With a mailbag the size of a sheep. Running.",
+   "start": 48.8,
+   "speech_end": 57.14,
+   "end": 57.29,
+   "light": "golden",
+   "beats": [
+    {
+     "card": "plan1"
+    },
+    {
+     "set": "corner",
+     "cam": "low",
+     "tgt": "eli"
+    },
+    {
+     "set": "corner",
+     "cam": "wide",
+     "tgt": "eli"
+    },
+    {
+     "set": "corner",
+     "cam": "ecu",
+     "tgt": "dobbs",
+     "faces": {
+      "dobbs": "shocked"
+     }
+    },
+    {
+     "set": "corner_run",
+     "cam": "chase",
+     "tgt": "dobbs",
+     "faces": {
+      "dobbs": "scared"
+     }
+    },
+    {
+     "set": "corner_run",
+     "cam": "track",
+     "tgt": "dobbs",
+     "faces": {
+      "dobbs": "scared"
+     }
+    },
+    {
+     "set": "corner_run",
+     "cam": "low",
+     "tgt": "dobbs",
+     "faces": {
+      "dobbs": "scared"
+     }
+    },
+    {
+     "set": "corner_run",
+     "cam": "high",
+     "tgt": "dobbs",
+     "faces": {
+      "dobbs": "scared"
+     }
+    },
+    {
+     "set": "corner",
+     "cam": "cu",
+     "tgt": "eli",
+     "faces": {
+      "eli": "tired"
+     }
+    }
+   ],
+   "words": [
+    {
+     "text": "PLAN",
+     "red": false,
+     "norm": "plan",
+     "norm_raw": "plan",
+     "start": 48.8,
+     "end": 48.94
+    },
+    {
+     "text": "ONE",
+     "red": false,
+     "norm": "one",
+     "norm_raw": "one",
+     "start": 48.94,
+     "end": 49.4
+    },
+    {
+     "text": "ASK",
+     "red": false,
+     "norm": "ask",
+     "norm_raw": "ask",
+     "start": 49.4,
+     "end": 49.64
+    },
+    {
+     "text": "HIM",
+     "red": false,
+     "norm": "him",
+     "norm_raw": "him",
+     "start": 49.64,
+     "end": 49.76
+    },
+    {
+     "text": "DIRECTLY",
+     "red": false,
+     "norm": "directly",
+     "norm_raw": "directly",
+     "start": 49.76,
+     "end": 50.08
+    },
+    {
+     "text": "I",
+     "red": false,
+     "norm": "i",
+     "norm_raw": "i",
+     "start": 50.52,
+     "end": 50.62
+    },
+    {
+     "text": "WAITED",
+     "red": false,
+     "norm": "waited",
+     "norm_raw": "waited",
+     "start": 50.62,
+     "end": 50.78
+    },
+    {
+     "text": "AT",
+     "red": false,
+     "norm": "at",
+     "norm_raw": "at",
+     "start": 50.78,
+     "end": 50.96
+    },
+    {
+     "text": "THE",
+     "red": false,
+     "norm": "the",
+     "norm_raw": "the",
+     "start": 50.96,
+     "end": 51.02
+    },
+    {
+     "text": "CORNER",
+     "red": false,
+     "norm": "corner",
+     "norm_raw": "corner",
+     "start": 51.02,
+     "end": 51.22
+    },
+    {
+     "text": "AT",
+     "red": false,
+     "norm": "at",
+     "norm_raw": "at",
+     "start": 51.22,
+     "end": 51.42
+    },
+    {
+     "text": "SIX",
+     "red": false,
+     "norm": "six",
+     "norm_raw": "six",
+     "start": 51.42,
+     "end": 51.672
+    },
+    {
+     "text": "A.M",
+     "red": false,
+     "norm": "am",
+     "norm_raw": "a.m",
+     "start": 51.672,
+     "end": 51.84
+    },
+    {
+     "text": "HE",
+     "red": false,
+     "norm": "he",
+     "norm_raw": "he",
+     "start": 51.84,
+     "end": 51.9
+    },
+    {
+     "text": "SAW",
+     "red": false,
+     "norm": "saw",
+     "norm_raw": "saw",
+     "start": 51.9,
+     "end": 52.08
+    },
+    {
+     "text": "ME",
+     "red": false,
+     "norm": "me",
+     "norm_raw": "me",
+     "start": 52.08,
+     "end": 52.22
+    },
+    {
+     "text": "FROM",
+     "red": false,
+     "norm": "from",
+     "norm_raw": "from",
+     "start": 52.22,
+     "end": 52.4
+    },
+    {
+     "text": "A",
+     "red": false,
+     "norm": "a",
+     "norm_raw": "a",
+     "start": 52.4,
+     "end": 52.48
+    },
+    {
+     "text": "BLOCK",
+     "red": false,
+     "norm": "block",
+     "norm_raw": "block",
+     "start": 52.48,
+     "end": 52.64
+    },
+    {
+     "text": "AWAY",
+     "red": false,
+     "norm": "away",
+     "norm_raw": "away",
+     "start": 52.64,
+     "end": 52.88
+    },
+    {
+     "text": "TURNED",
+     "red": false,
+     "norm": "turned",
+     "norm_raw": "turned",
+     "start": 53.16,
+     "end": 53.3
+    },
+    {
+     "text": "AROUND",
+     "red": false,
+     "norm": "around",
+     "norm_raw": "around",
+     "start": 53.3,
+     "end": 53.52
+    },
+    {
+     "text": "AND",
+     "red": false,
+     "norm": "and",
+     "norm_raw": "and",
+     "start": 53.82,
+     "end": 53.9
+    },
+    {
+     "text": "RAN",
+     "red": false,
+     "norm": "ran",
+     "norm_raw": "ran",
+     "start": 53.9,
+     "end": 54.08
+    },
+    {
+     "text": "A",
+     "red": false,
+     "norm": "a",
+     "norm_raw": "a",
+     "start": 54.42,
+     "end": 54.5
+    },
+    {
+     "text": "GROWN",
+     "red": false,
+     "norm": "grown",
+     "norm_raw": "grown",
+     "start": 54.5,
+     "end": 54.64
+    },
+    {
+     "text": "MAN",
+     "red": false,
+     "norm": "man",
+     "norm_raw": "man",
+     "start": 54.64,
+     "end": 54.9
+    },
+    {
+     "text": "WITH",
+     "red": false,
+     "norm": "with",
+     "norm_raw": "with",
+     "start": 55.16,
+     "end": 55.24
+    },
+    {
+     "text": "A",
+     "red": false,
+     "norm": "a",
+     "norm_raw": "a",
+     "start": 55.24,
+     "end": 55.32
+    },
+    {
+     "text": "MAILBAG",
+     "red": false,
+     "norm": "mailbag",
+     "norm_raw": "mailbag",
+     "start": 55.32,
+     "end": 55.62
+    },
+    {
+     "text": "THE",
+     "red": false,
+     "norm": "the",
+     "norm_raw": "the",
+     "start": 55.62,
+     "end": 55.8
+    },
+    {
+     "text": "SIZE",
+     "red": false,
+     "norm": "size",
+     "norm_raw": "size",
+     "start": 55.8,
+     "end": 55.94
+    },
+    {
+     "text": "OF",
+     "red": false,
+     "norm": "of",
+     "norm_raw": "of",
+     "start": 55.94,
+     "end": 56.2
+    },
+    {
+     "text": "A",
+     "red": false,
+     "norm": "a",
+     "norm_raw": "a",
+     "start": 56.2,
+     "end": 56.25
+    },
+    {
+     "text": "SHEEP",
+     "red": false,
+     "norm": "sheep",
+     "norm_raw": "sheep",
+     "start": 56.24,
+     "end": 56.4
+    },
+    {
+     "text": "RUNNING",
+     "red": false,
+     "norm": "running",
+     "norm_raw": "running",
+     "start": 56.7,
+     "end": 56.86
+    }
+   ]
+  },
+  {
+   "id": "s11",
+   "text": "Plan two: follow him.",
+   "start": 57.29,
+   "speech_end": 58.48,
+   "end": 58.63,
+   "light": "day",
+   "beats": [
+    {
+     "card": "plan2"
+    },
+    {
+     "set": "follow_bakery",
+     "cam": "ots",
+     "tgt": "dobbs",
+     "over": "eli"
+    }
+   ],
+   "words": [
+    {
+     "text": "PLAN",
+     "red": false,
+     "norm": "plan",
+     "norm_raw": "plan",
+     "start": 57.29,
+     "end": 57.43
+    },
+    {
+     "text": "TWO",
+     "red": false,
+     "norm": "two",
+     "norm_raw": "two",
+     "start": 57.43,
+     "end": 57.93
+    },
+    {
+     "text": "FOLLOW",
+     "red": false,
+     "norm": "follow",
+     "norm_raw": "follow",
+     "start": 57.93,
+     "end": 58.15
+    },
+    {
+     "text": "HIM",
+     "red": false,
+     "norm": "him",
+     "norm_raw": "him",
+     "start": 58.15,
+     "end": 58.35
+    }
+   ]
+  },
+  {
+   "id": "s12",
+   "text": "He went to the bakery. Dropped a letter. The mill. Dropped a letter. Town hall. Dropped three.",
+   "start": 58.63,
+   "speech_end": 62.77,
+   "end": 62.92,
+   "light": "day",
+   "beats": [
+    {
+     "set": "follow_bakery",
+     "cam": "chase",
+     "tgt": "dobbs"
+    },
+    {
+     "set": "bakery",
+     "cam": "prop",
+     "tgt": "bakery_sign"
+    },
+    {
+     "set": "follow_mill",
+     "cam": "wide",
+     "tgt": "mill"
+    },
+    {
+     "set": "follow_mill",
+     "cam": "low",
+     "tgt": "dobbs",
+     "acts": {
+      "dobbs": "give"
+     }
+    },
+    {
+     "set": "follow_hall",
+     "cam": "wide",
+     "tgt": "hall_sign"
+    },
+    {
+     "set": "follow_hall",
+     "cam": "chase",
+     "tgt": "dobbs"
+    },
+    {
+     "set": "follow_hall",
+     "cam": "cu",
+     "tgt": "eli"
+    }
+   ],
+   "words": [
+    {
+     "text": "HE",
+     "red": false,
+     "norm": "he",
+     "norm_raw": "he",
+     "start": 58.63,
+     "end": 58.69
+    },
+    {
+     "text": "WENT",
+     "red": false,
+     "norm": "went",
+     "norm_raw": "went",
+     "start": 58.69,
+     "end": 58.81
+    },
+    {
+     "text": "TO",
+     "red": false,
+     "norm": "to",
+     "norm_raw": "to",
+     "start": 58.81,
+     "end": 58.97
+    },
+    {
+     "text": "THE",
+     "red": false,
+     "norm": "the",
+     "norm_raw": "the",
+     "start": 58.97,
+     "end": 59.05
+    },
+    {
+     "text": "BAKERY",
+     "red": false,
+     "norm": "bakery",
+     "norm_raw": "bakery",
+     "start": 59.05,
+     "end": 59.25
+    },
+    {
+     "text": "DROPPED",
+     "red": false,
+     "norm": "dropped",
+     "norm_raw": "dropped",
+     "start": 59.57,
+     "end": 59.73
+    },
+    {
+     "text": "A",
+     "red": false,
+     "norm": "a",
+     "norm_raw": "a",
+     "start": 59.73,
+     "end": 59.89
+    },
+    {
+     "text": "LETTER",
+     "red": false,
+     "norm": "letter",
+     "norm_raw": "letter",
+     "start": 59.89,
+     "end": 60.05
+    },
+    {
+     "text": "THE",
+     "red": false,
+     "norm": "the",
+     "norm_raw": "the",
+     "start": 60.35,
+     "end": 60.43
+    },
+    {
+     "text": "MILL",
+     "red": false,
+     "norm": "mill",
+     "norm_raw": "mill",
+     "start": 60.43,
+     "end": 60.57
+    },
+    {
+     "text": "DROPPED",
+     "red": false,
+     "norm": "dropped",
+     "norm_raw": "dropped",
+     "start": 60.83,
+     "end": 60.97
+    },
+    {
+     "text": "A",
+     "red": false,
+     "norm": "a",
+     "norm_raw": "a",
+     "start": 60.97,
+     "end": 61.15
+    },
+    {
+     "text": "LETTER",
+     "red": false,
+     "norm": "letter",
+     "norm_raw": "letter",
+     "start": 61.15,
+     "end": 61.35
+    },
+    {
+     "text": "TOWN",
+     "red": false,
+     "norm": "town",
+     "norm_raw": "town",
+     "start": 61.53,
+     "end": 61.67
+    },
+    {
+     "text": "HALL",
+     "red": false,
+     "norm": "hall",
+     "norm_raw": "hall",
+     "start": 61.67,
+     "end": 61.91
+    },
+    {
+     "text": "DROPPED",
+     "red": false,
+     "norm": "dropped",
+     "norm_raw": "dropped",
+     "start": 61.91,
+     "end": 62.31
+    },
+    {
+     "text": "THREE",
+     "red": false,
+     "norm": "three",
+     "norm_raw": "three",
+     "start": 62.31,
+     "end": 62.59
+    }
+   ]
+  },
+  {
+   "id": "s13",
+   "text": "Then he stopped at the end of the road, opened his bag, and pulled out one more envelope. Cream colored. Red wax seal. He stared at it for a long time.",
+   "start": 62.92,
+   "speech_end": 69.53,
+   "end": 69.68,
+   "light": "dusk",
+   "beats": [
+    {
+     "set": "road_end",
+     "cam": "wide",
+     "tgt": "dobbs"
+    },
+    {
+     "set": "road_end",
+     "cam": "low",
+     "tgt": "dobbs"
+    },
+    {
+     "set": "road_end",
+     "cam": "prop",
+     "tgt": "dobbs_held_env",
+     "paper": true
+    },
+    {
+     "set": "road_end",
+     "cam": "ecu",
+     "tgt": "dobbs_held_env",
+     "paper": true
+    },
+    {
+     "set": "road_end",
+     "cam": "ecu",
+     "tgt": "dobbs",
+     "faces": {
+      "dobbs": "scared"
+     }
+    },
+    {
+     "set": "road_end",
+     "cam": "ots",
+     "tgt": "dobbs",
+     "over": "eli"
+    },
+    {
+     "set": "road_end",
+     "cam": "orbit",
+     "tgt": "dobbs"
+    }
+   ],
+   "words": [
+    {
+     "text": "THEN",
+     "red": false,
+     "norm": "then",
+     "norm_raw": "then",
+     "start": 62.92,
+     "end": 63.02
+    },
+    {
+     "text": "HE",
+     "red": false,
+     "norm": "he",
+     "norm_raw": "he",
+     "start": 63.02,
+     "end": 63.1
+    },
+    {
+     "text": "STOPPED",
+     "red": false,
+     "norm": "stopped",
+     "norm_raw": "stopped",
+     "start": 63.1,
+     "end": 63.32
+    },
+    {
+     "text": "AT",
+     "red": false,
+     "norm": "at",
+     "norm_raw": "at",
+     "start": 63.32,
+     "end": 63.52
+    },
+    {
+     "text": "THE",
+     "red": false,
+     "norm": "the",
+     "norm_raw": "the",
+     "start": 63.52,
+     "end": 63.6
+    },
+    {
+     "text": "END",
+     "red": false,
+     "norm": "end",
+     "norm_raw": "end",
+     "start": 63.6,
+     "end": 63.76
+    },
+    {
+     "text": "OF",
+     "red": false,
+     "norm": "of",
+     "norm_raw": "of",
+     "start": 63.76,
+     "end": 63.92
+    },
+    {
+     "text": "THE",
+     "red": false,
+     "norm": "the",
+     "norm_raw": "the",
+     "start": 63.92,
+     "end": 64.0
+    },
+    {
+     "text": "ROAD",
+     "red": false,
+     "norm": "road",
+     "norm_raw": "road",
+     "start": 64.0,
+     "end": 64.18
+    },
+    {
+     "text": "OPENED",
+     "red": false,
+     "norm": "opened",
+     "norm_raw": "opened",
+     "start": 64.4,
+     "end": 64.58
+    },
+    {
+     "text": "HIS",
+     "red": false,
+     "norm": "his",
+     "norm_raw": "his",
+     "start": 64.58,
+     "end": 64.74
+    },
+    {
+     "text": "BAG",
+     "red": false,
+     "norm": "bag",
+     "norm_raw": "bag",
+     "start": 64.74,
+     "end": 64.96
+    },
+    {
+     "text": "AND",
+     "red": false,
+     "norm": "and",
+     "norm_raw": "and",
+     "start": 64.96,
+     "end": 65.26
+    },
+    {
+     "text": "PULLED",
+     "red": false,
+     "norm": "pulled",
+     "norm_raw": "pulled",
+     "start": 65.26,
+     "end": 65.44
+    },
+    {
+     "text": "OUT",
+     "red": false,
+     "norm": "out",
+     "norm_raw": "out",
+     "start": 65.44,
+     "end": 65.6
+    },
+    {
+     "text": "ONE",
+     "red": false,
+     "norm": "one",
+     "norm_raw": "one",
+     "start": 65.6,
+     "end": 65.8
+    },
+    {
+     "text": "MORE",
+     "red": false,
+     "norm": "more",
+     "norm_raw": "more",
+     "start": 65.8,
+     "end": 65.98
+    },
+    {
+     "text": "ENVELOPE",
+     "red": false,
+     "norm": "envelope",
+     "norm_raw": "envelope",
+     "start": 65.98,
+     "end": 66.34
+    },
+    {
+     "text": "CREAM",
+     "red": false,
+     "norm": "cream",
+     "norm_raw": "cream",
+     "start": 66.56,
+     "end": 66.72
+    },
+    {
+     "text": "COLORED",
+     "red": false,
+     "norm": "colored",
+     "norm_raw": "colored",
+     "start": 66.72,
+     "end": 66.98
+    },
+    {
+     "text": "RED",
+     "red": false,
+     "norm": "red",
+     "norm_raw": "red",
+     "start": 67.3,
+     "end": 67.44
+    },
+    {
+     "text": "WAX",
+     "red": false,
+     "norm": "wax",
+     "norm_raw": "wax",
+     "start": 67.44,
+     "end": 67.66
+    },
+    {
+     "text": "SEAL",
+     "red": false,
+     "norm": "seal",
+     "norm_raw": "seal",
+     "start": 67.66,
+     "end": 67.96
+    },
+    {
+     "text": "HE",
+     "red": false,
+     "norm": "he",
+     "norm_raw": "he",
+     "start": 68.26,
+     "end": 68.31
+    },
+    {
+     "text": "STARED",
+     "red": false,
+     "norm": "stared",
+     "norm_raw": "stared",
+     "start": 68.3,
+     "end": 68.46
+    },
+    {
+     "text": "AT",
+     "red": false,
+     "norm": "at",
+     "norm_raw": "at",
+     "start": 68.46,
+     "end": 68.66
+    },
+    {
+     "text": "IT",
+     "red": false,
+     "norm": "it",
+     "norm_raw": "it",
+     "start": 68.66,
+     "end": 68.74
+    },
+    {
+     "text": "FOR",
+     "red": false,
+     "norm": "for",
+     "norm_raw": "for",
+     "start": 68.74,
+     "end": 68.88
+    },
+    {
+     "text": "A",
+     "red": false,
+     "norm": "a",
+     "norm_raw": "a",
+     "start": 68.88,
+     "end": 68.94
+    },
+    {
+     "text": "LONG",
+     "red": false,
+     "norm": "long",
+     "norm_raw": "long",
+     "start": 68.94,
+     "end": 69.08
+    },
+    {
+     "text": "TIME",
+     "red": false,
+     "norm": "time",
+     "norm_raw": "time",
+     "start": 69.08,
+     "end": 69.38
+    }
+   ]
+  },
+  {
+   "id": "s14",
+   "text": "Then he looked straight at our house. And whispered, \"Not yet.\"",
+   "start": 69.68,
+   "speech_end": 72.43,
+   "end": 72.58,
+   "light": "dusk",
+   "beats": [
+    {
+     "set": "road_end",
+     "cam": "cu",
+     "tgt": "dobbs",
+     "acts": {
+      "dobbs": "head_turn"
+     }
+    },
+    {
+     "set": "road_end",
+     "cam": "prop",
+     "tgt": "eli_house"
+    },
+    {
+     "set": "road_end",
+     "cam": "ecu",
+     "tgt": "dobbs",
+     "acts": {
+      "dobbs": "whisper"
+     },
+     "faces": {
+      "dobbs": "scared"
+     }
+    }
+   ],
+   "words": [
+    {
+     "text": "THEN",
+     "red": false,
+     "norm": "then",
+     "norm_raw": "then",
+     "start": 69.68,
+     "end": 69.8
+    },
+    {
+     "text": "HE",
+     "red": false,
+     "norm": "he",
+     "norm_raw": "he",
+     "start": 69.8,
+     "end": 69.9
+    },
+    {
+     "text": "LOOKED",
+     "red": false,
+     "norm": "looked",
+     "norm_raw": "looked",
+     "start": 69.9,
+     "end": 70.06
+    },
+    {
+     "text": "STRAIGHT",
+     "red": false,
+     "norm": "straight",
+     "norm_raw": "straight",
+     "start": 70.06,
+     "end": 70.36
+    },
+    {
+     "text": "AT",
+     "red": false,
+     "norm": "at",
+     "norm_raw": "at",
+     "start": 70.36,
+     "end": 70.54
+    },
+    {
+     "text": "OUR",
+     "red": false,
+     "norm": "our",
+     "norm_raw": "our",
+     "start": 70.54,
+     "end": 70.68
+    },
+    {
+     "text": "HOUSE",
+     "red": false,
+     "norm": "house",
+     "norm_raw": "house",
+     "start": 70.68,
+     "end": 70.88
+    },
+    {
+     "text": "AND",
+     "red": false,
+     "norm": "and",
+     "norm_raw": "and",
+     "start": 70.88,
+     "end": 71.32
+    },
+    {
+     "text": "WHISPERED",
+     "red": false,
+     "norm": "whispered",
+     "norm_raw": "whispered",
+     "start": 71.32,
+     "end": 71.56
+    },
+    {
+     "text": "NOT",
+     "red": false,
+     "norm": "not",
+     "norm_raw": "not",
+     "start": 71.9,
+     "end": 72.04
+    },
+    {
+     "text": "YET",
+     "red": false,
+     "norm": "yet",
+     "norm_raw": "yet",
+     "start": 72.04,
+     "end": 72.26
+    }
+   ]
+  },
+  {
+   "id": "s15",
+   "text": "He put the letter back. And walked away.",
+   "start": 72.58,
+   "speech_end": 74.16,
+   "end": 74.31,
+   "light": "dusk",
+   "beats": [
+    {
+     "set": "road_end",
+     "cam": "prop",
+     "tgt": "dobbs_held_env",
+     "acts": {
+      "dobbs": "hold"
+     },
+     "paper": true
+    },
+    {
+     "set": "road_end",
+     "cam": "chase",
+     "tgt": "dobbs",
+     "acts": {
+      "dobbs": "walk"
+     }
+    }
+   ],
+   "words": [
+    {
+     "text": "HE",
+     "red": false,
+     "norm": "he",
+     "norm_raw": "he",
+     "start": 72.58,
+     "end": 72.63
+    },
+    {
+     "text": "PUT",
+     "red": false,
+     "norm": "put",
+     "norm_raw": "put",
+     "start": 72.62,
+     "end": 72.74
+    },
+    {
+     "text": "THE",
+     "red": false,
+     "norm": "the",
+     "norm_raw": "the",
+     "start": 72.74,
+     "end": 72.86
+    },
+    {
+     "text": "LETTER",
+     "red": false,
+     "norm": "letter",
+     "norm_raw": "letter",
+     "start": 72.86,
+     "end": 72.98
+    },
+    {
+     "text": "BACK",
+     "red": false,
+     "norm": "back",
+     "norm_raw": "back",
+     "start": 72.98,
+     "end": 73.2
+    },
+    {
+     "text": "AND",
+     "red": false,
+     "norm": "and",
+     "norm_raw": "and",
+     "start": 73.2,
+     "end": 73.46
+    },
+    {
+     "text": "WALKED",
+     "red": false,
+     "norm": "walked",
+     "norm_raw": "walked",
+     "start": 73.46,
+     "end": 73.64
+    },
+    {
+     "text": "AWAY",
+     "red": false,
+     "norm": "away",
+     "norm_raw": "away",
+     "start": 73.64,
+     "end": 73.94
+    }
+   ]
+  },
+  {
+   "id": "s16",
+   "text": "Not YET? What does \"not yet\" mean?",
+   "start": 74.31,
+   "speech_end": 75.93,
+   "end": 76.08,
+   "light": "dusk",
+   "beats": [
+    {
+     "card": "notyet"
+    },
+    {
+     "set": "road_end",
+     "cam": "ecu",
+     "tgt": "eli",
+     "faces": {
+      "eli": "shocked"
+     }
+    },
+    {
+     "set": "road_end",
+     "cam": "dutch",
+     "tgt": "eli"
+    }
+   ],
+   "words": [
+    {
+     "text": "NOT",
+     "red": false,
+     "norm": "not",
+     "norm_raw": "not",
+     "start": 74.31,
+     "end": 74.43
+    },
+    {
+     "text": "YET?",
+     "red": true,
+     "norm": "yet",
+     "norm_raw": "yet?",
+     "start": 74.43,
+     "end": 74.59
+    },
+    {
+     "text": "WHAT",
+     "red": false,
+     "norm": "what",
+     "norm_raw": "what",
+     "start": 74.87,
+     "end": 74.95
+    },
+    {
+     "text": "DOES",
+     "red": false,
+     "norm": "does",
+     "norm_raw": "does",
+     "start": 74.95,
+     "end": 75.11
+    },
+    {
+     "text": "NOT",
+     "red": false,
+     "norm": "not",
+     "norm_raw": "not",
+     "start": 75.11,
+     "end": 75.29
+    },
+    {
+     "text": "YET",
+     "red": false,
+     "norm": "yet",
+     "norm_raw": "yet",
+     "start": 75.29,
+     "end": 75.49
+    },
+    {
+     "text": "MEAN?",
+     "red": false,
+     "norm": "mean",
+     "norm_raw": "mean?",
+     "start": 75.49,
+     "end": 75.73
+    }
+   ]
+  },
+  {
+   "id": "s17",
+   "text": "That night I snuck out. Mr. Dobbs lives in the tiny blue house behind the post office. The light was on. I crept up to the window.",
+   "start": 76.08,
+   "speech_end": 81.87,
+   "end": 82.02,
+   "light": "night",
+   "beats": [
+    {
+     "set": "night_st",
+     "cam": "high",
+     "tgt": "eli"
+    },
+    {
+     "set": "night_st",
+     "cam": "track",
+     "tgt": "eli"
+    },
+    {
+     "set": "dobbs_ext",
+     "cam": "wide",
+     "tgt": "post_office"
+    },
+    {
+     "set": "dobbs_ext",
+     "cam": "push",
+     "tgt": "dobbs_house"
+    },
+    {
+     "set": "dobbs_ext",
+     "cam": "low",
+     "tgt": "eli"
+    },
+    {
+     "set": "window",
+     "cam": "ots",
+     "tgt": "dobbs_window",
+     "over": "eli"
+    },
+    {
+     "set": "window",
+     "cam": "ecu",
+     "tgt": "eli"
+    }
+   ],
+   "words": [
+    {
+     "text": "THAT",
+     "red": false,
+     "norm": "that",
+     "norm_raw": "that",
+     "start": 76.08,
+     "end": 76.18
+    },
+    {
+     "text": "NIGHT",
+     "red": false,
+     "norm": "night",
+     "norm_raw": "night",
+     "start": 76.18,
+     "end": 76.34
+    },
+    {
+     "text": "I",
+     "red": false,
+     "norm": "i",
+     "norm_raw": "i",
+     "start": 76.34,
+     "end": 76.48
+    },
+    {
+     "text": "SNUCK",
+     "red": false,
+     "norm": "snuck",
+     "norm_raw": "snuck",
+     "start": 76.48,
+     "end": 76.74
+    },
+    {
+     "text": "OUT",
+     "red": false,
+     "norm": "out",
+     "norm_raw": "out",
+     "start": 76.74,
+     "end": 76.88
+    },
+    {
+     "text": "MR",
+     "red": false,
+     "norm": "mr",
+     "norm_raw": "mr",
+     "start": 76.88,
+     "end": 77.149
+    },
+    {
+     "text": "DOBBS",
+     "red": false,
+     "norm": "dobbs",
+     "norm_raw": "dobbs",
+     "start": 77.149,
+     "end": 77.82
+    },
+    {
+     "text": "LIVES",
+     "red": false,
+     "norm": "lives",
+     "norm_raw": "lives",
+     "start": 77.82,
+     "end": 77.98
+    },
+    {
+     "text": "IN",
+     "red": false,
+     "norm": "in",
+     "norm_raw": "in",
+     "start": 77.98,
+     "end": 78.12
+    },
+    {
+     "text": "THE",
+     "red": false,
+     "norm": "the",
+     "norm_raw": "the",
+     "start": 78.12,
+     "end": 78.18
+    },
+    {
+     "text": "TINY",
+     "red": false,
+     "norm": "tiny",
+     "norm_raw": "tiny",
+     "start": 78.18,
+     "end": 78.34
+    },
+    {
+     "text": "BLUE",
+     "red": false,
+     "norm": "blue",
+     "norm_raw": "blue",
+     "start": 78.34,
+     "end": 78.58
+    },
+    {
+     "text": "HOUSE",
+     "red": false,
+     "norm": "house",
+     "norm_raw": "house",
+     "start": 78.58,
+     "end": 78.78
+    },
+    {
+     "text": "BEHIND",
+     "red": false,
+     "norm": "behind",
+     "norm_raw": "behind",
+     "start": 78.78,
+     "end": 79.04
+    },
+    {
+     "text": "THE",
+     "red": false,
+     "norm": "the",
+     "norm_raw": "the",
+     "start": 79.04,
+     "end": 79.26
+    },
+    {
+     "text": "POST",
+     "red": false,
+     "norm": "post",
+     "norm_raw": "post",
+     "start": 79.26,
+     "end": 79.4
+    },
+    {
+     "text": "OFFICE",
+     "red": false,
+     "norm": "office",
+     "norm_raw": "office",
+     "start": 79.4,
+     "end": 79.7
+    },
+    {
+     "text": "THE",
+     "red": false,
+     "norm": "the",
+     "norm_raw": "the",
+     "start": 79.98,
+     "end": 80.04
+    },
+    {
+     "text": "LIGHT",
+     "red": false,
+     "norm": "light",
+     "norm_raw": "light",
+     "start": 80.04,
+     "end": 80.18
+    },
+    {
+     "text": "WAS",
+     "red": false,
+     "norm": "was",
+     "norm_raw": "was",
+     "start": 80.18,
+     "end": 80.34
+    },
+    {
+     "text": "ON",
+     "red": false,
+     "norm": "on",
+     "norm_raw": "on",
+     "start": 80.34,
+     "end": 80.54
+    },
+    {
+     "text": "I",
+     "red": false,
+     "norm": "i",
+     "norm_raw": "i",
+     "start": 80.8,
+     "end": 80.88
+    },
+    {
+     "text": "CREPT",
+     "red": false,
+     "norm": "crept",
+     "norm_raw": "crept",
+     "start": 80.88,
+     "end": 81.0
+    },
+    {
+     "text": "UP",
+     "red": false,
+     "norm": "up",
+     "norm_raw": "up",
+     "start": 81.0,
+     "end": 81.18
+    },
+    {
+     "text": "TO",
+     "red": false,
+     "norm": "to",
+     "norm_raw": "to",
+     "start": 81.18,
+     "end": 81.34
+    },
+    {
+     "text": "THE",
+     "red": false,
+     "norm": "the",
+     "norm_raw": "the",
+     "start": 81.34,
+     "end": 81.44
+    },
+    {
+     "text": "WINDOW",
+     "red": false,
+     "norm": "window",
+     "norm_raw": "window",
+     "start": 81.44,
+     "end": 81.64
+    }
+   ]
+  },
+  {
+   "id": "s18",
+   "text": "Inside, the walls were covered in envelopes. Hundreds. Maybe thousands. Every one cream colored. Every one sealed in red wax.",
+   "start": 82.02,
+   "speech_end": 87.92,
+   "end": 88.07,
+   "light": "night",
+   "beats": [
+    {
+     "set": "window",
+     "cam": "ots",
+     "tgt": "env_wall",
+     "over": "eli",
+     "paper": true
+    },
+    {
+     "set": "int",
+     "cam": "pan",
+     "tgt": "env_wall",
+     "paper": true
+    },
+    {
+     "set": "int",
+     "cam": "orbit_room",
+     "tgt": "pt:40,30,1.7",
+     "paper": true
+    },
+    {
+     "set": "int",
+     "cam": "tilt_wall",
+     "tgt": "env_wall_back",
+     "paper": true
+    },
+    {
+     "set": "int",
+     "cam": "ecu_wall",
+     "tgt": "env_wall",
+     "paper": true
+    },
+    {
+     "set": "window",
+     "cam": "ecu",
+     "tgt": "eli",
+     "faces": {
+      "eli": "shocked"
+     }
+    },
+    {
+     "set": "int",
+     "cam": "push",
+     "tgt": "env_wall_back",
+     "paper": true
+    }
+   ],
+   "words": [
+    {
+     "text": "INSIDE",
+     "red": false,
+     "norm": "inside",
+     "norm_raw": "inside",
+     "start": 82.02,
+     "end": 82.34
+    },
+    {
+     "text": "THE",
+     "red": false,
+     "norm": "the",
+     "norm_raw": "the",
+     "start": 82.56,
+     "end": 82.61
+    },
+    {
+     "text": "WALLS",
+     "red": false,
+     "norm": "walls",
+     "norm_raw": "walls",
+     "start": 82.6,
+     "end": 82.74
+    },
+    {
+     "text": "WERE",
+     "red": false,
+     "norm": "were",
+     "norm_raw": "were",
+     "start": 82.74,
+     "end": 82.94
+    },
+    {
+     "text": "COVERED",
+     "red": false,
+     "norm": "covered",
+     "norm_raw": "covered",
+     "start": 82.94,
+     "end": 83.14
+    },
+    {
+     "text": "IN",
+     "red": false,
+     "norm": "in",
+     "norm_raw": "in",
+     "start": 83.14,
+     "end": 83.32
+    },
+    {
+     "text": "ENVELOPES",
+     "red": false,
+     "norm": "envelopes",
+     "norm_raw": "envelopes",
+     "start": 83.32,
+     "end": 83.78
+    },
+    {
+     "text": "HUNDREDS",
+     "red": false,
+     "norm": "hundreds",
+     "norm_raw": "hundreds",
+     "start": 83.78,
+     "end": 84.44
+    },
+    {
+     "text": "MAYBE",
+     "red": false,
+     "norm": "maybe",
+     "norm_raw": "maybe",
+     "start": 84.44,
+     "end": 84.56
+    },
+    {
+     "text": "THOUSANDS",
+     "red": false,
+     "norm": "thousands",
+     "norm_raw": "thousands",
+     "start": 84.56,
+     "end": 84.82
+    },
+    {
+     "text": "EVERY",
+     "red": false,
+     "norm": "every",
+     "norm_raw": "every",
+     "start": 84.82,
+     "end": 85.233
+    },
+    {
+     "text": "ONE",
+     "red": false,
+     "norm": "one",
+     "norm_raw": "one",
+     "start": 85.233,
+     "end": 85.48
+    },
+    {
+     "text": "CREAM",
+     "red": false,
+     "norm": "cream",
+     "norm_raw": "cream",
+     "start": 85.48,
+     "end": 85.8
+    },
+    {
+     "text": "COLORED",
+     "red": false,
+     "norm": "colored",
+     "norm_raw": "colored",
+     "start": 85.8,
+     "end": 86.16
+    },
+    {
+     "text": "EVERY",
+     "red": false,
+     "norm": "every",
+     "norm_raw": "every",
+     "start": 86.16,
+     "end": 86.448
+    },
+    {
+     "text": "ONE",
+     "red": false,
+     "norm": "one",
+     "norm_raw": "one",
+     "start": 86.448,
+     "end": 86.62
+    },
+    {
+     "text": "SEALED",
+     "red": false,
+     "norm": "sealed",
+     "norm_raw": "sealed",
+     "start": 86.62,
+     "end": 87.0
+    },
+    {
+     "text": "IN",
+     "red": false,
+     "norm": "in",
+     "norm_raw": "in",
+     "start": 87.0,
+     "end": 87.22
+    },
+    {
+     "text": "RED",
+     "red": false,
+     "norm": "red",
+     "norm_raw": "red",
+     "start": 87.22,
+     "end": 87.36
+    },
+    {
+     "text": "WAX",
+     "red": false,
+     "norm": "wax",
+     "norm_raw": "wax",
+     "start": 87.36,
+     "end": 87.64
+    }
+   ]
+  },
+  {
+   "id": "s19",
+   "text": "And every one had a name on it. The baker. Mrs. Pell. The mayor. Even Mr. Dobbs himself.",
+   "start": 88.07,
+   "speech_end": 92.77,
+   "end": 92.92,
+   "light": "night",
+   "beats": [
+    {
+     "set": "int",
+     "cam": "ecu_wall",
+     "tgt": "env_wall_back",
+     "paper": true
+    },
+    {
+     "set": "bakery",
+     "cam": "ecu",
+     "tgt": "baker",
+     "light": "dusk"
+    },
+    {
+     "set": "pell",
+     "cam": "ecu",
+     "tgt": "pell",
+     "light": "dusk"
+    },
+    {
+     "set": "mayor_st",
+     "cam": "ecu",
+     "tgt": "mayor",
+     "light": "dusk"
+    },
+    {
+     "set": "int",
+     "cam": "ecu_wall",
+     "tgt": "env_wall",
+     "paper": true
+    },
+    {
+     "set": "window",
+     "cam": "cu",
+     "tgt": "eli",
+     "faces": {
+      "eli": "scared"
+     }
+    }
+   ],
+   "words": [
+    {
+     "text": "AND",
+     "red": false,
+     "norm": "and",
+     "norm_raw": "and",
+     "start": 88.07,
+     "end": 88.17
+    },
+    {
+     "text": "EVERY",
+     "red": false,
+     "norm": "every",
+     "norm_raw": "every",
+     "start": 88.17,
+     "end": 88.32
+    },
+    {
+     "text": "ONE",
+     "red": false,
+     "norm": "one",
+     "norm_raw": "one",
+     "start": 88.32,
+     "end": 88.41
+    },
+    {
+     "text": "HAD",
+     "red": false,
+     "norm": "had",
+     "norm_raw": "had",
+     "start": 88.41,
+     "end": 88.75
+    },
+    {
+     "text": "A",
+     "red": false,
+     "norm": "a",
+     "norm_raw": "a",
+     "start": 88.75,
+     "end": 88.83
+    },
+    {
+     "text": "NAME",
+     "red": false,
+     "norm": "name",
+     "norm_raw": "name",
+     "start": 88.83,
+     "end": 88.99
+    },
+    {
+     "text": "ON",
+     "red": false,
+     "norm": "on",
+     "norm_raw": "on",
+     "start": 88.99,
+     "end": 89.13
+    },
+    {
+     "text": "IT",
+     "red": false,
+     "norm": "it",
+     "norm_raw": "it",
+     "start": 89.13,
+     "end": 89.31
+    },
+    {
+     "text": "THE",
+     "red": false,
+     "norm": "the",
+     "norm_raw": "the",
+     "start": 89.45,
+     "end": 89.51
+    },
+    {
+     "text": "BAKER",
+     "red": false,
+     "norm": "baker",
+     "norm_raw": "baker",
+     "start": 89.51,
+     "end": 89.69
+    },
+    {
+     "text": "MRS",
+     "red": false,
+     "norm": "mrs",
+     "norm_raw": "mrs",
+     "start": 90.01,
+     "end": 90.53
+    },
+    {
+     "text": "PELL",
+     "red": false,
+     "norm": "pell",
+     "norm_raw": "pell",
+     "start": 90.53,
+     "end": 90.93
+    },
+    {
+     "text": "THE",
+     "red": false,
+     "norm": "the",
+     "norm_raw": "the",
+     "start": 90.93,
+     "end": 91.01
+    },
+    {
+     "text": "MAYOR",
+     "red": false,
+     "norm": "mayor",
+     "norm_raw": "mayor",
+     "start": 91.01,
+     "end": 91.15
+    },
+    {
+     "text": "EVEN",
+     "red": false,
+     "norm": "even",
+     "norm_raw": "even",
+     "start": 91.47,
+     "end": 91.61
+    },
+    {
+     "text": "MR",
+     "red": false,
+     "norm": "mr",
+     "norm_raw": "mr",
+     "start": 91.61,
+     "end": 92.13
+    },
+    {
+     "text": "DOBBS",
+     "red": false,
+     "norm": "dobbs",
+     "norm_raw": "dobbs",
+     "start": 92.13,
+     "end": 92.37
+    },
+    {
+     "text": "HIMSELF",
+     "red": false,
+     "norm": "himself",
+     "norm_raw": "himself",
+     "start": 92.37,
+     "end": 92.51
+    }
+   ]
+  },
+  {
+   "id": "s20",
+   "text": "There was a whole shelf with the name of every kid in town. Clara. Theo. Maya. Jonah. All of them.",
+   "start": 92.92,
+   "speech_end": 97.56,
+   "end": 97.71,
+   "light": "night",
+   "beats": [
+    {
+     "set": "int",
+     "cam": "push",
+     "tgt": "shelf",
+     "paper": true
+    },
+    {
+     "set": "int",
+     "cam": "prop",
+     "tgt": "shelf",
+     "paper": true
+    },
+    {
+     "set": "int",
+     "cam": "shelf_pan",
+     "tgt": "shelf",
+     "paper": true
+    },
+    {
+     "set": "int",
+     "cam": "ecu_wall",
+     "tgt": "shelf",
+     "paper": true
+    },
+    {
+     "set": "window",
+     "cam": "ecu",
+     "tgt": "eli",
+     "faces": {
+      "eli": "scared"
+     }
+    }
+   ],
+   "words": [
+    {
+     "text": "THERE",
+     "red": false,
+     "norm": "there",
+     "norm_raw": "there",
+     "start": 92.92,
+     "end": 93.0
+    },
+    {
+     "text": "WAS",
+     "red": false,
+     "norm": "was",
+     "norm_raw": "was",
+     "start": 93.0,
+     "end": 93.1
+    },
+    {
+     "text": "A",
+     "red": false,
+     "norm": "a",
+     "norm_raw": "a",
+     "start": 93.1,
+     "end": 93.22
+    },
+    {
+     "text": "WHOLE",
+     "red": false,
+     "norm": "whole",
+     "norm_raw": "whole",
+     "start": 93.22,
+     "end": 93.34
+    },
+    {
+     "text": "SHELF",
+     "red": false,
+     "norm": "shelf",
+     "norm_raw": "shelf",
+     "start": 93.34,
+     "end": 93.6
+    },
+    {
+     "text": "WITH",
+     "red": false,
+     "norm": "with",
+     "norm_raw": "with",
+     "start": 93.6,
+     "end": 93.78
+    },
+    {
+     "text": "THE",
+     "red": false,
+     "norm": "the",
+     "norm_raw": "the",
+     "start": 93.78,
+     "end": 93.88
+    },
+    {
+     "text": "NAME",
+     "red": false,
+     "norm": "name",
+     "norm_raw": "name",
+     "start": 93.88,
+     "end": 94.04
+    },
+    {
+     "text": "OF",
+     "red": false,
+     "norm": "of",
+     "norm_raw": "of",
+     "start": 94.04,
+     "end": 94.18
+    },
+    {
+     "text": "EVERY",
+     "red": false,
+     "norm": "every",
+     "norm_raw": "every",
+     "start": 94.18,
+     "end": 94.36
+    },
+    {
+     "text": "KID",
+     "red": false,
+     "norm": "kid",
+     "norm_raw": "kid",
+     "start": 94.36,
+     "end": 94.6
+    },
+    {
+     "text": "IN",
+     "red": false,
+     "norm": "in",
+     "norm_raw": "in",
+     "start": 94.6,
+     "end": 94.72
+    },
+    {
+     "text": "TOWN",
+     "red": false,
+     "norm": "town",
+     "norm_raw": "town",
+     "start": 94.72,
+     "end": 94.94
+    },
+    {
+     "text": "CLARA",
+     "red": false,
+     "norm": "clara",
+     "norm_raw": "clara",
+     "start": 95.22,
+     "end": 95.36
+    },
+    {
+     "text": "THEO",
+     "red": false,
+     "norm": "theo",
+     "norm_raw": "theo",
+     "start": 95.66,
+     "end": 95.78
+    },
+    {
+     "text": "MAYA",
+     "red": false,
+     "norm": "maya",
+     "norm_raw": "maya",
+     "start": 96.08,
+     "end": 96.22
+    },
+    {
+     "text": "JONAH",
+     "red": false,
+     "norm": "jonah",
+     "norm_raw": "jonah",
+     "start": 96.54,
+     "end": 96.68
+    },
+    {
+     "text": "ALL",
+     "red": false,
+     "norm": "all",
+     "norm_raw": "all",
+     "start": 97.06,
+     "end": 97.14
+    },
+    {
+     "text": "OF",
+     "red": false,
+     "norm": "of",
+     "norm_raw": "of",
+     "start": 97.14,
+     "end": 97.26
+    },
+    {
+     "text": "THEM",
+     "red": false,
+     "norm": "them",
+     "norm_raw": "them",
+     "start": 97.26,
+     "end": 97.4
+    }
+   ]
+  },
+  {
+   "id": "s21",
+   "text": "And in the middle, alone on a little hook, one letter that said: ELI.",
+   "start": 97.71,
+   "speech_end": 100.57,
+   "end": 100.72,
+   "light": "night",
+   "beats": [
+    {
+     "set": "int",
+     "cam": "push",
+     "tgt": "hook",
+     "paper": true
+    },
+    {
+     "set": "int",
+     "cam": "prop",
+     "tgt": "hook",
+     "paper": true
+    },
+    {
+     "set": "window",
+     "cam": "ecu",
+     "tgt": "eli",
+     "faces": {
+      "eli": "shocked"
+     }
+    },
+    {
+     "set": "int",
+     "cam": "ecu_hook",
+     "tgt": "hook",
+     "paper": true
+    }
+   ],
+   "words": [
+    {
+     "text": "AND",
+     "red": false,
+     "norm": "and",
+     "norm_raw": "and",
+     "start": 97.71,
+     "end": 97.87
+    },
+    {
+     "text": "IN",
+     "red": false,
+     "norm": "in",
+     "norm_raw": "in",
+     "start": 97.87,
+     "end": 97.95
+    },
+    {
+     "text": "THE",
+     "red": false,
+     "norm": "the",
+     "norm_raw": "the",
+     "start": 97.95,
+     "end": 98.01
+    },
+    {
+     "text": "MIDDLE",
+     "red": false,
+     "norm": "middle",
+     "norm_raw": "middle",
+     "start": 98.01,
+     "end": 98.21
+    },
+    {
+     "text": "ALONE",
+     "red": false,
+     "norm": "alone",
+     "norm_raw": "alone",
+     "start": 98.39,
+     "end": 98.51
+    },
+    {
+     "text": "ON",
+     "red": false,
+     "norm": "on",
+     "norm_raw": "on",
+     "start": 98.51,
+     "end": 98.69
+    },
+    {
+     "text": "A",
+     "red": false,
+     "norm": "a",
+     "norm_raw": "a",
+     "start": 98.69,
+     "end": 98.79
+    },
+    {
+     "text": "LITTLE",
+     "red": false,
+     "norm": "little",
+     "norm_raw": "little",
+     "start": 98.79,
+     "end": 98.91
+    },
+    {
+     "text": "HOOK",
+     "red": false,
+     "norm": "hook",
+     "norm_raw": "hook",
+     "start": 98.91,
+     "end": 99.17
+    },
+    {
+     "text": "ONE",
+     "red": false,
+     "norm": "one",
+     "norm_raw": "one",
+     "start": 99.43,
+     "end": 99.49
+    },
+    {
+     "text": "LETTER",
+     "red": false,
+     "norm": "letter",
+     "norm_raw": "letter",
+     "start": 99.49,
+     "end": 99.65
+    },
+    {
+     "text": "THAT",
+     "red": false,
+     "norm": "that",
+     "norm_raw": "that",
+     "start": 99.65,
+     "end": 99.85
+    },
+    {
+     "text": "SAID",
+     "red": false,
+     "norm": "said",
+     "norm_raw": "said",
+     "start": 99.85,
+     "end": 100.07
+    },
+    {
+     "text": "ELI",
+     "red": true,
+     "norm": "eli",
+     "norm_raw": "eli",
+     "start": 100.07,
+     "end": 100.57
+    }
+   ]
+  },
+  {
+   "id": "s22",
+   "text": "I almost fell off the windowsill. Then the door creaked open behind me.",
+   "start": 100.72,
+   "speech_end": 104.0,
+   "end": 104.15,
+   "light": "night",
+   "beats": [
+    {
+     "set": "window",
+     "cam": "low",
+     "tgt": "eli",
+     "acts": {
+      "eli": "stagger"
+     },
+     "faces": {
+      "eli": "shocked"
+     }
+    },
+    {
+     "set": "int_door",
+     "cam": "cu",
+     "tgt": "eli",
+     "faces": {
+      "eli": "scared"
+     }
+    },
+    {
+     "set": "int_door",
+     "cam": "wide",
+     "tgt": "door_int",
+     "door": "opening"
+    },
+    {
+     "set": "int_door",
+     "cam": "low",
+     "tgt": "dobbs",
+     "door": "open",
+     "faces": {
+      "dobbs": "scared"
+     }
+    }
+   ],
+   "words": [
+    {
+     "text": "I",
+     "red": false,
+     "norm": "i",
+     "norm_raw": "i",
+     "start": 100.72,
+     "end": 100.8
+    },
+    {
+     "text": "ALMOST",
+     "red": false,
+     "norm": "almost",
+     "norm_raw": "almost",
+     "start": 100.8,
+     "end": 101.0
+    },
+    {
+     "text": "FELL",
+     "red": false,
+     "norm": "fell",
+     "norm_raw": "fell",
+     "start": 101.0,
+     "end": 101.28
+    },
+    {
+     "text": "OFF",
+     "red": false,
+     "norm": "off",
+     "norm_raw": "off",
+     "start": 101.28,
+     "end": 101.5
+    },
+    {
+     "text": "THE",
+     "red": false,
+     "norm": "the",
+     "norm_raw": "the",
+     "start": 101.5,
+     "end": 101.6
+    },
+    {
+     "text": "WINDOWSILL",
+     "red": false,
+     "norm": "windowsill",
+     "norm_raw": "windowsill",
+     "start": 101.6,
+     "end": 102.04
+    },
+    {
+     "text": "THEN",
+     "red": false,
+     "norm": "then",
+     "norm_raw": "then",
+     "start": 102.34,
+     "end": 102.44
+    },
+    {
+     "text": "THE",
+     "red": false,
+     "norm": "the",
+     "norm_raw": "the",
+     "start": 102.44,
+     "end": 102.56
+    },
+    {
+     "text": "DOOR",
+     "red": false,
+     "norm": "door",
+     "norm_raw": "door",
+     "start": 102.56,
+     "end": 102.7
+    },
+    {
+     "text": "CREAKED",
+     "red": false,
+     "norm": "creaked",
+     "norm_raw": "creaked",
+     "start": 102.7,
+     "end": 103.08
+    },
+    {
+     "text": "OPEN",
+     "red": false,
+     "norm": "open",
+     "norm_raw": "open",
+     "start": 103.08,
+     "end": 103.22
+    },
+    {
+     "text": "BEHIND",
+     "red": false,
+     "norm": "behind",
+     "norm_raw": "behind",
+     "start": 103.22,
+     "end": 103.62
+    },
+    {
+     "text": "ME",
+     "red": false,
+     "norm": "me",
+     "norm_raw": "me",
+     "start": 103.62,
+     "end": 103.86
+    }
+   ]
+  },
+  {
+   "id": "s23",
+   "text": "\"You weren't supposed to see that,\" said Mr. Dobbs. His hands were shaking.",
+   "start": 104.15,
+   "speech_end": 107.46,
+   "end": 107.61,
+   "light": "night",
+   "beats": [
+    {
+     "set": "int_door",
+     "cam": "cu",
+     "tgt": "dobbs",
+     "door": "open",
+     "acts": {
+      "dobbs": "talk"
+     },
+     "faces": {
+      "dobbs": "scared"
+     }
+    },
+    {
+     "set": "int_door",
+     "cam": "ots",
+     "tgt": "dobbs",
+     "over": "eli",
+     "door": "open"
+    },
+    {
+     "set": "int_door",
+     "cam": "cu",
+     "tgt": "dobbs",
+     "door": "open",
+     "acts": {
+      "dobbs": "shake"
+     },
+     "faces": {
+      "dobbs": "scared"
+     }
+    },
+    {
+     "set": "int_door",
+     "cam": "ecu",
+     "tgt": "dobbs",
+     "door": "open",
+     "faces": {
+      "dobbs": "scared"
+     }
+    }
+   ],
+   "words": [
+    {
+     "text": "YOU",
+     "red": false,
+     "norm": "you",
+     "norm_raw": "you",
+     "start": 104.15,
+     "end": 104.23
+    },
+    {
+     "text": "WEREN'T",
+     "red": false,
+     "norm": "werent",
+     "norm_raw": "weren't",
+     "start": 104.23,
+     "end": 104.41
+    },
+    {
+     "text": "SUPPOSED",
+     "red": false,
+     "norm": "supposed",
+     "norm_raw": "supposed",
+     "start": 104.41,
+     "end": 104.59
+    },
+    {
+     "text": "TO",
+     "red": false,
+     "norm": "to",
+     "norm_raw": "to",
+     "start": 104.59,
+     "end": 104.81
+    },
+    {
+     "text": "SEE",
+     "red": false,
+     "norm": "see",
+     "norm_raw": "see",
+     "start": 104.81,
+     "end": 104.93
+    },
+    {
+     "text": "THAT",
+     "red": false,
+     "norm": "that",
+     "norm_raw": "that",
+     "start": 104.93,
+     "end": 105.33
+    },
+    {
+     "text": "SAID",
+     "red": false,
+     "norm": "said",
+     "norm_raw": "said",
+     "start": 105.33,
+     "end": 105.47
+    },
+    {
+     "text": "MR",
+     "red": false,
+     "norm": "mr",
+     "norm_raw": "mr",
+     "start": 105.47,
+     "end": 105.65
+    },
+    {
+     "text": "DOBBS",
+     "red": false,
+     "norm": "dobbs",
+     "norm_raw": "dobbs",
+     "start": 105.99,
+     "end": 106.33
+    },
+    {
+     "text": "HIS",
+     "red": false,
+     "norm": "his",
+     "norm_raw": "his",
+     "start": 106.51,
+     "end": 106.57
+    },
+    {
+     "text": "HANDS",
+     "red": false,
+     "norm": "hands",
+     "norm_raw": "hands",
+     "start": 106.57,
+     "end": 106.77
+    },
+    {
+     "text": "WERE",
+     "red": false,
+     "norm": "were",
+     "norm_raw": "were",
+     "start": 106.77,
+     "end": 106.99
+    },
+    {
+     "text": "SHAKING",
+     "red": false,
+     "norm": "shaking",
+     "norm_raw": "shaking",
+     "start": 106.99,
+     "end": 107.19
+    }
+   ]
+  },
+  {
+   "id": "s24",
+   "text": "\"What are those letters?\" I asked. He looked at the floor. \"Every letter in this town is from the FUTURE.\"",
+   "start": 107.61,
+   "speech_end": 111.87,
+   "end": 112.02,
+   "light": "night",
+   "beats": [
+    {
+     "set": "int_talk",
+     "cam": "cu",
+     "tgt": "eli",
+     "acts": {
+      "eli": "talk"
+     },
+     "door": "open"
+    },
+    {
+     "set": "int_talk",
+     "cam": "high",
+     "tgt": "dobbs",
+     "acts": {
+      "dobbs": "look_down"
+     },
+     "door": "open"
+    },
+    {
+     "set": "int_talk",
+     "cam": "ots",
+     "tgt": "dobbs",
+     "over": "eli",
+     "acts": {
+      "dobbs": "talk"
+     },
+     "door": "open"
+    },
+    {
+     "card": "future"
+    },
+    {
+     "set": "int_talk",
+     "cam": "ecu",
+     "tgt": "dobbs",
+     "faces": {
+      "dobbs": "tired"
+     },
+     "door": "open"
+    }
+   ],
+   "words": [
+    {
+     "text": "WHAT",
+     "red": false,
+     "norm": "what",
+     "norm_raw": "what",
+     "start": 107.61,
+     "end": 107.69
+    },
+    {
+     "text": "ARE",
+     "red": false,
+     "norm": "are",
+     "norm_raw": "are",
+     "start": 107.69,
+     "end": 107.75
+    },
+    {
+     "text": "THOSE",
+     "red": false,
+     "norm": "those",
+     "norm_raw": "those",
+     "start": 107.75,
+     "end": 107.87
+    },
+    {
+     "text": "LETTERS?",
+     "red": false,
+     "norm": "letters",
+     "norm_raw": "letters?",
+     "start": 107.87,
+     "end": 108.49
+    },
+    {
+     "text": "I",
+     "red": false,
+     "norm": "i",
+     "norm_raw": "i",
+     "start": 108.49,
+     "end": 108.61
+    },
+    {
+     "text": "ASKED",
+     "red": false,
+     "norm": "asked",
+     "norm_raw": "asked",
+     "start": 108.61,
+     "end": 108.91
+    },
+    {
+     "text": "HE",
+     "red": false,
+     "norm": "he",
+     "norm_raw": "he",
+     "start": 109.11,
+     "end": 109.19
+    },
+    {
+     "text": "LOOKED",
+     "red": false,
+     "norm": "looked",
+     "norm_raw": "looked",
+     "start": 109.19,
+     "end": 109.33
+    },
+    {
+     "text": "AT",
+     "red": false,
+     "norm": "at",
+     "norm_raw": "at",
+     "start": 109.33,
+     "end": 109.49
+    },
+    {
+     "text": "THE",
+     "red": false,
+     "norm": "the",
+     "norm_raw": "the",
+     "start": 109.49,
+     "end": 109.59
+    },
+    {
+     "text": "FLOOR",
+     "red": false,
+     "norm": "floor",
+     "norm_raw": "floor",
+     "start": 109.59,
+     "end": 109.81
+    },
+    {
+     "text": "EVERY",
+     "red": false,
+     "norm": "every",
+     "norm_raw": "every",
+     "start": 110.19,
+     "end": 110.33
+    },
+    {
+     "text": "LETTER",
+     "red": false,
+     "norm": "letter",
+     "norm_raw": "letter",
+     "start": 110.33,
+     "end": 110.55
+    },
+    {
+     "text": "IN",
+     "red": false,
+     "norm": "in",
+     "norm_raw": "in",
+     "start": 110.55,
+     "end": 110.73
+    },
+    {
+     "text": "THIS",
+     "red": false,
+     "norm": "this",
+     "norm_raw": "this",
+     "start": 110.73,
+     "end": 110.83
+    },
+    {
+     "text": "TOWN",
+     "red": false,
+     "norm": "town",
+     "norm_raw": "town",
+     "start": 110.83,
+     "end": 111.05
+    },
+    {
+     "text": "IS",
+     "red": false,
+     "norm": "is",
+     "norm_raw": "is",
+     "start": 111.05,
+     "end": 111.23
+    },
+    {
+     "text": "FROM",
+     "red": false,
+     "norm": "from",
+     "norm_raw": "from",
+     "start": 111.23,
+     "end": 111.33
+    },
+    {
+     "text": "THE",
+     "red": false,
+     "norm": "the",
+     "norm_raw": "the",
+     "start": 111.33,
+     "end": 111.43
+    },
+    {
+     "text": "FUTURE",
+     "red": true,
+     "norm": "future",
+     "norm_raw": "future",
+     "start": 111.43,
+     "end": 111.63
+    }
+   ]
+  },
+  {
+   "id": "s25",
+   "text": "\"They show up on my doorstep a day before anyone writes them. Nobody knows who sends them.\"",
+   "start": 112.02,
+   "speech_end": 115.75,
+   "end": 115.9,
+   "light": "night",
+   "beats": [
+    {
+     "set": "int_talk",
+     "cam": "orbit_room",
+     "tgt": "pt:40,30,1.7",
+     "door": "open",
+     "paper": true
+    },
+    {
+     "set": "int_talk",
+     "cam": "cu",
+     "tgt": "dobbs",
+     "acts": {
+      "dobbs": "talk"
+     },
+     "door": "open"
+    },
+    {
+     "set": "int_talk",
+     "cam": "prop",
+     "tgt": "door_int",
+     "door": "open"
+    },
+    {
+     "set": "int_talk",
+     "cam": "ecu",
+     "tgt": "eli",
+     "faces": {
+      "eli": "scared"
+     },
+     "door": "open"
+    }
+   ],
+   "words": [
+    {
+     "text": "THEY",
+     "red": false,
+     "norm": "they",
+     "norm_raw": "they",
+     "start": 112.02,
+     "end": 112.1
+    },
+    {
+     "text": "SHOW",
+     "red": false,
+     "norm": "show",
+     "norm_raw": "show",
+     "start": 112.1,
+     "end": 112.24
+    },
+    {
+     "text": "UP",
+     "red": false,
+     "norm": "up",
+     "norm_raw": "up",
+     "start": 112.24,
+     "end": 112.4
+    },
+    {
+     "text": "ON",
+     "red": false,
+     "norm": "on",
+     "norm_raw": "on",
+     "start": 112.4,
+     "end": 112.5
+    },
+    {
+     "text": "MY",
+     "red": false,
+     "norm": "my",
+     "norm_raw": "my",
+     "start": 112.5,
+     "end": 112.64
+    },
+    {
+     "text": "DOORSTEP",
+     "red": false,
+     "norm": "doorstep",
+     "norm_raw": "doorstep",
+     "start": 112.64,
+     "end": 112.84
+    },
+    {
+     "text": "A",
+     "red": false,
+     "norm": "a",
+     "norm_raw": "a",
+     "start": 112.84,
+     "end": 113.06
+    },
+    {
+     "text": "DAY",
+     "red": false,
+     "norm": "day",
+     "norm_raw": "day",
+     "start": 113.06,
+     "end": 113.22
+    },
+    {
+     "text": "BEFORE",
+     "red": false,
+     "norm": "before",
+     "norm_raw": "before",
+     "start": 113.22,
+     "end": 113.42
+    },
+    {
+     "text": "ANYONE",
+     "red": false,
+     "norm": "anyone",
+     "norm_raw": "anyone",
+     "start": 113.42,
+     "end": 113.66
+    },
+    {
+     "text": "WRITES",
+     "red": false,
+     "norm": "writes",
+     "norm_raw": "writes",
+     "start": 113.66,
+     "end": 114.0
+    },
+    {
+     "text": "THEM",
+     "red": false,
+     "norm": "them",
+     "norm_raw": "them",
+     "start": 114.0,
+     "end": 114.28
+    },
+    {
+     "text": "NOBODY",
+     "red": false,
+     "norm": "nobody",
+     "norm_raw": "nobody",
+     "start": 114.48,
+     "end": 114.62
+    },
+    {
+     "text": "KNOWS",
+     "red": false,
+     "norm": "knows",
+     "norm_raw": "knows",
+     "start": 114.62,
+     "end": 114.92
+    },
+    {
+     "text": "WHO",
+     "red": false,
+     "norm": "who",
+     "norm_raw": "who",
+     "start": 114.92,
+     "end": 115.14
+    },
+    {
+     "text": "SENDS",
+     "red": false,
+     "norm": "sends",
+     "norm_raw": "sends",
+     "start": 115.14,
+     "end": 115.34
+    },
+    {
+     "text": "THEM",
+     "red": false,
+     "norm": "them",
+     "norm_raw": "them",
+     "start": 115.34,
+     "end": 115.58
+    }
+   ]
+  },
+  {
+   "id": "s26",
+   "text": "\"Mostly they're boring. Bills. Birthdays. Recipes. But sometimes they say what's going to happen to you.\"",
+   "start": 115.9,
+   "speech_end": 120.84,
+   "end": 120.99,
+   "light": "night",
+   "beats": [
+    {
+     "set": "int_talk",
+     "cam": "ots",
+     "tgt": "dobbs",
+     "over": "eli",
+     "acts": {
+      "dobbs": "talk"
+     },
+     "door": "open"
+    },
+    {
+     "set": "int",
+     "cam": "ecu_wall",
+     "tgt": "env_wall",
+     "paper": true
+    },
+    {
+     "set": "bakery",
+     "cam": "ecu",
+     "tgt": "baker",
+     "faces": {
+      "baker": "tired"
+     }
+    },
+    {
+     "set": "int",
+     "cam": "ecu_wall",
+     "tgt": "env_wall_back",
+     "paper": true
+    },
+    {
+     "set": "int_talk",
+     "cam": "ecu",
+     "tgt": "dobbs",
+     "faces": {
+      "dobbs": "scared"
+     },
+     "door": "open"
+    }
+   ],
+   "words": [
+    {
+     "text": "MOSTLY",
+     "red": false,
+     "norm": "mostly",
+     "norm_raw": "mostly",
+     "start": 115.9,
+     "end": 116.12
+    },
+    {
+     "text": "THEY'RE",
+     "red": false,
+     "norm": "theyre",
+     "norm_raw": "they're",
+     "start": 116.12,
+     "end": 116.4
+    },
+    {
+     "text": "BORING",
+     "red": false,
+     "norm": "boring",
+     "norm_raw": "boring",
+     "start": 116.4,
+     "end": 116.6
+    },
+    {
+     "text": "BILLS",
+     "red": false,
+     "norm": "bills",
+     "norm_raw": "bills",
+     "start": 116.88,
+     "end": 117.04
+    },
+    {
+     "text": "BIRTHDAYS",
+     "red": false,
+     "norm": "birthdays",
+     "norm_raw": "birthdays",
+     "start": 117.38,
+     "end": 117.76
+    },
+    {
+     "text": "RECIPES",
+     "red": false,
+     "norm": "recipes",
+     "norm_raw": "recipes",
+     "start": 118.02,
+     "end": 118.42
+    },
+    {
+     "text": "BUT",
+     "red": false,
+     "norm": "but",
+     "norm_raw": "but",
+     "start": 118.74,
+     "end": 118.86
+    },
+    {
+     "text": "SOMETIMES",
+     "red": false,
+     "norm": "sometimes",
+     "norm_raw": "sometimes",
+     "start": 118.86,
+     "end": 119.1
+    },
+    {
+     "text": "THEY",
+     "red": false,
+     "norm": "they",
+     "norm_raw": "they",
+     "start": 119.1,
+     "end": 119.42
+    },
+    {
+     "text": "SAY",
+     "red": false,
+     "norm": "say",
+     "norm_raw": "say",
+     "start": 119.42,
+     "end": 119.62
+    },
+    {
+     "text": "WHAT'S",
+     "red": false,
+     "norm": "whats",
+     "norm_raw": "what's",
+     "start": 119.62,
+     "end": 119.96
+    },
+    {
+     "text": "GOING",
+     "red": false,
+     "norm": "going",
+     "norm_raw": "going",
+     "start": 119.96,
+     "end": 120.12
+    },
+    {
+     "text": "TO",
+     "red": false,
+     "norm": "to",
+     "norm_raw": "to",
+     "start": 120.12,
+     "end": 120.24
+    },
+    {
+     "text": "HAPPEN",
+     "red": false,
+     "norm": "happen",
+     "norm_raw": "happen",
+     "start": 120.24,
+     "end": 120.44
+    },
+    {
+     "text": "TO",
+     "red": false,
+     "norm": "to",
+     "norm_raw": "to",
+     "start": 120.44,
+     "end": 120.6
+    },
+    {
+     "text": "YOU",
+     "red": false,
+     "norm": "you",
+     "norm_raw": "you",
+     "start": 120.6,
+     "end": 120.72
+    }
+   ]
+  },
+  {
+   "id": "s27",
+   "text": "\"Last year I delivered a letter to old Mr. Harlan. It said his barn would burn. He laughed. The barn burned the next morning.\"",
+   "start": 120.99,
+   "speech_end": 126.42,
+   "end": 126.57,
+   "light": "night",
+   "beats": [
+    {
+     "set": "barn",
+     "cam": "wide",
+     "tgt": "barn",
+     "light": "day"
+    },
+    {
+     "set": "barn",
+     "cam": "cu",
+     "tgt": "harlan",
+     "light": "day"
+    },
+    {
+     "card": "harlan"
+    },
+    {
+     "set": "barn",
+     "cam": "low",
+     "tgt": "harlan",
+     "acts": {
+      "harlan": "laugh"
+     },
+     "faces": {
+      "harlan": "talk"
+     },
+     "light": "day"
+    },
+    {
+     "set": "barn_fire",
+     "cam": "wide",
+     "tgt": "barn",
+     "fire": true,
+     "light": "golden"
+    },
+    {
+     "set": "barn_fire",
+     "cam": "high",
+     "tgt": "barn",
+     "fire": true,
+     "light": "golden"
+    },
+    {
+     "set": "barn_fire",
+     "cam": "ecu",
+     "tgt": "harlan",
+     "fire": true,
+     "faces": {
+      "harlan": "shocked"
+     },
+     "light": "golden"
+    }
+   ],
+   "words": [
+    {
+     "text": "LAST",
+     "red": false,
+     "norm": "last",
+     "norm_raw": "last",
+     "start": 120.99,
+     "end": 121.17
+    },
+    {
+     "text": "YEAR",
+     "red": false,
+     "norm": "year",
+     "norm_raw": "year",
+     "start": 121.17,
+     "end": 121.39
+    },
+    {
+     "text": "I",
+     "red": false,
+     "norm": "i",
+     "norm_raw": "i",
+     "start": 121.39,
+     "end": 121.57
+    },
+    {
+     "text": "DELIVERED",
+     "red": false,
+     "norm": "delivered",
+     "norm_raw": "delivered",
+     "start": 121.57,
+     "end": 121.71
+    },
+    {
+     "text": "A",
+     "red": false,
+     "norm": "a",
+     "norm_raw": "a",
+     "start": 121.71,
+     "end": 121.97
+    },
+    {
+     "text": "LETTER",
+     "red": false,
+     "norm": "letter",
+     "norm_raw": "letter",
+     "start": 121.97,
+     "end": 122.15
+    },
+    {
+     "text": "TO",
+     "red": false,
+     "norm": "to",
+     "norm_raw": "to",
+     "start": 122.15,
+     "end": 122.33
+    },
+    {
+     "text": "OLD",
+     "red": false,
+     "norm": "old",
+     "norm_raw": "old",
+     "start": 122.33,
+     "end": 122.45
+    },
+    {
+     "text": "MR",
+     "red": false,
+     "norm": "mr",
+     "norm_raw": "mr",
+     "start": 122.45,
+     "end": 122.69
+    },
+    {
+     "text": "HARLAN",
+     "red": false,
+     "norm": "harlan",
+     "norm_raw": "harlan",
+     "start": 122.99,
+     "end": 123.23
+    },
+    {
+     "text": "IT",
+     "red": false,
+     "norm": "it",
+     "norm_raw": "it",
+     "start": 123.43,
+     "end": 123.49
+    },
+    {
+     "text": "SAID",
+     "red": false,
+     "norm": "said",
+     "norm_raw": "said",
+     "start": 123.49,
+     "end": 123.63
+    },
+    {
+     "text": "HIS",
+     "red": false,
+     "norm": "his",
+     "norm_raw": "his",
+     "start": 123.63,
+     "end": 123.79
+    },
+    {
+     "text": "BARN",
+     "red": false,
+     "norm": "barn",
+     "norm_raw": "barn",
+     "start": 123.79,
+     "end": 123.99
+    },
+    {
+     "text": "WOULD",
+     "red": false,
+     "norm": "would",
+     "norm_raw": "would",
+     "start": 123.99,
+     "end": 124.17
+    },
+    {
+     "text": "BURN",
+     "red": false,
+     "norm": "burn",
+     "norm_raw": "burn",
+     "start": 124.17,
+     "end": 124.39
+    },
+    {
+     "text": "HE",
+     "red": false,
+     "norm": "he",
+     "norm_raw": "he",
+     "start": 124.63,
+     "end": 124.68
+    },
+    {
+     "text": "LAUGHED",
+     "red": false,
+     "norm": "laughed",
+     "norm_raw": "laughed",
+     "start": 124.67,
+     "end": 124.83
+    },
+    {
+     "text": "THE",
+     "red": false,
+     "norm": "the",
+     "norm_raw": "the",
+     "start": 125.15,
+     "end": 125.2
+    },
+    {
+     "text": "BARN",
+     "red": false,
+     "norm": "barn",
+     "norm_raw": "barn",
+     "start": 125.19,
+     "end": 125.33
+    },
+    {
+     "text": "BURNED",
+     "red": false,
+     "norm": "burned",
+     "norm_raw": "burned",
+     "start": 125.33,
+     "end": 125.61
+    },
+    {
+     "text": "THE",
+     "red": false,
+     "norm": "the",
+     "norm_raw": "the",
+     "start": 125.61,
+     "end": 125.79
+    },
+    {
+     "text": "NEXT",
+     "red": false,
+     "norm": "next",
+     "norm_raw": "next",
+     "start": 125.79,
+     "end": 125.91
+    },
+    {
+     "text": "MORNING",
+     "red": false,
+     "norm": "morning",
+     "norm_raw": "morning",
+     "start": 125.91,
+     "end": 126.21
+    }
+   ]
+  },
+  {
+   "id": "s28",
+   "text": "\"So I stopped delivering the bad ones. But yours is the worst one I've ever seen.\"",
+   "start": 126.57,
+   "speech_end": 129.94,
+   "end": 130.09,
+   "light": "night",
+   "beats": [
+    {
+     "set": "int_talk",
+     "cam": "cu",
+     "tgt": "dobbs",
+     "acts": {
+      "dobbs": "talk"
+     },
+     "door": "open"
+    },
+    {
+     "set": "int",
+     "cam": "push",
+     "tgt": "hook",
+     "paper": true
+    },
+    {
+     "set": "int_talk",
+     "cam": "dutch",
+     "tgt": "dobbs",
+     "faces": {
+      "dobbs": "scared"
+     },
+     "door": "open"
+    },
+    {
+     "set": "int_talk",
+     "cam": "ecu",
+     "tgt": "eli",
+     "faces": {
+      "eli": "shocked"
+     },
+     "door": "open"
+    }
+   ],
+   "words": [
+    {
+     "text": "SO",
+     "red": false,
+     "norm": "so",
+     "norm_raw": "so",
+     "start": 126.57,
+     "end": 126.67
+    },
+    {
+     "text": "I",
+     "red": false,
+     "norm": "i",
+     "norm_raw": "i",
+     "start": 126.67,
+     "end": 126.75
+    },
+    {
+     "text": "STOPPED",
+     "red": false,
+     "norm": "stopped",
+     "norm_raw": "stopped",
+     "start": 126.75,
+     "end": 126.91
+    },
+    {
+     "text": "DELIVERING",
+     "red": false,
+     "norm": "delivering",
+     "norm_raw": "delivering",
+     "start": 126.91,
+     "end": 127.25
+    },
+    {
+     "text": "THE",
+     "red": false,
+     "norm": "the",
+     "norm_raw": "the",
+     "start": 127.25,
+     "end": 127.51
+    },
+    {
+     "text": "BAD",
+     "red": false,
+     "norm": "bad",
+     "norm_raw": "bad",
+     "start": 127.51,
+     "end": 127.67
+    },
+    {
+     "text": "ONES",
+     "red": false,
+     "norm": "ones",
+     "norm_raw": "ones",
+     "start": 127.67,
+     "end": 127.93
+    },
+    {
+     "text": "BUT",
+     "red": false,
+     "norm": "but",
+     "norm_raw": "but",
+     "start": 128.19,
+     "end": 128.29
+    },
+    {
+     "text": "YOURS",
+     "red": false,
+     "norm": "yours",
+     "norm_raw": "yours",
+     "start": 128.29,
+     "end": 128.47
+    },
+    {
+     "text": "IS",
+     "red": false,
+     "norm": "is",
+     "norm_raw": "is",
+     "start": 128.47,
+     "end": 128.71
+    },
+    {
+     "text": "THE",
+     "red": false,
+     "norm": "the",
+     "norm_raw": "the",
+     "start": 128.71,
+     "end": 128.83
+    },
+    {
+     "text": "WORST",
+     "red": false,
+     "norm": "worst",
+     "norm_raw": "worst",
+     "start": 128.83,
+     "end": 128.97
+    },
+    {
+     "text": "ONE",
+     "red": false,
+     "norm": "one",
+     "norm_raw": "one",
+     "start": 128.97,
+     "end": 129.19
+    },
+    {
+     "text": "I'VE",
+     "red": false,
+     "norm": "ive",
+     "norm_raw": "i've",
+     "start": 129.19,
+     "end": 129.35
+    },
+    {
+     "text": "EVER",
+     "red": false,
+     "norm": "ever",
+     "norm_raw": "ever",
+     "start": 129.35,
+     "end": 129.49
+    },
+    {
+     "text": "SEEN",
+     "red": false,
+     "norm": "seen",
+     "norm_raw": "seen",
+     "start": 129.49,
+     "end": 129.73
+    }
+   ]
+  },
+  {
+   "id": "s29",
+   "text": "My stomach dropped. \"What does it say?\"",
+   "start": 130.09,
+   "speech_end": 131.69,
+   "end": 131.84,
+   "light": "night",
+   "beats": [
+    {
+     "set": "int_talk",
+     "cam": "high",
+     "tgt": "eli",
+     "faces": {
+      "eli": "scared"
+     },
+     "door": "open"
+    },
+    {
+     "set": "int_talk",
+     "cam": "cu",
+     "tgt": "eli",
+     "acts": {
+      "eli": "talk"
+     },
+     "door": "open"
+    }
+   ],
+   "words": [
+    {
+     "text": "MY",
+     "red": false,
+     "norm": "my",
+     "norm_raw": "my",
+     "start": 130.09,
+     "end": 130.17
+    },
+    {
+     "text": "STOMACH",
+     "red": false,
+     "norm": "stomach",
+     "norm_raw": "stomach",
+     "start": 130.17,
+     "end": 130.33
+    },
+    {
+     "text": "DROPPED",
+     "red": false,
+     "norm": "dropped",
+     "norm_raw": "dropped",
+     "start": 130.33,
+     "end": 130.69
+    },
+    {
+     "text": "WHAT",
+     "red": false,
+     "norm": "what",
+     "norm_raw": "what",
+     "start": 131.01,
+     "end": 131.09
+    },
+    {
+     "text": "DOES",
+     "red": false,
+     "norm": "does",
+     "norm_raw": "does",
+     "start": 131.09,
+     "end": 131.23
+    },
+    {
+     "text": "IT",
+     "red": false,
+     "norm": "it",
+     "norm_raw": "it",
+     "start": 131.23,
+     "end": 131.35
+    },
+    {
+     "text": "SAY?",
+     "red": false,
+     "norm": "say",
+     "norm_raw": "say?",
+     "start": 131.35,
+     "end": 131.51
+    }
+   ]
+  },
+  {
+   "id": "s30",
+   "text": "\"I can't tell you.\" \"Then give it to me.\" \"You don't want it.\" \"Mr. Dobbs. It's MY letter. It's my house. It's my life.\"",
+   "start": 131.84,
+   "speech_end": 137.51,
+   "end": 137.66,
+   "light": "night",
+   "beats": [
+    {
+     "set": "int_talk",
+     "cam": "ecu",
+     "tgt": "dobbs",
+     "faces": {
+      "dobbs": "scared"
+     },
+     "door": "open"
+    },
+    {
+     "set": "int_talk",
+     "cam": "ots",
+     "tgt": "eli",
+     "over": "dobbs",
+     "acts": {
+      "eli": "talk"
+     },
+     "door": "open"
+    },
+    {
+     "set": "int_talk",
+     "cam": "ecu",
+     "tgt": "dobbs",
+     "faces": {
+      "dobbs": "tired"
+     },
+     "door": "open"
+    },
+    {
+     "set": "int_talk",
+     "cam": "cu",
+     "tgt": "eli",
+     "acts": {
+      "eli": "point"
+     },
+     "door": "open"
+    },
+    {
+     "set": "int_talk",
+     "cam": "ecu",
+     "tgt": "eli",
+     "door": "open"
+    },
+    {
+     "set": "int_talk",
+     "cam": "push",
+     "tgt": "eli",
+     "acts": {
+      "eli": "talk"
+     },
+     "door": "open"
+    }
+   ],
+   "words": [
+    {
+     "text": "I",
+     "red": false,
+     "norm": "i",
+     "norm_raw": "i",
+     "start": 131.84,
+     "end": 131.9
+    },
+    {
+     "text": "CAN'T",
+     "red": false,
+     "norm": "cant",
+     "norm_raw": "can't",
+     "start": 131.9,
+     "end": 132.14
+    },
+    {
+     "text": "TELL",
+     "red": false,
+     "norm": "tell",
+     "norm_raw": "tell",
+     "start": 132.14,
+     "end": 132.3
+    },
+    {
+     "text": "YOU",
+     "red": false,
+     "norm": "you",
+     "norm_raw": "you",
+     "start": 132.3,
+     "end": 132.48
+    },
+    {
+     "text": "THEN",
+     "red": false,
+     "norm": "then",
+     "norm_raw": "then",
+     "start": 132.74,
+     "end": 132.84
+    },
+    {
+     "text": "GIVE",
+     "red": false,
+     "norm": "give",
+     "norm_raw": "give",
+     "start": 132.84,
+     "end": 133.0
+    },
+    {
+     "text": "IT",
+     "red": false,
+     "norm": "it",
+     "norm_raw": "it",
+     "start": 133.0,
+     "end": 133.12
+    },
+    {
+     "text": "TO",
+     "red": false,
+     "norm": "to",
+     "norm_raw": "to",
+     "start": 133.12,
+     "end": 133.24
+    },
+    {
+     "text": "ME",
+     "red": false,
+     "norm": "me",
+     "norm_raw": "me",
+     "start": 133.24,
+     "end": 133.38
+    },
+    {
+     "text": "YOU",
+     "red": false,
+     "norm": "you",
+     "norm_raw": "you",
+     "start": 133.62,
+     "end": 133.68
+    },
+    {
+     "text": "DON'T",
+     "red": false,
+     "norm": "dont",
+     "norm_raw": "don't",
+     "start": 133.68,
+     "end": 133.92
+    },
+    {
+     "text": "WANT",
+     "red": false,
+     "norm": "want",
+     "norm_raw": "want",
+     "start": 133.92,
+     "end": 134.02
+    },
+    {
+     "text": "IT",
+     "red": false,
+     "norm": "it",
+     "norm_raw": "it",
+     "start": 134.02,
+     "end": 134.16
+    },
+    {
+     "text": "MR",
+     "red": false,
+     "norm": "mr",
+     "norm_raw": "mr",
+     "start": 134.16,
+     "end": 134.531
+    },
+    {
+     "text": "DOBBS",
+     "red": false,
+     "norm": "dobbs",
+     "norm_raw": "dobbs",
+     "start": 134.531,
+     "end": 135.46
+    },
+    {
+     "text": "IT'S",
+     "red": false,
+     "norm": "its",
+     "norm_raw": "it's",
+     "start": 135.46,
+     "end": 135.58
+    },
+    {
+     "text": "MY",
+     "red": true,
+     "norm": "my",
+     "norm_raw": "my",
+     "start": 135.58,
+     "end": 135.68
+    },
+    {
+     "text": "LETTER",
+     "red": false,
+     "norm": "letter",
+     "norm_raw": "letter",
+     "start": 135.68,
+     "end": 136.16
+    },
+    {
+     "text": "IT'S",
+     "red": false,
+     "norm": "its",
+     "norm_raw": "it's",
+     "start": 136.16,
+     "end": 136.28
+    },
+    {
+     "text": "MY",
+     "red": false,
+     "norm": "my",
+     "norm_raw": "my",
+     "start": 136.28,
+     "end": 136.38
+    },
+    {
+     "text": "HOUSE",
+     "red": false,
+     "norm": "house",
+     "norm_raw": "house",
+     "start": 136.38,
+     "end": 136.58
+    },
+    {
+     "text": "IT'S",
+     "red": false,
+     "norm": "its",
+     "norm_raw": "it's",
+     "start": 136.9,
+     "end": 136.98
+    },
+    {
+     "text": "MY",
+     "red": false,
+     "norm": "my",
+     "norm_raw": "my",
+     "start": 136.98,
+     "end": 137.1
+    },
+    {
+     "text": "LIFE",
+     "red": false,
+     "norm": "life",
+     "norm_raw": "life",
+     "start": 137.1,
+     "end": 137.3
+    }
+   ]
+  },
+  {
+   "id": "s31",
+   "text": "He stared at me for a long time. Then he took the cream envelope with my name and put it in my hands.",
+   "start": 137.66,
+   "speech_end": 141.9,
+   "end": 142.05,
+   "light": "night",
+   "beats": [
+    {
+     "set": "int_talk",
+     "cam": "ecu",
+     "tgt": "dobbs",
+     "faces": {
+      "dobbs": "tired"
+     },
+     "door": "open"
+    },
+    {
+     "set": "int_talk",
+     "cam": "prop",
+     "tgt": "hook",
+     "paper": true
+    },
+    {
+     "set": "int_talk",
+     "cam": "ots",
+     "tgt": "dobbs",
+     "over": "eli",
+     "acts": {
+      "dobbs": "give"
+     },
+     "door": "open",
+     "paper": true
+    },
+    {
+     "set": "int_final",
+     "cam": "prop",
+     "tgt": "eli_held_env",
+     "acts": {
+      "eli": "hold"
+     },
+     "door": "open",
+     "hide": [
+      "eli2"
+     ],
+     "paper": true
+    }
+   ],
+   "words": [
+    {
+     "text": "HE",
+     "red": false,
+     "norm": "he",
+     "norm_raw": "he",
+     "start": 137.66,
+     "end": 137.72
+    },
+    {
+     "text": "STARED",
+     "red": false,
+     "norm": "stared",
+     "norm_raw": "stared",
+     "start": 137.72,
+     "end": 137.88
+    },
+    {
+     "text": "AT",
+     "red": false,
+     "norm": "at",
+     "norm_raw": "at",
+     "start": 137.88,
+     "end": 138.04
+    },
+    {
+     "text": "ME",
+     "red": false,
+     "norm": "me",
+     "norm_raw": "me",
+     "start": 138.04,
+     "end": 138.16
+    },
+    {
+     "text": "FOR",
+     "red": false,
+     "norm": "for",
+     "norm_raw": "for",
+     "start": 138.16,
+     "end": 138.3
+    },
+    {
+     "text": "A",
+     "red": false,
+     "norm": "a",
+     "norm_raw": "a",
+     "start": 138.3,
+     "end": 138.35
+    },
+    {
+     "text": "LONG",
+     "red": false,
+     "norm": "long",
+     "norm_raw": "long",
+     "start": 138.34,
+     "end": 138.5
+    },
+    {
+     "text": "TIME",
+     "red": false,
+     "norm": "time",
+     "norm_raw": "time",
+     "start": 138.5,
+     "end": 138.84
+    },
+    {
+     "text": "THEN",
+     "red": false,
+     "norm": "then",
+     "norm_raw": "then",
+     "start": 139.08,
+     "end": 139.16
+    },
+    {
+     "text": "HE",
+     "red": false,
+     "norm": "he",
+     "norm_raw": "he",
+     "start": 139.16,
+     "end": 139.26
+    },
+    {
+     "text": "TOOK",
+     "red": false,
+     "norm": "took",
+     "norm_raw": "took",
+     "start": 139.26,
+     "end": 139.42
+    },
+    {
+     "text": "THE",
+     "red": false,
+     "norm": "the",
+     "norm_raw": "the",
+     "start": 139.42,
+     "end": 139.52
+    },
+    {
+     "text": "CREAM",
+     "red": false,
+     "norm": "cream",
+     "norm_raw": "cream",
+     "start": 139.52,
+     "end": 139.72
+    },
+    {
+     "text": "ENVELOPE",
+     "red": false,
+     "norm": "envelope",
+     "norm_raw": "envelope",
+     "start": 139.72,
+     "end": 140.02
+    },
+    {
+     "text": "WITH",
+     "red": false,
+     "norm": "with",
+     "norm_raw": "with",
+     "start": 140.02,
+     "end": 140.4
+    },
+    {
+     "text": "MY",
+     "red": false,
+     "norm": "my",
+     "norm_raw": "my",
+     "start": 140.4,
+     "end": 140.54
+    },
+    {
+     "text": "NAME",
+     "red": false,
+     "norm": "name",
+     "norm_raw": "name",
+     "start": 140.54,
+     "end": 140.72
+    },
+    {
+     "text": "AND",
+     "red": false,
+     "norm": "and",
+     "norm_raw": "and",
+     "start": 140.72,
+     "end": 141.02
+    },
+    {
+     "text": "PUT",
+     "red": false,
+     "norm": "put",
+     "norm_raw": "put",
+     "start": 141.02,
+     "end": 141.16
+    },
+    {
+     "text": "IT",
+     "red": false,
+     "norm": "it",
+     "norm_raw": "it",
+     "start": 141.16,
+     "end": 141.24
+    },
+    {
+     "text": "IN",
+     "red": false,
+     "norm": "in",
+     "norm_raw": "in",
+     "start": 141.24,
+     "end": 141.32
+    },
+    {
+     "text": "MY",
+     "red": false,
+     "norm": "my",
+     "norm_raw": "my",
+     "start": 141.32,
+     "end": 141.44
+    },
+    {
+     "text": "HANDS",
+     "red": false,
+     "norm": "hands",
+     "norm_raw": "hands",
+     "start": 141.44,
+     "end": 141.68
+    }
+   ]
+  },
+  {
+   "id": "s32",
+   "text": "The wax was warm. Like someone had just pressed it.",
+   "start": 142.05,
+   "speech_end": 144.31,
+   "end": 144.46,
+   "light": "night",
+   "beats": [
+    {
+     "set": "int_final",
+     "cam": "ecu",
+     "tgt": "eli_held_env",
+     "acts": {
+      "eli": "read"
+     },
+     "door": "open",
+     "hide": [
+      "eli2"
+     ],
+     "paper": true
+    },
+    {
+     "set": "int_final",
+     "cam": "ecu",
+     "tgt": "eli",
+     "acts": {
+      "eli": "read"
+     },
+     "faces": {
+      "eli": "scared"
+     },
+     "door": "open",
+     "hide": [
+      "eli2"
+     ]
+    }
+   ],
+   "words": [
+    {
+     "text": "THE",
+     "red": false,
+     "norm": "the",
+     "norm_raw": "the",
+     "start": 142.05,
+     "end": 142.11
+    },
+    {
+     "text": "WAX",
+     "red": false,
+     "norm": "wax",
+     "norm_raw": "wax",
+     "start": 142.11,
+     "end": 142.21
+    },
+    {
+     "text": "WAS",
+     "red": false,
+     "norm": "was",
+     "norm_raw": "was",
+     "start": 142.21,
+     "end": 142.41
+    },
+    {
+     "text": "WARM",
+     "red": false,
+     "norm": "warm",
+     "norm_raw": "warm",
+     "start": 142.41,
+     "end": 142.69
+    },
+    {
+     "text": "LIKE",
+     "red": false,
+     "norm": "like",
+     "norm_raw": "like",
+     "start": 142.93,
+     "end": 143.03
+    },
+    {
+     "text": "SOMEONE",
+     "red": false,
+     "norm": "someone",
+     "norm_raw": "someone",
+     "start": 143.03,
+     "end": 143.35
+    },
+    {
+     "text": "HAD",
+     "red": false,
+     "norm": "had",
+     "norm_raw": "had",
+     "start": 143.35,
+     "end": 143.59
+    },
+    {
+     "text": "JUST",
+     "red": false,
+     "norm": "just",
+     "norm_raw": "just",
+     "start": 143.59,
+     "end": 143.77
+    },
+    {
+     "text": "PRESSED",
+     "red": false,
+     "norm": "pressed",
+     "norm_raw": "pressed",
+     "start": 143.77,
+     "end": 144.01
+    },
+    {
+     "text": "IT",
+     "red": false,
+     "norm": "it",
+     "norm_raw": "it",
+     "start": 144.01,
+     "end": 144.21
+    }
+   ]
+  },
+  {
+   "id": "s33",
+   "text": "I broke it open. Inside was one short note, in handwriting I knew better than my own.",
+   "start": 144.46,
+   "speech_end": 148.1,
+   "end": 148.25,
+   "light": "night",
+   "beats": [
+    {
+     "set": "int_final",
+     "cam": "prop",
+     "tgt": "eli_held_env",
+     "acts": {
+      "eli": "read"
+     },
+     "door": "open",
+     "hide": [
+      "eli2"
+     ],
+     "paper": true
+    },
+    {
+     "set": "int_final",
+     "cam": "high",
+     "tgt": "eli",
+     "acts": {
+      "eli": "read"
+     },
+     "door": "open",
+     "hide": [
+      "eli2"
+     ],
+     "paper": true
+    },
+    {
+     "set": "int_final",
+     "cam": "ecu",
+     "tgt": "eli",
+     "acts": {
+      "eli": "read"
+     },
+     "faces": {
+      "eli": "shocked"
+     },
+     "door": "open",
+     "hide": [
+      "eli2"
+     ]
+    }
+   ],
+   "words": [
+    {
+     "text": "I",
+     "red": false,
+     "norm": "i",
+     "norm_raw": "i",
+     "start": 144.46,
+     "end": 144.54
+    },
+    {
+     "text": "BROKE",
+     "red": false,
+     "norm": "broke",
+     "norm_raw": "broke",
+     "start": 144.54,
+     "end": 144.66
+    },
+    {
+     "text": "IT",
+     "red": false,
+     "norm": "it",
+     "norm_raw": "it",
+     "start": 144.66,
+     "end": 144.8
+    },
+    {
+     "text": "OPEN",
+     "red": false,
+     "norm": "open",
+     "norm_raw": "open",
+     "start": 144.8,
+     "end": 144.98
+    },
+    {
+     "text": "INSIDE",
+     "red": false,
+     "norm": "inside",
+     "norm_raw": "inside",
+     "start": 145.2,
+     "end": 145.4
+    },
+    {
+     "text": "WAS",
+     "red": false,
+     "norm": "was",
+     "norm_raw": "was",
+     "start": 145.4,
+     "end": 145.62
+    },
+    {
+     "text": "ONE",
+     "red": false,
+     "norm": "one",
+     "norm_raw": "one",
+     "start": 145.62,
+     "end": 145.78
+    },
+    {
+     "text": "SHORT",
+     "red": false,
+     "norm": "short",
+     "norm_raw": "short",
+     "start": 145.78,
+     "end": 146.02
+    },
+    {
+     "text": "NOTE",
+     "red": false,
+     "norm": "note",
+     "norm_raw": "note",
+     "start": 146.02,
+     "end": 146.3
+    },
+    {
+     "text": "IN",
+     "red": false,
+     "norm": "in",
+     "norm_raw": "in",
+     "start": 146.56,
+     "end": 146.64
+    },
+    {
+     "text": "HANDWRITING",
+     "red": false,
+     "norm": "handwriting",
+     "norm_raw": "handwriting",
+     "start": 146.64,
+     "end": 146.86
+    },
+    {
+     "text": "I",
+     "red": false,
+     "norm": "i",
+     "norm_raw": "i",
+     "start": 146.86,
+     "end": 147.16
+    },
+    {
+     "text": "KNEW",
+     "red": false,
+     "norm": "knew",
+     "norm_raw": "knew",
+     "start": 147.16,
+     "end": 147.26
+    },
+    {
+     "text": "BETTER",
+     "red": false,
+     "norm": "better",
+     "norm_raw": "better",
+     "start": 147.26,
+     "end": 147.46
+    },
+    {
+     "text": "THAN",
+     "red": false,
+     "norm": "than",
+     "norm_raw": "than",
+     "start": 147.46,
+     "end": 147.64
+    },
+    {
+     "text": "MY",
+     "red": false,
+     "norm": "my",
+     "norm_raw": "my",
+     "start": 147.64,
+     "end": 147.74
+    },
+    {
+     "text": "OWN",
+     "red": false,
+     "norm": "own",
+     "norm_raw": "own",
+     "start": 147.74,
+     "end": 147.94
+    }
+   ]
+  },
+  {
+   "id": "s34",
+   "text": "It said: \"Dear Eli. By now you've followed the mailman, climbed his window, and broken the seal. Please don't turn around.\"",
+   "start": 148.25,
+   "speech_end": 153.45,
+   "end": 153.6,
+   "light": "night",
+   "beats": [
+    {
+     "card": "letter1"
+    },
+    {
+     "card": "letter2"
+    },
+    {
+     "set": "int_final",
+     "cam": "ecu",
+     "tgt": "eli",
+     "acts": {
+      "eli": "read"
+     },
+     "faces": {
+      "eli": "scared"
+     },
+     "door": "open",
+     "hide": [
+      "dobbs",
+      "eli2"
+     ]
+    },
+    {
+     "card": "letter3"
+    },
+    {
+     "set": "int_final",
+     "cam": "dutch",
+     "tgt": "eli",
+     "acts": {
+      "eli": "read"
+     },
+     "faces": {
+      "eli": "scared"
+     },
+     "door": "open",
+     "hide": [
+      "dobbs",
+      "eli2"
+     ]
+    }
+   ],
+   "words": [
+    {
+     "text": "IT",
+     "red": false,
+     "norm": "it",
+     "norm_raw": "it",
+     "start": 148.25,
+     "end": 148.31
+    },
+    {
+     "text": "SAID",
+     "red": false,
+     "norm": "said",
+     "norm_raw": "said",
+     "start": 148.31,
+     "end": 148.53
+    },
+    {
+     "text": "DEAR",
+     "red": false,
+     "norm": "dear",
+     "norm_raw": "dear",
+     "start": 148.53,
+     "end": 149.01
+    },
+    {
+     "text": "ELI",
+     "red": false,
+     "norm": "eli",
+     "norm_raw": "eli",
+     "start": 149.01,
+     "end": 149.37
+    },
+    {
+     "text": "BY",
+     "red": false,
+     "norm": "by",
+     "norm_raw": "by",
+     "start": 149.37,
+     "end": 149.45
+    },
+    {
+     "text": "NOW",
+     "red": false,
+     "norm": "now",
+     "norm_raw": "now",
+     "start": 149.45,
+     "end": 149.59
+    },
+    {
+     "text": "YOU'VE",
+     "red": false,
+     "norm": "youve",
+     "norm_raw": "you've",
+     "start": 149.59,
+     "end": 149.77
+    },
+    {
+     "text": "FOLLOWED",
+     "red": false,
+     "norm": "followed",
+     "norm_raw": "followed",
+     "start": 149.77,
+     "end": 149.99
+    },
+    {
+     "text": "THE",
+     "red": false,
+     "norm": "the",
+     "norm_raw": "the",
+     "start": 149.99,
+     "end": 150.17
+    },
+    {
+     "text": "MAILMAN",
+     "red": false,
+     "norm": "mailman",
+     "norm_raw": "mailman",
+     "start": 150.17,
+     "end": 150.61
+    },
+    {
+     "text": "CLIMBED",
+     "red": false,
+     "norm": "climbed",
+     "norm_raw": "climbed",
+     "start": 150.61,
+     "end": 150.81
+    },
+    {
+     "text": "HIS",
+     "red": false,
+     "norm": "his",
+     "norm_raw": "his",
+     "start": 150.81,
+     "end": 151.03
+    },
+    {
+     "text": "WINDOW",
+     "red": false,
+     "norm": "window",
+     "norm_raw": "window",
+     "start": 151.03,
+     "end": 151.31
+    },
+    {
+     "text": "AND",
+     "red": false,
+     "norm": "and",
+     "norm_raw": "and",
+     "start": 151.63,
+     "end": 151.73
+    },
+    {
+     "text": "BROKEN",
+     "red": false,
+     "norm": "broken",
+     "norm_raw": "broken",
+     "start": 151.73,
+     "end": 151.89
+    },
+    {
+     "text": "THE",
+     "red": false,
+     "norm": "the",
+     "norm_raw": "the",
+     "start": 151.89,
+     "end": 152.09
+    },
+    {
+     "text": "SEAL",
+     "red": false,
+     "norm": "seal",
+     "norm_raw": "seal",
+     "start": 152.09,
+     "end": 152.25
+    },
+    {
+     "text": "PLEASE",
+     "red": false,
+     "norm": "please",
+     "norm_raw": "please",
+     "start": 152.45,
+     "end": 152.57
+    },
+    {
+     "text": "DON'T",
+     "red": false,
+     "norm": "dont",
+     "norm_raw": "don't",
+     "start": 152.57,
+     "end": 152.79
+    },
+    {
+     "text": "TURN",
+     "red": false,
+     "norm": "turn",
+     "norm_raw": "turn",
+     "start": 152.79,
+     "end": 152.95
+    },
+    {
+     "text": "AROUND",
+     "red": false,
+     "norm": "around",
+     "norm_raw": "around",
+     "start": 152.95,
+     "end": 153.13
+    }
+   ]
+  },
+  {
+   "id": "s35",
+   "text": "It was signed: \"Eli.\"",
+   "start": 153.6,
+   "speech_end": 154.59,
+   "end": 154.74,
+   "light": "night",
+   "beats": [
+    {
+     "card": "signed"
+    },
+    {
+     "set": "int_final",
+     "cam": "ecu",
+     "tgt": "eli",
+     "acts": {
+      "eli": "read"
+     },
+     "faces": {
+      "eli": "blank"
+     },
+     "door": "open",
+     "hide": [
+      "dobbs",
+      "eli2"
+     ]
+    }
+   ],
+   "words": [
+    {
+     "text": "IT",
+     "red": false,
+     "norm": "it",
+     "norm_raw": "it",
+     "start": 153.6,
+     "end": 153.7
+    },
+    {
+     "text": "WAS",
+     "red": false,
+     "norm": "was",
+     "norm_raw": "was",
+     "start": 153.7,
+     "end": 153.78
+    },
+    {
+     "text": "SIGNED",
+     "red": false,
+     "norm": "signed",
+     "norm_raw": "signed",
+     "start": 153.78,
+     "end": 154.02
+    },
+    {
+     "text": "ELI",
+     "red": false,
+     "norm": "eli",
+     "norm_raw": "eli",
+     "start": 154.02,
+     "end": 154.59
+    }
+   ]
+  },
+  {
+   "id": "s36",
+   "text": "I turned around.",
+   "start": 154.74,
+   "speech_end": 155.4,
+   "end": 155.55,
+   "light": "night",
+   "beats": [
+    {
+     "set": "int_final",
+     "cam": "cu",
+     "tgt": "eli",
+     "acts": {
+      "eli": "turn"
+     },
+     "faces": {
+      "eli": "scared"
+     },
+     "door": "open",
+     "hide": [
+      "dobbs"
+     ]
+    }
+   ],
+   "words": [
+    {
+     "text": "I",
+     "red": false,
+     "norm": "i",
+     "norm_raw": "i",
+     "start": 154.74,
+     "end": 154.82
+    },
+    {
+     "text": "TURNED",
+     "red": false,
+     "norm": "turned",
+     "norm_raw": "turned",
+     "start": 154.82,
+     "end": 154.98
+    },
+    {
+     "text": "AROUND",
+     "red": false,
+     "norm": "around",
+     "norm_raw": "around",
+     "start": 154.98,
+     "end": 155.18
+    }
+   ]
+  },
+  {
+   "id": "s37",
+   "text": "Mr. Dobbs was gone. The door was wide open. And standing in the doorway, holding a cream envelope with Mr. Dobbs's name on it... was ME.",
+   "start": 155.55,
+   "speech_end": 162.25,
+   "end": 162.4,
+   "light": "night",
+   "beats": [
+    {
+     "set": "int_final",
+     "cam": "push",
+     "tgt": "eli2",
+     "door": "open",
+     "hide": [
+      "dobbs"
+     ],
+     "turned": {
+      "eli": 180
+     }
+    },
+    {
+     "set": "int_final",
+     "cam": "cu",
+     "tgt": "eli2",
+     "door": "open",
+     "faces": {
+      "eli2": "blank"
+     },
+     "hide": [
+      "dobbs"
+     ],
+     "turned": {
+      "eli": 180
+     }
+    },
+    {
+     "set": "int_final",
+     "cam": "ots",
+     "tgt": "eli2",
+     "over": "eli",
+     "door": "open",
+     "hide": [
+      "dobbs"
+     ],
+     "turned": {
+      "eli": 180
+     }
+    },
+    {
+     "set": "int_final",
+     "cam": "low",
+     "tgt": "eli2",
+     "door": "open",
+     "faces": {
+      "eli2": "blank"
+     },
+     "hide": [
+      "dobbs"
+     ],
+     "turned": {
+      "eli": 180
+     }
+    },
+    {
+     "set": "int_final",
+     "cam": "ecu",
+     "tgt": "eli2_held_env",
+     "door": "open",
+     "paper": true,
+     "hide": [
+      "dobbs"
+     ],
+     "turned": {
+      "eli": 180
+     }
+    },
+    {
+     "set": "int_final",
+     "cam": "ecu",
+     "tgt": "eli",
+     "door": "open",
+     "faces": {
+      "eli": "shocked"
+     },
+     "hide": [
+      "dobbs"
+     ],
+     "turned": {
+      "eli": 180
+     }
+    },
+    {
+     "set": "int_final",
+     "cam": "ecu",
+     "tgt": "eli2",
+     "door": "open",
+     "faces": {
+      "eli2": "blank"
+     },
+     "hide": [
+      "dobbs"
+     ],
+     "turned": {
+      "eli": 180
+     }
+    }
+   ],
+   "words": [
+    {
+     "text": "MR",
+     "red": false,
+     "norm": "mr",
+     "norm_raw": "mr",
+     "start": 155.55,
+     "end": 155.77
+    },
+    {
+     "text": "DOBBS",
+     "red": false,
+     "norm": "dobbs",
+     "norm_raw": "dobbs",
+     "start": 156.09,
+     "end": 156.29
+    },
+    {
+     "text": "WAS",
+     "red": false,
+     "norm": "was",
+     "norm_raw": "was",
+     "start": 156.29,
+     "end": 156.39
+    },
+    {
+     "text": "GONE",
+     "red": false,
+     "norm": "gone",
+     "norm_raw": "gone",
+     "start": 156.39,
+     "end": 156.61
+    },
+    {
+     "text": "THE",
+     "red": false,
+     "norm": "the",
+     "norm_raw": "the",
+     "start": 156.87,
+     "end": 156.95
+    },
+    {
+     "text": "DOOR",
+     "red": false,
+     "norm": "door",
+     "norm_raw": "door",
+     "start": 156.95,
+     "end": 157.09
+    },
+    {
+     "text": "WAS",
+     "red": false,
+     "norm": "was",
+     "norm_raw": "was",
+     "start": 157.09,
+     "end": 157.23
+    },
+    {
+     "text": "WIDE",
+     "red": false,
+     "norm": "wide",
+     "norm_raw": "wide",
+     "start": 157.23,
+     "end": 157.43
+    },
+    {
+     "text": "OPEN",
+     "red": false,
+     "norm": "open",
+     "norm_raw": "open",
+     "start": 157.43,
+     "end": 157.77
+    },
+    {
+     "text": "AND",
+     "red": false,
+     "norm": "and",
+     "norm_raw": "and",
+     "start": 157.77,
+     "end": 158.13
+    },
+    {
+     "text": "STANDING",
+     "red": false,
+     "norm": "standing",
+     "norm_raw": "standing",
+     "start": 158.13,
+     "end": 158.35
+    },
+    {
+     "text": "IN",
+     "red": false,
+     "norm": "in",
+     "norm_raw": "in",
+     "start": 158.35,
+     "end": 158.61
+    },
+    {
+     "text": "THE",
+     "red": false,
+     "norm": "the",
+     "norm_raw": "the",
+     "start": 158.61,
+     "end": 158.67
+    },
+    {
+     "text": "DOORWAY",
+     "red": false,
+     "norm": "doorway",
+     "norm_raw": "doorway",
+     "start": 158.67,
+     "end": 158.91
+    },
+    {
+     "text": "HOLDING",
+     "red": false,
+     "norm": "holding",
+     "norm_raw": "holding",
+     "start": 159.29,
+     "end": 159.51
+    },
+    {
+     "text": "A",
+     "red": false,
+     "norm": "a",
+     "norm_raw": "a",
+     "start": 159.51,
+     "end": 159.67
+    },
+    {
+     "text": "CREAM",
+     "red": false,
+     "norm": "cream",
+     "norm_raw": "cream",
+     "start": 159.67,
+     "end": 159.85
+    },
+    {
+     "text": "ENVELOPE",
+     "red": false,
+     "norm": "envelope",
+     "norm_raw": "envelope",
+     "start": 159.85,
+     "end": 160.15
+    },
+    {
+     "text": "WITH",
+     "red": false,
+     "norm": "with",
+     "norm_raw": "with",
+     "start": 160.15,
+     "end": 160.47
+    },
+    {
+     "text": "MR",
+     "red": false,
+     "norm": "mr",
+     "norm_raw": "mr",
+     "start": 160.47,
+     "end": 160.71
+    },
+    {
+     "text": "DOBBS'S",
+     "red": false,
+     "norm": "dobbss",
+     "norm_raw": "dobbs's",
+     "start": 160.71,
+     "end": 161.27
+    },
+    {
+     "text": "NAME",
+     "red": false,
+     "norm": "name",
+     "norm_raw": "name",
+     "start": 161.27,
+     "end": 161.45
+    },
+    {
+     "text": "ON",
+     "red": false,
+     "norm": "on",
+     "norm_raw": "on",
+     "start": 161.45,
+     "end": 161.61
+    },
+    {
+     "text": "IT",
+     "red": false,
+     "norm": "it",
+     "norm_raw": "it",
+     "start": 161.61,
+     "end": 161.75
+    },
+    {
+     "text": "WAS",
+     "red": false,
+     "norm": "was",
+     "norm_raw": "was",
+     "start": 161.75,
+     "end": 161.93
+    },
+    {
+     "text": "ME",
+     "red": true,
+     "norm": "me",
+     "norm_raw": "me",
+     "start": 161.93,
+     "end": 162.09
+    }
+   ]
+  }
+ ]
+}

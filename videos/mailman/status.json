@@ -1,0 +1,38 @@
+{
+ "tts": {
+  "ok": true,
+  "at": "2026-11-26 01:23:01",
+  "seconds": 162.4,
+  "words": 669,
+  "wps": 4.12,
+  "extra_beats": 0,
+  "length_scale": 0.7
+ },
+ "shots": {
+  "ok": true,
+  "at": "2026-11-26 01:27:56",
+  "shots": 178,
+  "cards": 12,
+  "max_shot": 1.367,
+  "render_frames": 4500
+ },
+ "dressing": {
+  "ok": true,
+  "at": "2026-11-26 01:28:04",
+  "objects": 468
+ },
+ "preview_assembled": {
+  "ok": true,
+  "at": "2026-11-26 01:35:18",
+  "seconds": 163.2,
+  "mb": 9.9
+ },
+ "preview_verified": {
+  "ok": true,
+  "at": "2026-11-26 01:36:34",
+  "duration": 163.2,
+  "shots": 178,
+  "wps": 4.12,
+  "flaws": []
+ }
+}

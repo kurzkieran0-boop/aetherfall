@@ -1,0 +1,6444 @@
+{
+ "duration": 164.02,
+ "n_extra": 0,
+ "words": 582,
+ "wps": 3.548,
+ "length_scale": 0.95,
+ "source_hash": "d6ae20f9dd8b4540",
+ "whisper_match": 0.897,
+ "sentences": [
+  {
+   "id": "s01",
+   "text": "In this town, everyone is only allowed five thousand words in their entire life.",
+   "start": 0.08,
+   "speech_end": 4.11,
+   "end": 4.31,
+   "light": "day",
+   "beats": [
+    {
+     "set": "town",
+     "cam": "drone",
+     "tgt": "pt:0,0,0",
+     "radius": 56
+    },
+    {
+     "set": "town",
+     "cam": "track",
+     "tgt": "t5"
+    },
+    {
+     "set": "street",
+     "cam": "mcu",
+     "tgt": "t6"
+    },
+    {
+     "card": "five_k"
+    }
+   ],
+   "words": [
+    {
+     "text": "IN",
+     "red": false,
+     "norm": "in",
+     "norm_raw": "in",
+     "start": 0.08,
+     "end": 0.16
+    },
+    {
+     "text": "THIS",
+     "red": false,
+     "norm": "this",
+     "norm_raw": "this",
+     "start": 0.16,
+     "end": 0.28
+    },
+    {
+     "text": "TOWN",
+     "red": false,
+     "norm": "town",
+     "norm_raw": "town",
+     "start": 0.28,
+     "end": 0.58
+    },
+    {
+     "text": "EVERYONE",
+     "red": false,
+     "norm": "everyone",
+     "norm_raw": "everyone",
+     "start": 0.82,
+     "end": 1.04
+    },
+    {
+     "text": "IS",
+     "red": false,
+     "norm": "is",
+     "norm_raw": "is",
+     "start": 1.04,
+     "end": 1.3
+    },
+    {
+     "text": "ONLY",
+     "red": false,
+     "norm": "only",
+     "norm_raw": "only",
+     "start": 1.3,
+     "end": 1.56
+    },
+    {
+     "text": "ALLOWED",
+     "red": false,
+     "norm": "allowed",
+     "norm_raw": "allowed",
+     "start": 1.56,
+     "end": 1.92
+    },
+    {
+     "text": "FIVE",
+     "red": false,
+     "norm": "five",
+     "norm_raw": "five",
+     "start": 1.92,
+     "end": 2.207
+    },
+    {
+     "text": "THOUSAND",
+     "red": false,
+     "norm": "thousand",
+     "norm_raw": "thousand",
+     "start": 2.207,
+     "end": 2.78
+    },
+    {
+     "text": "WORDS",
+     "red": false,
+     "norm": "words",
+     "norm_raw": "words",
+     "start": 2.78,
+     "end": 3.02
+    },
+    {
+     "text": "IN",
+     "red": false,
+     "norm": "in",
+     "norm_raw": "in",
+     "start": 3.02,
+     "end": 3.22
+    },
+    {
+     "text": "THEIR",
+     "red": false,
+     "norm": "their",
+     "norm_raw": "their",
+     "start": 3.22,
+     "end": 3.38
+    },
+    {
+     "text": "ENTIRE",
+     "red": false,
+     "norm": "entire",
+     "norm_raw": "entire",
+     "start": 3.38,
+     "end": 3.58
+    },
+    {
+     "text": "LIFE",
+     "red": false,
+     "norm": "life",
+     "norm_raw": "life",
+     "start": 3.58,
+     "end": 3.98
+    }
+   ]
+  },
+  {
+   "id": "s02",
+   "text": "You're born with a glowing number on your chest. Every word you say counts it down.",
+   "start": 4.31,
+   "speech_end": 7.94,
+   "end": 8.14,
+   "light": "day",
+   "beats": [
+    {
+     "set": "street_mom",
+     "cam": "cu",
+     "tgt": "pip",
+     "faces": {
+      "pip": "laughing"
+     }
+    },
+    {
+     "set": "street_mom",
+     "cam": "counter",
+     "tgt": "pip"
+    },
+    {
+     "set": "street_mom",
+     "cam": "mcu",
+     "tgt": "t3",
+     "acts": {
+      "t3": "talk"
+     }
+    },
+    {
+     "set": "street_mom",
+     "cam": "counter",
+     "tgt": "t3",
+     "acts": {
+      "t3": "talk"
+     }
+    }
+   ],
+   "words": [
+    {
+     "text": "YOU'RE",
+     "red": false,
+     "norm": "youre",
+     "norm_raw": "you're",
+     "start": 4.31,
+     "end": 4.43
+    },
+    {
+     "text": "BORN",
+     "red": false,
+     "norm": "born",
+     "norm_raw": "born",
+     "start": 4.43,
+     "end": 4.59
+    },
+    {
+     "text": "WITH",
+     "red": false,
+     "norm": "with",
+     "norm_raw": "with",
+     "start": 4.59,
+     "end": 4.81
+    },
+    {
+     "text": "A",
+     "red": false,
+     "norm": "a",
+     "norm_raw": "a",
+     "start": 4.81,
+     "end": 4.87
+    },
+    {
+     "text": "GLOWING",
+     "red": false,
+     "norm": "glowing",
+     "norm_raw": "glowing",
+     "start": 4.87,
+     "end": 5.07
+    },
+    {
+     "text": "NUMBER",
+     "red": false,
+     "norm": "number",
+     "norm_raw": "number",
+     "start": 5.07,
+     "end": 5.41
+    },
+    {
+     "text": "ON",
+     "red": false,
+     "norm": "on",
+     "norm_raw": "on",
+     "start": 5.41,
+     "end": 5.67
+    },
+    {
+     "text": "YOUR",
+     "red": false,
+     "norm": "your",
+     "norm_raw": "your",
+     "start": 5.67,
+     "end": 5.81
+    },
+    {
+     "text": "CHEST",
+     "red": false,
+     "norm": "chest",
+     "norm_raw": "chest",
+     "start": 5.81,
+     "end": 6.05
+    },
+    {
+     "text": "EVERY",
+     "red": false,
+     "norm": "every",
+     "norm_raw": "every",
+     "start": 6.29,
+     "end": 6.43
+    },
+    {
+     "text": "WORD",
+     "red": false,
+     "norm": "word",
+     "norm_raw": "word",
+     "start": 6.43,
+     "end": 6.65
+    },
+    {
+     "text": "YOU",
+     "red": false,
+     "norm": "you",
+     "norm_raw": "you",
+     "start": 6.65,
+     "end": 6.81
+    },
+    {
+     "text": "SAY",
+     "red": false,
+     "norm": "say",
+     "norm_raw": "say",
+     "start": 6.81,
+     "end": 7.03
+    },
+    {
+     "text": "COUNTS",
+     "red": false,
+     "norm": "counts",
+     "norm_raw": "counts",
+     "start": 7.03,
+     "end": 7.33
+    },
+    {
+     "text": "IT",
+     "red": false,
+     "norm": "it",
+     "norm_raw": "it",
+     "start": 7.33,
+     "end": 7.51
+    },
+    {
+     "text": "DOWN",
+     "red": false,
+     "norm": "down",
+     "norm_raw": "down",
+     "start": 7.51,
+     "end": 7.71
+    }
+   ]
+  },
+  {
+   "id": "s03",
+   "text": "When it hits zero, your voice turns to STONE.",
+   "start": 8.14,
+   "speech_end": 10.54,
+   "end": 10.74,
+   "light": "day",
+   "beats": [
+    {
+     "set": "street",
+     "cam": "counter",
+     "tgt": "old",
+     "acts": {
+      "old": "talk"
+     }
+    },
+    {
+     "set": "street",
+     "cam": "ecu",
+     "tgt": "old",
+     "faces": {
+      "old": "blank"
+     }
+    },
+    {
+     "set": "street",
+     "cam": "dutch",
+     "tgt": "old",
+     "faces": {
+      "old": "scared"
+     }
+    }
+   ],
+   "words": [
+    {
+     "text": "WHEN",
+     "red": false,
+     "norm": "when",
+     "norm_raw": "when",
+     "start": 8.14,
+     "end": 8.22
+    },
+    {
+     "text": "IT",
+     "red": false,
+     "norm": "it",
+     "norm_raw": "it",
+     "start": 8.22,
+     "end": 8.3
+    },
+    {
+     "text": "HITS",
+     "red": false,
+     "norm": "hits",
+     "norm_raw": "hits",
+     "start": 8.3,
+     "end": 8.54
+    },
+    {
+     "text": "ZERO",
+     "red": false,
+     "norm": "zero",
+     "norm_raw": "zero",
+     "start": 8.54,
+     "end": 8.96
+    },
+    {
+     "text": "YOUR",
+     "red": false,
+     "norm": "your",
+     "norm_raw": "your",
+     "start": 9.26,
+     "end": 9.36
+    },
+    {
+     "text": "VOICE",
+     "red": false,
+     "norm": "voice",
+     "norm_raw": "voice",
+     "start": 9.36,
+     "end": 9.58
+    },
+    {
+     "text": "TURNS",
+     "red": false,
+     "norm": "turns",
+     "norm_raw": "turns",
+     "start": 9.58,
+     "end": 9.86
+    },
+    {
+     "text": "TO",
+     "red": false,
+     "norm": "to",
+     "norm_raw": "to",
+     "start": 9.86,
+     "end": 10.12
+    },
+    {
+     "text": "STONE",
+     "red": true,
+     "norm": "stone",
+     "norm_raw": "stone",
+     "start": 10.12,
+     "end": 10.3
+    }
+   ]
+  },
+  {
+   "id": "s04",
+   "text": "So nobody here wastes a single word.",
+   "start": 10.74,
+   "speech_end": 12.72,
+   "end": 12.92,
+   "light": "day",
+   "beats": [
+    {
+     "set": "town",
+     "cam": "high",
+     "tgt": "pt:5,0,0"
+    },
+    {
+     "set": "street",
+     "cam": "cu",
+     "tgt": "t4",
+     "faces": {
+      "t4": "blank"
+     }
+    }
+   ],
+   "words": [
+    {
+     "text": "SO",
+     "red": false,
+     "norm": "so",
+     "norm_raw": "so",
+     "start": 10.74,
+     "end": 10.9
+    },
+    {
+     "text": "NOBODY",
+     "red": false,
+     "norm": "nobody",
+     "norm_raw": "nobody",
+     "start": 10.9,
+     "end": 11.16
+    },
+    {
+     "text": "HERE",
+     "red": false,
+     "norm": "here",
+     "norm_raw": "here",
+     "start": 11.16,
+     "end": 11.54
+    },
+    {
+     "text": "WASTES",
+     "red": false,
+     "norm": "wastes",
+     "norm_raw": "wastes",
+     "start": 11.54,
+     "end": 11.76
+    },
+    {
+     "text": "A",
+     "red": false,
+     "norm": "a",
+     "norm_raw": "a",
+     "start": 11.76,
+     "end": 12.02
+    },
+    {
+     "text": "SINGLE",
+     "red": false,
+     "norm": "single",
+     "norm_raw": "single",
+     "start": 12.02,
+     "end": 12.22
+    },
+    {
+     "text": "WORD",
+     "red": false,
+     "norm": "word",
+     "norm_raw": "word",
+     "start": 12.22,
+     "end": 12.54
+    }
+   ]
+  },
+  {
+   "id": "s05",
+   "text": "The mayor's speeches are four words long. \"Roads fixed. Taxes up.\"",
+   "start": 12.92,
+   "speech_end": 16.46,
+   "end": 16.66,
+   "light": "day",
+   "beats": [
+    {
+     "set": "plaza",
+     "cam": "low",
+     "tgt": "mayor"
+    },
+    {
+     "set": "plaza",
+     "cam": "ots",
+     "tgt": "mayor",
+     "over": "t3",
+     "acts": {
+      "mayor": "talk"
+     }
+    },
+    {
+     "card": "speech"
+    },
+    {
+     "set": "plaza",
+     "cam": "counter",
+     "tgt": "mayor",
+     "acts": {
+      "mayor": "talk"
+     }
+    }
+   ],
+   "words": [
+    {
+     "text": "THE",
+     "red": false,
+     "norm": "the",
+     "norm_raw": "the",
+     "start": 12.92,
+     "end": 12.98
+    },
+    {
+     "text": "MAYOR'S",
+     "red": false,
+     "norm": "mayors",
+     "norm_raw": "mayor's",
+     "start": 12.98,
+     "end": 13.32
+    },
+    {
+     "text": "SPEECHES",
+     "red": false,
+     "norm": "speeches",
+     "norm_raw": "speeches",
+     "start": 13.32,
+     "end": 13.54
+    },
+    {
+     "text": "ARE",
+     "red": false,
+     "norm": "are",
+     "norm_raw": "are",
+     "start": 13.54,
+     "end": 13.92
+    },
+    {
+     "text": "FOUR",
+     "red": false,
+     "norm": "four",
+     "norm_raw": "four",
+     "start": 13.92,
+     "end": 14.16
+    },
+    {
+     "text": "WORDS",
+     "red": false,
+     "norm": "words",
+     "norm_raw": "words",
+     "start": 14.16,
+     "end": 14.46
+    },
+    {
+     "text": "LONG",
+     "red": false,
+     "norm": "long",
+     "norm_raw": "long",
+     "start": 14.46,
+     "end": 14.76
+    },
+    {
+     "text": "ROADS",
+     "red": false,
+     "norm": "roads",
+     "norm_raw": "roads",
+     "start": 14.98,
+     "end": 15.14
+    },
+    {
+     "text": "FIXED",
+     "red": false,
+     "norm": "fixed",
+     "norm_raw": "fixed",
+     "start": 15.14,
+     "end": 15.82
+    },
+    {
+     "text": "TAXES",
+     "red": false,
+     "norm": "taxes",
+     "norm_raw": "taxes",
+     "start": 15.82,
+     "end": 16.02
+    },
+    {
+     "text": "UP",
+     "red": false,
+     "norm": "up",
+     "norm_raw": "up",
+     "start": 16.02,
+     "end": 16.36
+    }
+   ]
+  },
+  {
+   "id": "s06",
+   "text": "Weddings are two words. \"I do.\" And everyone claps, because clapping is free.",
+   "start": 16.66,
+   "speech_end": 20.94,
+   "end": 21.14,
+   "light": "day",
+   "beats": [
+    {
+     "set": "wedding",
+     "cam": "wide",
+     "tgt": "t1"
+    },
+    {
+     "set": "wedding",
+     "cam": "cu",
+     "tgt": "t1",
+     "acts": {
+      "t1": "talk"
+     },
+     "faces": {
+      "t1": "laughing"
+     }
+    },
+    {
+     "set": "wedding",
+     "cam": "counter",
+     "tgt": "t2"
+    },
+    {
+     "set": "wedding",
+     "cam": "hands",
+     "tgt": "t4",
+     "acts": {
+      "t4": "clap"
+     }
+    },
+    {
+     "set": "wedding",
+     "cam": "orbit",
+     "tgt": "granny",
+     "acts": {
+      "granny": "clap"
+     }
+    }
+   ],
+   "words": [
+    {
+     "text": "WEDDINGS",
+     "red": false,
+     "norm": "weddings",
+     "norm_raw": "weddings",
+     "start": 16.66,
+     "end": 16.96
+    },
+    {
+     "text": "ARE",
+     "red": false,
+     "norm": "are",
+     "norm_raw": "are",
+     "start": 16.96,
+     "end": 17.1
+    },
+    {
+     "text": "TWO",
+     "red": false,
+     "norm": "two",
+     "norm_raw": "two",
+     "start": 17.1,
+     "end": 17.28
+    },
+    {
+     "text": "WORDS",
+     "red": false,
+     "norm": "words",
+     "norm_raw": "words",
+     "start": 17.28,
+     "end": 17.56
+    },
+    {
+     "text": "I",
+     "red": false,
+     "norm": "i",
+     "norm_raw": "i",
+     "start": 17.82,
+     "end": 17.9
+    },
+    {
+     "text": "DO",
+     "red": false,
+     "norm": "do",
+     "norm_raw": "do",
+     "start": 17.9,
+     "end": 18.14
+    },
+    {
+     "text": "AND",
+     "red": false,
+     "norm": "and",
+     "norm_raw": "and",
+     "start": 18.38,
+     "end": 18.44
+    },
+    {
+     "text": "EVERYONE",
+     "red": false,
+     "norm": "everyone",
+     "norm_raw": "everyone",
+     "start": 18.44,
+     "end": 18.78
+    },
+    {
+     "text": "CLAPS",
+     "red": false,
+     "norm": "claps",
+     "norm_raw": "claps",
+     "start": 18.78,
+     "end": 19.38
+    },
+    {
+     "text": "BECAUSE",
+     "red": false,
+     "norm": "because",
+     "norm_raw": "because",
+     "start": 19.64,
+     "end": 19.88
+    },
+    {
+     "text": "CLAPPING",
+     "red": false,
+     "norm": "clapping",
+     "norm_raw": "clapping",
+     "start": 19.88,
+     "end": 20.34
+    },
+    {
+     "text": "IS",
+     "red": false,
+     "norm": "is",
+     "norm_raw": "is",
+     "start": 20.34,
+     "end": 20.52
+    },
+    {
+     "text": "FREE",
+     "red": false,
+     "norm": "free",
+     "norm_raw": "free",
+     "start": 20.52,
+     "end": 20.74
+    }
+   ]
+  },
+  {
+   "id": "s07",
+   "text": "The baker doesn't say good morning. He just holds up a loaf and nods.",
+   "start": 21.14,
+   "speech_end": 24.55,
+   "end": 24.75,
+   "light": "day",
+   "beats": [
+    {
+     "set": "bakery",
+     "cam": "wide",
+     "tgt": "bakery_sign"
+    },
+    {
+     "set": "bakery",
+     "cam": "ots",
+     "tgt": "baker",
+     "over": "t3",
+     "acts": {
+      "baker": "hold:loaf"
+     }
+    },
+    {
+     "set": "bakery",
+     "cam": "ecu",
+     "tgt": "baker",
+     "acts": {
+      "baker": "nod"
+     }
+    },
+    {
+     "set": "bakery",
+     "cam": "low",
+     "tgt": "baker",
+     "acts": {
+      "baker": "give:loaf"
+     }
+    }
+   ],
+   "words": [
+    {
+     "text": "THE",
+     "red": false,
+     "norm": "the",
+     "norm_raw": "the",
+     "start": 21.14,
+     "end": 21.2
+    },
+    {
+     "text": "BAKER",
+     "red": false,
+     "norm": "baker",
+     "norm_raw": "baker",
+     "start": 21.2,
+     "end": 21.38
+    },
+    {
+     "text": "DOESN'T",
+     "red": false,
+     "norm": "doesnt",
+     "norm_raw": "doesn't",
+     "start": 21.38,
+     "end": 21.74
+    },
+    {
+     "text": "SAY",
+     "red": false,
+     "norm": "say",
+     "norm_raw": "say",
+     "start": 21.74,
+     "end": 21.94
+    },
+    {
+     "text": "GOOD",
+     "red": false,
+     "norm": "good",
+     "norm_raw": "good",
+     "start": 21.94,
+     "end": 22.14
+    },
+    {
+     "text": "MORNING",
+     "red": false,
+     "norm": "morning",
+     "norm_raw": "morning",
+     "start": 22.14,
+     "end": 22.48
+    },
+    {
+     "text": "HE",
+     "red": false,
+     "norm": "he",
+     "norm_raw": "he",
+     "start": 22.68,
+     "end": 22.73
+    },
+    {
+     "text": "JUST",
+     "red": false,
+     "norm": "just",
+     "norm_raw": "just",
+     "start": 22.72,
+     "end": 22.88
+    },
+    {
+     "text": "HOLDS",
+     "red": false,
+     "norm": "holds",
+     "norm_raw": "holds",
+     "start": 22.88,
+     "end": 23.14
+    },
+    {
+     "text": "UP",
+     "red": false,
+     "norm": "up",
+     "norm_raw": "up",
+     "start": 23.14,
+     "end": 23.34
+    },
+    {
+     "text": "A",
+     "red": false,
+     "norm": "a",
+     "norm_raw": "a",
+     "start": 23.34,
+     "end": 23.44
+    },
+    {
+     "text": "LOAF",
+     "red": false,
+     "norm": "loaf",
+     "norm_raw": "loaf",
+     "start": 23.44,
+     "end": 23.66
+    },
+    {
+     "text": "AND",
+     "red": false,
+     "norm": "and",
+     "norm_raw": "and",
+     "start": 23.66,
+     "end": 23.92
+    },
+    {
+     "text": "NODS",
+     "red": false,
+     "norm": "nods",
+     "norm_raw": "nods",
+     "start": 23.92,
+     "end": 24.22
+    }
+   ]
+  },
+  {
+   "id": "s08",
+   "text": "Kids learn hand signals before they learn to read. There's a sign on every corner: TALK ONLY IN EMERGENCIES.",
+   "start": 24.75,
+   "speech_end": 30.62,
+   "end": 30.82,
+   "light": "day",
+   "beats": [
+    {
+     "set": "school",
+     "cam": "wide",
+     "tgt": "t4"
+    },
+    {
+     "set": "school",
+     "cam": "hands",
+     "tgt": "kid1"
+    },
+    {
+     "set": "school",
+     "cam": "cu",
+     "tgt": "kid2"
+    },
+    {
+     "set": "corner",
+     "cam": "push",
+     "tgt": "sign_a"
+    },
+    {
+     "set": "corner",
+     "cam": "prop",
+     "tgt": "sign_a"
+    },
+    {
+     "card": "rule"
+    }
+   ],
+   "words": [
+    {
+     "text": "KIDS",
+     "red": false,
+     "norm": "kids",
+     "norm_raw": "kids",
+     "start": 24.75,
+     "end": 24.87
+    },
+    {
+     "text": "LEARN",
+     "red": false,
+     "norm": "learn",
+     "norm_raw": "learn",
+     "start": 24.87,
+     "end": 25.17
+    },
+    {
+     "text": "HAND",
+     "red": false,
+     "norm": "hand",
+     "norm_raw": "hand",
+     "start": 25.17,
+     "end": 25.47
+    },
+    {
+     "text": "SIGNALS",
+     "red": false,
+     "norm": "signals",
+     "norm_raw": "signals",
+     "start": 25.47,
+     "end": 25.77
+    },
+    {
+     "text": "BEFORE",
+     "red": false,
+     "norm": "before",
+     "norm_raw": "before",
+     "start": 25.77,
+     "end": 26.19
+    },
+    {
+     "text": "THEY",
+     "red": false,
+     "norm": "they",
+     "norm_raw": "they",
+     "start": 26.19,
+     "end": 26.51
+    },
+    {
+     "text": "LEARN",
+     "red": false,
+     "norm": "learn",
+     "norm_raw": "learn",
+     "start": 26.51,
+     "end": 26.67
+    },
+    {
+     "text": "TO",
+     "red": false,
+     "norm": "to",
+     "norm_raw": "to",
+     "start": 26.67,
+     "end": 26.89
+    },
+    {
+     "text": "READ",
+     "red": false,
+     "norm": "read",
+     "norm_raw": "read",
+     "start": 26.89,
+     "end": 27.09
+    },
+    {
+     "text": "THERE'S",
+     "red": false,
+     "norm": "theres",
+     "norm_raw": "there's",
+     "start": 27.29,
+     "end": 27.43
+    },
+    {
+     "text": "A",
+     "red": false,
+     "norm": "a",
+     "norm_raw": "a",
+     "start": 27.43,
+     "end": 27.49
+    },
+    {
+     "text": "SIGN",
+     "red": false,
+     "norm": "sign",
+     "norm_raw": "sign",
+     "start": 27.49,
+     "end": 27.73
+    },
+    {
+     "text": "ON",
+     "red": false,
+     "norm": "on",
+     "norm_raw": "on",
+     "start": 27.73,
+     "end": 27.95
+    },
+    {
+     "text": "EVERY",
+     "red": false,
+     "norm": "every",
+     "norm_raw": "every",
+     "start": 27.95,
+     "end": 28.21
+    },
+    {
+     "text": "CORNER",
+     "red": false,
+     "norm": "corner",
+     "norm_raw": "corner",
+     "start": 28.21,
+     "end": 28.63
+    },
+    {
+     "text": "TALK",
+     "red": true,
+     "norm": "talk",
+     "norm_raw": "talk",
+     "start": 29.01,
+     "end": 29.21
+    },
+    {
+     "text": "ONLY",
+     "red": true,
+     "norm": "only",
+     "norm_raw": "only",
+     "start": 29.21,
+     "end": 29.57
+    },
+    {
+     "text": "IN",
+     "red": true,
+     "norm": "in",
+     "norm_raw": "in",
+     "start": 29.57,
+     "end": 29.81
+    },
+    {
+     "text": "EMERGENCIES",
+     "red": true,
+     "norm": "emergencies",
+     "norm_raw": "emergencies",
+     "start": 29.81,
+     "end": 30.13
+    }
+   ]
+  },
+  {
+   "id": "s09",
+   "text": "And then there's me.",
+   "start": 30.82,
+   "speech_end": 31.53,
+   "end": 31.73,
+   "light": "day",
+   "beats": [
+    {
+     "set": "street",
+     "cam": "whip",
+     "tgt": "finn",
+     "acts": {
+      "finn": "laugh"
+     }
+    },
+    {
+     "set": "street",
+     "cam": "low",
+     "tgt": "finn",
+     "acts": {
+      "finn": "talk"
+     }
+    }
+   ],
+   "words": [
+    {
+     "text": "AND",
+     "red": false,
+     "norm": "and",
+     "norm_raw": "and",
+     "start": 30.82,
+     "end": 30.9
+    },
+    {
+     "text": "THEN",
+     "red": false,
+     "norm": "then",
+     "norm_raw": "then",
+     "start": 30.9,
+     "end": 30.98
+    },
+    {
+     "text": "THERE'S",
+     "red": false,
+     "norm": "theres",
+     "norm_raw": "there's",
+     "start": 30.98,
+     "end": 31.26
+    },
+    {
+     "text": "ME",
+     "red": false,
+     "norm": "me",
+     "norm_raw": "me",
+     "start": 31.26,
+     "end": 31.4
+    }
+   ]
+  },
+  {
+   "id": "s10",
+   "text": "I talked about everything. I talked to the dog. I talked to the trees. I talked to the toaster, because the toaster never interrupted.",
+   "start": 31.73,
+   "speech_end": 37.51,
+   "end": 37.71,
+   "light": "day",
+   "beats": [
+    {
+     "set": "yard",
+     "cam": "mcu",
+     "tgt": "finn",
+     "acts": {
+      "finn": "talk"
+     }
+    },
+    {
+     "set": "yard",
+     "cam": "ots",
+     "tgt": "dog_head",
+     "over": "finn",
+     "acts": {
+      "finn": "talk"
+     }
+    },
+    {
+     "set": "yard",
+     "cam": "counter",
+     "tgt": "finn",
+     "acts": {
+      "finn": "talk"
+     }
+    },
+    {
+     "set": "park",
+     "cam": "low",
+     "tgt": "finn",
+     "acts": {
+      "finn": "talk"
+     }
+    },
+    {
+     "set": "park",
+     "cam": "orbit",
+     "tgt": "finn",
+     "acts": {
+      "finn": "talk"
+     }
+    },
+    {
+     "set": "toaster",
+     "cam": "cu",
+     "tgt": "finn",
+     "acts": {
+      "finn": "talk"
+     }
+    },
+    {
+     "set": "toaster",
+     "cam": "prop",
+     "tgt": "toaster"
+    },
+    {
+     "set": "toaster",
+     "cam": "mcu",
+     "tgt": "finn",
+     "acts": {
+      "finn": "laugh"
+     }
+    }
+   ],
+   "words": [
+    {
+     "text": "I",
+     "red": false,
+     "norm": "i",
+     "norm_raw": "i",
+     "start": 31.73,
+     "end": 31.79
+    },
+    {
+     "text": "TALKED",
+     "red": false,
+     "norm": "talked",
+     "norm_raw": "talked",
+     "start": 31.79,
+     "end": 31.93
+    },
+    {
+     "text": "ABOUT",
+     "red": false,
+     "norm": "about",
+     "norm_raw": "about",
+     "start": 31.93,
+     "end": 32.17
+    },
+    {
+     "text": "EVERYTHING",
+     "red": false,
+     "norm": "everything",
+     "norm_raw": "everything",
+     "start": 32.17,
+     "end": 32.51
+    },
+    {
+     "text": "I",
+     "red": false,
+     "norm": "i",
+     "norm_raw": "i",
+     "start": 32.83,
+     "end": 32.88
+    },
+    {
+     "text": "TALKED",
+     "red": false,
+     "norm": "talked",
+     "norm_raw": "talked",
+     "start": 32.87,
+     "end": 33.05
+    },
+    {
+     "text": "TO",
+     "red": false,
+     "norm": "to",
+     "norm_raw": "to",
+     "start": 33.05,
+     "end": 33.23
+    },
+    {
+     "text": "THE",
+     "red": false,
+     "norm": "the",
+     "norm_raw": "the",
+     "start": 33.23,
+     "end": 33.31
+    },
+    {
+     "text": "DOG",
+     "red": false,
+     "norm": "dog",
+     "norm_raw": "dog",
+     "start": 33.31,
+     "end": 33.53
+    },
+    {
+     "text": "I",
+     "red": false,
+     "norm": "i",
+     "norm_raw": "i",
+     "start": 33.69,
+     "end": 33.74
+    },
+    {
+     "text": "TALKED",
+     "red": false,
+     "norm": "talked",
+     "norm_raw": "talked",
+     "start": 33.73,
+     "end": 33.93
+    },
+    {
+     "text": "TO",
+     "red": false,
+     "norm": "to",
+     "norm_raw": "to",
+     "start": 33.93,
+     "end": 34.15
+    },
+    {
+     "text": "THE",
+     "red": false,
+     "norm": "the",
+     "norm_raw": "the",
+     "start": 34.15,
+     "end": 34.25
+    },
+    {
+     "text": "TREES",
+     "red": false,
+     "norm": "trees",
+     "norm_raw": "trees",
+     "start": 34.25,
+     "end": 34.47
+    },
+    {
+     "text": "I",
+     "red": false,
+     "norm": "i",
+     "norm_raw": "i",
+     "start": 34.71,
+     "end": 34.76
+    },
+    {
+     "text": "TALKED",
+     "red": false,
+     "norm": "talked",
+     "norm_raw": "talked",
+     "start": 34.75,
+     "end": 34.95
+    },
+    {
+     "text": "TO",
+     "red": false,
+     "norm": "to",
+     "norm_raw": "to",
+     "start": 34.95,
+     "end": 35.21
+    },
+    {
+     "text": "THE",
+     "red": false,
+     "norm": "the",
+     "norm_raw": "the",
+     "start": 35.21,
+     "end": 35.27
+    },
+    {
+     "text": "TOASTER",
+     "red": false,
+     "norm": "toaster",
+     "norm_raw": "toaster",
+     "start": 35.27,
+     "end": 35.65
+    },
+    {
+     "text": "BECAUSE",
+     "red": false,
+     "norm": "because",
+     "norm_raw": "because",
+     "start": 35.65,
+     "end": 35.97
+    },
+    {
+     "text": "THE",
+     "red": false,
+     "norm": "the",
+     "norm_raw": "the",
+     "start": 35.97,
+     "end": 36.27
+    },
+    {
+     "text": "TOASTER",
+     "red": false,
+     "norm": "toaster",
+     "norm_raw": "toaster",
+     "start": 36.27,
+     "end": 36.55
+    },
+    {
+     "text": "NEVER",
+     "red": false,
+     "norm": "never",
+     "norm_raw": "never",
+     "start": 36.55,
+     "end": 36.75
+    },
+    {
+     "text": "INTERRUPTED",
+     "red": false,
+     "norm": "interrupted",
+     "norm_raw": "interrupted",
+     "start": 36.75,
+     "end": 37.11
+    }
+   ]
+  },
+  {
+   "id": "s11",
+   "text": "I talked because talking was fun.",
+   "start": 37.71,
+   "speech_end": 39.26,
+   "end": 39.46,
+   "light": "day",
+   "beats": [
+    {
+     "set": "park",
+     "cam": "push",
+     "tgt": "finn",
+     "acts": {
+      "finn": "laugh"
+     }
+    },
+    {
+     "set": "park",
+     "cam": "counter",
+     "tgt": "finn",
+     "acts": {
+      "finn": "talk"
+     }
+    }
+   ],
+   "words": [
+    {
+     "text": "I",
+     "red": false,
+     "norm": "i",
+     "norm_raw": "i",
+     "start": 37.71,
+     "end": 37.77
+    },
+    {
+     "text": "TALKED",
+     "red": false,
+     "norm": "talked",
+     "norm_raw": "talked",
+     "start": 37.77,
+     "end": 37.99
+    },
+    {
+     "text": "BECAUSE",
+     "red": false,
+     "norm": "because",
+     "norm_raw": "because",
+     "start": 37.99,
+     "end": 38.25
+    },
+    {
+     "text": "TALKING",
+     "red": false,
+     "norm": "talking",
+     "norm_raw": "talking",
+     "start": 38.25,
+     "end": 38.55
+    },
+    {
+     "text": "WAS",
+     "red": false,
+     "norm": "was",
+     "norm_raw": "was",
+     "start": 38.55,
+     "end": 38.81
+    },
+    {
+     "text": "FUN",
+     "red": false,
+     "norm": "fun",
+     "norm_raw": "fun",
+     "start": 38.81,
+     "end": 39.05
+    }
+   ]
+  },
+  {
+   "id": "s12",
+   "text": "Then, on my birthday, my mom looked at my chest and her face went white. Three hundred words left.",
+   "start": 39.46,
+   "speech_end": 44.14,
+   "end": 44.34,
+   "light": "day",
+   "beats": [
+    {
+     "set": "kitchen",
+     "cam": "wide",
+     "tgt": "cake"
+    },
+    {
+     "set": "kitchen",
+     "cam": "ots",
+     "tgt": "mom",
+     "over": "finn"
+    },
+    {
+     "set": "kitchen",
+     "cam": "ecu",
+     "tgt": "mom",
+     "faces": {
+      "mom": "shocked"
+     }
+    },
+    {
+     "set": "kitchen",
+     "cam": "counter",
+     "tgt": "finn"
+    },
+    {
+     "card": "left"
+    },
+    {
+     "set": "kitchen",
+     "cam": "cu",
+     "tgt": "finn",
+     "faces": {
+      "finn": "scared"
+     }
+    }
+   ],
+   "words": [
+    {
+     "text": "THEN",
+     "red": false,
+     "norm": "then",
+     "norm_raw": "then",
+     "start": 39.46,
+     "end": 39.62
+    },
+    {
+     "text": "ON",
+     "red": false,
+     "norm": "on",
+     "norm_raw": "on",
+     "start": 39.8,
+     "end": 39.94
+    },
+    {
+     "text": "MY",
+     "red": false,
+     "norm": "my",
+     "norm_raw": "my",
+     "start": 39.94,
+     "end": 40.08
+    },
+    {
+     "text": "BIRTHDAY",
+     "red": false,
+     "norm": "birthday",
+     "norm_raw": "birthday",
+     "start": 40.08,
+     "end": 40.68
+    },
+    {
+     "text": "MY",
+     "red": false,
+     "norm": "my",
+     "norm_raw": "my",
+     "start": 40.68,
+     "end": 40.74
+    },
+    {
+     "text": "MOM",
+     "red": false,
+     "norm": "mom",
+     "norm_raw": "mom",
+     "start": 40.74,
+     "end": 40.98
+    },
+    {
+     "text": "LOOKED",
+     "red": false,
+     "norm": "looked",
+     "norm_raw": "looked",
+     "start": 40.98,
+     "end": 41.2
+    },
+    {
+     "text": "AT",
+     "red": false,
+     "norm": "at",
+     "norm_raw": "at",
+     "start": 41.2,
+     "end": 41.36
+    },
+    {
+     "text": "MY",
+     "red": false,
+     "norm": "my",
+     "norm_raw": "my",
+     "start": 41.36,
+     "end": 41.48
+    },
+    {
+     "text": "CHEST",
+     "red": false,
+     "norm": "chest",
+     "norm_raw": "chest",
+     "start": 41.48,
+     "end": 41.78
+    },
+    {
+     "text": "AND",
+     "red": false,
+     "norm": "and",
+     "norm_raw": "and",
+     "start": 41.78,
+     "end": 42.02
+    },
+    {
+     "text": "HER",
+     "red": false,
+     "norm": "her",
+     "norm_raw": "her",
+     "start": 42.02,
+     "end": 42.14
+    },
+    {
+     "text": "FACE",
+     "red": false,
+     "norm": "face",
+     "norm_raw": "face",
+     "start": 42.14,
+     "end": 42.36
+    },
+    {
+     "text": "WENT",
+     "red": false,
+     "norm": "went",
+     "norm_raw": "went",
+     "start": 42.36,
+     "end": 42.6
+    },
+    {
+     "text": "WHITE",
+     "red": false,
+     "norm": "white",
+     "norm_raw": "white",
+     "start": 42.6,
+     "end": 42.86
+    },
+    {
+     "text": "THREE",
+     "red": false,
+     "norm": "three",
+     "norm_raw": "three",
+     "start": 42.86,
+     "end": 43.01
+    },
+    {
+     "text": "HUNDRED",
+     "red": false,
+     "norm": "hundred",
+     "norm_raw": "hundred",
+     "start": 43.01,
+     "end": 43.22
+    },
+    {
+     "text": "WORDS",
+     "red": false,
+     "norm": "words",
+     "norm_raw": "words",
+     "start": 43.22,
+     "end": 43.7
+    },
+    {
+     "text": "LEFT",
+     "red": false,
+     "norm": "left",
+     "norm_raw": "left",
+     "start": 43.7,
+     "end": 43.98
+    }
+   ]
+  },
+  {
+   "id": "s13",
+   "text": "She grabbed my shoulders and used four of her own words just to say, \"Finn. Stop.\"",
+   "start": 44.34,
+   "speech_end": 48.64,
+   "end": 48.84,
+   "light": "day",
+   "beats": [
+    {
+     "set": "kitchen",
+     "cam": "mcu",
+     "tgt": "mom",
+     "acts": {
+      "mom": "hug"
+     },
+     "faces": {
+      "mom": "scared"
+     }
+    },
+    {
+     "set": "kitchen",
+     "cam": "counter",
+     "tgt": "mom",
+     "acts": {
+      "mom": "talk"
+     }
+    },
+    {
+     "set": "kitchen",
+     "cam": "ecu",
+     "tgt": "mom",
+     "acts": {
+      "mom": "talk"
+     },
+     "faces": {
+      "mom": "scared"
+     }
+    },
+    {
+     "set": "kitchen",
+     "cam": "cu",
+     "tgt": "finn",
+     "faces": {
+      "finn": "shocked"
+     }
+    }
+   ],
+   "words": [
+    {
+     "text": "SHE",
+     "red": false,
+     "norm": "she",
+     "norm_raw": "she",
+     "start": 44.34,
+     "end": 44.46
+    },
+    {
+     "text": "GRABBED",
+     "red": false,
+     "norm": "grabbed",
+     "norm_raw": "grabbed",
+     "start": 44.46,
+     "end": 44.6
+    },
+    {
+     "text": "MY",
+     "red": false,
+     "norm": "my",
+     "norm_raw": "my",
+     "start": 44.6,
+     "end": 44.86
+    },
+    {
+     "text": "SHOULDERS",
+     "red": false,
+     "norm": "shoulders",
+     "norm_raw": "shoulders",
+     "start": 44.86,
+     "end": 45.22
+    },
+    {
+     "text": "AND",
+     "red": false,
+     "norm": "and",
+     "norm_raw": "and",
+     "start": 45.22,
+     "end": 45.54
+    },
+    {
+     "text": "USED",
+     "red": false,
+     "norm": "used",
+     "norm_raw": "used",
+     "start": 45.54,
+     "end": 45.74
+    },
+    {
+     "text": "FOUR",
+     "red": false,
+     "norm": "four",
+     "norm_raw": "four",
+     "start": 45.74,
+     "end": 46.06
+    },
+    {
+     "text": "OF",
+     "red": false,
+     "norm": "of",
+     "norm_raw": "of",
+     "start": 46.06,
+     "end": 46.26
+    },
+    {
+     "text": "HER",
+     "red": false,
+     "norm": "her",
+     "norm_raw": "her",
+     "start": 46.26,
+     "end": 46.42
+    },
+    {
+     "text": "OWN",
+     "red": false,
+     "norm": "own",
+     "norm_raw": "own",
+     "start": 46.42,
+     "end": 46.62
+    },
+    {
+     "text": "WORDS",
+     "red": false,
+     "norm": "words",
+     "norm_raw": "words",
+     "start": 46.62,
+     "end": 46.86
+    },
+    {
+     "text": "JUST",
+     "red": false,
+     "norm": "just",
+     "norm_raw": "just",
+     "start": 46.86,
+     "end": 47.18
+    },
+    {
+     "text": "TO",
+     "red": false,
+     "norm": "to",
+     "norm_raw": "to",
+     "start": 47.18,
+     "end": 47.38
+    },
+    {
+     "text": "SAY",
+     "red": false,
+     "norm": "say",
+     "norm_raw": "say",
+     "start": 47.38,
+     "end": 47.56
+    },
+    {
+     "text": "FINN",
+     "red": false,
+     "norm": "finn",
+     "norm_raw": "finn",
+     "start": 47.88,
+     "end": 48.04
+    },
+    {
+     "text": "STOP",
+     "red": false,
+     "norm": "stop",
+     "norm_raw": "stop",
+     "start": 48.04,
+     "end": 48.64
+    }
+   ]
+  },
+  {
+   "id": "s14",
+   "text": "So I stopped talking. I carried a whiteboard everywhere. Kids called me Whiteboard Boy.",
+   "start": 48.84,
+   "speech_end": 53.37,
+   "end": 53.57,
+   "light": "day",
+   "beats": [
+    {
+     "set": "board_walk",
+     "cam": "track",
+     "tgt": "finn"
+    },
+    {
+     "set": "board_walk",
+     "cam": "prop",
+     "tgt": "finn_held_whiteboard"
+    },
+    {
+     "set": "board_walk",
+     "cam": "ots",
+     "tgt": "kid1",
+     "over": "finn"
+    },
+    {
+     "set": "board_walk",
+     "cam": "cu",
+     "tgt": "kid2"
+    }
+   ],
+   "words": [
+    {
+     "text": "SO",
+     "red": false,
+     "norm": "so",
+     "norm_raw": "so",
+     "start": 48.84,
+     "end": 49.0
+    },
+    {
+     "text": "I",
+     "red": false,
+     "norm": "i",
+     "norm_raw": "i",
+     "start": 49.0,
+     "end": 49.22
+    },
+    {
+     "text": "STOPPED",
+     "red": false,
+     "norm": "stopped",
+     "norm_raw": "stopped",
+     "start": 49.22,
+     "end": 49.46
+    },
+    {
+     "text": "TALKING",
+     "red": false,
+     "norm": "talking",
+     "norm_raw": "talking",
+     "start": 49.46,
+     "end": 49.94
+    },
+    {
+     "text": "I",
+     "red": false,
+     "norm": "i",
+     "norm_raw": "i",
+     "start": 50.16,
+     "end": 50.21
+    },
+    {
+     "text": "CARRIED",
+     "red": false,
+     "norm": "carried",
+     "norm_raw": "carried",
+     "start": 50.2,
+     "end": 50.46
+    },
+    {
+     "text": "A",
+     "red": false,
+     "norm": "a",
+     "norm_raw": "a",
+     "start": 50.46,
+     "end": 50.6
+    },
+    {
+     "text": "WHITEBOARD",
+     "red": false,
+     "norm": "whiteboard",
+     "norm_raw": "whiteboard",
+     "start": 50.6,
+     "end": 50.96
+    },
+    {
+     "text": "EVERYWHERE",
+     "red": false,
+     "norm": "everywhere",
+     "norm_raw": "everywhere",
+     "start": 50.96,
+     "end": 51.46
+    },
+    {
+     "text": "KIDS",
+     "red": false,
+     "norm": "kids",
+     "norm_raw": "kids",
+     "start": 51.66,
+     "end": 51.74
+    },
+    {
+     "text": "CALLED",
+     "red": false,
+     "norm": "called",
+     "norm_raw": "called",
+     "start": 51.74,
+     "end": 52.06
+    },
+    {
+     "text": "ME",
+     "red": false,
+     "norm": "me",
+     "norm_raw": "me",
+     "start": 52.06,
+     "end": 52.38
+    },
+    {
+     "text": "WHITEBOARD",
+     "red": false,
+     "norm": "whiteboard",
+     "norm_raw": "whiteboard",
+     "start": 52.38,
+     "end": 52.9
+    },
+    {
+     "text": "BOY",
+     "red": false,
+     "norm": "boy",
+     "norm_raw": "boy",
+     "start": 52.9,
+     "end": 53.14
+    }
+   ]
+  },
+  {
+   "id": "s15",
+   "text": "At recess, everybody whispered and signed and gossiped with their eyebrows, and I sat there, saving my three hundred words for something that mattered.",
+   "start": 53.57,
+   "speech_end": 60.97,
+   "end": 61.17,
+   "light": "day",
+   "beats": [
+    {
+     "set": "recess",
+     "cam": "high",
+     "tgt": "pt:-42,6,0"
+    },
+    {
+     "set": "recess",
+     "cam": "cu",
+     "tgt": "kid1",
+     "faces": {
+      "kid1": "grumpy"
+     }
+    },
+    {
+     "set": "recess",
+     "cam": "hands",
+     "tgt": "kid2"
+    },
+    {
+     "set": "recess",
+     "cam": "ecu",
+     "tgt": "kid3",
+     "faces": {
+      "kid3": "grumpy"
+     }
+    },
+    {
+     "set": "recess",
+     "cam": "pull",
+     "tgt": "finn"
+    },
+    {
+     "set": "recess",
+     "cam": "mcu",
+     "tgt": "finn",
+     "faces": {
+      "finn": "tired"
+     }
+    },
+    {
+     "set": "recess",
+     "cam": "counter",
+     "tgt": "finn"
+    }
+   ],
+   "words": [
+    {
+     "text": "AT",
+     "red": false,
+     "norm": "at",
+     "norm_raw": "at",
+     "start": 53.57,
+     "end": 53.65
+    },
+    {
+     "text": "RECESS",
+     "red": false,
+     "norm": "recess",
+     "norm_raw": "recess",
+     "start": 53.65,
+     "end": 53.95
+    },
+    {
+     "text": "EVERYBODY",
+     "red": false,
+     "norm": "everybody",
+     "norm_raw": "everybody",
+     "start": 54.33,
+     "end": 54.57
+    },
+    {
+     "text": "WHISPERED",
+     "red": false,
+     "norm": "whispered",
+     "norm_raw": "whispered",
+     "start": 54.57,
+     "end": 55.03
+    },
+    {
+     "text": "AND",
+     "red": false,
+     "norm": "and",
+     "norm_raw": "and",
+     "start": 55.03,
+     "end": 55.39
+    },
+    {
+     "text": "SIGNED",
+     "red": false,
+     "norm": "signed",
+     "norm_raw": "signed",
+     "start": 55.39,
+     "end": 55.69
+    },
+    {
+     "text": "AND",
+     "red": false,
+     "norm": "and",
+     "norm_raw": "and",
+     "start": 55.69,
+     "end": 55.93
+    },
+    {
+     "text": "GOSSIPED",
+     "red": false,
+     "norm": "gossiped",
+     "norm_raw": "gossiped",
+     "start": 55.93,
+     "end": 56.51
+    },
+    {
+     "text": "WITH",
+     "red": false,
+     "norm": "with",
+     "norm_raw": "with",
+     "start": 56.51,
+     "end": 56.59
+    },
+    {
+     "text": "THEIR",
+     "red": false,
+     "norm": "their",
+     "norm_raw": "their",
+     "start": 56.59,
+     "end": 56.75
+    },
+    {
+     "text": "EYEBROWS",
+     "red": false,
+     "norm": "eyebrows",
+     "norm_raw": "eyebrows",
+     "start": 56.75,
+     "end": 57.11
+    },
+    {
+     "text": "AND",
+     "red": false,
+     "norm": "and",
+     "norm_raw": "and",
+     "start": 57.61,
+     "end": 57.69
+    },
+    {
+     "text": "I",
+     "red": false,
+     "norm": "i",
+     "norm_raw": "i",
+     "start": 57.69,
+     "end": 57.79
+    },
+    {
+     "text": "SAT",
+     "red": false,
+     "norm": "sat",
+     "norm_raw": "sat",
+     "start": 57.79,
+     "end": 57.99
+    },
+    {
+     "text": "THERE",
+     "red": false,
+     "norm": "there",
+     "norm_raw": "there",
+     "start": 57.99,
+     "end": 58.33
+    },
+    {
+     "text": "SAVING",
+     "red": false,
+     "norm": "saving",
+     "norm_raw": "saving",
+     "start": 58.55,
+     "end": 58.73
+    },
+    {
+     "text": "MY",
+     "red": false,
+     "norm": "my",
+     "norm_raw": "my",
+     "start": 58.73,
+     "end": 58.95
+    },
+    {
+     "text": "THREE",
+     "red": false,
+     "norm": "three",
+     "norm_raw": "three",
+     "start": 58.95,
+     "end": 59.075
+    },
+    {
+     "text": "HUNDRED",
+     "red": false,
+     "norm": "hundred",
+     "norm_raw": "hundred",
+     "start": 59.075,
+     "end": 59.25
+    },
+    {
+     "text": "WORDS",
+     "red": false,
+     "norm": "words",
+     "norm_raw": "words",
+     "start": 59.25,
+     "end": 59.73
+    },
+    {
+     "text": "FOR",
+     "red": false,
+     "norm": "for",
+     "norm_raw": "for",
+     "start": 59.73,
+     "end": 60.03
+    },
+    {
+     "text": "SOMETHING",
+     "red": false,
+     "norm": "something",
+     "norm_raw": "something",
+     "start": 60.03,
+     "end": 60.31
+    },
+    {
+     "text": "THAT",
+     "red": false,
+     "norm": "that",
+     "norm_raw": "that",
+     "start": 60.31,
+     "end": 60.59
+    },
+    {
+     "text": "MATTERED",
+     "red": false,
+     "norm": "mattered",
+     "norm_raw": "mattered",
+     "start": 60.59,
+     "end": 60.85
+    }
+   ]
+  },
+  {
+   "id": "s16",
+   "text": "The only thing I did for fun was hum. Quietly. In the shower. In my closet. Under my blanket.",
+   "start": 61.17,
+   "speech_end": 65.83,
+   "end": 66.03,
+   "light": "day",
+   "beats": [
+    {
+     "set": "shower",
+     "cam": "cu",
+     "tgt": "finn",
+     "acts": {
+      "finn": "sing"
+     }
+    },
+    {
+     "set": "shower",
+     "cam": "high",
+     "tgt": "finn",
+     "acts": {
+      "finn": "sing"
+     }
+    },
+    {
+     "set": "closet",
+     "cam": "mcu",
+     "tgt": "finn",
+     "acts": {
+      "finn": "sing"
+     }
+    },
+    {
+     "set": "blanket",
+     "cam": "push",
+     "tgt": "finn",
+     "acts": {
+      "finn": "sing"
+     }
+    },
+    {
+     "set": "blanket",
+     "cam": "ecu",
+     "tgt": "finn",
+     "acts": {
+      "finn": "sing"
+     }
+    }
+   ],
+   "words": [
+    {
+     "text": "THE",
+     "red": false,
+     "norm": "the",
+     "norm_raw": "the",
+     "start": 61.17,
+     "end": 61.23
+    },
+    {
+     "text": "ONLY",
+     "red": false,
+     "norm": "only",
+     "norm_raw": "only",
+     "start": 61.23,
+     "end": 61.41
+    },
+    {
+     "text": "THING",
+     "red": false,
+     "norm": "thing",
+     "norm_raw": "thing",
+     "start": 61.41,
+     "end": 61.63
+    },
+    {
+     "text": "I",
+     "red": false,
+     "norm": "i",
+     "norm_raw": "i",
+     "start": 61.63,
+     "end": 61.79
+    },
+    {
+     "text": "DID",
+     "red": false,
+     "norm": "did",
+     "norm_raw": "did",
+     "start": 61.79,
+     "end": 61.97
+    },
+    {
+     "text": "FOR",
+     "red": false,
+     "norm": "for",
+     "norm_raw": "for",
+     "start": 61.97,
+     "end": 62.19
+    },
+    {
+     "text": "FUN",
+     "red": false,
+     "norm": "fun",
+     "norm_raw": "fun",
+     "start": 62.19,
+     "end": 62.41
+    },
+    {
+     "text": "WAS",
+     "red": false,
+     "norm": "was",
+     "norm_raw": "was",
+     "start": 62.41,
+     "end": 62.61
+    },
+    {
+     "text": "HUM",
+     "red": false,
+     "norm": "hum",
+     "norm_raw": "hum",
+     "start": 62.61,
+     "end": 62.83
+    },
+    {
+     "text": "QUIETLY",
+     "red": false,
+     "norm": "quietly",
+     "norm_raw": "quietly",
+     "start": 62.99,
+     "end": 63.25
+    },
+    {
+     "text": "IN",
+     "red": false,
+     "norm": "in",
+     "norm_raw": "in",
+     "start": 63.53,
+     "end": 63.61
+    },
+    {
+     "text": "THE",
+     "red": false,
+     "norm": "the",
+     "norm_raw": "the",
+     "start": 63.61,
+     "end": 63.71
+    },
+    {
+     "text": "SHOWER",
+     "red": false,
+     "norm": "shower",
+     "norm_raw": "shower",
+     "start": 63.71,
+     "end": 64.01
+    },
+    {
+     "text": "IN",
+     "red": false,
+     "norm": "in",
+     "norm_raw": "in",
+     "start": 64.19,
+     "end": 64.24
+    },
+    {
+     "text": "MY",
+     "red": false,
+     "norm": "my",
+     "norm_raw": "my",
+     "start": 64.23,
+     "end": 64.35
+    },
+    {
+     "text": "CLOSET",
+     "red": false,
+     "norm": "closet",
+     "norm_raw": "closet",
+     "start": 64.35,
+     "end": 64.71
+    },
+    {
+     "text": "UNDER",
+     "red": false,
+     "norm": "under",
+     "norm_raw": "under",
+     "start": 64.91,
+     "end": 65.07
+    },
+    {
+     "text": "MY",
+     "red": false,
+     "norm": "my",
+     "norm_raw": "my",
+     "start": 65.07,
+     "end": 65.27
+    },
+    {
+     "text": "BLANKET",
+     "red": false,
+     "norm": "blanket",
+     "norm_raw": "blanket",
+     "start": 65.27,
+     "end": 65.53
+    }
+   ]
+  },
+  {
+   "id": "s17",
+   "text": "And the counter never moved. I thought that was strange. I didn't think about why.",
+   "start": 66.03,
+   "speech_end": 69.46,
+   "end": 69.66,
+   "light": "day",
+   "beats": [
+    {
+     "set": "blanket",
+     "cam": "counter",
+     "tgt": "finn",
+     "acts": {
+      "finn": "sing"
+     }
+    },
+    {
+     "set": "shower",
+     "cam": "counter",
+     "tgt": "finn",
+     "acts": {
+      "finn": "sing"
+     }
+    },
+    {
+     "set": "closet",
+     "cam": "cu",
+     "tgt": "finn",
+     "faces": {
+      "finn": "tired"
+     }
+    },
+    {
+     "set": "blanket",
+     "cam": "dutch",
+     "tgt": "finn",
+     "faces": {
+      "finn": "blank"
+     }
+    }
+   ],
+   "words": [
+    {
+     "text": "AND",
+     "red": false,
+     "norm": "and",
+     "norm_raw": "and",
+     "start": 66.03,
+     "end": 66.09
+    },
+    {
+     "text": "THE",
+     "red": false,
+     "norm": "the",
+     "norm_raw": "the",
+     "start": 66.09,
+     "end": 66.15
+    },
+    {
+     "text": "COUNTER",
+     "red": false,
+     "norm": "counter",
+     "norm_raw": "counter",
+     "start": 66.15,
+     "end": 66.39
+    },
+    {
+     "text": "NEVER",
+     "red": false,
+     "norm": "never",
+     "norm_raw": "never",
+     "start": 66.39,
+     "end": 66.71
+    },
+    {
+     "text": "MOVED",
+     "red": false,
+     "norm": "moved",
+     "norm_raw": "moved",
+     "start": 66.71,
+     "end": 67.09
+    },
+    {
+     "text": "I",
+     "red": false,
+     "norm": "i",
+     "norm_raw": "i",
+     "start": 67.25,
+     "end": 67.3
+    },
+    {
+     "text": "THOUGHT",
+     "red": false,
+     "norm": "thought",
+     "norm_raw": "thought",
+     "start": 67.29,
+     "end": 67.53
+    },
+    {
+     "text": "THAT",
+     "red": false,
+     "norm": "that",
+     "norm_raw": "that",
+     "start": 67.53,
+     "end": 67.69
+    },
+    {
+     "text": "WAS",
+     "red": false,
+     "norm": "was",
+     "norm_raw": "was",
+     "start": 67.69,
+     "end": 67.81
+    },
+    {
+     "text": "STRANGE",
+     "red": false,
+     "norm": "strange",
+     "norm_raw": "strange",
+     "start": 67.81,
+     "end": 68.11
+    },
+    {
+     "text": "I",
+     "red": false,
+     "norm": "i",
+     "norm_raw": "i",
+     "start": 68.43,
+     "end": 68.49
+    },
+    {
+     "text": "DIDN'T",
+     "red": false,
+     "norm": "didnt",
+     "norm_raw": "didn't",
+     "start": 68.49,
+     "end": 68.71
+    },
+    {
+     "text": "THINK",
+     "red": false,
+     "norm": "think",
+     "norm_raw": "think",
+     "start": 68.71,
+     "end": 68.83
+    },
+    {
+     "text": "ABOUT",
+     "red": false,
+     "norm": "about",
+     "norm_raw": "about",
+     "start": 68.83,
+     "end": 69.05
+    },
+    {
+     "text": "WHY",
+     "red": false,
+     "norm": "why",
+     "norm_raw": "why",
+     "start": 69.05,
+     "end": 69.29
+    }
+   ]
+  },
+  {
+   "id": "s18",
+   "text": "Then one afternoon, Mom took me and my baby brother Pip to the lake.",
+   "start": 69.66,
+   "speech_end": 73.1,
+   "end": 73.3,
+   "light": "day",
+   "beats": [
+    {
+     "set": "lake_walk",
+     "cam": "chase",
+     "tgt": "mom"
+    },
+    {
+     "set": "lake_walk",
+     "cam": "track",
+     "tgt": "finn"
+    },
+    {
+     "set": "lake",
+     "cam": "drone",
+     "tgt": "pt:-20,-58,0",
+     "radius": 44
+    },
+    {
+     "set": "lake",
+     "cam": "push",
+     "tgt": "rowboat"
+    }
+   ],
+   "words": [
+    {
+     "text": "THEN",
+     "red": false,
+     "norm": "then",
+     "norm_raw": "then",
+     "start": 69.66,
+     "end": 69.76
+    },
+    {
+     "text": "ONE",
+     "red": false,
+     "norm": "one",
+     "norm_raw": "one",
+     "start": 69.76,
+     "end": 69.92
+    },
+    {
+     "text": "AFTERNOON",
+     "red": false,
+     "norm": "afternoon",
+     "norm_raw": "afternoon",
+     "start": 69.92,
+     "end": 70.34
+    },
+    {
+     "text": "MOM",
+     "red": false,
+     "norm": "mom",
+     "norm_raw": "mom",
+     "start": 70.8,
+     "end": 70.96
+    },
+    {
+     "text": "TOOK",
+     "red": false,
+     "norm": "took",
+     "norm_raw": "took",
+     "start": 70.96,
+     "end": 71.24
+    },
+    {
+     "text": "ME",
+     "red": false,
+     "norm": "me",
+     "norm_raw": "me",
+     "start": 71.24,
+     "end": 71.46
+    },
+    {
+     "text": "AND",
+     "red": false,
+     "norm": "and",
+     "norm_raw": "and",
+     "start": 71.46,
+     "end": 71.62
+    },
+    {
+     "text": "MY",
+     "red": false,
+     "norm": "my",
+     "norm_raw": "my",
+     "start": 71.62,
+     "end": 71.76
+    },
+    {
+     "text": "BABY",
+     "red": false,
+     "norm": "baby",
+     "norm_raw": "baby",
+     "start": 71.76,
+     "end": 72.0
+    },
+    {
+     "text": "BROTHER",
+     "red": false,
+     "norm": "brother",
+     "norm_raw": "brother",
+     "start": 72.0,
+     "end": 72.26
+    },
+    {
+     "text": "PIP",
+     "red": false,
+     "norm": "pip",
+     "norm_raw": "pip",
+     "start": 72.26,
+     "end": 72.66
+    },
+    {
+     "text": "TO",
+     "red": false,
+     "norm": "to",
+     "norm_raw": "to",
+     "start": 72.66,
+     "end": 72.74
+    },
+    {
+     "text": "THE",
+     "red": false,
+     "norm": "the",
+     "norm_raw": "the",
+     "start": 72.74,
+     "end": 72.82
+    },
+    {
+     "text": "LAKE",
+     "red": false,
+     "norm": "lake",
+     "norm_raw": "lake",
+     "start": 72.82,
+     "end": 72.98
+    }
+   ]
+  },
+  {
+   "id": "s19",
+   "text": "Pip was giggling at the ducks, in a little rowboat tied to the dock.",
+   "start": 73.3,
+   "speech_end": 76.18,
+   "end": 76.38,
+   "light": "day",
+   "beats": [
+    {
+     "set": "lake",
+     "cam": "cu",
+     "tgt": "pip",
+     "acts": {
+      "pip": "laugh"
+     }
+    },
+    {
+     "set": "lake",
+     "cam": "prop",
+     "tgt": "duck_tgt"
+    },
+    {
+     "set": "lake",
+     "cam": "wide",
+     "tgt": "pip"
+    },
+    {
+     "set": "lake",
+     "cam": "prop",
+     "tgt": "rope"
+    }
+   ],
+   "words": [
+    {
+     "text": "PIP",
+     "red": false,
+     "norm": "pip",
+     "norm_raw": "pip",
+     "start": 73.3,
+     "end": 73.4
+    },
+    {
+     "text": "WAS",
+     "red": false,
+     "norm": "was",
+     "norm_raw": "was",
+     "start": 73.4,
+     "end": 73.54
+    },
+    {
+     "text": "GIGGLING",
+     "red": false,
+     "norm": "giggling",
+     "norm_raw": "giggling",
+     "start": 73.54,
+     "end": 73.88
+    },
+    {
+     "text": "AT",
+     "red": false,
+     "norm": "at",
+     "norm_raw": "at",
+     "start": 73.88,
+     "end": 74.04
+    },
+    {
+     "text": "THE",
+     "red": false,
+     "norm": "the",
+     "norm_raw": "the",
+     "start": 74.04,
+     "end": 74.12
+    },
+    {
+     "text": "DUCKS",
+     "red": false,
+     "norm": "ducks",
+     "norm_raw": "ducks",
+     "start": 74.12,
+     "end": 74.34
+    },
+    {
+     "text": "IN",
+     "red": false,
+     "norm": "in",
+     "norm_raw": "in",
+     "start": 74.34,
+     "end": 74.78
+    },
+    {
+     "text": "A",
+     "red": false,
+     "norm": "a",
+     "norm_raw": "a",
+     "start": 74.78,
+     "end": 74.86
+    },
+    {
+     "text": "LITTLE",
+     "red": false,
+     "norm": "little",
+     "norm_raw": "little",
+     "start": 74.86,
+     "end": 75.0
+    },
+    {
+     "text": "ROWBOAT",
+     "red": false,
+     "norm": "rowboat",
+     "norm_raw": "rowboat",
+     "start": 75.0,
+     "end": 75.24
+    },
+    {
+     "text": "TIED",
+     "red": false,
+     "norm": "tied",
+     "norm_raw": "tied",
+     "start": 75.24,
+     "end": 75.58
+    },
+    {
+     "text": "TO",
+     "red": false,
+     "norm": "to",
+     "norm_raw": "to",
+     "start": 75.58,
+     "end": 75.8
+    },
+    {
+     "text": "THE",
+     "red": false,
+     "norm": "the",
+     "norm_raw": "the",
+     "start": 75.8,
+     "end": 75.86
+    },
+    {
+     "text": "DOCK",
+     "red": false,
+     "norm": "dock",
+     "norm_raw": "dock",
+     "start": 75.86,
+     "end": 76.02
+    }
+   ]
+  },
+  {
+   "id": "s20",
+   "text": "Mom turned around for one second to pay for ice cream. By pointing.",
+   "start": 76.38,
+   "speech_end": 79.65,
+   "end": 79.85,
+   "light": "day",
+   "beats": [
+    {
+     "set": "icecream",
+     "cam": "ots",
+     "tgt": "vendor",
+     "over": "mom"
+    },
+    {
+     "set": "icecream",
+     "cam": "cu",
+     "tgt": "mom",
+     "acts": {
+      "mom": "point"
+     }
+    },
+    {
+     "set": "icecream",
+     "cam": "hands",
+     "tgt": "mom",
+     "acts": {
+      "mom": "point"
+     }
+    },
+    {
+     "set": "icecream",
+     "cam": "cu",
+     "tgt": "vendor",
+     "acts": {
+      "vendor": "nod"
+     }
+    }
+   ],
+   "words": [
+    {
+     "text": "MOM",
+     "red": false,
+     "norm": "mom",
+     "norm_raw": "mom",
+     "start": 76.38,
+     "end": 76.52
+    },
+    {
+     "text": "TURNED",
+     "red": false,
+     "norm": "turned",
+     "norm_raw": "turned",
+     "start": 76.52,
+     "end": 76.74
+    },
+    {
+     "text": "AROUND",
+     "red": false,
+     "norm": "around",
+     "norm_raw": "around",
+     "start": 76.74,
+     "end": 77.04
+    },
+    {
+     "text": "FOR",
+     "red": false,
+     "norm": "for",
+     "norm_raw": "for",
+     "start": 77.04,
+     "end": 77.26
+    },
+    {
+     "text": "ONE",
+     "red": false,
+     "norm": "one",
+     "norm_raw": "one",
+     "start": 77.26,
+     "end": 77.42
+    },
+    {
+     "text": "SECOND",
+     "red": false,
+     "norm": "second",
+     "norm_raw": "second",
+     "start": 77.42,
+     "end": 77.76
+    },
+    {
+     "text": "TO",
+     "red": false,
+     "norm": "to",
+     "norm_raw": "to",
+     "start": 77.76,
+     "end": 77.96
+    },
+    {
+     "text": "PAY",
+     "red": false,
+     "norm": "pay",
+     "norm_raw": "pay",
+     "start": 77.96,
+     "end": 78.12
+    },
+    {
+     "text": "FOR",
+     "red": false,
+     "norm": "for",
+     "norm_raw": "for",
+     "start": 78.12,
+     "end": 78.3
+    },
+    {
+     "text": "ICE",
+     "red": false,
+     "norm": "ice",
+     "norm_raw": "ice",
+     "start": 78.3,
+     "end": 78.46
+    },
+    {
+     "text": "CREAM",
+     "red": false,
+     "norm": "cream",
+     "norm_raw": "cream",
+     "start": 78.46,
+     "end": 78.76
+    },
+    {
+     "text": "BY",
+     "red": false,
+     "norm": "by",
+     "norm_raw": "by",
+     "start": 78.94,
+     "end": 79.0
+    },
+    {
+     "text": "POINTING",
+     "red": false,
+     "norm": "pointing",
+     "norm_raw": "pointing",
+     "start": 79.0,
+     "end": 79.62
+    }
+   ]
+  },
+  {
+   "id": "s21",
+   "text": "The rope slipped. The boat started to drift. Faster. And faster. Toward the waterfall.",
+   "start": 79.85,
+   "speech_end": 84.29,
+   "end": 84.49,
+   "light": "day",
+   "beats": [
+    {
+     "set": "lake",
+     "cam": "prop",
+     "tgt": "rope"
+    },
+    {
+     "set": "lake",
+     "cam": "wide",
+     "tgt": "rowboat"
+    },
+    {
+     "set": "lake",
+     "cam": "cu",
+     "tgt": "pip",
+     "faces": {
+      "pip": "shocked"
+     }
+    },
+    {
+     "set": "lake",
+     "cam": "chase",
+     "tgt": "rowboat"
+    },
+    {
+     "set": "lake",
+     "cam": "drone",
+     "tgt": "pt:-18,-66,0",
+     "radius": 30
+    },
+    {
+     "set": "lake",
+     "cam": "push",
+     "tgt": "falls"
+    }
+   ],
+   "words": [
+    {
+     "text": "THE",
+     "red": false,
+     "norm": "the",
+     "norm_raw": "the",
+     "start": 79.85,
+     "end": 79.9
+    },
+    {
+     "text": "ROPE",
+     "red": false,
+     "norm": "rope",
+     "norm_raw": "rope",
+     "start": 79.89,
+     "end": 80.03
+    },
+    {
+     "text": "SLIPPED",
+     "red": false,
+     "norm": "slipped",
+     "norm_raw": "slipped",
+     "start": 80.03,
+     "end": 80.37
+    },
+    {
+     "text": "THE",
+     "red": false,
+     "norm": "the",
+     "norm_raw": "the",
+     "start": 80.67,
+     "end": 80.72
+    },
+    {
+     "text": "BOAT",
+     "red": false,
+     "norm": "boat",
+     "norm_raw": "boat",
+     "start": 80.71,
+     "end": 80.87
+    },
+    {
+     "text": "STARTED",
+     "red": false,
+     "norm": "started",
+     "norm_raw": "started",
+     "start": 80.87,
+     "end": 81.29
+    },
+    {
+     "text": "TO",
+     "red": false,
+     "norm": "to",
+     "norm_raw": "to",
+     "start": 81.29,
+     "end": 81.51
+    },
+    {
+     "text": "DRIFT",
+     "red": false,
+     "norm": "drift",
+     "norm_raw": "drift",
+     "start": 81.51,
+     "end": 81.73
+    },
+    {
+     "text": "FASTER",
+     "red": false,
+     "norm": "faster",
+     "norm_raw": "faster",
+     "start": 81.73,
+     "end": 82.31
+    },
+    {
+     "text": "AND",
+     "red": false,
+     "norm": "and",
+     "norm_raw": "and",
+     "start": 82.31,
+     "end": 82.61
+    },
+    {
+     "text": "FASTER",
+     "red": false,
+     "norm": "faster",
+     "norm_raw": "faster",
+     "start": 82.61,
+     "end": 82.89
+    },
+    {
+     "text": "TOWARD",
+     "red": false,
+     "norm": "toward",
+     "norm_raw": "toward",
+     "start": 82.89,
+     "end": 83.37
+    },
+    {
+     "text": "THE",
+     "red": false,
+     "norm": "the",
+     "norm_raw": "the",
+     "start": 83.37,
+     "end": 83.69
+    },
+    {
+     "text": "WATERFALL",
+     "red": false,
+     "norm": "waterfall",
+     "norm_raw": "waterfall",
+     "start": 83.69,
+     "end": 83.93
+    }
+   ]
+  },
+  {
+   "id": "s22",
+   "text": "Mom ran to the end of the dock, but she only had eleven words left. She couldn't scream.",
+   "start": 84.49,
+   "speech_end": 88.71,
+   "end": 88.91,
+   "light": "day",
+   "beats": [
+    {
+     "set": "dock_run",
+     "cam": "chase",
+     "tgt": "mom"
+    },
+    {
+     "set": "dock_run",
+     "cam": "track",
+     "tgt": "mom"
+    },
+    {
+     "set": "dock",
+     "cam": "mcu",
+     "tgt": "mom",
+     "faces": {
+      "mom": "scared"
+     }
+    },
+    {
+     "set": "dock",
+     "cam": "counter",
+     "tgt": "mom"
+    },
+    {
+     "set": "dock",
+     "cam": "ecu",
+     "tgt": "mom",
+     "faces": {
+      "mom": "scared"
+     }
+    }
+   ],
+   "words": [
+    {
+     "text": "MOM",
+     "red": false,
+     "norm": "mom",
+     "norm_raw": "mom",
+     "start": 84.49,
+     "end": 84.66
+    },
+    {
+     "text": "RAN",
+     "red": false,
+     "norm": "ran",
+     "norm_raw": "ran",
+     "start": 84.66,
+     "end": 84.83
+    },
+    {
+     "text": "TO",
+     "red": false,
+     "norm": "to",
+     "norm_raw": "to",
+     "start": 84.83,
+     "end": 85.03
+    },
+    {
+     "text": "THE",
+     "red": false,
+     "norm": "the",
+     "norm_raw": "the",
+     "start": 85.03,
+     "end": 85.11
+    },
+    {
+     "text": "END",
+     "red": false,
+     "norm": "end",
+     "norm_raw": "end",
+     "start": 85.11,
+     "end": 85.23
+    },
+    {
+     "text": "OF",
+     "red": false,
+     "norm": "of",
+     "norm_raw": "of",
+     "start": 85.23,
+     "end": 85.37
+    },
+    {
+     "text": "THE",
+     "red": false,
+     "norm": "the",
+     "norm_raw": "the",
+     "start": 85.37,
+     "end": 85.49
+    },
+    {
+     "text": "DOCK",
+     "red": false,
+     "norm": "dock",
+     "norm_raw": "dock",
+     "start": 85.49,
+     "end": 85.71
+    },
+    {
+     "text": "BUT",
+     "red": false,
+     "norm": "but",
+     "norm_raw": "but",
+     "start": 85.97,
+     "end": 86.09
+    },
+    {
+     "text": "SHE",
+     "red": false,
+     "norm": "she",
+     "norm_raw": "she",
+     "start": 86.09,
+     "end": 86.25
+    },
+    {
+     "text": "ONLY",
+     "red": false,
+     "norm": "only",
+     "norm_raw": "only",
+     "start": 86.25,
+     "end": 86.41
+    },
+    {
+     "text": "HAD",
+     "red": false,
+     "norm": "had",
+     "norm_raw": "had",
+     "start": 86.41,
+     "end": 86.67
+    },
+    {
+     "text": "ELEVEN",
+     "red": false,
+     "norm": "eleven",
+     "norm_raw": "eleven",
+     "start": 86.67,
+     "end": 86.93
+    },
+    {
+     "text": "WORDS",
+     "red": false,
+     "norm": "words",
+     "norm_raw": "words",
+     "start": 86.93,
+     "end": 87.23
+    },
+    {
+     "text": "LEFT",
+     "red": false,
+     "norm": "left",
+     "norm_raw": "left",
+     "start": 87.23,
+     "end": 87.53
+    },
+    {
+     "text": "SHE",
+     "red": false,
+     "norm": "she",
+     "norm_raw": "she",
+     "start": 87.81,
+     "end": 87.89
+    },
+    {
+     "text": "COULDN'T",
+     "red": false,
+     "norm": "couldnt",
+     "norm_raw": "couldn't",
+     "start": 87.89,
+     "end": 88.19
+    },
+    {
+     "text": "SCREAM",
+     "red": false,
+     "norm": "scream",
+     "norm_raw": "scream",
+     "start": 88.19,
+     "end": 88.45
+    }
+   ]
+  },
+  {
+   "id": "s23",
+   "text": "Everybody on the shore froze. Nobody wanted to waste a word.",
+   "start": 88.91,
+   "speech_end": 92.31,
+   "end": 92.51,
+   "light": "day",
+   "beats": [
+    {
+     "set": "shore",
+     "cam": "wide",
+     "tgt": "t2"
+    },
+    {
+     "set": "shore",
+     "cam": "cu",
+     "tgt": "t4"
+    },
+    {
+     "set": "shore",
+     "cam": "high",
+     "tgt": "pt:-20,-39,0"
+    },
+    {
+     "set": "shore",
+     "cam": "cu",
+     "tgt": "baker"
+    }
+   ],
+   "words": [
+    {
+     "text": "EVERYBODY",
+     "red": false,
+     "norm": "everybody",
+     "norm_raw": "everybody",
+     "start": 88.91,
+     "end": 89.23
+    },
+    {
+     "text": "ON",
+     "red": false,
+     "norm": "on",
+     "norm_raw": "on",
+     "start": 89.23,
+     "end": 89.63
+    },
+    {
+     "text": "THE",
+     "red": false,
+     "norm": "the",
+     "norm_raw": "the",
+     "start": 89.63,
+     "end": 89.75
+    },
+    {
+     "text": "SHORE",
+     "red": false,
+     "norm": "shore",
+     "norm_raw": "shore",
+     "start": 89.75,
+     "end": 89.97
+    },
+    {
+     "text": "FROZE",
+     "red": false,
+     "norm": "froze",
+     "norm_raw": "froze",
+     "start": 89.97,
+     "end": 90.37
+    },
+    {
+     "text": "NOBODY",
+     "red": false,
+     "norm": "nobody",
+     "norm_raw": "nobody",
+     "start": 90.67,
+     "end": 90.87
+    },
+    {
+     "text": "WANTED",
+     "red": false,
+     "norm": "wanted",
+     "norm_raw": "wanted",
+     "start": 90.87,
+     "end": 91.25
+    },
+    {
+     "text": "TO",
+     "red": false,
+     "norm": "to",
+     "norm_raw": "to",
+     "start": 91.25,
+     "end": 91.49
+    },
+    {
+     "text": "WASTE",
+     "red": false,
+     "norm": "waste",
+     "norm_raw": "waste",
+     "start": 91.49,
+     "end": 91.69
+    },
+    {
+     "text": "A",
+     "red": false,
+     "norm": "a",
+     "norm_raw": "a",
+     "start": 91.69,
+     "end": 91.91
+    },
+    {
+     "text": "WORD",
+     "red": false,
+     "norm": "word",
+     "norm_raw": "word",
+     "start": 91.91,
+     "end": 92.13
+    }
+   ]
+  },
+  {
+   "id": "s24",
+   "text": "One man whispered, \"Help.\" His counter flashed red. He closed his mouth and looked away.",
+   "start": 92.51,
+   "speech_end": 96.57,
+   "end": 96.77,
+   "light": "day",
+   "beats": [
+    {
+     "set": "shore",
+     "cam": "cu",
+     "tgt": "man",
+     "acts": {
+      "man": "whisper"
+     }
+    },
+    {
+     "set": "shore",
+     "cam": "counter",
+     "tgt": "man"
+    },
+    {
+     "set": "shore",
+     "cam": "ecu",
+     "tgt": "man",
+     "acts": {
+      "man": "head_turn"
+     },
+     "faces": {
+      "man": "tired"
+     }
+    },
+    {
+     "set": "shore",
+     "cam": "ots",
+     "tgt": "man",
+     "over": "t2"
+    }
+   ],
+   "words": [
+    {
+     "text": "ONE",
+     "red": false,
+     "norm": "one",
+     "norm_raw": "one",
+     "start": 92.51,
+     "end": 92.61
+    },
+    {
+     "text": "MAN",
+     "red": false,
+     "norm": "man",
+     "norm_raw": "man",
+     "start": 92.61,
+     "end": 92.81
+    },
+    {
+     "text": "WHISPERED",
+     "red": false,
+     "norm": "whispered",
+     "norm_raw": "whispered",
+     "start": 92.81,
+     "end": 93.19
+    },
+    {
+     "text": "HELP",
+     "red": false,
+     "norm": "help",
+     "norm_raw": "help",
+     "start": 93.19,
+     "end": 93.533
+    },
+    {
+     "text": "HIS",
+     "red": false,
+     "norm": "his",
+     "norm_raw": "his",
+     "start": 93.533,
+     "end": 93.79
+    },
+    {
+     "text": "COUNTER",
+     "red": false,
+     "norm": "counter",
+     "norm_raw": "counter",
+     "start": 93.79,
+     "end": 94.03
+    },
+    {
+     "text": "FLASHED",
+     "red": false,
+     "norm": "flashed",
+     "norm_raw": "flashed",
+     "start": 94.03,
+     "end": 94.688
+    },
+    {
+     "text": "RED",
+     "red": false,
+     "norm": "red",
+     "norm_raw": "red",
+     "start": 94.688,
+     "end": 94.97
+    },
+    {
+     "text": "HE",
+     "red": false,
+     "norm": "he",
+     "norm_raw": "he",
+     "start": 94.97,
+     "end": 95.02
+    },
+    {
+     "text": "CLOSED",
+     "red": false,
+     "norm": "closed",
+     "norm_raw": "closed",
+     "start": 95.01,
+     "end": 95.23
+    },
+    {
+     "text": "HIS",
+     "red": false,
+     "norm": "his",
+     "norm_raw": "his",
+     "start": 95.23,
+     "end": 95.47
+    },
+    {
+     "text": "MOUTH",
+     "red": false,
+     "norm": "mouth",
+     "norm_raw": "mouth",
+     "start": 95.47,
+     "end": 95.67
+    },
+    {
+     "text": "AND",
+     "red": false,
+     "norm": "and",
+     "norm_raw": "and",
+     "start": 95.67,
+     "end": 95.93
+    },
+    {
+     "text": "LOOKED",
+     "red": false,
+     "norm": "looked",
+     "norm_raw": "looked",
+     "start": 95.93,
+     "end": 96.07
+    },
+    {
+     "text": "AWAY",
+     "red": false,
+     "norm": "away",
+     "norm_raw": "away",
+     "start": 96.07,
+     "end": 96.39
+    }
+   ]
+  },
+  {
+   "id": "s25",
+   "text": "So I dropped my whiteboard. I took a breath. And I yelled, \"PIP! GRAB THE OAR! PADDLE LEFT!\"",
+   "start": 96.77,
+   "speech_end": 101.4,
+   "end": 101.6,
+   "light": "day",
+   "beats": [
+    {
+     "set": "dock",
+     "cam": "hands",
+     "tgt": "finn",
+     "acts": {
+      "finn": "hold"
+     }
+    },
+    {
+     "set": "dock",
+     "cam": "low",
+     "tgt": "finn",
+     "board": "down"
+    },
+    {
+     "set": "dock",
+     "cam": "ecu",
+     "tgt": "finn",
+     "board": "down",
+     "faces": {
+      "finn": "scared"
+     }
+    },
+    {
+     "card": "yell"
+    },
+    {
+     "set": "dock",
+     "cam": "cu",
+     "tgt": "finn",
+     "acts": {
+      "finn": "yell"
+     },
+     "board": "down"
+    },
+    {
+     "set": "dock",
+     "cam": "chase",
+     "tgt": "finn",
+     "acts": {
+      "finn": "yell"
+     },
+     "board": "down"
+    }
+   ],
+   "words": [
+    {
+     "text": "SO",
+     "red": false,
+     "norm": "so",
+     "norm_raw": "so",
+     "start": 96.77,
+     "end": 96.95
+    },
+    {
+     "text": "I",
+     "red": false,
+     "norm": "i",
+     "norm_raw": "i",
+     "start": 97.17,
+     "end": 97.27
+    },
+    {
+     "text": "DROPPED",
+     "red": false,
+     "norm": "dropped",
+     "norm_raw": "dropped",
+     "start": 97.27,
+     "end": 97.49
+    },
+    {
+     "text": "MY",
+     "red": false,
+     "norm": "my",
+     "norm_raw": "my",
+     "start": 97.49,
+     "end": 97.81
+    },
+    {
+     "text": "WHITEBOARD",
+     "red": false,
+     "norm": "whiteboard",
+     "norm_raw": "whiteboard",
+     "start": 97.81,
+     "end": 98.33
+    },
+    {
+     "text": "I",
+     "red": false,
+     "norm": "i",
+     "norm_raw": "i",
+     "start": 98.55,
+     "end": 98.6
+    },
+    {
+     "text": "TOOK",
+     "red": false,
+     "norm": "took",
+     "norm_raw": "took",
+     "start": 98.59,
+     "end": 98.75
+    },
+    {
+     "text": "A",
+     "red": false,
+     "norm": "a",
+     "norm_raw": "a",
+     "start": 98.75,
+     "end": 98.85
+    },
+    {
+     "text": "BREATH",
+     "red": false,
+     "norm": "breath",
+     "norm_raw": "breath",
+     "start": 98.85,
+     "end": 99.09
+    },
+    {
+     "text": "AND",
+     "red": false,
+     "norm": "and",
+     "norm_raw": "and",
+     "start": 99.25,
+     "end": 99.3
+    },
+    {
+     "text": "I",
+     "red": false,
+     "norm": "i",
+     "norm_raw": "i",
+     "start": 99.29,
+     "end": 99.41
+    },
+    {
+     "text": "YELLED",
+     "red": false,
+     "norm": "yelled",
+     "norm_raw": "yelled",
+     "start": 99.41,
+     "end": 99.65
+    },
+    {
+     "text": "PIP",
+     "red": true,
+     "norm": "pip",
+     "norm_raw": "pip",
+     "start": 99.65,
+     "end": 99.881
+    },
+    {
+     "text": "GRAB",
+     "red": true,
+     "norm": "grab",
+     "norm_raw": "grab",
+     "start": 99.881,
+     "end": 100.188
+    },
+    {
+     "text": "THE",
+     "red": true,
+     "norm": "the",
+     "norm_raw": "the",
+     "start": 100.188,
+     "end": 100.418
+    },
+    {
+     "text": "OAR",
+     "red": true,
+     "norm": "oar",
+     "norm_raw": "oar",
+     "start": 100.418,
+     "end": 100.649
+    },
+    {
+     "text": "PADDLE",
+     "red": true,
+     "norm": "paddle",
+     "norm_raw": "paddle",
+     "start": 100.649,
+     "end": 101.11
+    },
+    {
+     "text": "LEFT",
+     "red": true,
+     "norm": "left",
+     "norm_raw": "left",
+     "start": 101.11,
+     "end": 101.27
+    }
+   ]
+  },
+  {
+   "id": "s26",
+   "text": "Three hundred. Two fifty. Two hundred. Every word hit my chest like a punch.",
+   "start": 101.6,
+   "speech_end": 105.79,
+   "end": 105.99,
+   "light": "day",
+   "beats": [
+    {
+     "set": "dock",
+     "cam": "counter",
+     "tgt": "finn",
+     "acts": {
+      "finn": "yell"
+     },
+     "board": "down"
+    },
+    {
+     "set": "dock",
+     "cam": "mcu",
+     "tgt": "finn",
+     "acts": {
+      "finn": "yell"
+     },
+     "board": "down"
+    },
+    {
+     "set": "dock",
+     "cam": "counter",
+     "tgt": "finn",
+     "acts": {
+      "finn": "yell"
+     },
+     "board": "down"
+    },
+    {
+     "set": "dock",
+     "cam": "ecu",
+     "tgt": "finn",
+     "acts": {
+      "finn": "stagger"
+     },
+     "board": "down",
+     "faces": {
+      "finn": "scared"
+     }
+    }
+   ],
+   "words": [
+    {
+     "text": "THREE",
+     "red": false,
+     "norm": "three",
+     "norm_raw": "three",
+     "start": 101.6,
+     "end": 101.947
+    },
+    {
+     "text": "HUNDRED",
+     "red": false,
+     "norm": "hundred",
+     "norm_raw": "hundred",
+     "start": 101.947,
+     "end": 102.432
+    },
+    {
+     "text": "TWO",
+     "red": true,
+     "norm": "two",
+     "norm_raw": "two",
+     "start": 102.432,
+     "end": 102.64
+    },
+    {
+     "text": "FIFTY",
+     "red": true,
+     "norm": "fifty",
+     "norm_raw": "fifty",
+     "start": 102.64,
+     "end": 102.987
+    },
+    {
+     "text": "TWO",
+     "red": true,
+     "norm": "two",
+     "norm_raw": "two",
+     "start": 102.987,
+     "end": 103.195
+    },
+    {
+     "text": "HUNDRED",
+     "red": true,
+     "norm": "hundred",
+     "norm_raw": "hundred",
+     "start": 103.195,
+     "end": 103.68
+    },
+    {
+     "text": "EVERY",
+     "red": false,
+     "norm": "every",
+     "norm_raw": "every",
+     "start": 103.68,
+     "end": 104.12
+    },
+    {
+     "text": "WORD",
+     "red": false,
+     "norm": "word",
+     "norm_raw": "word",
+     "start": 104.12,
+     "end": 104.42
+    },
+    {
+     "text": "HIT",
+     "red": false,
+     "norm": "hit",
+     "norm_raw": "hit",
+     "start": 104.42,
+     "end": 104.6
+    },
+    {
+     "text": "MY",
+     "red": false,
+     "norm": "my",
+     "norm_raw": "my",
+     "start": 104.6,
+     "end": 104.74
+    },
+    {
+     "text": "CHEST",
+     "red": false,
+     "norm": "chest",
+     "norm_raw": "chest",
+     "start": 104.74,
+     "end": 104.96
+    },
+    {
+     "text": "LIKE",
+     "red": false,
+     "norm": "like",
+     "norm_raw": "like",
+     "start": 104.96,
+     "end": 105.2
+    },
+    {
+     "text": "A",
+     "red": false,
+     "norm": "a",
+     "norm_raw": "a",
+     "start": 105.2,
+     "end": 105.32
+    },
+    {
+     "text": "PUNCH",
+     "red": false,
+     "norm": "punch",
+     "norm_raw": "punch",
+     "start": 105.32,
+     "end": 105.52
+    }
+   ]
+  },
+  {
+   "id": "s27",
+   "text": "Pip heard me. He paddled. But the waterfall kept getting closer.",
+   "start": 105.99,
+   "speech_end": 109.05,
+   "end": 109.25,
+   "light": "day",
+   "beats": [
+    {
+     "set": "lake",
+     "cam": "cu",
+     "tgt": "pip",
+     "acts": {
+      "pip": "paddle"
+     }
+    },
+    {
+     "set": "lake",
+     "cam": "chase",
+     "tgt": "rowboat",
+     "acts": {
+      "pip": "paddle"
+     }
+    },
+    {
+     "set": "lake",
+     "cam": "push",
+     "tgt": "falls",
+     "acts": {
+      "pip": "paddle"
+     }
+    },
+    {
+     "set": "lake",
+     "cam": "wide",
+     "tgt": "rowboat",
+     "acts": {
+      "pip": "paddle"
+     }
+    }
+   ],
+   "words": [
+    {
+     "text": "PIP",
+     "red": false,
+     "norm": "pip",
+     "norm_raw": "pip",
+     "start": 105.99,
+     "end": 106.11
+    },
+    {
+     "text": "HEARD",
+     "red": false,
+     "norm": "heard",
+     "norm_raw": "heard",
+     "start": 106.11,
+     "end": 106.31
+    },
+    {
+     "text": "ME",
+     "red": false,
+     "norm": "me",
+     "norm_raw": "me",
+     "start": 106.31,
+     "end": 106.51
+    },
+    {
+     "text": "HE",
+     "red": false,
+     "norm": "he",
+     "norm_raw": "he",
+     "start": 106.67,
+     "end": 106.75
+    },
+    {
+     "text": "PADDLED",
+     "red": false,
+     "norm": "paddled",
+     "norm_raw": "paddled",
+     "start": 106.75,
+     "end": 107.15
+    },
+    {
+     "text": "BUT",
+     "red": false,
+     "norm": "but",
+     "norm_raw": "but",
+     "start": 107.15,
+     "end": 107.29
+    },
+    {
+     "text": "THE",
+     "red": false,
+     "norm": "the",
+     "norm_raw": "the",
+     "start": 107.29,
+     "end": 107.41
+    },
+    {
+     "text": "WATERFALL",
+     "red": false,
+     "norm": "waterfall",
+     "norm_raw": "waterfall",
+     "start": 107.41,
+     "end": 107.61
+    },
+    {
+     "text": "KEPT",
+     "red": false,
+     "norm": "kept",
+     "norm_raw": "kept",
+     "start": 107.61,
+     "end": 108.15
+    },
+    {
+     "text": "GETTING",
+     "red": false,
+     "norm": "getting",
+     "norm_raw": "getting",
+     "start": 108.15,
+     "end": 108.43
+    },
+    {
+     "text": "CLOSER",
+     "red": false,
+     "norm": "closer",
+     "norm_raw": "closer",
+     "start": 108.43,
+     "end": 108.71
+    }
+   ]
+  },
+  {
+   "id": "s28",
+   "text": "One fifty. One hundred. Fifty. Ten. Five. Three. Two. One. ZERO.",
+   "start": 109.25,
+   "speech_end": 112.89,
+   "end": 113.09,
+   "light": "day",
+   "beats": [
+    {
+     "set": "dock",
+     "cam": "counter",
+     "tgt": "finn",
+     "acts": {
+      "finn": "yell"
+     },
+     "board": "down"
+    },
+    {
+     "set": "dock",
+     "cam": "mcu",
+     "tgt": "finn",
+     "acts": {
+      "finn": "yell"
+     },
+     "board": "down"
+    },
+    {
+     "set": "dock",
+     "cam": "counter",
+     "tgt": "finn",
+     "acts": {
+      "finn": "yell"
+     },
+     "board": "down"
+    },
+    {
+     "set": "dock",
+     "cam": "mcu",
+     "tgt": "finn",
+     "acts": {
+      "finn": "yell"
+     },
+     "board": "down"
+    },
+    {
+     "set": "dock",
+     "cam": "counter",
+     "tgt": "finn",
+     "acts": {
+      "finn": "yell"
+     },
+     "board": "down"
+    }
+   ],
+   "words": [
+    {
+     "text": "ONE",
+     "red": true,
+     "norm": "one",
+     "norm_raw": "one",
+     "start": 109.25,
+     "end": 109.493
+    },
+    {
+     "text": "FIFTY",
+     "red": true,
+     "norm": "fifty",
+     "norm_raw": "fifty",
+     "start": 109.493,
+     "end": 109.897
+    },
+    {
+     "text": "ONE",
+     "red": true,
+     "norm": "one",
+     "norm_raw": "one",
+     "start": 109.897,
+     "end": 110.14
+    },
+    {
+     "text": "HUNDRED",
+     "red": true,
+     "norm": "hundred",
+     "norm_raw": "hundred",
+     "start": 110.14,
+     "end": 110.706
+    },
+    {
+     "text": "FIFTY",
+     "red": true,
+     "norm": "fifty",
+     "norm_raw": "fifty",
+     "start": 110.706,
+     "end": 111.11
+    },
+    {
+     "text": "TEN",
+     "red": true,
+     "norm": "ten",
+     "norm_raw": "ten",
+     "start": 111.11,
+     "end": 111.353
+    },
+    {
+     "text": "FIVE",
+     "red": true,
+     "norm": "five",
+     "norm_raw": "five",
+     "start": 111.353,
+     "end": 111.677
+    },
+    {
+     "text": "THREE",
+     "red": true,
+     "norm": "three",
+     "norm_raw": "three",
+     "start": 111.677,
+     "end": 112.081
+    },
+    {
+     "text": "TWO",
+     "red": true,
+     "norm": "two",
+     "norm_raw": "two",
+     "start": 112.081,
+     "end": 112.324
+    },
+    {
+     "text": "ONE",
+     "red": true,
+     "norm": "one",
+     "norm_raw": "one",
+     "start": 112.324,
+     "end": 112.566
+    },
+    {
+     "text": "ZERO",
+     "red": true,
+     "norm": "zero",
+     "norm_raw": "zero",
+     "start": 112.566,
+     "end": 112.89
+    }
+   ]
+  },
+  {
+   "id": "s29",
+   "text": "My throat went cold. Then heavy. My voice turned to solid STONE. I opened my mouth and nothing came out.",
+   "start": 113.09,
+   "speech_end": 118.17,
+   "end": 118.37,
+   "light": "day",
+   "beats": [
+    {
+     "set": "dock",
+     "cam": "ecu",
+     "tgt": "finn",
+     "faces": {
+      "finn": "shocked"
+     },
+     "board": "down"
+    },
+    {
+     "set": "dock",
+     "cam": "counter",
+     "tgt": "finn",
+     "board": "down"
+    },
+    {
+     "set": "dock",
+     "cam": "low",
+     "tgt": "finn",
+     "acts": {
+      "finn": "stagger"
+     },
+     "board": "down",
+     "faces": {
+      "finn": "scared"
+     }
+    },
+    {
+     "set": "dock",
+     "cam": "cu",
+     "tgt": "finn",
+     "faces": {
+      "finn": "shocked"
+     },
+     "board": "down"
+    },
+    {
+     "set": "dock",
+     "cam": "dutch",
+     "tgt": "finn",
+     "faces": {
+      "finn": "blank"
+     },
+     "board": "down"
+    }
+   ],
+   "words": [
+    {
+     "text": "MY",
+     "red": false,
+     "norm": "my",
+     "norm_raw": "my",
+     "start": 113.09,
+     "end": 113.17
+    },
+    {
+     "text": "THROAT",
+     "red": false,
+     "norm": "throat",
+     "norm_raw": "throat",
+     "start": 113.17,
+     "end": 113.35
+    },
+    {
+     "text": "WENT",
+     "red": false,
+     "norm": "went",
+     "norm_raw": "went",
+     "start": 113.35,
+     "end": 113.57
+    },
+    {
+     "text": "COLD",
+     "red": false,
+     "norm": "cold",
+     "norm_raw": "cold",
+     "start": 113.57,
+     "end": 113.87
+    },
+    {
+     "text": "THEN",
+     "red": false,
+     "norm": "then",
+     "norm_raw": "then",
+     "start": 113.87,
+     "end": 114.09
+    },
+    {
+     "text": "HEAVY",
+     "red": false,
+     "norm": "heavy",
+     "norm_raw": "heavy",
+     "start": 114.09,
+     "end": 114.35
+    },
+    {
+     "text": "MY",
+     "red": false,
+     "norm": "my",
+     "norm_raw": "my",
+     "start": 114.53,
+     "end": 114.61
+    },
+    {
+     "text": "VOICE",
+     "red": false,
+     "norm": "voice",
+     "norm_raw": "voice",
+     "start": 114.61,
+     "end": 114.81
+    },
+    {
+     "text": "TURNED",
+     "red": false,
+     "norm": "turned",
+     "norm_raw": "turned",
+     "start": 114.81,
+     "end": 115.13
+    },
+    {
+     "text": "TO",
+     "red": false,
+     "norm": "to",
+     "norm_raw": "to",
+     "start": 115.13,
+     "end": 115.39
+    },
+    {
+     "text": "SOLID",
+     "red": false,
+     "norm": "solid",
+     "norm_raw": "solid",
+     "start": 115.39,
+     "end": 115.61
+    },
+    {
+     "text": "STONE",
+     "red": true,
+     "norm": "stone",
+     "norm_raw": "stone",
+     "start": 115.61,
+     "end": 116.01
+    },
+    {
+     "text": "I",
+     "red": false,
+     "norm": "i",
+     "norm_raw": "i",
+     "start": 116.21,
+     "end": 116.29
+    },
+    {
+     "text": "OPENED",
+     "red": false,
+     "norm": "opened",
+     "norm_raw": "opened",
+     "start": 116.29,
+     "end": 116.49
+    },
+    {
+     "text": "MY",
+     "red": false,
+     "norm": "my",
+     "norm_raw": "my",
+     "start": 116.49,
+     "end": 116.73
+    },
+    {
+     "text": "MOUTH",
+     "red": false,
+     "norm": "mouth",
+     "norm_raw": "mouth",
+     "start": 116.73,
+     "end": 116.97
+    },
+    {
+     "text": "AND",
+     "red": false,
+     "norm": "and",
+     "norm_raw": "and",
+     "start": 116.97,
+     "end": 117.17
+    },
+    {
+     "text": "NOTHING",
+     "red": false,
+     "norm": "nothing",
+     "norm_raw": "nothing",
+     "start": 117.17,
+     "end": 117.41
+    },
+    {
+     "text": "CAME",
+     "red": false,
+     "norm": "came",
+     "norm_raw": "came",
+     "start": 117.41,
+     "end": 117.71
+    },
+    {
+     "text": "OUT",
+     "red": false,
+     "norm": "out",
+     "norm_raw": "out",
+     "start": 117.71,
+     "end": 117.95
+    }
+   ]
+  },
+  {
+   "id": "s30",
+   "text": "The boat was thirty feet from the edge. Pip was crying. I couldn't scream. I couldn't warn anyone.",
+   "start": 118.37,
+   "speech_end": 122.64,
+   "end": 122.84,
+   "light": "day",
+   "beats": [
+    {
+     "set": "lake",
+     "cam": "wide",
+     "tgt": "rowboat",
+     "acts": {
+      "pip": "cry"
+     }
+    },
+    {
+     "set": "lake",
+     "cam": "cu",
+     "tgt": "pip",
+     "acts": {
+      "pip": "cry"
+     }
+    },
+    {
+     "set": "lake",
+     "cam": "push",
+     "tgt": "falls",
+     "acts": {
+      "pip": "cry"
+     }
+    },
+    {
+     "set": "dock",
+     "cam": "ecu",
+     "tgt": "finn",
+     "faces": {
+      "finn": "scared"
+     },
+     "board": "down"
+    },
+    {
+     "set": "dock",
+     "cam": "high",
+     "tgt": "finn",
+     "faces": {
+      "finn": "scared"
+     },
+     "board": "down"
+    }
+   ],
+   "words": [
+    {
+     "text": "THE",
+     "red": false,
+     "norm": "the",
+     "norm_raw": "the",
+     "start": 118.37,
+     "end": 118.43
+    },
+    {
+     "text": "BOAT",
+     "red": false,
+     "norm": "boat",
+     "norm_raw": "boat",
+     "start": 118.43,
+     "end": 118.55
+    },
+    {
+     "text": "WAS",
+     "red": false,
+     "norm": "was",
+     "norm_raw": "was",
+     "start": 118.55,
+     "end": 118.71
+    },
+    {
+     "text": "THIRTY",
+     "red": false,
+     "norm": "thirty",
+     "norm_raw": "thirty",
+     "start": 118.71,
+     "end": 118.91
+    },
+    {
+     "text": "FEET",
+     "red": false,
+     "norm": "feet",
+     "norm_raw": "feet",
+     "start": 118.91,
+     "end": 119.21
+    },
+    {
+     "text": "FROM",
+     "red": false,
+     "norm": "from",
+     "norm_raw": "from",
+     "start": 119.21,
+     "end": 119.41
+    },
+    {
+     "text": "THE",
+     "red": false,
+     "norm": "the",
+     "norm_raw": "the",
+     "start": 119.41,
+     "end": 119.55
+    },
+    {
+     "text": "EDGE",
+     "red": false,
+     "norm": "edge",
+     "norm_raw": "edge",
+     "start": 119.55,
+     "end": 119.75
+    },
+    {
+     "text": "PIP",
+     "red": false,
+     "norm": "pip",
+     "norm_raw": "pip",
+     "start": 119.75,
+     "end": 120.03
+    },
+    {
+     "text": "WAS",
+     "red": false,
+     "norm": "was",
+     "norm_raw": "was",
+     "start": 120.03,
+     "end": 120.19
+    },
+    {
+     "text": "CRYING",
+     "red": false,
+     "norm": "crying",
+     "norm_raw": "crying",
+     "start": 120.19,
+     "end": 120.47
+    },
+    {
+     "text": "I",
+     "red": false,
+     "norm": "i",
+     "norm_raw": "i",
+     "start": 120.73,
+     "end": 120.78
+    },
+    {
+     "text": "COULDN'T",
+     "red": false,
+     "norm": "couldnt",
+     "norm_raw": "couldn't",
+     "start": 120.77,
+     "end": 121.07
+    },
+    {
+     "text": "SCREAM",
+     "red": false,
+     "norm": "scream",
+     "norm_raw": "scream",
+     "start": 121.07,
+     "end": 121.29
+    },
+    {
+     "text": "I",
+     "red": false,
+     "norm": "i",
+     "norm_raw": "i",
+     "start": 121.53,
+     "end": 121.61
+    },
+    {
+     "text": "COULDN'T",
+     "red": false,
+     "norm": "couldnt",
+     "norm_raw": "couldn't",
+     "start": 121.61,
+     "end": 121.91
+    },
+    {
+     "text": "WARN",
+     "red": false,
+     "norm": "warn",
+     "norm_raw": "warn",
+     "start": 121.91,
+     "end": 122.07
+    },
+    {
+     "text": "ANYONE",
+     "red": false,
+     "norm": "anyone",
+     "norm_raw": "anyone",
+     "start": 122.07,
+     "end": 122.37
+    }
+   ]
+  },
+  {
+   "id": "s31",
+   "text": "And then I remembered the shower. The closet. The blanket. The counter never moved when I hummed.",
+   "start": 122.84,
+   "speech_end": 127.2,
+   "end": 127.4,
+   "light": "day",
+   "beats": [
+    {
+     "set": "dock",
+     "cam": "push",
+     "tgt": "finn",
+     "faces": {
+      "finn": "blank"
+     },
+     "board": "down"
+    },
+    {
+     "set": "shower",
+     "cam": "cu",
+     "tgt": "finn",
+     "acts": {
+      "finn": "sing"
+     },
+     "light_force": "interior"
+    },
+    {
+     "set": "closet",
+     "cam": "mcu",
+     "tgt": "finn",
+     "acts": {
+      "finn": "sing"
+     },
+     "light_force": "interior"
+    },
+    {
+     "set": "blanket",
+     "cam": "cu",
+     "tgt": "finn",
+     "acts": {
+      "finn": "sing"
+     },
+     "light_force": "interior"
+    },
+    {
+     "set": "dock",
+     "cam": "counter",
+     "tgt": "finn",
+     "board": "down"
+    }
+   ],
+   "words": [
+    {
+     "text": "AND",
+     "red": false,
+     "norm": "and",
+     "norm_raw": "and",
+     "start": 122.84,
+     "end": 122.92
+    },
+    {
+     "text": "THEN",
+     "red": false,
+     "norm": "then",
+     "norm_raw": "then",
+     "start": 122.92,
+     "end": 123.04
+    },
+    {
+     "text": "I",
+     "red": false,
+     "norm": "i",
+     "norm_raw": "i",
+     "start": 123.04,
+     "end": 123.2
+    },
+    {
+     "text": "REMEMBERED",
+     "red": false,
+     "norm": "remembered",
+     "norm_raw": "remembered",
+     "start": 123.2,
+     "end": 123.46
+    },
+    {
+     "text": "THE",
+     "red": false,
+     "norm": "the",
+     "norm_raw": "the",
+     "start": 123.46,
+     "end": 123.76
+    },
+    {
+     "text": "SHOWER",
+     "red": false,
+     "norm": "shower",
+     "norm_raw": "shower",
+     "start": 123.76,
+     "end": 124.04
+    },
+    {
+     "text": "THE",
+     "red": false,
+     "norm": "the",
+     "norm_raw": "the",
+     "start": 124.04,
+     "end": 124.367
+    },
+    {
+     "text": "CLOSET",
+     "red": false,
+     "norm": "closet",
+     "norm_raw": "closet",
+     "start": 124.367,
+     "end": 125.02
+    },
+    {
+     "text": "THE",
+     "red": false,
+     "norm": "the",
+     "norm_raw": "the",
+     "start": 125.02,
+     "end": 125.07
+    },
+    {
+     "text": "BLANKET",
+     "red": false,
+     "norm": "blanket",
+     "norm_raw": "blanket",
+     "start": 125.06,
+     "end": 125.36
+    },
+    {
+     "text": "THE",
+     "red": false,
+     "norm": "the",
+     "norm_raw": "the",
+     "start": 125.62,
+     "end": 125.67
+    },
+    {
+     "text": "COUNTER",
+     "red": false,
+     "norm": "counter",
+     "norm_raw": "counter",
+     "start": 125.66,
+     "end": 125.86
+    },
+    {
+     "text": "NEVER",
+     "red": false,
+     "norm": "never",
+     "norm_raw": "never",
+     "start": 125.86,
+     "end": 126.18
+    },
+    {
+     "text": "MOVED",
+     "red": false,
+     "norm": "moved",
+     "norm_raw": "moved",
+     "start": 126.18,
+     "end": 126.44
+    },
+    {
+     "text": "WHEN",
+     "red": false,
+     "norm": "when",
+     "norm_raw": "when",
+     "start": 126.44,
+     "end": 126.62
+    },
+    {
+     "text": "I",
+     "red": false,
+     "norm": "i",
+     "norm_raw": "i",
+     "start": 126.62,
+     "end": 126.76
+    },
+    {
+     "text": "HUMMED",
+     "red": false,
+     "norm": "hummed",
+     "norm_raw": "hummed",
+     "start": 126.76,
+     "end": 127.18
+    }
+   ]
+  },
+  {
+   "id": "s32",
+   "text": "The counter only counts WORDS. Not songs.",
+   "start": 127.4,
+   "speech_end": 129.68,
+   "end": 129.88,
+   "light": "day",
+   "beats": [
+    {
+     "card": "counts"
+    },
+    {
+     "set": "dock",
+     "cam": "ecu",
+     "tgt": "finn",
+     "faces": {
+      "finn": "laughing"
+     },
+     "board": "down"
+    }
+   ],
+   "words": [
+    {
+     "text": "THE",
+     "red": false,
+     "norm": "the",
+     "norm_raw": "the",
+     "start": 127.4,
+     "end": 127.46
+    },
+    {
+     "text": "COUNTER",
+     "red": false,
+     "norm": "counter",
+     "norm_raw": "counter",
+     "start": 127.46,
+     "end": 127.66
+    },
+    {
+     "text": "ONLY",
+     "red": false,
+     "norm": "only",
+     "norm_raw": "only",
+     "start": 127.66,
+     "end": 128.0
+    },
+    {
+     "text": "COUNTS",
+     "red": false,
+     "norm": "counts",
+     "norm_raw": "counts",
+     "start": 128.0,
+     "end": 128.28
+    },
+    {
+     "text": "WORDS",
+     "red": true,
+     "norm": "words",
+     "norm_raw": "words",
+     "start": 128.28,
+     "end": 128.62
+    },
+    {
+     "text": "NOT",
+     "red": false,
+     "norm": "not",
+     "norm_raw": "not",
+     "start": 128.86,
+     "end": 128.98
+    },
+    {
+     "text": "SONGS",
+     "red": false,
+     "norm": "songs",
+     "norm_raw": "songs",
+     "start": 128.98,
+     "end": 129.24
+    }
+   ]
+  },
+  {
+   "id": "s33",
+   "text": "So I sang. \"Pip, paddle left. Paddle left. You can do it.\" And the counter stayed at zero.",
+   "start": 129.88,
+   "speech_end": 134.48,
+   "end": 134.68,
+   "light": "day",
+   "beats": [
+    {
+     "set": "dock",
+     "cam": "mcu",
+     "tgt": "finn",
+     "acts": {
+      "finn": "sing"
+     },
+     "board": "down"
+    },
+    {
+     "set": "dock",
+     "cam": "cu",
+     "tgt": "finn",
+     "acts": {
+      "finn": "sing"
+     },
+     "board": "down"
+    },
+    {
+     "card": "song"
+    },
+    {
+     "set": "dock",
+     "cam": "wide",
+     "tgt": "finn",
+     "acts": {
+      "finn": "sing"
+     },
+     "board": "down"
+    },
+    {
+     "set": "dock",
+     "cam": "counter",
+     "tgt": "finn",
+     "acts": {
+      "finn": "sing"
+     },
+     "board": "down"
+    }
+   ],
+   "words": [
+    {
+     "text": "SO",
+     "red": false,
+     "norm": "so",
+     "norm_raw": "so",
+     "start": 129.88,
+     "end": 130.08
+    },
+    {
+     "text": "I",
+     "red": false,
+     "norm": "i",
+     "norm_raw": "i",
+     "start": 130.08,
+     "end": 130.26
+    },
+    {
+     "text": "SANG",
+     "red": false,
+     "norm": "sang",
+     "norm_raw": "sang",
+     "start": 130.26,
+     "end": 130.54
+    },
+    {
+     "text": "PIP",
+     "red": false,
+     "norm": "pip",
+     "norm_raw": "pip",
+     "start": 130.54,
+     "end": 130.78
+    },
+    {
+     "text": "PADDLE",
+     "red": false,
+     "norm": "paddle",
+     "norm_raw": "paddle",
+     "start": 130.78,
+     "end": 131.26
+    },
+    {
+     "text": "LEFT",
+     "red": false,
+     "norm": "left",
+     "norm_raw": "left",
+     "start": 131.26,
+     "end": 131.58
+    },
+    {
+     "text": "PADDLE",
+     "red": false,
+     "norm": "paddle",
+     "norm_raw": "paddle",
+     "start": 131.58,
+     "end": 131.86
+    },
+    {
+     "text": "LEFT",
+     "red": false,
+     "norm": "left",
+     "norm_raw": "left",
+     "start": 131.86,
+     "end": 132.2
+    },
+    {
+     "text": "YOU",
+     "red": false,
+     "norm": "you",
+     "norm_raw": "you",
+     "start": 132.38,
+     "end": 132.44
+    },
+    {
+     "text": "CAN",
+     "red": false,
+     "norm": "can",
+     "norm_raw": "can",
+     "start": 132.44,
+     "end": 132.56
+    },
+    {
+     "text": "DO",
+     "red": false,
+     "norm": "do",
+     "norm_raw": "do",
+     "start": 132.56,
+     "end": 132.72
+    },
+    {
+     "text": "IT",
+     "red": false,
+     "norm": "it",
+     "norm_raw": "it",
+     "start": 132.72,
+     "end": 132.92
+    },
+    {
+     "text": "AND",
+     "red": false,
+     "norm": "and",
+     "norm_raw": "and",
+     "start": 133.08,
+     "end": 133.13
+    },
+    {
+     "text": "THE",
+     "red": false,
+     "norm": "the",
+     "norm_raw": "the",
+     "start": 133.12,
+     "end": 133.22
+    },
+    {
+     "text": "COUNTER",
+     "red": false,
+     "norm": "counter",
+     "norm_raw": "counter",
+     "start": 133.22,
+     "end": 133.44
+    },
+    {
+     "text": "STAYED",
+     "red": false,
+     "norm": "stayed",
+     "norm_raw": "stayed",
+     "start": 133.44,
+     "end": 133.76
+    },
+    {
+     "text": "AT",
+     "red": false,
+     "norm": "at",
+     "norm_raw": "at",
+     "start": 133.76,
+     "end": 133.98
+    },
+    {
+     "text": "ZERO",
+     "red": false,
+     "norm": "zero",
+     "norm_raw": "zero",
+     "start": 133.98,
+     "end": 134.3
+    }
+   ]
+  },
+  {
+   "id": "s34",
+   "text": "Pip stopped crying. He paddled left, in time with the song.",
+   "start": 134.68,
+   "speech_end": 137.66,
+   "end": 137.86,
+   "light": "day",
+   "beats": [
+    {
+     "set": "lake",
+     "cam": "cu",
+     "tgt": "pip",
+     "acts": {
+      "pip": "paddle"
+     },
+     "faces": {
+      "pip": "neutral"
+     }
+    },
+    {
+     "set": "lake",
+     "cam": "chase",
+     "tgt": "rowboat",
+     "acts": {
+      "pip": "paddle"
+     }
+    },
+    {
+     "set": "lake",
+     "cam": "wide",
+     "tgt": "rowboat",
+     "acts": {
+      "pip": "paddle"
+     }
+    }
+   ],
+   "words": [
+    {
+     "text": "PIP",
+     "red": false,
+     "norm": "pip",
+     "norm_raw": "pip",
+     "start": 134.68,
+     "end": 134.78
+    },
+    {
+     "text": "STOPPED",
+     "red": false,
+     "norm": "stopped",
+     "norm_raw": "stopped",
+     "start": 134.78,
+     "end": 135.06
+    },
+    {
+     "text": "CRYING",
+     "red": false,
+     "norm": "crying",
+     "norm_raw": "crying",
+     "start": 135.06,
+     "end": 135.48
+    },
+    {
+     "text": "HE",
+     "red": false,
+     "norm": "he",
+     "norm_raw": "he",
+     "start": 135.74,
+     "end": 135.79
+    },
+    {
+     "text": "PADDLED",
+     "red": false,
+     "norm": "paddled",
+     "norm_raw": "paddled",
+     "start": 135.78,
+     "end": 136.08
+    },
+    {
+     "text": "LEFT",
+     "red": false,
+     "norm": "left",
+     "norm_raw": "left",
+     "start": 136.08,
+     "end": 136.28
+    },
+    {
+     "text": "IN",
+     "red": false,
+     "norm": "in",
+     "norm_raw": "in",
+     "start": 136.28,
+     "end": 136.64
+    },
+    {
+     "text": "TIME",
+     "red": false,
+     "norm": "time",
+     "norm_raw": "time",
+     "start": 136.64,
+     "end": 136.92
+    },
+    {
+     "text": "WITH",
+     "red": false,
+     "norm": "with",
+     "norm_raw": "with",
+     "start": 136.92,
+     "end": 137.08
+    },
+    {
+     "text": "THE",
+     "red": false,
+     "norm": "the",
+     "norm_raw": "the",
+     "start": 137.08,
+     "end": 137.2
+    },
+    {
+     "text": "SONG",
+     "red": false,
+     "norm": "song",
+     "norm_raw": "song",
+     "start": 137.2,
+     "end": 137.4
+    }
+   ]
+  },
+  {
+   "id": "s35",
+   "text": "Mom grabbed my hand and sang with me. Then the baker. Then the mayor. Then the whole town.",
+   "start": 137.86,
+   "speech_end": 141.72,
+   "end": 141.92,
+   "light": "day",
+   "beats": [
+    {
+     "set": "dock_sing",
+     "cam": "hands",
+     "tgt": "mom"
+    },
+    {
+     "set": "dock_sing",
+     "cam": "mcu",
+     "tgt": "mom"
+    },
+    {
+     "set": "dock_sing",
+     "cam": "cu",
+     "tgt": "baker"
+    },
+    {
+     "set": "dock_sing",
+     "cam": "low",
+     "tgt": "mayor"
+    },
+    {
+     "set": "dock_sing",
+     "cam": "wide",
+     "tgt": "t2"
+    },
+    {
+     "set": "dock_sing",
+     "cam": "high",
+     "tgt": "pt:-20,-40,0"
+    }
+   ],
+   "words": [
+    {
+     "text": "MOM",
+     "red": false,
+     "norm": "mom",
+     "norm_raw": "mom",
+     "start": 137.86,
+     "end": 137.98
+    },
+    {
+     "text": "GRABBED",
+     "red": false,
+     "norm": "grabbed",
+     "norm_raw": "grabbed",
+     "start": 137.98,
+     "end": 138.22
+    },
+    {
+     "text": "MY",
+     "red": false,
+     "norm": "my",
+     "norm_raw": "my",
+     "start": 138.22,
+     "end": 138.44
+    },
+    {
+     "text": "HAND",
+     "red": false,
+     "norm": "hand",
+     "norm_raw": "hand",
+     "start": 138.44,
+     "end": 138.7
+    },
+    {
+     "text": "AND",
+     "red": false,
+     "norm": "and",
+     "norm_raw": "and",
+     "start": 138.7,
+     "end": 138.88
+    },
+    {
+     "text": "SANG",
+     "red": false,
+     "norm": "sang",
+     "norm_raw": "sang",
+     "start": 138.88,
+     "end": 139.06
+    },
+    {
+     "text": "WITH",
+     "red": false,
+     "norm": "with",
+     "norm_raw": "with",
+     "start": 139.06,
+     "end": 139.26
+    },
+    {
+     "text": "ME",
+     "red": false,
+     "norm": "me",
+     "norm_raw": "me",
+     "start": 139.26,
+     "end": 139.44
+    },
+    {
+     "text": "THEN",
+     "red": false,
+     "norm": "then",
+     "norm_raw": "then",
+     "start": 139.56,
+     "end": 139.64
+    },
+    {
+     "text": "THE",
+     "red": false,
+     "norm": "the",
+     "norm_raw": "the",
+     "start": 139.64,
+     "end": 139.78
+    },
+    {
+     "text": "BAKER",
+     "red": false,
+     "norm": "baker",
+     "norm_raw": "baker",
+     "start": 139.78,
+     "end": 140.02
+    },
+    {
+     "text": "THEN",
+     "red": false,
+     "norm": "then",
+     "norm_raw": "then",
+     "start": 140.26,
+     "end": 140.32
+    },
+    {
+     "text": "THE",
+     "red": false,
+     "norm": "the",
+     "norm_raw": "the",
+     "start": 140.32,
+     "end": 140.42
+    },
+    {
+     "text": "MAYOR",
+     "red": false,
+     "norm": "mayor",
+     "norm_raw": "mayor",
+     "start": 140.42,
+     "end": 140.6
+    },
+    {
+     "text": "THEN",
+     "red": false,
+     "norm": "then",
+     "norm_raw": "then",
+     "start": 140.8,
+     "end": 140.94
+    },
+    {
+     "text": "THE",
+     "red": false,
+     "norm": "the",
+     "norm_raw": "the",
+     "start": 140.94,
+     "end": 141.06
+    },
+    {
+     "text": "WHOLE",
+     "red": false,
+     "norm": "whole",
+     "norm_raw": "whole",
+     "start": 141.06,
+     "end": 141.22
+    },
+    {
+     "text": "TOWN",
+     "red": false,
+     "norm": "town",
+     "norm_raw": "town",
+     "start": 141.22,
+     "end": 141.48
+    }
+   ]
+  },
+  {
+   "id": "s36",
+   "text": "A hundred people sang the same four words, and Pip paddled to the beat, and the boat turned, and bumped the dock one foot from the waterfall.",
+   "start": 141.92,
+   "speech_end": 148.71,
+   "end": 148.91,
+   "light": "day",
+   "beats": [
+    {
+     "set": "dock_sing",
+     "cam": "orbit",
+     "tgt": "granny"
+    },
+    {
+     "set": "dock_sing",
+     "cam": "track",
+     "tgt": "t5"
+    },
+    {
+     "set": "lake",
+     "cam": "cu",
+     "tgt": "pip",
+     "acts": {
+      "pip": "paddle"
+     }
+    },
+    {
+     "set": "lake",
+     "cam": "chase",
+     "tgt": "rowboat",
+     "acts": {
+      "pip": "paddle"
+     }
+    },
+    {
+     "set": "lake",
+     "cam": "drone",
+     "tgt": "pt:-21,-70,0",
+     "radius": 26,
+     "acts": {
+      "pip": "paddle"
+     }
+    },
+    {
+     "set": "lake",
+     "cam": "wide",
+     "tgt": "rowboat",
+     "acts": {
+      "pip": "paddle"
+     }
+    },
+    {
+     "set": "lake",
+     "cam": "prop",
+     "tgt": "jetty_end",
+     "acts": {
+      "pip": "paddle"
+     }
+    }
+   ],
+   "words": [
+    {
+     "text": "A",
+     "red": false,
+     "norm": "a",
+     "norm_raw": "a",
+     "start": 141.92,
+     "end": 141.97
+    },
+    {
+     "text": "HUNDRED",
+     "red": false,
+     "norm": "hundred",
+     "norm_raw": "hundred",
+     "start": 141.96,
+     "end": 142.22
+    },
+    {
+     "text": "PEOPLE",
+     "red": false,
+     "norm": "people",
+     "norm_raw": "people",
+     "start": 142.22,
+     "end": 142.42
+    },
+    {
+     "text": "SANG",
+     "red": false,
+     "norm": "sang",
+     "norm_raw": "sang",
+     "start": 142.42,
+     "end": 142.78
+    },
+    {
+     "text": "THE",
+     "red": false,
+     "norm": "the",
+     "norm_raw": "the",
+     "start": 142.78,
+     "end": 142.96
+    },
+    {
+     "text": "SAME",
+     "red": false,
+     "norm": "same",
+     "norm_raw": "same",
+     "start": 142.96,
+     "end": 143.18
+    },
+    {
+     "text": "FOUR",
+     "red": false,
+     "norm": "four",
+     "norm_raw": "four",
+     "start": 143.18,
+     "end": 143.48
+    },
+    {
+     "text": "WORDS",
+     "red": false,
+     "norm": "words",
+     "norm_raw": "words",
+     "start": 143.48,
+     "end": 143.84
+    },
+    {
+     "text": "AND",
+     "red": false,
+     "norm": "and",
+     "norm_raw": "and",
+     "start": 143.84,
+     "end": 144.22
+    },
+    {
+     "text": "PIP",
+     "red": false,
+     "norm": "pip",
+     "norm_raw": "pip",
+     "start": 144.22,
+     "end": 144.358
+    },
+    {
+     "text": "PADDLED",
+     "red": false,
+     "norm": "paddled",
+     "norm_raw": "paddled",
+     "start": 144.358,
+     "end": 144.68
+    },
+    {
+     "text": "TO",
+     "red": false,
+     "norm": "to",
+     "norm_raw": "to",
+     "start": 144.68,
+     "end": 144.94
+    },
+    {
+     "text": "THE",
+     "red": false,
+     "norm": "the",
+     "norm_raw": "the",
+     "start": 144.94,
+     "end": 145.02
+    },
+    {
+     "text": "BEAT",
+     "red": false,
+     "norm": "beat",
+     "norm_raw": "beat",
+     "start": 145.02,
+     "end": 145.2
+    },
+    {
+     "text": "AND",
+     "red": false,
+     "norm": "and",
+     "norm_raw": "and",
+     "start": 145.2,
+     "end": 145.6
+    },
+    {
+     "text": "THE",
+     "red": false,
+     "norm": "the",
+     "norm_raw": "the",
+     "start": 145.6,
+     "end": 145.7
+    },
+    {
+     "text": "BOAT",
+     "red": false,
+     "norm": "boat",
+     "norm_raw": "boat",
+     "start": 145.7,
+     "end": 145.84
+    },
+    {
+     "text": "TURNED",
+     "red": false,
+     "norm": "turned",
+     "norm_raw": "turned",
+     "start": 145.84,
+     "end": 146.14
+    },
+    {
+     "text": "AND",
+     "red": false,
+     "norm": "and",
+     "norm_raw": "and",
+     "start": 146.14,
+     "end": 146.52
+    },
+    {
+     "text": "BUMPED",
+     "red": false,
+     "norm": "bumped",
+     "norm_raw": "bumped",
+     "start": 146.52,
+     "end": 146.7
+    },
+    {
+     "text": "THE",
+     "red": false,
+     "norm": "the",
+     "norm_raw": "the",
+     "start": 146.7,
+     "end": 146.94
+    },
+    {
+     "text": "DOCK",
+     "red": false,
+     "norm": "dock",
+     "norm_raw": "dock",
+     "start": 146.94,
+     "end": 147.1
+    },
+    {
+     "text": "ONE",
+     "red": false,
+     "norm": "one",
+     "norm_raw": "one",
+     "start": 147.1,
+     "end": 147.4
+    },
+    {
+     "text": "FOOT",
+     "red": false,
+     "norm": "foot",
+     "norm_raw": "foot",
+     "start": 147.4,
+     "end": 147.72
+    },
+    {
+     "text": "FROM",
+     "red": false,
+     "norm": "from",
+     "norm_raw": "from",
+     "start": 147.72,
+     "end": 147.98
+    },
+    {
+     "text": "THE",
+     "red": false,
+     "norm": "the",
+     "norm_raw": "the",
+     "start": 147.98,
+     "end": 148.06
+    },
+    {
+     "text": "WATERFALL",
+     "red": false,
+     "norm": "waterfall",
+     "norm_raw": "waterfall",
+     "start": 148.06,
+     "end": 148.28
+    }
+   ]
+  },
+  {
+   "id": "s37",
+   "text": "Pip reached up, laughing. Mom hugged us both so hard she cried.",
+   "start": 148.91,
+   "speech_end": 152.2,
+   "end": 152.4,
+   "light": "golden",
+   "beats": [
+    {
+     "set": "jetty",
+     "cam": "cu",
+     "tgt": "pip",
+     "acts": {
+      "pip": "wave"
+     },
+     "faces": {
+      "pip": "laughing"
+     }
+    },
+    {
+     "set": "jetty",
+     "cam": "mcu",
+     "tgt": "mom",
+     "acts": {
+      "mom": "hug"
+     },
+     "faces": {
+      "mom": "laughing"
+     }
+    },
+    {
+     "set": "jetty",
+     "cam": "ecu",
+     "tgt": "mom",
+     "acts": {
+      "mom": "cry"
+     }
+    },
+    {
+     "set": "jetty",
+     "cam": "orbit",
+     "tgt": "finn",
+     "acts": {
+      "finn": "laugh"
+     }
+    }
+   ],
+   "words": [
+    {
+     "text": "PIP",
+     "red": false,
+     "norm": "pip",
+     "norm_raw": "pip",
+     "start": 148.91,
+     "end": 149.03
+    },
+    {
+     "text": "REACHED",
+     "red": false,
+     "norm": "reached",
+     "norm_raw": "reached",
+     "start": 149.03,
+     "end": 149.27
+    },
+    {
+     "text": "UP",
+     "red": false,
+     "norm": "up",
+     "norm_raw": "up",
+     "start": 149.27,
+     "end": 149.57
+    },
+    {
+     "text": "LAUGHING",
+     "red": false,
+     "norm": "laughing",
+     "norm_raw": "laughing",
+     "start": 149.81,
+     "end": 150.09
+    },
+    {
+     "text": "MOM",
+     "red": false,
+     "norm": "mom",
+     "norm_raw": "mom",
+     "start": 150.29,
+     "end": 150.39
+    },
+    {
+     "text": "HUGGED",
+     "red": false,
+     "norm": "hugged",
+     "norm_raw": "hugged",
+     "start": 150.39,
+     "end": 150.65
+    },
+    {
+     "text": "US",
+     "red": false,
+     "norm": "us",
+     "norm_raw": "us",
+     "start": 150.65,
+     "end": 150.81
+    },
+    {
+     "text": "BOTH",
+     "red": false,
+     "norm": "both",
+     "norm_raw": "both",
+     "start": 150.81,
+     "end": 151.03
+    },
+    {
+     "text": "SO",
+     "red": false,
+     "norm": "so",
+     "norm_raw": "so",
+     "start": 151.03,
+     "end": 151.23
+    },
+    {
+     "text": "HARD",
+     "red": false,
+     "norm": "hard",
+     "norm_raw": "hard",
+     "start": 151.23,
+     "end": 151.47
+    },
+    {
+     "text": "SHE",
+     "red": false,
+     "norm": "she",
+     "norm_raw": "she",
+     "start": 151.47,
+     "end": 151.71
+    },
+    {
+     "text": "CRIED",
+     "red": false,
+     "norm": "cried",
+     "norm_raw": "cried",
+     "start": 151.71,
+     "end": 151.93
+    }
+   ]
+  },
+  {
+   "id": "s38",
+   "text": "After that, everything changed. The next morning, the mayor gave his speech. In a song.",
+   "start": 152.4,
+   "speech_end": 156.57,
+   "end": 156.77,
+   "light": "day",
+   "beats": [
+    {
+     "set": "town",
+     "cam": "drone",
+     "tgt": "pt:20,0,0",
+     "radius": 60
+    },
+    {
+     "set": "plaza",
+     "cam": "low",
+     "tgt": "mayor",
+     "acts": {
+      "mayor": "sing"
+     }
+    },
+    {
+     "set": "plaza",
+     "cam": "ots",
+     "tgt": "mayor",
+     "over": "t3",
+     "acts": {
+      "mayor": "sing"
+     }
+    },
+    {
+     "set": "plaza",
+     "cam": "cu",
+     "tgt": "t5",
+     "acts": {
+      "t5": "laugh"
+     }
+    },
+    {
+     "set": "plaza",
+     "cam": "mcu",
+     "tgt": "mayor",
+     "acts": {
+      "mayor": "sing"
+     }
+    }
+   ],
+   "words": [
+    {
+     "text": "AFTER",
+     "red": false,
+     "norm": "after",
+     "norm_raw": "after",
+     "start": 152.4,
+     "end": 152.6
+    },
+    {
+     "text": "THAT",
+     "red": false,
+     "norm": "that",
+     "norm_raw": "that",
+     "start": 152.6,
+     "end": 152.8
+    },
+    {
+     "text": "EVERYTHING",
+     "red": false,
+     "norm": "everything",
+     "norm_raw": "everything",
+     "start": 153.08,
+     "end": 153.3
+    },
+    {
+     "text": "CHANGED",
+     "red": false,
+     "norm": "changed",
+     "norm_raw": "changed",
+     "start": 153.3,
+     "end": 153.72
+    },
+    {
+     "text": "THE",
+     "red": false,
+     "norm": "the",
+     "norm_raw": "the",
+     "start": 154.06,
+     "end": 154.11
+    },
+    {
+     "text": "NEXT",
+     "red": false,
+     "norm": "next",
+     "norm_raw": "next",
+     "start": 154.1,
+     "end": 154.22
+    },
+    {
+     "text": "MORNING",
+     "red": false,
+     "norm": "morning",
+     "norm_raw": "morning",
+     "start": 154.22,
+     "end": 154.6
+    },
+    {
+     "text": "THE",
+     "red": false,
+     "norm": "the",
+     "norm_raw": "the",
+     "start": 154.88,
+     "end": 154.94
+    },
+    {
+     "text": "MAYOR",
+     "red": false,
+     "norm": "mayor",
+     "norm_raw": "mayor",
+     "start": 154.94,
+     "end": 155.12
+    },
+    {
+     "text": "GAVE",
+     "red": false,
+     "norm": "gave",
+     "norm_raw": "gave",
+     "start": 155.12,
+     "end": 155.36
+    },
+    {
+     "text": "HIS",
+     "red": false,
+     "norm": "his",
+     "norm_raw": "his",
+     "start": 155.36,
+     "end": 155.52
+    },
+    {
+     "text": "SPEECH",
+     "red": false,
+     "norm": "speech",
+     "norm_raw": "speech",
+     "start": 155.52,
+     "end": 155.74
+    },
+    {
+     "text": "IN",
+     "red": false,
+     "norm": "in",
+     "norm_raw": "in",
+     "start": 155.74,
+     "end": 156.04
+    },
+    {
+     "text": "A",
+     "red": false,
+     "norm": "a",
+     "norm_raw": "a",
+     "start": 156.04,
+     "end": 156.14
+    },
+    {
+     "text": "SONG",
+     "red": false,
+     "norm": "song",
+     "norm_raw": "song",
+     "start": 156.14,
+     "end": 156.3
+    }
+   ]
+  },
+  {
+   "id": "s39",
+   "text": "The baker sold bread in harmony. The kids sang their lessons. Grandma sang insults at the neighbors.",
+   "start": 156.77,
+   "speech_end": 161.77,
+   "end": 161.97,
+   "light": "day",
+   "beats": [
+    {
+     "set": "bakery",
+     "cam": "cu",
+     "tgt": "baker",
+     "acts": {
+      "baker": "sing"
+     }
+    },
+    {
+     "set": "bakery",
+     "cam": "ots",
+     "tgt": "baker",
+     "over": "t3",
+     "acts": {
+      "baker": "give:loaf",
+      "t3": "sing"
+     }
+    },
+    {
+     "set": "school",
+     "cam": "wide",
+     "tgt": "t4",
+     "acts": {
+      "t4": "sing",
+      "kid1": "sing",
+      "kid2": "sing",
+      "kid3": "sing"
+     }
+    },
+    {
+     "set": "school",
+     "cam": "cu",
+     "tgt": "kid1",
+     "acts": {
+      "kid1": "sing"
+     }
+    },
+    {
+     "set": "granny",
+     "cam": "cu",
+     "tgt": "granny",
+     "acts": {
+      "granny": "sing"
+     },
+     "faces": {
+      "granny": "grumpy"
+     }
+    },
+    {
+     "set": "granny",
+     "cam": "ots",
+     "tgt": "t5",
+     "over": "granny",
+     "acts": {
+      "granny": "sing"
+     },
+     "faces": {
+      "t5": "grumpy"
+     }
+    }
+   ],
+   "words": [
+    {
+     "text": "THE",
+     "red": false,
+     "norm": "the",
+     "norm_raw": "the",
+     "start": 156.77,
+     "end": 156.83
+    },
+    {
+     "text": "BAKER",
+     "red": false,
+     "norm": "baker",
+     "norm_raw": "baker",
+     "start": 156.83,
+     "end": 157.03
+    },
+    {
+     "text": "SOLD",
+     "red": false,
+     "norm": "sold",
+     "norm_raw": "sold",
+     "start": 157.03,
+     "end": 157.35
+    },
+    {
+     "text": "BREAD",
+     "red": false,
+     "norm": "bread",
+     "norm_raw": "bread",
+     "start": 157.35,
+     "end": 157.61
+    },
+    {
+     "text": "IN",
+     "red": false,
+     "norm": "in",
+     "norm_raw": "in",
+     "start": 157.61,
+     "end": 157.87
+    },
+    {
+     "text": "HARMONY",
+     "red": false,
+     "norm": "harmony",
+     "norm_raw": "harmony",
+     "start": 157.87,
+     "end": 158.19
+    },
+    {
+     "text": "THE",
+     "red": false,
+     "norm": "the",
+     "norm_raw": "the",
+     "start": 158.47,
+     "end": 158.52
+    },
+    {
+     "text": "KIDS",
+     "red": false,
+     "norm": "kids",
+     "norm_raw": "kids",
+     "start": 158.51,
+     "end": 158.69
+    },
+    {
+     "text": "SANG",
+     "red": false,
+     "norm": "sang",
+     "norm_raw": "sang",
+     "start": 158.69,
+     "end": 158.99
+    },
+    {
+     "text": "THEIR",
+     "red": false,
+     "norm": "their",
+     "norm_raw": "their",
+     "start": 158.99,
+     "end": 159.21
+    },
+    {
+     "text": "LESSONS",
+     "red": false,
+     "norm": "lessons",
+     "norm_raw": "lessons",
+     "start": 159.21,
+     "end": 159.59
+    },
+    {
+     "text": "GRANDMA",
+     "red": false,
+     "norm": "grandma",
+     "norm_raw": "grandma",
+     "start": 159.95,
+     "end": 160.29
+    },
+    {
+     "text": "SANG",
+     "red": false,
+     "norm": "sang",
+     "norm_raw": "sang",
+     "start": 160.29,
+     "end": 160.53
+    },
+    {
+     "text": "INSULTS",
+     "red": false,
+     "norm": "insults",
+     "norm_raw": "insults",
+     "start": 160.53,
+     "end": 160.85
+    },
+    {
+     "text": "AT",
+     "red": false,
+     "norm": "at",
+     "norm_raw": "at",
+     "start": 160.85,
+     "end": 161.17
+    },
+    {
+     "text": "THE",
+     "red": false,
+     "norm": "the",
+     "norm_raw": "the",
+     "start": 161.17,
+     "end": 161.25
+    },
+    {
+     "text": "NEIGHBORS",
+     "red": false,
+     "norm": "neighbors",
+     "norm_raw": "neighbors",
+     "start": 161.25,
+     "end": 161.49
+    }
+   ]
+  },
+  {
+   "id": "s40",
+   "text": "In this town, everyone SINGS.",
+   "start": 161.97,
+   "speech_end": 163.82,
+   "end": 164.02,
+   "light": "golden",
+   "beats": [
+    {
+     "set": "finale",
+     "cam": "mcu",
+     "tgt": "finn"
+    },
+    {
+     "set": "finale",
+     "cam": "drone",
+     "tgt": "pt:60,0,0",
+     "radius": 40
+    },
+    {
+     "card": "sings"
+    }
+   ],
+   "words": [
+    {
+     "text": "IN",
+     "red": false,
+     "norm": "in",
+     "norm_raw": "in",
+     "start": 161.97,
+     "end": 162.09
+    },
+    {
+     "text": "THIS",
+     "red": false,
+     "norm": "this",
+     "norm_raw": "this",
+     "start": 162.09,
+     "end": 162.23
+    },
+    {
+     "text": "TOWN",
+     "red": false,
+     "norm": "town",
+     "norm_raw": "town",
+     "start": 162.23,
+     "end": 162.51
+    },
+    {
+     "text": "EVERYONE",
+     "red": false,
+     "norm": "everyone",
+     "norm_raw": "everyone",
+     "start": 162.81,
+     "end": 163.17
+    },
+    {
+     "text": "SINGS",
+     "red": true,
+     "norm": "sings",
+     "norm_raw": "sings",
+     "start": 163.17,
+     "end": 163.49
+    }
+   ]
+  }
+ ]
+}

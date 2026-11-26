@@ -1,0 +1,4890 @@
+{
+ "fps": 30,
+ "shots": [
+  {
+   "sentence": "s01",
+   "set": "town",
+   "cam": "drone",
+   "tgt": "pt:-40,-4,0",
+   "light": "day",
+   "id": "shot_001",
+   "frame0": 0,
+   "frames": 29,
+   "dur": 0.967,
+   "seed": 0,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "THE",
+    "MAILMAN",
+    "HAS",
+    "SKIPPED",
+    "OUR"
+   ],
+   "location": "town",
+   "camera_move": "drone",
+   "characters": [],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s01",
+   "set": "street",
+   "cam": "chase",
+   "tgt": "dobbs",
+   "faces": {
+    "dobbs": "scared"
+   },
+   "light": "day",
+   "id": "shot_002",
+   "frame0": 29,
+   "frames": 19,
+   "dur": 0.633,
+   "seed": 919,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "HOUSE",
+    "FOR",
+    "FORTY"
+   ],
+   "location": "street",
+   "camera_move": "chase",
+   "characters": [
+    "dobbs"
+   ],
+   "emotion": "dobbs:scared"
+  },
+  {
+   "sentence": "s01",
+   "card": "forty",
+   "light": "day",
+   "id": "shot_003",
+   "frame0": 48,
+   "frames": 32,
+   "dur": 1.067,
+   "seed": 838,
+   "kind": "card",
+   "paper": true,
+   "caption_words": [
+    "DAYS",
+    "AND",
+    "EVERY",
+    "TIME"
+   ],
+   "location": "card",
+   "camera_move": "zoom",
+   "characters": [],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s01",
+   "set": "street",
+   "cam": "track",
+   "tgt": "dobbs",
+   "faces": {
+    "dobbs": "scared"
+   },
+   "light": "day",
+   "id": "shot_004",
+   "frame0": 80,
+   "frames": 29,
+   "dur": 0.967,
+   "seed": 757,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "HE",
+    "WALKS",
+    "PAST"
+   ],
+   "location": "street",
+   "camera_move": "track",
+   "characters": [
+    "dobbs"
+   ],
+   "emotion": "dobbs:scared"
+  },
+  {
+   "sentence": "s01",
+   "set": "gate",
+   "cam": "ecu",
+   "tgt": "dobbs",
+   "faces": {
+    "dobbs": "scared"
+   },
+   "light": "day",
+   "id": "shot_005",
+   "frame0": 109,
+   "frames": 25,
+   "dur": 0.833,
+   "seed": 676,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "HE",
+    "LOOKS",
+    "SCARED"
+   ],
+   "location": "gate",
+   "camera_move": "ecu",
+   "characters": [
+    "dobbs"
+   ],
+   "emotion": "dobbs:scared"
+  },
+  {
+   "sentence": "s02",
+   "set": "street",
+   "cam": "tilt",
+   "tgt": "eli",
+   "light": "day",
+   "id": "shot_006",
+   "frame0": 134,
+   "frames": 26,
+   "dur": 0.867,
+   "seed": 595,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "MY",
+    "NAME",
+    "IS",
+    "ELI"
+   ],
+   "location": "street",
+   "camera_move": "tilt",
+   "characters": [
+    "eli"
+   ],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s02",
+   "set": "street",
+   "cam": "cu",
+   "tgt": "eli",
+   "faces": {
+    "eli": "blank"
+   },
+   "light": "day",
+   "id": "shot_007",
+   "frame0": 160,
+   "frames": 30,
+   "dur": 1.0,
+   "seed": 514,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "I'M",
+    "ELEVEN",
+    "OUR",
+    "TOWN",
+    "HAS"
+   ],
+   "location": "street",
+   "camera_move": "cu",
+   "characters": [
+    "eli"
+   ],
+   "emotion": "eli:blank"
+  },
+  {
+   "sentence": "s02",
+   "set": "town",
+   "cam": "drone",
+   "tgt": "pt:20,0,0",
+   "light": "day",
+   "id": "shot_008",
+   "frame0": 190,
+   "frames": 34,
+   "dur": 1.133,
+   "seed": 433,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "EXACTLY",
+    "ONE",
+    "MAILMAN"
+   ],
+   "location": "town",
+   "camera_move": "drone",
+   "characters": [],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s02",
+   "set": "follow_bakery",
+   "cam": "low",
+   "tgt": "dobbs",
+   "light": "day",
+   "id": "shot_009",
+   "frame0": 224,
+   "frames": 27,
+   "dur": 0.9,
+   "seed": 352,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "MR",
+    "DOBBS"
+   ],
+   "location": "follow_bakery",
+   "camera_move": "low",
+   "characters": [
+    "dobbs"
+   ],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s02",
+   "set": "follow_bakery",
+   "cam": "cu",
+   "tgt": "dobbs",
+   "light": "day",
+   "id": "shot_010",
+   "frame0": 251,
+   "frames": 23,
+   "dur": 0.767,
+   "seed": 271,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "AND",
+    "HE",
+    "HAS",
+    "NEVER",
+    "MISSED",
+    "A"
+   ],
+   "location": "follow_bakery",
+   "camera_move": "cu",
+   "characters": [
+    "dobbs"
+   ],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s02",
+   "card": "thirty",
+   "light": "day",
+   "id": "shot_011",
+   "frame0": 274,
+   "frames": 36,
+   "dur": 1.2,
+   "seed": 190,
+   "kind": "card",
+   "paper": true,
+   "caption_words": [
+    "HOUSE",
+    "NOT",
+    "ONCE",
+    "NOT"
+   ],
+   "location": "card",
+   "camera_move": "zoom",
+   "characters": [],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s02",
+   "set": "street",
+   "cam": "ecu",
+   "tgt": "eli",
+   "faces": {
+    "eli": "tired"
+   },
+   "light": "day",
+   "id": "shot_012",
+   "frame0": 310,
+   "frames": 29,
+   "dur": 0.967,
+   "seed": 109,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "IN",
+    "THIRTY",
+    "YEARS"
+   ],
+   "location": "street",
+   "camera_move": "ecu",
+   "characters": [
+    "eli"
+   ],
+   "emotion": "eli:tired"
+  },
+  {
+   "sentence": "s03",
+   "set": "street",
+   "cam": "wide",
+   "tgt": "dobbs",
+   "light": "day",
+   "id": "shot_013",
+   "frame0": 339,
+   "frames": 28,
+   "dur": 0.933,
+   "seed": 28,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "UNTIL",
+    "DAY",
+    "ONE",
+    "HE",
+    "WALKED"
+   ],
+   "location": "street",
+   "camera_move": "wide",
+   "characters": [
+    "dobbs"
+   ],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s03",
+   "set": "gate",
+   "cam": "low",
+   "tgt": "dobbs",
+   "light": "day",
+   "id": "shot_014",
+   "frame0": 367,
+   "frames": 32,
+   "dur": 1.067,
+   "seed": 947,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "UP",
+    "OUR",
+    "STREET",
+    "STOPPED"
+   ],
+   "location": "gate",
+   "camera_move": "low",
+   "characters": [
+    "dobbs"
+   ],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s03",
+   "set": "gate",
+   "cam": "prop",
+   "tgt": "mailbox",
+   "light": "day",
+   "id": "shot_015",
+   "frame0": 399,
+   "frames": 30,
+   "dur": 1.0,
+   "seed": 866,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "AT",
+    "OUR",
+    "GATE",
+    "LOOKED"
+   ],
+   "location": "gate",
+   "camera_move": "prop",
+   "characters": [],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s03",
+   "set": "gate",
+   "cam": "ecu",
+   "tgt": "dobbs",
+   "faces": {
+    "dobbs": "scared"
+   },
+   "acts": {
+    "dobbs": "head_turn"
+   },
+   "light": "day",
+   "id": "shot_016",
+   "frame0": 429,
+   "frames": 29,
+   "dur": 0.967,
+   "seed": 785,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "AT",
+    "OUR",
+    "MAILBOX"
+   ],
+   "location": "gate",
+   "camera_move": "ecu",
+   "characters": [
+    "dobbs"
+   ],
+   "emotion": "dobbs:scared"
+  },
+  {
+   "sentence": "s03",
+   "set": "street",
+   "cam": "chase",
+   "tgt": "dobbs",
+   "light": "day",
+   "id": "shot_017",
+   "frame0": 458,
+   "frames": 29,
+   "dur": 0.967,
+   "seed": 704,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "AND",
+    "KEPT",
+    "WALKING"
+   ],
+   "location": "street",
+   "camera_move": "chase",
+   "characters": [
+    "dobbs"
+   ],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s04",
+   "set": "street",
+   "cam": "ots",
+   "tgt": "dobbs",
+   "over": "eli",
+   "light": "day",
+   "id": "shot_018",
+   "frame0": 487,
+   "frames": 36,
+   "dur": 1.2,
+   "seed": 623,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "I",
+    "FIGURED",
+    "IT",
+    "WAS",
+    "A",
+    "MISTAKE"
+   ],
+   "location": "street",
+   "camera_move": "ots",
+   "characters": [
+    "dobbs"
+   ],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s04",
+   "set": "gate",
+   "cam": "high",
+   "tgt": "dobbs",
+   "light": "day",
+   "id": "shot_019",
+   "frame0": 523,
+   "frames": 18,
+   "dur": 0.6,
+   "seed": 542,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "DAY",
+    "TWO",
+    "SAME"
+   ],
+   "location": "gate",
+   "camera_move": "high",
+   "characters": [
+    "dobbs"
+   ],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s04",
+   "set": "cross",
+   "cam": "wide",
+   "tgt": "dobbs",
+   "faces": {
+    "dobbs": "scared"
+   },
+   "light": "day",
+   "id": "shot_020",
+   "frame0": 541,
+   "frames": 18,
+   "dur": 0.6,
+   "seed": 461,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "THING",
+    "DAY"
+   ],
+   "location": "cross",
+   "camera_move": "wide",
+   "characters": [
+    "dobbs"
+   ],
+   "emotion": "dobbs:scared"
+  },
+  {
+   "sentence": "s04",
+   "set": "cross",
+   "cam": "whip",
+   "tgt": "dobbs",
+   "faces": {
+    "dobbs": "scared"
+   },
+   "light": "day",
+   "id": "shot_021",
+   "frame0": 559,
+   "frames": 30,
+   "dur": 1.0,
+   "seed": 380,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "THREE",
+    "HE",
+    "CROSSED",
+    "THE",
+    "STREET"
+   ],
+   "location": "cross",
+   "camera_move": "whip",
+   "characters": [
+    "dobbs"
+   ],
+   "emotion": "dobbs:scared"
+  },
+  {
+   "sentence": "s04",
+   "set": "cross",
+   "cam": "cu",
+   "tgt": "eli",
+   "faces": {
+    "eli": "blank"
+   },
+   "light": "day",
+   "id": "shot_022",
+   "frame0": 589,
+   "frames": 27,
+   "dur": 0.9,
+   "seed": 299,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "TO",
+    "AVOID",
+    "US"
+   ],
+   "location": "cross",
+   "camera_move": "cu",
+   "characters": [
+    "eli"
+   ],
+   "emotion": "eli:blank"
+  },
+  {
+   "sentence": "s05",
+   "set": "street",
+   "cam": "track",
+   "tgt": "dobbs",
+   "faces": {
+    "dobbs": "scared"
+   },
+   "light": "day",
+   "id": "shot_023",
+   "frame0": 616,
+   "frames": 30,
+   "dur": 1.0,
+   "seed": 218,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "BY",
+    "DAY",
+    "TEN",
+    "HE",
+    "WAS",
+    "WALKING"
+   ],
+   "location": "street",
+   "camera_move": "track",
+   "characters": [
+    "dobbs"
+   ],
+   "emotion": "dobbs:scared"
+  },
+  {
+   "sentence": "s05",
+   "set": "runpast",
+   "cam": "chase",
+   "tgt": "dobbs",
+   "faces": {
+    "dobbs": "scared"
+   },
+   "light": "day",
+   "id": "shot_024",
+   "frame0": 646,
+   "frames": 27,
+   "dur": 0.9,
+   "seed": 137,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "FASTER",
+    "BY",
+    "DAY"
+   ],
+   "location": "runpast",
+   "camera_move": "chase",
+   "characters": [
+    "dobbs"
+   ],
+   "emotion": "dobbs:scared"
+  },
+  {
+   "sentence": "s05",
+   "set": "runpast",
+   "cam": "low",
+   "tgt": "dobbs",
+   "faces": {
+    "dobbs": "scared"
+   },
+   "light": "day",
+   "id": "shot_025",
+   "frame0": 673,
+   "frames": 23,
+   "dur": 0.767,
+   "seed": 56,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "TWENTY",
+    "HE",
+    "WAS"
+   ],
+   "location": "runpast",
+   "camera_move": "low",
+   "characters": [
+    "dobbs"
+   ],
+   "emotion": "dobbs:scared"
+  },
+  {
+   "sentence": "s05",
+   "card": "days",
+   "light": "day",
+   "id": "shot_026",
+   "frame0": 696,
+   "frames": 39,
+   "dur": 1.3,
+   "seed": 975,
+   "kind": "card",
+   "paper": true,
+   "caption_words": [
+    "RUNNING",
+    "BY",
+    "DAY",
+    "THIRTY"
+   ],
+   "location": "card",
+   "camera_move": "zoom",
+   "characters": [],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s05",
+   "set": "capdown",
+   "cam": "cu",
+   "tgt": "dobbs",
+   "capdown": true,
+   "light": "day",
+   "id": "shot_027",
+   "frame0": 735,
+   "frames": 29,
+   "dur": 0.967,
+   "seed": 894,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "HE",
+    "WORE",
+    "HIS",
+    "CAP",
+    "PULLED",
+    "DOWN"
+   ],
+   "location": "capdown",
+   "camera_move": "cu",
+   "characters": [
+    "dobbs"
+   ],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s05",
+   "set": "capdown",
+   "cam": "ecu",
+   "tgt": "dobbs",
+   "capdown": true,
+   "light": "day",
+   "id": "shot_028",
+   "frame0": 764,
+   "frames": 26,
+   "dur": 0.867,
+   "seed": 813,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "OVER",
+    "HIS",
+    "EYES"
+   ],
+   "location": "capdown",
+   "camera_move": "ecu",
+   "characters": [
+    "dobbs"
+   ],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s05",
+   "set": "capdown",
+   "cam": "prop",
+   "tgt": "eli_house",
+   "light": "day",
+   "id": "shot_029",
+   "frame0": 790,
+   "frames": 28,
+   "dur": 0.933,
+   "seed": 732,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "LIKE",
+    "HE",
+    "DIDN'T",
+    "WANT",
+    "OUR",
+    "HOUSE"
+   ],
+   "location": "capdown",
+   "camera_move": "prop",
+   "characters": [],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s05",
+   "set": "capdown",
+   "cam": "ots",
+   "tgt": "dobbs",
+   "over": "eli",
+   "capdown": true,
+   "light": "day",
+   "id": "shot_030",
+   "frame0": 818,
+   "frames": 31,
+   "dur": 1.033,
+   "seed": 651,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "TO",
+    "SEE",
+    "HIS",
+    "FACE"
+   ],
+   "location": "capdown",
+   "camera_move": "ots",
+   "characters": [
+    "dobbs"
+   ],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s06",
+   "set": "town",
+   "cam": "drone",
+   "tgt": "pt:0,4,0",
+   "light": "day",
+   "id": "shot_031",
+   "frame0": 849,
+   "frames": 32,
+   "dur": 1.067,
+   "seed": 570,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "EVERYONE",
+    "ELSE",
+    "GOT",
+    "MAIL"
+   ],
+   "location": "town",
+   "camera_move": "drone",
+   "characters": [],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s06",
+   "set": "bakery",
+   "cam": "ots",
+   "tgt": "baker",
+   "over": "dobbs",
+   "faces": {
+    "baker": "tired"
+   },
+   "light": "day",
+   "id": "shot_032",
+   "frame0": 881,
+   "frames": 31,
+   "dur": 1.033,
+   "seed": 489,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "THE",
+    "BAKER",
+    "GOT",
+    "BILLS",
+    "MRS"
+   ],
+   "location": "bakery",
+   "camera_move": "ots",
+   "characters": [
+    "baker"
+   ],
+   "emotion": "baker:tired"
+  },
+  {
+   "sentence": "s06",
+   "set": "bakery",
+   "cam": "ecu",
+   "tgt": "baker",
+   "faces": {
+    "baker": "tired"
+   },
+   "light": "day",
+   "id": "shot_033",
+   "frame0": 912,
+   "frames": 22,
+   "dur": 0.733,
+   "seed": 408,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "PELL",
+    "GOT"
+   ],
+   "location": "bakery",
+   "camera_move": "ecu",
+   "characters": [
+    "baker"
+   ],
+   "emotion": "baker:tired"
+  },
+  {
+   "sentence": "s06",
+   "set": "pell",
+   "cam": "cu",
+   "tgt": "pell",
+   "light": "day",
+   "id": "shot_034",
+   "frame0": 934,
+   "frames": 40,
+   "dur": 1.333,
+   "seed": 327,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "POSTCARDS",
+    "FROM",
+    "HER",
+    "SISTER"
+   ],
+   "location": "pell",
+   "camera_move": "cu",
+   "characters": [
+    "pell"
+   ],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s06",
+   "set": "pell",
+   "cam": "low",
+   "tgt": "pell",
+   "light": "day",
+   "id": "shot_035",
+   "frame0": 974,
+   "frames": 26,
+   "dur": 0.867,
+   "seed": 246,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "THE",
+    "MAYOR",
+    "GOT",
+    "A",
+    "LETTER",
+    "EVERY"
+   ],
+   "location": "pell",
+   "camera_move": "low",
+   "characters": [
+    "pell"
+   ],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s06",
+   "set": "mayor_st",
+   "cam": "wide",
+   "tgt": "mayor",
+   "light": "day",
+   "id": "shot_036",
+   "frame0": 1000,
+   "frames": 28,
+   "dur": 0.933,
+   "seed": 165,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "SINGLE",
+    "MORNING",
+    "AND"
+   ],
+   "location": "mayor_st",
+   "camera_move": "wide",
+   "characters": [
+    "mayor"
+   ],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s06",
+   "set": "mayor_st",
+   "cam": "push",
+   "tgt": "mayor",
+   "light": "day",
+   "id": "shot_037",
+   "frame0": 1028,
+   "frames": 26,
+   "dur": 0.867,
+   "seed": 84,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "HE",
+    "ALWAYS",
+    "READ",
+    "IT",
+    "STANDING"
+   ],
+   "location": "mayor_st",
+   "camera_move": "push",
+   "characters": [
+    "mayor"
+   ],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s06",
+   "set": "mayor_st",
+   "cam": "ecu",
+   "tgt": "mayor",
+   "faces": {
+    "mayor": "shocked"
+   },
+   "light": "day",
+   "id": "shot_038",
+   "frame0": 1054,
+   "frames": 34,
+   "dur": 1.133,
+   "seed": 3,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "IN",
+    "THE",
+    "STREET",
+    "AND",
+    "HE",
+    "ALWAYS"
+   ],
+   "location": "mayor_st",
+   "camera_move": "ecu",
+   "characters": [
+    "mayor"
+   ],
+   "emotion": "mayor:shocked"
+  },
+  {
+   "sentence": "s06",
+   "set": "mayor_st",
+   "cam": "dutch",
+   "tgt": "mayor",
+   "faces": {
+    "mayor": "scared"
+   },
+   "light": "day",
+   "id": "shot_039",
+   "frame0": 1088,
+   "frames": 28,
+   "dur": 0.933,
+   "seed": 922,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "WENT",
+    "PALE"
+   ],
+   "location": "mayor_st",
+   "camera_move": "dutch",
+   "characters": [
+    "mayor"
+   ],
+   "emotion": "mayor:scared"
+  },
+  {
+   "sentence": "s07",
+   "set": "mailbox",
+   "cam": "push",
+   "tgt": "mailbox",
+   "light": "day",
+   "id": "shot_040",
+   "frame0": 1116,
+   "frames": 39,
+   "dur": 1.3,
+   "seed": 841,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "OUR",
+    "MAILBOX",
+    "GOT",
+    "NOTHING"
+   ],
+   "location": "mailbox",
+   "camera_move": "push",
+   "characters": [],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s07",
+   "set": "mailbox",
+   "cam": "prop",
+   "tgt": "mailbox_in",
+   "paper": false,
+   "light": "day",
+   "id": "shot_041",
+   "frame0": 1155,
+   "frames": 30,
+   "dur": 1.0,
+   "seed": 760,
+   "kind": "render",
+   "caption_words": [
+    "JUST",
+    "DUST",
+    "AND",
+    "ONE",
+    "VERY"
+   ],
+   "location": "mailbox",
+   "camera_move": "prop",
+   "characters": [],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s07",
+   "set": "mailbox",
+   "cam": "cu",
+   "tgt": "eli",
+   "faces": {
+    "eli": "tired"
+   },
+   "light": "day",
+   "id": "shot_042",
+   "frame0": 1185,
+   "frames": 35,
+   "dur": 1.167,
+   "seed": 679,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "CONFUSED",
+    "SPIDER"
+   ],
+   "location": "mailbox",
+   "camera_move": "cu",
+   "characters": [
+    "eli"
+   ],
+   "emotion": "eli:tired"
+  },
+  {
+   "sentence": "s08",
+   "set": "kitchen",
+   "cam": "wide",
+   "tgt": "eli",
+   "light": "day",
+   "id": "shot_043",
+   "frame0": 1220,
+   "frames": 24,
+   "dur": 0.8,
+   "seed": 598,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "SO",
+    "I",
+    "ASKED",
+    "MOM"
+   ],
+   "location": "kitchen",
+   "camera_move": "wide",
+   "characters": [
+    "eli"
+   ],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s08",
+   "set": "kitchen",
+   "cam": "cu",
+   "tgt": "mom",
+   "acts": {
+    "mom": "talk"
+   },
+   "light": "day",
+   "id": "shot_044",
+   "frame0": 1244,
+   "frames": 26,
+   "dur": 0.867,
+   "seed": 517,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "SHE",
+    "SAID",
+    "MAYBE",
+    "NOBODY"
+   ],
+   "location": "kitchen",
+   "camera_move": "cu",
+   "characters": [
+    "mom"
+   ],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s08",
+   "set": "kitchen",
+   "cam": "ots",
+   "tgt": "mom",
+   "over": "eli",
+   "light": "day",
+   "id": "shot_045",
+   "frame0": 1270,
+   "frames": 28,
+   "dur": 0.933,
+   "seed": 436,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "WRITES",
+    "TO",
+    "US"
+   ],
+   "location": "kitchen",
+   "camera_move": "ots",
+   "characters": [
+    "mom"
+   ],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s08",
+   "set": "kitchen",
+   "cam": "ecu",
+   "tgt": "dad",
+   "acts": {
+    "dad": "talk"
+   },
+   "light": "day",
+   "id": "shot_046",
+   "frame0": 1298,
+   "frames": 20,
+   "dur": 0.667,
+   "seed": 355,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "DAD",
+    "SAID",
+    "EAT"
+   ],
+   "location": "kitchen",
+   "camera_move": "ecu",
+   "characters": [
+    "dad"
+   ],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s08",
+   "set": "kitchen",
+   "cam": "high",
+   "tgt": "eli",
+   "light": "day",
+   "id": "shot_047",
+   "frame0": 1318,
+   "frames": 27,
+   "dur": 0.9,
+   "seed": 274,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "YOUR",
+    "SOUP",
+    "WHICH",
+    "IS"
+   ],
+   "location": "kitchen",
+   "camera_move": "high",
+   "characters": [
+    "eli"
+   ],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s08",
+   "set": "kitchen",
+   "cam": "ecu",
+   "tgt": "dad",
+   "faces": {
+    "dad": "tired"
+   },
+   "light": "day",
+   "id": "shot_048",
+   "frame0": 1345,
+   "frames": 25,
+   "dur": 0.833,
+   "seed": 193,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "WHAT",
+    "DAD",
+    "SAYS",
+    "WHEN"
+   ],
+   "location": "kitchen",
+   "camera_move": "ecu",
+   "characters": [
+    "dad"
+   ],
+   "emotion": "dad:tired"
+  },
+  {
+   "sentence": "s08",
+   "set": "kitchen",
+   "cam": "ecu",
+   "tgt": "eli",
+   "faces": {
+    "eli": "blank"
+   },
+   "light": "day",
+   "id": "shot_049",
+   "frame0": 1370,
+   "frames": 23,
+   "dur": 0.767,
+   "seed": 112,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "HE'S",
+    "LYING"
+   ],
+   "location": "kitchen",
+   "camera_move": "ecu",
+   "characters": [
+    "eli"
+   ],
+   "emotion": "eli:blank"
+  },
+  {
+   "sentence": "s09",
+   "set": "kitchen",
+   "cam": "dutch",
+   "tgt": "eli",
+   "faces": {
+    "eli": "blank"
+   },
+   "light": "day",
+   "id": "shot_050",
+   "frame0": 1393,
+   "frames": 23,
+   "dur": 0.767,
+   "seed": 31,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "THAT'S",
+    "WHEN",
+    "I",
+    "KNEW",
+    "SOMETHING"
+   ],
+   "location": "kitchen",
+   "camera_move": "dutch",
+   "characters": [
+    "eli"
+   ],
+   "emotion": "eli:blank"
+  },
+  {
+   "sentence": "s09",
+   "set": "street",
+   "cam": "cu",
+   "tgt": "eli",
+   "light": "day",
+   "id": "shot_051",
+   "frame0": 1416,
+   "frames": 22,
+   "dur": 0.733,
+   "seed": 950,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "WAS",
+    "UP",
+    "SO",
+    "I"
+   ],
+   "location": "street",
+   "camera_move": "cu",
+   "characters": [
+    "eli"
+   ],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s09",
+   "set": "street",
+   "cam": "push",
+   "tgt": "eli",
+   "light": "day",
+   "id": "shot_052",
+   "frame0": 1438,
+   "frames": 26,
+   "dur": 0.867,
+   "seed": 869,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "MADE",
+    "A",
+    "PLAN"
+   ],
+   "location": "street",
+   "camera_move": "push",
+   "characters": [
+    "eli"
+   ],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s10",
+   "card": "plan1",
+   "light": "golden",
+   "id": "shot_053",
+   "frame0": 1464,
+   "frames": 28,
+   "dur": 0.933,
+   "seed": 788,
+   "kind": "card",
+   "paper": true,
+   "caption_words": [
+    "PLAN",
+    "ONE",
+    "ASK",
+    "HIM"
+   ],
+   "location": "card",
+   "camera_move": "zoom",
+   "characters": [],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s10",
+   "set": "corner",
+   "cam": "low",
+   "tgt": "eli",
+   "light": "golden",
+   "id": "shot_054",
+   "frame0": 1492,
+   "frames": 30,
+   "dur": 1.0,
+   "seed": 707,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "DIRECTLY",
+    "I",
+    "WAITED"
+   ],
+   "location": "corner",
+   "camera_move": "low",
+   "characters": [
+    "eli"
+   ],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s10",
+   "set": "corner",
+   "cam": "wide",
+   "tgt": "eli",
+   "light": "golden",
+   "id": "shot_055",
+   "frame0": 1522,
+   "frames": 27,
+   "dur": 0.9,
+   "seed": 626,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "AT",
+    "THE",
+    "CORNER",
+    "AT",
+    "SIX"
+   ],
+   "location": "corner",
+   "camera_move": "wide",
+   "characters": [
+    "eli"
+   ],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s10",
+   "set": "corner",
+   "cam": "ecu",
+   "tgt": "dobbs",
+   "faces": {
+    "dobbs": "shocked"
+   },
+   "light": "golden",
+   "id": "shot_056",
+   "frame0": 1549,
+   "frames": 29,
+   "dur": 0.967,
+   "seed": 545,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "A.M",
+    "HE",
+    "SAW",
+    "ME",
+    "FROM",
+    "A",
+    "BLOCK"
+   ],
+   "location": "corner",
+   "camera_move": "ecu",
+   "characters": [
+    "dobbs"
+   ],
+   "emotion": "dobbs:shocked"
+  },
+  {
+   "sentence": "s10",
+   "set": "corner_run",
+   "cam": "chase",
+   "tgt": "dobbs",
+   "faces": {
+    "dobbs": "scared"
+   },
+   "light": "golden",
+   "id": "shot_057",
+   "frame0": 1578,
+   "frames": 20,
+   "dur": 0.667,
+   "seed": 464,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "AWAY",
+    "TURNED"
+   ],
+   "location": "corner_run",
+   "camera_move": "chase",
+   "characters": [
+    "dobbs"
+   ],
+   "emotion": "dobbs:scared"
+  },
+  {
+   "sentence": "s10",
+   "set": "corner_run",
+   "cam": "track",
+   "tgt": "dobbs",
+   "faces": {
+    "dobbs": "scared"
+   },
+   "light": "golden",
+   "id": "shot_058",
+   "frame0": 1598,
+   "frames": 36,
+   "dur": 1.2,
+   "seed": 383,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "AROUND",
+    "AND",
+    "RAN",
+    "A"
+   ],
+   "location": "corner_run",
+   "camera_move": "track",
+   "characters": [
+    "dobbs"
+   ],
+   "emotion": "dobbs:scared"
+  },
+  {
+   "sentence": "s10",
+   "set": "corner_run",
+   "cam": "low",
+   "tgt": "dobbs",
+   "faces": {
+    "dobbs": "scared"
+   },
+   "light": "golden",
+   "id": "shot_059",
+   "frame0": 1634,
+   "frames": 24,
+   "dur": 0.8,
+   "seed": 302,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "GROWN",
+    "MAN",
+    "WITH",
+    "A"
+   ],
+   "location": "corner_run",
+   "camera_move": "low",
+   "characters": [
+    "dobbs"
+   ],
+   "emotion": "dobbs:scared"
+  },
+  {
+   "sentence": "s10",
+   "set": "corner_run",
+   "cam": "high",
+   "tgt": "dobbs",
+   "faces": {
+    "dobbs": "scared"
+   },
+   "light": "golden",
+   "id": "shot_060",
+   "frame0": 1658,
+   "frames": 28,
+   "dur": 0.933,
+   "seed": 221,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "MAILBAG",
+    "THE",
+    "SIZE",
+    "OF"
+   ],
+   "location": "corner_run",
+   "camera_move": "high",
+   "characters": [
+    "dobbs"
+   ],
+   "emotion": "dobbs:scared"
+  },
+  {
+   "sentence": "s10",
+   "set": "corner",
+   "cam": "cu",
+   "tgt": "eli",
+   "faces": {
+    "eli": "tired"
+   },
+   "light": "golden",
+   "id": "shot_061",
+   "frame0": 1686,
+   "frames": 33,
+   "dur": 1.1,
+   "seed": 140,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "A",
+    "SHEEP",
+    "RUNNING"
+   ],
+   "location": "corner",
+   "camera_move": "cu",
+   "characters": [
+    "eli"
+   ],
+   "emotion": "eli:tired"
+  },
+  {
+   "sentence": "s11",
+   "card": "plan2",
+   "light": "day",
+   "id": "shot_062",
+   "frame0": 1719,
+   "frames": 20,
+   "dur": 0.667,
+   "seed": 59,
+   "kind": "card",
+   "paper": true,
+   "caption_words": [
+    "PLAN",
+    "TWO",
+    "FOLLOW"
+   ],
+   "location": "card",
+   "camera_move": "zoom",
+   "characters": [],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s11",
+   "set": "follow_bakery",
+   "cam": "ots",
+   "tgt": "dobbs",
+   "over": "eli",
+   "light": "day",
+   "id": "shot_063",
+   "frame0": 1739,
+   "frames": 20,
+   "dur": 0.667,
+   "seed": 978,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "HIM"
+   ],
+   "location": "follow_bakery",
+   "camera_move": "ots",
+   "characters": [
+    "dobbs"
+   ],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s12",
+   "set": "follow_bakery",
+   "cam": "chase",
+   "tgt": "dobbs",
+   "light": "day",
+   "id": "shot_064",
+   "frame0": 1759,
+   "frames": 27,
+   "dur": 0.9,
+   "seed": 897,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "HE",
+    "WENT",
+    "TO",
+    "THE",
+    "BAKERY"
+   ],
+   "location": "follow_bakery",
+   "camera_move": "chase",
+   "characters": [
+    "dobbs"
+   ],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s12",
+   "set": "bakery",
+   "cam": "prop",
+   "tgt": "bakery_sign",
+   "light": "day",
+   "id": "shot_065",
+   "frame0": 1786,
+   "frames": 18,
+   "dur": 0.6,
+   "seed": 816,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "DROPPED",
+    "A",
+    "LETTER"
+   ],
+   "location": "bakery",
+   "camera_move": "prop",
+   "characters": [],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s12",
+   "set": "follow_mill",
+   "cam": "wide",
+   "tgt": "mill",
+   "light": "day",
+   "id": "shot_066",
+   "frame0": 1804,
+   "frames": 18,
+   "dur": 0.6,
+   "seed": 735,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "THE",
+    "MILL"
+   ],
+   "location": "follow_mill",
+   "camera_move": "wide",
+   "characters": [],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s12",
+   "set": "follow_mill",
+   "cam": "low",
+   "tgt": "dobbs",
+   "acts": {
+    "dobbs": "give"
+   },
+   "light": "day",
+   "id": "shot_067",
+   "frame0": 1822,
+   "frames": 18,
+   "dur": 0.6,
+   "seed": 654,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "DROPPED",
+    "A",
+    "LETTER"
+   ],
+   "location": "follow_mill",
+   "camera_move": "low",
+   "characters": [
+    "dobbs"
+   ],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s12",
+   "set": "follow_hall",
+   "cam": "wide",
+   "tgt": "hall_sign",
+   "light": "day",
+   "id": "shot_068",
+   "frame0": 1840,
+   "frames": 18,
+   "dur": 0.6,
+   "seed": 573,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "TOWN",
+    "HALL",
+    "DROPPED"
+   ],
+   "location": "follow_hall",
+   "camera_move": "wide",
+   "characters": [],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s12",
+   "set": "follow_hall",
+   "cam": "chase",
+   "tgt": "dobbs",
+   "light": "day",
+   "id": "shot_069",
+   "frame0": 1858,
+   "frames": 18,
+   "dur": 0.6,
+   "seed": 492,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "THREE"
+   ],
+   "location": "follow_hall",
+   "camera_move": "chase",
+   "characters": [
+    "dobbs"
+   ],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s12",
+   "set": "follow_hall",
+   "cam": "cu",
+   "tgt": "eli",
+   "light": "day",
+   "id": "shot_070",
+   "frame0": 1876,
+   "frames": 12,
+   "dur": 0.4,
+   "seed": 411,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [],
+   "location": "follow_hall",
+   "camera_move": "cu",
+   "characters": [
+    "eli"
+   ],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s13",
+   "set": "road_end",
+   "cam": "wide",
+   "tgt": "dobbs",
+   "light": "dusk",
+   "id": "shot_071",
+   "frame0": 1888,
+   "frames": 28,
+   "dur": 0.933,
+   "seed": 330,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "THEN",
+    "HE",
+    "STOPPED",
+    "AT",
+    "THE",
+    "END",
+    "OF"
+   ],
+   "location": "road_end",
+   "camera_move": "wide",
+   "characters": [
+    "dobbs"
+   ],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s13",
+   "set": "road_end",
+   "cam": "low",
+   "tgt": "dobbs",
+   "light": "dusk",
+   "id": "shot_072",
+   "frame0": 1916,
+   "frames": 32,
+   "dur": 1.067,
+   "seed": 249,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "THE",
+    "ROAD",
+    "OPENED",
+    "HIS",
+    "BAG"
+   ],
+   "location": "road_end",
+   "camera_move": "low",
+   "characters": [
+    "dobbs"
+   ],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s13",
+   "set": "road_end",
+   "cam": "prop",
+   "tgt": "dobbs_held_env",
+   "paper": true,
+   "light": "dusk",
+   "id": "shot_073",
+   "frame0": 1948,
+   "frames": 25,
+   "dur": 0.833,
+   "seed": 168,
+   "kind": "render",
+   "caption_words": [
+    "AND",
+    "PULLED",
+    "OUT",
+    "ONE"
+   ],
+   "location": "road_end",
+   "camera_move": "prop",
+   "characters": [],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s13",
+   "set": "road_end",
+   "cam": "ecu",
+   "tgt": "dobbs_held_env",
+   "paper": true,
+   "light": "dusk",
+   "id": "shot_074",
+   "frame0": 1973,
+   "frames": 27,
+   "dur": 0.9,
+   "seed": 87,
+   "kind": "render",
+   "caption_words": [
+    "MORE",
+    "ENVELOPE",
+    "CREAM"
+   ],
+   "location": "road_end",
+   "camera_move": "ecu",
+   "characters": [],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s13",
+   "set": "road_end",
+   "cam": "ecu",
+   "tgt": "dobbs",
+   "faces": {
+    "dobbs": "scared"
+   },
+   "light": "dusk",
+   "id": "shot_075",
+   "frame0": 2000,
+   "frames": 29,
+   "dur": 0.967,
+   "seed": 6,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "COLORED",
+    "RED",
+    "WAX"
+   ],
+   "location": "road_end",
+   "camera_move": "ecu",
+   "characters": [
+    "dobbs"
+   ],
+   "emotion": "dobbs:scared"
+  },
+  {
+   "sentence": "s13",
+   "set": "road_end",
+   "cam": "ots",
+   "tgt": "dobbs",
+   "over": "eli",
+   "light": "dusk",
+   "id": "shot_076",
+   "frame0": 2029,
+   "frames": 32,
+   "dur": 1.067,
+   "seed": 925,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "SEAL",
+    "HE",
+    "STARED",
+    "AT",
+    "IT"
+   ],
+   "location": "road_end",
+   "camera_move": "ots",
+   "characters": [
+    "dobbs"
+   ],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s13",
+   "set": "road_end",
+   "cam": "orbit",
+   "tgt": "dobbs",
+   "light": "dusk",
+   "id": "shot_077",
+   "frame0": 2061,
+   "frames": 29,
+   "dur": 0.967,
+   "seed": 844,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "FOR",
+    "A",
+    "LONG",
+    "TIME"
+   ],
+   "location": "road_end",
+   "camera_move": "orbit",
+   "characters": [
+    "dobbs"
+   ],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s14",
+   "set": "road_end",
+   "cam": "cu",
+   "tgt": "dobbs",
+   "acts": {
+    "dobbs": "head_turn"
+   },
+   "light": "dusk",
+   "id": "shot_078",
+   "frame0": 2090,
+   "frames": 29,
+   "dur": 0.967,
+   "seed": 763,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "THEN",
+    "HE",
+    "LOOKED",
+    "STRAIGHT",
+    "AT",
+    "OUR"
+   ],
+   "location": "road_end",
+   "camera_move": "cu",
+   "characters": [
+    "dobbs"
+   ],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s14",
+   "set": "road_end",
+   "cam": "prop",
+   "tgt": "eli_house",
+   "light": "dusk",
+   "id": "shot_079",
+   "frame0": 2119,
+   "frames": 37,
+   "dur": 1.233,
+   "seed": 682,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "HOUSE",
+    "AND",
+    "WHISPERED"
+   ],
+   "location": "road_end",
+   "camera_move": "prop",
+   "characters": [],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s14",
+   "set": "road_end",
+   "cam": "ecu",
+   "tgt": "dobbs",
+   "acts": {
+    "dobbs": "whisper"
+   },
+   "faces": {
+    "dobbs": "scared"
+   },
+   "light": "dusk",
+   "id": "shot_080",
+   "frame0": 2156,
+   "frames": 21,
+   "dur": 0.7,
+   "seed": 601,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "NOT",
+    "YET"
+   ],
+   "location": "road_end",
+   "camera_move": "ecu",
+   "characters": [
+    "dobbs"
+   ],
+   "emotion": "dobbs:scared"
+  },
+  {
+   "sentence": "s15",
+   "set": "road_end",
+   "cam": "prop",
+   "tgt": "dobbs_held_env",
+   "acts": {
+    "dobbs": "hold"
+   },
+   "paper": true,
+   "light": "dusk",
+   "id": "shot_081",
+   "frame0": 2177,
+   "frames": 26,
+   "dur": 0.867,
+   "seed": 520,
+   "kind": "render",
+   "caption_words": [
+    "HE",
+    "PUT",
+    "THE",
+    "LETTER",
+    "BACK",
+    "AND"
+   ],
+   "location": "road_end",
+   "camera_move": "prop",
+   "characters": [
+    "dobbs"
+   ],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s15",
+   "set": "road_end",
+   "cam": "chase",
+   "tgt": "dobbs",
+   "acts": {
+    "dobbs": "walk"
+   },
+   "light": "dusk",
+   "id": "shot_082",
+   "frame0": 2203,
+   "frames": 26,
+   "dur": 0.867,
+   "seed": 439,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "WALKED",
+    "AWAY"
+   ],
+   "location": "road_end",
+   "camera_move": "chase",
+   "characters": [
+    "dobbs"
+   ],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s16",
+   "card": "notyet",
+   "light": "dusk",
+   "id": "shot_083",
+   "frame0": 2229,
+   "frames": 29,
+   "dur": 0.967,
+   "seed": 358,
+   "kind": "card",
+   "paper": true,
+   "caption_words": [
+    "NOT",
+    "YET?",
+    "WHAT",
+    "DOES",
+    "NOT"
+   ],
+   "location": "card",
+   "camera_move": "zoom",
+   "characters": [],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s16",
+   "set": "road_end",
+   "cam": "ecu",
+   "tgt": "eli",
+   "faces": {
+    "eli": "shocked"
+   },
+   "light": "dusk",
+   "id": "shot_084",
+   "frame0": 2258,
+   "frames": 24,
+   "dur": 0.8,
+   "seed": 277,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "YET",
+    "MEAN?"
+   ],
+   "location": "road_end",
+   "camera_move": "ecu",
+   "characters": [
+    "eli"
+   ],
+   "emotion": "eli:shocked"
+  },
+  {
+   "sentence": "s17",
+   "set": "night_st",
+   "cam": "high",
+   "tgt": "eli",
+   "light": "night",
+   "id": "shot_085",
+   "frame0": 2282,
+   "frames": 23,
+   "dur": 0.767,
+   "seed": 196,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "THAT",
+    "NIGHT",
+    "I",
+    "SNUCK",
+    "OUT"
+   ],
+   "location": "night_st",
+   "camera_move": "high",
+   "characters": [
+    "eli"
+   ],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s17",
+   "set": "night_st",
+   "cam": "track",
+   "tgt": "eli",
+   "light": "night",
+   "id": "shot_086",
+   "frame0": 2305,
+   "frames": 28,
+   "dur": 0.933,
+   "seed": 115,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "MR",
+    "DOBBS"
+   ],
+   "location": "night_st",
+   "camera_move": "track",
+   "characters": [
+    "eli"
+   ],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s17",
+   "set": "dobbs_ext",
+   "cam": "wide",
+   "tgt": "post_office",
+   "light": "night",
+   "id": "shot_087",
+   "frame0": 2333,
+   "frames": 23,
+   "dur": 0.767,
+   "seed": 34,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "LIVES",
+    "IN",
+    "THE",
+    "TINY",
+    "BLUE"
+   ],
+   "location": "dobbs_ext",
+   "camera_move": "wide",
+   "characters": [],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s17",
+   "set": "dobbs_ext",
+   "cam": "push",
+   "tgt": "dobbs_house",
+   "light": "night",
+   "id": "shot_088",
+   "frame0": 2356,
+   "frames": 25,
+   "dur": 0.833,
+   "seed": 953,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "HOUSE",
+    "BEHIND",
+    "THE",
+    "POST"
+   ],
+   "location": "dobbs_ext",
+   "camera_move": "push",
+   "characters": [],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s17",
+   "set": "dobbs_ext",
+   "cam": "low",
+   "tgt": "eli",
+   "light": "night",
+   "id": "shot_089",
+   "frame0": 2381,
+   "frames": 28,
+   "dur": 0.933,
+   "seed": 872,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "OFFICE",
+    "THE",
+    "LIGHT",
+    "WAS"
+   ],
+   "location": "dobbs_ext",
+   "camera_move": "low",
+   "characters": [
+    "eli"
+   ],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s17",
+   "set": "window",
+   "cam": "ots",
+   "tgt": "dobbs_window",
+   "over": "eli",
+   "light": "night",
+   "id": "shot_090",
+   "frame0": 2409,
+   "frames": 25,
+   "dur": 0.833,
+   "seed": 791,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "ON",
+    "I",
+    "CREPT",
+    "UP"
+   ],
+   "location": "window",
+   "camera_move": "ots",
+   "characters": [],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s17",
+   "set": "window",
+   "cam": "ecu",
+   "tgt": "eli",
+   "light": "night",
+   "id": "shot_091",
+   "frame0": 2434,
+   "frames": 27,
+   "dur": 0.9,
+   "seed": 710,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "TO",
+    "THE",
+    "WINDOW"
+   ],
+   "location": "window",
+   "camera_move": "ecu",
+   "characters": [
+    "eli"
+   ],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s18",
+   "set": "window",
+   "cam": "ots",
+   "tgt": "env_wall",
+   "over": "eli",
+   "paper": true,
+   "light": "night",
+   "id": "shot_092",
+   "frame0": 2461,
+   "frames": 26,
+   "dur": 0.867,
+   "seed": 629,
+   "kind": "render",
+   "caption_words": [
+    "INSIDE",
+    "THE",
+    "WALLS",
+    "WERE"
+   ],
+   "location": "window",
+   "camera_move": "ots",
+   "characters": [],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s18",
+   "set": "int",
+   "cam": "pan",
+   "tgt": "env_wall",
+   "paper": true,
+   "light": "night",
+   "id": "shot_093",
+   "frame0": 2487,
+   "frames": 25,
+   "dur": 0.833,
+   "seed": 548,
+   "kind": "render",
+   "caption_words": [
+    "COVERED",
+    "IN",
+    "ENVELOPES"
+   ],
+   "location": "int",
+   "camera_move": "pan",
+   "characters": [],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s18",
+   "set": "int",
+   "cam": "orbit_room",
+   "tgt": "pt:40,30,1.7",
+   "paper": true,
+   "light": "night",
+   "id": "shot_094",
+   "frame0": 2512,
+   "frames": 24,
+   "dur": 0.8,
+   "seed": 467,
+   "kind": "render",
+   "caption_words": [
+    "HUNDREDS",
+    "MAYBE"
+   ],
+   "location": "int",
+   "camera_move": "orbit_room",
+   "characters": [],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s18",
+   "set": "int",
+   "cam": "tilt_wall",
+   "tgt": "env_wall_back",
+   "paper": true,
+   "light": "night",
+   "id": "shot_095",
+   "frame0": 2536,
+   "frames": 27,
+   "dur": 0.9,
+   "seed": 386,
+   "kind": "render",
+   "caption_words": [
+    "THOUSANDS",
+    "EVERY",
+    "ONE"
+   ],
+   "location": "int",
+   "camera_move": "tilt_wall",
+   "characters": [],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s18",
+   "set": "int",
+   "cam": "ecu_wall",
+   "tgt": "env_wall",
+   "paper": true,
+   "light": "night",
+   "id": "shot_096",
+   "frame0": 2563,
+   "frames": 29,
+   "dur": 0.967,
+   "seed": 305,
+   "kind": "render",
+   "caption_words": [
+    "CREAM",
+    "COLORED",
+    "EVERY"
+   ],
+   "location": "int",
+   "camera_move": "ecu_wall",
+   "characters": [],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s18",
+   "set": "window",
+   "cam": "ecu",
+   "tgt": "eli",
+   "faces": {
+    "eli": "shocked"
+   },
+   "light": "night",
+   "id": "shot_097",
+   "frame0": 2592,
+   "frames": 23,
+   "dur": 0.767,
+   "seed": 224,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "ONE",
+    "SEALED",
+    "IN"
+   ],
+   "location": "window",
+   "camera_move": "ecu",
+   "characters": [
+    "eli"
+   ],
+   "emotion": "eli:shocked"
+  },
+  {
+   "sentence": "s18",
+   "set": "int",
+   "cam": "push",
+   "tgt": "env_wall_back",
+   "paper": true,
+   "light": "night",
+   "id": "shot_098",
+   "frame0": 2615,
+   "frames": 27,
+   "dur": 0.9,
+   "seed": 143,
+   "kind": "render",
+   "caption_words": [
+    "RED",
+    "WAX"
+   ],
+   "location": "int",
+   "camera_move": "push",
+   "characters": [],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s19",
+   "set": "int",
+   "cam": "ecu_wall",
+   "tgt": "env_wall_back",
+   "paper": true,
+   "light": "night",
+   "id": "shot_099",
+   "frame0": 2642,
+   "frames": 26,
+   "dur": 0.867,
+   "seed": 62,
+   "kind": "render",
+   "caption_words": [
+    "AND",
+    "EVERY",
+    "ONE",
+    "HAD",
+    "A",
+    "NAME"
+   ],
+   "location": "int",
+   "camera_move": "ecu_wall",
+   "characters": [],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s19",
+   "set": "bakery",
+   "cam": "ecu",
+   "tgt": "baker",
+   "light": "dusk",
+   "id": "shot_100",
+   "frame0": 2668,
+   "frames": 18,
+   "dur": 0.6,
+   "seed": 981,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "ON",
+    "IT",
+    "THE",
+    "BAKER"
+   ],
+   "location": "bakery",
+   "camera_move": "ecu",
+   "characters": [
+    "baker"
+   ],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s19",
+   "set": "pell",
+   "cam": "ecu",
+   "tgt": "pell",
+   "light": "dusk",
+   "id": "shot_101",
+   "frame0": 2686,
+   "frames": 29,
+   "dur": 0.967,
+   "seed": 900,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "MRS"
+   ],
+   "location": "pell",
+   "camera_move": "ecu",
+   "characters": [
+    "pell"
+   ],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s19",
+   "set": "mayor_st",
+   "cam": "ecu",
+   "tgt": "mayor",
+   "light": "dusk",
+   "id": "shot_102",
+   "frame0": 2715,
+   "frames": 28,
+   "dur": 0.933,
+   "seed": 819,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "PELL",
+    "THE",
+    "MAYOR"
+   ],
+   "location": "mayor_st",
+   "camera_move": "ecu",
+   "characters": [
+    "mayor"
+   ],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s19",
+   "set": "int",
+   "cam": "ecu_wall",
+   "tgt": "env_wall",
+   "paper": true,
+   "light": "night",
+   "id": "shot_103",
+   "frame0": 2743,
+   "frames": 20,
+   "dur": 0.667,
+   "seed": 738,
+   "kind": "render",
+   "caption_words": [
+    "EVEN",
+    "MR"
+   ],
+   "location": "int",
+   "camera_move": "ecu_wall",
+   "characters": [],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s19",
+   "set": "window",
+   "cam": "cu",
+   "tgt": "eli",
+   "faces": {
+    "eli": "scared"
+   },
+   "light": "night",
+   "id": "shot_104",
+   "frame0": 2763,
+   "frames": 25,
+   "dur": 0.833,
+   "seed": 657,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "DOBBS",
+    "HIMSELF"
+   ],
+   "location": "window",
+   "camera_move": "cu",
+   "characters": [
+    "eli"
+   ],
+   "emotion": "eli:scared"
+  },
+  {
+   "sentence": "s20",
+   "set": "int",
+   "cam": "push",
+   "tgt": "shelf",
+   "paper": true,
+   "light": "night",
+   "id": "shot_105",
+   "frame0": 2788,
+   "frames": 27,
+   "dur": 0.9,
+   "seed": 576,
+   "kind": "render",
+   "caption_words": [
+    "THERE",
+    "WAS",
+    "A",
+    "WHOLE",
+    "SHELF",
+    "WITH",
+    "THE"
+   ],
+   "location": "int",
+   "camera_move": "push",
+   "characters": [],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s20",
+   "set": "int",
+   "cam": "prop",
+   "tgt": "shelf",
+   "paper": true,
+   "light": "night",
+   "id": "shot_106",
+   "frame0": 2815,
+   "frames": 25,
+   "dur": 0.833,
+   "seed": 495,
+   "kind": "render",
+   "caption_words": [
+    "NAME",
+    "OF",
+    "EVERY",
+    "KID",
+    "IN"
+   ],
+   "location": "int",
+   "camera_move": "prop",
+   "characters": [],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s20",
+   "set": "int",
+   "cam": "shelf_pan",
+   "tgt": "shelf",
+   "paper": true,
+   "light": "night",
+   "id": "shot_107",
+   "frame0": 2840,
+   "frames": 29,
+   "dur": 0.967,
+   "seed": 414,
+   "kind": "render",
+   "caption_words": [
+    "TOWN",
+    "CLARA"
+   ],
+   "location": "int",
+   "camera_move": "shelf_pan",
+   "characters": [],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s20",
+   "set": "int",
+   "cam": "ecu_wall",
+   "tgt": "shelf",
+   "paper": true,
+   "light": "night",
+   "id": "shot_108",
+   "frame0": 2869,
+   "frames": 26,
+   "dur": 0.867,
+   "seed": 333,
+   "kind": "render",
+   "caption_words": [
+    "THEO",
+    "MAYA"
+   ],
+   "location": "int",
+   "camera_move": "ecu_wall",
+   "characters": [],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s20",
+   "set": "window",
+   "cam": "ecu",
+   "tgt": "eli",
+   "faces": {
+    "eli": "scared"
+   },
+   "light": "night",
+   "id": "shot_109",
+   "frame0": 2895,
+   "frames": 36,
+   "dur": 1.2,
+   "seed": 252,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "JONAH",
+    "ALL",
+    "OF",
+    "THEM"
+   ],
+   "location": "window",
+   "camera_move": "ecu",
+   "characters": [
+    "eli"
+   ],
+   "emotion": "eli:scared"
+  },
+  {
+   "sentence": "s21",
+   "set": "int",
+   "cam": "push",
+   "tgt": "hook",
+   "paper": true,
+   "light": "night",
+   "id": "shot_110",
+   "frame0": 2931,
+   "frames": 23,
+   "dur": 0.767,
+   "seed": 171,
+   "kind": "render",
+   "caption_words": [
+    "AND",
+    "IN",
+    "THE",
+    "MIDDLE",
+    "ALONE"
+   ],
+   "location": "int",
+   "camera_move": "push",
+   "characters": [],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s21",
+   "set": "int",
+   "cam": "prop",
+   "tgt": "hook",
+   "paper": true,
+   "light": "night",
+   "id": "shot_111",
+   "frame0": 2954,
+   "frames": 28,
+   "dur": 0.933,
+   "seed": 90,
+   "kind": "render",
+   "caption_words": [
+    "ON",
+    "A",
+    "LITTLE",
+    "HOOK"
+   ],
+   "location": "int",
+   "camera_move": "prop",
+   "characters": [],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s21",
+   "set": "window",
+   "cam": "ecu",
+   "tgt": "eli",
+   "faces": {
+    "eli": "shocked"
+   },
+   "light": "night",
+   "id": "shot_112",
+   "frame0": 2982,
+   "frames": 19,
+   "dur": 0.633,
+   "seed": 9,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "ONE",
+    "LETTER",
+    "THAT",
+    "SAID"
+   ],
+   "location": "window",
+   "camera_move": "ecu",
+   "characters": [
+    "eli"
+   ],
+   "emotion": "eli:shocked"
+  },
+  {
+   "sentence": "s21",
+   "set": "int",
+   "cam": "ecu_hook",
+   "tgt": "hook",
+   "paper": true,
+   "light": "night",
+   "id": "shot_113",
+   "frame0": 3001,
+   "frames": 21,
+   "dur": 0.7,
+   "seed": 928,
+   "kind": "render",
+   "caption_words": [
+    "ELI"
+   ],
+   "location": "int",
+   "camera_move": "ecu_hook",
+   "characters": [],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s22",
+   "set": "window",
+   "cam": "low",
+   "tgt": "eli",
+   "acts": {
+    "eli": "stagger"
+   },
+   "faces": {
+    "eli": "shocked"
+   },
+   "light": "night",
+   "id": "shot_114",
+   "frame0": 3022,
+   "frames": 25,
+   "dur": 0.833,
+   "seed": 847,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "I",
+    "ALMOST",
+    "FELL",
+    "OFF",
+    "THE"
+   ],
+   "location": "window",
+   "camera_move": "low",
+   "characters": [
+    "eli"
+   ],
+   "emotion": "eli:shocked"
+  },
+  {
+   "sentence": "s22",
+   "set": "int_door",
+   "cam": "cu",
+   "tgt": "eli",
+   "faces": {
+    "eli": "scared"
+   },
+   "light": "night",
+   "id": "shot_115",
+   "frame0": 3047,
+   "frames": 25,
+   "dur": 0.833,
+   "seed": 766,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "WINDOWSILL",
+    "THEN"
+   ],
+   "location": "int_door",
+   "camera_move": "cu",
+   "characters": [
+    "eli"
+   ],
+   "emotion": "eli:scared"
+  },
+  {
+   "sentence": "s22",
+   "set": "int_door",
+   "cam": "wide",
+   "tgt": "door_int",
+   "door": "opening",
+   "light": "night",
+   "id": "shot_116",
+   "frame0": 3072,
+   "frames": 23,
+   "dur": 0.767,
+   "seed": 685,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "THE",
+    "DOOR",
+    "CREAKED",
+    "OPEN"
+   ],
+   "location": "int_door",
+   "camera_move": "wide",
+   "characters": [],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s22",
+   "set": "int_door",
+   "cam": "low",
+   "tgt": "dobbs",
+   "door": "open",
+   "faces": {
+    "dobbs": "scared"
+   },
+   "light": "night",
+   "id": "shot_117",
+   "frame0": 3095,
+   "frames": 29,
+   "dur": 0.967,
+   "seed": 604,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "BEHIND",
+    "ME"
+   ],
+   "location": "int_door",
+   "camera_move": "low",
+   "characters": [
+    "dobbs"
+   ],
+   "emotion": "dobbs:scared"
+  },
+  {
+   "sentence": "s23",
+   "set": "int_door",
+   "cam": "cu",
+   "tgt": "dobbs",
+   "door": "open",
+   "acts": {
+    "dobbs": "talk"
+   },
+   "faces": {
+    "dobbs": "scared"
+   },
+   "light": "night",
+   "id": "shot_118",
+   "frame0": 3124,
+   "frames": 23,
+   "dur": 0.767,
+   "seed": 523,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "YOU",
+    "WEREN'T",
+    "SUPPOSED",
+    "TO",
+    "SEE"
+   ],
+   "location": "int_door",
+   "camera_move": "cu",
+   "characters": [
+    "dobbs"
+   ],
+   "emotion": "dobbs:scared"
+  },
+  {
+   "sentence": "s23",
+   "set": "int_door",
+   "cam": "ots",
+   "tgt": "dobbs",
+   "over": "eli",
+   "door": "open",
+   "light": "night",
+   "id": "shot_119",
+   "frame0": 3147,
+   "frames": 31,
+   "dur": 1.033,
+   "seed": 442,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "THAT",
+    "SAID",
+    "MR"
+   ],
+   "location": "int_door",
+   "camera_move": "ots",
+   "characters": [
+    "dobbs"
+   ],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s23",
+   "set": "int_door",
+   "cam": "cu",
+   "tgt": "dobbs",
+   "door": "open",
+   "acts": {
+    "dobbs": "shake"
+   },
+   "faces": {
+    "dobbs": "scared"
+   },
+   "light": "night",
+   "id": "shot_120",
+   "frame0": 3178,
+   "frames": 24,
+   "dur": 0.8,
+   "seed": 361,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "DOBBS",
+    "HIS",
+    "HANDS"
+   ],
+   "location": "int_door",
+   "camera_move": "cu",
+   "characters": [
+    "dobbs"
+   ],
+   "emotion": "dobbs:scared"
+  },
+  {
+   "sentence": "s23",
+   "set": "int_door",
+   "cam": "ecu",
+   "tgt": "dobbs",
+   "door": "open",
+   "faces": {
+    "dobbs": "scared"
+   },
+   "light": "night",
+   "id": "shot_121",
+   "frame0": 3202,
+   "frames": 26,
+   "dur": 0.867,
+   "seed": 280,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "WERE",
+    "SHAKING"
+   ],
+   "location": "int_door",
+   "camera_move": "ecu",
+   "characters": [
+    "dobbs"
+   ],
+   "emotion": "dobbs:scared"
+  },
+  {
+   "sentence": "s24",
+   "set": "int_talk",
+   "cam": "cu",
+   "tgt": "eli",
+   "acts": {
+    "eli": "talk"
+   },
+   "door": "open",
+   "light": "night",
+   "id": "shot_122",
+   "frame0": 3228,
+   "frames": 25,
+   "dur": 0.833,
+   "seed": 199,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "WHAT",
+    "ARE",
+    "THOSE",
+    "LETTERS?"
+   ],
+   "location": "int_talk",
+   "camera_move": "cu",
+   "characters": [
+    "eli"
+   ],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s24",
+   "set": "int_talk",
+   "cam": "high",
+   "tgt": "dobbs",
+   "acts": {
+    "dobbs": "look_down"
+   },
+   "door": "open",
+   "light": "night",
+   "id": "shot_123",
+   "frame0": 3253,
+   "frames": 30,
+   "dur": 1.0,
+   "seed": 118,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "I",
+    "ASKED",
+    "HE",
+    "LOOKED",
+    "AT"
+   ],
+   "location": "int_talk",
+   "camera_move": "high",
+   "characters": [
+    "dobbs"
+   ],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s24",
+   "set": "int_talk",
+   "cam": "ots",
+   "tgt": "dobbs",
+   "over": "eli",
+   "acts": {
+    "dobbs": "talk"
+   },
+   "door": "open",
+   "light": "night",
+   "id": "shot_124",
+   "frame0": 3283,
+   "frames": 26,
+   "dur": 0.867,
+   "seed": 37,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "THE",
+    "FLOOR",
+    "EVERY"
+   ],
+   "location": "int_talk",
+   "camera_move": "ots",
+   "characters": [
+    "dobbs"
+   ],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s24",
+   "card": "future",
+   "light": "night",
+   "id": "shot_125",
+   "frame0": 3309,
+   "frames": 27,
+   "dur": 0.9,
+   "seed": 956,
+   "kind": "card",
+   "paper": true,
+   "caption_words": [
+    "LETTER",
+    "IN",
+    "THIS",
+    "TOWN",
+    "IS"
+   ],
+   "location": "card",
+   "camera_move": "zoom",
+   "characters": [],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s24",
+   "set": "int_talk",
+   "cam": "ecu",
+   "tgt": "dobbs",
+   "faces": {
+    "dobbs": "tired"
+   },
+   "door": "open",
+   "light": "night",
+   "id": "shot_126",
+   "frame0": 3336,
+   "frames": 25,
+   "dur": 0.833,
+   "seed": 875,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "FROM",
+    "THE",
+    "FUTURE"
+   ],
+   "location": "int_talk",
+   "camera_move": "ecu",
+   "characters": [
+    "dobbs"
+   ],
+   "emotion": "dobbs:tired"
+  },
+  {
+   "sentence": "s25",
+   "set": "int_talk",
+   "cam": "orbit_room",
+   "tgt": "pt:40,30,1.7",
+   "door": "open",
+   "paper": true,
+   "light": "night",
+   "id": "shot_127",
+   "frame0": 3361,
+   "frames": 30,
+   "dur": 1.0,
+   "seed": 794,
+   "kind": "render",
+   "caption_words": [
+    "THEY",
+    "SHOW",
+    "UP",
+    "ON",
+    "MY",
+    "DOORSTEP",
+    "A"
+   ],
+   "location": "int_talk",
+   "camera_move": "orbit_room",
+   "characters": [],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s25",
+   "set": "int_talk",
+   "cam": "cu",
+   "tgt": "dobbs",
+   "acts": {
+    "dobbs": "talk"
+   },
+   "door": "open",
+   "light": "night",
+   "id": "shot_128",
+   "frame0": 3391,
+   "frames": 28,
+   "dur": 0.933,
+   "seed": 713,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "DAY",
+    "BEFORE",
+    "ANYONE",
+    "WRITES"
+   ],
+   "location": "int_talk",
+   "camera_move": "cu",
+   "characters": [
+    "dobbs"
+   ],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s25",
+   "set": "int_talk",
+   "cam": "prop",
+   "tgt": "door_int",
+   "door": "open",
+   "light": "night",
+   "id": "shot_129",
+   "frame0": 3419,
+   "frames": 27,
+   "dur": 0.9,
+   "seed": 632,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "THEM",
+    "NOBODY",
+    "KNOWS"
+   ],
+   "location": "int_talk",
+   "camera_move": "prop",
+   "characters": [],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s25",
+   "set": "int_talk",
+   "cam": "ecu",
+   "tgt": "eli",
+   "faces": {
+    "eli": "scared"
+   },
+   "door": "open",
+   "light": "night",
+   "id": "shot_130",
+   "frame0": 3446,
+   "frames": 31,
+   "dur": 1.033,
+   "seed": 551,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "WHO",
+    "SENDS",
+    "THEM"
+   ],
+   "location": "int_talk",
+   "camera_move": "ecu",
+   "characters": [
+    "eli"
+   ],
+   "emotion": "eli:scared"
+  },
+  {
+   "sentence": "s26",
+   "set": "int_talk",
+   "cam": "ots",
+   "tgt": "dobbs",
+   "over": "eli",
+   "acts": {
+    "dobbs": "talk"
+   },
+   "door": "open",
+   "light": "night",
+   "id": "shot_131",
+   "frame0": 3477,
+   "frames": 28,
+   "dur": 0.933,
+   "seed": 470,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "MOSTLY",
+    "THEY'RE",
+    "BORING"
+   ],
+   "location": "int_talk",
+   "camera_move": "ots",
+   "characters": [
+    "dobbs"
+   ],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s26",
+   "set": "int",
+   "cam": "ecu_wall",
+   "tgt": "env_wall",
+   "paper": true,
+   "light": "night",
+   "id": "shot_132",
+   "frame0": 3505,
+   "frames": 34,
+   "dur": 1.133,
+   "seed": 389,
+   "kind": "render",
+   "caption_words": [
+    "BILLS",
+    "BIRTHDAYS"
+   ],
+   "location": "int",
+   "camera_move": "ecu_wall",
+   "characters": [],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s26",
+   "set": "bakery",
+   "cam": "ecu",
+   "tgt": "baker",
+   "faces": {
+    "baker": "tired"
+   },
+   "light": "night",
+   "id": "shot_133",
+   "frame0": 3539,
+   "frames": 33,
+   "dur": 1.1,
+   "seed": 308,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "RECIPES",
+    "BUT",
+    "SOMETIMES"
+   ],
+   "location": "bakery",
+   "camera_move": "ecu",
+   "characters": [
+    "baker"
+   ],
+   "emotion": "baker:tired"
+  },
+  {
+   "sentence": "s26",
+   "set": "int",
+   "cam": "ecu_wall",
+   "tgt": "env_wall_back",
+   "paper": true,
+   "light": "night",
+   "id": "shot_134",
+   "frame0": 3572,
+   "frames": 26,
+   "dur": 0.867,
+   "seed": 227,
+   "kind": "render",
+   "caption_words": [
+    "THEY",
+    "SAY",
+    "WHAT'S"
+   ],
+   "location": "int",
+   "camera_move": "ecu_wall",
+   "characters": [],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s26",
+   "set": "int_talk",
+   "cam": "ecu",
+   "tgt": "dobbs",
+   "faces": {
+    "dobbs": "scared"
+   },
+   "door": "open",
+   "light": "night",
+   "id": "shot_135",
+   "frame0": 3598,
+   "frames": 32,
+   "dur": 1.067,
+   "seed": 146,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "GOING",
+    "TO",
+    "HAPPEN",
+    "TO",
+    "YOU"
+   ],
+   "location": "int_talk",
+   "camera_move": "ecu",
+   "characters": [
+    "dobbs"
+   ],
+   "emotion": "dobbs:scared"
+  },
+  {
+   "sentence": "s27",
+   "set": "barn",
+   "cam": "wide",
+   "tgt": "barn",
+   "light": "day",
+   "id": "shot_136",
+   "frame0": 3630,
+   "frames": 20,
+   "dur": 0.667,
+   "seed": 65,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "LAST",
+    "YEAR",
+    "I",
+    "DELIVERED"
+   ],
+   "location": "barn",
+   "camera_move": "wide",
+   "characters": [],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s27",
+   "set": "barn",
+   "cam": "cu",
+   "tgt": "harlan",
+   "light": "day",
+   "id": "shot_137",
+   "frame0": 3650,
+   "frames": 22,
+   "dur": 0.733,
+   "seed": 984,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "A",
+    "LETTER",
+    "TO",
+    "OLD"
+   ],
+   "location": "barn",
+   "camera_move": "cu",
+   "characters": [
+    "harlan"
+   ],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s27",
+   "card": "harlan",
+   "light": "night",
+   "id": "shot_138",
+   "frame0": 3672,
+   "frames": 30,
+   "dur": 1.0,
+   "seed": 903,
+   "kind": "card",
+   "paper": true,
+   "caption_words": [
+    "MR",
+    "HARLAN"
+   ],
+   "location": "card",
+   "camera_move": "zoom",
+   "characters": [],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s27",
+   "set": "barn",
+   "cam": "low",
+   "tgt": "harlan",
+   "acts": {
+    "harlan": "laugh"
+   },
+   "faces": {
+    "harlan": "talk"
+   },
+   "light": "day",
+   "id": "shot_139",
+   "frame0": 3702,
+   "frames": 22,
+   "dur": 0.733,
+   "seed": 822,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "IT",
+    "SAID",
+    "HIS",
+    "BARN",
+    "WOULD"
+   ],
+   "location": "barn",
+   "camera_move": "low",
+   "characters": [
+    "harlan"
+   ],
+   "emotion": "harlan:talk"
+  },
+  {
+   "sentence": "s27",
+   "set": "barn_fire",
+   "cam": "wide",
+   "tgt": "barn",
+   "fire": true,
+   "light": "golden",
+   "id": "shot_140",
+   "frame0": 3724,
+   "frames": 29,
+   "dur": 0.967,
+   "seed": 741,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "BURN",
+    "HE",
+    "LAUGHED"
+   ],
+   "location": "barn_fire",
+   "camera_move": "wide",
+   "characters": [],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s27",
+   "set": "barn_fire",
+   "cam": "high",
+   "tgt": "barn",
+   "fire": true,
+   "light": "golden",
+   "id": "shot_141",
+   "frame0": 3753,
+   "frames": 19,
+   "dur": 0.633,
+   "seed": 660,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "THE",
+    "BARN",
+    "BURNED",
+    "THE"
+   ],
+   "location": "barn_fire",
+   "camera_move": "high",
+   "characters": [],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s27",
+   "set": "barn_fire",
+   "cam": "ecu",
+   "tgt": "harlan",
+   "fire": true,
+   "faces": {
+    "harlan": "shocked"
+   },
+   "light": "golden",
+   "id": "shot_142",
+   "frame0": 3772,
+   "frames": 25,
+   "dur": 0.833,
+   "seed": 579,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "NEXT",
+    "MORNING"
+   ],
+   "location": "barn_fire",
+   "camera_move": "ecu",
+   "characters": [
+    "harlan"
+   ],
+   "emotion": "harlan:shocked"
+  },
+  {
+   "sentence": "s28",
+   "set": "int_talk",
+   "cam": "cu",
+   "tgt": "dobbs",
+   "acts": {
+    "dobbs": "talk"
+   },
+   "door": "open",
+   "light": "night",
+   "id": "shot_143",
+   "frame0": 3797,
+   "frames": 27,
+   "dur": 0.9,
+   "seed": 498,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "SO",
+    "I",
+    "STOPPED",
+    "DELIVERING",
+    "THE"
+   ],
+   "location": "int_talk",
+   "camera_move": "cu",
+   "characters": [
+    "dobbs"
+   ],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s28",
+   "set": "int",
+   "cam": "push",
+   "tgt": "hook",
+   "paper": true,
+   "light": "night",
+   "id": "shot_144",
+   "frame0": 3824,
+   "frames": 24,
+   "dur": 0.8,
+   "seed": 417,
+   "kind": "render",
+   "caption_words": [
+    "BAD",
+    "ONES",
+    "BUT"
+   ],
+   "location": "int",
+   "camera_move": "push",
+   "characters": [],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s28",
+   "set": "int_talk",
+   "cam": "dutch",
+   "tgt": "dobbs",
+   "faces": {
+    "dobbs": "scared"
+   },
+   "door": "open",
+   "light": "night",
+   "id": "shot_145",
+   "frame0": 3848,
+   "frames": 26,
+   "dur": 0.867,
+   "seed": 336,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "YOURS",
+    "IS",
+    "THE",
+    "WORST",
+    "ONE"
+   ],
+   "location": "int_talk",
+   "camera_move": "dutch",
+   "characters": [
+    "dobbs"
+   ],
+   "emotion": "dobbs:scared"
+  },
+  {
+   "sentence": "s28",
+   "set": "int_talk",
+   "cam": "ecu",
+   "tgt": "eli",
+   "faces": {
+    "eli": "shocked"
+   },
+   "door": "open",
+   "light": "night",
+   "id": "shot_146",
+   "frame0": 3874,
+   "frames": 29,
+   "dur": 0.967,
+   "seed": 255,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "I'VE",
+    "EVER",
+    "SEEN"
+   ],
+   "location": "int_talk",
+   "camera_move": "ecu",
+   "characters": [
+    "eli"
+   ],
+   "emotion": "eli:shocked"
+  },
+  {
+   "sentence": "s29",
+   "set": "int_talk",
+   "cam": "high",
+   "tgt": "eli",
+   "faces": {
+    "eli": "scared"
+   },
+   "door": "open",
+   "light": "night",
+   "id": "shot_147",
+   "frame0": 3903,
+   "frames": 26,
+   "dur": 0.867,
+   "seed": 174,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "MY",
+    "STOMACH",
+    "DROPPED"
+   ],
+   "location": "int_talk",
+   "camera_move": "high",
+   "characters": [
+    "eli"
+   ],
+   "emotion": "eli:scared"
+  },
+  {
+   "sentence": "s29",
+   "set": "int_talk",
+   "cam": "cu",
+   "tgt": "eli",
+   "acts": {
+    "eli": "talk"
+   },
+   "door": "open",
+   "light": "night",
+   "id": "shot_148",
+   "frame0": 3929,
+   "frames": 26,
+   "dur": 0.867,
+   "seed": 93,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "WHAT",
+    "DOES",
+    "IT",
+    "SAY?"
+   ],
+   "location": "int_talk",
+   "camera_move": "cu",
+   "characters": [
+    "eli"
+   ],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s30",
+   "set": "int_talk",
+   "cam": "ecu",
+   "tgt": "dobbs",
+   "faces": {
+    "dobbs": "scared"
+   },
+   "door": "open",
+   "light": "night",
+   "id": "shot_149",
+   "frame0": 3955,
+   "frames": 29,
+   "dur": 0.967,
+   "seed": 12,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "I",
+    "CAN'T",
+    "TELL",
+    "YOU",
+    "THEN"
+   ],
+   "location": "int_talk",
+   "camera_move": "ecu",
+   "characters": [
+    "dobbs"
+   ],
+   "emotion": "dobbs:scared"
+  },
+  {
+   "sentence": "s30",
+   "set": "int_talk",
+   "cam": "ots",
+   "tgt": "eli",
+   "over": "dobbs",
+   "acts": {
+    "eli": "talk"
+   },
+   "door": "open",
+   "light": "night",
+   "id": "shot_150",
+   "frame0": 3984,
+   "frames": 32,
+   "dur": 1.067,
+   "seed": 931,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "GIVE",
+    "IT",
+    "TO",
+    "ME",
+    "YOU",
+    "DON'T"
+   ],
+   "location": "int_talk",
+   "camera_move": "ots",
+   "characters": [
+    "eli"
+   ],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s30",
+   "set": "int_talk",
+   "cam": "ecu",
+   "tgt": "dobbs",
+   "faces": {
+    "dobbs": "tired"
+   },
+   "door": "open",
+   "light": "night",
+   "id": "shot_151",
+   "frame0": 4016,
+   "frames": 19,
+   "dur": 0.633,
+   "seed": 850,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "WANT",
+    "IT",
+    "MR"
+   ],
+   "location": "int_talk",
+   "camera_move": "ecu",
+   "characters": [
+    "dobbs"
+   ],
+   "emotion": "dobbs:tired"
+  },
+  {
+   "sentence": "s30",
+   "set": "int_talk",
+   "cam": "cu",
+   "tgt": "eli",
+   "acts": {
+    "eli": "point"
+   },
+   "door": "open",
+   "light": "night",
+   "id": "shot_152",
+   "frame0": 4035,
+   "frames": 34,
+   "dur": 1.133,
+   "seed": 769,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "DOBBS",
+    "IT'S",
+    "MY"
+   ],
+   "location": "int_talk",
+   "camera_move": "cu",
+   "characters": [
+    "eli"
+   ],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s30",
+   "set": "int_talk",
+   "cam": "ecu",
+   "tgt": "eli",
+   "door": "open",
+   "light": "night",
+   "id": "shot_153",
+   "frame0": 4069,
+   "frames": 37,
+   "dur": 1.233,
+   "seed": 688,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "LETTER",
+    "IT'S",
+    "MY",
+    "HOUSE"
+   ],
+   "location": "int_talk",
+   "camera_move": "ecu",
+   "characters": [
+    "eli"
+   ],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s30",
+   "set": "int_talk",
+   "cam": "push",
+   "tgt": "eli",
+   "acts": {
+    "eli": "talk"
+   },
+   "door": "open",
+   "light": "night",
+   "id": "shot_154",
+   "frame0": 4106,
+   "frames": 24,
+   "dur": 0.8,
+   "seed": 607,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "IT'S",
+    "MY",
+    "LIFE"
+   ],
+   "location": "int_talk",
+   "camera_move": "push",
+   "characters": [
+    "eli"
+   ],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s31",
+   "set": "int_talk",
+   "cam": "ecu",
+   "tgt": "dobbs",
+   "faces": {
+    "dobbs": "tired"
+   },
+   "door": "open",
+   "light": "night",
+   "id": "shot_155",
+   "frame0": 4130,
+   "frames": 41,
+   "dur": 1.367,
+   "seed": 526,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "HE",
+    "STARED",
+    "AT",
+    "ME",
+    "FOR",
+    "A",
+    "LONG",
+    "TIME"
+   ],
+   "location": "int_talk",
+   "camera_move": "ecu",
+   "characters": [
+    "dobbs"
+   ],
+   "emotion": "dobbs:tired"
+  },
+  {
+   "sentence": "s31",
+   "set": "int_talk",
+   "cam": "prop",
+   "tgt": "hook",
+   "paper": true,
+   "light": "night",
+   "id": "shot_156",
+   "frame0": 4171,
+   "frames": 28,
+   "dur": 0.933,
+   "seed": 445,
+   "kind": "render",
+   "caption_words": [
+    "THEN",
+    "HE",
+    "TOOK",
+    "THE",
+    "CREAM",
+    "ENVELOPE"
+   ],
+   "location": "int_talk",
+   "camera_move": "prop",
+   "characters": [],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s31",
+   "set": "int_talk",
+   "cam": "ots",
+   "tgt": "dobbs",
+   "over": "eli",
+   "acts": {
+    "dobbs": "give"
+   },
+   "door": "open",
+   "paper": true,
+   "light": "night",
+   "id": "shot_157",
+   "frame0": 4199,
+   "frames": 30,
+   "dur": 1.0,
+   "seed": 364,
+   "kind": "render",
+   "caption_words": [
+    "WITH",
+    "MY",
+    "NAME",
+    "AND"
+   ],
+   "location": "int_talk",
+   "camera_move": "ots",
+   "characters": [
+    "dobbs"
+   ],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s31",
+   "set": "int_final",
+   "cam": "prop",
+   "tgt": "eli_held_env",
+   "acts": {
+    "eli": "hold"
+   },
+   "door": "open",
+   "hide": [
+    "eli2"
+   ],
+   "paper": true,
+   "light": "night",
+   "id": "shot_158",
+   "frame0": 4229,
+   "frames": 33,
+   "dur": 1.1,
+   "seed": 283,
+   "kind": "render",
+   "caption_words": [
+    "PUT",
+    "IT",
+    "IN",
+    "MY",
+    "HANDS"
+   ],
+   "location": "int_final",
+   "camera_move": "prop",
+   "characters": [
+    "eli"
+   ],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s32",
+   "set": "int_final",
+   "cam": "ecu",
+   "tgt": "eli_held_env",
+   "acts": {
+    "eli": "read"
+   },
+   "door": "open",
+   "hide": [
+    "eli2"
+   ],
+   "paper": true,
+   "light": "night",
+   "id": "shot_159",
+   "frame0": 4262,
+   "frames": 37,
+   "dur": 1.233,
+   "seed": 202,
+   "kind": "render",
+   "caption_words": [
+    "THE",
+    "WAX",
+    "WAS",
+    "WARM",
+    "LIKE",
+    "SOMEONE"
+   ],
+   "location": "int_final",
+   "camera_move": "ecu",
+   "characters": [
+    "eli"
+   ],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s32",
+   "set": "int_final",
+   "cam": "ecu",
+   "tgt": "eli",
+   "acts": {
+    "eli": "read"
+   },
+   "faces": {
+    "eli": "scared"
+   },
+   "door": "open",
+   "hide": [
+    "eli2"
+   ],
+   "light": "night",
+   "id": "shot_160",
+   "frame0": 4299,
+   "frames": 35,
+   "dur": 1.167,
+   "seed": 121,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "HAD",
+    "JUST",
+    "PRESSED",
+    "IT"
+   ],
+   "location": "int_final",
+   "camera_move": "ecu",
+   "characters": [
+    "eli"
+   ],
+   "emotion": "eli:scared"
+  },
+  {
+   "sentence": "s33",
+   "set": "int_final",
+   "cam": "prop",
+   "tgt": "eli_held_env",
+   "acts": {
+    "eli": "read"
+   },
+   "door": "open",
+   "hide": [
+    "eli2"
+   ],
+   "paper": true,
+   "light": "night",
+   "id": "shot_161",
+   "frame0": 4334,
+   "frames": 27,
+   "dur": 0.9,
+   "seed": 40,
+   "kind": "render",
+   "caption_words": [
+    "I",
+    "BROKE",
+    "IT",
+    "OPEN",
+    "INSIDE"
+   ],
+   "location": "int_final",
+   "camera_move": "prop",
+   "characters": [
+    "eli"
+   ],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s33",
+   "set": "int_final",
+   "cam": "push",
+   "tgt": "eli_held_env",
+   "acts": {
+    "eli": "read"
+   },
+   "door": "open",
+   "hide": [
+    "eli2"
+   ],
+   "paper": true,
+   "light": "night",
+   "id": "shot_162",
+   "frame0": 4361,
+   "frames": 35,
+   "dur": 1.167,
+   "seed": 959,
+   "kind": "render",
+   "caption_words": [
+    "WAS",
+    "ONE",
+    "SHORT",
+    "NOTE"
+   ],
+   "location": "int_final",
+   "camera_move": "push",
+   "characters": [
+    "eli"
+   ],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s33",
+   "set": "int_final",
+   "cam": "high",
+   "tgt": "eli",
+   "acts": {
+    "eli": "read"
+   },
+   "door": "open",
+   "hide": [
+    "eli2"
+   ],
+   "paper": true,
+   "light": "night",
+   "id": "shot_163",
+   "frame0": 4396,
+   "frames": 21,
+   "dur": 0.7,
+   "seed": 878,
+   "kind": "render",
+   "caption_words": [
+    "IN",
+    "HANDWRITING",
+    "I",
+    "KNEW"
+   ],
+   "location": "int_final",
+   "camera_move": "high",
+   "characters": [
+    "eli"
+   ],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s33",
+   "set": "int_final",
+   "cam": "ecu",
+   "tgt": "eli",
+   "acts": {
+    "eli": "read"
+   },
+   "faces": {
+    "eli": "shocked"
+   },
+   "door": "open",
+   "hide": [
+    "eli2"
+   ],
+   "light": "night",
+   "id": "shot_164",
+   "frame0": 4417,
+   "frames": 31,
+   "dur": 1.033,
+   "seed": 797,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "BETTER",
+    "THAN",
+    "MY",
+    "OWN"
+   ],
+   "location": "int_final",
+   "camera_move": "ecu",
+   "characters": [
+    "eli"
+   ],
+   "emotion": "eli:shocked"
+  },
+  {
+   "sentence": "s34",
+   "card": "letter1",
+   "light": "night",
+   "id": "shot_165",
+   "frame0": 4448,
+   "frames": 32,
+   "dur": 1.067,
+   "seed": 716,
+   "kind": "card",
+   "paper": true,
+   "caption_words": [
+    "IT",
+    "SAID",
+    "DEAR",
+    "ELI"
+   ],
+   "location": "card",
+   "camera_move": "zoom",
+   "characters": [],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s34",
+   "card": "letter2",
+   "light": "night",
+   "id": "shot_166",
+   "frame0": 4480,
+   "frames": 37,
+   "dur": 1.233,
+   "seed": 635,
+   "kind": "card",
+   "paper": true,
+   "caption_words": [
+    "BY",
+    "NOW",
+    "YOU'VE",
+    "FOLLOWED",
+    "THE",
+    "MAILMAN"
+   ],
+   "location": "card",
+   "camera_move": "zoom",
+   "characters": [],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s34",
+   "set": "int_final",
+   "cam": "ecu",
+   "tgt": "eli",
+   "acts": {
+    "eli": "read"
+   },
+   "faces": {
+    "eli": "scared"
+   },
+   "door": "open",
+   "hide": [
+    "dobbs",
+    "eli2"
+   ],
+   "light": "night",
+   "id": "shot_167",
+   "frame0": 4517,
+   "frames": 31,
+   "dur": 1.033,
+   "seed": 554,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "CLIMBED",
+    "HIS",
+    "WINDOW"
+   ],
+   "location": "int_final",
+   "camera_move": "ecu",
+   "characters": [
+    "eli"
+   ],
+   "emotion": "eli:scared"
+  },
+  {
+   "sentence": "s34",
+   "card": "letter3",
+   "light": "night",
+   "id": "shot_168",
+   "frame0": 4548,
+   "frames": 28,
+   "dur": 0.933,
+   "seed": 473,
+   "kind": "card",
+   "paper": true,
+   "caption_words": [
+    "AND",
+    "BROKEN",
+    "THE",
+    "SEAL",
+    "PLEASE"
+   ],
+   "location": "card",
+   "camera_move": "zoom",
+   "characters": [],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s34",
+   "set": "int_final",
+   "cam": "dutch",
+   "tgt": "eli",
+   "acts": {
+    "eli": "read"
+   },
+   "faces": {
+    "eli": "scared"
+   },
+   "door": "open",
+   "hide": [
+    "dobbs",
+    "eli2"
+   ],
+   "light": "night",
+   "id": "shot_169",
+   "frame0": 4576,
+   "frames": 32,
+   "dur": 1.067,
+   "seed": 392,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "DON'T",
+    "TURN",
+    "AROUND"
+   ],
+   "location": "int_final",
+   "camera_move": "dutch",
+   "characters": [
+    "eli"
+   ],
+   "emotion": "eli:scared"
+  },
+  {
+   "sentence": "s35",
+   "card": "signed",
+   "light": "night",
+   "id": "shot_170",
+   "frame0": 4608,
+   "frames": 34,
+   "dur": 1.133,
+   "seed": 311,
+   "kind": "card",
+   "paper": true,
+   "caption_words": [
+    "IT",
+    "WAS",
+    "SIGNED",
+    "ELI"
+   ],
+   "location": "card",
+   "camera_move": "zoom",
+   "characters": [],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s36",
+   "set": "int_final",
+   "cam": "cu",
+   "tgt": "eli",
+   "acts": {
+    "eli": "turn"
+   },
+   "faces": {
+    "eli": "scared"
+   },
+   "door": "open",
+   "hide": [
+    "dobbs"
+   ],
+   "light": "night",
+   "id": "shot_171",
+   "frame0": 4642,
+   "frames": 24,
+   "dur": 0.8,
+   "seed": 230,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "I",
+    "TURNED",
+    "AROUND"
+   ],
+   "location": "int_final",
+   "camera_move": "cu",
+   "characters": [
+    "eli"
+   ],
+   "emotion": "eli:scared"
+  },
+  {
+   "sentence": "s37",
+   "set": "int_final",
+   "cam": "push",
+   "tgt": "eli2",
+   "door": "open",
+   "hide": [
+    "dobbs"
+   ],
+   "turned": {
+    "eli": 180
+   },
+   "light": "night",
+   "id": "shot_172",
+   "frame0": 4666,
+   "frames": 24,
+   "dur": 0.8,
+   "seed": 149,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "MR",
+    "DOBBS",
+    "WAS"
+   ],
+   "location": "int_final",
+   "camera_move": "push",
+   "characters": [
+    "eli2"
+   ],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s37",
+   "set": "int_final",
+   "cam": "cu",
+   "tgt": "eli2",
+   "door": "open",
+   "faces": {
+    "eli2": "blank"
+   },
+   "hide": [
+    "dobbs"
+   ],
+   "turned": {
+    "eli": 180
+   },
+   "light": "night",
+   "id": "shot_173",
+   "frame0": 4690,
+   "frames": 32,
+   "dur": 1.067,
+   "seed": 68,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "GONE",
+    "THE",
+    "DOOR",
+    "WAS",
+    "WIDE"
+   ],
+   "location": "int_final",
+   "camera_move": "cu",
+   "characters": [
+    "eli2"
+   ],
+   "emotion": "eli2:blank"
+  },
+  {
+   "sentence": "s37",
+   "set": "int_final",
+   "cam": "ots",
+   "tgt": "eli2",
+   "over": "eli",
+   "door": "open",
+   "hide": [
+    "dobbs"
+   ],
+   "turned": {
+    "eli": 180
+   },
+   "light": "night",
+   "id": "shot_174",
+   "frame0": 4722,
+   "frames": 35,
+   "dur": 1.167,
+   "seed": 987,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "OPEN",
+    "AND",
+    "STANDING",
+    "IN"
+   ],
+   "location": "int_final",
+   "camera_move": "ots",
+   "characters": [
+    "eli2"
+   ],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s37",
+   "set": "int_final",
+   "cam": "low",
+   "tgt": "eli2",
+   "door": "open",
+   "faces": {
+    "eli2": "blank"
+   },
+   "hide": [
+    "dobbs"
+   ],
+   "turned": {
+    "eli": 180
+   },
+   "light": "night",
+   "id": "shot_175",
+   "frame0": 4757,
+   "frames": 27,
+   "dur": 0.9,
+   "seed": 906,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "THE",
+    "DOORWAY",
+    "HOLDING"
+   ],
+   "location": "int_final",
+   "camera_move": "low",
+   "characters": [
+    "eli2"
+   ],
+   "emotion": "eli2:blank"
+  },
+  {
+   "sentence": "s37",
+   "set": "int_final",
+   "cam": "ecu",
+   "tgt": "eli2_held_env",
+   "door": "open",
+   "paper": true,
+   "hide": [
+    "dobbs"
+   ],
+   "turned": {
+    "eli": 180
+   },
+   "light": "night",
+   "id": "shot_176",
+   "frame0": 4784,
+   "frames": 29,
+   "dur": 0.967,
+   "seed": 825,
+   "kind": "render",
+   "caption_words": [
+    "A",
+    "CREAM",
+    "ENVELOPE",
+    "WITH"
+   ],
+   "location": "int_final",
+   "camera_move": "ecu",
+   "characters": [],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s37",
+   "set": "int_final",
+   "cam": "ecu",
+   "tgt": "eli",
+   "door": "open",
+   "faces": {
+    "eli": "shocked"
+   },
+   "hide": [
+    "dobbs"
+   ],
+   "turned": {
+    "eli": 180
+   },
+   "light": "night",
+   "id": "shot_177",
+   "frame0": 4813,
+   "frames": 29,
+   "dur": 0.967,
+   "seed": 744,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "MR",
+    "DOBBS'S",
+    "NAME"
+   ],
+   "location": "int_final",
+   "camera_move": "ecu",
+   "characters": [
+    "eli"
+   ],
+   "emotion": "eli:shocked"
+  },
+  {
+   "sentence": "s37",
+   "set": "int_final",
+   "cam": "ecu",
+   "tgt": "eli2",
+   "door": "open",
+   "faces": {
+    "eli2": "blank"
+   },
+   "hide": [
+    "dobbs"
+   ],
+   "turned": {
+    "eli": 180
+   },
+   "light": "night",
+   "id": "shot_178",
+   "frame0": 4842,
+   "frames": 30,
+   "dur": 1.0,
+   "seed": 663,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "ON",
+    "IT",
+    "WAS",
+    "ME"
+   ],
+   "location": "int_final",
+   "camera_move": "ecu",
+   "characters": [
+    "eli2"
+   ],
+   "emotion": "eli2:blank"
+  },
+  {
+   "id": "shot_179",
+   "kind": "black",
+   "frame0": 4872,
+   "frames": 24,
+   "dur": 0.8,
+   "sentence": "end",
+   "caption_words": []
+  }
+ ],
+ "counters": {},
+ "sfx": {
+  "heartbeat": [],
+  "stone": []
+ }
+}

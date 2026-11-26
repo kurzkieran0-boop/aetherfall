@@ -1,0 +1,24 @@
+{
+ "tts": {
+  "ok": true,
+  "at": "2026-11-26 01:32:36",
+  "seconds": 178.8,
+  "words": 551,
+  "wps": 3.08,
+  "extra_beats": 0,
+  "length_scale": 0.735
+ },
+ "dressing": {
+  "ok": true,
+  "at": "2026-11-26 01:33:12",
+  "objects": 737
+ },
+ "shots": {
+  "ok": true,
+  "at": "2026-11-26 01:33:19",
+  "shots": 169,
+  "cards": 8,
+  "max_shot": 1.667,
+  "render_frames": 5113
+ }
+}
