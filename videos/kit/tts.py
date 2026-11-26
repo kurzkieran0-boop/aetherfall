@@ -174,14 +174,16 @@ def tokens(text):
 _model = None
 
 
-def whisper_words(path):
+def whisper_words(path, prompt=None):
     global _model
     if _model is None:
         from faster_whisper import WhisperModel
         _model = WhisperModel("base.en", device="cpu", compute_type="int8", cpu_threads=2)
     pcm = subprocess.run(["ffmpeg", "-v", "error", "-i", path, "-f", "f32le", "-ac", "1", "-ar", "16000", "-"],
                          capture_output=True, check=True).stdout
-    segs, _ = _model.transcribe(np.frombuffer(pcm, np.float32).copy(), word_timestamps=True, language="en", beam_size=5)
+    # prompting with the known sentence keeps spoken numbers as words ("three hundred", not "300")
+    segs, _ = _model.transcribe(np.frombuffer(pcm, np.float32).copy(), word_timestamps=True, language="en", beam_size=5,
+                                initial_prompt=prompt)
     return [(re.sub(r"[^a-z0-9]", "", w.word.lower()), w.start, w.end) for s in segs for w in s.words
             if re.sub(r"[^a-z0-9]", "", w.word.lower())]
 
@@ -260,12 +262,19 @@ def main(slug):
         d = len(a) / SR
         toks = tokens(text)
         cache = p + ".words.json"
-        if os.path.exists(cache) and json.load(open(cache)).get("key") == keys[sid]:
-            ww = json.load(open(cache))["words"]
+        cached = json.load(open(cache)) if os.path.exists(cache) else {}
+        if cached.get("key") == keys[sid]:
+            ww = cached["words"]
         else:
-            ww = whisper_words(p)
-            json.dump({"key": keys[sid], "words": ww}, open(cache, "w"))
+            ww = whisper_words(p, spoken(text))
+            json.dump({"key": keys[sid], "words": ww, "prompted": True}, open(cache, "w"))
         s0, e0, m = align(toks, ww, d)
+        if m < 0.85 and not cached.get("prompted"):      # e.g. numbers came back as digits: retry with the text as prompt
+            ww2 = whisper_words(p, spoken(text))
+            a2 = align(toks, ww2, d)
+            if a2[2] > m:
+                ww, (s0, e0, m) = ww2, a2
+                json.dump({"key": keys[sid], "words": ww, "prompted": True}, open(cache, "w"))
         match.append(m)
         if getattr(cfg, "RED_NUMBERS", False) and sid in countdown:
             for tk, v in zip(toks, countdown_values(toks)):

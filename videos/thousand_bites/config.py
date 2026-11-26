@@ -13,4 +13,4 @@ SAMPLES = 8
 COUNTER = dict(label="bites", who="maya")
 RED_NUMBERS = True
 RED_ALWAYS = ("stone",)
-TEST_SHOT = None
+TEST_SHOT = "shot_028"

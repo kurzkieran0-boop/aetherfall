@@ -436,7 +436,7 @@ def apply(stage, sh, t, gt):
     if who:
         n = who[0]
         fc = sh.get("faces", {}).get(n, "neutral")
-        z, w = (0.18, 2.3) if fc == "laughing" else (0.222, 1.0)
+        z, w = (0.19, 1.7) if fc == "laughing" else (0.222, 1.0)
         teeth.matrix_world = stage.ob[n + "_head"].matrix_world @ Matrix.Translation((0, 0.318, z)) @ \
             Matrix.Diagonal((w, 1, 1, 1))
     else:

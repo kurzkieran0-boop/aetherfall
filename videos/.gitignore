@@ -14,3 +14,5 @@ final_preview.mp4
 **/contact_sheet_preview.png
 **/sync_check_preview.png
 _smoke/
+build_dry_*.log
+**/sheet_*.py

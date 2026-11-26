@@ -138,7 +138,7 @@ def main(slug, quiet=False):
                 if val is None or (s["id"], val) in seen:
                     continue
                 seen.add((s["id"], val))
-                shown = counter_at(keys, w["start"] + 0.05)
+                shown = counter_at(keys, w["start"] + 0.001)
                 if shown != val:
                     cmis.append(f"{s['id']}: says {val}, counter shows {shown}")
         if cmis: fails.append(f"counter mismatch: {cmis[:3]}")

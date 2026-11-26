@@ -679,7 +679,7 @@
   {
    "sentence": "s09",
    "set": "street",
-   "cam": "whip",
+   "cam": "mcu",
    "tgt": "finn",
    "acts": {
     "finn": "laugh"
@@ -699,7 +699,7 @@
     "ME"
    ],
    "location": "street",
-   "camera_move": "whip",
+   "camera_move": "mcu",
    "characters": [
     "finn"
    ],
@@ -1852,8 +1852,8 @@
   {
    "sentence": "s21",
    "set": "lake",
-   "cam": "prop",
-   "tgt": "rope",
+   "cam": "push",
+   "tgt": "rowboat",
    "light": "day",
    "id": "shot_068",
    "frame0": 2446,
@@ -1870,15 +1870,15 @@
     "BOAT"
    ],
    "location": "lake",
-   "camera_move": "prop",
+   "camera_move": "push",
    "characters": [],
    "emotion": "neutral"
   },
   {
    "sentence": "s21",
    "set": "lake",
-   "cam": "push",
-   "tgt": "rope",
+   "cam": "orbit",
+   "tgt": "rowboat",
    "light": "day",
    "id": "shot_069",
    "frame0": 2479,
@@ -1894,7 +1894,7 @@
     "FASTER"
    ],
    "location": "lake",
-   "camera_move": "push",
+   "camera_move": "orbit",
    "characters": [],
    "emotion": "neutral"
   },
@@ -2373,8 +2373,8 @@
    "light": "day",
    "id": "shot_087",
    "frame0": 3111,
-   "frames": 40,
-   "dur": 1.333,
+   "frames": 41,
+   "dur": 1.367,
    "seed": 34,
    "kind": "render",
    "paper": false,
@@ -2402,9 +2402,9 @@
    "board": "down",
    "light": "day",
    "id": "shot_088",
-   "frame0": 3151,
-   "frames": 39,
-   "dur": 1.3,
+   "frame0": 3152,
+   "frames": 38,
+   "dur": 1.267,
    "seed": 953,
    "kind": "render",
    "paper": false,
@@ -2467,8 +2467,8 @@
    "light": "day",
    "id": "shot_090",
    "frame0": 3231,
-   "frames": 42,
-   "dur": 1.4,
+   "frames": 41,
+   "dur": 1.367,
    "seed": 791,
    "kind": "render",
    "paper": false,
@@ -2496,9 +2496,9 @@
    },
    "light": "day",
    "id": "shot_091",
-   "frame0": 3273,
-   "frames": 24,
-   "dur": 0.8,
+   "frame0": 3272,
+   "frames": 25,
+   "dur": 0.833,
    "seed": 710,
    "kind": "render",
    "paper": false,
@@ -2554,8 +2554,8 @@
    "light": "day",
    "id": "shot_093",
    "frame0": 3331,
-   "frames": 29,
-   "dur": 0.967,
+   "frames": 25,
+   "dur": 0.833,
    "seed": 548,
    "kind": "render",
    "paper": false,
@@ -2582,15 +2582,16 @@
    "board": "down",
    "light": "day",
    "id": "shot_094",
-   "frame0": 3360,
-   "frames": 34,
-   "dur": 1.133,
+   "frame0": 3356,
+   "frames": 43,
+   "dur": 1.433,
    "seed": 467,
    "kind": "render",
    "paper": false,
    "caption_words": [
     "HUNDRED",
-    "FIFTY"
+    "FIFTY",
+    "TEN"
    ],
    "location": "dock",
    "camera_move": "mcu",
@@ -2610,14 +2611,13 @@
    "board": "down",
    "light": "day",
    "id": "shot_095",
-   "frame0": 3394,
-   "frames": 33,
-   "dur": 1.1,
+   "frame0": 3399,
+   "frames": 25,
+   "dur": 0.833,
    "seed": 386,
    "kind": "render",
    "paper": false,
    "caption_words": [
-    "TEN",
     "FIVE",
     "THREE"
    ],
@@ -2639,9 +2639,9 @@
    "board": "down",
    "light": "day",
    "id": "shot_096",
-   "frame0": 3427,
-   "frames": 33,
-   "dur": 1.1,
+   "frame0": 3424,
+   "frames": 36,
+   "dur": 1.2,
    "seed": 305,
    "kind": "render",
    "paper": false,
@@ -3384,8 +3384,8 @@
   {
    "sentence": "s35",
    "set": "dock_sing",
-   "cam": "high",
-   "tgt": "pt:-20,-40,0",
+   "cam": "wide",
+   "tgt": "t2",
    "light": "day",
    "id": "shot_122",
    "frame0": 4343,
@@ -3401,8 +3401,10 @@
     "TOWN"
    ],
    "location": "dock_sing",
-   "camera_move": "high",
-   "characters": [],
+   "camera_move": "wide",
+   "characters": [
+    "t2"
+   ],
    "emotion": "neutral"
   },
   {
@@ -3828,7 +3830,7 @@
   {
    "sentence": "s39",
    "set": "granny",
-   "cam": "cu",
+   "cam": "mcu",
    "tgt": "granny",
    "acts": {
     "granny": "sing"
@@ -3850,7 +3852,7 @@
     "SANG"
    ],
    "location": "granny",
-   "camera_move": "cu",
+   "camera_move": "mcu",
    "characters": [
     "granny"
    ],
@@ -3977,27 +3979,27 @@
     "step"
    ],
    [
-    104.047,
+    103.86,
     300,
     "step"
    ],
    [
-    104.532,
+    104.46,
     250,
     "ramp"
    ],
    [
-    104.74,
+    104.52,
     250,
     "step"
    ],
    [
-    105.087,
+    105.1,
     200,
     "ramp"
    ],
    [
-    105.295,
+    105.18,
     200,
     "step"
    ],
@@ -4007,52 +4009,52 @@
     "step"
    ],
    [
-    111.309,
+    111.19,
     150,
     "step"
    ],
    [
-    111.773,
+    111.81,
     100,
     "ramp"
    ],
    [
-    112.052,
+    111.91,
     100,
     "step"
    ],
    [
-    112.702,
+    112.53,
     50,
     "ramp"
    ],
    [
-    113.166,
+    112.99,
     10,
     "step"
    ],
    [
-    113.445,
+    113.35,
     5,
     "step"
    ],
    [
-    113.817,
+    113.77,
     3,
     "step"
    ],
    [
-    114.281,
+    114.17,
     2,
     "step"
    ],
    [
-    114.56,
+    114.55,
     1,
     "step"
    ],
    [
-    114.838,
+    114.81,
     0,
     "step"
    ]

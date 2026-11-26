@@ -4,8 +4,8 @@
  "words": 582,
  "wps": 3.481,
  "length_scale": 0.595,
- "source_hash": "c317dd8ea34f9350",
- "whisper_match": 0.93,
+ "source_hash": "da1939180f86e95f",
+ "whisper_match": 0.975,
  "sentences": [
   {
    "id": "s01",
@@ -1087,7 +1087,7 @@
    "beats": [
     {
      "set": "street",
-     "cam": "whip",
+     "cam": "mcu",
      "tgt": "finn",
      "acts": {
       "finn": "laugh"
@@ -2943,8 +2943,8 @@
    "beats": [
     {
      "set": "lake",
-     "cam": "prop",
-     "tgt": "rope"
+     "cam": "push",
+     "tgt": "rowboat"
     },
     {
      "set": "lake",
@@ -3752,54 +3752,54 @@
      "norm": "three",
      "norm_raw": "three",
      "start": 103.7,
-     "end": 104.047
+     "end": 103.86
     },
     {
      "text": "HUNDRED",
      "red": false,
      "norm": "hundred",
      "norm_raw": "hundred",
-     "start": 104.047,
-     "end": 104.532
+     "start": 103.86,
+     "end": 104.18
     },
     {
      "text": "TWO",
      "red": true,
      "norm": "two",
      "norm_raw": "two",
-     "start": 104.532,
-     "end": 104.74
+     "start": 104.46,
+     "end": 104.52
     },
     {
      "text": "FIFTY",
      "red": true,
      "norm": "fifty",
      "norm_raw": "fifty",
-     "start": 104.74,
-     "end": 105.087
+     "start": 104.52,
+     "end": 104.76
     },
     {
      "text": "TWO",
      "red": true,
      "norm": "two",
      "norm_raw": "two",
-     "start": 105.087,
-     "end": 105.295
+     "start": 105.1,
+     "end": 105.18
     },
     {
      "text": "HUNDRED",
      "red": true,
      "norm": "hundred",
      "norm_raw": "hundred",
-     "start": 105.295,
-     "end": 105.78
+     "start": 105.18,
+     "end": 105.48
     },
     {
      "text": "EVERY",
      "red": false,
      "norm": "every",
      "norm_raw": "every",
-     "start": 105.78,
+     "start": 105.8,
      "end": 105.92
     },
     {
@@ -3856,7 +3856,7 @@
      "norm": "punch",
      "norm_raw": "punch",
      "start": 107.16,
-     "end": 107.34
+     "end": 107.32
     }
    ]
   },
@@ -3892,22 +3892,22 @@
      "norm": "pip",
      "norm_raw": "pip",
      "start": 107.71,
-     "end": 107.807
+     "end": 107.81
     },
     {
      "text": "HEARD",
      "red": false,
      "norm": "heard",
      "norm_raw": "heard",
-     "start": 107.807,
-     "end": 107.97
+     "start": 107.81,
+     "end": 107.99
     },
     {
      "text": "ME",
      "red": false,
      "norm": "me",
      "norm_raw": "me",
-     "start": 107.97,
+     "start": 107.99,
      "end": 108.23
     },
     {
@@ -3916,22 +3916,22 @@
      "norm": "he",
      "norm_raw": "he",
      "start": 108.47,
-     "end": 108.53
+     "end": 108.55
     },
     {
      "text": "PADDLED",
      "red": false,
      "norm": "paddled",
      "norm_raw": "paddled",
-     "start": 108.53,
-     "end": 109.13
+     "start": 108.55,
+     "end": 108.89
     },
     {
      "text": "BUT",
      "red": false,
      "norm": "but",
      "norm_raw": "but",
-     "start": 109.13,
+     "start": 109.11,
      "end": 109.19
     },
     {
@@ -3940,22 +3940,22 @@
      "norm": "the",
      "norm_raw": "the",
      "start": 109.19,
-     "end": 109.31
+     "end": 109.33
     },
     {
      "text": "WATERFALL",
      "red": false,
      "norm": "waterfall",
      "norm_raw": "waterfall",
-     "start": 109.31,
-     "end": 109.73
+     "start": 109.33,
+     "end": 109.49
     },
     {
      "text": "KEPT",
      "red": false,
      "norm": "kept",
      "norm_raw": "kept",
-     "start": 109.73,
+     "start": 109.49,
      "end": 109.93
     },
     {
@@ -4019,87 +4019,87 @@
      "norm": "one",
      "norm_raw": "one",
      "start": 111.03,
-     "end": 111.309
+     "end": 111.19
     },
     {
      "text": "FIFTY",
      "red": true,
      "norm": "fifty",
      "norm_raw": "fifty",
-     "start": 111.309,
-     "end": 111.773
+     "start": 111.19,
+     "end": 111.47
     },
     {
      "text": "ONE",
      "red": true,
      "norm": "one",
      "norm_raw": "one",
-     "start": 111.773,
-     "end": 112.052
+     "start": 111.81,
+     "end": 111.91
     },
     {
      "text": "HUNDRED",
      "red": true,
      "norm": "hundred",
      "norm_raw": "hundred",
-     "start": 112.052,
-     "end": 112.702
+     "start": 111.91,
+     "end": 112.25
     },
     {
      "text": "FIFTY",
      "red": true,
      "norm": "fifty",
      "norm_raw": "fifty",
-     "start": 112.702,
-     "end": 113.166
+     "start": 112.53,
+     "end": 112.67
     },
     {
      "text": "TEN",
      "red": true,
      "norm": "ten",
      "norm_raw": "ten",
-     "start": 113.166,
-     "end": 113.445
+     "start": 112.99,
+     "end": 113.11
     },
     {
      "text": "FIVE",
      "red": true,
      "norm": "five",
      "norm_raw": "five",
-     "start": 113.445,
-     "end": 113.817
+     "start": 113.35,
+     "end": 113.51
     },
     {
      "text": "THREE",
      "red": true,
      "norm": "three",
      "norm_raw": "three",
-     "start": 113.817,
-     "end": 114.281
+     "start": 113.77,
+     "end": 113.91
     },
     {
      "text": "TWO",
      "red": true,
      "norm": "two",
      "norm_raw": "two",
-     "start": 114.281,
-     "end": 114.56
+     "start": 114.17,
+     "end": 114.27
     },
     {
      "text": "ONE",
      "red": true,
      "norm": "one",
      "norm_raw": "one",
-     "start": 114.56,
-     "end": 114.838
+     "start": 114.55,
+     "end": 114.67
     },
     {
      "text": "ZERO",
      "red": true,
      "norm": "zero",
      "norm_raw": "zero",
-     "start": 114.838,
-     "end": 115.21
+     "start": 114.81,
+     "end": 114.95
     }
    ]
   },
@@ -5078,8 +5078,8 @@
     },
     {
      "set": "dock_sing",
-     "cam": "high",
-     "tgt": "pt:-20,-40,0"
+     "cam": "wide",
+     "tgt": "t2"
     }
    ],
    "words": [
@@ -5819,7 +5819,7 @@
     },
     {
      "set": "granny",
-     "cam": "cu",
+     "cam": "mcu",
      "tgt": "granny",
      "acts": {
       "granny": "sing"

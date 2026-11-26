@@ -43,11 +43,11 @@ S = [
       D(set="school", cam="orbit", tgt="k3", faces={"k1": "tired", "k2": "blank", "k3": "tired"})], "day"),
     ("s08", "And then there's me. Nora. Eleven.",
      [D(set="nora_intro", cam="whip", tgt="nora"),
-      D(set="nora_intro", cam="mcu", tgt="nora", faces={"nora": "laughing"})], "day"),
+      D(set="nora_intro", cam="push", tgt="nora", faces={"nora": "laughing"})], "day"),
     ("s09", "I stayed up all night. I watched fireflies. I counted stars. I read under my blanket with a flashlight, "
             "because I had to know how the book ended.",
      [D(set="yard", cam="wide", tgt="nora"),
-      D(set="yard", cam="prop", tgt="fireflies"),
+      D(set="yard", cam="orbit", tgt="nora"),
       D(set="yard", cam="sky", tgt="nora"),
       D(set="yard", cam="cu", tgt="nora", faces={"nora": "laughing"}),
       D(set="tent", cam="prop", tgt="tent"),
@@ -159,7 +159,7 @@ S = [
      [D(set="flood", cam="chase", tgt="nora"),
       D(set="knock", cam="ots", tgt="door_a", over="nora", knock=True),
       D(blind=True, set="knock", cam="cu", tgt="nora"),
-      D(set="pull", cam="ots", tgt="t1", over="nora", faces={"t1": "tired"}),
+      D(set="pull", cam="cu", tgt="t1", faces={"t1": "tired"}),
       D(set="pull", cam="cu", tgt="nora", acts={"nora": "talk"}),
       D(blind=True, set="pull", cam="cu", tgt="t1")], "night"),
     ("s27", "Mom grabbed my hand. Then the baker. Then the mayor. Then the whole town, in one long line, eyes closed, "

@@ -5,7 +5,7 @@
  "wps": 3.231,
  "length_scale": 0.95,
  "source_hash": "fe06fe8d7c867e6e",
- "whisper_match": 0.939,
+ "whisper_match": 0.975,
  "sentences": [
   {
    "id": "s01",
@@ -98,30 +98,30 @@
      "norm": "two",
      "norm_raw": "two",
      "start": 2.04,
-     "end": 2.225
+     "end": 2.3
     },
     {
      "text": "THOUSAND",
      "red": false,
      "norm": "thousand",
      "norm_raw": "thousand",
-     "start": 2.225,
-     "end": 2.72
+     "start": 2.3,
+     "end": 2.62
     },
     {
      "text": "DOORS",
      "red": false,
      "norm": "doors",
      "norm_raw": "doors",
-     "start": 2.72,
-     "end": 2.92
+     "start": 2.62,
+     "end": 2.9
     },
     {
      "text": "IN",
      "red": false,
      "norm": "in",
      "norm_raw": "in",
-     "start": 2.92,
+     "start": 2.9,
      "end": 3.12
     },
     {
@@ -138,15 +138,15 @@
      "norm": "entire",
      "norm_raw": "entire",
      "start": 3.26,
-     "end": 3.48
+     "end": 3.5
     },
     {
      "text": "LIFE",
      "red": false,
      "norm": "life",
      "norm_raw": "life",
-     "start": 3.48,
-     "end": 3.86
+     "start": 3.5,
+     "end": 3.84
     }
    ]
   },
@@ -3754,103 +3754,103 @@
      "norm": "two",
      "norm_raw": "two",
      "start": 105.36,
-     "end": 105.663
+     "end": 105.48
     },
     {
      "text": "HUNDRED",
      "red": true,
      "norm": "hundred",
      "norm_raw": "hundred",
-     "start": 105.663,
-     "end": 106.371
+     "start": 105.48,
+     "end": 105.82
     },
     {
      "text": "ONE",
      "red": true,
      "norm": "one",
      "norm_raw": "one",
-     "start": 106.371,
-     "end": 106.674
+     "start": 106.12,
+     "end": 106.28
     },
     {
      "text": "FIFTY",
      "red": true,
      "norm": "fifty",
      "norm_raw": "fifty",
-     "start": 106.674,
-     "end": 107.18
+     "start": 106.28,
+     "end": 106.62
     },
     {
      "text": "ONE",
      "red": true,
      "norm": "one",
      "norm_raw": "one",
-     "start": 107.18,
-     "end": 107.483
+     "start": 107.02,
+     "end": 107.1
     },
     {
      "text": "HUNDRED",
      "red": true,
      "norm": "hundred",
      "norm_raw": "hundred",
-     "start": 107.483,
-     "end": 108.191
+     "start": 107.1,
+     "end": 107.46
     },
     {
      "text": "FIFTY",
      "red": true,
      "norm": "fifty",
      "norm_raw": "fifty",
-     "start": 108.191,
-     "end": 108.696
+     "start": 107.8,
+     "end": 107.94
     },
     {
      "text": "TEN",
      "red": true,
      "norm": "ten",
      "norm_raw": "ten",
-     "start": 108.696,
-     "end": 108.999
+     "start": 108.38,
+     "end": 108.52
     },
     {
      "text": "FIVE",
      "red": true,
      "norm": "five",
      "norm_raw": "five",
-     "start": 108.999,
-     "end": 109.404
+     "start": 108.8,
+     "end": 108.96
     },
     {
      "text": "THREE",
      "red": true,
      "norm": "three",
      "norm_raw": "three",
-     "start": 109.404,
-     "end": 109.909
+     "start": 109.24,
+     "end": 109.4
     },
     {
      "text": "TWO",
      "red": true,
      "norm": "two",
      "norm_raw": "two",
-     "start": 109.909,
-     "end": 110.212
+     "start": 109.74,
+     "end": 109.84
     },
     {
      "text": "ONE",
      "red": true,
      "norm": "one",
      "norm_raw": "one",
-     "start": 110.212,
-     "end": 110.516
+     "start": 110.16,
+     "end": 110.3
     },
     {
      "text": "ZERO",
      "red": true,
      "norm": "zero",
      "norm_raw": "zero",
-     "start": 110.516,
-     "end": 110.92
+     "start": 110.3,
+     "end": 110.68
     }
    ]
   },

@@ -34,16 +34,15 @@
    "light": "day",
    "id": "shot_002",
    "frame0": 36,
-   "frames": 30,
-   "dur": 1.0,
+   "frames": 24,
+   "dur": 0.8,
    "seed": 919,
    "kind": "render",
    "paper": false,
    "caption_words": [
     "IS",
     "ONLY",
-    "ALLOWED",
-    "TWO"
+    "ALLOWED"
    ],
    "location": "street",
    "camera_move": "whip",
@@ -59,13 +58,14 @@
    "tgt": "t2",
    "light": "day",
    "id": "shot_003",
-   "frame0": 66,
-   "frames": 31,
-   "dur": 1.033,
+   "frame0": 60,
+   "frames": 37,
+   "dur": 1.233,
    "seed": 838,
    "kind": "render",
    "paper": false,
    "caption_words": [
+    "TWO",
     "THOUSAND",
     "DOORS",
     "IN",
@@ -2657,14 +2657,15 @@
    "light": "day",
    "id": "shot_104",
    "frame0": 3161,
-   "frames": 29,
-   "dur": 0.967,
+   "frames": 26,
+   "dur": 0.867,
    "seed": 657,
    "kind": "render",
    "paper": false,
    "caption_words": [
     "TWO",
-    "HUNDRED"
+    "HUNDRED",
+    "ONE"
    ],
    "location": "hall_dash",
    "camera_move": "counter",
@@ -2683,14 +2684,13 @@
    },
    "light": "day",
    "id": "shot_105",
-   "frame0": 3190,
-   "frames": 24,
-   "dur": 0.8,
+   "frame0": 3187,
+   "frames": 22,
+   "dur": 0.733,
    "seed": 576,
    "kind": "render",
    "paper": false,
    "caption_words": [
-    "ONE",
     "FIFTY"
    ],
    "location": "hall_c5",
@@ -2707,9 +2707,9 @@
    "tgt": "theo",
    "light": "day",
    "id": "shot_106",
-   "frame0": 3214,
-   "frames": 31,
-   "dur": 1.033,
+   "frame0": 3209,
+   "frames": 24,
+   "dur": 0.8,
    "seed": 495,
    "kind": "render",
    "paper": false,
@@ -2731,9 +2731,9 @@
    "tgt": "theo",
    "light": "day",
    "id": "shot_107",
-   "frame0": 3245,
-   "frames": 18,
-   "dur": 0.6,
+   "frame0": 3233,
+   "frames": 30,
+   "dur": 1.0,
    "seed": 414,
    "kind": "render",
    "paper": false,
@@ -2757,13 +2757,14 @@
    "light": "day",
    "id": "shot_108",
    "frame0": 3263,
-   "frames": 18,
-   "dur": 0.6,
+   "frames": 28,
+   "dur": 0.933,
    "seed": 333,
    "kind": "render",
    "paper": false,
    "caption_words": [
-    "FIVE"
+    "FIVE",
+    "THREE"
    ],
    "location": "art_lily",
    "camera_move": "view",
@@ -2779,15 +2780,15 @@
    "tgt": "lily",
    "light": "day",
    "id": "shot_109",
-   "frame0": 3281,
-   "frames": 24,
-   "dur": 0.8,
+   "frame0": 3291,
+   "frames": 18,
+   "dur": 0.6,
    "seed": 252,
    "kind": "render",
    "paper": false,
    "caption_words": [
-    "THREE",
-    "TWO"
+    "TWO",
+    "ONE"
    ],
    "location": "art_lily",
    "camera_move": "mcu",
@@ -2803,14 +2804,13 @@
    "tgt": "theo",
    "light": "day",
    "id": "shot_110",
-   "frame0": 3305,
-   "frames": 29,
-   "dur": 0.967,
+   "frame0": 3309,
+   "frames": 25,
+   "dur": 0.833,
    "seed": 171,
    "kind": "render",
    "paper": false,
    "caption_words": [
-    "ONE",
     "ZERO"
    ],
    "location": "art_zero",
@@ -4303,62 +4303,62 @@
     "step"
    ],
    [
-    105.663,
+    105.48,
     200,
     "step"
    ],
    [
-    106.371,
+    106.12,
     150,
     "ramp"
    ],
    [
-    106.674,
+    106.28,
     150,
     "step"
    ],
    [
-    107.18,
+    107.02,
     100,
     "ramp"
    ],
    [
-    107.483,
+    107.1,
     100,
     "step"
    ],
    [
-    108.191,
+    107.8,
     50,
     "ramp"
    ],
    [
-    108.696,
+    108.38,
     10,
     "step"
    ],
    [
-    108.999,
+    108.8,
     5,
     "step"
    ],
    [
-    109.404,
+    109.24,
     3,
     "step"
    ],
    [
-    109.909,
+    109.74,
     2,
     "step"
    ],
    [
-    110.212,
+    110.16,
     1,
     "step"
    ],
    [
-    110.516,
+    110.3,
     0,
     "step"
    ]
@@ -4541,7 +4541,7 @@
   ],
   "stone": [
    9.97,
-   110.516,
+   110.3,
    112.34
   ]
  }

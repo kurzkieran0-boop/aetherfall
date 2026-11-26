@@ -85,7 +85,7 @@ SETS = {
     "dock_sing": dict({"mom": (-20.5, -55.6, -90, "sing", DZ), "finn": (-19.5, -54.9, -95, "sing", DZ), "pip": PIP_BOAT},
                       **{k: (v[0], v[1], v[2], "sing", v[4]) for k, v in SHORE.items()}),
     "jetty": {"mom": (-25.6, -74.7, 10, "hug", DZ), "finn": (-25.6, -73.6, -20, "laugh", DZ), "pip": PIP_BOAT},
-    "granny": {"granny": (12, -8.0, 90, "sing", 0), "t5": (12.2, -5.0, -90, "idle", 0)},
+    "granny": {"granny": (12, -8.0, 75, "sing", 0), "t5": (13.2, -2.8, -100, "idle", 0)},
     "finale": {"mayor": (66.6, 0, 180, "sing", 0.6), "finn": (61.0, 0.4, 0, "sing", 0), "mom": (60.2, -1.1, 0, "sing", 0),
                "pip": (60.6, 1.5, 0, "sing", 0), "t1": (58, -3.2, 0, "sing", 0), "t3": (57.4, -1.2, 0, "sing", 0),
                "t5": (57.2, 3.4, 0, "sing", 0), "t6": (57.6, 2.4, 10, "sing", 0), "granny": (56.2, -2.3, 0, "sing", 0),
@@ -295,6 +295,11 @@ def apply(stage, sh, t, gt):
         else:
             oar.location = (-0.55, 0.0, 0.7)
             oar.rotation_euler = (0.35, 0, 0.5)
+    # ---- kit held whiteboard text reads mirrored from the front: un-mirror it
+    for k in ("finn_held_whiteboard_text1",):
+        if k in ob:
+            ob[k].scale.x = -1.0
+            ob[k].rotation_euler.z = math.pi
     # ---- ducks paddle in slow circles
     for i in range(5):
         d = ob.get(f"duck{i}")
@@ -340,13 +345,18 @@ def cam_override(stage, sh, t, actors, T, f, u):
         return pos, T + Vector((0, 0, 0.1)), 26
     if tgt == "dog_head" and cam == "ots":
         side = Vector((-f.y, f.x, 0))
-        pos = T + f * lerp(1.9, 1.5, u) + side * 0.9 + Vector((0, 0, 0.55))
+        pos = T + f * lerp(1.2, 0.95, u) - side * lerp(1.4, 1.2, u) + Vector((0, 0, 0.45))
         return pos, T + Vector((0, 0, 0.05)), 30
     if tgt.endswith("_held_whiteboard"):
         o = stage.ob[tgt]
         n = (o.matrix_world.to_3x3() @ Vector((0, 0, 1))).normalized()
         c = o.matrix_world @ Vector((0, 0.12, 0))
-        return c + n * lerp(1.25, 1.0, u) + Vector((0, 0, 0.05)), c, 35
+        return c + n * lerp(1.25, 1.0, u) + Vector((0, 0, 0.05)), c, 35, 180
+    if tgt == "rope":
+        return T + Vector((1.7, 1.5, 1.2)) * lerp(1.25, 1.0, u), T + Vector((0, 0, -0.1)), 32
+    if tgt == "falls" and cam == "push":
+        pos = T + Vector((lerp(3, 1.5, u), lerp(13, 8, u), lerp(5.5, 4.0, u)))
+        return pos, T + Vector((0, -3.0, -2.2)), 26
     if tgt == "rowboat" and cam == "push":
         pos = T + rot2(f, lerp(170, 150, u)) * lerp(14, 8, u) + Vector((0, 0, 2.6))
         return pos, T + Vector((0, 0, 0.4)), 30

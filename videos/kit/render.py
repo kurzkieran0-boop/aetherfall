@@ -198,7 +198,7 @@ class Stage:
             if act == "sit_talk":
                 act = "talk"
         elif act == "lie":     # collapsed on the ground, face up
-            root.rotation_euler.x = -1.5
+            root.rotation_euler.x = 1.5
             pos.z = z + 0.32 * s
             armL.rotation_euler.y, armR.rotation_euler.y = -0.6, 0.6
         else:

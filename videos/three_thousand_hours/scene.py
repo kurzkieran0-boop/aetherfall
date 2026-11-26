@@ -591,7 +591,8 @@ def apply(stage, sh, t, gt):
     for i in range(4):
         ob[f"note{i}"].location.z = 7.5 + i * 0.6 + 0.4 * math.sin(1.6 * gt + i)
         ob[f"note{i}"].hide_render = sset != "school"
-    ob["candle_flames"].hide_render = sset != "birthday"
+    for nm in ("candle_flames", "bday_table", "cake", "cake_top", "candles", "bday_banner", "bday_banner_t"):
+        ob[nm].hide_render = sset != "birthday"
     # ---- flood, puddles, rain, breach
     lvl = flood_level(sid, gt) if sid in FLOOD or (sid.startswith("s") and 23 <= k <= 28) else 0.0
     ob["flood"].location.z = (-0.25 + lvl * 1.05) if lvl > 0 else -5
