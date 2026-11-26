@@ -541,8 +541,34 @@ class Stage:
                 return bias
         return 0.0
 
+    def inside_cam(self, sh, actors, bias):
+        """Characters the camera passes INSIDE during this shot (renders a black frame). Decided once per shot so
+        nobody pops in or out mid-shot; such a character is left out of the whole shot."""
+        key = (sh["id"], bias)
+        cache = self.__dict__.setdefault("_inside", {})
+        if key not in cache:
+            out = set()
+            for k in range(7):
+                t = sh["dur"] * k / 6
+                self.apply(sh, t, actors)
+                pos = self.cam_rig(sh, t, actors, bias)[0]
+                for n in actors:
+                    if n == sh.get("tgt"):
+                        continue
+                    sc = self.CAST[n]["scale"]
+                    r = self.ob[n + "_root"].location
+                    if Vector((pos.x - r.x, pos.y - r.y)).length < 0.31 * sc + 0.08 and r.z < pos.z < r.z + 2.6 * sc:
+                        out.add(n)
+            cache[key] = out
+        return cache[key]
+
     def frame(self, sh, t, actors, bias, path):
+        gone = self.inside_cam(sh, actors, bias)
         self.apply(sh, t, actors)
+        if gone:
+            for n in gone:
+                self.ob[n + "_root"].location = (0, 0, -200)
+            bpy.context.view_layer.update()
         self.place_cam(*self.cam_rig(sh, t, actors, bias))
         self.sc.render.filepath = str(path)
         with render_slot():
