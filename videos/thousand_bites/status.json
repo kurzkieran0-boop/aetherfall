@@ -1,12 +1,12 @@
 {
  "tts": {
   "ok": true,
-  "at": "2026-11-26 01:32:36",
-  "seconds": 178.8,
+  "at": "2026-11-26 01:37:46",
+  "seconds": 169.2,
   "words": 551,
-  "wps": 3.08,
+  "wps": 3.26,
   "extra_beats": 0,
-  "length_scale": 0.735
+  "length_scale": 0.675
  },
  "dressing": {
   "ok": true,

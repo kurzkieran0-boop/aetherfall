@@ -96,12 +96,12 @@
   "thousand_bites": {
    "tts": {
     "ok": true,
-    "at": "2026-11-26 01:32:36",
-    "seconds": 178.8,
+    "at": "2026-11-26 01:37:46",
+    "seconds": 169.2,
     "words": 551,
-    "wps": 3.08,
+    "wps": 3.26,
     "extra_beats": 0,
-    "length_scale": 0.735
+    "length_scale": 0.675
    },
    "dressing": {
     "ok": true,
@@ -144,19 +144,27 @@
   "three_thousand_hours": {
    "dressing": {
     "ok": true,
-    "at": "2026-11-26 01:29:26",
+    "at": "2026-11-26 01:38:35",
     "objects": 650
    },
    "tts": {
     "ok": true,
-    "at": "2026-11-26 01:32:26",
-    "seconds": 174.8,
+    "at": "2026-11-26 01:37:43",
+    "seconds": 166.7,
     "words": 552,
-    "wps": 3.16,
+    "wps": 3.31,
     "extra_beats": 0,
-    "length_scale": 0.828
+    "length_scale": 0.765
+   },
+   "shots": {
+    "ok": true,
+    "at": "2026-11-26 01:37:55",
+    "shots": 156,
+    "cards": 7,
+    "max_shot": 1.633,
+    "render_frames": 4582
    }
   }
  },
- "updated": "2026-11-26 01:37:35"
+ "updated": "2026-11-26 01:38:35"
 }

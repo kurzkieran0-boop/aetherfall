@@ -1,18 +1,18 @@
 {
- "duration": 174.79,
+ "duration": 166.71,
  "n_extra": 0,
  "words": 552,
- "wps": 3.158,
- "length_scale": 0.8282122838853958,
- "source_hash": "8eb76c5528488349",
- "whisper_match": 0.94,
+ "wps": 3.311,
+ "length_scale": 0.765,
+ "source_hash": "4ea456a1f27a7a37",
+ "whisper_match": 0.933,
  "sentences": [
   {
    "id": "s01",
    "text": "In this town, everyone is only allowed three thousand hours awake in their entire life.",
    "start": 0.08,
-   "speech_end": 4.92,
-   "end": 5.12,
+   "speech_end": 4.71,
+   "end": 4.91,
    "light": "day",
    "beats": [
     {
@@ -55,14 +55,14 @@
      "norm": "this",
      "norm_raw": "this",
      "start": 0.18,
-     "end": 0.28
+     "end": 0.3
     },
     {
      "text": "TOWN",
      "red": false,
      "norm": "town",
      "norm_raw": "town",
-     "start": 0.28,
+     "start": 0.3,
      "end": 0.64
     },
     {
@@ -70,7 +70,7 @@
      "red": false,
      "norm": "everyone",
      "norm_raw": "everyone",
-     "start": 0.98,
+     "start": 1.0,
      "end": 1.34
     },
     {
@@ -79,96 +79,96 @@
      "norm": "is",
      "norm_raw": "is",
      "start": 1.34,
-     "end": 1.6
+     "end": 1.56
     },
     {
      "text": "ONLY",
      "red": false,
      "norm": "only",
      "norm_raw": "only",
-     "start": 1.6,
-     "end": 1.8
+     "start": 1.56,
+     "end": 1.74
     },
     {
      "text": "ALLOWED",
      "red": false,
      "norm": "allowed",
      "norm_raw": "allowed",
-     "start": 1.8,
-     "end": 2.18
+     "start": 1.74,
+     "end": 2.08
     },
     {
      "text": "THREE",
      "red": false,
      "norm": "three",
      "norm_raw": "three",
-     "start": 2.18,
-     "end": 2.526
+     "start": 2.08,
+     "end": 2.388
     },
     {
      "text": "THOUSAND",
      "red": false,
      "norm": "thousand",
      "norm_raw": "thousand",
-     "start": 2.526,
-     "end": 3.08
+     "start": 2.388,
+     "end": 2.88
     },
     {
      "text": "HOURS",
      "red": false,
      "norm": "hours",
      "norm_raw": "hours",
-     "start": 3.08,
-     "end": 3.4
+     "start": 2.88,
+     "end": 3.18
     },
     {
      "text": "AWAKE",
      "red": false,
      "norm": "awake",
      "norm_raw": "awake",
-     "start": 3.4,
-     "end": 3.68
+     "start": 3.18,
+     "end": 3.46
     },
     {
      "text": "IN",
      "red": false,
      "norm": "in",
      "norm_raw": "in",
-     "start": 3.68,
-     "end": 3.86
+     "start": 3.46,
+     "end": 3.66
     },
     {
      "text": "THEIR",
      "red": false,
      "norm": "their",
      "norm_raw": "their",
-     "start": 3.86,
-     "end": 3.98
+     "start": 3.66,
+     "end": 3.78
     },
     {
      "text": "ENTIRE",
      "red": false,
      "norm": "entire",
      "norm_raw": "entire",
-     "start": 3.98,
-     "end": 4.22
+     "start": 3.78,
+     "end": 4.02
     },
     {
      "text": "LIFE",
      "red": false,
      "norm": "life",
      "norm_raw": "life",
-     "start": 4.22,
-     "end": 4.66
+     "start": 4.02,
+     "end": 4.48
     }
    ]
   },
   {
    "id": "s02",
    "text": "You're born with a glowing number on your chest. Every hour your eyes are open, it counts down.",
-   "start": 5.12,
-   "speech_end": 9.72,
-   "end": 9.92,
+   "start": 4.91,
+   "speech_end": 9.31,
+   "end": 9.51,
    "light": "day",
    "beats": [
     {
@@ -203,153 +203,153 @@
      "red": false,
      "norm": "youre",
      "norm_raw": "you're",
-     "start": 5.12,
-     "end": 5.22
+     "start": 4.91,
+     "end": 4.99
     },
     {
      "text": "BORN",
      "red": false,
      "norm": "born",
      "norm_raw": "born",
-     "start": 5.22,
-     "end": 5.38
+     "start": 4.99,
+     "end": 5.15
     },
     {
      "text": "WITH",
      "red": false,
      "norm": "with",
      "norm_raw": "with",
-     "start": 5.38,
-     "end": 5.62
+     "start": 5.15,
+     "end": 5.37
     },
     {
      "text": "A",
      "red": false,
      "norm": "a",
      "norm_raw": "a",
-     "start": 5.62,
-     "end": 5.68
+     "start": 5.37,
+     "end": 5.45
     },
     {
      "text": "GLOWING",
      "red": false,
      "norm": "glowing",
      "norm_raw": "glowing",
-     "start": 5.68,
-     "end": 5.92
+     "start": 5.45,
+     "end": 5.67
     },
     {
      "text": "NUMBER",
      "red": false,
      "norm": "number",
      "norm_raw": "number",
-     "start": 5.92,
-     "end": 6.18
+     "start": 5.67,
+     "end": 5.95
     },
     {
      "text": "ON",
      "red": false,
      "norm": "on",
      "norm_raw": "on",
-     "start": 6.18,
-     "end": 6.38
+     "start": 5.95,
+     "end": 6.19
     },
     {
      "text": "YOUR",
      "red": false,
      "norm": "your",
      "norm_raw": "your",
-     "start": 6.38,
-     "end": 6.5
+     "start": 6.19,
+     "end": 6.29
     },
     {
      "text": "CHEST",
      "red": false,
      "norm": "chest",
      "norm_raw": "chest",
-     "start": 6.5,
-     "end": 6.84
+     "start": 6.29,
+     "end": 6.61
     },
     {
      "text": "EVERY",
      "red": false,
      "norm": "every",
      "norm_raw": "every",
-     "start": 7.2,
-     "end": 7.42
+     "start": 6.95,
+     "end": 7.13
     },
     {
      "text": "HOUR",
      "red": false,
      "norm": "hour",
      "norm_raw": "hour",
-     "start": 7.42,
-     "end": 7.68
+     "start": 7.13,
+     "end": 7.39
     },
     {
      "text": "YOUR",
      "red": false,
      "norm": "your",
      "norm_raw": "your",
-     "start": 7.68,
-     "end": 7.92
+     "start": 7.39,
+     "end": 7.57
     },
     {
      "text": "EYES",
      "red": false,
      "norm": "eyes",
      "norm_raw": "eyes",
-     "start": 7.92,
-     "end": 8.18
+     "start": 7.57,
+     "end": 7.81
     },
     {
      "text": "ARE",
      "red": false,
      "norm": "are",
      "norm_raw": "are",
-     "start": 8.18,
-     "end": 8.36
+     "start": 7.81,
+     "end": 7.95
     },
     {
      "text": "OPEN",
      "red": false,
      "norm": "open",
      "norm_raw": "open",
-     "start": 8.36,
-     "end": 8.56
+     "start": 7.95,
+     "end": 8.19
     },
     {
      "text": "IT",
      "red": false,
      "norm": "it",
      "norm_raw": "it",
-     "start": 8.82,
-     "end": 8.88
+     "start": 8.39,
+     "end": 8.45
     },
     {
      "text": "COUNTS",
      "red": false,
      "norm": "counts",
      "norm_raw": "counts",
-     "start": 8.88,
-     "end": 9.1
+     "start": 8.45,
+     "end": 8.71
     },
     {
      "text": "DOWN",
      "red": false,
      "norm": "down",
      "norm_raw": "down",
-     "start": 9.1,
-     "end": 9.48
+     "start": 8.71,
+     "end": 9.07
     }
    ]
   },
   {
    "id": "s03",
    "text": "When it hits zero, your eyelids turn to STONE and never open again.",
-   "start": 9.92,
-   "speech_end": 13.74,
-   "end": 13.94,
+   "start": 9.51,
+   "speech_end": 12.91,
+   "end": 13.11,
    "light": "day",
    "beats": [
     {
@@ -378,113 +378,113 @@
      "red": false,
      "norm": "when",
      "norm_raw": "when",
-     "start": 9.92,
-     "end": 10.0
+     "start": 9.51,
+     "end": 9.59
     },
     {
      "text": "IT",
      "red": false,
      "norm": "it",
      "norm_raw": "it",
-     "start": 10.0,
-     "end": 10.08
+     "start": 9.59,
+     "end": 9.67
     },
     {
      "text": "HITS",
      "red": false,
      "norm": "hits",
      "norm_raw": "hits",
-     "start": 10.08,
-     "end": 10.26
+     "start": 9.67,
+     "end": 9.83
     },
     {
      "text": "ZERO",
      "red": false,
      "norm": "zero",
      "norm_raw": "zero",
-     "start": 10.26,
-     "end": 10.64
+     "start": 9.83,
+     "end": 10.17
     },
     {
      "text": "YOUR",
      "red": false,
      "norm": "your",
      "norm_raw": "your",
-     "start": 11.1,
-     "end": 11.24
+     "start": 10.57,
+     "end": 10.71
     },
     {
      "text": "EYELIDS",
      "red": false,
      "norm": "eyelids",
      "norm_raw": "eyelids",
-     "start": 11.24,
-     "end": 11.7
+     "start": 10.71,
+     "end": 11.13
     },
     {
      "text": "TURN",
      "red": false,
      "norm": "turn",
      "norm_raw": "turn",
-     "start": 11.7,
-     "end": 11.92
+     "start": 11.13,
+     "end": 11.33
     },
     {
      "text": "TO",
      "red": false,
      "norm": "to",
      "norm_raw": "to",
-     "start": 11.92,
-     "end": 12.12
+     "start": 11.33,
+     "end": 11.51
     },
     {
      "text": "STONE",
      "red": true,
      "norm": "stone",
      "norm_raw": "stone",
-     "start": 12.12,
-     "end": 12.38
+     "start": 11.51,
+     "end": 11.75
     },
     {
      "text": "AND",
      "red": false,
      "norm": "and",
      "norm_raw": "and",
-     "start": 12.38,
-     "end": 12.58
+     "start": 11.75,
+     "end": 11.93
     },
     {
      "text": "NEVER",
      "red": false,
      "norm": "never",
      "norm_raw": "never",
-     "start": 12.58,
-     "end": 12.8
+     "start": 11.93,
+     "end": 12.11
     },
     {
      "text": "OPEN",
      "red": false,
      "norm": "open",
      "norm_raw": "open",
-     "start": 12.8,
-     "end": 13.14
+     "start": 12.11,
+     "end": 12.41
     },
     {
      "text": "AGAIN",
      "red": false,
      "norm": "again",
      "norm_raw": "again",
-     "start": 13.14,
-     "end": 13.52
+     "start": 12.41,
+     "end": 12.73
     }
    ]
   },
   {
    "id": "s04",
    "text": "So nobody here wastes a single hour.",
-   "start": 13.94,
-   "speech_end": 16.09,
-   "end": 16.29,
+   "start": 13.11,
+   "speech_end": 15.12,
+   "end": 15.32,
    "light": "day",
    "beats": [
     {
@@ -504,65 +504,65 @@
      "red": false,
      "norm": "so",
      "norm_raw": "so",
-     "start": 13.94,
-     "end": 14.1
+     "start": 13.11,
+     "end": 13.25
     },
     {
      "text": "NOBODY",
      "red": false,
      "norm": "nobody",
      "norm_raw": "nobody",
-     "start": 14.1,
-     "end": 14.32
+     "start": 13.25,
+     "end": 13.47
     },
     {
      "text": "HERE",
      "red": false,
      "norm": "here",
      "norm_raw": "here",
-     "start": 14.32,
-     "end": 14.7
+     "start": 13.47,
+     "end": 13.81
     },
     {
      "text": "WASTES",
      "red": false,
      "norm": "wastes",
      "norm_raw": "wastes",
-     "start": 14.7,
-     "end": 14.94
+     "start": 13.81,
+     "end": 14.09
     },
     {
      "text": "A",
      "red": false,
      "norm": "a",
      "norm_raw": "a",
-     "start": 14.94,
-     "end": 15.22
+     "start": 14.09,
+     "end": 14.39
     },
     {
      "text": "SINGLE",
      "red": false,
      "norm": "single",
      "norm_raw": "single",
-     "start": 15.22,
-     "end": 15.54
+     "start": 14.39,
+     "end": 14.63
     },
     {
      "text": "HOUR",
      "red": false,
      "norm": "hour",
      "norm_raw": "hour",
-     "start": 15.54,
-     "end": 15.84
+     "start": 14.63,
+     "end": 14.91
     }
    ]
   },
   {
    "id": "s05",
    "text": "The mayor holds meetings from bed. The baker sells bread in his pajamas. The mailman delivers letters with his eyes shut, and a very patient dog.",
-   "start": 16.29,
-   "speech_end": 23.8,
-   "end": 24.0,
+   "start": 15.32,
+   "speech_end": 22.36,
+   "end": 22.56,
    "light": "day",
    "beats": [
     {
@@ -633,217 +633,217 @@
      "red": false,
      "norm": "the",
      "norm_raw": "the",
-     "start": 16.29,
-     "end": 16.35
+     "start": 15.32,
+     "end": 15.38
     },
     {
      "text": "MAYOR",
      "red": false,
      "norm": "mayor",
      "norm_raw": "mayor",
-     "start": 16.35,
-     "end": 16.49
+     "start": 15.38,
+     "end": 15.5
     },
     {
      "text": "HOLDS",
      "red": false,
      "norm": "holds",
      "norm_raw": "holds",
-     "start": 16.49,
-     "end": 16.81
+     "start": 15.5,
+     "end": 15.76
     },
     {
      "text": "MEETINGS",
      "red": false,
      "norm": "meetings",
      "norm_raw": "meetings",
-     "start": 16.81,
-     "end": 17.15
+     "start": 15.76,
+     "end": 16.04
     },
     {
      "text": "FROM",
      "red": false,
      "norm": "from",
      "norm_raw": "from",
-     "start": 17.15,
-     "end": 17.51
+     "start": 16.04,
+     "end": 16.38
     },
     {
      "text": "BED",
      "red": false,
      "norm": "bed",
      "norm_raw": "bed",
-     "start": 17.51,
-     "end": 17.81
+     "start": 16.38,
+     "end": 16.66
     },
     {
      "text": "THE",
      "red": false,
      "norm": "the",
      "norm_raw": "the",
-     "start": 18.13,
-     "end": 18.18
+     "start": 16.94,
+     "end": 16.99
     },
     {
      "text": "BAKER",
      "red": false,
      "norm": "baker",
      "norm_raw": "baker",
-     "start": 18.17,
-     "end": 18.47
+     "start": 16.98,
+     "end": 17.12
     },
     {
      "text": "SELLS",
      "red": false,
      "norm": "sells",
      "norm_raw": "sells",
-     "start": 18.47,
-     "end": 18.77
+     "start": 17.12,
+     "end": 17.4
     },
     {
      "text": "BREAD",
      "red": false,
      "norm": "bread",
      "norm_raw": "bread",
-     "start": 18.77,
-     "end": 18.95
+     "start": 17.4,
+     "end": 17.76
     },
     {
      "text": "IN",
      "red": false,
      "norm": "in",
      "norm_raw": "in",
-     "start": 18.95,
-     "end": 19.15
+     "start": 17.76,
+     "end": 17.98
     },
     {
      "text": "HIS",
      "red": false,
      "norm": "his",
      "norm_raw": "his",
-     "start": 19.15,
-     "end": 19.29
+     "start": 17.98,
+     "end": 18.12
     },
     {
      "text": "PAJAMAS",
      "red": false,
      "norm": "pajamas",
      "norm_raw": "pajamas",
-     "start": 19.29,
-     "end": 19.79
+     "start": 18.12,
+     "end": 18.64
     },
     {
      "text": "THE",
      "red": false,
      "norm": "the",
      "norm_raw": "the",
-     "start": 20.21,
-     "end": 20.26
+     "start": 18.96,
+     "end": 19.06
     },
     {
      "text": "MAILMAN",
      "red": false,
      "norm": "mailman",
      "norm_raw": "mailman",
-     "start": 20.25,
-     "end": 20.57
+     "start": 19.06,
+     "end": 19.36
     },
     {
      "text": "DELIVERS",
      "red": false,
      "norm": "delivers",
      "norm_raw": "delivers",
-     "start": 20.57,
-     "end": 20.81
+     "start": 19.36,
+     "end": 19.56
     },
     {
      "text": "LETTERS",
      "red": false,
      "norm": "letters",
      "norm_raw": "letters",
-     "start": 20.81,
-     "end": 21.29
+     "start": 19.56,
+     "end": 19.96
     },
     {
      "text": "WITH",
      "red": false,
      "norm": "with",
      "norm_raw": "with",
-     "start": 21.29,
-     "end": 21.59
+     "start": 19.96,
+     "end": 20.22
     },
     {
      "text": "HIS",
      "red": false,
      "norm": "his",
      "norm_raw": "his",
-     "start": 21.59,
-     "end": 21.71
+     "start": 20.22,
+     "end": 20.32
     },
     {
      "text": "EYES",
      "red": false,
      "norm": "eyes",
      "norm_raw": "eyes",
-     "start": 21.71,
-     "end": 21.87
+     "start": 20.32,
+     "end": 20.46
     },
     {
      "text": "SHUT",
      "red": false,
      "norm": "shut",
      "norm_raw": "shut",
-     "start": 21.87,
-     "end": 22.11
+     "start": 20.46,
+     "end": 20.72
     },
     {
      "text": "AND",
      "red": false,
      "norm": "and",
      "norm_raw": "and",
-     "start": 22.49,
-     "end": 22.61
+     "start": 21.06,
+     "end": 21.16
     },
     {
      "text": "A",
      "red": false,
      "norm": "a",
      "norm_raw": "a",
-     "start": 22.61,
-     "end": 22.69
+     "start": 21.16,
+     "end": 21.22
     },
     {
      "text": "VERY",
      "red": false,
      "norm": "very",
      "norm_raw": "very",
-     "start": 22.69,
-     "end": 22.91
+     "start": 21.22,
+     "end": 21.44
     },
     {
      "text": "PATIENT",
      "red": false,
      "norm": "patient",
      "norm_raw": "patient",
-     "start": 22.91,
-     "end": 23.31
+     "start": 21.44,
+     "end": 21.84
     },
     {
      "text": "DOG",
      "red": false,
      "norm": "dog",
      "norm_raw": "dog",
-     "start": 23.31,
-     "end": 23.57
+     "start": 21.84,
+     "end": 22.12
     }
    ]
   },
   {
    "id": "s06",
    "text": "Kids do homework with their eyes closed. They get a lot of questions wrong. Nobody minds.",
-   "start": 24.0,
-   "speech_end": 28.72,
-   "end": 28.92,
+   "start": 22.56,
+   "speech_end": 27.06,
+   "end": 27.26,
    "light": "day",
    "beats": [
     {
@@ -894,137 +894,137 @@
      "red": false,
      "norm": "kids",
      "norm_raw": "kids",
-     "start": 24.0,
-     "end": 24.24
+     "start": 22.56,
+     "end": 22.76
     },
     {
      "text": "DO",
      "red": false,
      "norm": "do",
      "norm_raw": "do",
-     "start": 24.24,
-     "end": 24.4
+     "start": 22.76,
+     "end": 22.92
     },
     {
      "text": "HOMEWORK",
      "red": false,
      "norm": "homework",
      "norm_raw": "homework",
-     "start": 24.4,
-     "end": 24.68
+     "start": 22.92,
+     "end": 23.22
     },
     {
      "text": "WITH",
      "red": false,
      "norm": "with",
      "norm_raw": "with",
-     "start": 24.68,
-     "end": 24.96
+     "start": 23.22,
+     "end": 23.52
     },
     {
      "text": "THEIR",
      "red": false,
      "norm": "their",
      "norm_raw": "their",
-     "start": 24.96,
-     "end": 25.1
+     "start": 23.52,
+     "end": 23.68
     },
     {
      "text": "EYES",
      "red": false,
      "norm": "eyes",
      "norm_raw": "eyes",
-     "start": 25.1,
-     "end": 25.3
+     "start": 23.68,
+     "end": 23.84
     },
     {
      "text": "CLOSED",
      "red": false,
      "norm": "closed",
      "norm_raw": "closed",
-     "start": 25.3,
-     "end": 25.68
+     "start": 23.84,
+     "end": 24.2
     },
     {
      "text": "THEY",
      "red": false,
      "norm": "they",
      "norm_raw": "they",
-     "start": 25.68,
-     "end": 26.18
+     "start": 24.62,
+     "end": 24.67
     },
     {
      "text": "GET",
      "red": false,
      "norm": "get",
      "norm_raw": "get",
-     "start": 26.18,
-     "end": 26.32
+     "start": 24.66,
+     "end": 24.78
     },
     {
      "text": "A",
      "red": false,
      "norm": "a",
      "norm_raw": "a",
-     "start": 26.32,
-     "end": 26.4
+     "start": 24.78,
+     "end": 24.86
     },
     {
      "text": "LOT",
      "red": false,
      "norm": "lot",
      "norm_raw": "lot",
-     "start": 26.4,
-     "end": 26.6
+     "start": 24.86,
+     "end": 25.02
     },
     {
      "text": "OF",
      "red": false,
      "norm": "of",
      "norm_raw": "of",
-     "start": 26.6,
-     "end": 26.7
+     "start": 25.02,
+     "end": 25.1
     },
     {
      "text": "QUESTIONS",
      "red": false,
      "norm": "questions",
      "norm_raw": "questions",
-     "start": 26.7,
-     "end": 27.0
+     "start": 25.1,
+     "end": 25.4
     },
     {
      "text": "WRONG",
      "red": false,
      "norm": "wrong",
      "norm_raw": "wrong",
-     "start": 27.0,
-     "end": 27.4
+     "start": 25.4,
+     "end": 25.82
     },
     {
      "text": "NOBODY",
      "red": false,
      "norm": "nobody",
      "norm_raw": "nobody",
-     "start": 27.76,
-     "end": 27.96
+     "start": 26.2,
+     "end": 26.4
     },
     {
      "text": "MINDS",
      "red": false,
      "norm": "minds",
      "norm_raw": "minds",
-     "start": 27.96,
-     "end": 28.28
+     "start": 26.4,
+     "end": 26.68
     }
    ]
   },
   {
    "id": "s07",
    "text": "The school bell is a gentle lullaby, because nobody wants to wake up too fast.",
-   "start": 28.92,
-   "speech_end": 32.78,
-   "end": 32.98,
+   "start": 27.26,
+   "speech_end": 31.07,
+   "end": 31.27,
    "light": "day",
    "beats": [
     {
@@ -1069,129 +1069,129 @@
      "red": false,
      "norm": "the",
      "norm_raw": "the",
-     "start": 28.92,
-     "end": 28.98
+     "start": 27.26,
+     "end": 27.32
     },
     {
      "text": "SCHOOL",
      "red": false,
      "norm": "school",
      "norm_raw": "school",
-     "start": 28.98,
-     "end": 29.16
+     "start": 27.32,
+     "end": 27.5
     },
     {
      "text": "BELL",
      "red": false,
      "norm": "bell",
      "norm_raw": "bell",
-     "start": 29.16,
-     "end": 29.4
+     "start": 27.5,
+     "end": 27.72
     },
     {
      "text": "IS",
      "red": false,
      "norm": "is",
      "norm_raw": "is",
-     "start": 29.4,
-     "end": 29.64
+     "start": 27.72,
+     "end": 27.96
     },
     {
      "text": "A",
      "red": false,
      "norm": "a",
      "norm_raw": "a",
-     "start": 29.64,
-     "end": 29.74
+     "start": 27.96,
+     "end": 28.06
     },
     {
      "text": "GENTLE",
      "red": false,
      "norm": "gentle",
      "norm_raw": "gentle",
-     "start": 29.74,
-     "end": 30.04
+     "start": 28.06,
+     "end": 28.34
     },
     {
      "text": "LULLABY",
      "red": false,
      "norm": "lullaby",
      "norm_raw": "lullaby",
-     "start": 30.04,
-     "end": 30.52
+     "start": 28.34,
+     "end": 28.86
     },
     {
      "text": "BECAUSE",
      "red": false,
      "norm": "because",
      "norm_raw": "because",
-     "start": 30.52,
-     "end": 30.84
+     "start": 28.86,
+     "end": 29.22
     },
     {
      "text": "NOBODY",
      "red": false,
      "norm": "nobody",
      "norm_raw": "nobody",
-     "start": 30.84,
-     "end": 31.1
+     "start": 29.22,
+     "end": 29.46
     },
     {
      "text": "WANTS",
      "red": false,
      "norm": "wants",
      "norm_raw": "wants",
-     "start": 31.1,
-     "end": 31.44
+     "start": 29.46,
+     "end": 29.82
     },
     {
      "text": "TO",
      "red": false,
      "norm": "to",
      "norm_raw": "to",
-     "start": 31.44,
-     "end": 31.66
+     "start": 29.82,
+     "end": 30.04
     },
     {
      "text": "WAKE",
      "red": false,
      "norm": "wake",
      "norm_raw": "wake",
-     "start": 31.66,
-     "end": 31.8
+     "start": 30.04,
+     "end": 30.16
     },
     {
      "text": "UP",
      "red": false,
      "norm": "up",
      "norm_raw": "up",
-     "start": 31.8,
-     "end": 31.92
+     "start": 30.16,
+     "end": 30.28
     },
     {
      "text": "TOO",
      "red": false,
      "norm": "too",
      "norm_raw": "too",
-     "start": 31.92,
-     "end": 32.1
+     "start": 30.28,
+     "end": 30.46
     },
     {
      "text": "FAST",
      "red": false,
      "norm": "fast",
      "norm_raw": "fast",
-     "start": 32.1,
-     "end": 32.44
+     "start": 30.46,
+     "end": 30.72
     }
    ]
   },
   {
    "id": "s08",
    "text": "And then there's me. Nora. Eleven.",
-   "start": 32.98,
-   "speech_end": 35.25,
-   "end": 35.45,
+   "start": 31.27,
+   "speech_end": 33.34,
+   "end": 33.54,
    "light": "day",
    "beats": [
     {
@@ -1214,57 +1214,57 @@
      "red": false,
      "norm": "and",
      "norm_raw": "and",
-     "start": 32.98,
-     "end": 33.08
+     "start": 31.27,
+     "end": 31.37
     },
     {
      "text": "THEN",
      "red": false,
      "norm": "then",
      "norm_raw": "then",
-     "start": 33.08,
-     "end": 33.2
+     "start": 31.37,
+     "end": 31.49
     },
     {
      "text": "THERE'S",
      "red": false,
      "norm": "theres",
      "norm_raw": "there's",
-     "start": 33.2,
-     "end": 33.66
+     "start": 31.49,
+     "end": 31.89
     },
     {
      "text": "ME",
      "red": false,
      "norm": "me",
      "norm_raw": "me",
-     "start": 33.66,
-     "end": 33.8
+     "start": 31.89,
+     "end": 32.03
     },
     {
      "text": "NORA",
      "red": false,
      "norm": "nora",
      "norm_raw": "nora",
-     "start": 34.1,
-     "end": 34.26
+     "start": 32.31,
+     "end": 32.47
     },
     {
      "text": "ELEVEN",
      "red": false,
      "norm": "eleven",
      "norm_raw": "eleven",
-     "start": 34.26,
-     "end": 35.25
+     "start": 32.47,
+     "end": 33.34
     }
    ]
   },
   {
    "id": "s09",
    "text": "I stayed up all night. I watched fireflies. I counted stars. I read under my blanket with a flashlight, because I had to know how the book ended.",
-   "start": 35.45,
-   "speech_end": 43.16,
-   "end": 43.36,
+   "start": 33.54,
+   "speech_end": 40.83,
+   "end": 41.03,
    "light": "night",
    "beats": [
     {
@@ -1320,233 +1320,233 @@
      "red": false,
      "norm": "i",
      "norm_raw": "i",
-     "start": 35.45,
-     "end": 35.53
+     "start": 33.54,
+     "end": 33.6
     },
     {
      "text": "STAYED",
      "red": false,
      "norm": "stayed",
      "norm_raw": "stayed",
-     "start": 35.53,
-     "end": 35.73
+     "start": 33.6,
+     "end": 33.8
     },
     {
      "text": "UP",
      "red": false,
      "norm": "up",
      "norm_raw": "up",
-     "start": 35.73,
-     "end": 35.89
+     "start": 33.8,
+     "end": 33.98
     },
     {
      "text": "ALL",
      "red": false,
      "norm": "all",
      "norm_raw": "all",
-     "start": 35.89,
-     "end": 36.05
+     "start": 33.98,
+     "end": 34.16
     },
     {
      "text": "NIGHT",
      "red": false,
      "norm": "night",
      "norm_raw": "night",
-     "start": 36.05,
-     "end": 36.29
+     "start": 34.16,
+     "end": 34.44
     },
     {
      "text": "I",
      "red": false,
      "norm": "i",
      "norm_raw": "i",
-     "start": 36.61,
-     "end": 36.69
+     "start": 34.82,
+     "end": 34.88
     },
     {
      "text": "WATCHED",
      "red": false,
      "norm": "watched",
      "norm_raw": "watched",
-     "start": 36.69,
-     "end": 36.91
+     "start": 34.88,
+     "end": 35.1
     },
     {
      "text": "FIREFLIES",
      "red": false,
      "norm": "fireflies",
      "norm_raw": "fireflies",
-     "start": 36.91,
-     "end": 37.71
+     "start": 35.1,
+     "end": 35.82
     },
     {
      "text": "I",
      "red": false,
      "norm": "i",
      "norm_raw": "i",
-     "start": 38.11,
-     "end": 38.21
+     "start": 36.24,
+     "end": 36.32
     },
     {
      "text": "COUNTED",
      "red": false,
      "norm": "counted",
      "norm_raw": "counted",
-     "start": 38.21,
-     "end": 38.47
+     "start": 36.32,
+     "end": 36.56
     },
     {
      "text": "STARS",
      "red": false,
      "norm": "stars",
      "norm_raw": "stars",
-     "start": 38.47,
-     "end": 38.87
+     "start": 36.56,
+     "end": 36.9
     },
     {
      "text": "I",
      "red": false,
      "norm": "i",
      "norm_raw": "i",
-     "start": 39.45,
-     "end": 39.5
+     "start": 37.4,
+     "end": 37.45
     },
     {
      "text": "READ",
      "red": false,
      "norm": "read",
      "norm_raw": "read",
-     "start": 39.49,
-     "end": 39.65
+     "start": 37.44,
+     "end": 37.58
     },
     {
      "text": "UNDER",
      "red": false,
      "norm": "under",
      "norm_raw": "under",
-     "start": 39.65,
-     "end": 39.89
+     "start": 37.58,
+     "end": 37.78
     },
     {
      "text": "MY",
      "red": false,
      "norm": "my",
      "norm_raw": "my",
-     "start": 39.89,
-     "end": 40.07
+     "start": 37.78,
+     "end": 37.94
     },
     {
      "text": "BLANKET",
      "red": false,
      "norm": "blanket",
      "norm_raw": "blanket",
-     "start": 40.07,
-     "end": 40.33
+     "start": 37.94,
+     "end": 38.2
     },
     {
      "text": "WITH",
      "red": false,
      "norm": "with",
      "norm_raw": "with",
-     "start": 40.33,
-     "end": 40.55
+     "start": 38.2,
+     "end": 38.4
     },
     {
      "text": "A",
      "red": false,
      "norm": "a",
      "norm_raw": "a",
-     "start": 40.55,
-     "end": 40.61
+     "start": 38.4,
+     "end": 38.48
     },
     {
      "text": "FLASHLIGHT",
      "red": false,
      "norm": "flashlight",
      "norm_raw": "flashlight",
-     "start": 40.61,
-     "end": 40.87
+     "start": 38.48,
+     "end": 38.72
     },
     {
      "text": "BECAUSE",
      "red": false,
      "norm": "because",
      "norm_raw": "because",
-     "start": 41.57,
-     "end": 41.73
+     "start": 39.32,
+     "end": 39.48
     },
     {
      "text": "I",
      "red": false,
      "norm": "i",
      "norm_raw": "i",
-     "start": 41.73,
-     "end": 41.85
+     "start": 39.48,
+     "end": 39.6
     },
     {
      "text": "HAD",
      "red": false,
      "norm": "had",
      "norm_raw": "had",
-     "start": 41.85,
-     "end": 41.97
+     "start": 39.6,
+     "end": 39.72
     },
     {
      "text": "TO",
      "red": false,
      "norm": "to",
      "norm_raw": "to",
-     "start": 41.97,
-     "end": 42.07
+     "start": 39.72,
+     "end": 39.82
     },
     {
      "text": "KNOW",
      "red": false,
      "norm": "know",
      "norm_raw": "know",
-     "start": 42.07,
-     "end": 42.23
+     "start": 39.82,
+     "end": 40.0
     },
     {
      "text": "HOW",
      "red": false,
      "norm": "how",
      "norm_raw": "how",
-     "start": 42.23,
-     "end": 42.43
+     "start": 40.0,
+     "end": 40.18
     },
     {
      "text": "THE",
      "red": false,
      "norm": "the",
      "norm_raw": "the",
-     "start": 42.43,
-     "end": 42.51
+     "start": 40.18,
+     "end": 40.26
     },
     {
      "text": "BOOK",
      "red": false,
      "norm": "book",
      "norm_raw": "book",
-     "start": 42.51,
-     "end": 42.67
+     "start": 40.26,
+     "end": 40.4
     },
     {
      "text": "ENDED",
      "red": false,
      "norm": "ended",
      "norm_raw": "ended",
-     "start": 42.67,
-     "end": 42.91
+     "start": 40.4,
+     "end": 40.58
     }
    ]
   },
   {
    "id": "s10",
    "text": "Sleeping felt like missing something.",
-   "start": 43.36,
-   "speech_end": 45.61,
-   "end": 45.81,
+   "start": 41.03,
+   "speech_end": 43.21,
+   "end": 43.41,
    "light": "night",
    "beats": [
     {
@@ -1569,49 +1569,49 @@
      "red": false,
      "norm": "sleeping",
      "norm_raw": "sleeping",
-     "start": 43.36,
-     "end": 43.66
+     "start": 41.03,
+     "end": 41.33
     },
     {
      "text": "FELT",
      "red": false,
      "norm": "felt",
      "norm_raw": "felt",
-     "start": 43.66,
-     "end": 44.08
+     "start": 41.33,
+     "end": 41.73
     },
     {
      "text": "LIKE",
      "red": false,
      "norm": "like",
      "norm_raw": "like",
-     "start": 44.08,
-     "end": 44.48
+     "start": 41.73,
+     "end": 42.07
     },
     {
      "text": "MISSING",
      "red": false,
      "norm": "missing",
      "norm_raw": "missing",
-     "start": 44.48,
-     "end": 44.76
+     "start": 42.07,
+     "end": 42.37
     },
     {
      "text": "SOMETHING",
      "red": false,
      "norm": "something",
      "norm_raw": "something",
-     "start": 44.76,
-     "end": 45.28
+     "start": 42.37,
+     "end": 42.87
     }
    ]
   },
   {
    "id": "s11",
    "text": "Then, on my birthday, Mom looked at my chest and went pale. Three hundred hours left.",
-   "start": 45.81,
-   "speech_end": 50.24,
-   "end": 50.44,
+   "start": 43.41,
+   "speech_end": 47.77,
+   "end": 47.97,
    "light": "golden",
    "beats": [
     {
@@ -1650,137 +1650,137 @@
      "red": false,
      "norm": "then",
      "norm_raw": "then",
-     "start": 45.81,
-     "end": 45.97
+     "start": 43.41,
+     "end": 43.63
     },
     {
      "text": "ON",
      "red": false,
      "norm": "on",
      "norm_raw": "on",
-     "start": 45.97,
-     "end": 46.21
+     "start": 43.63,
+     "end": 43.83
     },
     {
      "text": "MY",
      "red": false,
      "norm": "my",
      "norm_raw": "my",
-     "start": 46.21,
-     "end": 46.37
+     "start": 43.83,
+     "end": 43.99
     },
     {
      "text": "BIRTHDAY",
      "red": false,
      "norm": "birthday",
      "norm_raw": "birthday",
-     "start": 46.37,
-     "end": 46.71
+     "start": 43.99,
+     "end": 44.37
     },
     {
      "text": "MOM",
      "red": false,
      "norm": "mom",
      "norm_raw": "mom",
-     "start": 46.71,
-     "end": 47.01
+     "start": 44.37,
+     "end": 44.63
     },
     {
      "text": "LOOKED",
      "red": false,
      "norm": "looked",
      "norm_raw": "looked",
-     "start": 47.01,
-     "end": 47.25
+     "start": 44.63,
+     "end": 44.85
     },
     {
      "text": "AT",
      "red": false,
      "norm": "at",
      "norm_raw": "at",
-     "start": 47.25,
-     "end": 47.43
+     "start": 44.85,
+     "end": 45.05
     },
     {
      "text": "MY",
      "red": false,
      "norm": "my",
      "norm_raw": "my",
-     "start": 47.43,
-     "end": 47.55
+     "start": 45.05,
+     "end": 45.19
     },
     {
      "text": "CHEST",
      "red": false,
      "norm": "chest",
      "norm_raw": "chest",
-     "start": 47.55,
-     "end": 47.79
+     "start": 45.19,
+     "end": 45.41
     },
     {
      "text": "AND",
      "red": false,
      "norm": "and",
      "norm_raw": "and",
-     "start": 47.79,
-     "end": 48.03
+     "start": 45.41,
+     "end": 45.67
     },
     {
      "text": "WENT",
      "red": false,
      "norm": "went",
      "norm_raw": "went",
-     "start": 48.03,
-     "end": 48.17
+     "start": 45.67,
+     "end": 45.83
     },
     {
      "text": "PALE",
      "red": false,
      "norm": "pale",
      "norm_raw": "pale",
-     "start": 48.17,
-     "end": 48.49
+     "start": 45.83,
+     "end": 46.17
     },
     {
      "text": "THREE",
      "red": false,
      "norm": "three",
      "norm_raw": "three",
-     "start": 48.49,
-     "end": 48.723
+     "start": 46.17,
+     "end": 46.387
     },
     {
      "text": "HUNDRED",
      "red": false,
      "norm": "hundred",
      "norm_raw": "hundred",
-     "start": 48.723,
-     "end": 49.05
+     "start": 46.387,
+     "end": 46.69
     },
     {
      "text": "HOURS",
      "red": false,
      "norm": "hours",
      "norm_raw": "hours",
-     "start": 49.05,
-     "end": 49.63
+     "start": 46.69,
+     "end": 47.21
     },
     {
      "text": "LEFT",
      "red": false,
      "norm": "left",
      "norm_raw": "left",
-     "start": 49.63,
-     "end": 49.99
+     "start": 47.21,
+     "end": 47.51
     }
    ]
   },
   {
    "id": "s12",
    "text": "After that, she tucked me in at seven every night and read me the most boring story in the world. Kids called me Sleepy Nora. I was not sleepy.",
-   "start": 50.44,
-   "speech_end": 58.09,
-   "end": 58.29,
+   "start": 47.97,
+   "speech_end": 55.19,
+   "end": 55.39,
    "light": "night",
    "beats": [
     {
@@ -1843,241 +1843,241 @@
      "red": false,
      "norm": "after",
      "norm_raw": "after",
-     "start": 50.44,
-     "end": 50.64
+     "start": 47.97,
+     "end": 48.11
     },
     {
      "text": "THAT",
      "red": false,
      "norm": "that",
      "norm_raw": "that",
-     "start": 50.64,
-     "end": 50.96
+     "start": 48.11,
+     "end": 48.43
     },
     {
      "text": "SHE",
      "red": false,
      "norm": "she",
      "norm_raw": "she",
-     "start": 51.24,
-     "end": 51.42
+     "start": 48.71,
+     "end": 48.93
     },
     {
      "text": "TUCKED",
      "red": false,
      "norm": "tucked",
      "norm_raw": "tucked",
-     "start": 51.42,
-     "end": 51.58
+     "start": 48.93,
+     "end": 49.05
     },
     {
      "text": "ME",
      "red": false,
      "norm": "me",
      "norm_raw": "me",
-     "start": 51.58,
-     "end": 51.86
+     "start": 49.05,
+     "end": 49.33
     },
     {
      "text": "IN",
      "red": false,
      "norm": "in",
      "norm_raw": "in",
-     "start": 51.86,
-     "end": 51.98
+     "start": 49.33,
+     "end": 49.43
     },
     {
      "text": "AT",
      "red": false,
      "norm": "at",
      "norm_raw": "at",
-     "start": 51.98,
-     "end": 52.08
+     "start": 49.43,
+     "end": 49.53
     },
     {
      "text": "SEVEN",
      "red": false,
      "norm": "seven",
      "norm_raw": "seven",
-     "start": 52.08,
-     "end": 52.3
+     "start": 49.53,
+     "end": 49.73
     },
     {
      "text": "EVERY",
      "red": false,
      "norm": "every",
      "norm_raw": "every",
-     "start": 52.3,
-     "end": 52.64
+     "start": 49.73,
+     "end": 50.03
     },
     {
      "text": "NIGHT",
      "red": false,
      "norm": "night",
      "norm_raw": "night",
-     "start": 52.64,
-     "end": 52.9
+     "start": 50.03,
+     "end": 50.31
     },
     {
      "text": "AND",
      "red": false,
      "norm": "and",
      "norm_raw": "and",
-     "start": 52.9,
-     "end": 53.12
+     "start": 50.31,
+     "end": 50.49
     },
     {
      "text": "READ",
      "red": false,
      "norm": "read",
      "norm_raw": "read",
-     "start": 53.12,
-     "end": 53.3
+     "start": 50.49,
+     "end": 50.63
     },
     {
      "text": "ME",
      "red": false,
      "norm": "me",
      "norm_raw": "me",
-     "start": 53.3,
-     "end": 53.5
+     "start": 50.63,
+     "end": 50.81
     },
     {
      "text": "THE",
      "red": false,
      "norm": "the",
      "norm_raw": "the",
-     "start": 53.5,
-     "end": 53.6
+     "start": 50.81,
+     "end": 50.89
     },
     {
      "text": "MOST",
      "red": false,
      "norm": "most",
      "norm_raw": "most",
-     "start": 53.6,
-     "end": 53.78
+     "start": 50.89,
+     "end": 51.07
     },
     {
      "text": "BORING",
      "red": false,
      "norm": "boring",
      "norm_raw": "boring",
-     "start": 53.78,
-     "end": 54.16
+     "start": 51.07,
+     "end": 51.39
     },
     {
      "text": "STORY",
      "red": false,
      "norm": "story",
      "norm_raw": "story",
-     "start": 54.16,
-     "end": 54.52
+     "start": 51.39,
+     "end": 51.73
     },
     {
      "text": "IN",
      "red": false,
      "norm": "in",
      "norm_raw": "in",
-     "start": 54.52,
-     "end": 54.76
+     "start": 51.73,
+     "end": 51.99
     },
     {
      "text": "THE",
      "red": false,
      "norm": "the",
      "norm_raw": "the",
-     "start": 54.76,
-     "end": 54.82
+     "start": 51.99,
+     "end": 52.07
     },
     {
      "text": "WORLD",
      "red": false,
      "norm": "world",
      "norm_raw": "world",
-     "start": 54.82,
-     "end": 55.1
+     "start": 52.07,
+     "end": 52.37
     },
     {
      "text": "KIDS",
      "red": false,
      "norm": "kids",
      "norm_raw": "kids",
-     "start": 55.38,
-     "end": 55.46
+     "start": 52.59,
+     "end": 52.71
     },
     {
      "text": "CALLED",
      "red": false,
      "norm": "called",
      "norm_raw": "called",
-     "start": 55.46,
-     "end": 55.78
+     "start": 52.71,
+     "end": 52.99
     },
     {
      "text": "ME",
      "red": false,
      "norm": "me",
      "norm_raw": "me",
-     "start": 55.78,
-     "end": 56.0
+     "start": 52.99,
+     "end": 53.23
     },
     {
      "text": "SLEEPY",
      "red": false,
      "norm": "sleepy",
      "norm_raw": "sleepy",
-     "start": 56.0,
-     "end": 56.46
+     "start": 53.23,
+     "end": 53.69
     },
     {
      "text": "NORA",
      "red": false,
      "norm": "nora",
      "norm_raw": "nora",
-     "start": 56.46,
-     "end": 56.66
+     "start": 53.69,
+     "end": 53.85
     },
     {
      "text": "I",
      "red": false,
      "norm": "i",
      "norm_raw": "i",
-     "start": 57.04,
-     "end": 57.1
+     "start": 54.21,
+     "end": 54.29
     },
     {
      "text": "WAS",
      "red": false,
      "norm": "was",
      "norm_raw": "was",
-     "start": 57.1,
-     "end": 57.2
+     "start": 54.29,
+     "end": 54.39
     },
     {
      "text": "NOT",
      "red": false,
      "norm": "not",
      "norm_raw": "not",
-     "start": 57.2,
-     "end": 57.38
+     "start": 54.39,
+     "end": 54.55
     },
     {
      "text": "SLEEPY",
      "red": false,
      "norm": "sleepy",
      "norm_raw": "sleepy",
-     "start": 57.38,
-     "end": 57.76
+     "start": 54.55,
+     "end": 54.93
     }
    ]
   },
   {
    "id": "s13",
    "text": "But I had a secret game. Every night, I'd sneak out with my eyes closed and walk the whole town in the dark. Every street. Every turn. Every step, by heart.",
-   "start": 58.29,
-   "speech_end": 67.71,
-   "end": 67.91,
+   "start": 55.39,
+   "speech_end": 64.13,
+   "end": 64.33,
    "light": "night",
    "beats": [
     {
@@ -2150,257 +2150,257 @@
      "red": false,
      "norm": "but",
      "norm_raw": "but",
-     "start": 58.29,
-     "end": 58.35
+     "start": 55.39,
+     "end": 55.45
     },
     {
      "text": "I",
      "red": false,
      "norm": "i",
      "norm_raw": "i",
-     "start": 58.35,
-     "end": 58.45
+     "start": 55.45,
+     "end": 55.55
     },
     {
      "text": "HAD",
      "red": false,
      "norm": "had",
      "norm_raw": "had",
-     "start": 58.45,
-     "end": 58.55
+     "start": 55.55,
+     "end": 55.65
     },
     {
      "text": "A",
      "red": false,
      "norm": "a",
      "norm_raw": "a",
-     "start": 58.55,
-     "end": 58.63
+     "start": 55.65,
+     "end": 55.73
     },
     {
      "text": "SECRET",
      "red": false,
      "norm": "secret",
      "norm_raw": "secret",
-     "start": 58.63,
-     "end": 58.87
+     "start": 55.73,
+     "end": 55.95
     },
     {
      "text": "GAME",
      "red": false,
      "norm": "game",
      "norm_raw": "game",
-     "start": 58.87,
-     "end": 59.29
+     "start": 55.95,
+     "end": 56.33
     },
     {
      "text": "EVERY",
      "red": false,
      "norm": "every",
      "norm_raw": "every",
-     "start": 59.63,
-     "end": 59.77
+     "start": 56.79,
+     "end": 56.84
     },
     {
      "text": "NIGHT",
      "red": false,
      "norm": "night",
      "norm_raw": "night",
-     "start": 59.77,
-     "end": 60.03
+     "start": 56.83,
+     "end": 57.07
     },
     {
      "text": "I'D",
      "red": false,
      "norm": "id",
      "norm_raw": "i'd",
-     "start": 60.47,
-     "end": 60.67
+     "start": 57.37,
+     "end": 57.61
     },
     {
      "text": "SNEAK",
      "red": false,
      "norm": "sneak",
      "norm_raw": "sneak",
-     "start": 60.67,
-     "end": 60.95
+     "start": 57.61,
+     "end": 57.85
     },
     {
      "text": "OUT",
      "red": false,
      "norm": "out",
      "norm_raw": "out",
-     "start": 60.95,
-     "end": 61.21
+     "start": 57.85,
+     "end": 58.13
     },
     {
      "text": "WITH",
      "red": false,
      "norm": "with",
      "norm_raw": "with",
-     "start": 61.21,
-     "end": 61.41
+     "start": 58.13,
+     "end": 58.33
     },
     {
      "text": "MY",
      "red": false,
      "norm": "my",
      "norm_raw": "my",
-     "start": 61.41,
-     "end": 61.55
+     "start": 58.33,
+     "end": 58.47
     },
     {
      "text": "EYES",
      "red": false,
      "norm": "eyes",
      "norm_raw": "eyes",
-     "start": 61.55,
-     "end": 61.83
+     "start": 58.47,
+     "end": 58.77
     },
     {
      "text": "CLOSED",
      "red": false,
      "norm": "closed",
      "norm_raw": "closed",
-     "start": 61.83,
-     "end": 62.15
+     "start": 58.77,
+     "end": 59.01
     },
     {
      "text": "AND",
      "red": false,
      "norm": "and",
      "norm_raw": "and",
-     "start": 62.15,
-     "end": 62.45
+     "start": 59.01,
+     "end": 59.31
     },
     {
      "text": "WALK",
      "red": false,
      "norm": "walk",
      "norm_raw": "walk",
-     "start": 62.45,
-     "end": 62.67
+     "start": 59.31,
+     "end": 59.55
     },
     {
      "text": "THE",
      "red": false,
      "norm": "the",
      "norm_raw": "the",
-     "start": 62.67,
-     "end": 62.91
+     "start": 59.55,
+     "end": 59.77
     },
     {
      "text": "WHOLE",
      "red": false,
      "norm": "whole",
      "norm_raw": "whole",
-     "start": 62.91,
-     "end": 63.13
+     "start": 59.77,
+     "end": 59.91
     },
     {
      "text": "TOWN",
      "red": false,
      "norm": "town",
      "norm_raw": "town",
-     "start": 63.13,
-     "end": 63.47
+     "start": 59.91,
+     "end": 60.27
     },
     {
      "text": "IN",
      "red": false,
      "norm": "in",
      "norm_raw": "in",
-     "start": 63.47,
-     "end": 63.67
+     "start": 60.27,
+     "end": 60.37
     },
     {
      "text": "THE",
      "red": false,
      "norm": "the",
      "norm_raw": "the",
-     "start": 63.67,
-     "end": 63.77
+     "start": 60.37,
+     "end": 60.45
     },
     {
      "text": "DARK",
      "red": false,
      "norm": "dark",
      "norm_raw": "dark",
-     "start": 63.77,
-     "end": 63.99
+     "start": 60.45,
+     "end": 60.69
     },
     {
      "text": "EVERY",
      "red": false,
      "norm": "every",
      "norm_raw": "every",
-     "start": 64.33,
-     "end": 64.51
+     "start": 61.03,
+     "end": 61.11
     },
     {
      "text": "STREET",
      "red": false,
      "norm": "street",
      "norm_raw": "street",
-     "start": 64.51,
-     "end": 64.81
+     "start": 61.11,
+     "end": 61.45
     },
     {
      "text": "EVERY",
      "red": false,
      "norm": "every",
      "norm_raw": "every",
-     "start": 65.21,
-     "end": 65.41
+     "start": 61.79,
+     "end": 62.03
     },
     {
      "text": "TURN",
      "red": false,
      "norm": "turn",
      "norm_raw": "turn",
-     "start": 65.41,
-     "end": 65.71
+     "start": 62.03,
+     "end": 62.31
     },
     {
      "text": "EVERY",
      "red": false,
      "norm": "every",
      "norm_raw": "every",
-     "start": 66.09,
-     "end": 66.31
+     "start": 62.67,
+     "end": 62.87
     },
     {
      "text": "STEP",
      "red": false,
      "norm": "step",
      "norm_raw": "step",
-     "start": 66.31,
-     "end": 66.73
+     "start": 62.87,
+     "end": 63.25
     },
     {
      "text": "BY",
      "red": false,
      "norm": "by",
      "norm_raw": "by",
-     "start": 67.07,
-     "end": 67.19
+     "start": 63.25,
+     "end": 63.61
     },
     {
      "text": "HEART",
      "red": false,
      "norm": "heart",
      "norm_raw": "heart",
-     "start": 67.19,
-     "end": 67.47
+     "start": 63.61,
+     "end": 63.89
     }
    ]
   },
   {
    "id": "s14",
    "text": "And my counter never moved on those walks. I thought that was strange. I didn't think about why.",
-   "start": 67.91,
-   "speech_end": 72.53,
-   "end": 72.73,
+   "start": 64.33,
+   "speech_end": 68.73,
+   "end": 68.93,
    "light": "night",
    "beats": [
     {
@@ -2442,153 +2442,153 @@
      "red": false,
      "norm": "and",
      "norm_raw": "and",
-     "start": 67.91,
-     "end": 67.99
+     "start": 64.33,
+     "end": 64.43
     },
     {
      "text": "MY",
      "red": false,
      "norm": "my",
      "norm_raw": "my",
-     "start": 67.99,
-     "end": 68.13
+     "start": 64.43,
+     "end": 64.55
     },
     {
      "text": "COUNTER",
      "red": false,
      "norm": "counter",
      "norm_raw": "counter",
-     "start": 68.13,
-     "end": 68.35
+     "start": 64.55,
+     "end": 64.75
     },
     {
      "text": "NEVER",
      "red": false,
      "norm": "never",
      "norm_raw": "never",
-     "start": 68.35,
-     "end": 68.67
+     "start": 64.75,
+     "end": 65.11
     },
     {
      "text": "MOVED",
      "red": false,
      "norm": "moved",
      "norm_raw": "moved",
-     "start": 68.67,
-     "end": 68.99
+     "start": 65.11,
+     "end": 65.45
     },
     {
      "text": "ON",
      "red": false,
      "norm": "on",
      "norm_raw": "on",
-     "start": 68.99,
-     "end": 69.15
+     "start": 65.45,
+     "end": 65.59
     },
     {
      "text": "THOSE",
      "red": false,
      "norm": "those",
      "norm_raw": "those",
-     "start": 69.15,
-     "end": 69.31
+     "start": 65.59,
+     "end": 65.71
     },
     {
      "text": "WALKS",
      "red": false,
      "norm": "walks",
      "norm_raw": "walks",
-     "start": 69.31,
-     "end": 69.61
+     "start": 65.71,
+     "end": 65.97
     },
     {
      "text": "I",
      "red": false,
      "norm": "i",
      "norm_raw": "i",
-     "start": 70.03,
-     "end": 70.08
+     "start": 66.37,
+     "end": 66.42
     },
     {
      "text": "THOUGHT",
      "red": false,
      "norm": "thought",
      "norm_raw": "thought",
-     "start": 70.07,
-     "end": 70.25
+     "start": 66.41,
+     "end": 66.59
     },
     {
      "text": "THAT",
      "red": false,
      "norm": "that",
      "norm_raw": "that",
-     "start": 70.25,
-     "end": 70.41
+     "start": 66.59,
+     "end": 66.73
     },
     {
      "text": "WAS",
      "red": false,
      "norm": "was",
      "norm_raw": "was",
-     "start": 70.41,
-     "end": 70.51
+     "start": 66.73,
+     "end": 66.85
     },
     {
      "text": "STRANGE",
      "red": false,
      "norm": "strange",
      "norm_raw": "strange",
-     "start": 70.51,
-     "end": 70.81
+     "start": 66.85,
+     "end": 67.15
     },
     {
      "text": "I",
      "red": false,
      "norm": "i",
      "norm_raw": "i",
-     "start": 71.29,
-     "end": 71.35
+     "start": 67.59,
+     "end": 67.64
     },
     {
      "text": "DIDN'T",
      "red": false,
      "norm": "didnt",
      "norm_raw": "didn't",
-     "start": 71.35,
-     "end": 71.61
+     "start": 67.63,
+     "end": 67.89
     },
     {
      "text": "THINK",
      "red": false,
      "norm": "think",
      "norm_raw": "think",
-     "start": 71.61,
-     "end": 71.77
+     "start": 67.89,
+     "end": 68.01
     },
     {
      "text": "ABOUT",
      "red": false,
      "norm": "about",
      "norm_raw": "about",
-     "start": 71.77,
-     "end": 72.03
+     "start": 68.01,
+     "end": 68.25
     },
     {
      "text": "WHY",
      "red": false,
      "norm": "why",
      "norm_raw": "why",
-     "start": 72.03,
-     "end": 72.29
+     "start": 68.25,
+     "end": 68.51
     }
    ]
   },
   {
    "id": "s15",
    "text": "Then one stormy night, I woke up to a strange sound. Thunder. And water. A lot of water.",
-   "start": 72.73,
-   "speech_end": 77.89,
-   "end": 78.09,
+   "start": 68.93,
+   "speech_end": 73.71,
+   "end": 73.91,
    "light": "night",
    "beats": [
     {
@@ -2633,153 +2633,153 @@
      "red": false,
      "norm": "then",
      "norm_raw": "then",
-     "start": 72.73,
-     "end": 72.85
+     "start": 68.93,
+     "end": 69.05
     },
     {
      "text": "ONE",
      "red": false,
      "norm": "one",
      "norm_raw": "one",
-     "start": 72.85,
-     "end": 73.03
+     "start": 69.05,
+     "end": 69.17
     },
     {
      "text": "STORMY",
      "red": false,
      "norm": "stormy",
      "norm_raw": "stormy",
-     "start": 73.03,
-     "end": 73.49
+     "start": 69.17,
+     "end": 69.61
     },
     {
      "text": "NIGHT",
      "red": false,
      "norm": "night",
      "norm_raw": "night",
-     "start": 73.49,
-     "end": 73.67
+     "start": 69.61,
+     "end": 69.81
     },
     {
      "text": "I",
      "red": false,
      "norm": "i",
      "norm_raw": "i",
-     "start": 73.97,
-     "end": 74.02
+     "start": 70.03,
+     "end": 70.08
     },
     {
      "text": "WOKE",
      "red": false,
      "norm": "woke",
      "norm_raw": "woke",
-     "start": 74.01,
-     "end": 74.17
+     "start": 70.07,
+     "end": 70.25
     },
     {
      "text": "UP",
      "red": false,
      "norm": "up",
      "norm_raw": "up",
-     "start": 74.17,
-     "end": 74.31
+     "start": 70.25,
+     "end": 70.39
     },
     {
      "text": "TO",
      "red": false,
      "norm": "to",
      "norm_raw": "to",
-     "start": 74.31,
-     "end": 74.49
+     "start": 70.39,
+     "end": 70.53
     },
     {
      "text": "A",
      "red": false,
      "norm": "a",
      "norm_raw": "a",
-     "start": 74.49,
-     "end": 74.57
+     "start": 70.53,
+     "end": 70.61
     },
     {
      "text": "STRANGE",
      "red": false,
      "norm": "strange",
      "norm_raw": "strange",
-     "start": 74.57,
-     "end": 74.79
+     "start": 70.61,
+     "end": 70.83
     },
     {
      "text": "SOUND",
      "red": false,
      "norm": "sound",
      "norm_raw": "sound",
-     "start": 74.79,
-     "end": 75.15
+     "start": 70.83,
+     "end": 71.19
     },
     {
      "text": "THUNDER",
      "red": false,
      "norm": "thunder",
      "norm_raw": "thunder",
-     "start": 75.49,
-     "end": 75.71
+     "start": 71.51,
+     "end": 71.79
     },
     {
      "text": "AND",
      "red": false,
      "norm": "and",
      "norm_raw": "and",
-     "start": 76.17,
-     "end": 76.29
+     "start": 72.09,
+     "end": 72.21
     },
     {
      "text": "WATER",
      "red": false,
      "norm": "water",
      "norm_raw": "water",
-     "start": 76.29,
-     "end": 76.57
+     "start": 72.21,
+     "end": 72.49
     },
     {
      "text": "A",
      "red": false,
      "norm": "a",
      "norm_raw": "a",
-     "start": 76.91,
-     "end": 76.99
+     "start": 72.83,
+     "end": 72.91
     },
     {
      "text": "LOT",
      "red": false,
      "norm": "lot",
      "norm_raw": "lot",
-     "start": 76.99,
-     "end": 77.21
+     "start": 72.91,
+     "end": 73.09
     },
     {
      "text": "OF",
      "red": false,
      "norm": "of",
      "norm_raw": "of",
-     "start": 77.21,
-     "end": 77.37
+     "start": 73.09,
+     "end": 73.23
     },
     {
      "text": "WATER",
      "red": false,
      "norm": "water",
      "norm_raw": "water",
-     "start": 77.37,
-     "end": 77.61
+     "start": 73.23,
+     "end": 73.45
     }
    ]
   },
   {
    "id": "s16",
    "text": "The river had burst. The whole town was flooding. And everyone was asleep.",
-   "start": 78.09,
-   "speech_end": 81.96,
-   "end": 82.16,
+   "start": 73.91,
+   "speech_end": 77.56,
+   "end": 77.76,
    "light": "night",
    "beats": [
     {
@@ -2812,113 +2812,113 @@
      "red": false,
      "norm": "the",
      "norm_raw": "the",
-     "start": 78.09,
-     "end": 78.15
+     "start": 73.91,
+     "end": 73.97
     },
     {
      "text": "RIVER",
      "red": false,
      "norm": "river",
      "norm_raw": "river",
-     "start": 78.15,
-     "end": 78.33
+     "start": 73.97,
+     "end": 74.11
     },
     {
      "text": "HAD",
      "red": false,
      "norm": "had",
      "norm_raw": "had",
-     "start": 78.33,
-     "end": 78.55
+     "start": 74.11,
+     "end": 74.31
     },
     {
      "text": "BURST",
      "red": false,
      "norm": "burst",
      "norm_raw": "burst",
-     "start": 78.55,
-     "end": 78.81
+     "start": 74.31,
+     "end": 74.53
     },
     {
      "text": "THE",
      "red": false,
      "norm": "the",
      "norm_raw": "the",
-     "start": 79.23,
-     "end": 79.29
+     "start": 74.87,
+     "end": 74.95
     },
     {
      "text": "WHOLE",
      "red": false,
      "norm": "whole",
      "norm_raw": "whole",
-     "start": 79.29,
-     "end": 79.47
+     "start": 74.95,
+     "end": 75.09
     },
     {
      "text": "TOWN",
      "red": false,
      "norm": "town",
      "norm_raw": "town",
-     "start": 79.47,
-     "end": 79.83
+     "start": 75.09,
+     "end": 75.41
     },
     {
      "text": "WAS",
      "red": false,
      "norm": "was",
      "norm_raw": "was",
-     "start": 79.83,
-     "end": 80.01
+     "start": 75.41,
+     "end": 75.61
     },
     {
      "text": "FLOODING",
      "red": false,
      "norm": "flooding",
      "norm_raw": "flooding",
-     "start": 80.01,
-     "end": 80.29
+     "start": 75.61,
+     "end": 75.89
     },
     {
      "text": "AND",
      "red": false,
      "norm": "and",
      "norm_raw": "and",
-     "start": 80.29,
-     "end": 80.69
+     "start": 76.23,
+     "end": 76.31
     },
     {
      "text": "EVERYONE",
      "red": false,
      "norm": "everyone",
      "norm_raw": "everyone",
-     "start": 80.69,
-     "end": 81.05
+     "start": 76.31,
+     "end": 76.67
     },
     {
      "text": "WAS",
      "red": false,
      "norm": "was",
      "norm_raw": "was",
-     "start": 81.05,
-     "end": 81.39
+     "start": 76.67,
+     "end": 76.99
     },
     {
      "text": "ASLEEP",
      "red": false,
      "norm": "asleep",
      "norm_raw": "asleep",
-     "start": 81.39,
-     "end": 81.67
+     "start": 76.99,
+     "end": 77.25
     }
    ]
   },
   {
    "id": "s17",
    "text": "The mayor. The baker. Every family. All safe in bed, with their counters paused on their chests.",
-   "start": 82.16,
-   "speech_end": 87.2,
-   "end": 87.4,
+   "start": 77.76,
+   "speech_end": 82.6,
+   "end": 82.8,
    "light": "night",
    "beats": [
     {
@@ -2953,145 +2953,145 @@
      "red": false,
      "norm": "the",
      "norm_raw": "the",
-     "start": 82.16,
-     "end": 82.22
+     "start": 77.76,
+     "end": 77.82
     },
     {
      "text": "MAYOR",
      "red": false,
      "norm": "mayor",
      "norm_raw": "mayor",
-     "start": 82.22,
-     "end": 82.44
+     "start": 77.82,
+     "end": 78.04
     },
     {
      "text": "THE",
      "red": false,
      "norm": "the",
      "norm_raw": "the",
-     "start": 82.76,
-     "end": 82.84
+     "start": 78.34,
+     "end": 78.42
     },
     {
      "text": "BAKER",
      "red": false,
      "norm": "baker",
      "norm_raw": "baker",
-     "start": 82.84,
-     "end": 83.08
+     "start": 78.42,
+     "end": 78.64
     },
     {
      "text": "EVERY",
      "red": false,
      "norm": "every",
      "norm_raw": "every",
-     "start": 83.34,
-     "end": 83.58
+     "start": 78.92,
+     "end": 79.18
     },
     {
      "text": "FAMILY",
      "red": false,
      "norm": "family",
      "norm_raw": "family",
-     "start": 83.58,
-     "end": 84.0
+     "start": 79.18,
+     "end": 79.56
     },
     {
      "text": "ALL",
      "red": false,
      "norm": "all",
      "norm_raw": "all",
-     "start": 84.36,
-     "end": 84.46
+     "start": 79.9,
+     "end": 79.98
     },
     {
      "text": "SAFE",
      "red": false,
      "norm": "safe",
      "norm_raw": "safe",
-     "start": 84.46,
-     "end": 84.72
+     "start": 79.98,
+     "end": 80.22
     },
     {
      "text": "IN",
      "red": false,
      "norm": "in",
      "norm_raw": "in",
-     "start": 84.72,
-     "end": 84.9
+     "start": 80.22,
+     "end": 80.42
     },
     {
      "text": "BED",
      "red": false,
      "norm": "bed",
      "norm_raw": "bed",
-     "start": 84.9,
-     "end": 85.12
+     "start": 80.42,
+     "end": 80.6
     },
     {
      "text": "WITH",
      "red": false,
      "norm": "with",
      "norm_raw": "with",
-     "start": 85.12,
-     "end": 85.4
+     "start": 80.6,
+     "end": 80.84
     },
     {
      "text": "THEIR",
      "red": false,
      "norm": "their",
      "norm_raw": "their",
-     "start": 85.4,
-     "end": 85.52
+     "start": 80.84,
+     "end": 80.96
     },
     {
      "text": "COUNTERS",
      "red": false,
      "norm": "counters",
      "norm_raw": "counters",
-     "start": 85.52,
-     "end": 85.8
+     "start": 80.96,
+     "end": 81.24
     },
     {
      "text": "PAUSED",
      "red": false,
      "norm": "paused",
      "norm_raw": "paused",
-     "start": 85.8,
-     "end": 86.16
+     "start": 81.24,
+     "end": 81.58
     },
     {
      "text": "ON",
      "red": false,
      "norm": "on",
      "norm_raw": "on",
-     "start": 86.16,
-     "end": 86.44
+     "start": 81.58,
+     "end": 81.84
     },
     {
      "text": "THEIR",
      "red": false,
      "norm": "their",
      "norm_raw": "their",
-     "start": 86.44,
-     "end": 86.56
+     "start": 81.84,
+     "end": 81.98
     },
     {
      "text": "CHESTS",
      "red": false,
      "norm": "chests",
      "norm_raw": "chests",
-     "start": 86.56,
-     "end": 86.82
+     "start": 81.98,
+     "end": 82.2
     }
    ]
   },
   {
    "id": "s18",
    "text": "I ran to the bell tower and rang it as loud as I could.",
-   "start": 87.4,
-   "speech_end": 90.03,
-   "end": 90.23,
+   "start": 82.8,
+   "speech_end": 85.2,
+   "end": 85.4,
    "light": "night",
    "beats": [
     {
@@ -3128,121 +3128,121 @@
      "red": false,
      "norm": "i",
      "norm_raw": "i",
-     "start": 87.4,
-     "end": 87.46
+     "start": 82.8,
+     "end": 82.86
     },
     {
      "text": "RAN",
      "red": false,
      "norm": "ran",
      "norm_raw": "ran",
-     "start": 87.46,
-     "end": 87.62
+     "start": 82.86,
+     "end": 83.0
     },
     {
      "text": "TO",
      "red": false,
      "norm": "to",
      "norm_raw": "to",
-     "start": 87.62,
-     "end": 87.8
+     "start": 83.0,
+     "end": 83.14
     },
     {
      "text": "THE",
      "red": false,
      "norm": "the",
      "norm_raw": "the",
-     "start": 87.8,
-     "end": 87.88
+     "start": 83.14,
+     "end": 83.2
     },
     {
      "text": "BELL",
      "red": false,
      "norm": "bell",
      "norm_raw": "bell",
-     "start": 87.88,
-     "end": 88.02
+     "start": 83.2,
+     "end": 83.34
     },
     {
      "text": "TOWER",
      "red": false,
      "norm": "tower",
      "norm_raw": "tower",
-     "start": 88.02,
-     "end": 88.32
+     "start": 83.34,
+     "end": 83.64
     },
     {
      "text": "AND",
      "red": false,
      "norm": "and",
      "norm_raw": "and",
-     "start": 88.32,
-     "end": 88.54
+     "start": 83.64,
+     "end": 83.86
     },
     {
      "text": "RANG",
      "red": false,
      "norm": "rang",
      "norm_raw": "rang",
-     "start": 88.54,
-     "end": 88.72
+     "start": 83.86,
+     "end": 84.04
     },
     {
      "text": "IT",
      "red": false,
      "norm": "it",
      "norm_raw": "it",
-     "start": 88.72,
-     "end": 88.9
+     "start": 84.04,
+     "end": 84.24
     },
     {
      "text": "AS",
      "red": false,
      "norm": "as",
      "norm_raw": "as",
-     "start": 88.9,
-     "end": 89.06
+     "start": 84.24,
+     "end": 84.34
     },
     {
      "text": "LOUD",
      "red": false,
      "norm": "loud",
      "norm_raw": "loud",
-     "start": 89.06,
-     "end": 89.24
+     "start": 84.34,
+     "end": 84.5
     },
     {
      "text": "AS",
      "red": false,
      "norm": "as",
      "norm_raw": "as",
-     "start": 89.24,
-     "end": 89.42
+     "start": 84.5,
+     "end": 84.68
     },
     {
      "text": "I",
      "red": false,
      "norm": "i",
      "norm_raw": "i",
-     "start": 89.42,
-     "end": 89.54
+     "start": 84.68,
+     "end": 84.78
     },
     {
      "text": "COULD",
      "red": false,
      "norm": "could",
      "norm_raw": "could",
-     "start": 89.54,
-     "end": 89.8
+     "start": 84.78,
+     "end": 85.0
     }
    ]
   },
   {
    "id": "s19",
    "text": "Some people opened one eye. They looked at their counters. They looked at the water. And they closed it again. Nobody wanted to spend an hour.",
-   "start": 90.23,
-   "speech_end": 97.45,
-   "end": 97.65,
+   "start": 85.4,
+   "speech_end": 92.27,
+   "end": 92.47,
    "light": "night",
    "beats": [
     {
@@ -3303,217 +3303,217 @@
      "red": false,
      "norm": "some",
      "norm_raw": "some",
-     "start": 90.23,
-     "end": 90.37
+     "start": 85.4,
+     "end": 85.56
     },
     {
      "text": "PEOPLE",
      "red": false,
      "norm": "people",
      "norm_raw": "people",
-     "start": 90.37,
-     "end": 90.67
+     "start": 85.56,
+     "end": 85.84
     },
     {
      "text": "OPENED",
      "red": false,
      "norm": "opened",
      "norm_raw": "opened",
-     "start": 90.67,
-     "end": 90.97
+     "start": 85.84,
+     "end": 86.14
     },
     {
      "text": "ONE",
      "red": false,
      "norm": "one",
      "norm_raw": "one",
-     "start": 90.97,
-     "end": 91.23
+     "start": 86.14,
+     "end": 86.38
     },
     {
      "text": "EYE",
      "red": false,
      "norm": "eye",
      "norm_raw": "eye",
-     "start": 91.23,
-     "end": 91.61
+     "start": 86.38,
+     "end": 86.72
     },
     {
      "text": "THEY",
      "red": false,
      "norm": "they",
      "norm_raw": "they",
-     "start": 91.89,
-     "end": 91.95
+     "start": 86.98,
+     "end": 87.06
     },
     {
      "text": "LOOKED",
      "red": false,
      "norm": "looked",
      "norm_raw": "looked",
-     "start": 91.95,
-     "end": 92.13
+     "start": 87.06,
+     "end": 87.26
     },
     {
      "text": "AT",
      "red": false,
      "norm": "at",
      "norm_raw": "at",
-     "start": 92.13,
-     "end": 92.27
+     "start": 87.26,
+     "end": 87.44
     },
     {
      "text": "THEIR",
      "red": false,
      "norm": "their",
      "norm_raw": "their",
-     "start": 92.27,
-     "end": 92.41
+     "start": 87.44,
+     "end": 87.56
     },
     {
      "text": "COUNTERS",
      "red": false,
      "norm": "counters",
      "norm_raw": "counters",
-     "start": 92.41,
-     "end": 92.75
+     "start": 87.56,
+     "end": 87.88
     },
     {
      "text": "THEY",
      "red": false,
      "norm": "they",
      "norm_raw": "they",
-     "start": 93.21,
-     "end": 93.31
+     "start": 88.28,
+     "end": 88.38
     },
     {
      "text": "LOOKED",
      "red": false,
      "norm": "looked",
      "norm_raw": "looked",
-     "start": 93.31,
-     "end": 93.51
+     "start": 88.38,
+     "end": 88.56
     },
     {
      "text": "AT",
      "red": false,
      "norm": "at",
      "norm_raw": "at",
-     "start": 93.51,
-     "end": 93.67
+     "start": 88.56,
+     "end": 88.7
     },
     {
      "text": "THE",
      "red": false,
      "norm": "the",
      "norm_raw": "the",
-     "start": 93.67,
-     "end": 93.77
+     "start": 88.7,
+     "end": 88.78
     },
     {
      "text": "WATER",
      "red": false,
      "norm": "water",
      "norm_raw": "water",
-     "start": 93.77,
-     "end": 94.01
+     "start": 88.78,
+     "end": 89.0
     },
     {
      "text": "AND",
      "red": false,
      "norm": "and",
      "norm_raw": "and",
-     "start": 94.33,
-     "end": 94.41
+     "start": 89.26,
+     "end": 89.36
     },
     {
      "text": "THEY",
      "red": false,
      "norm": "they",
      "norm_raw": "they",
-     "start": 94.41,
-     "end": 94.51
+     "start": 89.36,
+     "end": 89.48
     },
     {
      "text": "CLOSED",
      "red": false,
      "norm": "closed",
      "norm_raw": "closed",
-     "start": 94.51,
-     "end": 94.73
+     "start": 89.48,
+     "end": 89.74
     },
     {
      "text": "IT",
      "red": false,
      "norm": "it",
      "norm_raw": "it",
-     "start": 94.73,
-     "end": 95.03
+     "start": 89.74,
+     "end": 90.0
     },
     {
      "text": "AGAIN",
      "red": false,
      "norm": "again",
      "norm_raw": "again",
-     "start": 95.03,
-     "end": 95.23
+     "start": 90.0,
+     "end": 90.2
     },
     {
      "text": "NOBODY",
      "red": false,
      "norm": "nobody",
      "norm_raw": "nobody",
-     "start": 95.63,
-     "end": 95.87
+     "start": 90.5,
+     "end": 90.72
     },
     {
      "text": "WANTED",
      "red": false,
      "norm": "wanted",
      "norm_raw": "wanted",
-     "start": 95.87,
-     "end": 96.19
+     "start": 90.72,
+     "end": 91.02
     },
     {
      "text": "TO",
      "red": false,
      "norm": "to",
      "norm_raw": "to",
-     "start": 96.19,
-     "end": 96.47
+     "start": 91.02,
+     "end": 91.34
     },
     {
      "text": "SPEND",
      "red": false,
      "norm": "spend",
      "norm_raw": "spend",
-     "start": 96.47,
-     "end": 96.71
+     "start": 91.34,
+     "end": 91.58
     },
     {
      "text": "AN",
      "red": false,
      "norm": "an",
      "norm_raw": "an",
-     "start": 96.71,
-     "end": 96.91
+     "start": 91.58,
+     "end": 91.8
     },
     {
      "text": "HOUR",
      "red": false,
      "norm": "hour",
      "norm_raw": "hour",
-     "start": 96.91,
-     "end": 97.19
+     "start": 91.8,
+     "end": 92.06
     }
    ]
   },
   {
    "id": "s20",
    "text": "So I went house to house, banging on every door. Three hundred. Two fifty. Two hundred. The longer I stayed awake, the less time I had left.",
-   "start": 97.65,
-   "speech_end": 105.4,
-   "end": 105.6,
+   "start": 92.47,
+   "speech_end": 100.0,
+   "end": 100.2,
    "light": "night",
    "beats": [
     {
@@ -3578,225 +3578,225 @@
      "red": false,
      "norm": "so",
      "norm_raw": "so",
-     "start": 97.65,
-     "end": 97.75
+     "start": 92.47,
+     "end": 92.61
     },
     {
      "text": "I",
      "red": false,
      "norm": "i",
      "norm_raw": "i",
-     "start": 97.75,
-     "end": 97.83
+     "start": 92.61,
+     "end": 92.69
     },
     {
      "text": "WENT",
      "red": false,
      "norm": "went",
      "norm_raw": "went",
-     "start": 97.83,
-     "end": 97.97
+     "start": 92.69,
+     "end": 92.83
     },
     {
      "text": "HOUSE",
      "red": false,
      "norm": "house",
      "norm_raw": "house",
-     "start": 97.97,
-     "end": 98.13
+     "start": 92.83,
+     "end": 92.99
     },
     {
      "text": "TO",
      "red": false,
      "norm": "to",
      "norm_raw": "to",
-     "start": 98.13,
-     "end": 98.31
+     "start": 92.99,
+     "end": 93.15
     },
     {
      "text": "HOUSE",
      "red": false,
      "norm": "house",
      "norm_raw": "house",
-     "start": 98.31,
-     "end": 98.55
+     "start": 93.15,
+     "end": 93.39
     },
     {
      "text": "BANGING",
      "red": false,
      "norm": "banging",
      "norm_raw": "banging",
-     "start": 98.55,
-     "end": 98.89
+     "start": 93.39,
+     "end": 93.69
     },
     {
      "text": "ON",
      "red": false,
      "norm": "on",
      "norm_raw": "on",
-     "start": 98.89,
-     "end": 99.07
+     "start": 93.69,
+     "end": 93.89
     },
     {
      "text": "EVERY",
      "red": false,
      "norm": "every",
      "norm_raw": "every",
-     "start": 99.07,
-     "end": 99.25
+     "start": 93.89,
+     "end": 94.05
     },
     {
      "text": "DOOR",
      "red": false,
      "norm": "door",
      "norm_raw": "door",
-     "start": 99.25,
-     "end": 99.51
+     "start": 94.05,
+     "end": 94.29
     },
     {
      "text": "THREE",
      "red": false,
      "norm": "three",
      "norm_raw": "three",
-     "start": 99.85,
-     "end": 100.01
+     "start": 94.29,
+     "end": 94.797
     },
     {
      "text": "HUNDRED",
      "red": false,
      "norm": "hundred",
      "norm_raw": "hundred",
-     "start": 100.01,
-     "end": 100.41
+     "start": 94.797,
+     "end": 95.506
     },
     {
      "text": "TWO",
      "red": true,
      "norm": "two",
      "norm_raw": "two",
-     "start": 100.71,
-     "end": 100.87
+     "start": 95.506,
+     "end": 95.81
     },
     {
      "text": "FIFTY",
      "red": true,
      "norm": "fifty",
      "norm_raw": "fifty",
-     "start": 100.87,
-     "end": 101.81
+     "start": 95.81,
+     "end": 96.317
     },
     {
      "text": "TWO",
      "red": true,
      "norm": "two",
      "norm_raw": "two",
-     "start": 101.81,
-     "end": 101.91
+     "start": 96.317,
+     "end": 96.621
     },
     {
      "text": "HUNDRED",
      "red": true,
      "norm": "hundred",
      "norm_raw": "hundred",
-     "start": 101.91,
-     "end": 102.39
+     "start": 96.621,
+     "end": 97.33
     },
     {
      "text": "THE",
      "red": false,
      "norm": "the",
      "norm_raw": "the",
-     "start": 102.65,
-     "end": 102.73
+     "start": 97.33,
+     "end": 97.38
     },
     {
      "text": "LONGER",
      "red": false,
      "norm": "longer",
      "norm_raw": "longer",
-     "start": 102.73,
-     "end": 102.95
+     "start": 97.37,
+     "end": 97.55
     },
     {
      "text": "I",
      "red": false,
      "norm": "i",
      "norm_raw": "i",
-     "start": 102.95,
-     "end": 103.19
+     "start": 97.55,
+     "end": 97.79
     },
     {
      "text": "STAYED",
      "red": false,
      "norm": "stayed",
      "norm_raw": "stayed",
-     "start": 103.19,
-     "end": 103.41
+     "start": 97.79,
+     "end": 98.01
     },
     {
      "text": "AWAKE",
      "red": false,
      "norm": "awake",
      "norm_raw": "awake",
-     "start": 103.41,
-     "end": 103.75
+     "start": 98.01,
+     "end": 98.33
     },
     {
      "text": "THE",
      "red": false,
      "norm": "the",
      "norm_raw": "the",
-     "start": 104.09,
-     "end": 104.17
+     "start": 98.71,
+     "end": 98.81
     },
     {
      "text": "LESS",
      "red": false,
      "norm": "less",
      "norm_raw": "less",
-     "start": 104.17,
-     "end": 104.33
+     "start": 98.81,
+     "end": 98.95
     },
     {
      "text": "TIME",
      "red": false,
      "norm": "time",
      "norm_raw": "time",
-     "start": 104.33,
-     "end": 104.63
+     "start": 98.95,
+     "end": 99.27
     },
     {
      "text": "I",
      "red": false,
      "norm": "i",
      "norm_raw": "i",
-     "start": 104.63,
-     "end": 104.79
+     "start": 99.27,
+     "end": 99.41
     },
     {
      "text": "HAD",
      "red": false,
      "norm": "had",
      "norm_raw": "had",
-     "start": 104.79,
-     "end": 104.91
+     "start": 99.41,
+     "end": 99.51
     },
     {
      "text": "LEFT",
      "red": false,
      "norm": "left",
      "norm_raw": "left",
-     "start": 104.91,
-     "end": 105.13
+     "start": 99.51,
+     "end": 99.73
     }
    ]
   },
   {
    "id": "s21",
    "text": "One fifty. One hundred. Fifty. Ten. Five. Three. Two. One. ZERO.",
-   "start": 105.6,
-   "speech_end": 113.82,
-   "end": 114.02,
+   "start": 100.2,
+   "speech_end": 108.21,
+   "end": 108.41,
    "light": "night",
    "beats": [
     {
@@ -3851,97 +3851,97 @@
      "red": true,
      "norm": "one",
      "norm_raw": "one",
-     "start": 105.6,
-     "end": 105.74
+     "start": 100.2,
+     "end": 100.36
     },
     {
      "text": "FIFTY",
      "red": true,
      "norm": "fifty",
      "norm_raw": "fifty",
-     "start": 105.74,
-     "end": 106.702
+     "start": 100.36,
+     "end": 101.295
     },
     {
      "text": "ONE",
      "red": true,
      "norm": "one",
      "norm_raw": "one",
-     "start": 106.702,
-     "end": 107.279
+     "start": 101.295,
+     "end": 101.855
     },
     {
      "text": "HUNDRED",
      "red": true,
      "norm": "hundred",
      "norm_raw": "hundred",
-     "start": 107.279,
-     "end": 108.626
+     "start": 101.855,
+     "end": 103.164
     },
     {
      "text": "FIFTY",
      "red": true,
      "norm": "fifty",
      "norm_raw": "fifty",
-     "start": 108.626,
-     "end": 109.588
+     "start": 103.164,
+     "end": 104.098
     },
     {
      "text": "TEN",
      "red": true,
      "norm": "ten",
      "norm_raw": "ten",
-     "start": 109.588,
-     "end": 110.165
+     "start": 104.098,
+     "end": 104.659
     },
     {
      "text": "FIVE",
      "red": true,
      "norm": "five",
      "norm_raw": "five",
-     "start": 110.165,
-     "end": 110.934
+     "start": 104.659,
+     "end": 105.406
     },
     {
      "text": "THREE",
      "red": true,
      "norm": "three",
      "norm_raw": "three",
-     "start": 110.934,
-     "end": 111.896
+     "start": 105.406,
+     "end": 106.341
     },
     {
      "text": "TWO",
      "red": true,
      "norm": "two",
      "norm_raw": "two",
-     "start": 111.896,
-     "end": 112.473
+     "start": 106.341,
+     "end": 106.902
     },
     {
      "text": "ONE",
      "red": true,
      "norm": "one",
      "norm_raw": "one",
-     "start": 112.473,
-     "end": 113.05
+     "start": 106.902,
+     "end": 107.462
     },
     {
      "text": "ZERO",
      "red": true,
      "norm": "zero",
      "norm_raw": "zero",
-     "start": 113.05,
-     "end": 113.82
+     "start": 107.462,
+     "end": 108.21
     }
    ]
   },
   {
    "id": "s22",
    "text": "My eyelids went cold. Then heavy. Then solid STONE. The world went black.",
-   "start": 114.02,
-   "speech_end": 118.82,
-   "end": 119.02,
+   "start": 108.41,
+   "speech_end": 113.04,
+   "end": 113.24,
    "light": "night",
    "beats": [
     {
@@ -3978,113 +3978,113 @@
      "red": false,
      "norm": "my",
      "norm_raw": "my",
-     "start": 114.02,
-     "end": 114.14
+     "start": 108.41,
+     "end": 108.51
     },
     {
      "text": "EYELIDS",
      "red": false,
      "norm": "eyelids",
      "norm_raw": "eyelids",
-     "start": 114.14,
-     "end": 114.74
+     "start": 108.51,
+     "end": 109.01
     },
     {
      "text": "WENT",
      "red": false,
      "norm": "went",
      "norm_raw": "went",
-     "start": 114.74,
-     "end": 114.86
+     "start": 109.01,
+     "end": 109.15
     },
     {
      "text": "COLD",
      "red": false,
      "norm": "cold",
      "norm_raw": "cold",
-     "start": 114.86,
-     "end": 115.26
+     "start": 109.15,
+     "end": 109.53
     },
     {
      "text": "THEN",
      "red": false,
      "norm": "then",
      "norm_raw": "then",
-     "start": 115.68,
-     "end": 115.8
+     "start": 109.93,
+     "end": 110.03
     },
     {
      "text": "HEAVY",
      "red": false,
      "norm": "heavy",
      "norm_raw": "heavy",
-     "start": 115.8,
-     "end": 116.2
+     "start": 110.03,
+     "end": 110.41
     },
     {
      "text": "THEN",
      "red": false,
      "norm": "then",
      "norm_raw": "then",
-     "start": 116.52,
-     "end": 116.64
+     "start": 110.73,
+     "end": 110.85
     },
     {
      "text": "SOLID",
      "red": false,
      "norm": "solid",
      "norm_raw": "solid",
-     "start": 116.64,
-     "end": 116.92
+     "start": 110.85,
+     "end": 111.17
     },
     {
      "text": "STONE",
      "red": true,
      "norm": "stone",
      "norm_raw": "stone",
-     "start": 116.92,
-     "end": 117.32
+     "start": 111.17,
+     "end": 111.63
     },
     {
      "text": "THE",
      "red": false,
      "norm": "the",
      "norm_raw": "the",
-     "start": 117.7,
-     "end": 117.78
+     "start": 111.99,
+     "end": 112.04
     },
     {
      "text": "WORLD",
      "red": false,
      "norm": "world",
      "norm_raw": "world",
-     "start": 117.78,
-     "end": 117.98
+     "start": 112.03,
+     "end": 112.25
     },
     {
      "text": "WENT",
      "red": false,
      "norm": "went",
      "norm_raw": "went",
-     "start": 117.98,
-     "end": 118.22
+     "start": 112.25,
+     "end": 112.51
     },
     {
      "text": "BLACK",
      "red": false,
      "norm": "black",
      "norm_raw": "black",
-     "start": 118.22,
-     "end": 118.52
+     "start": 112.51,
+     "end": 112.79
     }
    ]
   },
   {
    "id": "s23",
    "text": "I stood there in the flood, completely blind, with a whole town asleep behind me.",
-   "start": 119.02,
-   "speech_end": 123.65,
-   "end": 123.85,
+   "start": 113.24,
+   "speech_end": 117.51,
+   "end": 117.71,
    "light": "night",
    "beats": [
     {
@@ -4116,129 +4116,129 @@
      "red": false,
      "norm": "i",
      "norm_raw": "i",
-     "start": 119.02,
-     "end": 119.1
+     "start": 113.24,
+     "end": 113.32
     },
     {
      "text": "STOOD",
      "red": false,
      "norm": "stood",
      "norm_raw": "stood",
-     "start": 119.1,
-     "end": 119.36
+     "start": 113.32,
+     "end": 113.54
     },
     {
      "text": "THERE",
      "red": false,
      "norm": "there",
      "norm_raw": "there",
-     "start": 119.36,
-     "end": 119.58
+     "start": 113.54,
+     "end": 113.76
     },
     {
      "text": "IN",
      "red": false,
      "norm": "in",
      "norm_raw": "in",
-     "start": 119.58,
-     "end": 119.7
+     "start": 113.76,
+     "end": 113.88
     },
     {
      "text": "THE",
      "red": false,
      "norm": "the",
      "norm_raw": "the",
-     "start": 119.7,
-     "end": 119.78
+     "start": 113.88,
+     "end": 113.96
     },
     {
      "text": "FLOOD",
      "red": false,
      "norm": "flood",
      "norm_raw": "flood",
-     "start": 119.78,
-     "end": 120.02
+     "start": 113.96,
+     "end": 114.18
     },
     {
      "text": "COMPLETELY",
      "red": false,
      "norm": "completely",
      "norm_raw": "completely",
-     "start": 120.02,
-     "end": 120.64
+     "start": 114.18,
+     "end": 114.74
     },
     {
      "text": "BLIND",
      "red": false,
      "norm": "blind",
      "norm_raw": "blind",
-     "start": 120.64,
-     "end": 121.04
+     "start": 114.74,
+     "end": 115.12
     },
     {
      "text": "WITH",
      "red": false,
      "norm": "with",
      "norm_raw": "with",
-     "start": 121.5,
-     "end": 121.68
+     "start": 115.56,
+     "end": 115.7
     },
     {
      "text": "A",
      "red": false,
      "norm": "a",
      "norm_raw": "a",
-     "start": 121.68,
-     "end": 121.78
+     "start": 115.7,
+     "end": 115.82
     },
     {
      "text": "WHOLE",
      "red": false,
      "norm": "whole",
      "norm_raw": "whole",
-     "start": 121.78,
-     "end": 122.0
+     "start": 115.82,
+     "end": 116.04
     },
     {
      "text": "TOWN",
      "red": false,
      "norm": "town",
      "norm_raw": "town",
-     "start": 122.0,
-     "end": 122.34
+     "start": 116.04,
+     "end": 116.36
     },
     {
      "text": "ASLEEP",
      "red": false,
      "norm": "asleep",
      "norm_raw": "asleep",
-     "start": 122.34,
-     "end": 122.7
+     "start": 116.36,
+     "end": 116.64
     },
     {
      "text": "BEHIND",
      "red": false,
      "norm": "behind",
      "norm_raw": "behind",
-     "start": 122.7,
-     "end": 123.08
+     "start": 116.64,
+     "end": 117.06
     },
     {
      "text": "ME",
      "red": false,
      "norm": "me",
      "norm_raw": "me",
-     "start": 123.08,
-     "end": 123.48
+     "start": 117.06,
+     "end": 117.38
     }
    ]
   },
   {
    "id": "s24",
    "text": "And then I remembered. The game. The streets. Every step, by heart.",
-   "start": 123.85,
-   "speech_end": 128.15,
-   "end": 128.35,
+   "start": 117.71,
+   "speech_end": 121.73,
+   "end": 121.93,
    "light": "night",
    "beats": [
     {
@@ -4270,105 +4270,105 @@
      "red": false,
      "norm": "and",
      "norm_raw": "and",
-     "start": 123.85,
-     "end": 123.97
+     "start": 117.71,
+     "end": 117.79
     },
     {
      "text": "THEN",
      "red": false,
      "norm": "then",
      "norm_raw": "then",
-     "start": 123.97,
-     "end": 124.21
+     "start": 117.79,
+     "end": 117.99
     },
     {
      "text": "I",
      "red": false,
      "norm": "i",
      "norm_raw": "i",
-     "start": 124.21,
-     "end": 124.55
+     "start": 117.99,
+     "end": 118.27
     },
     {
      "text": "REMEMBERED",
      "red": false,
      "norm": "remembered",
      "norm_raw": "remembered",
-     "start": 124.55,
-     "end": 124.85
+     "start": 118.27,
+     "end": 118.57
     },
     {
      "text": "THE",
      "red": false,
      "norm": "the",
      "norm_raw": "the",
-     "start": 124.85,
-     "end": 125.27
+     "start": 118.57,
+     "end": 119.01
     },
     {
      "text": "GAME",
      "red": false,
      "norm": "game",
      "norm_raw": "game",
-     "start": 125.27,
-     "end": 125.53
+     "start": 119.01,
+     "end": 119.27
     },
     {
      "text": "THE",
      "red": false,
      "norm": "the",
      "norm_raw": "the",
-     "start": 125.85,
-     "end": 125.9
+     "start": 119.55,
+     "end": 119.61
     },
     {
      "text": "STREETS",
      "red": false,
      "norm": "streets",
      "norm_raw": "streets",
-     "start": 125.89,
-     "end": 126.15
+     "start": 119.61,
+     "end": 119.85
     },
     {
      "text": "EVERY",
      "red": false,
      "norm": "every",
      "norm_raw": "every",
-     "start": 126.55,
-     "end": 126.85
+     "start": 120.29,
+     "end": 120.53
     },
     {
      "text": "STEP",
      "red": false,
      "norm": "step",
      "norm_raw": "step",
-     "start": 126.85,
-     "end": 127.25
+     "start": 120.53,
+     "end": 120.89
     },
     {
      "text": "BY",
      "red": false,
      "norm": "by",
      "norm_raw": "by",
-     "start": 127.25,
-     "end": 127.59
+     "start": 120.89,
+     "end": 121.23
     },
     {
      "text": "HEART",
      "red": false,
      "norm": "heart",
      "norm_raw": "heart",
-     "start": 127.59,
-     "end": 127.87
+     "start": 121.23,
+     "end": 121.51
     }
    ]
   },
   {
    "id": "s25",
    "text": "I didn't need my eyes. I never had.",
-   "start": 128.35,
-   "speech_end": 130.43,
-   "end": 130.63,
+   "start": 121.93,
+   "speech_end": 123.97,
+   "end": 124.17,
    "light": "night",
    "beats": [
     {
@@ -4386,73 +4386,73 @@
      "red": false,
      "norm": "i",
      "norm_raw": "i",
-     "start": 128.35,
-     "end": 128.41
+     "start": 121.93,
+     "end": 121.99
     },
     {
      "text": "DIDN'T",
      "red": false,
      "norm": "didnt",
      "norm_raw": "didn't",
-     "start": 128.41,
-     "end": 128.65
+     "start": 121.99,
+     "end": 122.23
     },
     {
      "text": "NEED",
      "red": false,
      "norm": "need",
      "norm_raw": "need",
-     "start": 128.65,
-     "end": 128.81
+     "start": 122.23,
+     "end": 122.39
     },
     {
      "text": "MY",
      "red": false,
      "norm": "my",
      "norm_raw": "my",
-     "start": 128.81,
-     "end": 129.01
+     "start": 122.39,
+     "end": 122.61
     },
     {
      "text": "EYES",
      "red": false,
      "norm": "eyes",
      "norm_raw": "eyes",
-     "start": 129.01,
-     "end": 129.31
+     "start": 122.61,
+     "end": 122.95
     },
     {
      "text": "I",
      "red": false,
      "norm": "i",
      "norm_raw": "i",
-     "start": 129.67,
-     "end": 129.75
+     "start": 123.27,
+     "end": 123.35
     },
     {
      "text": "NEVER",
      "red": false,
      "norm": "never",
      "norm_raw": "never",
-     "start": 129.75,
-     "end": 129.91
+     "start": 123.35,
+     "end": 123.51
     },
     {
      "text": "HAD",
      "red": false,
      "norm": "had",
      "norm_raw": "had",
-     "start": 129.91,
-     "end": 130.23
+     "start": 123.51,
+     "end": 123.77
     }
    ]
   },
   {
    "id": "s26",
    "text": "I walked. Knocking on doors. Pulling people out of bed. \"Follow me. Hold hands. Eyes shut.\"",
-   "start": 130.63,
-   "speech_end": 136.24,
-   "end": 136.44,
+   "start": 124.17,
+   "speech_end": 129.52,
+   "end": 129.72,
    "light": "night",
    "beats": [
     {
@@ -4503,137 +4503,137 @@
      "red": false,
      "norm": "i",
      "norm_raw": "i",
-     "start": 130.63,
-     "end": 130.69
+     "start": 124.17,
+     "end": 124.23
     },
     {
      "text": "WALKED",
      "red": false,
      "norm": "walked",
      "norm_raw": "walked",
-     "start": 130.69,
-     "end": 130.97
+     "start": 124.23,
+     "end": 124.47
     },
     {
      "text": "KNOCKING",
      "red": false,
      "norm": "knocking",
      "norm_raw": "knocking",
-     "start": 131.35,
-     "end": 131.49
+     "start": 124.83,
+     "end": 124.95
     },
     {
      "text": "ON",
      "red": false,
      "norm": "on",
      "norm_raw": "on",
-     "start": 131.49,
-     "end": 131.75
+     "start": 124.95,
+     "end": 125.19
     },
     {
      "text": "DOORS",
      "red": false,
      "norm": "doors",
      "norm_raw": "doors",
-     "start": 131.75,
-     "end": 132.03
+     "start": 125.19,
+     "end": 125.43
     },
     {
      "text": "PULLING",
      "red": false,
      "norm": "pulling",
      "norm_raw": "pulling",
-     "start": 132.47,
-     "end": 132.67
+     "start": 125.91,
+     "end": 126.07
     },
     {
      "text": "PEOPLE",
      "red": false,
      "norm": "people",
      "norm_raw": "people",
-     "start": 132.67,
-     "end": 133.01
+     "start": 126.07,
+     "end": 126.41
     },
     {
      "text": "OUT",
      "red": false,
      "norm": "out",
      "norm_raw": "out",
-     "start": 133.01,
-     "end": 133.37
+     "start": 126.41,
+     "end": 126.71
     },
     {
      "text": "OF",
      "red": false,
      "norm": "of",
      "norm_raw": "of",
-     "start": 133.37,
-     "end": 133.47
+     "start": 126.71,
+     "end": 126.83
     },
     {
      "text": "BED",
      "red": false,
      "norm": "bed",
      "norm_raw": "bed",
-     "start": 133.47,
-     "end": 133.71
+     "start": 126.83,
+     "end": 127.07
     },
     {
      "text": "FOLLOW",
      "red": false,
      "norm": "follow",
      "norm_raw": "follow",
-     "start": 133.95,
-     "end": 134.11
+     "start": 127.35,
+     "end": 127.49
     },
     {
      "text": "ME",
      "red": false,
      "norm": "me",
      "norm_raw": "me",
-     "start": 134.11,
-     "end": 134.37
+     "start": 127.49,
+     "end": 127.77
     },
     {
      "text": "HOLD",
      "red": false,
      "norm": "hold",
      "norm_raw": "hold",
-     "start": 134.65,
-     "end": 134.79
+     "start": 127.99,
+     "end": 128.09
     },
     {
      "text": "HANDS",
      "red": false,
      "norm": "hands",
      "norm_raw": "hands",
-     "start": 134.79,
-     "end": 135.09
+     "start": 128.09,
+     "end": 128.39
     },
     {
      "text": "EYES",
      "red": false,
      "norm": "eyes",
      "norm_raw": "eyes",
-     "start": 135.57,
-     "end": 135.69
+     "start": 128.87,
+     "end": 128.99
     },
     {
      "text": "SHUT",
      "red": false,
      "norm": "shut",
      "norm_raw": "shut",
-     "start": 135.69,
-     "end": 135.97
+     "start": 128.99,
+     "end": 129.25
     }
    ]
   },
   {
    "id": "s27",
    "text": "Mom grabbed my hand. Then the baker. Then the mayor. Then the whole town, in one long line, eyes closed, wading through the flood.",
-   "start": 136.44,
-   "speech_end": 143.81,
-   "end": 144.01,
+   "start": 129.72,
+   "speech_end": 136.78,
+   "end": 136.98,
    "light": "night",
    "beats": [
     {
@@ -4679,201 +4679,201 @@
      "red": false,
      "norm": "mom",
      "norm_raw": "mom",
-     "start": 136.44,
-     "end": 136.56
+     "start": 129.72,
+     "end": 129.82
     },
     {
      "text": "GRABBED",
      "red": false,
      "norm": "grabbed",
      "norm_raw": "grabbed",
-     "start": 136.56,
-     "end": 136.82
+     "start": 129.82,
+     "end": 130.06
     },
     {
      "text": "MY",
      "red": false,
      "norm": "my",
      "norm_raw": "my",
-     "start": 136.82,
-     "end": 137.14
+     "start": 130.06,
+     "end": 130.38
     },
     {
      "text": "HAND",
      "red": false,
      "norm": "hand",
      "norm_raw": "hand",
-     "start": 137.14,
-     "end": 137.44
+     "start": 130.38,
+     "end": 130.68
     },
     {
      "text": "THEN",
      "red": false,
      "norm": "then",
      "norm_raw": "then",
-     "start": 137.8,
-     "end": 137.86
+     "start": 131.0,
+     "end": 131.08
     },
     {
      "text": "THE",
      "red": false,
      "norm": "the",
      "norm_raw": "the",
-     "start": 137.86,
-     "end": 137.98
+     "start": 131.08,
+     "end": 131.22
     },
     {
      "text": "BAKER",
      "red": false,
      "norm": "baker",
      "norm_raw": "baker",
-     "start": 137.98,
-     "end": 138.58
+     "start": 131.22,
+     "end": 131.76
     },
     {
      "text": "THEN",
      "red": false,
      "norm": "then",
      "norm_raw": "then",
-     "start": 138.58,
-     "end": 138.7
+     "start": 131.76,
+     "end": 131.88
     },
     {
      "text": "THE",
      "red": false,
      "norm": "the",
      "norm_raw": "the",
-     "start": 138.7,
-     "end": 138.84
+     "start": 131.88,
+     "end": 132.02
     },
     {
      "text": "MAYOR",
      "red": false,
      "norm": "mayor",
      "norm_raw": "mayor",
-     "start": 138.84,
-     "end": 139.34
+     "start": 132.02,
+     "end": 132.52
     },
     {
      "text": "THEN",
      "red": false,
      "norm": "then",
      "norm_raw": "then",
-     "start": 139.34,
-     "end": 139.44
+     "start": 132.52,
+     "end": 132.66
     },
     {
      "text": "THE",
      "red": false,
      "norm": "the",
      "norm_raw": "the",
-     "start": 139.44,
-     "end": 139.56
+     "start": 132.66,
+     "end": 132.8
     },
     {
      "text": "WHOLE",
      "red": false,
      "norm": "whole",
      "norm_raw": "whole",
-     "start": 139.56,
-     "end": 139.76
+     "start": 132.8,
+     "end": 133.0
     },
     {
      "text": "TOWN",
      "red": false,
      "norm": "town",
      "norm_raw": "town",
-     "start": 139.76,
-     "end": 140.12
+     "start": 133.0,
+     "end": 133.32
     },
     {
      "text": "IN",
      "red": false,
      "norm": "in",
      "norm_raw": "in",
-     "start": 140.64,
-     "end": 140.74
+     "start": 133.72,
+     "end": 133.8
     },
     {
      "text": "ONE",
      "red": false,
      "norm": "one",
      "norm_raw": "one",
-     "start": 140.74,
-     "end": 140.98
+     "start": 133.8,
+     "end": 134.04
     },
     {
      "text": "LONG",
      "red": false,
      "norm": "long",
      "norm_raw": "long",
-     "start": 140.98,
-     "end": 141.26
+     "start": 134.04,
+     "end": 134.34
     },
     {
      "text": "LINE",
      "red": false,
      "norm": "line",
      "norm_raw": "line",
-     "start": 141.26,
-     "end": 141.72
+     "start": 134.34,
+     "end": 134.72
     },
     {
      "text": "EYES",
      "red": false,
      "norm": "eyes",
      "norm_raw": "eyes",
-     "start": 141.72,
-     "end": 142.08
+     "start": 134.72,
+     "end": 135.16
     },
     {
      "text": "CLOSED",
      "red": false,
      "norm": "closed",
      "norm_raw": "closed",
-     "start": 142.08,
-     "end": 142.4
+     "start": 135.16,
+     "end": 135.46
     },
     {
      "text": "WADING",
      "red": false,
      "norm": "wading",
      "norm_raw": "wading",
-     "start": 142.4,
-     "end": 142.88
+     "start": 135.46,
+     "end": 135.94
     },
     {
      "text": "THROUGH",
      "red": false,
      "norm": "through",
      "norm_raw": "through",
-     "start": 142.88,
-     "end": 143.2
+     "start": 135.94,
+     "end": 136.26
     },
     {
      "text": "THE",
      "red": false,
      "norm": "the",
      "norm_raw": "the",
-     "start": 143.2,
-     "end": 143.3
+     "start": 136.26,
+     "end": 136.36
     },
     {
      "text": "FLOOD",
      "red": false,
      "norm": "flood",
      "norm_raw": "flood",
-     "start": 143.3,
-     "end": 143.56
+     "start": 136.36,
+     "end": 136.56
     }
    ]
   },
   {
    "id": "s28",
    "text": "I led them through the dark, street by street, up the hill, to the old stone church on the high ground.",
-   "start": 144.01,
-   "speech_end": 149.23,
-   "end": 149.43,
+   "start": 136.98,
+   "speech_end": 142.33,
+   "end": 142.53,
    "light": "night",
    "beats": [
     {
@@ -4915,177 +4915,177 @@
      "red": false,
      "norm": "i",
      "norm_raw": "i",
-     "start": 144.01,
-     "end": 144.07
+     "start": 136.98,
+     "end": 137.06
     },
     {
      "text": "LED",
      "red": false,
      "norm": "led",
      "norm_raw": "led",
-     "start": 144.07,
-     "end": 144.17
+     "start": 137.06,
+     "end": 137.2
     },
     {
      "text": "THEM",
      "red": false,
      "norm": "them",
      "norm_raw": "them",
-     "start": 144.17,
-     "end": 144.39
+     "start": 137.2,
+     "end": 137.4
     },
     {
      "text": "THROUGH",
      "red": false,
      "norm": "through",
      "norm_raw": "through",
-     "start": 144.39,
-     "end": 144.57
+     "start": 137.4,
+     "end": 137.56
     },
     {
      "text": "THE",
      "red": false,
      "norm": "the",
      "norm_raw": "the",
-     "start": 144.57,
-     "end": 144.67
+     "start": 137.56,
+     "end": 137.68
     },
     {
      "text": "DARK",
      "red": false,
      "norm": "dark",
      "norm_raw": "dark",
-     "start": 144.67,
-     "end": 144.91
+     "start": 137.68,
+     "end": 137.92
     },
     {
      "text": "STREET",
      "red": false,
      "norm": "street",
      "norm_raw": "street",
-     "start": 145.25,
-     "end": 145.47
+     "start": 138.24,
+     "end": 138.48
     },
     {
      "text": "BY",
      "red": false,
      "norm": "by",
      "norm_raw": "by",
-     "start": 145.47,
-     "end": 145.69
+     "start": 138.48,
+     "end": 138.68
     },
     {
      "text": "STREET",
      "red": false,
      "norm": "street",
      "norm_raw": "street",
-     "start": 145.69,
-     "end": 146.03
+     "start": 138.68,
+     "end": 139.02
     },
     {
      "text": "UP",
      "red": false,
      "norm": "up",
      "norm_raw": "up",
-     "start": 146.29,
-     "end": 146.41
+     "start": 139.36,
+     "end": 139.56
     },
     {
      "text": "THE",
      "red": false,
      "norm": "the",
      "norm_raw": "the",
-     "start": 146.41,
-     "end": 146.53
+     "start": 139.56,
+     "end": 139.7
     },
     {
      "text": "HILL",
      "red": false,
      "norm": "hill",
      "norm_raw": "hill",
-     "start": 146.53,
-     "end": 146.73
+     "start": 139.7,
+     "end": 139.92
     },
     {
      "text": "TO",
      "red": false,
      "norm": "to",
      "norm_raw": "to",
-     "start": 147.09,
-     "end": 147.25
+     "start": 140.24,
+     "end": 140.32
     },
     {
      "text": "THE",
      "red": false,
      "norm": "the",
      "norm_raw": "the",
-     "start": 147.25,
-     "end": 147.35
+     "start": 140.32,
+     "end": 140.42
     },
     {
      "text": "OLD",
      "red": false,
      "norm": "old",
      "norm_raw": "old",
-     "start": 147.35,
-     "end": 147.53
+     "start": 140.42,
+     "end": 140.6
     },
     {
      "text": "STONE",
      "red": true,
      "norm": "stone",
      "norm_raw": "stone",
-     "start": 147.53,
-     "end": 147.81
+     "start": 140.6,
+     "end": 140.9
     },
     {
      "text": "CHURCH",
      "red": false,
      "norm": "church",
      "norm_raw": "church",
-     "start": 147.81,
-     "end": 148.15
+     "start": 140.9,
+     "end": 141.22
     },
     {
      "text": "ON",
      "red": false,
      "norm": "on",
      "norm_raw": "on",
-     "start": 148.15,
-     "end": 148.39
+     "start": 141.22,
+     "end": 141.46
     },
     {
      "text": "THE",
      "red": false,
      "norm": "the",
      "norm_raw": "the",
-     "start": 148.39,
-     "end": 148.47
+     "start": 141.46,
+     "end": 141.56
     },
     {
      "text": "HIGH",
      "red": false,
      "norm": "high",
      "norm_raw": "high",
-     "start": 148.47,
-     "end": 148.65
+     "start": 141.56,
+     "end": 141.76
     },
     {
      "text": "GROUND",
      "red": false,
      "norm": "ground",
      "norm_raw": "ground",
-     "start": 148.65,
-     "end": 148.85
+     "start": 141.76,
+     "end": 142.0
     }
    ]
   },
   {
    "id": "s29",
    "text": "When the sun came up, the water was gone. The town was soaked. And everyone was alive.",
-   "start": 149.43,
-   "speech_end": 154.37,
-   "end": 154.57,
+   "start": 142.53,
+   "speech_end": 147.3,
+   "end": 147.5,
    "light": "golden",
    "beats": [
     {
@@ -5135,145 +5135,145 @@
      "red": false,
      "norm": "when",
      "norm_raw": "when",
-     "start": 149.43,
-     "end": 149.53
+     "start": 142.53,
+     "end": 142.61
     },
     {
      "text": "THE",
      "red": false,
      "norm": "the",
      "norm_raw": "the",
-     "start": 149.53,
-     "end": 149.61
+     "start": 142.61,
+     "end": 142.69
     },
     {
      "text": "SUN",
      "red": false,
      "norm": "sun",
      "norm_raw": "sun",
-     "start": 149.61,
-     "end": 149.79
+     "start": 142.69,
+     "end": 142.87
     },
     {
      "text": "CAME",
      "red": false,
      "norm": "came",
      "norm_raw": "came",
-     "start": 149.79,
-     "end": 150.05
+     "start": 142.87,
+     "end": 143.15
     },
     {
      "text": "UP",
      "red": false,
      "norm": "up",
      "norm_raw": "up",
-     "start": 150.05,
-     "end": 150.27
+     "start": 143.15,
+     "end": 143.39
     },
     {
      "text": "THE",
      "red": false,
      "norm": "the",
      "norm_raw": "the",
-     "start": 150.63,
-     "end": 150.73
+     "start": 143.75,
+     "end": 143.85
     },
     {
      "text": "WATER",
      "red": false,
      "norm": "water",
      "norm_raw": "water",
-     "start": 150.73,
-     "end": 150.95
+     "start": 143.85,
+     "end": 144.03
     },
     {
      "text": "WAS",
      "red": false,
      "norm": "was",
      "norm_raw": "was",
-     "start": 150.95,
-     "end": 151.25
+     "start": 144.03,
+     "end": 144.27
     },
     {
      "text": "GONE",
      "red": false,
      "norm": "gone",
      "norm_raw": "gone",
-     "start": 151.25,
-     "end": 151.53
+     "start": 144.27,
+     "end": 144.55
     },
     {
      "text": "THE",
      "red": false,
      "norm": "the",
      "norm_raw": "the",
-     "start": 151.87,
-     "end": 151.93
+     "start": 144.89,
+     "end": 144.97
     },
     {
      "text": "TOWN",
      "red": false,
      "norm": "town",
      "norm_raw": "town",
-     "start": 151.93,
-     "end": 152.17
+     "start": 144.97,
+     "end": 145.15
     },
     {
      "text": "WAS",
      "red": false,
      "norm": "was",
      "norm_raw": "was",
-     "start": 152.17,
-     "end": 152.33
+     "start": 145.15,
+     "end": 145.39
     },
     {
      "text": "SOAKED",
      "red": false,
      "norm": "soaked",
      "norm_raw": "soaked",
-     "start": 152.33,
-     "end": 152.61
+     "start": 145.39,
+     "end": 145.65
     },
     {
      "text": "AND",
      "red": false,
      "norm": "and",
      "norm_raw": "and",
-     "start": 152.61,
-     "end": 153.01
+     "start": 145.65,
+     "end": 146.05
     },
     {
      "text": "EVERYONE",
      "red": false,
      "norm": "everyone",
      "norm_raw": "everyone",
-     "start": 153.01,
-     "end": 153.37
+     "start": 146.05,
+     "end": 146.39
     },
     {
      "text": "WAS",
      "red": false,
      "norm": "was",
      "norm_raw": "was",
-     "start": 153.37,
-     "end": 153.71
+     "start": 146.39,
+     "end": 146.71
     },
     {
      "text": "ALIVE",
      "red": false,
      "norm": "alive",
      "norm_raw": "alive",
-     "start": 153.71,
-     "end": 154.03
+     "start": 146.71,
+     "end": 146.99
     }
    ]
   },
   {
    "id": "s30",
    "text": "And me? I'll never see a sunrise again. But I walked a whole town to safety without opening my eyes once.",
-   "start": 154.57,
-   "speech_end": 160.42,
-   "end": 160.62,
+   "start": 147.5,
+   "speech_end": 153.28,
+   "end": 153.48,
    "light": "golden",
    "beats": [
     {
@@ -5314,177 +5314,177 @@
      "red": false,
      "norm": "and",
      "norm_raw": "and",
-     "start": 154.57,
-     "end": 154.67
+     "start": 147.5,
+     "end": 147.6
     },
     {
      "text": "ME?",
      "red": false,
      "norm": "me",
      "norm_raw": "me?",
-     "start": 154.67,
-     "end": 154.89
+     "start": 147.6,
+     "end": 147.76
     },
     {
      "text": "I'LL",
      "red": false,
      "norm": "ill",
      "norm_raw": "i'll",
-     "start": 155.19,
-     "end": 155.29
+     "start": 148.06,
+     "end": 148.16
     },
     {
      "text": "NEVER",
      "red": false,
      "norm": "never",
      "norm_raw": "never",
-     "start": 155.29,
-     "end": 155.45
+     "start": 148.16,
+     "end": 148.28
     },
     {
      "text": "SEE",
      "red": false,
      "norm": "see",
      "norm_raw": "see",
-     "start": 155.45,
-     "end": 155.79
+     "start": 148.28,
+     "end": 148.62
     },
     {
      "text": "A",
      "red": false,
      "norm": "a",
      "norm_raw": "a",
-     "start": 155.79,
-     "end": 156.01
+     "start": 148.62,
+     "end": 148.78
     },
     {
      "text": "SUNRISE",
      "red": false,
      "norm": "sunrise",
      "norm_raw": "sunrise",
-     "start": 156.01,
-     "end": 156.27
+     "start": 148.78,
+     "end": 149.1
     },
     {
      "text": "AGAIN",
      "red": false,
      "norm": "again",
      "norm_raw": "again",
-     "start": 156.27,
-     "end": 156.81
+     "start": 149.1,
+     "end": 149.66
     },
     {
      "text": "BUT",
      "red": false,
      "norm": "but",
      "norm_raw": "but",
-     "start": 157.11,
-     "end": 157.19
+     "start": 150.0,
+     "end": 150.08
     },
     {
      "text": "I",
      "red": false,
      "norm": "i",
      "norm_raw": "i",
-     "start": 157.19,
-     "end": 157.29
+     "start": 150.08,
+     "end": 150.16
     },
     {
      "text": "WALKED",
      "red": false,
      "norm": "walked",
      "norm_raw": "walked",
-     "start": 157.29,
-     "end": 157.45
+     "start": 150.16,
+     "end": 150.36
     },
     {
      "text": "A",
      "red": false,
      "norm": "a",
      "norm_raw": "a",
-     "start": 157.45,
-     "end": 157.63
+     "start": 150.36,
+     "end": 150.52
     },
     {
      "text": "WHOLE",
      "red": false,
      "norm": "whole",
      "norm_raw": "whole",
-     "start": 157.63,
-     "end": 157.79
+     "start": 150.52,
+     "end": 150.72
     },
     {
      "text": "TOWN",
      "red": false,
      "norm": "town",
      "norm_raw": "town",
-     "start": 157.79,
-     "end": 158.07
+     "start": 150.72,
+     "end": 150.98
     },
     {
      "text": "TO",
      "red": false,
      "norm": "to",
      "norm_raw": "to",
-     "start": 158.07,
-     "end": 158.27
+     "start": 150.98,
+     "end": 151.16
     },
     {
      "text": "SAFETY",
      "red": false,
      "norm": "safety",
      "norm_raw": "safety",
-     "start": 158.27,
-     "end": 158.49
+     "start": 151.16,
+     "end": 151.38
     },
     {
      "text": "WITHOUT",
      "red": false,
      "norm": "without",
      "norm_raw": "without",
-     "start": 158.49,
-     "end": 158.83
+     "start": 151.38,
+     "end": 151.74
     },
     {
      "text": "OPENING",
      "red": false,
      "norm": "opening",
      "norm_raw": "opening",
-     "start": 158.83,
-     "end": 159.27
+     "start": 151.74,
+     "end": 152.18
     },
     {
      "text": "MY",
      "red": false,
      "norm": "my",
      "norm_raw": "my",
-     "start": 159.27,
-     "end": 159.49
+     "start": 152.18,
+     "end": 152.38
     },
     {
      "text": "EYES",
      "red": false,
      "norm": "eyes",
      "norm_raw": "eyes",
-     "start": 159.49,
-     "end": 159.75
+     "start": 152.38,
+     "end": 152.62
     },
     {
      "text": "ONCE",
      "red": false,
      "norm": "once",
      "norm_raw": "once",
-     "start": 159.75,
-     "end": 160.11
+     "start": 152.62,
+     "end": 152.98
     }
    ]
   },
   {
    "id": "s31",
    "text": "After that, everything changed. Every night, the whole town plays my game. Eyes closed. Hands held.",
-   "start": 160.62,
-   "speech_end": 167.07,
-   "end": 167.27,
+   "start": 153.48,
+   "speech_end": 159.52,
+   "end": 159.72,
    "light": "dusk",
    "beats": [
     {
@@ -5515,137 +5515,137 @@
      "red": false,
      "norm": "after",
      "norm_raw": "after",
-     "start": 160.62,
-     "end": 160.82
+     "start": 153.48,
+     "end": 153.66
     },
     {
      "text": "THAT",
      "red": false,
      "norm": "that",
      "norm_raw": "that",
-     "start": 160.82,
-     "end": 161.02
+     "start": 153.66,
+     "end": 153.84
     },
     {
      "text": "EVERYTHING",
      "red": false,
      "norm": "everything",
      "norm_raw": "everything",
-     "start": 161.02,
-     "end": 161.44
+     "start": 153.84,
+     "end": 154.2
     },
     {
      "text": "CHANGED",
      "red": false,
      "norm": "changed",
      "norm_raw": "changed",
-     "start": 161.44,
-     "end": 161.96
+     "start": 154.2,
+     "end": 154.68
     },
     {
      "text": "EVERY",
      "red": false,
      "norm": "every",
      "norm_raw": "every",
-     "start": 162.38,
-     "end": 162.6
+     "start": 155.12,
+     "end": 155.3
     },
     {
      "text": "NIGHT",
      "red": false,
      "norm": "night",
      "norm_raw": "night",
-     "start": 162.6,
-     "end": 162.92
+     "start": 155.3,
+     "end": 155.6
     },
     {
      "text": "THE",
      "red": false,
      "norm": "the",
      "norm_raw": "the",
-     "start": 163.34,
-     "end": 163.46
+     "start": 156.02,
+     "end": 156.12
     },
     {
      "text": "WHOLE",
      "red": false,
      "norm": "whole",
      "norm_raw": "whole",
-     "start": 163.46,
-     "end": 163.68
+     "start": 156.12,
+     "end": 156.32
     },
     {
      "text": "TOWN",
      "red": false,
      "norm": "town",
      "norm_raw": "town",
-     "start": 163.68,
-     "end": 164.02
+     "start": 156.32,
+     "end": 156.72
     },
     {
      "text": "PLAYS",
      "red": false,
      "norm": "plays",
      "norm_raw": "plays",
-     "start": 164.02,
-     "end": 164.42
+     "start": 156.72,
+     "end": 157.12
     },
     {
      "text": "MY",
      "red": false,
      "norm": "my",
      "norm_raw": "my",
-     "start": 164.42,
-     "end": 164.68
+     "start": 157.12,
+     "end": 157.34
     },
     {
      "text": "GAME",
      "red": false,
      "norm": "game",
      "norm_raw": "game",
-     "start": 164.68,
-     "end": 165.08
+     "start": 157.34,
+     "end": 157.74
     },
     {
      "text": "EYES",
      "red": false,
      "norm": "eyes",
      "norm_raw": "eyes",
-     "start": 165.4,
-     "end": 165.46
+     "start": 158.0,
+     "end": 158.1
     },
     {
      "text": "CLOSED",
      "red": false,
      "norm": "closed",
      "norm_raw": "closed",
-     "start": 165.46,
-     "end": 165.78
+     "start": 158.1,
+     "end": 158.42
     },
     {
      "text": "HANDS",
      "red": false,
      "norm": "hands",
      "norm_raw": "hands",
-     "start": 166.28,
-     "end": 166.42
+     "start": 158.42,
+     "end": 158.86
     },
     {
      "text": "HELD",
      "red": false,
      "norm": "held",
      "norm_raw": "held",
-     "start": 166.42,
-     "end": 166.78
+     "start": 158.86,
+     "end": 159.26
     }
    ]
   },
   {
    "id": "s32",
    "text": "The mayor leads the way. The baker counts steps. Grandma narrates, badly.",
-   "start": 167.27,
-   "speech_end": 171.69,
-   "end": 171.89,
+   "start": 159.72,
+   "speech_end": 163.9,
+   "end": 164.1,
    "light": "dusk",
    "beats": [
     {
@@ -5676,105 +5676,105 @@
      "red": false,
      "norm": "the",
      "norm_raw": "the",
-     "start": 167.27,
-     "end": 167.33
+     "start": 159.72,
+     "end": 159.78
     },
     {
      "text": "MAYOR",
      "red": false,
      "norm": "mayor",
      "norm_raw": "mayor",
-     "start": 167.33,
-     "end": 167.49
+     "start": 159.78,
+     "end": 159.94
     },
     {
      "text": "LEADS",
      "red": false,
      "norm": "leads",
      "norm_raw": "leads",
-     "start": 167.49,
-     "end": 167.83
+     "start": 159.94,
+     "end": 160.28
     },
     {
      "text": "THE",
      "red": false,
      "norm": "the",
      "norm_raw": "the",
-     "start": 167.83,
-     "end": 168.09
+     "start": 160.28,
+     "end": 160.52
     },
     {
      "text": "WAY",
      "red": false,
      "norm": "way",
      "norm_raw": "way",
-     "start": 168.09,
-     "end": 168.31
+     "start": 160.52,
+     "end": 160.76
     },
     {
      "text": "THE",
      "red": false,
      "norm": "the",
      "norm_raw": "the",
-     "start": 168.61,
-     "end": 168.69
+     "start": 161.08,
+     "end": 161.14
     },
     {
      "text": "BAKER",
      "red": false,
      "norm": "baker",
      "norm_raw": "baker",
-     "start": 168.69,
-     "end": 168.87
+     "start": 161.14,
+     "end": 161.34
     },
     {
      "text": "COUNTS",
      "red": false,
      "norm": "counts",
      "norm_raw": "counts",
-     "start": 168.87,
-     "end": 169.405
+     "start": 161.34,
+     "end": 161.58
     },
     {
      "text": "STEPS",
      "red": false,
      "norm": "steps",
      "norm_raw": "steps",
-     "start": 169.405,
-     "end": 169.85
+     "start": 161.58,
+     "end": 162.0
     },
     {
      "text": "GRANDMA",
      "red": false,
      "norm": "grandma",
      "norm_raw": "grandma",
-     "start": 169.85,
-     "end": 170.25
+     "start": 162.22,
+     "end": 162.52
     },
     {
      "text": "NARRATES",
      "red": false,
      "norm": "narrates",
      "norm_raw": "narrates",
-     "start": 170.25,
-     "end": 170.75
+     "start": 162.52,
+     "end": 163.14
     },
     {
      "text": "BADLY",
      "red": false,
      "norm": "badly",
      "norm_raw": "badly",
-     "start": 171.05,
-     "end": 171.33
+     "start": 163.14,
+     "end": 163.54
     }
    ]
   },
   {
    "id": "s33",
    "text": "In this town, everyone sees with their HANDS.",
-   "start": 171.89,
-   "speech_end": 174.59,
-   "end": 174.79,
+   "start": 164.1,
+   "speech_end": 166.51,
+   "end": 166.71,
    "light": "dusk",
    "beats": [
     {
@@ -5798,64 +5798,64 @@
      "red": false,
      "norm": "in",
      "norm_raw": "in",
-     "start": 171.89,
-     "end": 171.99
+     "start": 164.1,
+     "end": 164.18
     },
     {
      "text": "THIS",
      "red": false,
      "norm": "this",
      "norm_raw": "this",
-     "start": 171.99,
-     "end": 172.11
+     "start": 164.18,
+     "end": 164.28
     },
     {
      "text": "TOWN",
      "red": false,
      "norm": "town",
      "norm_raw": "town",
-     "start": 172.11,
-     "end": 172.47
+     "start": 164.28,
+     "end": 164.64
     },
     {
      "text": "EVERYONE",
      "red": false,
      "norm": "everyone",
      "norm_raw": "everyone",
-     "start": 172.77,
-     "end": 173.05
+     "start": 164.88,
+     "end": 165.14
     },
     {
      "text": "SEES",
      "red": false,
      "norm": "sees",
      "norm_raw": "sees",
-     "start": 173.05,
-     "end": 173.45
+     "start": 165.14,
+     "end": 165.5
     },
     {
      "text": "WITH",
      "red": false,
      "norm": "with",
      "norm_raw": "with",
-     "start": 173.45,
-     "end": 173.77
+     "start": 165.5,
+     "end": 165.76
     },
     {
      "text": "THEIR",
      "red": false,
      "norm": "their",
      "norm_raw": "their",
-     "start": 173.77,
-     "end": 173.95
+     "start": 165.76,
+     "end": 165.92
     },
     {
      "text": "HANDS",
      "red": true,
      "norm": "hands",
      "norm_raw": "hands",
-     "start": 173.95,
-     "end": 174.25
+     "start": 165.92,
+     "end": 166.22
     }
    ]
   }
