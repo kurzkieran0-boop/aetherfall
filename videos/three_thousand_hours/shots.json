@@ -28,9 +28,9 @@
   },
   {
    "sentence": "s01",
-   "set": "street",
-   "cam": "wide",
-   "tgt": "nora",
+   "set": "fountain",
+   "cam": "push",
+   "tgt": "t1",
    "light": "day",
    "id": "shot_002",
    "frame0": 39,
@@ -45,21 +45,18 @@
     "ALLOWED",
     "THREE"
    ],
-   "location": "street",
-   "camera_move": "wide",
+   "location": "fountain",
+   "camera_move": "push",
    "characters": [
-    "nora"
+    "t1"
    ],
    "emotion": "neutral"
   },
   {
    "sentence": "s01",
-   "set": "street",
-   "cam": "mcu",
-   "tgt": "t3",
-   "faces": {
-    "t3": "tired"
-   },
+   "set": "horses",
+   "cam": "wide",
+   "tgt": "t4",
    "light": "day",
    "id": "shot_003",
    "frame0": 70,
@@ -75,12 +72,12 @@
     "IN",
     "THEIR"
    ],
-   "location": "street",
-   "camera_move": "mcu",
+   "location": "horses",
+   "camera_move": "wide",
    "characters": [
-    "t3"
+    "t4"
    ],
-   "emotion": "t3:tired"
+   "emotion": "neutral"
   },
   {
    "sentence": "s01",
@@ -317,9 +314,9 @@
   },
   {
    "sentence": "s04",
-   "set": "town",
+   "set": "bakery_sleep",
    "cam": "high",
-   "tgt": "pt:-12,0,0",
+   "tgt": "baker",
    "light": "day",
    "id": "shot_013",
    "frame0": 393,
@@ -335,16 +332,18 @@
     "WASTES",
     "A"
    ],
-   "location": "town",
+   "location": "bakery_sleep",
    "camera_move": "high",
-   "characters": [],
+   "characters": [
+    "baker"
+   ],
    "emotion": "neutral"
   },
   {
    "sentence": "s04",
-   "set": "mail",
-   "cam": "track",
-   "tgt": "t5",
+   "set": "horses",
+   "cam": "cu",
+   "tgt": "t6",
    "light": "day",
    "id": "shot_014",
    "frame0": 431,
@@ -357,10 +356,10 @@
     "SINGLE",
     "HOUR"
    ],
-   "location": "mail",
-   "camera_move": "track",
+   "location": "horses",
+   "camera_move": "cu",
    "characters": [
-    "t5"
+    "t6"
    ],
    "emotion": "neutral"
   },
@@ -722,7 +721,7 @@
   {
    "sentence": "s07",
    "set": "school",
-   "cam": "push",
+   "cam": "wide",
    "tgt": "school_bell",
    "light": "day",
    "id": "shot_027",
@@ -741,7 +740,7 @@
     "GENTLE"
    ],
    "location": "school",
-   "camera_move": "push",
+   "camera_move": "wide",
    "characters": [],
    "emotion": "neutral"
   },
@@ -2228,7 +2227,7 @@
   {
    "sentence": "s18",
    "set": "tower",
-   "cam": "low",
+   "cam": "push",
    "tgt": "bell",
    "flash": true,
    "light": "night",
@@ -2245,7 +2244,7 @@
     "IT"
    ],
    "location": "tower",
-   "camera_move": "low",
+   "camera_move": "push",
    "characters": [],
    "emotion": "neutral"
   },
@@ -3506,7 +3505,7 @@
   {
    "sentence": "s27",
    "set": "line_street",
-   "cam": "track",
+   "cam": "wide",
    "tgt": "granny",
    "light": "night",
    "id": "shot_132",
@@ -3523,7 +3522,7 @@
     "EYES"
    ],
    "location": "line_street",
-   "camera_move": "track",
+   "camera_move": "wide",
    "characters": [
     "granny"
    ],
@@ -3555,7 +3554,7 @@
   {
    "sentence": "s27",
    "set": "line_street",
-   "cam": "chase",
+   "cam": "low",
    "tgt": "nora",
    "light": "night",
    "id": "shot_134",
@@ -3571,7 +3570,7 @@
     "FLOOD"
    ],
    "location": "line_street",
-   "camera_move": "chase",
+   "camera_move": "low",
    "characters": [
     "nora"
    ],
@@ -3608,8 +3607,9 @@
   {
    "sentence": "s28",
    "set": "line_street",
-   "cam": "low",
-   "tgt": "nora",
+   "cam": "drone",
+   "tgt": "pt:-8,-1,0",
+   "radius": 26,
    "light": "night",
    "id": "shot_136",
    "frame0": 4129,
@@ -3624,10 +3624,8 @@
     "BY"
    ],
    "location": "line_street",
-   "camera_move": "low",
-   "characters": [
-    "nora"
-   ],
+   "camera_move": "drone",
+   "characters": [],
    "emotion": "neutral"
   },
   {
@@ -3658,7 +3656,7 @@
   {
    "sentence": "s28",
    "set": "hill",
-   "cam": "chase",
+   "cam": "low",
    "tgt": "nora",
    "light": "night",
    "id": "shot_138",
@@ -3675,7 +3673,7 @@
     "OLD"
    ],
    "location": "hill",
-   "camera_move": "chase",
+   "camera_move": "low",
    "characters": [
     "nora"
    ],

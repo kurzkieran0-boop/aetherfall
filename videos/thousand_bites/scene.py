@@ -74,14 +74,14 @@ SETS = {
     "maya_street": {"maya": (0, -2.0, 90, "idle", 0), "t1": (-5, -2.6, 80, "idle", 0), "t6": (4.5, -2.8, 100, "idle", 0),
                     "t2": (10, 1.5, 180, "walk", 0), "t5": (-9, 1.8, 0, "walk", 0)},
     "kitchen": {"maya": (KX, KY + 3.35, -90, "eat:loaf", 0), "mom": (KX + 2.6, KY + 3.6, 200, "laugh", 0)},
-    "kitchen_stand": {"maya": (KX - 0.6, KY + 0.5, -20, "idle", 0), "mom": (KX + 0.75, KY + 0.75, 200, "idle", 0)},
-    "bedroom": {"maya": (BX + 2.4, BY + 2.85, -90, "idle", 0.33), "rue": (BX + 0.75, BY + 0.6, 40, "hold:thermos", 0)},
+    "kitchen_stand": {"maya": (KX - 0.5, KY + 0.4, -70, "idle", 0), "mom": (KX + 0.9, KY + 0.9, 215, "idle", 0)},
+    "bedroom": {"maya": (BX + 2.4, BY + 2.85, -90, "idle", 0.33), "rue": (BX + 0.3, BY - 0.6, -45, "hold:thermos", 0)},
     "bedroom_alone": {"maya": (BX + 2.4, BY + 2.85, -90, "drink:thermos", 0.33)},
     "rue_street": {"rue": (-21.4, 5.2, 60, "shake", 0), "baker": (-20, 8.7, -90, "give:loaf", 0),
                    "t3": (-17.4, 5.0, 120, "idle", 0), "t2": (-24.5, 2.0, 0, "walk", 0)},
     "parade": dict(PARADE),
     "collapse": dict(RING, rue=(7.0, 0.0, 0, "lie", 0), maya=(4.0, -2.0, 60, "idle", 0)),
-    "kneel": dict(RING, rue=(7.0, 0.0, 0, "lie", 0), maya=(5.0, -0.85, 90, "give:loaf", 0),
+    "kneel": dict(RING, rue=(7.6, 0.1, 0, "lie", 0), maya=(5.0, -0.85, 90, "give:loaf", 0),
                   doctor=(7.4, 1.3, -100, "idle", 0)),
     "situp": dict(RING, rue=(5.6, 0.2, -60, "sit", -0.56), maya=(4.5, -1.0, 40, "give:thermos", 0),
                   doctor=(7.4, 1.3, -100, "idle", 0)),
@@ -116,8 +116,8 @@ PROPS = {
     "bell": (CX - 3, CY + 4.85, 2.35, -90), "tray": (CX, CY + 0.35, 0.86, -90),
     "pancakes": (KX - 0.75, KY + 2.15, 1.12, -90), "melon": (KX + 0.75, KY + 2.05, 1.22, -90),
     "sandwich": (KX, KY + 1.55, 1.15, -90), "kcake": (KX, KY + 2.0, 1.25, -90), "pea": (KX, KY + 1.6, 1.0, -90),
-    "window": (-20, 9.8, 1.25, -90), "float": (16, -0.4, 2.4, -90), "banner": (7.5, 6.2, 5.6, -90),
-    "pot_a": (26, 6.0, 1.45, -90), "pot_d": (-8, 6.0, 1.45, -90), "hall_sign": (74.7, 0, 6.2, 180),
+    "window": (-21.3, 9.8, 1.3, -90), "float": (16, -0.4, 2.4, -90), "banner": (7.5, 6.2, 5.6, -90),
+    "pot_a": (26, 5.9, 1.8, -90), "pot_d": (-8, 5.9, 1.8, -90), "hall_sign": (74.7, 0, 6.2, 180),
     "blend": (-30.3, 28, 1.35, -90), "bsoup": (-20, 7.3, 1.35, -90), "crib": (-10, -8.6, 0.9, 90),
     "dog": ("dog_headpt", 0, 0, (0.0, -90)), "bedthermos": (BX + 1.0, BY + 3.3, 1.0, -90),
     "rest_sign": (RX, RY + 4.9, 2.6, -90),
@@ -324,8 +324,6 @@ def build(kit):
     T.emissive(f2, 8.0)
     cyl(G("pea", "plate"), 0.26, 0.02, (KX, k - 0.4, 0.96), "#f6f2ea", seg=14)
     cyl(G("pea", "pea"), 0.018, 0.02, (KX + 0.02, k - 0.4, 0.98), "#5ab05a", seg=8)
-    B.house("k_out1", KX - 9, KY - 18, 90, w=7, d=7, h=3.6)
-    B.house("k_out2", KX + 6, KY - 19, 90, w=7, d=7, h=3.8)
 
     # --- Maya's bedroom (night): bed from the kit + thermos on the nightstand + a warm bedside lamp
     T.bedroom(BX, BY, wall="#8fa0c0")
@@ -335,7 +333,7 @@ def build(kit):
     cyl("bedlamp_base", 0.08, 0.3, (BX + 0.8, BY + 3.45, 0.7), "#3e3b38", seg=8)
     sh_ = cyl("bedlamp_shade", 0.18, 0.2, (BX + 0.8, BY + 3.45, 1.0), "#f3dc9a", seg=10, r2=0.12)
     T.emissive(sh_, 3.0)
-    T.point_light("bed_lamp", (BX + 0.9, BY + 3.0, 1.4), 28, (1.0, 0.78, 0.5))
+    T.point_light("bed_lamp", (BX + 1.2, BY + 1.2, 2.0), 70, (1.0, 0.78, 0.5))
     mb("bed_poster", [(1.2, 0.03, 0.8, BX - 1.8, BY + 3.97, 1.9, "#f0c040")])
     text("bed_poster_t", "SOUP", (BX - 1.8, BY + 3.94, 1.9), 0, 0.3, "#a3302a")
 
@@ -362,9 +360,6 @@ def build(kit):
     text("rest_menu_t", "MENU\n1 GRAPE", (RX + 4.5, RY + 4.9, 1.75), 0, 0.2, "#f6f2ea")
     T.point_light("rest_lamp", (RX - 3, RY + 0.5, 2.8), 60, (1.0, 0.82, 0.6))
     T.point_light("rest_lamp2", (RX + 3, RY + 0.5, 2.8), 60, (1.0, 0.82, 0.6))
-    mb("rest_out", [(60, 8, 0.04, RX, RY - 10, 0.02, "#a68a66")])
-    B.house("rest_out1", RX - 8, RY - 18, 90, w=7, d=7, h=3.6)
-    B.house("rest_out2", RX + 6, RY - 18, 90, w=7, d=7, h=3.8)
 
     # --- school cafeteria: long table, bench, trays, the lunch bell
     T.room("caf", CX, CY, W=12, D=10, H=3.4, floor="#7c7a74", wall="#cdbb98")
@@ -382,6 +377,7 @@ def build(kit):
     text("caf_board_t", "LUNCH: 1 BITE", (CX + 1.5, CY + 4.9, 2.0), 0, 0.34, "#f6f2ea")
     mb("caf_counter", [(3.2, 0.9, 1.0, CX + 4.2, CY + 4.3, 0.5, "#b8bcc0")])
     T.point_light("caf_lamp", (CX, CY + 1, 3.0), 160, (1.0, 0.92, 0.8))
+
 
 
 # ------------------------------------------------------------------ per-frame hooks
@@ -499,7 +495,7 @@ def cam_override(stage, sh, t, actors, T, f, u):
             return pos, look, 40
         if cam == "high":
             look = (H + C) / 2
-            pos = look + feet * 2.5 + side * lerp(-1.0, 1.0, u) + Vector((0, 0, 5.5))
+            pos = look + feet * 2.2 + side * lerp(-1.0, 1.0, u) + Vector((0, 0, 4.0))
             return pos, look, 30
         if cam == "orbit":
             look = (H + C) / 2
@@ -513,6 +509,27 @@ def cam_override(stage, sh, t, actors, T, f, u):
         if cam == "dutch":
             r = (pos, H, 40, 12)
         return r
+    # Maya kneeling beside Rue: keep cameras off the line through Rue's head (swing 35 deg to Maya's left, a bit higher)
+    if sh["set"] in KNEELERS and tgt == "maya" and "maya" in KNEELERS[sh["set"]] and \
+            cam in ("counter", "mcu", "ecu", "cu", "dutch", "push", "hands"):
+        from render import rot2
+        fm = fdir(stage.facing("maya"))
+        H = stage.head_pos("maya")
+        C = stage.ob["maya_torso"].matrix_world @ Vector((0, 0.3, 1.43))
+        k = stage.CAST["maya"]["scale"]
+        if cam == "counter":
+            return C + rot2(fm, 35) * lerp(1.75, 1.45, u) + Vector((0, 0, 0.32)), C, 40
+        if cam == "mcu":
+            look = H - Vector((0, 0, 0.42 * k))
+            return look + rot2(fm, 32) * lerp(2.5, 2.1, u) + Vector((0, 0, 0.3)), look, 40
+        if cam == "hands":
+            Hd = (stage.hand_pos("maya") + stage.ob["maya_armL"].matrix_world @ Vector((0, 0, -0.75))) / 2
+            return Hd + rot2(fm, 55) * lerp(1.6, 1.3, u) + Vector((0, 0, 0.55)), Hd + Vector((0, 0, 0.05)), 35
+        if cam == "push":
+            return H + rot2(fm, 32) * lerp(4.2, 2.2, u) + Vector((0, 0, 0.45)), H - Vector((0, 0, 0.2)), 35
+        d = {"ecu": lerp(1.55, 1.25, u), "cu": lerp(2.0, 1.6, u), "dutch": lerp(1.8, 1.5, u)}[cam]
+        r = (H + rot2(fm, 30) * d + Vector((0, 0, 0.12)), H + Vector((0, 0, 0.04)), 40)
+        return r + ((12,) if cam == "dutch" else ())
     # parade bunting hangs at 5.5-7.1 m over Main Street: keep high cameras under it
     if cam == "high" and "parade" in shown_groups(sh) and -17 < T.x < 32 and abs(T.y) < 7:
         from render import rot2

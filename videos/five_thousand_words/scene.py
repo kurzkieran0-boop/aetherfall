@@ -50,7 +50,7 @@ SETS = {
               "t3": (58.4, -1.2, 0, "idle", 0), "t5": (58.2, 3.4, 0, "idle", 0), "t6": (58.6, 2.4, 10, "idle", 0),
               "granny": (57.2, -2.3, 0, "idle", 0), "baker": (56.9, 1.4, 0, "idle", 0), "t2": (56.2, -0.2, 0, "idle", 0),
               "t4": (55.8, -3.8, 5, "idle", 0)},
-    "wedding": {"mayor": (66.6, 0, 180, "idle", 0.6), "t1": (63.0, 0.8, -90, "idle", 0), "t2": (63.0, -0.8, 90, "idle", 0),
+    "wedding": {"mayor": (66.6, 0, 180, "idle", 0.6), "t1": (62.8, 0.7, 180, "idle", 0), "t2": (62.8, -0.7, 180, "idle", 0),
                 "t3": (58.4, -1.2, 0, "clap", 0), "t4": (57.6, -3.2, 10, "clap", 0), "t5": (58.2, 3.4, -5, "clap", 0),
                 "t6": (57.2, 1.9, 0, "clap", 0), "granny": (59.0, -2.8, 15, "clap", 0), "baker": (56.4, 0.2, 0, "clap", 0)},
     "bakery": {"baker": (-20, 8.5, -90, "idle", 0), "t3": (-20, 5.7, 90, "idle", 0), "t5": (-13, 1.8, 180, "walk", 0)},
@@ -68,7 +68,7 @@ SETS = {
     "corner": {"t1": (-1, -2.0, 0, "walk", 0), "t6": (10, 2.0, 180, "walk", 0)},
     "yard": {"finn": (1.0, -7.4, 180, "talk", 0)},
     "park": {"finn": (27.8, -30.6, 130, "talk", 0)},
-    "kitchen": {"finn": (0.4, KY - 0.6, 95, "idle", 0), "mom": (-0.2, KY + 0.8, -85, "idle", 0)},
+    "kitchen": {"finn": (0.6, KY - 1.1, 140, "idle", 0), "mom": (-1.8, KY + 0.9, -40, "idle", 0)},
     "toaster": {"finn": (2.0, KY + 3.0, 60, "talk", 0)},
     "shower": {"finn": (BX, KY + 0.9, -90, "sing", 0)},
     "closet": {"finn": (CLX, KY + 0.3, -90, "sing", 0)},
@@ -335,6 +335,18 @@ def cam_override(stage, sh, t, actors, T, f, u):
     if tgt.startswith("sign_") and cam == "prop":
         pos = T + rot2(f, lerp(-14, 10, u)) * lerp(7.4, 6.4, u) + Vector((0, 0, -0.5))
         return pos, T + Vector((0, 0, -0.15)), 30
+    if tgt == "mayor" and cam == "low" and sh["set"] in ("plaza", "wedding", "debate", "finale"):
+        pos = T + rot2(f, lerp(-38, -28, u)) * lerp(3.6, 3.0, u) + Vector((0, 0, -0.75))
+        return pos, T + Vector((0, 0, 0.1)), 26
+    if tgt == "dog_head" and cam == "ots":
+        side = Vector((-f.y, f.x, 0))
+        pos = T + f * lerp(1.9, 1.5, u) + side * 0.9 + Vector((0, 0, 0.55))
+        return pos, T + Vector((0, 0, 0.05)), 30
+    if tgt.endswith("_held_whiteboard"):
+        o = stage.ob[tgt]
+        n = (o.matrix_world.to_3x3() @ Vector((0, 0, 1))).normalized()
+        c = o.matrix_world @ Vector((0, 0.12, 0))
+        return c + n * lerp(1.25, 1.0, u) + Vector((0, 0, 0.05)), c, 35
     if tgt == "rowboat" and cam == "push":
         pos = T + rot2(f, lerp(170, 150, u)) * lerp(14, 8, u) + Vector((0, 0, 2.6))
         return pos, T + Vector((0, 0, 0.4)), 30

@@ -101,7 +101,7 @@
   {
    "sentence": "s02",
    "set": "door_demo",
-   "cam": "prop",
+   "cam": "push",
    "tgt": "fam_a_door",
    "light": "day",
    "id": "shot_005",
@@ -120,7 +120,7 @@
     "DOOR"
    ],
    "location": "door_demo",
-   "camera_move": "prop",
+   "camera_move": "push",
    "characters": [],
    "emotion": "neutral"
   },
@@ -234,7 +234,7 @@
   {
    "sentence": "s03",
    "set": "locked",
-   "cam": "prop",
+   "cam": "push",
    "tgt": "fam_c_door",
    "doors": {
     "fam_c_hinge": "rattle"
@@ -254,7 +254,7 @@
     "YOU"
    ],
    "location": "locked",
-   "camera_move": "prop",
+   "camera_move": "push",
    "characters": [],
    "emotion": "neutral"
   },
@@ -288,7 +288,7 @@
    "sentence": "s04",
    "set": "save",
    "cam": "wide",
-   "tgt": "pt:0,-10,1.5",
+   "tgt": "south_row",
    "light": "day",
    "id": "shot_012",
    "frame0": 349,
@@ -339,8 +339,9 @@
   {
    "sentence": "s05",
    "set": "morning",
-   "cam": "wide",
-   "tgt": "pt:0,-10,1.2",
+   "cam": "view",
+   "tgt": "t1",
+   "view": "morning_v",
    "light": "golden",
    "id": "shot_014",
    "frame0": 416,
@@ -356,14 +357,16 @@
     "FRONT"
    ],
    "location": "morning",
-   "camera_move": "wide",
-   "characters": [],
+   "camera_move": "view",
+   "characters": [
+    "t1"
+   ],
    "emotion": "neutral"
   },
   {
    "sentence": "s05",
    "set": "morning",
-   "cam": "prop",
+   "cam": "push",
    "tgt": "fam_b_door",
    "light": "golden",
    "id": "shot_015",
@@ -379,7 +382,7 @@
     "IN"
    ],
    "location": "morning",
-   "camera_move": "prop",
+   "camera_move": "push",
    "characters": [],
    "emotion": "neutral"
   },
@@ -435,7 +438,7 @@
    "sentence": "s05",
    "set": "dinner",
    "cam": "high",
-   "tgt": "pt:10,-8,0",
+   "tgt": "dinner_row",
    "light": "dusk",
    "id": "shot_018",
    "frame0": 528,
@@ -528,8 +531,9 @@
   {
    "sentence": "s06",
    "set": "bakery",
-   "cam": "prop",
-   "tgt": "bak_loaf",
+   "cam": "view",
+   "tgt": "baker",
+   "view": "bak_loaf_v",
    "light": "day",
    "id": "shot_022",
    "frame0": 637,
@@ -545,8 +549,10 @@
     "A"
    ],
    "location": "bakery",
-   "camera_move": "prop",
-   "characters": [],
+   "camera_move": "view",
+   "characters": [
+    "baker"
+   ],
    "emotion": "neutral"
   },
   {
@@ -633,8 +639,9 @@
   {
    "sentence": "s07",
    "set": "mail",
-   "cam": "prop",
-   "tgt": "slot",
+   "cam": "view",
+   "tgt": "mail",
+   "view": "slot_v",
    "light": "day",
    "id": "shot_026",
    "frame0": 749,
@@ -649,8 +656,10 @@
     "DOESN'T"
    ],
    "location": "mail",
-   "camera_move": "prop",
-   "characters": [],
+   "camera_move": "view",
+   "characters": [
+    "mail"
+   ],
    "emotion": "neutral"
   },
   {
@@ -809,7 +818,7 @@
   {
    "sentence": "s08",
    "set": "hall_curt",
-   "cam": "prop",
+   "cam": "push",
    "tgt": "curtain3",
    "light": "day",
    "id": "shot_033",
@@ -825,7 +834,7 @@
     "VERY"
    ],
    "location": "hall_curt",
-   "camera_move": "prop",
+   "camera_move": "push",
    "characters": [],
    "emotion": "neutral"
   },
@@ -957,8 +966,9 @@
   {
    "sentence": "s10",
    "set": "k_closet",
-   "cam": "prop",
-   "tgt": "kcloset",
+   "cam": "view",
+   "tgt": "theo",
+   "view": "closet_v",
    "light": "day",
    "id": "shot_039",
    "frame0": 1144,
@@ -972,15 +982,18 @@
     "DOORS"
    ],
    "location": "k_closet",
-   "camera_move": "prop",
-   "characters": [],
+   "camera_move": "view",
+   "characters": [
+    "theo"
+   ],
    "emotion": "neutral"
   },
   {
    "sentence": "s10",
    "set": "k_fridge",
-   "cam": "prop",
-   "tgt": "fridge",
+   "cam": "view",
+   "tgt": "theo",
+   "view": "fridge_v",
    "light": "day",
    "id": "shot_040",
    "frame0": 1177,
@@ -994,8 +1007,10 @@
     "DOORS"
    ],
    "location": "k_fridge",
-   "camera_move": "prop",
-   "characters": [],
+   "camera_move": "view",
+   "characters": [
+    "theo"
+   ],
    "emotion": "neutral"
   },
   {
@@ -1029,8 +1044,9 @@
   {
    "sentence": "s10",
    "set": "k_oven",
-   "cam": "prop",
-   "tgt": "oven",
+   "cam": "view",
+   "tgt": "theo",
+   "view": "oven_v",
    "light": "day",
    "id": "shot_042",
    "frame0": 1249,
@@ -1047,8 +1063,10 @@
     "SATISFYING"
    ],
    "location": "k_oven",
-   "camera_move": "prop",
-   "characters": [],
+   "camera_move": "view",
+   "characters": [
+    "theo"
+   ],
    "emotion": "neutral"
   },
   {
@@ -1500,8 +1518,9 @@
   {
    "sentence": "s14",
    "set": "bedroom",
-   "cam": "prop",
-   "tgt": "bowl",
+   "cam": "view",
+   "tgt": "theo",
+   "view": "bed_bowl",
    "light": "day",
    "id": "shot_060",
    "frame0": 1790,
@@ -1517,8 +1536,10 @@
     "ON"
    ],
    "location": "bedroom",
-   "camera_move": "prop",
-   "characters": [],
+   "camera_move": "view",
+   "characters": [
+    "theo"
+   ],
    "emotion": "neutral"
   },
   {
@@ -1646,8 +1667,11 @@
    "sentence": "s15",
    "set": "bed_night",
    "cam": "view",
-   "tgt": "theo",
+   "tgt": "pt:-2.6,-596,2.2",
    "view": "bed_win",
+   "hide": [
+    "theo"
+   ],
    "light": "night",
    "id": "shot_066",
    "frame0": 1943,
@@ -1664,9 +1688,7 @@
    ],
    "location": "bed_night",
    "camera_move": "view",
-   "characters": [
-    "theo"
-   ],
+   "characters": [],
    "emotion": "neutral"
   },
   {
@@ -1947,8 +1969,9 @@
   {
    "sentence": "s17",
    "set": "art_empty",
-   "cam": "prop",
+   "cam": "view",
    "tgt": "fire",
+   "view": "fire_v",
    "light": "golden",
    "id": "shot_078",
    "frame0": 2307,
@@ -1965,7 +1988,7 @@
     "WAS"
    ],
    "location": "art_empty",
-   "camera_move": "prop",
+   "camera_move": "view",
    "characters": [],
    "emotion": "neutral"
   },
@@ -2132,9 +2155,11 @@
   {
    "sentence": "s19",
    "set": "hall_exit",
-   "cam": "ots",
+   "cam": "cu",
    "tgt": "tchr2",
-   "over": "tchr1",
+   "acts": {
+    "tchr2": "whisper"
+   },
    "light": "day",
    "id": "shot_085",
    "frame0": 2521,
@@ -2150,7 +2175,7 @@
     "TO"
    ],
    "location": "hall_exit",
-   "camera_move": "ots",
+   "camera_move": "cu",
    "characters": [
     "tchr2"
    ],
@@ -2528,8 +2553,9 @@
   {
    "sentence": "s22",
    "set": "hall_c4",
-   "cam": "prop",
-   "tgt": "hd_class4",
+   "cam": "view",
+   "tgt": "theo",
+   "view": "c4_v",
    "light": "day",
    "id": "shot_100",
    "frame0": 3017,
@@ -2543,8 +2569,10 @@
     "DOORS"
    ],
    "location": "hall_c4",
-   "camera_move": "prop",
-   "characters": [],
+   "camera_move": "view",
+   "characters": [
+    "theo"
+   ],
    "emotion": "neutral"
   },
   {
@@ -2575,7 +2603,7 @@
   {
    "sentence": "s22",
    "set": "hall_jan",
-   "cam": "prop",
+   "cam": "push",
    "tgt": "hd_janitor",
    "light": "day",
    "id": "shot_102",
@@ -2593,7 +2621,7 @@
     "I"
    ],
    "location": "hall_jan",
-   "camera_move": "prop",
+   "camera_move": "push",
    "characters": [],
    "emotion": "neutral"
   },
@@ -2878,7 +2906,7 @@
    "sentence": "s24",
    "set": "hall_dash",
    "cam": "view",
-   "tgt": "k1",
+   "tgt": "pt:620,0,1",
    "view": "hall_rev",
    "hide": [
     "theo"
@@ -2901,9 +2929,7 @@
    ],
    "location": "hall_dash",
    "camera_move": "view",
-   "characters": [
-    "k1"
-   ],
+   "characters": [],
    "emotion": "neutral"
   },
   {
@@ -2990,8 +3016,9 @@
   {
    "sentence": "s25",
    "set": "art_empty",
-   "cam": "push",
+   "cam": "view",
    "tgt": "fire",
+   "view": "fire_v",
    "light": "day",
    "id": "shot_118",
    "frame0": 3578,
@@ -3006,7 +3033,7 @@
     "WOULDN'T"
    ],
    "location": "art_empty",
-   "camera_move": "push",
+   "camera_move": "view",
    "characters": [],
    "emotion": "neutral"
   },
@@ -3447,8 +3474,9 @@
   {
    "sentence": "s29",
    "set": "crowd",
-   "cam": "wide",
+   "cam": "view",
    "tgt": "k2",
+   "view": "crowd_v",
    "faces": {
     "k2": "shocked",
     "k1": "shocked"
@@ -3468,7 +3496,7 @@
     "OUTSIDE"
    ],
    "location": "crowd",
-   "camera_move": "wide",
+   "camera_move": "view",
    "characters": [
     "k1",
     "k2"
@@ -3505,7 +3533,7 @@
   {
    "sentence": "s29",
    "set": "crowd",
-   "cam": "push",
+   "cam": "cu",
    "tgt": "dad",
    "faces": {
     "dad": "shocked"
@@ -3524,7 +3552,7 @@
     "THE"
    ],
    "location": "crowd",
-   "camera_move": "push",
+   "camera_move": "cu",
    "characters": [
     "dad"
    ],

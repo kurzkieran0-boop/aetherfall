@@ -4,7 +4,7 @@
  "words": 552,
  "wps": 3.311,
  "length_scale": 0.765,
- "source_hash": "4ea456a1f27a7a37",
+ "source_hash": "aab2840fdb1e237f",
  "whisper_match": 0.933,
  "sentences": [
   {
@@ -22,17 +22,14 @@
      "radius": 58
     },
     {
-     "set": "street",
-     "cam": "wide",
-     "tgt": "nora"
+     "set": "fountain",
+     "cam": "push",
+     "tgt": "t1"
     },
     {
-     "set": "street",
-     "cam": "mcu",
-     "tgt": "t3",
-     "faces": {
-      "t3": "tired"
-     }
+     "set": "horses",
+     "cam": "wide",
+     "tgt": "t4"
     },
     {
      "set": "street",
@@ -488,14 +485,14 @@
    "light": "day",
    "beats": [
     {
-     "set": "town",
+     "set": "bakery_sleep",
      "cam": "high",
-     "tgt": "pt:-12,0,0"
+     "tgt": "baker"
     },
     {
-     "set": "mail",
-     "cam": "track",
-     "tgt": "t5"
+     "set": "horses",
+     "cam": "cu",
+     "tgt": "t6"
     }
    ],
    "words": [
@@ -1029,7 +1026,7 @@
    "beats": [
     {
      "set": "school",
-     "cam": "push",
+     "cam": "wide",
      "tgt": "school_bell"
     },
     {
@@ -3104,7 +3101,7 @@
     },
     {
      "set": "tower",
-     "cam": "low",
+     "cam": "push",
      "tgt": "bell",
      "flash": true
     },
@@ -4658,7 +4655,7 @@
     },
     {
      "set": "line_street",
-     "cam": "track",
+     "cam": "wide",
      "tgt": "granny"
     },
     {
@@ -4669,7 +4666,7 @@
     },
     {
      "set": "line_street",
-     "cam": "chase",
+     "cam": "low",
      "tgt": "nora"
     }
    ],
@@ -4884,8 +4881,9 @@
     },
     {
      "set": "line_street",
-     "cam": "low",
-     "tgt": "nora"
+     "cam": "drone",
+     "tgt": "pt:-8,-1,0",
+     "radius": 26
     },
     {
      "set": "hill",
@@ -4894,7 +4892,7 @@
     },
     {
      "set": "hill",
-     "cam": "chase",
+     "cam": "low",
      "tgt": "nora"
     },
     {

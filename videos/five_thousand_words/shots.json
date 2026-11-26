@@ -1,0 +1,4281 @@
+{
+ "fps": 30,
+ "shots": [
+  {
+   "sentence": "s01",
+   "set": "town",
+   "cam": "drone",
+   "tgt": "pt:0,0,0",
+   "radius": 56,
+   "light": "day",
+   "id": "shot_001",
+   "frame0": 0,
+   "frames": 31,
+   "dur": 1.033,
+   "seed": 0,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "IN",
+    "THIS",
+    "TOWN",
+    "EVERYONE"
+   ],
+   "location": "town",
+   "camera_move": "drone",
+   "characters": [],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s01",
+   "set": "town",
+   "cam": "high",
+   "tgt": "pt:0,0,0",
+   "radius": 56,
+   "light": "day",
+   "id": "shot_002",
+   "frame0": 31,
+   "frames": 34,
+   "dur": 1.133,
+   "seed": 919,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "IS",
+    "ONLY",
+    "ALLOWED",
+    "FIVE"
+   ],
+   "location": "town",
+   "camera_move": "high",
+   "characters": [],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s01",
+   "set": "street",
+   "cam": "mcu",
+   "tgt": "t6",
+   "light": "day",
+   "id": "shot_003",
+   "frame0": 65,
+   "frames": 33,
+   "dur": 1.1,
+   "seed": 838,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "THOUSAND",
+    "WORDS",
+    "IN"
+   ],
+   "location": "street",
+   "camera_move": "mcu",
+   "characters": [
+    "t6"
+   ],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s01",
+   "card": "five_k",
+   "light": "day",
+   "id": "shot_004",
+   "frame0": 98,
+   "frames": 33,
+   "dur": 1.1,
+   "seed": 757,
+   "kind": "card",
+   "paper": true,
+   "caption_words": [
+    "THEIR",
+    "ENTIRE",
+    "LIFE"
+   ],
+   "location": "card",
+   "camera_move": "zoom",
+   "characters": [],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s02",
+   "set": "street_mom",
+   "cam": "cu",
+   "tgt": "pip",
+   "faces": {
+    "pip": "laughing"
+   },
+   "light": "day",
+   "id": "shot_005",
+   "frame0": 131,
+   "frames": 41,
+   "dur": 1.367,
+   "seed": 676,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "YOU'RE",
+    "BORN",
+    "WITH",
+    "A",
+    "GLOWING",
+    "NUMBER",
+    "ON"
+   ],
+   "location": "street_mom",
+   "camera_move": "cu",
+   "characters": [
+    "pip"
+   ],
+   "emotion": "pip:laughing"
+  },
+  {
+   "sentence": "s02",
+   "set": "street_mom",
+   "cam": "counter",
+   "tgt": "pip",
+   "light": "day",
+   "id": "shot_006",
+   "frame0": 172,
+   "frames": 38,
+   "dur": 1.267,
+   "seed": 595,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "YOUR",
+    "CHEST",
+    "EVERY",
+    "WORD",
+    "YOU"
+   ],
+   "location": "street_mom",
+   "camera_move": "counter",
+   "characters": [
+    "pip"
+   ],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s02",
+   "set": "street_mom",
+   "cam": "mcu",
+   "tgt": "t3",
+   "acts": {
+    "t3": "talk"
+   },
+   "light": "day",
+   "id": "shot_007",
+   "frame0": 210,
+   "frames": 39,
+   "dur": 1.3,
+   "seed": 514,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "SAY",
+    "COUNTS",
+    "IT",
+    "DOWN"
+   ],
+   "location": "street_mom",
+   "camera_move": "mcu",
+   "characters": [
+    "t3"
+   ],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s03",
+   "set": "street",
+   "cam": "counter",
+   "tgt": "old",
+   "acts": {
+    "old": "talk"
+   },
+   "light": "day",
+   "id": "shot_008",
+   "frame0": 249,
+   "frames": 42,
+   "dur": 1.4,
+   "seed": 433,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "WHEN",
+    "IT",
+    "HITS",
+    "ZERO",
+    "YOUR",
+    "VOICE"
+   ],
+   "location": "street",
+   "camera_move": "counter",
+   "characters": [
+    "old"
+   ],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s03",
+   "set": "street",
+   "cam": "dutch",
+   "tgt": "old",
+   "faces": {
+    "old": "scared"
+   },
+   "light": "day",
+   "id": "shot_009",
+   "frame0": 291,
+   "frames": 39,
+   "dur": 1.3,
+   "seed": 352,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "TURNS",
+    "TO",
+    "STONE"
+   ],
+   "location": "street",
+   "camera_move": "dutch",
+   "characters": [
+    "old"
+   ],
+   "emotion": "old:scared"
+  },
+  {
+   "sentence": "s04",
+   "set": "town",
+   "cam": "high",
+   "tgt": "pt:5,0,0",
+   "light": "day",
+   "id": "shot_010",
+   "frame0": 330,
+   "frames": 31,
+   "dur": 1.033,
+   "seed": 271,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "SO",
+    "NOBODY",
+    "HERE",
+    "WASTES"
+   ],
+   "location": "town",
+   "camera_move": "high",
+   "characters": [],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s04",
+   "set": "street",
+   "cam": "cu",
+   "tgt": "t4",
+   "faces": {
+    "t4": "blank"
+   },
+   "light": "day",
+   "id": "shot_011",
+   "frame0": 361,
+   "frames": 34,
+   "dur": 1.133,
+   "seed": 190,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "A",
+    "SINGLE",
+    "WORD"
+   ],
+   "location": "street",
+   "camera_move": "cu",
+   "characters": [
+    "t4"
+   ],
+   "emotion": "t4:blank"
+  },
+  {
+   "sentence": "s05",
+   "set": "plaza",
+   "cam": "low",
+   "tgt": "mayor",
+   "light": "day",
+   "id": "shot_012",
+   "frame0": 395,
+   "frames": 37,
+   "dur": 1.233,
+   "seed": 109,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "THE",
+    "MAYOR'S",
+    "SPEECHES",
+    "ARE",
+    "FOUR"
+   ],
+   "location": "plaza",
+   "camera_move": "low",
+   "characters": [
+    "mayor"
+   ],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s05",
+   "set": "plaza",
+   "cam": "ots",
+   "tgt": "mayor",
+   "over": "t3",
+   "acts": {
+    "mayor": "talk"
+   },
+   "light": "day",
+   "id": "shot_013",
+   "frame0": 432,
+   "frames": 34,
+   "dur": 1.133,
+   "seed": 28,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "WORDS",
+    "LONG",
+    "ROADS"
+   ],
+   "location": "plaza",
+   "camera_move": "ots",
+   "characters": [
+    "mayor"
+   ],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s05",
+   "set": "plaza",
+   "cam": "counter",
+   "tgt": "mayor",
+   "acts": {
+    "mayor": "talk"
+   },
+   "light": "day",
+   "id": "shot_014",
+   "frame0": 466,
+   "frames": 47,
+   "dur": 1.567,
+   "seed": 947,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "FIXED",
+    "TAXES",
+    "UP"
+   ],
+   "location": "plaza",
+   "camera_move": "counter",
+   "characters": [
+    "mayor"
+   ],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s06",
+   "set": "wedding",
+   "cam": "wide",
+   "tgt": "t1",
+   "light": "day",
+   "id": "shot_015",
+   "frame0": 513,
+   "frames": 37,
+   "dur": 1.233,
+   "seed": 866,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "WEDDINGS",
+    "ARE",
+    "TWO",
+    "WORDS",
+    "I"
+   ],
+   "location": "wedding",
+   "camera_move": "wide",
+   "characters": [
+    "t1"
+   ],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s06",
+   "set": "wedding",
+   "cam": "cu",
+   "tgt": "t1",
+   "acts": {
+    "t1": "talk"
+   },
+   "faces": {
+    "t1": "laughing"
+   },
+   "light": "day",
+   "id": "shot_016",
+   "frame0": 550,
+   "frames": 42,
+   "dur": 1.4,
+   "seed": 785,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "DO",
+    "AND",
+    "EVERYONE",
+    "CLAPS"
+   ],
+   "location": "wedding",
+   "camera_move": "cu",
+   "characters": [
+    "t1"
+   ],
+   "emotion": "t1:laughing"
+  },
+  {
+   "sentence": "s06",
+   "set": "wedding",
+   "cam": "hands",
+   "tgt": "t4",
+   "acts": {
+    "t4": "clap"
+   },
+   "light": "day",
+   "id": "shot_017",
+   "frame0": 592,
+   "frames": 42,
+   "dur": 1.4,
+   "seed": 704,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "BECAUSE",
+    "CLAPPING",
+    "IS",
+    "FREE"
+   ],
+   "location": "wedding",
+   "camera_move": "hands",
+   "characters": [
+    "t4"
+   ],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s07",
+   "set": "bakery",
+   "cam": "wide",
+   "tgt": "bakery_sign",
+   "light": "day",
+   "id": "shot_018",
+   "frame0": 634,
+   "frames": 34,
+   "dur": 1.133,
+   "seed": 623,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "THE",
+    "BAKER",
+    "DOESN'T",
+    "SAY",
+    "GOOD"
+   ],
+   "location": "bakery",
+   "camera_move": "wide",
+   "characters": [],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s07",
+   "set": "bakery",
+   "cam": "ots",
+   "tgt": "baker",
+   "over": "t3",
+   "acts": {
+    "baker": "hold:loaf"
+   },
+   "light": "day",
+   "id": "shot_019",
+   "frame0": 668,
+   "frames": 43,
+   "dur": 1.433,
+   "seed": 542,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "MORNING",
+    "HE",
+    "JUST",
+    "HOLDS",
+    "UP",
+    "A"
+   ],
+   "location": "bakery",
+   "camera_move": "ots",
+   "characters": [
+    "baker"
+   ],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s07",
+   "set": "bakery",
+   "cam": "ecu",
+   "tgt": "baker",
+   "acts": {
+    "baker": "nod"
+   },
+   "light": "day",
+   "id": "shot_020",
+   "frame0": 711,
+   "frames": 37,
+   "dur": 1.233,
+   "seed": 461,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "LOAF",
+    "AND",
+    "NODS"
+   ],
+   "location": "bakery",
+   "camera_move": "ecu",
+   "characters": [
+    "baker"
+   ],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s08",
+   "set": "school",
+   "cam": "wide",
+   "tgt": "t4",
+   "light": "day",
+   "id": "shot_021",
+   "frame0": 748,
+   "frames": 31,
+   "dur": 1.033,
+   "seed": 380,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "KIDS",
+    "LEARN",
+    "HAND",
+    "SIGNALS"
+   ],
+   "location": "school",
+   "camera_move": "wide",
+   "characters": [
+    "t4"
+   ],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s08",
+   "set": "school",
+   "cam": "push",
+   "tgt": "t4",
+   "light": "day",
+   "id": "shot_022",
+   "frame0": 779,
+   "frames": 39,
+   "dur": 1.3,
+   "seed": 299,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "BEFORE",
+    "THEY",
+    "LEARN",
+    "TO"
+   ],
+   "location": "school",
+   "camera_move": "push",
+   "characters": [
+    "t4"
+   ],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s08",
+   "set": "school",
+   "cam": "hands",
+   "tgt": "kid1",
+   "light": "day",
+   "id": "shot_023",
+   "frame0": 818,
+   "frames": 36,
+   "dur": 1.2,
+   "seed": 218,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "READ",
+    "THERE'S",
+    "A",
+    "SIGN",
+    "ON"
+   ],
+   "location": "school",
+   "camera_move": "hands",
+   "characters": [
+    "kid1"
+   ],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s08",
+   "set": "corner",
+   "cam": "prop",
+   "tgt": "sign_a",
+   "light": "day",
+   "id": "shot_024",
+   "frame0": 854,
+   "frames": 33,
+   "dur": 1.1,
+   "seed": 137,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "EVERY",
+    "CORNER",
+    "TALK",
+    "ONLY"
+   ],
+   "location": "corner",
+   "camera_move": "prop",
+   "characters": [],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s08",
+   "card": "rule",
+   "light": "day",
+   "id": "shot_025",
+   "frame0": 887,
+   "frames": 37,
+   "dur": 1.233,
+   "seed": 56,
+   "kind": "card",
+   "paper": true,
+   "caption_words": [
+    "IN",
+    "EMERGENCIES"
+   ],
+   "location": "card",
+   "camera_move": "zoom",
+   "characters": [],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s09",
+   "set": "street",
+   "cam": "whip",
+   "tgt": "finn",
+   "acts": {
+    "finn": "laugh"
+   },
+   "light": "day",
+   "id": "shot_026",
+   "frame0": 924,
+   "frames": 34,
+   "dur": 1.133,
+   "seed": 975,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "AND",
+    "THEN",
+    "THERE'S",
+    "ME"
+   ],
+   "location": "street",
+   "camera_move": "whip",
+   "characters": [
+    "finn"
+   ],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s10",
+   "set": "yard",
+   "cam": "mcu",
+   "tgt": "finn",
+   "acts": {
+    "finn": "talk"
+   },
+   "light": "day",
+   "id": "shot_027",
+   "frame0": 958,
+   "frames": 36,
+   "dur": 1.2,
+   "seed": 894,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "I",
+    "TALKED",
+    "ABOUT",
+    "EVERYTHING",
+    "I"
+   ],
+   "location": "yard",
+   "camera_move": "mcu",
+   "characters": [
+    "finn"
+   ],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s10",
+   "set": "yard",
+   "cam": "ots",
+   "tgt": "dog_head",
+   "over": "finn",
+   "acts": {
+    "finn": "talk"
+   },
+   "light": "day",
+   "id": "shot_028",
+   "frame0": 994,
+   "frames": 43,
+   "dur": 1.433,
+   "seed": 813,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "TALKED",
+    "TO",
+    "THE",
+    "DOG",
+    "I",
+    "TALKED"
+   ],
+   "location": "yard",
+   "camera_move": "ots",
+   "characters": [
+    "finn"
+   ],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s10",
+   "set": "park",
+   "cam": "low",
+   "tgt": "finn",
+   "acts": {
+    "finn": "talk"
+   },
+   "light": "day",
+   "id": "shot_029",
+   "frame0": 1037,
+   "frames": 39,
+   "dur": 1.3,
+   "seed": 732,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "TO",
+    "THE",
+    "TREES",
+    "I",
+    "TALKED"
+   ],
+   "location": "park",
+   "camera_move": "low",
+   "characters": [
+    "finn"
+   ],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s10",
+   "set": "toaster",
+   "cam": "cu",
+   "tgt": "finn",
+   "acts": {
+    "finn": "talk"
+   },
+   "light": "day",
+   "id": "shot_030",
+   "frame0": 1076,
+   "frames": 40,
+   "dur": 1.333,
+   "seed": 651,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "TO",
+    "THE",
+    "TOASTER",
+    "BECAUSE",
+    "THE"
+   ],
+   "location": "toaster",
+   "camera_move": "cu",
+   "characters": [
+    "finn"
+   ],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s10",
+   "set": "toaster",
+   "cam": "prop",
+   "tgt": "toaster",
+   "light": "day",
+   "id": "shot_031",
+   "frame0": 1116,
+   "frames": 39,
+   "dur": 1.3,
+   "seed": 570,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "TOASTER",
+    "NEVER",
+    "INTERRUPTED"
+   ],
+   "location": "toaster",
+   "camera_move": "prop",
+   "characters": [],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s11",
+   "set": "park",
+   "cam": "counter",
+   "tgt": "finn",
+   "acts": {
+    "finn": "talk"
+   },
+   "light": "day",
+   "id": "shot_032",
+   "frame0": 1155,
+   "frames": 30,
+   "dur": 1.0,
+   "seed": 489,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "I",
+    "TALKED",
+    "BECAUSE",
+    "TALKING"
+   ],
+   "location": "park",
+   "camera_move": "counter",
+   "characters": [
+    "finn"
+   ],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s11",
+   "set": "park",
+   "cam": "mcu",
+   "tgt": "finn",
+   "acts": {
+    "finn": "talk"
+   },
+   "light": "day",
+   "id": "shot_033",
+   "frame0": 1185,
+   "frames": 30,
+   "dur": 1.0,
+   "seed": 408,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "WAS",
+    "FUN"
+   ],
+   "location": "park",
+   "camera_move": "mcu",
+   "characters": [
+    "finn"
+   ],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s12",
+   "set": "kitchen",
+   "cam": "wide",
+   "tgt": "cake",
+   "light": "day",
+   "id": "shot_034",
+   "frame0": 1215,
+   "frames": 38,
+   "dur": 1.267,
+   "seed": 327,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "THEN",
+    "ON",
+    "MY",
+    "BIRTHDAY",
+    "MY",
+    "MOM"
+   ],
+   "location": "kitchen",
+   "camera_move": "wide",
+   "characters": [],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s12",
+   "set": "kitchen",
+   "cam": "ecu",
+   "tgt": "mom",
+   "faces": {
+    "mom": "shocked"
+   },
+   "light": "day",
+   "id": "shot_035",
+   "frame0": 1253,
+   "frames": 38,
+   "dur": 1.267,
+   "seed": 246,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "LOOKED",
+    "AT",
+    "MY",
+    "CHEST",
+    "AND",
+    "HER"
+   ],
+   "location": "kitchen",
+   "camera_move": "ecu",
+   "characters": [
+    "mom"
+   ],
+   "emotion": "mom:shocked"
+  },
+  {
+   "sentence": "s12",
+   "set": "kitchen",
+   "cam": "counter",
+   "tgt": "finn",
+   "light": "day",
+   "id": "shot_036",
+   "frame0": 1291,
+   "frames": 35,
+   "dur": 1.167,
+   "seed": 165,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "FACE",
+    "WENT",
+    "WHITE",
+    "THREE",
+    "HUNDRED"
+   ],
+   "location": "kitchen",
+   "camera_move": "counter",
+   "characters": [
+    "finn"
+   ],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s12",
+   "card": "left",
+   "light": "day",
+   "id": "shot_037",
+   "frame0": 1326,
+   "frames": 43,
+   "dur": 1.433,
+   "seed": 84,
+   "kind": "card",
+   "paper": true,
+   "caption_words": [
+    "WORDS",
+    "LEFT"
+   ],
+   "location": "card",
+   "camera_move": "zoom",
+   "characters": [],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s13",
+   "set": "kitchen",
+   "cam": "mcu",
+   "tgt": "mom",
+   "acts": {
+    "mom": "hug"
+   },
+   "faces": {
+    "mom": "scared"
+   },
+   "light": "day",
+   "id": "shot_038",
+   "frame0": 1369,
+   "frames": 35,
+   "dur": 1.167,
+   "seed": 3,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "SHE",
+    "GRABBED",
+    "MY",
+    "SHOULDERS",
+    "AND"
+   ],
+   "location": "kitchen",
+   "camera_move": "mcu",
+   "characters": [
+    "mom"
+   ],
+   "emotion": "mom:scared"
+  },
+  {
+   "sentence": "s13",
+   "set": "kitchen",
+   "cam": "counter",
+   "tgt": "mom",
+   "acts": {
+    "mom": "hug"
+   },
+   "faces": {
+    "mom": "scared"
+   },
+   "light": "day",
+   "id": "shot_039",
+   "frame0": 1404,
+   "frames": 28,
+   "dur": 0.933,
+   "seed": 922,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "USED",
+    "FOUR",
+    "OF",
+    "HER",
+    "OWN"
+   ],
+   "location": "kitchen",
+   "camera_move": "counter",
+   "characters": [
+    "mom"
+   ],
+   "emotion": "mom:scared"
+  },
+  {
+   "sentence": "s13",
+   "set": "kitchen",
+   "cam": "counter",
+   "tgt": "mom",
+   "acts": {
+    "mom": "talk"
+   },
+   "light": "day",
+   "id": "shot_040",
+   "frame0": 1432,
+   "frames": 40,
+   "dur": 1.333,
+   "seed": 841,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "WORDS",
+    "JUST",
+    "TO",
+    "SAY"
+   ],
+   "location": "kitchen",
+   "camera_move": "counter",
+   "characters": [
+    "mom"
+   ],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s13",
+   "set": "kitchen",
+   "cam": "cu",
+   "tgt": "finn",
+   "faces": {
+    "finn": "shocked"
+   },
+   "light": "day",
+   "id": "shot_041",
+   "frame0": 1472,
+   "frames": 28,
+   "dur": 0.933,
+   "seed": 760,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "FINN",
+    "STOP"
+   ],
+   "location": "kitchen",
+   "camera_move": "cu",
+   "characters": [
+    "finn"
+   ],
+   "emotion": "finn:shocked"
+  },
+  {
+   "sentence": "s14",
+   "set": "board_walk",
+   "cam": "track",
+   "tgt": "finn",
+   "light": "day",
+   "id": "shot_042",
+   "frame0": 1500,
+   "frames": 34,
+   "dur": 1.133,
+   "seed": 679,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "SO",
+    "I",
+    "STOPPED",
+    "TALKING"
+   ],
+   "location": "board_walk",
+   "camera_move": "track",
+   "characters": [
+    "finn"
+   ],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s14",
+   "set": "board_walk",
+   "cam": "low",
+   "tgt": "finn",
+   "light": "day",
+   "id": "shot_043",
+   "frame0": 1534,
+   "frames": 26,
+   "dur": 0.867,
+   "seed": 598,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "I",
+    "CARRIED",
+    "A",
+    "WHITEBOARD"
+   ],
+   "location": "board_walk",
+   "camera_move": "low",
+   "characters": [
+    "finn"
+   ],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s14",
+   "set": "board_walk",
+   "cam": "prop",
+   "tgt": "finn_held_whiteboard",
+   "light": "day",
+   "id": "shot_044",
+   "frame0": 1560,
+   "frames": 46,
+   "dur": 1.533,
+   "seed": 517,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "EVERYWHERE",
+    "KIDS",
+    "CALLED",
+    "ME"
+   ],
+   "location": "board_walk",
+   "camera_move": "prop",
+   "characters": [],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s14",
+   "set": "board_walk",
+   "cam": "ots",
+   "tgt": "kid1",
+   "over": "finn",
+   "light": "day",
+   "id": "shot_045",
+   "frame0": 1606,
+   "frames": 34,
+   "dur": 1.133,
+   "seed": 436,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "WHITEBOARD",
+    "BOY"
+   ],
+   "location": "board_walk",
+   "camera_move": "ots",
+   "characters": [
+    "kid1"
+   ],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s15",
+   "set": "recess",
+   "cam": "high",
+   "tgt": "pt:-42,6,0",
+   "light": "day",
+   "id": "shot_046",
+   "frame0": 1640,
+   "frames": 39,
+   "dur": 1.3,
+   "seed": 355,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "AT",
+    "RECESS",
+    "EVERYBODY",
+    "WHISPERED"
+   ],
+   "location": "recess",
+   "camera_move": "high",
+   "characters": [],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s15",
+   "set": "recess",
+   "cam": "low",
+   "tgt": "pt:-42,6,0",
+   "light": "day",
+   "id": "shot_047",
+   "frame0": 1679,
+   "frames": 25,
+   "dur": 0.833,
+   "seed": 274,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "AND",
+    "SIGNED",
+    "AND"
+   ],
+   "location": "recess",
+   "camera_move": "low",
+   "characters": [],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s15",
+   "set": "recess",
+   "cam": "cu",
+   "tgt": "kid1",
+   "faces": {
+    "kid1": "grumpy"
+   },
+   "light": "day",
+   "id": "shot_048",
+   "frame0": 1704,
+   "frames": 44,
+   "dur": 1.467,
+   "seed": 193,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "GOSSIPED",
+    "WITH",
+    "THEIR",
+    "EYEBROWS"
+   ],
+   "location": "recess",
+   "camera_move": "cu",
+   "characters": [
+    "kid1"
+   ],
+   "emotion": "kid1:grumpy"
+  },
+  {
+   "sentence": "s15",
+   "set": "recess",
+   "cam": "hands",
+   "tgt": "kid2",
+   "light": "day",
+   "id": "shot_049",
+   "frame0": 1748,
+   "frames": 32,
+   "dur": 1.067,
+   "seed": 112,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "AND",
+    "I",
+    "SAT",
+    "THERE",
+    "SAVING"
+   ],
+   "location": "recess",
+   "camera_move": "hands",
+   "characters": [
+    "kid2"
+   ],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s15",
+   "set": "recess",
+   "cam": "pull",
+   "tgt": "finn",
+   "light": "day",
+   "id": "shot_050",
+   "frame0": 1780,
+   "frames": 40,
+   "dur": 1.333,
+   "seed": 31,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "MY",
+    "THREE",
+    "HUNDRED",
+    "WORDS",
+    "FOR"
+   ],
+   "location": "recess",
+   "camera_move": "pull",
+   "characters": [
+    "finn"
+   ],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s15",
+   "set": "recess",
+   "cam": "mcu",
+   "tgt": "finn",
+   "faces": {
+    "finn": "tired"
+   },
+   "light": "day",
+   "id": "shot_051",
+   "frame0": 1820,
+   "frames": 33,
+   "dur": 1.1,
+   "seed": 950,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "SOMETHING",
+    "THAT",
+    "MATTERED"
+   ],
+   "location": "recess",
+   "camera_move": "mcu",
+   "characters": [
+    "finn"
+   ],
+   "emotion": "finn:tired"
+  },
+  {
+   "sentence": "s16",
+   "set": "shower",
+   "cam": "cu",
+   "tgt": "finn",
+   "acts": {
+    "finn": "sing"
+   },
+   "light": "day",
+   "id": "shot_052",
+   "frame0": 1853,
+   "frames": 40,
+   "dur": 1.333,
+   "seed": 869,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "THE",
+    "ONLY",
+    "THING",
+    "I",
+    "DID",
+    "FOR"
+   ],
+   "location": "shower",
+   "camera_move": "cu",
+   "characters": [
+    "finn"
+   ],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s16",
+   "set": "shower",
+   "cam": "high",
+   "tgt": "finn",
+   "acts": {
+    "finn": "sing"
+   },
+   "light": "day",
+   "id": "shot_053",
+   "frame0": 1893,
+   "frames": 33,
+   "dur": 1.1,
+   "seed": 788,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "FUN",
+    "WAS",
+    "HUM",
+    "QUIETLY"
+   ],
+   "location": "shower",
+   "camera_move": "high",
+   "characters": [
+    "finn"
+   ],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s16",
+   "set": "closet",
+   "cam": "mcu",
+   "tgt": "finn",
+   "acts": {
+    "finn": "sing"
+   },
+   "light": "day",
+   "id": "shot_054",
+   "frame0": 1926,
+   "frames": 39,
+   "dur": 1.3,
+   "seed": 707,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "IN",
+    "THE",
+    "SHOWER",
+    "IN",
+    "MY"
+   ],
+   "location": "closet",
+   "camera_move": "mcu",
+   "characters": [
+    "finn"
+   ],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s16",
+   "set": "blanket",
+   "cam": "push",
+   "tgt": "finn",
+   "acts": {
+    "finn": "sing"
+   },
+   "light": "day",
+   "id": "shot_055",
+   "frame0": 1965,
+   "frames": 48,
+   "dur": 1.6,
+   "seed": 626,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "CLOSET",
+    "UNDER",
+    "MY",
+    "BLANKET"
+   ],
+   "location": "blanket",
+   "camera_move": "push",
+   "characters": [
+    "finn"
+   ],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s17",
+   "set": "blanket",
+   "cam": "counter",
+   "tgt": "finn",
+   "acts": {
+    "finn": "sing"
+   },
+   "light": "day",
+   "id": "shot_056",
+   "frame0": 2013,
+   "frames": 41,
+   "dur": 1.367,
+   "seed": 545,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "AND",
+    "THE",
+    "COUNTER",
+    "NEVER",
+    "MOVED",
+    "I",
+    "THOUGHT"
+   ],
+   "location": "blanket",
+   "camera_move": "counter",
+   "characters": [
+    "finn"
+   ],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s17",
+   "set": "shower",
+   "cam": "mcu",
+   "tgt": "finn",
+   "acts": {
+    "finn": "sing"
+   },
+   "light": "day",
+   "id": "shot_057",
+   "frame0": 2054,
+   "frames": 33,
+   "dur": 1.1,
+   "seed": 464,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "THAT",
+    "WAS",
+    "STRANGE"
+   ],
+   "location": "shower",
+   "camera_move": "mcu",
+   "characters": [
+    "finn"
+   ],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s17",
+   "set": "closet",
+   "cam": "cu",
+   "tgt": "finn",
+   "faces": {
+    "finn": "tired"
+   },
+   "light": "day",
+   "id": "shot_058",
+   "frame0": 2087,
+   "frames": 41,
+   "dur": 1.367,
+   "seed": 383,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "I",
+    "DIDN'T",
+    "THINK",
+    "ABOUT",
+    "WHY"
+   ],
+   "location": "closet",
+   "camera_move": "cu",
+   "characters": [
+    "finn"
+   ],
+   "emotion": "finn:tired"
+  },
+  {
+   "sentence": "s18",
+   "set": "lake_walk",
+   "cam": "chase",
+   "tgt": "mom",
+   "light": "day",
+   "id": "shot_059",
+   "frame0": 2128,
+   "frames": 35,
+   "dur": 1.167,
+   "seed": 302,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "THEN",
+    "ONE",
+    "AFTERNOON",
+    "MOM"
+   ],
+   "location": "lake_walk",
+   "camera_move": "chase",
+   "characters": [
+    "mom"
+   ],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s18",
+   "set": "lake_walk",
+   "cam": "track",
+   "tgt": "finn",
+   "light": "day",
+   "id": "shot_060",
+   "frame0": 2163,
+   "frames": 41,
+   "dur": 1.367,
+   "seed": 221,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "TOOK",
+    "ME",
+    "AND",
+    "MY",
+    "BABY",
+    "BROTHER"
+   ],
+   "location": "lake_walk",
+   "camera_move": "track",
+   "characters": [
+    "finn"
+   ],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s18",
+   "set": "lake",
+   "cam": "drone",
+   "tgt": "pt:-20,-58,0",
+   "radius": 44,
+   "light": "day",
+   "id": "shot_061",
+   "frame0": 2204,
+   "frames": 33,
+   "dur": 1.1,
+   "seed": 140,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "PIP",
+    "TO",
+    "THE",
+    "LAKE"
+   ],
+   "location": "lake",
+   "camera_move": "drone",
+   "characters": [],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s19",
+   "set": "lake",
+   "cam": "cu",
+   "tgt": "pip",
+   "acts": {
+    "pip": "laugh"
+   },
+   "light": "day",
+   "id": "shot_062",
+   "frame0": 2237,
+   "frames": 31,
+   "dur": 1.033,
+   "seed": 59,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "PIP",
+    "WAS",
+    "GIGGLING",
+    "AT",
+    "THE",
+    "DUCKS"
+   ],
+   "location": "lake",
+   "camera_move": "cu",
+   "characters": [
+    "pip"
+   ],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s19",
+   "set": "lake",
+   "cam": "ecu",
+   "tgt": "pip",
+   "acts": {
+    "pip": "laugh"
+   },
+   "light": "day",
+   "id": "shot_063",
+   "frame0": 2268,
+   "frames": 32,
+   "dur": 1.067,
+   "seed": 978,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "IN",
+    "A",
+    "LITTLE",
+    "ROWBOAT"
+   ],
+   "location": "lake",
+   "camera_move": "ecu",
+   "characters": [
+    "pip"
+   ],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s19",
+   "set": "lake",
+   "cam": "push",
+   "tgt": "rowboat",
+   "light": "day",
+   "id": "shot_064",
+   "frame0": 2300,
+   "frames": 34,
+   "dur": 1.133,
+   "seed": 897,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "TIED",
+    "TO",
+    "THE",
+    "DOCK"
+   ],
+   "location": "lake",
+   "camera_move": "push",
+   "characters": [],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s20",
+   "set": "icecream",
+   "cam": "ots",
+   "tgt": "vendor",
+   "over": "mom",
+   "light": "day",
+   "id": "shot_065",
+   "frame0": 2334,
+   "frames": 36,
+   "dur": 1.2,
+   "seed": 816,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "MOM",
+    "TURNED",
+    "AROUND",
+    "FOR",
+    "ONE"
+   ],
+   "location": "icecream",
+   "camera_move": "ots",
+   "characters": [
+    "vendor"
+   ],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s20",
+   "set": "icecream",
+   "cam": "hands",
+   "tgt": "mom",
+   "acts": {
+    "mom": "point"
+   },
+   "light": "day",
+   "id": "shot_066",
+   "frame0": 2370,
+   "frames": 37,
+   "dur": 1.233,
+   "seed": 735,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "SECOND",
+    "TO",
+    "PAY",
+    "FOR",
+    "ICE"
+   ],
+   "location": "icecream",
+   "camera_move": "hands",
+   "characters": [
+    "mom"
+   ],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s20",
+   "set": "icecream",
+   "cam": "cu",
+   "tgt": "vendor",
+   "acts": {
+    "vendor": "nod"
+   },
+   "light": "day",
+   "id": "shot_067",
+   "frame0": 2407,
+   "frames": 39,
+   "dur": 1.3,
+   "seed": 654,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "CREAM",
+    "BY",
+    "POINTING"
+   ],
+   "location": "icecream",
+   "camera_move": "cu",
+   "characters": [
+    "vendor"
+   ],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s21",
+   "set": "lake",
+   "cam": "prop",
+   "tgt": "rope",
+   "light": "day",
+   "id": "shot_068",
+   "frame0": 2446,
+   "frames": 33,
+   "dur": 1.1,
+   "seed": 573,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "THE",
+    "ROPE",
+    "SLIPPED",
+    "THE",
+    "BOAT"
+   ],
+   "location": "lake",
+   "camera_move": "prop",
+   "characters": [],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s21",
+   "set": "lake",
+   "cam": "push",
+   "tgt": "rope",
+   "light": "day",
+   "id": "shot_069",
+   "frame0": 2479,
+   "frames": 41,
+   "dur": 1.367,
+   "seed": 492,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "STARTED",
+    "TO",
+    "DRIFT",
+    "FASTER"
+   ],
+   "location": "lake",
+   "camera_move": "push",
+   "characters": [],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s21",
+   "set": "lake",
+   "cam": "chase",
+   "tgt": "rowboat",
+   "light": "day",
+   "id": "shot_070",
+   "frame0": 2520,
+   "frames": 36,
+   "dur": 1.2,
+   "seed": 411,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "AND",
+    "FASTER",
+    "TOWARD"
+   ],
+   "location": "lake",
+   "camera_move": "chase",
+   "characters": [],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s21",
+   "set": "lake",
+   "cam": "drone",
+   "tgt": "pt:-18,-66,0",
+   "radius": 30,
+   "light": "day",
+   "id": "shot_071",
+   "frame0": 2556,
+   "frames": 28,
+   "dur": 0.933,
+   "seed": 330,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "THE",
+    "WATERFALL"
+   ],
+   "location": "lake",
+   "camera_move": "drone",
+   "characters": [],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s22",
+   "set": "dock_run",
+   "cam": "chase",
+   "tgt": "mom",
+   "light": "day",
+   "id": "shot_072",
+   "frame0": 2584,
+   "frames": 35,
+   "dur": 1.167,
+   "seed": 249,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "MOM",
+    "RAN",
+    "TO",
+    "THE",
+    "END",
+    "OF"
+   ],
+   "location": "dock_run",
+   "camera_move": "chase",
+   "characters": [
+    "mom"
+   ],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s22",
+   "set": "dock",
+   "cam": "mcu",
+   "tgt": "mom",
+   "faces": {
+    "mom": "scared"
+   },
+   "light": "day",
+   "id": "shot_073",
+   "frame0": 2619,
+   "frames": 38,
+   "dur": 1.267,
+   "seed": 168,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "THE",
+    "DOCK",
+    "BUT",
+    "SHE",
+    "ONLY",
+    "HAD"
+   ],
+   "location": "dock",
+   "camera_move": "mcu",
+   "characters": [
+    "mom"
+   ],
+   "emotion": "mom:scared"
+  },
+  {
+   "sentence": "s22",
+   "set": "dock",
+   "cam": "counter",
+   "tgt": "mom",
+   "light": "day",
+   "id": "shot_074",
+   "frame0": 2657,
+   "frames": 39,
+   "dur": 1.3,
+   "seed": 87,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "ELEVEN",
+    "WORDS",
+    "LEFT"
+   ],
+   "location": "dock",
+   "camera_move": "counter",
+   "characters": [
+    "mom"
+   ],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s22",
+   "set": "dock",
+   "cam": "ecu",
+   "tgt": "mom",
+   "faces": {
+    "mom": "scared"
+   },
+   "light": "day",
+   "id": "shot_075",
+   "frame0": 2696,
+   "frames": 33,
+   "dur": 1.1,
+   "seed": 6,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "SHE",
+    "COULDN'T",
+    "SCREAM"
+   ],
+   "location": "dock",
+   "camera_move": "ecu",
+   "characters": [
+    "mom"
+   ],
+   "emotion": "mom:scared"
+  },
+  {
+   "sentence": "s23",
+   "set": "shore",
+   "cam": "wide",
+   "tgt": "t2",
+   "light": "day",
+   "id": "shot_076",
+   "frame0": 2729,
+   "frames": 24,
+   "dur": 0.8,
+   "seed": 925,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "EVERYBODY",
+    "ON",
+    "THE",
+    "SHORE"
+   ],
+   "location": "shore",
+   "camera_move": "wide",
+   "characters": [
+    "t2"
+   ],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s23",
+   "set": "shore",
+   "cam": "push",
+   "tgt": "t2",
+   "light": "day",
+   "id": "shot_077",
+   "frame0": 2753,
+   "frames": 37,
+   "dur": 1.233,
+   "seed": 844,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "FROZE",
+    "NOBODY",
+    "WANTED"
+   ],
+   "location": "shore",
+   "camera_move": "push",
+   "characters": [
+    "t2"
+   ],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s23",
+   "set": "shore",
+   "cam": "cu",
+   "tgt": "t4",
+   "light": "day",
+   "id": "shot_078",
+   "frame0": 2790,
+   "frames": 36,
+   "dur": 1.2,
+   "seed": 763,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "TO",
+    "WASTE",
+    "A",
+    "WORD"
+   ],
+   "location": "shore",
+   "camera_move": "cu",
+   "characters": [
+    "t4"
+   ],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s24",
+   "set": "shore",
+   "cam": "cu",
+   "tgt": "man",
+   "acts": {
+    "man": "whisper"
+   },
+   "light": "day",
+   "id": "shot_079",
+   "frame0": 2826,
+   "frames": 31,
+   "dur": 1.033,
+   "seed": 682,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "ONE",
+    "MAN",
+    "WHISPERED"
+   ],
+   "location": "shore",
+   "camera_move": "cu",
+   "characters": [
+    "man"
+   ],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s24",
+   "set": "shore",
+   "cam": "ecu",
+   "tgt": "man",
+   "acts": {
+    "man": "whisper"
+   },
+   "light": "day",
+   "id": "shot_080",
+   "frame0": 2857,
+   "frames": 31,
+   "dur": 1.033,
+   "seed": 601,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "HELP",
+    "HIS",
+    "COUNTER",
+    "FLASHED"
+   ],
+   "location": "shore",
+   "camera_move": "ecu",
+   "characters": [
+    "man"
+   ],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s24",
+   "set": "shore",
+   "cam": "counter",
+   "tgt": "man",
+   "light": "day",
+   "id": "shot_081",
+   "frame0": 2888,
+   "frames": 42,
+   "dur": 1.4,
+   "seed": 520,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "RED",
+    "HE",
+    "CLOSED",
+    "HIS",
+    "MOUTH"
+   ],
+   "location": "shore",
+   "camera_move": "counter",
+   "characters": [
+    "man"
+   ],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s24",
+   "set": "shore",
+   "cam": "ecu",
+   "tgt": "man",
+   "acts": {
+    "man": "head_turn"
+   },
+   "faces": {
+    "man": "tired"
+   },
+   "light": "day",
+   "id": "shot_082",
+   "frame0": 2930,
+   "frames": 35,
+   "dur": 1.167,
+   "seed": 439,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "AND",
+    "LOOKED",
+    "AWAY"
+   ],
+   "location": "shore",
+   "camera_move": "ecu",
+   "characters": [
+    "man"
+   ],
+   "emotion": "man:tired"
+  },
+  {
+   "sentence": "s25",
+   "set": "dock",
+   "cam": "hands",
+   "tgt": "finn",
+   "acts": {
+    "finn": "hold"
+   },
+   "light": "day",
+   "id": "shot_083",
+   "frame0": 2965,
+   "frames": 42,
+   "dur": 1.4,
+   "seed": 358,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "SO",
+    "I",
+    "DROPPED",
+    "MY",
+    "WHITEBOARD"
+   ],
+   "location": "dock",
+   "camera_move": "hands",
+   "characters": [
+    "finn"
+   ],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s25",
+   "set": "dock",
+   "cam": "low",
+   "tgt": "finn",
+   "board": "down",
+   "faces": {
+    "finn": "scared"
+   },
+   "light": "day",
+   "id": "shot_084",
+   "frame0": 3007,
+   "frames": 30,
+   "dur": 1.0,
+   "seed": 277,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "I",
+    "TOOK",
+    "A",
+    "BREATH",
+    "AND",
+    "I"
+   ],
+   "location": "dock",
+   "camera_move": "low",
+   "characters": [
+    "finn"
+   ],
+   "emotion": "finn:scared"
+  },
+  {
+   "sentence": "s25",
+   "card": "yell",
+   "light": "day",
+   "id": "shot_085",
+   "frame0": 3037,
+   "frames": 35,
+   "dur": 1.167,
+   "seed": 196,
+   "kind": "card",
+   "paper": true,
+   "caption_words": [
+    "YELLED",
+    "PIP",
+    "GRAB",
+    "THE"
+   ],
+   "location": "card",
+   "camera_move": "zoom",
+   "characters": [],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s25",
+   "set": "dock",
+   "cam": "cu",
+   "tgt": "finn",
+   "acts": {
+    "finn": "yell"
+   },
+   "board": "down",
+   "light": "day",
+   "id": "shot_086",
+   "frame0": 3072,
+   "frames": 39,
+   "dur": 1.3,
+   "seed": 115,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "OAR",
+    "PADDLE",
+    "LEFT"
+   ],
+   "location": "dock",
+   "camera_move": "cu",
+   "characters": [
+    "finn"
+   ],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s26",
+   "set": "dock",
+   "cam": "counter",
+   "tgt": "finn",
+   "acts": {
+    "finn": "yell"
+   },
+   "board": "down",
+   "light": "day",
+   "id": "shot_087",
+   "frame0": 3111,
+   "frames": 40,
+   "dur": 1.333,
+   "seed": 34,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "THREE",
+    "HUNDRED",
+    "TWO",
+    "FIFTY"
+   ],
+   "location": "dock",
+   "camera_move": "counter",
+   "characters": [
+    "finn"
+   ],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s26",
+   "set": "dock",
+   "cam": "counter",
+   "tgt": "finn",
+   "acts": {
+    "finn": "yell"
+   },
+   "board": "down",
+   "light": "day",
+   "id": "shot_088",
+   "frame0": 3151,
+   "frames": 39,
+   "dur": 1.3,
+   "seed": 953,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "TWO",
+    "HUNDRED",
+    "EVERY",
+    "WORD",
+    "HIT"
+   ],
+   "location": "dock",
+   "camera_move": "counter",
+   "characters": [
+    "finn"
+   ],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s26",
+   "set": "dock",
+   "cam": "ecu",
+   "tgt": "finn",
+   "acts": {
+    "finn": "stagger"
+   },
+   "board": "down",
+   "faces": {
+    "finn": "scared"
+   },
+   "light": "day",
+   "id": "shot_089",
+   "frame0": 3190,
+   "frames": 41,
+   "dur": 1.367,
+   "seed": 872,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "MY",
+    "CHEST",
+    "LIKE",
+    "A",
+    "PUNCH"
+   ],
+   "location": "dock",
+   "camera_move": "ecu",
+   "characters": [
+    "finn"
+   ],
+   "emotion": "finn:scared"
+  },
+  {
+   "sentence": "s27",
+   "set": "lake",
+   "cam": "cu",
+   "tgt": "pip",
+   "acts": {
+    "pip": "paddle"
+   },
+   "light": "day",
+   "id": "shot_090",
+   "frame0": 3231,
+   "frames": 42,
+   "dur": 1.4,
+   "seed": 791,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "PIP",
+    "HEARD",
+    "ME",
+    "HE",
+    "PADDLED"
+   ],
+   "location": "lake",
+   "camera_move": "cu",
+   "characters": [
+    "pip"
+   ],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s27",
+   "set": "lake",
+   "cam": "ecu",
+   "tgt": "pip",
+   "acts": {
+    "pip": "paddle"
+   },
+   "light": "day",
+   "id": "shot_091",
+   "frame0": 3273,
+   "frames": 24,
+   "dur": 0.8,
+   "seed": 710,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "BUT",
+    "THE",
+    "WATERFALL",
+    "KEPT"
+   ],
+   "location": "lake",
+   "camera_move": "ecu",
+   "characters": [
+    "pip"
+   ],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s27",
+   "set": "lake",
+   "cam": "chase",
+   "tgt": "rowboat",
+   "acts": {
+    "pip": "paddle"
+   },
+   "light": "day",
+   "id": "shot_092",
+   "frame0": 3297,
+   "frames": 34,
+   "dur": 1.133,
+   "seed": 629,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "GETTING",
+    "CLOSER"
+   ],
+   "location": "lake",
+   "camera_move": "chase",
+   "characters": [
+    "pip"
+   ],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s28",
+   "set": "dock",
+   "cam": "counter",
+   "tgt": "finn",
+   "acts": {
+    "finn": "yell"
+   },
+   "board": "down",
+   "light": "day",
+   "id": "shot_093",
+   "frame0": 3331,
+   "frames": 29,
+   "dur": 0.967,
+   "seed": 548,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "ONE",
+    "FIFTY",
+    "ONE"
+   ],
+   "location": "dock",
+   "camera_move": "counter",
+   "characters": [
+    "finn"
+   ],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s28",
+   "set": "dock",
+   "cam": "mcu",
+   "tgt": "finn",
+   "acts": {
+    "finn": "yell"
+   },
+   "board": "down",
+   "light": "day",
+   "id": "shot_094",
+   "frame0": 3360,
+   "frames": 34,
+   "dur": 1.133,
+   "seed": 467,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "HUNDRED",
+    "FIFTY"
+   ],
+   "location": "dock",
+   "camera_move": "mcu",
+   "characters": [
+    "finn"
+   ],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s28",
+   "set": "dock",
+   "cam": "mcu",
+   "tgt": "finn",
+   "acts": {
+    "finn": "yell"
+   },
+   "board": "down",
+   "light": "day",
+   "id": "shot_095",
+   "frame0": 3394,
+   "frames": 33,
+   "dur": 1.1,
+   "seed": 386,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "TEN",
+    "FIVE",
+    "THREE"
+   ],
+   "location": "dock",
+   "camera_move": "mcu",
+   "characters": [
+    "finn"
+   ],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s28",
+   "set": "dock",
+   "cam": "counter",
+   "tgt": "finn",
+   "acts": {
+    "finn": "yell"
+   },
+   "board": "down",
+   "light": "day",
+   "id": "shot_096",
+   "frame0": 3427,
+   "frames": 33,
+   "dur": 1.1,
+   "seed": 305,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "TWO",
+    "ONE",
+    "ZERO"
+   ],
+   "location": "dock",
+   "camera_move": "counter",
+   "characters": [
+    "finn"
+   ],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s29",
+   "set": "dock",
+   "cam": "ecu",
+   "tgt": "finn",
+   "faces": {
+    "finn": "shocked"
+   },
+   "board": "down",
+   "light": "day",
+   "id": "shot_097",
+   "frame0": 3460,
+   "frames": 34,
+   "dur": 1.133,
+   "seed": 224,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "MY",
+    "THROAT",
+    "WENT",
+    "COLD"
+   ],
+   "location": "dock",
+   "camera_move": "ecu",
+   "characters": [
+    "finn"
+   ],
+   "emotion": "finn:shocked"
+  },
+  {
+   "sentence": "s29",
+   "set": "dock",
+   "cam": "cu",
+   "tgt": "finn",
+   "faces": {
+    "finn": "shocked"
+   },
+   "board": "down",
+   "light": "day",
+   "id": "shot_098",
+   "frame0": 3494,
+   "frames": 38,
+   "dur": 1.267,
+   "seed": 143,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "THEN",
+    "HEAVY",
+    "MY",
+    "VOICE",
+    "TURNED"
+   ],
+   "location": "dock",
+   "camera_move": "cu",
+   "characters": [
+    "finn"
+   ],
+   "emotion": "finn:shocked"
+  },
+  {
+   "sentence": "s29",
+   "set": "dock",
+   "cam": "counter",
+   "tgt": "finn",
+   "board": "down",
+   "light": "day",
+   "id": "shot_099",
+   "frame0": 3532,
+   "frames": 35,
+   "dur": 1.167,
+   "seed": 62,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "TO",
+    "SOLID",
+    "STONE"
+   ],
+   "location": "dock",
+   "camera_move": "counter",
+   "characters": [
+    "finn"
+   ],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s29",
+   "set": "dock",
+   "cam": "low",
+   "tgt": "finn",
+   "acts": {
+    "finn": "stagger"
+   },
+   "board": "down",
+   "faces": {
+    "finn": "scared"
+   },
+   "light": "day",
+   "id": "shot_100",
+   "frame0": 3567,
+   "frames": 31,
+   "dur": 1.033,
+   "seed": 981,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "I",
+    "OPENED",
+    "MY",
+    "MOUTH",
+    "AND"
+   ],
+   "location": "dock",
+   "camera_move": "low",
+   "characters": [
+    "finn"
+   ],
+   "emotion": "finn:scared"
+  },
+  {
+   "sentence": "s29",
+   "set": "dock",
+   "cam": "cu",
+   "tgt": "finn",
+   "faces": {
+    "finn": "shocked"
+   },
+   "board": "down",
+   "light": "day",
+   "id": "shot_101",
+   "frame0": 3598,
+   "frames": 36,
+   "dur": 1.2,
+   "seed": 900,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "NOTHING",
+    "CAME",
+    "OUT"
+   ],
+   "location": "dock",
+   "camera_move": "cu",
+   "characters": [
+    "finn"
+   ],
+   "emotion": "finn:shocked"
+  },
+  {
+   "sentence": "s30",
+   "set": "lake",
+   "cam": "push",
+   "tgt": "falls",
+   "acts": {
+    "pip": "cry"
+   },
+   "light": "day",
+   "id": "shot_102",
+   "frame0": 3634,
+   "frames": 39,
+   "dur": 1.3,
+   "seed": 819,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "THE",
+    "BOAT",
+    "WAS",
+    "THIRTY",
+    "FEET",
+    "FROM"
+   ],
+   "location": "lake",
+   "camera_move": "push",
+   "characters": [
+    "pip"
+   ],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s30",
+   "set": "lake",
+   "cam": "cu",
+   "tgt": "pip",
+   "acts": {
+    "pip": "cry"
+   },
+   "light": "day",
+   "id": "shot_103",
+   "frame0": 3673,
+   "frames": 45,
+   "dur": 1.5,
+   "seed": 738,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "THE",
+    "EDGE",
+    "PIP",
+    "WAS",
+    "CRYING"
+   ],
+   "location": "lake",
+   "camera_move": "cu",
+   "characters": [
+    "pip"
+   ],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s30",
+   "set": "dock",
+   "cam": "ecu",
+   "tgt": "finn",
+   "faces": {
+    "finn": "scared"
+   },
+   "board": "down",
+   "light": "day",
+   "id": "shot_104",
+   "frame0": 3718,
+   "frames": 28,
+   "dur": 0.933,
+   "seed": 657,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "I",
+    "COULDN'T",
+    "SCREAM"
+   ],
+   "location": "dock",
+   "camera_move": "ecu",
+   "characters": [
+    "finn"
+   ],
+   "emotion": "finn:scared"
+  },
+  {
+   "sentence": "s30",
+   "set": "dock",
+   "cam": "high",
+   "tgt": "finn",
+   "faces": {
+    "finn": "scared"
+   },
+   "board": "down",
+   "light": "day",
+   "id": "shot_105",
+   "frame0": 3746,
+   "frames": 41,
+   "dur": 1.367,
+   "seed": 576,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "I",
+    "COULDN'T",
+    "WARN",
+    "ANYONE"
+   ],
+   "location": "dock",
+   "camera_move": "high",
+   "characters": [
+    "finn"
+   ],
+   "emotion": "finn:scared"
+  },
+  {
+   "sentence": "s31",
+   "set": "shower",
+   "cam": "cu",
+   "tgt": "finn",
+   "acts": {
+    "finn": "sing"
+   },
+   "light": "day",
+   "id": "shot_106",
+   "frame0": 3787,
+   "frames": 30,
+   "dur": 1.0,
+   "seed": 495,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "AND",
+    "THEN",
+    "I",
+    "REMEMBERED",
+    "THE"
+   ],
+   "location": "shower",
+   "camera_move": "cu",
+   "characters": [
+    "finn"
+   ],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s31",
+   "set": "shower",
+   "cam": "ecu",
+   "tgt": "finn",
+   "acts": {
+    "finn": "sing"
+   },
+   "light": "day",
+   "id": "shot_107",
+   "frame0": 3817,
+   "frames": 36,
+   "dur": 1.2,
+   "seed": 414,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "SHOWER",
+    "THE",
+    "CLOSET",
+    "THE"
+   ],
+   "location": "shower",
+   "camera_move": "ecu",
+   "characters": [
+    "finn"
+   ],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s31",
+   "set": "closet",
+   "cam": "mcu",
+   "tgt": "finn",
+   "acts": {
+    "finn": "sing"
+   },
+   "light": "day",
+   "id": "shot_108",
+   "frame0": 3853,
+   "frames": 32,
+   "dur": 1.067,
+   "seed": 333,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "BLANKET",
+    "THE",
+    "COUNTER",
+    "NEVER"
+   ],
+   "location": "closet",
+   "camera_move": "mcu",
+   "characters": [
+    "finn"
+   ],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s31",
+   "set": "blanket",
+   "cam": "cu",
+   "tgt": "finn",
+   "acts": {
+    "finn": "sing"
+   },
+   "light": "day",
+   "id": "shot_109",
+   "frame0": 3885,
+   "frames": 37,
+   "dur": 1.233,
+   "seed": 252,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "MOVED",
+    "WHEN",
+    "I",
+    "HUMMED"
+   ],
+   "location": "blanket",
+   "camera_move": "cu",
+   "characters": [
+    "finn"
+   ],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s32",
+   "card": "counts",
+   "light": "day",
+   "id": "shot_110",
+   "frame0": 3922,
+   "frames": 43,
+   "dur": 1.433,
+   "seed": 171,
+   "kind": "card",
+   "paper": true,
+   "caption_words": [
+    "THE",
+    "COUNTER",
+    "ONLY",
+    "COUNTS",
+    "WORDS"
+   ],
+   "location": "card",
+   "camera_move": "zoom",
+   "characters": [],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s32",
+   "set": "dock",
+   "cam": "ecu",
+   "tgt": "finn",
+   "faces": {
+    "finn": "laughing"
+   },
+   "board": "down",
+   "light": "day",
+   "id": "shot_111",
+   "frame0": 3965,
+   "frames": 27,
+   "dur": 0.9,
+   "seed": 90,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "NOT",
+    "SONGS"
+   ],
+   "location": "dock",
+   "camera_move": "ecu",
+   "characters": [
+    "finn"
+   ],
+   "emotion": "finn:laughing"
+  },
+  {
+   "sentence": "s33",
+   "set": "dock",
+   "cam": "mcu",
+   "tgt": "finn",
+   "acts": {
+    "finn": "sing"
+   },
+   "board": "down",
+   "light": "day",
+   "id": "shot_112",
+   "frame0": 3992,
+   "frames": 40,
+   "dur": 1.333,
+   "seed": 9,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "SO",
+    "I",
+    "SANG",
+    "PIP",
+    "PADDLE"
+   ],
+   "location": "dock",
+   "camera_move": "mcu",
+   "characters": [
+    "finn"
+   ],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s33",
+   "card": "song",
+   "light": "day",
+   "id": "shot_113",
+   "frame0": 4032,
+   "frames": 40,
+   "dur": 1.333,
+   "seed": 928,
+   "kind": "card",
+   "paper": true,
+   "caption_words": [
+    "LEFT",
+    "PADDLE",
+    "LEFT"
+   ],
+   "location": "card",
+   "camera_move": "zoom",
+   "characters": [],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s33",
+   "set": "dock",
+   "cam": "wide",
+   "tgt": "finn",
+   "acts": {
+    "finn": "sing"
+   },
+   "board": "down",
+   "light": "day",
+   "id": "shot_114",
+   "frame0": 4072,
+   "frames": 37,
+   "dur": 1.233,
+   "seed": 847,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "YOU",
+    "CAN",
+    "DO",
+    "IT",
+    "AND",
+    "THE",
+    "COUNTER"
+   ],
+   "location": "dock",
+   "camera_move": "wide",
+   "characters": [
+    "finn"
+   ],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s33",
+   "set": "dock",
+   "cam": "counter",
+   "tgt": "finn",
+   "acts": {
+    "finn": "sing"
+   },
+   "board": "down",
+   "light": "day",
+   "id": "shot_115",
+   "frame0": 4109,
+   "frames": 39,
+   "dur": 1.3,
+   "seed": 766,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "STAYED",
+    "AT",
+    "ZERO"
+   ],
+   "location": "dock",
+   "camera_move": "counter",
+   "characters": [
+    "finn"
+   ],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s34",
+   "set": "lake",
+   "cam": "cu",
+   "tgt": "pip",
+   "acts": {
+    "pip": "paddle"
+   },
+   "faces": {
+    "pip": "neutral"
+   },
+   "light": "day",
+   "id": "shot_116",
+   "frame0": 4148,
+   "frames": 30,
+   "dur": 1.0,
+   "seed": 685,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "PIP",
+    "STOPPED",
+    "CRYING"
+   ],
+   "location": "lake",
+   "camera_move": "cu",
+   "characters": [
+    "pip"
+   ],
+   "emotion": "pip:neutral"
+  },
+  {
+   "sentence": "s34",
+   "set": "lake",
+   "cam": "ecu",
+   "tgt": "pip",
+   "acts": {
+    "pip": "paddle"
+   },
+   "faces": {
+    "pip": "neutral"
+   },
+   "light": "day",
+   "id": "shot_117",
+   "frame0": 4178,
+   "frames": 32,
+   "dur": 1.067,
+   "seed": 604,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "HE",
+    "PADDLED",
+    "LEFT",
+    "IN",
+    "TIME"
+   ],
+   "location": "lake",
+   "camera_move": "ecu",
+   "characters": [
+    "pip"
+   ],
+   "emotion": "pip:neutral"
+  },
+  {
+   "sentence": "s34",
+   "set": "lake",
+   "cam": "chase",
+   "tgt": "rowboat",
+   "acts": {
+    "pip": "paddle"
+   },
+   "light": "day",
+   "id": "shot_118",
+   "frame0": 4210,
+   "frames": 28,
+   "dur": 0.933,
+   "seed": 523,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "WITH",
+    "THE",
+    "SONG"
+   ],
+   "location": "lake",
+   "camera_move": "chase",
+   "characters": [
+    "pip"
+   ],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s35",
+   "set": "dock_sing",
+   "cam": "mcu",
+   "tgt": "mom",
+   "light": "day",
+   "id": "shot_119",
+   "frame0": 4238,
+   "frames": 38,
+   "dur": 1.267,
+   "seed": 442,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "MOM",
+    "GRABBED",
+    "MY",
+    "HAND",
+    "AND",
+    "SANG"
+   ],
+   "location": "dock_sing",
+   "camera_move": "mcu",
+   "characters": [
+    "mom"
+   ],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s35",
+   "set": "dock_sing",
+   "cam": "counter",
+   "tgt": "mom",
+   "light": "day",
+   "id": "shot_120",
+   "frame0": 4276,
+   "frames": 33,
+   "dur": 1.1,
+   "seed": 361,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "WITH",
+    "ME",
+    "THEN",
+    "THE"
+   ],
+   "location": "dock_sing",
+   "camera_move": "counter",
+   "characters": [
+    "mom"
+   ],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s35",
+   "set": "dock_sing",
+   "cam": "cu",
+   "tgt": "baker",
+   "light": "day",
+   "id": "shot_121",
+   "frame0": 4309,
+   "frames": 34,
+   "dur": 1.133,
+   "seed": 280,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "BAKER",
+    "THEN",
+    "THE",
+    "MAYOR"
+   ],
+   "location": "dock_sing",
+   "camera_move": "cu",
+   "characters": [
+    "baker"
+   ],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s35",
+   "set": "dock_sing",
+   "cam": "high",
+   "tgt": "pt:-20,-40,0",
+   "light": "day",
+   "id": "shot_122",
+   "frame0": 4343,
+   "frames": 36,
+   "dur": 1.2,
+   "seed": 199,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "THEN",
+    "THE",
+    "WHOLE",
+    "TOWN"
+   ],
+   "location": "dock_sing",
+   "camera_move": "high",
+   "characters": [],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s36",
+   "set": "dock_sing",
+   "cam": "orbit",
+   "tgt": "granny",
+   "light": "day",
+   "id": "shot_123",
+   "frame0": 4379,
+   "frames": 35,
+   "dur": 1.167,
+   "seed": 118,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "A",
+    "HUNDRED",
+    "PEOPLE",
+    "SANG",
+    "THE",
+    "SAME"
+   ],
+   "location": "dock_sing",
+   "camera_move": "orbit",
+   "characters": [
+    "granny"
+   ],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s36",
+   "set": "lake",
+   "cam": "cu",
+   "tgt": "pip",
+   "acts": {
+    "pip": "paddle"
+   },
+   "light": "day",
+   "id": "shot_124",
+   "frame0": 4414,
+   "frames": 40,
+   "dur": 1.333,
+   "seed": 37,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "FOUR",
+    "WORDS",
+    "AND",
+    "PIP",
+    "PADDLED"
+   ],
+   "location": "lake",
+   "camera_move": "cu",
+   "characters": [
+    "pip"
+   ],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s36",
+   "set": "lake",
+   "cam": "drone",
+   "tgt": "pt:-21,-70,0",
+   "radius": 26,
+   "acts": {
+    "pip": "paddle"
+   },
+   "light": "day",
+   "id": "shot_125",
+   "frame0": 4454,
+   "frames": 40,
+   "dur": 1.333,
+   "seed": 956,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "TO",
+    "THE",
+    "BEAT",
+    "AND",
+    "THE",
+    "BOAT",
+    "TURNED"
+   ],
+   "location": "lake",
+   "camera_move": "drone",
+   "characters": [
+    "pip"
+   ],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s36",
+   "set": "lake",
+   "cam": "chase",
+   "tgt": "rowboat",
+   "acts": {
+    "pip": "paddle"
+   },
+   "light": "day",
+   "id": "shot_126",
+   "frame0": 4494,
+   "frames": 32,
+   "dur": 1.067,
+   "seed": 875,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "AND",
+    "BUMPED",
+    "THE",
+    "DOCK",
+    "ONE"
+   ],
+   "location": "lake",
+   "camera_move": "chase",
+   "characters": [
+    "pip"
+   ],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s36",
+   "set": "lake",
+   "cam": "push",
+   "tgt": "jetty_end",
+   "acts": {
+    "pip": "paddle"
+   },
+   "light": "day",
+   "id": "shot_127",
+   "frame0": 4526,
+   "frames": 37,
+   "dur": 1.233,
+   "seed": 794,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "FOOT",
+    "FROM",
+    "THE",
+    "WATERFALL"
+   ],
+   "location": "lake",
+   "camera_move": "push",
+   "characters": [
+    "pip"
+   ],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s37",
+   "set": "jetty",
+   "cam": "cu",
+   "tgt": "pip",
+   "acts": {
+    "pip": "wave"
+   },
+   "faces": {
+    "pip": "laughing"
+   },
+   "light": "golden",
+   "id": "shot_128",
+   "frame0": 4563,
+   "frames": 41,
+   "dur": 1.367,
+   "seed": 713,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "PIP",
+    "REACHED",
+    "UP",
+    "LAUGHING"
+   ],
+   "location": "jetty",
+   "camera_move": "cu",
+   "characters": [
+    "pip"
+   ],
+   "emotion": "pip:laughing"
+  },
+  {
+   "sentence": "s37",
+   "set": "jetty",
+   "cam": "mcu",
+   "tgt": "mom",
+   "acts": {
+    "mom": "hug"
+   },
+   "faces": {
+    "mom": "laughing"
+   },
+   "light": "golden",
+   "id": "shot_129",
+   "frame0": 4604,
+   "frames": 36,
+   "dur": 1.2,
+   "seed": 632,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "MOM",
+    "HUGGED",
+    "US",
+    "BOTH",
+    "SO"
+   ],
+   "location": "jetty",
+   "camera_move": "mcu",
+   "characters": [
+    "mom"
+   ],
+   "emotion": "mom:laughing"
+  },
+  {
+   "sentence": "s37",
+   "set": "jetty",
+   "cam": "ecu",
+   "tgt": "mom",
+   "acts": {
+    "mom": "cry"
+   },
+   "light": "golden",
+   "id": "shot_130",
+   "frame0": 4640,
+   "frames": 34,
+   "dur": 1.133,
+   "seed": 551,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "HARD",
+    "SHE",
+    "CRIED"
+   ],
+   "location": "jetty",
+   "camera_move": "ecu",
+   "characters": [
+    "mom"
+   ],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s38",
+   "set": "town",
+   "cam": "drone",
+   "tgt": "pt:20,0,0",
+   "radius": 60,
+   "light": "day",
+   "id": "shot_131",
+   "frame0": 4674,
+   "frames": 23,
+   "dur": 0.767,
+   "seed": 470,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "AFTER",
+    "THAT",
+    "EVERYTHING"
+   ],
+   "location": "town",
+   "camera_move": "drone",
+   "characters": [],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s38",
+   "set": "town",
+   "cam": "high",
+   "tgt": "pt:20,0,0",
+   "radius": 60,
+   "light": "day",
+   "id": "shot_132",
+   "frame0": 4697,
+   "frames": 48,
+   "dur": 1.6,
+   "seed": 389,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "CHANGED",
+    "THE",
+    "NEXT",
+    "MORNING"
+   ],
+   "location": "town",
+   "camera_move": "high",
+   "characters": [],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s38",
+   "set": "plaza",
+   "cam": "low",
+   "tgt": "mayor",
+   "acts": {
+    "mayor": "sing"
+   },
+   "light": "day",
+   "id": "shot_133",
+   "frame0": 4745,
+   "frames": 27,
+   "dur": 0.9,
+   "seed": 308,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "THE",
+    "MAYOR",
+    "GAVE",
+    "HIS",
+    "SPEECH"
+   ],
+   "location": "plaza",
+   "camera_move": "low",
+   "characters": [
+    "mayor"
+   ],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s38",
+   "set": "plaza",
+   "cam": "ots",
+   "tgt": "mayor",
+   "over": "t3",
+   "acts": {
+    "mayor": "sing"
+   },
+   "light": "day",
+   "id": "shot_134",
+   "frame0": 4772,
+   "frames": 34,
+   "dur": 1.133,
+   "seed": 227,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "IN",
+    "A",
+    "SONG"
+   ],
+   "location": "plaza",
+   "camera_move": "ots",
+   "characters": [
+    "mayor"
+   ],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s39",
+   "set": "bakery",
+   "cam": "ots",
+   "tgt": "baker",
+   "over": "t3",
+   "acts": {
+    "baker": "give:loaf",
+    "t3": "sing"
+   },
+   "light": "day",
+   "id": "shot_135",
+   "frame0": 4806,
+   "frames": 48,
+   "dur": 1.6,
+   "seed": 146,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "THE",
+    "BAKER",
+    "SOLD",
+    "BREAD",
+    "IN",
+    "HARMONY"
+   ],
+   "location": "bakery",
+   "camera_move": "ots",
+   "characters": [
+    "baker",
+    "t3"
+   ],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s39",
+   "set": "school",
+   "cam": "wide",
+   "tgt": "t4",
+   "acts": {
+    "t4": "sing",
+    "kid1": "sing",
+    "kid2": "sing",
+    "kid3": "sing"
+   },
+   "light": "day",
+   "id": "shot_136",
+   "frame0": 4854,
+   "frames": 29,
+   "dur": 0.967,
+   "seed": 65,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "THE",
+    "KIDS",
+    "SANG",
+    "THEIR"
+   ],
+   "location": "school",
+   "camera_move": "wide",
+   "characters": [
+    "kid1",
+    "kid2",
+    "kid3",
+    "t4"
+   ],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s39",
+   "set": "granny",
+   "cam": "cu",
+   "tgt": "granny",
+   "acts": {
+    "granny": "sing"
+   },
+   "faces": {
+    "granny": "grumpy"
+   },
+   "light": "day",
+   "id": "shot_137",
+   "frame0": 4883,
+   "frames": 37,
+   "dur": 1.233,
+   "seed": 984,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "LESSONS",
+    "GRANDMA",
+    "SANG"
+   ],
+   "location": "granny",
+   "camera_move": "cu",
+   "characters": [
+    "granny"
+   ],
+   "emotion": "granny:grumpy"
+  },
+  {
+   "sentence": "s39",
+   "set": "granny",
+   "cam": "ots",
+   "tgt": "t5",
+   "over": "granny",
+   "acts": {
+    "granny": "sing"
+   },
+   "faces": {
+    "t5": "grumpy"
+   },
+   "light": "day",
+   "id": "shot_138",
+   "frame0": 4920,
+   "frames": 44,
+   "dur": 1.467,
+   "seed": 903,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "INSULTS",
+    "AT",
+    "THE",
+    "NEIGHBORS"
+   ],
+   "location": "granny",
+   "camera_move": "ots",
+   "characters": [
+    "granny",
+    "t5"
+   ],
+   "emotion": "t5:grumpy"
+  },
+  {
+   "sentence": "s40",
+   "set": "finale",
+   "cam": "drone",
+   "tgt": "pt:60,0,0",
+   "radius": 40,
+   "light": "golden",
+   "id": "shot_139",
+   "frame0": 4964,
+   "frames": 27,
+   "dur": 0.9,
+   "seed": 822,
+   "kind": "render",
+   "paper": false,
+   "caption_words": [
+    "IN",
+    "THIS",
+    "TOWN",
+    "EVERYONE"
+   ],
+   "location": "finale",
+   "camera_move": "drone",
+   "characters": [],
+   "emotion": "neutral"
+  },
+  {
+   "sentence": "s40",
+   "card": "sings",
+   "light": "golden",
+   "id": "shot_140",
+   "frame0": 4991,
+   "frames": 25,
+   "dur": 0.833,
+   "seed": 741,
+   "kind": "card",
+   "paper": true,
+   "caption_words": [
+    "SINGS"
+   ],
+   "location": "card",
+   "camera_move": "zoom",
+   "characters": [],
+   "emotion": "neutral"
+  },
+  {
+   "id": "shot_141",
+   "kind": "black",
+   "frame0": 5016,
+   "frames": 24,
+   "dur": 0.8,
+   "sentence": "end",
+   "caption_words": []
+  }
+ ],
+ "counters": {
+  "finn": [
+   [
+    0.0,
+    4812,
+    "step"
+   ],
+   [
+    31.92,
+    4812,
+    "step"
+   ],
+   [
+    38.36,
+    4770,
+    "ramp"
+   ],
+   [
+    40.36,
+    4752,
+    "ramp"
+   ],
+   [
+    41.08,
+    300,
+    "step"
+   ],
+   [
+    103.7,
+    300,
+    "step"
+   ],
+   [
+    104.047,
+    300,
+    "step"
+   ],
+   [
+    104.532,
+    250,
+    "ramp"
+   ],
+   [
+    104.74,
+    250,
+    "step"
+   ],
+   [
+    105.087,
+    200,
+    "ramp"
+   ],
+   [
+    105.295,
+    200,
+    "step"
+   ],
+   [
+    111.03,
+    150,
+    "step"
+   ],
+   [
+    111.309,
+    150,
+    "step"
+   ],
+   [
+    111.773,
+    100,
+    "ramp"
+   ],
+   [
+    112.052,
+    100,
+    "step"
+   ],
+   [
+    112.702,
+    50,
+    "ramp"
+   ],
+   [
+    113.166,
+    10,
+    "step"
+   ],
+   [
+    113.445,
+    5,
+    "step"
+   ],
+   [
+    113.817,
+    3,
+    "step"
+   ],
+   [
+    114.281,
+    2,
+    "step"
+   ],
+   [
+    114.56,
+    1,
+    "step"
+   ],
+   [
+    114.838,
+    0,
+    "step"
+   ]
+  ],
+  "mom": [
+   [
+    0.0,
+    15,
+    "step"
+   ],
+   [
+    49.09,
+    13,
+    "step"
+   ],
+   [
+    49.47,
+    11,
+    "step"
+   ]
+  ],
+  "pip": [
+   [
+    0.0,
+    5000,
+    "step"
+   ]
+  ],
+  "baker": [
+   [
+    0.0,
+    1,
+    "step"
+   ]
+  ],
+  "mayor": [
+   [
+    0.0,
+    1404,
+    "step"
+   ],
+   [
+    15.4,
+    1403,
+    "step"
+   ],
+   [
+    15.56,
+    1402,
+    "step"
+   ],
+   [
+    16.26,
+    1401,
+    "step"
+   ],
+   [
+    16.48,
+    1400,
+    "step"
+   ]
+  ],
+  "granny": [
+   [
+    0.0,
+    38,
+    "step"
+   ]
+  ],
+  "man": [
+   [
+    0.0,
+    212,
+    "step"
+   ],
+   [
+    95.28,
+    211,
+    "step"
+   ]
+  ],
+  "old": [
+   [
+    0.0,
+    0,
+    "step"
+   ]
+  ],
+  "vendor": [
+   [
+    0.0,
+    2650,
+    "step"
+   ]
+  ],
+  "t1": [
+   [
+    0.0,
+    3120,
+    "step"
+   ],
+   [
+    18.32,
+    3119,
+    "step"
+   ],
+   [
+    18.38,
+    3118,
+    "step"
+   ]
+  ],
+  "t2": [
+   [
+    0.0,
+    2876,
+    "step"
+   ],
+   [
+    18.38,
+    2874,
+    "step"
+   ]
+  ],
+  "t3": [
+   [
+    0.0,
+    2310,
+    "step"
+   ],
+   [
+    6.42,
+    2309,
+    "step"
+   ],
+   [
+    6.56,
+    2308,
+    "step"
+   ],
+   [
+    7.04,
+    2307,
+    "step"
+   ],
+   [
+    7.72,
+    2306,
+    "step"
+   ]
+  ],
+  "t4": [
+   [
+    0.0,
+    4105,
+    "step"
+   ]
+  ],
+  "t5": [
+   [
+    0.0,
+    1777,
+    "step"
+   ]
+  ],
+  "t6": [
+   [
+    0.0,
+    3360,
+    "step"
+   ]
+  ],
+  "kid1": [
+   [
+    0.0,
+    4930,
+    "step"
+   ]
+  ],
+  "kid2": [
+   [
+    0.0,
+    4875,
+    "step"
+   ]
+  ],
+  "kid3": [
+   [
+    0.0,
+    4960,
+    "step"
+   ]
+  ],
+  "kid4": [
+   [
+    0.0,
+    4901,
+    "step"
+   ]
+  ]
+ },
+ "sfx": {
+  "heartbeat": [
+   [
+    98.82,
+    103.7
+   ],
+   [
+    103.7,
+    107.71
+   ],
+   [
+    107.71,
+    111.03
+   ],
+   [
+    111.03,
+    115.35
+   ]
+  ],
+  "stone": [
+   118.27,
+   10.41
+  ]
+ }
+}

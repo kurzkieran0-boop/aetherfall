@@ -54,7 +54,7 @@ def hill_z(x, y):
     return HH * u * u * (3 - 2 * u)
 
 
-def line(lead, names, x0, y0, deg, gap=1.45, z=0.0, zig=0.25):
+def line(lead, names, x0, y0, deg, gap=1.2, z=0.0, zig=0.0):
     """Single file of walkers behind `lead`, all facing deg."""
     fx, fy = math.cos(math.radians(deg)), math.sin(math.radians(deg))
     out = {lead: (x0, y0, deg, "walk", z)}
@@ -74,13 +74,13 @@ SETS = {
              "nora": (-28, -2.4, 0, "walk", 0), "mail": (-46, -2.4, 0, "walk", 0)},
     "street": {"nora": (-12, -1.8, 20, "idle", 0), "t3": (-20, 1.6, 0, "walk", 0), "t5": (-3, 2.0, 180, "walk", 0),
                "t2": (-17, -2.6, 70, "idle", 0), "k1": (-7, 2.6, -110, "idle", 0), "t6": (-27, -1.0, 0, "walk", 0),
-               "mom": (-14.2, -0.6, -40, "idle", 0), "t4": (-9, -2.8, 150, "idle", 0)},
+               "mom": (-16.5, 1.4, -60, "idle", 0), "t4": (-5.5, -3.3, 150, "idle", 0)},
     "fountain": {"t1": (0.0, -1.0, -90, "sit", 0.15), "t3": (-5, -4.2, 10, "walk", 0), "t5": (5.5, 3.6, 200, "walk", 0),
                  "t2": (3.6, -2.4, 160, "idle", 0)},
     "bakery": {"baker": (-20, 8.6, -90, "give:loaf", 0), "t2": (-20, 5.9, 90, "idle", 0), "t3": (-15, 2.0, 180, "walk", 0)},
     "bakery_sleep": {"baker": (-21.3, 7.3, 180, "lie", 0.98), "t2": (-18.0, 5.4, 120, "idle", 0)},
-    "mayor_bed": {"mayor": (71.2, 0.0, 180, "sit_talk", 0.36), "t3": (66.2, 1.7, -15, "idle", 0),
-                  "t4": (66.0, -1.5, 12, "idle", 0), "t6": (65.0, 0.3, 0, "nod", 0), "granny": (64.6, -2.8, 20, "idle", 0)},
+    "mayor_bed": {"mayor": (71.2, 0.0, 180, "sit_talk", 0.36), "t3": (68.2, 2.5, -60, "idle", 0),
+                  "t4": (68.0, -2.5, 60, "idle", 0), "t6": (66.4, 3.0, -35, "nod", 0), "granny": (66.6, -3.1, 35, "idle", 0)},
     "mail": {"mail": (-40, -2.0, 0, "walk", 0), "t5": (-28, 2.0, 180, "walk", 0), "k3": (-33, 6.0, -90, "idle", 0)},
     "horses": {"t4": (40.3, -2.4, 0, "sit", 1.38), "t6": (45.7, 2.2, 180, "sit", 1.38), "t2": (37, 2.6, -30, "idle", 0)},
     "classroom": {"k1": (CX - 3.5, CY - 2.3, 90, "sit", 0), "k2": (CX, CY - 2.3, 90, "sit", 0),
@@ -98,8 +98,8 @@ SETS = {
     "tuck": {"nora": LIE(BX + 2.4, BY + 0.75), "mom": (BX + 0.75, BY + 2.0, 0, "sit", 0.0)},
     "yard": {"nora": (YX, YY, -90, "sit", -0.5)},
     # ---- birthday (golden)
-    "birthday": {"nora": (-30, -9.3, 90, "idle", 0), "mom": (-28.3, -8.9, 190, "idle", 0),
-                 "granny": (-31.8, -8.8, -10, "idle", 0), "k2": (-27.4, -6.4, 160, "idle", 0)},
+    "birthday": {"nora": (-30, -6.7, 90, "idle", 0), "mom": (-28.4, -7.3, 160, "idle", 0),
+                 "granny": (-31.7, -7.5, 25, "idle", 0), "k2": (-27.0, -5.4, 170, "idle", 0)},
     # ---- secret night walks (clear night)
     "night_walk": {"nora": (-14, -1.2, 0, "walk", 0)},
     "night_corner": {"nora": (-1.5, 3.6, 90, "walk", 0)},
@@ -112,9 +112,9 @@ SETS = {
     "knock_turn": {"nora": (-9.7, -9.0, 75, "idle", 0)},
     "knock_turn2": {"nora": (10.3, -9.0, 105, "idle", 0)},
     "stand": {"nora": (0.0, -2.0, 90, "idle", 0)},
-    "bed_mayor": {"mayor": LIE(BEDS[1], SY - 1.3), "t4": LIE(BEDS[2], SY - 1.3)},
-    "bed_baker": {"baker": LIE(BEDS[0], SY - 1.3), "t2": LIE(BEDS[1], SY - 1.3)},
-    "bed_family": {"t1": LIE(BEDS[0], SY - 1.3), "t3": LIE(BEDS[1], SY - 1.3), "k2": LIE(BEDS[2], SY - 1.0)},
+    "bed_mayor": {"mayor": LIE(BEDS[1], SY - 1.95), "t4": LIE(BEDS[2], SY - 1.85)},
+    "bed_baker": {"baker": LIE(BEDS[0], SY - 1.85), "t2": LIE(BEDS[1], SY - 1.85)},
+    "bed_family": {"t1": LIE(BEDS[0], SY - 1.85), "t3": LIE(BEDS[1], SY - 1.85), "k2": LIE(BEDS[2], SY - 1.2)},
     "pull": {"t1": (BEDS[0] + 0.4, SY - 0.6, 0, "sit", 0.35), "nora": (BEDS[0] + 2.0, SY - 0.9, 180, "give", 0)},
     # ---- the line
     "line_street": line("nora", LINE_ORDER[:10], -6, -1.0, 0),
@@ -131,6 +131,8 @@ SETS = {
     # ---- epilogue: the whole town plays the game
     "game": line("mayor", ["baker", "nora", "granny", "mom", "k1", "t1", "t2", "k3", "t3", "t6", "k2", "t5"], 8, 1.2, 0),
 }
+LINE_SEQ = {"line_street": ["nora"] + LINE_ORDER[:10], "line_start": ["nora"] + LINE_ORDER[:3], "hill": ["nora"] + LINE_ORDER,
+            "game": ["mayor", "baker", "nora", "granny", "mom", "k1", "t1", "t2", "k3", "t3", "t6", "k2", "t5"]}
 INTERIOR_SETS = {"tent", "bed_nora", "bed_wake", "tuck", "classroom", "bed_mayor", "bed_baker", "bed_family", "pull"}
 ROOMS = {s: (BX - 4, BX + 4, BY - 4, BY + 4, 2.9) for s in ("tent", "bed_nora", "bed_wake", "tuck")}
 ROOMS.update({s: (SX - 6, SX + 6, SY - 4, SY + 4, 3.0) for s in ("bed_mayor", "bed_baker", "bed_family", "pull")})
@@ -359,10 +361,10 @@ def build(kit):
     rain = B.multibox("rain", streaks)
     rain.data.materials[0] = B.mat("#bcd8ff", emit=1.6)
     far = []
-    for _ in range(1300):
+    for _ in range(900):
         x, y, z = rnd.uniform(-75, 75), rnd.uniform(-75, 75), rnd.uniform(0, 14)
         for dz in (0, 14):
-            far.append((0.07, 0.07, 2.2, x, y, z + dz, "#bcd8fe"))
+            far.append((0.045, 0.045, 1.6, x, y, z + dz, "#bcd8fe"))
     rf = B.multibox("rain_far", far)
     rf.data.materials[0] = B.mat("#bcd8fe", emit=1.2)
     for nm, (wx, wy) in (("win_glow_b", (BX, BY + 3.9)), ("win_glow_s", (SX, SY + 3.9))):
@@ -390,7 +392,7 @@ def build(kit):
     st = B.multibox("stars", stars)
     st.data.materials[0] = B.mat("#fffbe8", emit=9.0)
     for k, (fx, fy, fz) in enumerate(FIREFLIES):
-        f = B.multibox(f"ff{k}", [(0.07, 0.07, 0.07, 0, 0, 0, "#e8ff70")], loc=(fx, fy, fz))
+        f = B.multibox(f"ff{k}", [(0.13, 0.13, 0.13, 0, 0, 0, "#e8ff70")], loc=(fx, fy, fz))
         f.data.materials[0] = B.mat("#e8ff70", emit=25.0)
     B.fence("yard_fence", (YX - 9, YY + 8), (YX + 9, YY + 8))
     B.fence("yard_fence2", (YX + 9, YY + 8), (YX + 9, YY - 9))
@@ -511,18 +513,27 @@ def apply(stage, sh, t, gt):
         if sset in LINE_SETS:
             if n not in sh.get("faces", {}):
                 stage.set_face(n, "blank")
-            if act == "walk":
-                ph = hash(n) % 7
-                ob[n + "_armR"].rotation_euler = (1.15 + 0.06 * math.sin(3 * t + ph), 0, -0.15)
-                ob[n + "_armL"].rotation_euler = (-0.55, 0, 0.1)
-                if n == spec and False:
-                    pass
         if sset in ("hill", "church", "sunrise"):
             x, y = root.location.x, root.location.y
             if act != "lie":
                 root.location.z = hill_z(x, y) + (root.location.z - spec[4])
-    if sset in LINE_SETS and "nora" in actors and actors["nora"][3] == "walk" and sset != "game":
-        ob["nora_armR"].rotation_euler = (1.45 + 0.08 * math.sin(2.2 * t), 0.15 * math.sin(1.3 * t), 0)
+    import bpy
+    bpy.context.view_layer.update()
+    if sset in LINE_SEQ:          # hand-holding chain: each pair's arms reach for each other
+        from mathutils import Vector
+        seq = [n for n in LINE_SEQ[sset] if n in actors]
+        for a, b in zip(seq, seq[1:]):
+            Sa = ob[a + "_armL"].matrix_world.translation.copy()
+            Sb = ob[b + "_armR"].matrix_world.translation.copy()
+            ra, rb = 0.75 * CAST[a]["scale"], 0.75 * CAST[b]["scale"]
+            M = Sa.lerp(Sb, ra / (ra + rb)) - Vector((0, 0, 0.25))
+            for arm, S in ((a + "_armL", Sa), (b + "_armR", Sb)):
+                root = ob[arm.rsplit("_", 1)[0] + "_root"]
+                d = root.matrix_world.to_3x3().normalized().inverted() @ (M - S)
+                ob[arm].rotation_euler = d.to_track_quat("-Z", "Y").to_euler("XYZ")
+        if seq and sset != "game":
+            ob[seq[0] + "_armR"].rotation_euler = (1.45 + 0.08 * math.sin(2.2 * t), 0.15 * math.sin(1.3 * t), 0)
+        bpy.context.view_layer.update()
     # sitting up in bed / on the grass looking up
     if sset in ("tent", "bed_wake"):
         root = ob["nora_root"]
@@ -606,14 +617,14 @@ def apply(stage, sh, t, gt):
         ob["rain_far"].hide_render = True
     # ---- lightning: flash windows (bright sun + sky for a few frames)
     flash = False
-    if sid in STORM and (sh.get("flash") or (sh["seed"] % 4 == 0)):
+    if sid in STORM and sh.get("flash"):
         u = t / max(0.01, sh["dur"])
-        flash = 0.54 <= u <= 0.66 or 0.18 <= u <= 0.22
+        flash = 0.12 <= u <= 0.19 or 0.80 <= u <= 0.85 or bool(sh.get("flash_still") and 0.55 <= u <= 0.65)
     if night:
         el, az, st, sc, hz, mid, top, bgs = stage.moods["night"]
-        stage.sun.data.energy = st * (9.0 if flash else (0.85 if storm else 1.0))
+        stage.sun.data.energy = st * (4.5 if flash else (0.85 if storm else 1.0))
         stage.sun.data.color = (0.85, 0.9, 1.0) if flash else lin(sc)[:3]
-        stage.bg.inputs["Strength"].default_value = bgs * (3.2 if flash else (0.8 if storm else 1.0))
+        stage.bg.inputs["Strength"].default_value = bgs * (2.2 if flash else (0.8 if storm else 1.0))
     for nm in ("win_glow_b", "win_glow_s"):
         m = ob[nm].data.materials[0]
         m.node_tree.nodes.get("Principled BSDF").inputs["Emission Strength"].default_value = 9.0 if flash else (0.5 if night else 1.5)
@@ -646,11 +657,10 @@ def cam_override(stage, sh, t, actors, T, f, u):
     from render import lerp, rot2
     tgt, cam = sh.get("tgt"), sh["cam"]
     if tgt in actors and actors[tgt][3] == "lie" and sh.get("acts", {}).get(tgt, "lie") == "lie":
-        H = stage.head_pos(tgt) - Vector((0, 0, 0.3))
-        down = -f              # toward the feet is +f (facing), head is opposite
+        H = stage.head_pos(tgt) + Vector((0, 0, 0.3 * CAST[tgt]["scale"]))     # face points up
         if cam in ("ecu", "cu", "dutch"):
-            d = 1.25 if cam == "ecu" else 1.7
-            pos = H + Vector((0, 0, lerp(d, d * 0.85, u))) + f * 0.55 + rot2(f, 90) * 0.15
+            d = 1.3 if cam == "ecu" else 1.9
+            pos = H + Vector((0, 0, lerp(d, d * 0.85, u))) + f * (0.75 * d) + rot2(f, 90) * 0.2
             return pos, H, 40, (8 if cam == "dutch" else 0)
         if cam in ("counter", "mcu"):
             C = stage.ob[tgt + "_torso"].matrix_world @ Vector((0, 0.3, 1.43))
@@ -662,7 +672,7 @@ def cam_override(stage, sh, t, actors, T, f, u):
             return pos, H + f * 0.6, 30
     if sh["set"] == "tent" and tgt == "nora" and cam in ("cu", "ecu", "mcu", "push"):
         H = stage.head_pos("nora")
-        d = {"ecu": 1.1, "cu": 1.5, "mcu": 1.9, "push": lerp(2.6, 1.6, u)}[cam]
+        d = {"ecu": 1.4, "cu": 1.9, "mcu": 2.3, "push": lerp(2.8, 1.9, u)}[cam]
         pos = H + f * d + Vector((0.12, 0, -0.05))
         return pos, H - Vector((0, 0, 0.2 if cam == "mcu" else 0.0)), 36
     if tgt == "tent":
@@ -672,6 +682,28 @@ def cam_override(stage, sh, t, actors, T, f, u):
         H = stage.head_pos("nora")
         pos = H + Vector((0.3, -1.6, -0.2))
         return pos, H + Vector((0, lerp(4, 7, u), lerp(6, 11, u))), 22
+    if tgt == "bell" and cam == "low":
+        return Vector((TWX + 4.0, TWY - lerp(15.0, 13.5, u), 1.2)), T + Vector((0, 0, 0.4)), 28
+    if cam == "hands" and sh["set"] in LINE_SEQ and tgt in LINE_SEQ[sh["set"]]:
+        seq = LINE_SEQ[sh["set"]]
+        i = seq.index(tgt)
+        front = seq[i - 1] if i > 0 else seq[1]
+        a = stage.hand_pos(tgt)
+        b = stage.ob[front + "_armL"].matrix_world @ Vector((0, 0, -0.75))
+        M = (a + b) / 2
+        side = rot2(f, 90)
+        pos = M + side * lerp(2.3, 1.9, u) - f * 0.5 + Vector((0, 0, 0.6))
+        return pos, M, 35
+    if sh["set"] == "hill" and tgt in actors and cam in ("wide", "low", "cu", "push"):
+        if cam == "wide":
+            pos = T + Vector((lerp(9, 7.5, u), lerp(-5, -3, u), 2.6))
+        elif cam == "low":
+            pos = T + f * lerp(3.4, 2.8, u) + rot2(f, 90) * 0.9
+            pos.z = hill_z(pos.x, pos.y) + 0.35
+        else:
+            pos = T + rot2(f, 25) * lerp(2.6, 2.1, u)
+            pos.z = max(T.z + 0.15, hill_z(pos.x, pos.y) + 0.5)
+        return pos, T - Vector((0, 0, 0.3)), (28 if cam == "wide" else 32)
     if tgt in ("door_a", "door_b") and cam == "ots":
         n = "nora"
         O = stage.head_pos(n)

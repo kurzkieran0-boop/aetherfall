@@ -1,5 +1,5 @@
 IN THIS TOWN, YOU GET 5,000 WORDS
-(narrator: Finn; voice en_US-ryan-high; CAPS = red caption words)
+(narrator: Finn; voice en_US-bryce-medium; CAPS = red caption words)
 
 1. In this town, everyone is only allowed five thousand words in their entire life.
 2. You're born with a glowing number on your chest. Every word you say counts it down.

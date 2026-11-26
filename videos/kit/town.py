@@ -234,7 +234,10 @@ def barn(cx, cy):
 
 
 def emissive(ob, strength=4.0):
-    for m in ob.data.materials:
+    """Make one object glow without touching other objects that share its colour materials."""
+    for i, m in enumerate(list(ob.data.materials)):
+        m = m.copy()
+        ob.data.materials[i] = m
         b = m.node_tree.nodes.get("Principled BSDF")
         b.inputs["Emission Color"].default_value = b.inputs["Base Color"].default_value
         b.inputs["Emission Strength"].default_value = strength
@@ -247,7 +250,8 @@ def room(name, cx, cy, W=10, D=10, H=3.2, floor="#8a6a4a", wall="#c9b48e", ceili
     x0, x1, y0, y1 = cx - W / 2, cx + W / 2, cy - D / 2, cy + D / 2
     wm = mat(wall, cull=True)
     multibox(name + "_floor", [(W, D, 0.1, cx, cy, 0.05, floor)])
-    poly(name + "_wall_back", [(x0, y1, 0), (x0, y1, H), (x1, y1, H), (x1, y1, 0)], [(0, 1, 2, 3)], wm)
+    # back (+y) and front (-y) walls wound so their normals point INTO the room (backface culling hides them from outside)
+    poly(name + "_wall_back", [(x0, y1, 0), (x0, y1, H), (x1, y1, H), (x1, y1, 0)], [(3, 2, 1, 0)], wm)
     poly(name + "_wall_l", [(x0, y0, 0), (x0, y0, H), (x0, y1, H), (x0, y1, 0)], [(3, 2, 1, 0)], wm)
     poly(name + "_wall_r", [(x1, y0, 0), (x1, y0, H), (x1, y1, H), (x1, y1, 0)], [(0, 1, 2, 3)], wm)
     if front_door:
@@ -255,7 +259,7 @@ def room(name, cx, cy, W=10, D=10, H=3.2, floor="#8a6a4a", wall="#c9b48e", ceili
         poly(name + "_wall_f", [(x0, y0, 0), (dl, y0, 0), (dl, y0, H), (x0, y0, H), (dr, y0, 0), (x1, y0, 0), (x1, y0, H),
                                 (dr, y0, H), (dl, y0, dh), (dr, y0, dh)], [(3, 2, 1, 0), (7, 6, 5, 4), (2, 7, 9, 8)], wm)
     else:
-        poly(name + "_wall_f", [(x0, y0, 0), (x0, y0, H), (x1, y0, H), (x1, y0, 0)], [(3, 2, 1, 0)], wm)
+        poly(name + "_wall_f", [(x0, y0, 0), (x0, y0, H), (x1, y0, H), (x1, y0, 0)], [(0, 1, 2, 3)], wm)
     if ceiling:
         poly(name + "_ceiling", [(x0, y0, H), (x1, y0, H), (x1, y1, H), (x0, y1, H)], [(3, 2, 1, 0)], mat("#5a4632", cull=True))
     multibox(name + "_skirt", [(W, 0.08, 0.25, cx, y1 - 0.04, 0.12, "#5a4632"), (0.08, D, 0.25, x0 + 0.04, cy, 0.12, "#5a4632"),

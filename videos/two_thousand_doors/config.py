@@ -13,4 +13,4 @@ SAMPLES = 8
 COUNTER = dict(label="doors", who="theo")
 RED_NUMBERS = True
 RED_ALWAYS = ("stone",)
-TEST_SHOT = None
+TEST_SHOT = "shot_037"

@@ -4,7 +4,7 @@
  "words": 547,
  "wps": 3.231,
  "length_scale": 0.95,
- "source_hash": "c9e3d97dc879612b",
+ "source_hash": "fe06fe8d7c867e6e",
  "whisper_match": 0.939,
  "sentences": [
   {
@@ -160,7 +160,7 @@
    "beats": [
     {
      "set": "door_demo",
-     "cam": "prop",
+     "cam": "push",
      "tgt": "fam_a_door"
     },
     {
@@ -312,7 +312,7 @@
     },
     {
      "set": "locked",
-     "cam": "prop",
+     "cam": "push",
      "tgt": "fam_c_door",
      "doors": {
       "fam_c_hinge": "rattle"
@@ -445,7 +445,7 @@
     {
      "set": "save",
      "cam": "wide",
-     "tgt": "pt:0,-10,1.5"
+     "tgt": "south_row"
     },
     {
      "set": "save",
@@ -525,12 +525,13 @@
    "beats": [
     {
      "set": "morning",
-     "cam": "wide",
-     "tgt": "pt:0,-10,1.2"
+     "cam": "view",
+     "tgt": "t1",
+     "view": "morning_v"
     },
     {
      "set": "morning",
-     "cam": "prop",
+     "cam": "push",
      "tgt": "fam_b_door"
     },
     {
@@ -544,7 +545,7 @@
     {
      "set": "dinner",
      "cam": "high",
-     "tgt": "pt:10,-8,0",
+     "tgt": "dinner_row",
      "light": "dusk"
     },
     {
@@ -762,8 +763,9 @@
     },
     {
      "set": "bakery",
-     "cam": "prop",
-     "tgt": "bak_loaf"
+     "cam": "view",
+     "tgt": "baker",
+     "view": "bak_loaf_v"
     },
     {
      "set": "bakery",
@@ -945,8 +947,9 @@
    "beats": [
     {
      "set": "mail",
-     "cam": "prop",
-     "tgt": "slot"
+     "cam": "view",
+     "tgt": "mail",
+     "view": "slot_v"
     },
     {
      "set": "mail",
@@ -1123,7 +1126,7 @@
     },
     {
      "set": "hall_curt",
-     "cam": "prop",
+     "cam": "push",
      "tgt": "curtain3"
     },
     {
@@ -1340,13 +1343,15 @@
     },
     {
      "set": "k_closet",
-     "cam": "prop",
-     "tgt": "kcloset"
+     "cam": "view",
+     "tgt": "theo",
+     "view": "closet_v"
     },
     {
      "set": "k_fridge",
-     "cam": "prop",
-     "tgt": "fridge"
+     "cam": "view",
+     "tgt": "theo",
+     "view": "fridge_v"
     },
     {
      "set": "k_fridge",
@@ -1358,8 +1363,9 @@
     },
     {
      "set": "k_oven",
-     "cam": "prop",
-     "tgt": "oven"
+     "cam": "view",
+     "tgt": "theo",
+     "view": "oven_v"
     },
     {
      "set": "k_oven",
@@ -2039,8 +2045,9 @@
     },
     {
      "set": "bedroom",
-     "cam": "prop",
-     "tgt": "bowl"
+     "cam": "view",
+     "tgt": "theo",
+     "view": "bed_bowl"
     },
     {
      "set": "teased",
@@ -2243,8 +2250,11 @@
     {
      "set": "bed_night",
      "cam": "view",
-     "tgt": "theo",
-     "view": "bed_win"
+     "tgt": "pt:-2.6,-596,2.2",
+     "view": "bed_win",
+     "hide": [
+      "theo"
+     ]
     },
     {
      "set": "theo_out",
@@ -2637,8 +2647,9 @@
     },
     {
      "set": "art_empty",
-     "cam": "prop",
-     "tgt": "fire"
+     "cam": "view",
+     "tgt": "fire",
+     "view": "fire_v"
     },
     {
      "set": "art_empty",
@@ -2963,9 +2974,11 @@
     },
     {
      "set": "hall_exit",
-     "cam": "ots",
+     "cam": "cu",
      "tgt": "tchr2",
-     "over": "tchr1"
+     "acts": {
+      "tchr2": "whisper"
+     }
     },
     {
      "card": "who"
@@ -3447,8 +3460,9 @@
     },
     {
      "set": "hall_c4",
-     "cam": "prop",
-     "tgt": "hd_class4"
+     "cam": "view",
+     "tgt": "theo",
+     "view": "c4_v"
     },
     {
      "set": "hall_closet",
@@ -3457,7 +3471,7 @@
     },
     {
      "set": "hall_jan",
-     "cam": "prop",
+     "cam": "push",
      "tgt": "hd_janitor"
     },
     {
@@ -3873,7 +3887,7 @@
     {
      "set": "hall_dash",
      "cam": "view",
-     "tgt": "k1",
+     "tgt": "pt:620,0,1",
      "view": "hall_rev",
      "hide": [
       "theo"
@@ -4035,8 +4049,9 @@
     },
     {
      "set": "art_empty",
-     "cam": "push",
-     "tgt": "fire"
+     "cam": "view",
+     "tgt": "fire",
+     "view": "fire_v"
     },
     {
      "set": "art_trap",
@@ -4711,8 +4726,9 @@
    "beats": [
     {
      "set": "crowd",
-     "cam": "wide",
+     "cam": "view",
      "tgt": "k2",
+     "view": "crowd_v",
      "faces": {
       "k2": "shocked",
       "k1": "shocked"
@@ -4728,7 +4744,7 @@
     },
     {
      "set": "crowd",
-     "cam": "push",
+     "cam": "cu",
      "tgt": "dad",
      "faces": {
       "dad": "shocked"

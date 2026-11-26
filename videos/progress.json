@@ -85,18 +85,31 @@
   "five_thousand_words": {
    "tts": {
     "ok": true,
-    "at": "2026-11-26 01:29:41",
-    "seconds": 164.0,
+    "at": "2026-11-26 01:49:27",
+    "seconds": 167.2,
     "words": 582,
-    "wps": 3.55,
+    "wps": 3.48,
     "extra_beats": 0,
-    "length_scale": 0.95
+    "length_scale": 0.595
+   },
+   "shots": {
+    "ok": true,
+    "at": "2026-11-26 01:49:27",
+    "shots": 140,
+    "cards": 7,
+    "max_shot": 1.6,
+    "render_frames": 4760
+   },
+   "dressing": {
+    "ok": true,
+    "at": "2026-11-26 06:14:24",
+    "objects": 652
    }
   },
   "thousand_bites": {
    "tts": {
     "ok": true,
-    "at": "2026-11-26 01:37:46",
+    "at": "2026-11-26 06:14:39",
     "seconds": 169.2,
     "words": 551,
     "wps": 3.26,
@@ -105,27 +118,27 @@
    },
    "dressing": {
     "ok": true,
-    "at": "2026-11-26 01:33:12",
-    "objects": 737
+    "at": "2026-11-26 06:14:40",
+    "objects": 720
    },
    "shots": {
     "ok": true,
-    "at": "2026-11-26 01:33:19",
-    "shots": 169,
+    "at": "2026-11-26 06:14:39",
+    "shots": 139,
     "cards": 8,
-    "max_shot": 1.667,
-    "render_frames": 5113
+    "max_shot": 1.633,
+    "render_frames": 4804
    }
   },
   "two_thousand_doors": {
    "dressing": {
     "ok": true,
-    "at": "2026-11-26 01:34:19",
-    "objects": 820
+    "at": "2026-11-26 06:14:56",
+    "objects": 824
    },
    "tts": {
     "ok": true,
-    "at": "2026-11-26 01:37:21",
+    "at": "2026-11-26 01:51:18",
     "seconds": 169.3,
     "words": 547,
     "wps": 3.23,
@@ -134,7 +147,7 @@
    },
    "shots": {
     "ok": true,
-    "at": "2026-11-26 01:37:35",
+    "at": "2026-11-26 01:51:18",
     "shots": 162,
     "cards": 9,
     "max_shot": 1.633,
@@ -144,12 +157,12 @@
   "three_thousand_hours": {
    "dressing": {
     "ok": true,
-    "at": "2026-11-26 01:38:35",
+    "at": "2026-11-26 06:14:36",
     "objects": 650
    },
    "tts": {
     "ok": true,
-    "at": "2026-11-26 01:37:43",
+    "at": "2026-11-26 01:50:09",
     "seconds": 166.7,
     "words": 552,
     "wps": 3.31,
@@ -158,7 +171,7 @@
    },
    "shots": {
     "ok": true,
-    "at": "2026-11-26 01:37:55",
+    "at": "2026-11-26 06:14:12",
     "shots": 156,
     "cards": 7,
     "max_shot": 1.633,
@@ -166,5 +179,5 @@
    }
   }
  },
- "updated": "2026-11-26 01:38:35"
+ "updated": "2026-11-26 06:14:56"
 }

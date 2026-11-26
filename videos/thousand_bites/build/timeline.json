@@ -4,8 +4,8 @@
  "words": 551,
  "wps": 3.256,
  "length_scale": 0.675,
- "source_hash": "616b6545257ed4ec",
- "whisper_match": 0.911,
+ "source_hash": "703305ee98c6de37",
+ "whisper_match": 1.0,
  "sentences": [
   {
    "id": "s01",
@@ -98,30 +98,30 @@
      "norm": "one",
      "norm_raw": "one",
      "start": 1.8,
-     "end": 1.946
+     "end": 2.06
     },
     {
      "text": "THOUSAND",
      "red": false,
      "norm": "thousand",
      "norm_raw": "thousand",
-     "start": 1.946,
-     "end": 2.336
+     "start": 2.06,
+     "end": 2.32
     },
     {
      "text": "BITES",
      "red": false,
      "norm": "bites",
      "norm_raw": "bites",
-     "start": 2.336,
-     "end": 2.58
+     "start": 2.32,
+     "end": 2.56
     },
     {
      "text": "OF",
      "red": false,
      "norm": "of",
      "norm_raw": "of",
-     "start": 2.58,
+     "start": 2.56,
      "end": 2.8
     },
     {
@@ -162,7 +162,7 @@
      "norm": "life",
      "norm_raw": "life",
      "start": 3.52,
-     "end": 3.9
+     "end": 3.92
     }
    ]
   },
@@ -186,12 +186,7 @@
     },
     {
      "set": "eat",
-     "cam": "cu",
-     "tgt": "t2"
-    },
-    {
-     "set": "eat",
-     "cam": "counter",
+     "cam": "mcu",
      "tgt": "t2"
     }
    ],
@@ -337,18 +332,10 @@
      },
      "teeth": [
       "t4"
-     ]
-    },
-    {
-     "set": "stone",
-     "cam": "dutch",
-     "tgt": "t4",
-     "faces": {
-      "t4": "blank"
-     },
-     "teeth": [
-      "t4"
-     ]
+     ],
+     "acts": {
+      "t4": "idle"
+     }
     }
    ],
    "words": [
@@ -490,13 +477,11 @@
     },
     {
      "set": "share",
-     "cam": "hands",
-     "tgt": "t5"
-    },
-    {
-     "set": "share",
      "cam": "counter",
-     "tgt": "t5"
+     "tgt": "t5",
+     "hide": [
+      "t6"
+     ]
     },
     {
      "set": "share",
@@ -504,7 +489,10 @@
      "tgt": "t5",
      "faces": {
       "t5": "shocked"
-     }
+     },
+     "hide": [
+      "t6"
+     ]
     },
     {
      "set": "share",
@@ -662,23 +650,7 @@
     },
     {
      "set": "yard",
-     "cam": "low",
-     "tgt": "t7",
-     "acts": {
-      "t7": "talk"
-     }
-    },
-    {
-     "set": "yard",
      "cam": "cu",
-     "tgt": "t2",
-     "faces": {
-      "t2": "blank"
-     }
-    },
-    {
-     "set": "yard",
-     "cam": "orbit",
      "tgt": "t7",
      "acts": {
       "t7": "yell"
@@ -810,11 +782,6 @@
    "beats": [
     {
      "set": "restaurant",
-     "cam": "wide",
-     "tgt": "rest_sign"
-    },
-    {
-     "set": "restaurant",
      "cam": "prop",
      "tgt": "grape"
     },
@@ -827,17 +794,6 @@
      "tgt": "t1",
      "faces": {
       "t1": "blank"
-     },
-     "acts": {
-      "t1": "sit"
-     }
-    },
-    {
-     "set": "restaurant",
-     "cam": "push",
-     "tgt": "mayor",
-     "faces": {
-      "mayor": "tired"
      }
     }
    ],
@@ -895,7 +851,7 @@
      "red": false,
      "norm": "people",
      "norm_raw": "people",
-     "start": 22.13,
+     "start": 22.17,
      "end": 22.31
     },
     {
@@ -977,14 +933,6 @@
     },
     {
      "card": "crumb"
-    },
-    {
-     "set": "bakery",
-     "cam": "ecu",
-     "tgt": "t3",
-     "faces": {
-      "t3": "shocked"
-     }
     }
    ],
    "words": [
@@ -1018,14 +966,14 @@
      "norm": "seller",
      "norm_raw": "seller",
      "start": 24.62,
-     "end": 24.98
+     "end": 24.96
     },
     {
      "text": "IS",
      "red": false,
      "norm": "is",
      "norm_raw": "is",
-     "start": 24.98,
+     "start": 24.96,
      "end": 25.24
     },
     {
@@ -1050,14 +998,14 @@
      "norm": "crumb",
      "norm_raw": "crumb",
      "start": 25.52,
-     "end": 25.94
+     "end": 25.92
     },
     {
      "text": "ON",
      "red": false,
      "norm": "on",
      "norm_raw": "on",
-     "start": 25.94,
+     "start": 25.92,
      "end": 26.1
     },
     {
@@ -1097,16 +1045,16 @@
      "red": false,
      "norm": "twelve",
      "norm_raw": "twelve",
-     "start": 26.92,
-     "end": 27.497
+     "start": 27.34,
+     "end": 27.48
     },
     {
      "text": "DOLLARS",
      "red": false,
      "norm": "dollars",
      "norm_raw": "dollars",
-     "start": 27.497,
-     "end": 28.17
+     "start": 27.48,
+     "end": 27.88
     }
    ]
   },
@@ -1127,11 +1075,6 @@
      "set": "cafeteria",
      "cam": "prop",
      "tgt": "bell"
-    },
-    {
-     "set": "cafeteria",
-     "cam": "high",
-     "tgt": "maya"
     },
     {
      "set": "cafeteria",
@@ -1256,18 +1199,13 @@
     },
     {
      "set": "maya_street",
-     "cam": "low",
-     "tgt": "maya",
-     "acts": {
-      "maya": "wave"
-     }
-    },
-    {
-     "set": "maya_street",
      "cam": "mcu",
      "tgt": "maya",
      "faces": {
       "maya": "laughing"
+     },
+     "acts": {
+      "maya": "wave"
      }
     }
    ],
@@ -1309,7 +1247,7 @@
      "red": false,
      "norm": "maya",
      "norm_raw": "maya",
-     "start": 32.35,
+     "start": 32.39,
      "end": 32.51
     },
     {
@@ -1317,15 +1255,15 @@
      "red": false,
      "norm": "nine",
      "norm_raw": "nine",
-     "start": 32.51,
-     "end": 33.11
+     "start": 32.91,
+     "end": 33.07
     },
     {
      "text": "YEARS",
      "red": false,
      "norm": "years",
      "norm_raw": "years",
-     "start": 33.11,
+     "start": 33.07,
      "end": 33.33
     },
     {
@@ -1358,21 +1296,8 @@
     },
     {
      "set": "kitchen",
-     "cam": "cu",
-     "tgt": "maya",
-     "faces": {
-      "maya": "laughing"
-     }
-    },
-    {
-     "set": "kitchen",
      "cam": "prop",
      "tgt": "melon"
-    },
-    {
-     "set": "kitchen",
-     "cam": "mcu",
-     "tgt": "maya"
     },
     {
      "set": "kitchen",
@@ -1571,12 +1496,6 @@
     },
     {
      "set": "kitchen_stand",
-     "cam": "ots",
-     "tgt": "mom",
-     "over": "maya"
-    },
-    {
-     "set": "kitchen_stand",
      "cam": "ecu",
      "tgt": "mom",
      "faces": {
@@ -1630,15 +1549,15 @@
      "red": false,
      "norm": "mom",
      "norm_raw": "mom",
-     "start": 42.42,
-     "end": 42.76
+     "start": 42.7,
+     "end": 42.8
     },
     {
      "text": "LOOKED",
      "red": false,
      "norm": "looked",
      "norm_raw": "looked",
-     "start": 42.76,
+     "start": 42.8,
      "end": 43.0
     },
     {
@@ -1687,30 +1606,30 @@
      "norm": "pale",
      "norm_raw": "pale",
      "start": 43.96,
-     "end": 44.24
+     "end": 44.26
     },
     {
      "text": "THREE",
      "red": false,
      "norm": "three",
      "norm_raw": "three",
-     "start": 44.24,
-     "end": 44.581
+     "start": 44.72,
+     "end": 44.88
     },
     {
      "text": "HUNDRED",
      "red": false,
      "norm": "hundred",
      "norm_raw": "hundred",
-     "start": 44.581,
-     "end": 45.059
+     "start": 44.88,
+     "end": 45.2
     },
     {
      "text": "BITES",
      "red": false,
      "norm": "bites",
      "norm_raw": "bites",
-     "start": 45.059,
+     "start": 45.2,
      "end": 45.4
     },
     {
@@ -1765,14 +1684,6 @@
     {
      "set": "kitchen_stand",
      "cam": "dutch",
-     "tgt": "mom",
-     "acts": {
-      "mom": "cry"
-     }
-    },
-    {
-     "set": "kitchen_stand",
-     "cam": "low",
      "tgt": "mom",
      "acts": {
       "mom": "cry"
@@ -1969,14 +1880,6 @@
     },
     {
      "card": "crumbgirl"
-    },
-    {
-     "set": "cafeteria",
-     "cam": "ecu",
-     "tgt": "maya",
-     "faces": {
-      "maya": "tired"
-     }
     }
    ],
    "words": [
@@ -2181,11 +2084,6 @@
     },
     {
      "set": "bedroom",
-     "cam": "cu",
-     "tgt": "rue"
-    },
-    {
-     "set": "bedroom",
      "cam": "prop",
      "tgt": "rue_held_thermos"
     },
@@ -2267,38 +2165,38 @@
      "norm": "grandma",
      "norm_raw": "grandma",
      "start": 59.61,
-     "end": 59.83
+     "end": 60.01
     },
     {
      "text": "RUE",
      "red": false,
      "norm": "rue",
      "norm_raw": "rue",
-     "start": 59.83,
-     "end": 60.51
+     "start": 60.01,
+     "end": 60.25
     },
     {
      "text": "EVERY",
      "red": false,
      "norm": "every",
      "norm_raw": "every",
-     "start": 60.51,
-     "end": 60.69
+     "start": 60.57,
+     "end": 60.71
     },
     {
      "text": "NIGHT",
      "red": false,
      "norm": "night",
      "norm_raw": "night",
-     "start": 60.69,
-     "end": 60.93
+     "start": 60.71,
+     "end": 60.91
     },
     {
      "text": "SHE'D",
      "red": false,
      "norm": "shed",
      "norm_raw": "she'd",
-     "start": 60.93,
+     "start": 60.91,
      "end": 61.27
     },
     {
@@ -2378,16 +2276,16 @@
      "red": false,
      "norm": "drink",
      "norm_raw": "drink",
-     "start": 63.55,
-     "end": 63.71
+     "start": 63.57,
+     "end": 63.69
     },
     {
      "text": "THIS",
      "red": false,
      "norm": "this",
      "norm_raw": "this",
-     "start": 63.71,
-     "end": 63.95
+     "start": 63.69,
+     "end": 63.97
     }
    ]
   },
@@ -2581,10 +2479,7 @@
     {
      "set": "bedroom_alone",
      "cam": "high",
-     "tgt": "maya",
-     "acts": {
-      "maya": "drink:thermos"
-     }
+     "tgt": "maya"
     }
    ],
    "words": [
@@ -2761,14 +2656,14 @@
      "norm": "grandma",
      "norm_raw": "grandma",
      "start": 74.45,
-     "end": 74.87
+     "end": 74.85
     },
     {
      "text": "RUE",
      "red": false,
      "norm": "rue",
      "norm_raw": "rue",
-     "start": 74.87,
+     "start": 74.85,
      "end": 75.05
     },
     {
@@ -2777,14 +2672,14 @@
      "norm": "only",
      "norm_raw": "only",
      "start": 75.05,
-     "end": 75.25
+     "end": 75.23
     },
     {
      "text": "HAD",
      "red": false,
      "norm": "had",
      "norm_raw": "had",
-     "start": 75.25,
+     "start": 75.23,
      "end": 75.53
     },
     {
@@ -2816,7 +2711,7 @@
      "red": false,
      "norm": "she",
      "norm_raw": "she",
-     "start": 76.71,
+     "start": 76.73,
      "end": 76.83
     },
     {
@@ -2849,7 +2744,7 @@
      "norm": "public",
      "norm_raw": "public",
      "start": 77.49,
-     "end": 77.75
+     "end": 77.73
     },
     {
      "text": "SHE",
@@ -2873,14 +2768,14 @@
      "norm": "everyone",
      "norm_raw": "everyone",
      "start": 78.55,
-     "end": 79.09
+     "end": 78.87
     },
     {
      "text": "SHE",
      "red": false,
      "norm": "she",
      "norm_raw": "she",
-     "start": 79.09,
+     "start": 78.87,
      "end": 79.25
     },
     {
@@ -2889,15 +2784,15 @@
      "norm": "wasnt",
      "norm_raw": "wasn't",
      "start": 79.25,
-     "end": 79.61
+     "end": 79.59
     },
     {
      "text": "HUNGRY",
      "red": false,
      "norm": "hungry",
      "norm_raw": "hungry",
-     "start": 79.61,
-     "end": 79.87
+     "start": 79.59,
+     "end": 79.85
     }
    ]
   },
@@ -2919,11 +2814,6 @@
      "set": "parade",
      "cam": "prop",
      "tgt": "dog"
-    },
-    {
-     "set": "parade",
-     "cam": "track",
-     "tgt": "rue"
     },
     {
      "set": "parade",
@@ -3007,15 +2897,15 @@
      "red": false,
      "norm": "grandma",
      "norm_raw": "grandma",
-     "start": 81.75,
-     "end": 82.31
+     "start": 82.01,
+     "end": 82.37
     },
     {
      "text": "RUE",
      "red": false,
      "norm": "rue",
      "norm_raw": "rue",
-     "start": 82.31,
+     "start": 82.37,
      "end": 82.55
     },
     {
@@ -3024,7 +2914,7 @@
      "norm": "collapsed",
      "norm_raw": "collapsed",
      "start": 82.55,
-     "end": 82.87
+     "end": 82.85
     },
     {
      "text": "RIGHT",
@@ -3056,14 +2946,14 @@
      "norm": "middle",
      "norm_raw": "middle",
      "start": 83.75,
-     "end": 83.93
+     "end": 83.91
     },
     {
      "text": "OF",
      "red": false,
      "norm": "of",
      "norm_raw": "of",
-     "start": 83.93,
+     "start": 83.91,
      "end": 84.11
     },
     {
@@ -3096,7 +2986,7 @@
      "set": "collapse",
      "cam": "drone",
      "tgt": "pt:6,0,0",
-     "radius": 16
+     "radius": 21
     },
     {
      "set": "collapse",
@@ -3104,14 +2994,6 @@
      "tgt": "t1",
      "faces": {
       "t1": "blank"
-     }
-    },
-    {
-     "set": "collapse",
-     "cam": "ecu",
-     "tgt": "t2",
-     "faces": {
-      "t2": "blank"
      }
     },
     {
@@ -3389,14 +3271,6 @@
     },
     {
      "set": "collapse",
-     "cam": "cu",
-     "tgt": "baker",
-     "faces": {
-      "baker": "tired"
-     }
-    },
-    {
-     "set": "collapse",
      "cam": "high",
      "tgt": "mayor",
      "acts": {
@@ -3560,25 +3434,9 @@
      "tgt": "maya"
     },
     {
-     "set": "bakery_run",
-     "cam": "low",
-     "tgt": "maya"
-    },
-    {
      "set": "bakery_grab",
      "cam": "push",
      "tgt": "window"
-    },
-    {
-     "set": "bakery_grab",
-     "cam": "hands",
-     "tgt": "maya"
-    },
-    {
-     "set": "kneel",
-     "cam": "ots",
-     "tgt": "rue",
-     "over": "maya"
     },
     {
      "set": "kneel",
@@ -3783,47 +3641,47 @@
      "norm": "three",
      "norm_raw": "three",
      "start": 102.42,
-     "end": 102.82
+     "end": 102.56
     },
     {
      "text": "HUNDRED",
      "red": false,
      "norm": "hundred",
      "norm_raw": "hundred",
-     "start": 102.82,
-     "end": 103.38
+     "start": 102.56,
+     "end": 102.92
     },
     {
      "text": "TWO",
      "red": true,
      "norm": "two",
      "norm_raw": "two",
-     "start": 103.38,
-     "end": 103.62
+     "start": 103.3,
+     "end": 103.42
     },
     {
      "text": "NINETY-NINE",
      "red": true,
      "norm": "ninetynine",
      "norm_raw": "ninety-nine",
-     "start": 103.62,
-     "end": 104.42
+     "start": 103.42,
+     "end": 104.02
     },
     {
      "text": "TWO",
      "red": true,
      "norm": "two",
      "norm_raw": "two",
-     "start": 104.42,
-     "end": 104.66
+     "start": 104.37,
+     "end": 104.48
     },
     {
      "text": "FIFTY",
      "red": true,
      "norm": "fifty",
      "norm_raw": "fifty",
-     "start": 104.66,
-     "end": 105.06
+     "start": 104.48,
+     "end": 104.76
     }
    ]
   },
@@ -3842,11 +3700,8 @@
     },
     {
      "set": "kneel",
-     "cam": "mcu",
-     "tgt": "maya",
-     "faces": {
-      "maya": "scared"
-     }
+     "cam": "counter",
+     "tgt": "maya"
     }
    ],
    "words": [
@@ -3947,36 +3802,15 @@
     },
     {
      "set": "kneel",
+     "cam": "counter",
+     "tgt": "maya"
+    },
+    {
+     "set": "kneel",
      "cam": "mcu",
      "tgt": "maya",
      "faces": {
       "maya": "scared"
-     }
-    },
-    {
-     "set": "kneel",
-     "cam": "counter",
-     "tgt": "maya"
-    },
-    {
-     "set": "kneel",
-     "cam": "ecu",
-     "tgt": "mom",
-     "faces": {
-      "mom": "shocked"
-     }
-    },
-    {
-     "set": "kneel",
-     "cam": "counter",
-     "tgt": "maya"
-    },
-    {
-     "set": "kneel",
-     "cam": "mcu",
-     "tgt": "maya",
-     "faces": {
-      "maya": "shocked"
      }
     },
     {
@@ -3992,103 +3826,103 @@
      "norm": "two",
      "norm_raw": "two",
      "start": 107.41,
-     "end": 107.73
+     "end": 107.53
     },
     {
      "text": "HUNDRED",
      "red": true,
      "norm": "hundred",
      "norm_raw": "hundred",
-     "start": 107.73,
-     "end": 108.477
+     "start": 107.53,
+     "end": 107.83
     },
     {
      "text": "ONE",
      "red": true,
      "norm": "one",
      "norm_raw": "one",
-     "start": 108.477,
-     "end": 108.797
+     "start": 108.19,
+     "end": 108.27
     },
     {
      "text": "FIFTY",
      "red": true,
      "norm": "fifty",
      "norm_raw": "fifty",
-     "start": 108.797,
-     "end": 109.331
+     "start": 108.27,
+     "end": 108.59
     },
     {
      "text": "ONE",
      "red": true,
      "norm": "one",
      "norm_raw": "one",
-     "start": 109.331,
-     "end": 109.651
+     "start": 109.05,
+     "end": 109.17
     },
     {
      "text": "HUNDRED",
      "red": true,
      "norm": "hundred",
      "norm_raw": "hundred",
-     "start": 109.651,
-     "end": 110.398
+     "start": 109.17,
+     "end": 109.49
     },
     {
      "text": "FIFTY",
      "red": true,
      "norm": "fifty",
      "norm_raw": "fifty",
-     "start": 110.398,
-     "end": 110.932
+     "start": 109.79,
+     "end": 109.95
     },
     {
      "text": "TEN",
      "red": true,
      "norm": "ten",
      "norm_raw": "ten",
-     "start": 110.932,
-     "end": 111.252
+     "start": 110.45,
+     "end": 110.61
     },
     {
      "text": "FIVE",
      "red": true,
      "norm": "five",
      "norm_raw": "five",
-     "start": 111.252,
-     "end": 111.679
+     "start": 110.93,
+     "end": 111.15
     },
     {
      "text": "THREE",
      "red": true,
      "norm": "three",
      "norm_raw": "three",
-     "start": 111.679,
-     "end": 112.213
+     "start": 111.55,
+     "end": 111.67
     },
     {
      "text": "TWO",
      "red": true,
      "norm": "two",
      "norm_raw": "two",
-     "start": 112.213,
-     "end": 112.533
+     "start": 112.09,
+     "end": 112.21
     },
     {
      "text": "ONE",
      "red": true,
      "norm": "one",
      "norm_raw": "one",
-     "start": 112.533,
-     "end": 112.853
+     "start": 112.63,
+     "end": 112.89
     },
     {
      "text": "ZERO",
      "red": true,
      "norm": "zero",
      "norm_raw": "zero",
-     "start": 112.853,
-     "end": 113.28
+     "start": 112.91,
+     "end": 113.24
     }
    ]
   },
@@ -4558,16 +4392,6 @@
      }
     },
     {
-     "set": "bedroom",
-     "cam": "push",
-     "tgt": "maya",
-     "light": "night",
-     "acts": {
-      "rue": "whisper"
-     },
-     "flash": true
-    },
-    {
      "set": "bedroom_alone",
      "cam": "prop",
      "tgt": "maya_held_thermos",
@@ -4807,7 +4631,7 @@
    "beats": [
     {
      "set": "kneel",
-     "cam": "track",
+     "cam": "high",
      "tgt": "maya",
      "acts": {
       "maya": "hold:thermos"
@@ -4823,9 +4647,8 @@
     },
     {
      "set": "kneel",
-     "cam": "ots",
+     "cam": "push",
      "tgt": "rue",
-     "over": "maya",
      "acts": {
       "maya": "give:thermos"
      }
@@ -5063,9 +4886,8 @@
     },
     {
      "set": "situp",
-     "cam": "ots",
+     "cam": "orbit",
      "tgt": "rue",
-     "over": "maya",
      "acts": {
       "rue": "whisper"
      }
@@ -5260,14 +5082,6 @@
      },
      "faces": {
       "baker": "shocked"
-     }
-    },
-    {
-     "set": "situp",
-     "cam": "whip",
-     "tgt": "mayor",
-     "acts": {
-      "mayor": "run"
      }
     },
     {
@@ -5484,11 +5298,6 @@
     },
     {
      "set": "corners",
-     "cam": "orbit",
-     "tgt": "mom"
-    },
-    {
-     "set": "corners",
      "cam": "counter",
      "tgt": "t6"
     },
@@ -5568,7 +5377,7 @@
      "red": false,
      "norm": "pumpkin",
      "norm_raw": "pumpkin",
-     "start": 153.09,
+     "start": 153.15,
      "end": 153.31
     },
     {
@@ -5576,39 +5385,39 @@
      "red": false,
      "norm": "chicken",
      "norm_raw": "chicken",
-     "start": 153.77,
-     "end": 154.01
+     "start": 153.81,
+     "end": 153.99
     },
     {
      "text": "POTATO",
      "red": false,
      "norm": "potato",
      "norm_raw": "potato",
-     "start": 154.43,
-     "end": 154.73
+     "start": 154.79,
+     "end": 154.84
     },
     {
      "text": "A",
      "red": false,
      "norm": "a",
      "norm_raw": "a",
-     "start": 154.73,
-     "end": 154.81
+     "start": 155.15,
+     "end": 155.2
     },
     {
      "text": "HUNDRED",
      "red": false,
      "norm": "hundred",
      "norm_raw": "hundred",
-     "start": 154.81,
-     "end": 155.37
+     "start": 155.19,
+     "end": 155.43
     },
     {
      "text": "SPOONS",
      "red": false,
      "norm": "spoons",
      "norm_raw": "spoons",
-     "start": 155.37,
+     "start": 155.43,
      "end": 155.85
     },
     {
@@ -5624,15 +5433,15 @@
      "red": false,
      "norm": "and",
      "norm_raw": "and",
-     "start": 156.15,
-     "end": 156.51
+     "start": 156.47,
+     "end": 156.53
     },
     {
      "text": "NOT",
      "red": false,
      "norm": "not",
      "norm_raw": "not",
-     "start": 156.51,
+     "start": 156.53,
      "end": 156.67
     },
     {
@@ -5657,7 +5466,7 @@
      "norm": "moving",
      "norm_raw": "moving",
      "start": 157.15,
-     "end": 157.47
+     "end": 157.45
     }
    ]
   },
@@ -5673,14 +5482,6 @@
      "set": "restaurant",
      "cam": "wide",
      "tgt": "rest_sign",
-     "show": [
-      "rsoup"
-     ]
-    },
-    {
-     "set": "restaurant",
-     "cam": "prop",
-     "tgt": "rsoup",
      "show": [
       "rsoup"
      ]
@@ -5755,14 +5556,14 @@
      "norm": "restaurants",
      "norm_raw": "restaurants",
      "start": 158.94,
-     "end": 159.52
+     "end": 159.16
     },
     {
      "text": "SERVED",
      "red": false,
      "norm": "served",
      "norm_raw": "served",
-     "start": 159.52,
+     "start": 159.16,
      "end": 159.7
     },
     {
@@ -5778,7 +5579,7 @@
      "red": false,
      "norm": "the",
      "norm_raw": "the",
-     "start": 160.34,
+     "start": 160.38,
      "end": 160.44
     },
     {
@@ -5787,22 +5588,22 @@
      "norm": "bakery",
      "norm_raw": "bakery",
      "start": 160.44,
-     "end": 160.86
+     "end": 160.64
     },
     {
      "text": "SOLD",
      "red": false,
      "norm": "sold",
      "norm_raw": "sold",
-     "start": 160.86,
-     "end": 161.02
+     "start": 160.64,
+     "end": 160.98
     },
     {
      "text": "SOUP",
      "red": false,
      "norm": "soup",
      "norm_raw": "soup",
-     "start": 161.02,
+     "start": 160.98,
      "end": 161.32
     },
     {
@@ -5810,7 +5611,7 @@
      "red": false,
      "norm": "even",
      "norm_raw": "even",
-     "start": 161.66,
+     "start": 161.74,
      "end": 161.92
     },
     {
@@ -5930,14 +5731,14 @@
      "norm": "anymore",
      "norm_raw": "anymore",
      "start": 164.63,
-     "end": 165.37
+     "end": 164.99
     },
     {
      "text": "BUT",
      "red": false,
      "norm": "but",
      "norm_raw": "but",
-     "start": 165.37,
+     "start": 165.43,
      "end": 165.51
     },
     {
@@ -5990,11 +5791,6 @@
    "end": 169.21,
    "light": "golden",
    "beats": [
-    {
-     "set": "corners",
-     "cam": "pull",
-     "tgt": "maya"
-    },
     {
      "card": "dinner"
     },
