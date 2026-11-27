@@ -581,7 +581,9 @@ class Stage:
         done = out / ".done"
         sig = f"{n_frames}@{self.sc.render.resolution_x}x{self.sc.render.resolution_y}|{sh.get('sig', '')}"
         if done.exists() and done.read_text().strip() == sig:
-            return False
+            # trust the marker only if every frame is really there (a full disk / cleaner tool can lose files)
+            if all((out / f"f_{i:04d}.png").exists() and (out / f"f_{i:04d}.png").stat().st_size > 0 for i in range(n_frames)):
+                return False
         out.mkdir(parents=True, exist_ok=True)
         self.lights_for(sh)
         actors = self.actors_for(sh)
