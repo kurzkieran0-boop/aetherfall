@@ -74,6 +74,21 @@ def counter_at(keys, t):
     return v
 
 
+def png_ok(p):
+    """A frame is usable only if it is a complete PNG (a reboot / full disk can leave zero-filled or cut-off files)."""
+    try:
+        sz = p.stat().st_size
+        if sz < 64:
+            return False
+        with open(p, "rb") as f:
+            head = f.read(8)
+            f.seek(-8, 2)
+            tail = f.read(8)
+        return head == b"\x89PNG\r\n\x1a\n" and tail == b"IEND\xaeB`\x82"
+    except OSError:
+        return False
+
+
 class Stage:
     def __init__(self, slug, res=None):
         self.slug = slug
@@ -582,7 +597,7 @@ class Stage:
         sig = f"{n_frames}@{self.sc.render.resolution_x}x{self.sc.render.resolution_y}|{sh.get('sig', '')}"
         if done.exists() and done.read_text().strip() == sig:
             # trust the marker only if every frame is really there (a full disk / cleaner tool can lose files)
-            if all((out / f"f_{i:04d}.png").exists() and (out / f"f_{i:04d}.png").stat().st_size > 0 for i in range(n_frames)):
+            if all(png_ok(out / f"f_{i:04d}.png") for i in range(n_frames)):
                 return False
         out.mkdir(parents=True, exist_ok=True)
         self.lights_for(sh)
@@ -591,7 +606,7 @@ class Stage:
         t0 = time.time()
         for i in range(n_frames):
             p = out / f"f_{i:04d}.png"
-            if p.exists() and p.stat().st_size > 0:
+            if png_ok(p):
                 continue
             tmp = out / f"f_{i:04d}.tmp.png"
             for attempt in range(8):        # Windows can briefly lock a file (antivirus / indexer): wait and retry
