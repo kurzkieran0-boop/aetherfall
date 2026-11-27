@@ -591,8 +591,18 @@ class Stage:
             if p.exists() and p.stat().st_size > 0:
                 continue
             tmp = out / f"f_{i:04d}.tmp.png"
-            self.frame(sh, i / RFPS, actors, bias, tmp)
-            os.replace(tmp, p)
+            for attempt in range(8):        # Windows can briefly lock a file (antivirus / indexer): wait and retry
+                try:
+                    if tmp.exists():
+                        tmp.unlink()
+                    self.frame(sh, i / RFPS, actors, bias, tmp)
+                    os.replace(tmp, p)
+                    break
+                except (RuntimeError, OSError) as e:
+                    if attempt == 7:
+                        raise
+                    print(f"  (write problem on {tmp.name}: {str(e)[:80]} - retry {attempt + 1}/7)", flush=True)
+                    time.sleep(2 + 3 * attempt)
         done.write_text(sig)
         log(f"{self.slug} {sh['id']} {sh['set']}/{sh['cam']}/{sh['tgt']} {n_frames}f {time.time() - t0:.1f}s")
         return True
