@@ -81,6 +81,7 @@ class Stage:
         self.B = bdir(slug)
         bpy.ops.wm.open_mainfile(filepath=str(self.B / "town.blend"))
         self.sc = bpy.context.scene
+        self.sc.render.image_settings.color_mode = "RGB"      # no alpha channel: ~25% smaller frames on disk
         self.device = kit_gpu.setup()
         w, h = (res or os.environ.get("KIT_RES") or ("540x960" if preview() else "1080x1920")).split("x")
         self.sc.render.resolution_x, self.sc.render.resolution_y = int(w), int(h)

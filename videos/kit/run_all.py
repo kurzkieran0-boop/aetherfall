@@ -111,6 +111,14 @@ def main():
     print("== phase 3: render (shortest first):", ", ".join(order), flush=True)
     rows = []
     for s in order:
+        B = bdir(s)
+        if not dry and final_path(s).exists() and (B / ".cleaned").exists():     # finished earlier: frames were deleted to save disk
+            print(f"== {s}: already finished ({final_path(s).name}), skipping", flush=True)
+            st = json.loads((vdir(s) / "status.json").read_text())
+            ver = st.get("preview_verified" if preview else "verified", {})
+            rows.append((str(final_path(s).relative_to(VIDEOS.parent)), ver.get("duration", "?"), ver.get("shots", "?"),
+                         ver.get("wps", "?"), "; ".join(ver.get("flaws", [])) or "none"))
+            continue
         if dry:
             sj = json.loads((vdir(s) / "shots.json").read_text())
             renders = [x["id"] for x in sj["shots"] if x["kind"] == "render"]
@@ -127,6 +135,12 @@ def main():
         ver = st.get("preview_verified" if preview else "verified", {})
         rows.append((str(final_path(s).relative_to(VIDEOS.parent)), ver.get("duration", "?"), ver.get("shots", "?"),
                      ver.get("wps", "?"), "; ".join(ver.get("flaws", [])) or "none"))
+        if not dry and final_path(s).exists() and ver and not ver.get("flaws"):
+            # the video is done and verified: delete its frames + clips (many GB) so the disk does not fill up
+            for d in (frames_dir(s), B / ("clips_preview" if preview else "clips")):
+                shutil.rmtree(d, ignore_errors=True)
+            (B / ".cleaned").write_text("frames and clips removed after a verified final video")
+            print(f"== {s}: verified; frames and clips deleted to free disk space", flush=True)
     print("\n" + "=" * 110)
     print(f"{'path':44s} {'duration':>9s} {'shots':>6s} {'wps':>5s}  flaws")
     for r in rows:
